@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<!-- {% load staticfiles %} -->
+		<link rel="stylesheet" type="text/css" href="layout.css" />		
+		<title>UTFPR</title>	
+	</head>
+	<body>
+		<div id="pagina">
+			<div id= "topo">
+			</div>
+			<div id="conteudo">
+				<div id = "menu">
+					<div class="menuToolbar"> <!-- {{ }} --> </div>
+					<div class="menuToolbar"> <!-- {{ }} --> </div>
+					<div class="menuToolbar"> <!-- {{ }} --> </div>
+					<div class="menuToolbar"> <!-- {{ }} --> </div>
+					<div id="menuToolbarFim"> <!--{{ }} -->  </div>
+				</div>
+				<div id = "noticias">
+					<div id="nome">
+						
+					</div>
+					{% for current in Curso %}
+						<div class="Curso">
+							<table>
+
+							<tr>
+								<td>{{Current.nome}}</td>
+								<td>- {{Current.Sigla}}</td>
+							</tr>
+							<!-- link para as disciplinas<href="/>-->
+					{% endfor %}
+							</table>
+						</div>
+				</div>
+			</div>
+			<div id ="rodape">
+			</div>
+		</div>
+	</body>
+</html>

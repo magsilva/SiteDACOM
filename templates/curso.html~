@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<!-- {% load staticfiles %} -->
+		<link rel="stylesheet" type="text/css" href="layout.css" />		
+		<title>UTFPR</title>	
+	</head>
+	<body>
+		<div id="pagina>
+			<div id= "topo">
+			</div>
+			<div id="conteudo">
+				<div id = "menu">
+					<div class="menuToolbar"><!-- {{ }} --></div>
+					<div class="menuToolbar"><!-- {{ }} --></div>
+					<div class="menuToolbar"><!-- {{ }} --></div>
+					<div class="menuToolbar"><!-- {{ }} --><div>
+					<div id="menuToolbarFim"><!--{{ }}--></div>
+				</div>
+				<div id = "noticias">
+				</div>
+			</div>
+			<div id ="rodape">
+			</div>
+		</div>
+	</body>
+</html>
