@@ -18,46 +18,46 @@
 					<div class="menuToolbar"> <a href="coordenacao.html">Coordenações</a><!-- {{ }} --> </div>
 					<div id="menuToolbarFim"> <a href="eventos.html">Eventos</a><!--{{ }} -->  </div>
 				</div>
-				<div id = "noticias">	
-					<div class="Professor">
+				<div id = "noticias">
+					<div id="nome">
+						
+					</div>
+					<!-- Aqui esta uma parte estatica do texto. 
+					     Apenas para demonstração	 -->
 					<table>
-						<tr>
-							<td>Marco Aurélio Graciotto</td>
-								
-						</tr>
-						<tr>
-							<td>marcoAurelio@gmail.com<td>						
-						</tr>
-						Para mais dados sobre professor: <a href="lattes.com/marcoAurelio437372">clique aqui</a>
-					</table>					
-					
-					</div>				
-
+						<div id="Curso">
+							<tr>
+								<td>Bacharelado em Ciências da Computação</td>
+								<td>Sigla: BCC</td>
+							</tr>
+							<tr>
+								<td>História do Curso</td>
+								<td><a href="disciplina.html">Disciplinas Presentes no Curso</a></td>
+							</tr>
+							 
+						</div>
+					</table>
 
 
 					<!-- Aqui estão presentes as chamadas de preenchimento de dados
 						com os dados certos.
-					
-				<!-- colocar um Filtro de seleção por departamento...
-				
-						
+
 					<table>
-						<div class="Professor">						
-						{% for current in Professor %}
+					{% for current in Curso %}
+						<div class="Curso">
 
-							<tr>
+<tr>
 								<td>{{Current.nome}}</td>
-								
+								<td>{{Current.Sigla}}</td>
 							</tr>
 							<tr>
-								<td>Contatos: {{Current.email}<td>						
+								<td>História do Curso</td>
+								<td><a href="disciplina.html">Disciplinas Presentes no Curso</a></td>
 							</tr>
-							Para mais dados sobre professor: <a href="lattes.com/{{Current.lattes}}">clique aqui</a>
-								
-
-						{% endfor %}
-					</table>
+							
 					</div>
+					{% endfor %}
+					</table>-->
 				</div>
 			</div>
 			<div id ="rodape">

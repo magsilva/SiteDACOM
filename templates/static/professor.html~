@@ -18,20 +18,10 @@
 					<div class="menuToolbar"> <a href="coordenacao.html">Coordenações</a><!-- {{ }} --> </div>
 					<div id="menuToolbarFim"> <a href="eventos.html">Eventos</a><!--{{ }} -->  </div>
 				</div>
-				<div id = "noticias">	
-					<div class="Professor">
-					<table>
-						<tr>
-							<td>Marco Aurélio Graciotto</td>
-								
-						</tr>
-						<tr>
-							<td>marcoAurelio@gmail.com<td>						
-						</tr>
-						Para mais dados sobre professor: <a href="lattes.com/marcoAurelio437372">clique aqui</a>
-					</table>					
-					
-					</div>				
+				<div id = "noticias">
+					<div id="nome">
+						
+					</div>
 
 
 
