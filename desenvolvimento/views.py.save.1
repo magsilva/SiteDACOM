@@ -1,0 +1,14 @@
+# Create your views here.
+
+from django.shortcuts import render_to_response
+from desenvolvimento.models import DepartamentoAcademico
+from desenvolvimento.models import Curso
+from desenvolvimento.models import Professor
+from desenvolvimento.models import Coordenacao
+from desenvolvimento.models import Funcionario
+
+def index(request):
+
+
+
+	return render_to_response('desenvolvimento/index.html',{'desenvolvimento':DepartamentoAcademico.Objects.all().order_by('-Nome')}) 
