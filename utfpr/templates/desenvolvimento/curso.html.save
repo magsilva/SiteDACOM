@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}" />	
+	</head>
+	<body>
+		<div id="pagina">
+			<div id= "topo">
+			</div>
+			<div id="conteudo">
+				<div id = "menu">
+					<div class="menuToolbar"> <a href="curso.html">Cursos</a></div>
+					<div class="menuToolbar"> <a href="professor.html">Professores</a> </div>
+					<div class="menuToolbar"> <a href="departamentoacademico.html">Departamento Acadêmicos</a> </div>
+					<div class="menuToolbar"> <a href="coordenacao.html">Coordenações</a> </div>
+					<div id="menuToolbarFim"> <a href="eventos.html">Eventos</a>  </div>
+				</div>
+				<div id = "noticias">
+					<div id="nome">
+						
+					</div>
+		
+
+					<table>
+					{% for current in Curso %}
+						<div class="Curso">
+							<tr>
+								<td>{{Current.nome}}</td>
+								<td>{{Current.Sigla}}</td>
+							</tr>
+							<tr>
+								<td>História do Curso</td>
+								<td><a href="disciplina.html">Disciplinas Presentes no Curso</a></td>
+							</tr>
+							
+					</div>
+					{% endfor %}
+					</table>-->
+				</div>
+			</div>
+			<div id ="rodape">
+			</div>
+		</div>
+	</body>
+</html>

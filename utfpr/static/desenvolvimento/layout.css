@@ -1,0 +1,181 @@
+body
+{
+	border:0px;
+	margin:0px;
+	
+}
+
+
+#pagina
+{
+	position:absolute;
+	width:950px;
+	height:1000px;
+	margin-left: -475px;
+	left:50%;	
+}
+
+#topo
+{
+	position: relative;
+	width: 950px;
+	height:150px;
+	background-color: #f9c61f;
+}
+
+#conteudo
+{
+	position: relative;
+	width:950px;
+	height:700px;
+}
+
+
+#menu
+{
+	position:relative;
+	width:200px;
+	height:700px;
+	background-color: #dcd6d6; /*#bab3b3;*/
+	float:left;
+	border:1px;	
+}
+
+
+#rodape
+{
+	position: relative;
+	width: 950px;
+	height: 200px;
+	background-color: #231f20;
+
+}
+
+#noticias
+{
+	position:relative;
+	width: 740px;
+	margin-left:10px;
+	height: 700px;
+	/*background-color: #2d2d2d;*/
+	float:left;
+}
+
+
+#menuToolbarFim
+{
+	position: relative;
+	width: 200px;
+	height:30px;
+
+	/*background-color: #aaaaaa;*/
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #afb4b7;	
+}
+
+.menuToolbar
+{
+	position:relative;
+	width:200px;
+	height: 30px;
+	/*background-color:#aaaaaa;*/
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #afb4b7;
+	text-decoration:none;
+}
+.menuToolbar:link
+{
+	background-color: #cccccc;
+	text-decoration:none;
+	color:#000000;
+}
+.menuToolbar:visited
+{
+	background-color: #cccccc;
+	text-decoration:none;
+	color:#000000;
+}
+.menuToolbar:hover
+{
+	background-color: #232b2b;
+	text-decoration:none;
+	color:#cccccc;
+}
+.menuToolbar:active
+{
+	background-color: #cccccc;
+	text-decoration:none;
+	color:#000000;
+}
+
+#noticiaPrincipal
+{
+	position:relative;
+	width:500px;
+	height:740px;
+	float:left;
+	
+}
+#noticiaListaRandom
+{
+	position:relative;
+	left:10px;
+	width:230px;
+	float:left;
+	height:740px;
+}
+#noticiaPesquisar
+{
+	position:relative;
+	margin-left:500px;
+	width:200px;
+	height:30px;
+}
+
+.noticiaPrincipalLista
+{
+	position:relative;
+	margin-left:10px;
+	border-bottom: 1px solid #000000;
+	width:500px;
+	height:200px;
+	top:10px;
+}
+
+.noticiaListaClass
+{
+	position:relative.
+	border-bottom:1px solid #000000;
+	width:23px;
+	height:150px;
+}
+
+
+a:link {
+color:#000000;   
+text-decoration:none;
+}
+/* visited link */
+a:visited {
+    color: #000000; text-decoration:none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #cccccc;  text-decoration:none;
+
+}
+
+/* selected link */
+a:active {
+     text-decoration:none;
+
+    color: #cccccc;
+}
+
+
+
+
