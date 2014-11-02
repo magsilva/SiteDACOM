@@ -2,7 +2,6 @@ body
 {
 	border:0px;
 	margin:0px;
-	
 }
 
 
@@ -21,15 +20,87 @@ body
 	width: 950px;
 	height:90px;
 	background-color: #f9c61f;
+	
 }
 
+#topo #foto
+{
+	position:relative;
+	background: url("../../media/desenvolvimento/media/logo.png") no-repeat right bottom ;
+	width:400px;
+	height:90px;
+	float:left;
+}
+.curso
+{
+	position: relative;
+	width:950px;
+	height:auto;
+	float:left;
+	color:#2b2b2b;
+	font-size: 20px;
+	background-color: #cccccc;
+	top:10px;
+}
+
+.CursoNome
+{
+	position: relative;
+	width:auto;
+	height:auto;
+	float:left;
+	top:10px;
+
+}
+.CursoSigla
+{
+	position: relative;
+	width:auto;
+	height:auto;
+	float:left;
+	top:10px;
+}
+
+.CursoInformacao
+{
+	position: relative;
+	width:auto;
+	height:auto;
+}
 #conteudo
 {
 	position: relative;
 	width:950px;
 	height:700px;
 }
+#SiglaNomeDepartamento
+{
 
+	float:left;
+	position:relative;
+	width:500px;
+	height:90px;
+	color: #232323;
+	font-size:32px;
+}
+
+#siglaDepartamento
+{
+	position:relative;
+	width:500px;
+	height:40px;
+	color: #232323;
+	font-size:32px;
+}
+
+#nomedoDepartamento
+{
+	position:relative;
+	width:500px;
+	height:40px;
+	color: #232323;
+	font-size:28px;
+}
 
 #menu
 {
@@ -38,8 +109,9 @@ body
 	height:35px;
 	background-color: #dcd6d6; /*#bab3b3;*/
 	float:left;
-	border:1px;
-	text-align: center;	
+	text-align: center;
+	font-size:20px;
+	vertical-align: middle;
 }
 
 
@@ -66,24 +138,39 @@ body
 #menuToolbarFim
 {
 	position: relative;
-	width: 70px;
-	height:30px;
-	left: 10px;
-	top:5px;
+	width: 300px;
+	height:35px;
+	float:left;
+	vertical-align: 10px;
+}
+
+#pesquisar
+{
+	position:relative;
+	width:180px;
+	height:25px;
+	left:5px;
+	float:left;
+}
+
+#submeter
+{
+	position:relative;
+	width:90px;
+	height:25px;
+	left:5px;
 	float:left;
 }
 
 .menuToolbar
 {
 	position: relative;
-	width: 200px;
-	height:30px;
-	left: 10px;
-	top:5px;	
+	width: 150px;
+	height:35px;
 	float:left;
 	/*background-color:#aaaaaa;*/
 	text-decoration:none;
-	border-right: 1px #232323 solid;
+	vertical-align: 10px;
 }
 .menuToolbar:link
 {
@@ -109,31 +196,16 @@ body
 	text-decoration:none;
 	color:#000000;
 }
-.#menuToolbarFim:link
-{
-	background-color: #cccccc;
-	text-decoration:none;
-	color:#000000;
-}
-#menuToolbarFim:visited
-{
-	background-color: #cccccc;
-	text-decoration:none;
-	color:#000000;
-}
-#menuToolbarFim:hover
-{
-	background-color: #232b2b;
-	text-decoration:none;
-	color:#cccccc;
-}
-#menuToolbarFim:active
-{
-	background-color: #cccccc;
-	text-decoration:none;
-	color:#000000;
-}
 
+
+#nomedaPagina
+{
+	position:relative;
+	width:950px;
+	font-size:30px;
+	color:#cccccc;
+	background-color: #232323;	
+}
 #noticiaPrincipal
 {
 	position:relative;
@@ -151,6 +223,7 @@ body
 	float:left;
 	height:700px;
 	border-right:1px #232323 solid;
+	 overflow:auto;
 }
 
 .noticiaPrincipalLista
@@ -175,27 +248,31 @@ body
 }
 
 
-a:link {
+a:link
+{
 	color:#000000;   
 	text-decoration:none;
 }
-/* visited link */
-a:visited {
-    color: #000000; text-decoration:none;
 
+/* visited link */
+a:visited
+{
+	color: #000000;
+	text-decoration:none;
 }
 
 /* mouse over link */
-a:hover {
-    color: #cccccc;  text-decoration:none;
-
+a:hover
+{
+	color: #cccccc;
+	text-decoration:none;
 }
 
 /* selected link */
-a:active {
-     text-decoration:none;
-
-    color: #cccccc;
+a:active
+{
+	text-decoration:none;
+	color: #cccccc;
 }
 
 
@@ -207,8 +284,7 @@ a:active {
 	top: 5px;
 	width: 600px;
 	left:5px;
-	height:90px;
-	border:1px;	
+	height:auto;	
 }
 
 .noticiaPrincipalText
@@ -216,11 +292,11 @@ a:active {
 	text-decoration:none;
 	color: #cccccc;
 	font-size: 12px;
-	top:5px;
+	margin-top:20px;
 	width:600px;
 	left:10px;
 	height:70px;
-	border:1px;
+	
 }
 
 .noticiaSecundariaTitulo

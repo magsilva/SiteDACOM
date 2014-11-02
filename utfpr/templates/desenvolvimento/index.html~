@@ -9,6 +9,11 @@
 	<body>
 		<div id="pagina">
 			<div id= "topo">
+				<div id="foto"></div>
+				<div id="SiglaNomeDepartamento">
+					<div id="siglaDepartamento">DACOM<!--departamento.sigla--></div>
+					<div id="nomedoDepartamento">Departamento de Computação<!--departamento.nome--></div>
+				</div>		
 			</div>
 			<div id="conteudo">
 				<div id = "menu">
@@ -19,26 +24,87 @@
 					<div id="menuToolbarFim">
 						<form>
 							<div id="pesquisar">
-								<input type="text" name="pesquisar">
+								<input type="text" name="pesquisar" height="20" maxlength="50" name="pesquisar"  size=22"/>
 							</div>
 							<div id="submeter">
-								<input type="submit" value="Pesquisar">
+								<input type="submit" value="Pesquisar"/>
 							</div>
 						</form>
 					</div>  
 				</div>
 				<div id="noticias">
+					<!--<div id="nomedaPagina">Início</div>-->
 					<div id="noticiaPrincipal">
 						<div class="noticiaPrincipalLista">
-							<div class="noticiaPrincipalTitulo"></div>
-							<div class="noticiaPrincipalText"></div>
+							<div class="noticiaPrincipalTitulo">
+								Internacionalização
+							</div>
+							<div class="noticiaPrincipalText">
+								UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas
+							</div>
+
+<div class="noticiaPrincipalTitulo">
+								Internacionalização
+							</div>
+							<div class="noticiaPrincipalText">
+								UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas
+							</div>
+<div class="noticiaPrincipalTitulo">
+								Internacionalização
+							</div>
+							<div class="noticiaPrincipalText">
+								UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas
+							</div>
+<div class="noticiaPrincipalTitulo">
+								Internacionalização
+							</div>
+							<div class="noticiaPrincipalText">
+								UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas
+							</div>
+<div class="noticiaPrincipalTitulo">
+								Internacionalização
+							</div>
+							<div class="noticiaPrincipalText">
+								UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas
+							</div>
+
+
+
+
 						</div>	
 					</div>
 					<div id="noticiaListaRandom">
 						<div class="noticiaListaClass">
-							<div class="noticiaSecundariaTitulo"></div>
-							<div class="noticiaSecundariaText"></div>
+							<div class="noticiaSecundariaTitulo">Internacionalização
+							</div>
+							<div class="noticiaSecundariaText">UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas</div>
 						</div>
+<div class="noticiaListaClass">
+							<div class="noticiaSecundariaTitulo">Internacionalização
+							</div>
+							<div class="noticiaSecundariaText">UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas</div>
+						</div>
+<div class="noticiaListaClass">
+							<div class="noticiaSecundariaTitulo">Internacionalização
+							</div>
+							<div class="noticiaSecundariaText">UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas</div>
+						</div>
+<div class="noticiaListaClass">
+							<div class="noticiaSecundariaTitulo">Internacionalização
+							</div>
+							<div class="noticiaSecundariaText">UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas</div>
+						</div>
+<div class="noticiaListaClass">
+							<div class="noticiaSecundariaTitulo">Internacionalização
+							</div>
+							<div class="noticiaSecundariaText">UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas</div>
+						</div>
+<div class="noticiaListaClass">
+							<div class="noticiaSecundariaTitulo">Internacionalização
+							</div>
+							<div class="noticiaSecundariaText">UTFPR realiza primeiro workshop de internacionalização com participação de instituições estrangeiras conveniadas</div>
+						</div>
+
 					</div>				
 				</div>
 			</div>

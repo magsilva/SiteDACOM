@@ -18,7 +18,7 @@
 			</div>
 			<div id="conteudo">
 				<div id = "menu">
-					<a href="index.html" ><div class="menuToolbar">Início</div></a> 
+					<a href="index.html"><div class="menuToolbar">Início</div></a> 
 					<a href="curso.html"><div class="menuToolbar">Cursos</div></a> 
 					<a href="professor.html"><div class="menuToolbar">Professores</div></a>
 					<a href="eventos.html"><div class="menuToolbar">Eventos</div></a>
@@ -35,15 +35,15 @@
 				</div>
 				<div id = "noticias">
 					<div id="nome">
-						Cursos do Departamento 
+						Professores do Departamento
 					</div>
 					
-					{% for curso in listaDeCurso %}
+					{% for professor in listadeProfessor %}
 						<div class="curso">
 							<a href="detalhes.html">
-								<div class="CursoNome">{{ curso.nome }} -  </div>  
-								<div class="CursoSigla">{{ curso.sigla }} </div>
-								<div class="CursoInformacao"></br></br>Para mais informações clique aqui </div>
+								<div class="ProfessorNome">{{ curso.nome }} -  </div>  
+								<div class="ProfessorSigla">{{ curso.sigla }} </div>
+								<div class="ProfessorInformacao"></br></br>Para mais informações clique aqui </div>
 							 </a>							
 						</div>
 					{% endfor %}

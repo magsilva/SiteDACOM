@@ -18,12 +18,12 @@
 			</div>
 			<div id="conteudo">
 				<div id = "menu">
-					<a href="index.html" ><div class="menuToolbar">Início</div></a> 
+					<a href=""><div class="menuToolbar">Início</div></a> 
 					<a href="curso.html"><div class="menuToolbar">Cursos</div></a> 
 					<a href="professor.html"><div class="menuToolbar">Professores</div></a>
 					<a href="eventos.html"><div class="menuToolbar">Eventos</div></a>
 					<div id="menuToolbarFim">
-						<form>
+						<form action="pesquisar.html">
 							<div id="pesquisar">
 								<input type="text" name="pesquisar" height="20" maxlength="50" name="pesquisar"  size=22"/>
 							</div>

@@ -7,7 +7,6 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^desenvolvimento/$', 'desenvolvimento.views.index'),
-     (r'^desenvolvimento/index.html$', 'desenvolvimento.views.index'),
     (r'^desenvolvimento/curso.html$', 'desenvolvimento.views.cursos'),   
     (r'^desenvolvimento/professor.html', 'desenvolvimento.views.professores'),
     #(r'^desenvolvimento/(?P<desenvolvimento_id>\d+)/$', 'desenvolvimento.views.detail'),

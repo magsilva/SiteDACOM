@@ -19,7 +19,7 @@ def index(request):
 
 def cursos(request):
 	listaDeCurso = Curso.objects.order_by('-nome')[:5]
-	template = loader.get_template('curso.html')
+	template = loader.get_template(curso.html')
 	context = RequestContext(request, {
 	        'listaDeCurso': listaDeCurso,
    	})
