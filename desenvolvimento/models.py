@@ -9,6 +9,7 @@ class DepartamentoAcademico(models.Model):
         #suplente = models.ForeignKey(Professor)
         #funcionario = [Funcionario]
 
+
 class Funcionario(models.Model):
 	nome = models.CharField('Nome', max_length=100)
 	email = models.CharField('E-mail', max_length=200)

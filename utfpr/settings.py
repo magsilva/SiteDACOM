@@ -1,28 +1,26 @@
-# Django settings for projeto project.
-import os, sys
-
-PROJECT_ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
+# Django settings for utfpr project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-     ('humberto', 'humberto.g.moreira@gmail.com'),
+    # ('humberto', 'humberto_voleibol@hotmail.com'),
 )
 
 MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-       'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'projeto',      # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'UTFPR',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': '' ,                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '' ,                      # Set to empty string for default.
+        'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'PORT': '',                      # Set to empty string for default.
     }
 }
+
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []
@@ -31,11 +29,11 @@ ALLOWED_HOSTS = []
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'America/Sao_Paulo'
+TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'pt-br'
+LANGUAGE_CODE = 'en-us'
 
 SITE_ID = 1
 
@@ -52,27 +50,27 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '~/projeto/projeto/templates/media/'
+MEDIA_ROOT = "/home/humberto/Documentos/utfpr/media/"
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
-MEDIA_URL = '/media/'
+MEDIA_URL = "/desenvolvimento/media/"
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = '~/projeto/projeto/templates/static/'
+STATIC_ROOT =  "/home/humberto/Documentos/utfpr/static/"  
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
-STATIC_URL = '/static/'
+STATIC_URL = "/home/humberto/Documentos/utfpr/static/"
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-  #  '~/projeto/projeto/templates/static/'
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+	"/home/humberto/Documentos/utfpr/static/desenvolvimento/",
+	    # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
@@ -86,7 +84,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'wr*7n23am_e5@50tg8ud%yf8-kwo%nhamty5*utm9tu+^&6-ug'
+SECRET_KEY = 'aqy^c)52@ur_74eo6%-!rm&dz_u=k4gmd*q8m!3*f2#5huzf7i'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -105,14 +103,13 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'projeto.urls'
+ROOT_URLCONF = 'utfpr.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'projeto.wsgi.application'
+WSGI_APPLICATION = 'utfpr.wsgi.application'
 
 TEMPLATE_DIRS = (
-  os.path.join(PROJECT_ROOT_PATH, '../templates/'),
-
+	"/home/humberto/Documentos/utfpr/templates/desenvolvimento/",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
