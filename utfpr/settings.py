@@ -50,26 +50,26 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = "/home/humberto/Documentos/utfpr/media/"
+MEDIA_ROOT = "/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/"
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
-MEDIA_URL = "/desenvolvimento/media/"
+MEDIA_URL = "/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/"
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT =  "/home/humberto/Documentos/utfpr/static/"  
+STATIC_ROOT =  "/home/humberto/Documentos/utfpr/desenvolvimento/static/" 
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
-STATIC_URL = "/home/humberto/Documentos/utfpr/static/"
+STATIC_URL =  "/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/" 
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-	"/home/humberto/Documentos/utfpr/static/desenvolvimento/",
+	"/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/",
 	    # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -109,12 +109,11 @@ ROOT_URLCONF = 'utfpr.urls'
 WSGI_APPLICATION = 'utfpr.wsgi.application'
 
 TEMPLATE_DIRS = (
-	"/home/humberto/Documentos/utfpr/templates/desenvolvimento/",
+	"/home/humberto/Documentos/utfpr/desenvolvimento/templates/desenvolvimento",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
-
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',

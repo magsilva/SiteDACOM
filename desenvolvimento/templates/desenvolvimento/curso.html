@@ -3,7 +3,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		{% load staticfiles %}
-		<link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}" />		
+		<link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}" />
+		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.css' %}" />
+		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-responsive.css' %}" />		
 		<title> UTFPR </title>	
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -13,31 +15,36 @@
 		License: Creative Commons Attribution
 		//-->
 
-
-
 	</head>
 	<body>
 	<div id="container">
 	    <header>
 		<div class="width">
-	    		<h1><a href="/">    			
-	    		
-	    		
-	    		<!--<img src="../../media/desenvolvimento/media/logo.png"/>-->UTFPR<span><h3>Universidade Tecnológica Federal do Paraná<h3></span></a></h1>
-			<!--<h2>your website slogan here</h2>-->
+	    		<h1> 
+		    		<a href="index.html">   		
+		    			<img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
+		    		</a>
+		    	</h1>
 		</div>
 	    </header>
 	    <nav>
 		<div class="width">
 	    		<ul>
-				<li class="start selected"><a href="index.html">Início</a></li>
-			    	<li class=""><a href="curso.html">Cursos</a></li>
+				<li class=""><a href="index.html">Início</a></li>
+			    	<li class="start selected"><a href="curso.html">Cursos</a></li>
 		 	   	<li><a href="professor.html">Professores</a></li>
 		  	  	<li><a href="eventos.html">Eventos</a></li>
+		  	  	<li class="text">
+		                    <form method="get" class="searchform" action="#" >
+		                        <p>
+		                            <input type="text" size="25" value="" name="s" class="s" />
+		                            <button type="submit" class="button"> Buscar</button>
+		                        </p>
+		                    </form>
+				</li>
 		  	 	<li class="end">
 		  		     	
 		                 </li>
-			
 			</ul>
 		</div>
 	    </nav>
@@ -50,57 +57,42 @@
 
 		<article class="expanded">
 
-		    		<h2>EXPOUT 2014</h2>
-				<div class="article-info">Postado as <time datetime="2013-05-14">14 Maio</time> por <a href="#" rel="author">Humberto Gonçalves</a></div>
+		    		<h2>Cursos Presentes no Câmpus</h2>
+				<!--<div class="article-info">Postado as <time datetime="2013-05-14">14 Maio</time> por <a href="#" rel="author">Humberto Gonçalves</a></div>-->
 
 			
-		    <p>Seis câmpus realizam evento para apresentar a Instituição à comunidade</a></p>
+		   <!-- <p>Lista de Cursos:</a></p>-->
 
-	<h3>Confira os eventos em novembro:</h3>
-
-	<p>A UTFPR apresentou seus cursos à comunidade local em outubro em Apucarana, Guarapuava, Cornélio Procópio, Campo Mourão e Toledo.  Os cinco câmpus incluíram na programação diversas atrações, como palestras, minicursos e workshops. 
-
-Entre os dias 06 a 11 de novembro, será a vez do Câmpus Londrina realizar a I Feira de Profissões e a Feira de Ideias. Os visitantes poderão conhecer a estrutura curricular e as práticas laboratoriais dos cursos e ainda visitar os estandes dos projetos Projetos Baja, Aero Design e CREA Jr. O evento ocorrerá na Avenida dos Pioneiros, n. 3131, no Jardim Morumbi, das 8h às 12h30 e das 19h30 às 21h30. As escolas, da rede pública ou particular, poderão se inscrever gratuitamente até o dia 31 de outubro no endereço: http://goo.gl/knxk3k. Outras informações pelo telefone (43) 3315-6118.</p>
-
-
-			<a href="detalhes.html" class="button">Leia Mais</a>
-			<a href="detalhes.html" class="button">Comentários</a>
+	<!--<li class="text">Lista de Cursos</li> -->
+	<p><p><p>
+	<ul class="styledlist">
+		
+		{% for curso in listaDeCursos %} 
+		    
+		    <li>
+		    <ul>
+		    <li>
+		    	{{ curso.nome }} - {{ curso.sigla }}
+		    		<ul>
+		    		<li>
+		    		 	Coordenador do Curso: {{ cursos.coordenador }}<p>
+		    		 	1º Suplente: {{ cursos.suplente}}
+		    		</li>
+		    </li>
+		    
+		    </ul>		
+				
+				<!--<a href="detalhesCurso.html"class="button">{{ curso.nome }} - {{ curso.sigla }}  </a>-->
+			</li>
+		{% endfor %}
+		    </ul>
 			</article>
-		
 
-		    <article>	
-		
-				<h2>Internacionalização</h2>
-				<div class="article-info">Postado as <time datetime="2013-05-14">14 Maio</time> por <a href="#" rel="author">Humberto Gonçalves</a></div>
-
-		    <p>Workshop termina com assinatura de Carta de Intenções entre instituições estrangeiras e a UTFPR.</p>
-		   	<a href="detalhes.html" class="button">Leia Mais</a>
-			<a href="detalhes.html" class="button">Comentários</a>
-		</article>
-	
 	</section>
-		
 		<aside class="sidebar">
 	
 		    <ul>
-		    
-		    
-		     <li>
-		        	<h4>Buscar no site</h4>
-		            <ul>
-		            	<li class="text">
-		                    <form method="get" class="searchform" action="#" >
-		                        <p>
-		                            <input type="text" size="25" value="" name="s" class="s" />
-		                            
-		                        </p>
-		                    </form>	
-							</li>
-						</ul>
-		        </li>
-		        
-		    	
-		       <li>
+		    	<li>
 		            <h4>Outros Câmpus</h4>
 		            <ul>
 		                <li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de presunto cru</a><p><a href="#" class="readmore">Leia Mais &raquo;</a></li>

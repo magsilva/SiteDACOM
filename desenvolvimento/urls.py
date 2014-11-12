@@ -10,12 +10,12 @@ admin.autodiscover()
 
 urlpatterns = patterns('desenvolvimento.views',
     (r'^$', 'index'),
-    (r'^index.html', 'index'),
-    (r'^curso.html', 'cursos'),
+    (r'^index', 'index'),
+    (r'^curso', 'curso'),
    # (r'^detalhesCurso.html', 'detalhesCurso'),
-    (r'^professor.html', 'professores'),
-    (r'^eventos.html', 'eventos'),
-    (r'^detalhesCurso/(0-9]+)/$', 'detalhesCurso'),
+    (r'^professor', 'professor'),
+    (r'^eventos', 'eventos'),
+    #(r'^detalhesCurso/(0-9]+)/$', 'detalhesCurso'),
    
     	
 )

@@ -142,8 +142,12 @@ form.searchform input {
 }
 
 form.searchform p {
-	margin: 5px 0;
-}
+margin:0px;
+	}
+	
+form.searchform input {
+margin:5px;
+	}
 
 
 span.required {
@@ -215,7 +219,7 @@ li ol, li ul {
 }
 
 header {
-	padding: 20px 2px;
+	padding: 10px 2px;
 	background: #fff;
 	margin: 0 auto;
 	text-align:left;
@@ -475,33 +479,6 @@ footer .footer-bottom p {
 footer .footer-bottom p, footer .footer-bottom p a {
 	color: #ffffff;
 }
-#foto
-{
-	position:relative;
-	background: url("../../media/desenvolvimento/media/logo.png") no-repeat right bottom ;
-	width:400px;
-	height:90px;
-	float:left;
-}
-
-#pesquisar
-{
-	position:relative;
-	width:180px;
-	height:25px;
-	left:5px;
-	float:left;
-}
-
-#submeter
-{
-	position:relative;
-	width:90px;
-	height:25px;
-	left:5px;
-	float:left;
-}
-
 
 #nomedaPagina
 {
@@ -607,7 +584,8 @@ footer .footer-bottom p, footer .footer-bottom p a {
 .text
 {
  list-style: none outside none;
-}
+ top:-5px;
+ }
 
 select {
 	border: none;
@@ -641,6 +619,23 @@ select option.hover {
 	font-size: 12px;
 	letter-spacing: 1px;
 	width: auto;
+}
+
+button { 
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    color: #232323;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:0px;
+}
+
+button:hover {
+	background-color: #f9c61f;
 }
 
 
