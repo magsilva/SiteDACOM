@@ -219,7 +219,7 @@ li ol, li ul {
 }
 
 header {
-	padding: 20px 2px;
+	padding: 10px 2px;
 	background: #fff;
 	margin: 0 auto;
 	text-align:left;
@@ -638,4 +638,12 @@ button:hover {
 	background-color: #f9c61f;
 }
 
+a li h3{
+	color: #ffffff;
+	text-decoration: none;
+}
 
+a li h3hover {
+	color: #f9c61f;
+	text-decoration: none;
+}

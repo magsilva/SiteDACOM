@@ -638,4 +638,12 @@ button:hover {
 	background-color: #f9c61f;
 }
 
+a li h3{
+	color: #ffffff;
+	text-decoration: none;
+}
 
+a li h3 .hover {
+	color: #f9c61f;
+	text-decoration: none;
+}

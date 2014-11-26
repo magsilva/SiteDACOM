@@ -22,11 +22,9 @@
 	<div id="container">
 	    <header>
 		<div class="width">
-	    		<h1> 
-		    		<a href="index.html">   		
-		    			<img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
-		    		</a>
-		    	</h1>
+	    		<a href="index.html">   		
+	    			<img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
+	    		</a>
 		</div>
 	    </header>
 	    <nav>
@@ -40,14 +38,13 @@
 		                    <form method="get" class="searchform" action="#" >
 		                        <p>
 		                            <input type="text" size="25" value="" name="s" class="s" />
-		                            <input type="submit" class="button"></a>
+		                            <button type="submit" class="button"> Buscar</button>
 		                        </p>
 		                    </form>
 				</li>
 		  	 	<li class="end">
 		  		     	
 		                 </li>
-			
 			</ul>
 		</div>
 	    </nav>

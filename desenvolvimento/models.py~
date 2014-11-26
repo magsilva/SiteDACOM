@@ -29,4 +29,30 @@ class Curso(models.Model):
 class Coordenacao(models.Model):
 	coordenador = models.ForeignKey(Professor, related_name = 'coordenadorCoo')
 	suplente = models.ForeignKey(Professor, related_name = 'suplenteCoo')
-	curso = models.ForeignKey(Curso
+	curso = models.ForeignKey(Curso)
+	
+class Article(models.Model):
+	#nomeProfessor = models.ForeignKey(Professor, related_name='Autor da Publicação')
+	autoresdaPublicacao = [Professor]
+	listadeGraduacao = [Graduacao]	
+	listadePublicacao = [Publicacao]
+	datedaPublicacao = models.CharField('Local da Publicacao', max_lenght='100')
+	localdaPublicacao = models.CharField('Local da Publicacao', max_lenght='100')
+	
+class Graduacao(models.Model):
+	graduacao = models.CharField('Graduacao', max_lenght='100')
+	tipo = tipodeGraduacao
+	local = models.CharField('Local da Graduacao', max_lenght='100')
+	
+class tipodeGraduacao(models.Model): 
+	tipo =  models.CharField('Tipo de Graduacao', max_lenght='100')
+	
+		
+class Publicacao(models.Model):
+	titulodaPublicacao = models.CharField('Titulo da Publicacao', max_lenght='200')
+	tipo = tipodePublicacao
+	
+class TipodePublicacao(models.Model):
+	nome = models.CharField('Tipo de Publicacao', max_lenght='100')
+	
+	
