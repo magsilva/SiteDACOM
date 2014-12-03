@@ -24,9 +24,14 @@
 	<div id="container">
 	    <header>
 		<div class="width">
-	    		<a href="index.html">   		
-	    			<img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
-	    		</a>
+	    		<div id=ladoEsquerdo>
+		    		<a href="index.html">   		
+		    			<img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
+		    		</a>
+	    		</div>
+	    		
+	    		<h3> DACOM - Departamento de Computação </h3>
+	    			
 		</div>
 	    </header>
 	    <nav>
@@ -94,7 +99,7 @@ Entre os dias 06 a 11 de novembro, será a vez do Câmpus Londrina realizar a I 
 	
 		    <ul>		    	
 		       <li>
-		            <h4>Outros Câmpus</h4>
+		            <h4>Outros Departamentos</h4>
 		            <ul>
 		                <li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de presunto cru</a><p><a href="#" class="readmore">Leia Mais &raquo;</a></li>
 		                <li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de presunto cru</a><p><a href="#" class="readmore">Leia Mais &raquo;</a></li>
@@ -180,7 +185,7 @@ Entre os dias 06 a 11 de novembro, será a vez do Câmpus Londrina realizar a I 
 		    <div class="clear"></div>
 		</div>
 		<div class="footer-bottom">
-		   UTFPR - Universidade Tecnológica Federal do Paraná Câmpus Campo Mourão
+		   UTFPR - Universidade Tecnológica Federal do Paraná Câmpus Campo Mourão <!-- Desenvolvido por Humberto Moreira Gonçalves"-->
 		 </div>
 	    </footer>
 	</div>
