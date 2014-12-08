@@ -1,10 +1,7 @@
-import sys
-import os, errno
-
-#sys.path.append('../lattes/scriptLattes/')
+import sys, os, errno, shutil, Levenshtein
+sys.path.append('../lattes/scriptLattes/')
 
 from django.db import models
-#from scriptLattesNovo  import *
 
 # Create your models here.
 
@@ -36,7 +33,18 @@ class Coordenacao(models.Model):
 	coordenador = models.ForeignKey(Professor, related_name = 'coordenadorCoo')
 	suplente = models.ForeignKey(Professor, related_name = 'suplenteCoo')
 	curso = models.ForeignKey(Curso)
-	
-#class Artigos(models.Model):
-	
 
+class Artigos(models.Model):
+		nomeCompleto = models.ForeignKey(Professor, related_name = 'nomeCompleto');
+		
+
+		#bolsaProdutividade           = grupo.bolsaProdutividade
+		#enderecoProfissional         = grupo.enderecoProfissional
+		#sexo                         = grupo.sexo
+		#nomeEmCitacoesBibliograficas = grupo.nomeEmCitacoesBibliograficas
+		#textoResumo                  = grupo.textoResumo
+		#self.foto                         = grupo.foto
+		
+		#def __unicode__(self):      
+        #		return self.nomeCompleto, bolsaProdutividade, enderecoProfissional, sexo, nomeEmCitacoesBibliograficas, textoResumo #self.foto
+        

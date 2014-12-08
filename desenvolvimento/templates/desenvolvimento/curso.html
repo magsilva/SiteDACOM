@@ -5,7 +5,9 @@
 		{% load staticfiles %}
 		<link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}" />
 		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.css' %}" />
-		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-responsive.css' %}" />		
+		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-responsive.css' %}" />	
+		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}" />
+		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-responsive.min.css' %}" > 
 		<title> UTFPR </title>	
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,14 +17,21 @@
 		License: Creative Commons Attribution
 		//-->
 
+
+
 	</head>
 	<body>
 	<div id="container">
 	    <header>
 		<div class="width">
-	    		<a href="index.html">   		
-	    			<img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
-	    		</a>
+	    		<div id=ladoEsquerdo>
+		    		<a href="index.html">   		
+		    			<img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
+		    		</a>
+	    		</div>
+	    		
+	    		<a><h3> DACOM - Departamento de Computação </h3></a>
+	    			
 		</div>
 	    </header>
 	    <nav>
@@ -65,7 +74,7 @@
 	<p><p><p>
 	<ul class="styledlist">
 		
-		{% for curso in listaDeCursos %} 
+		<!--{% for curso in listaDeCursos %} 
 		    
 		    <li>
 		    <ul>
@@ -78,12 +87,11 @@
 		    		</li>
 		    </li>
 		    
-		    </ul>		
-				
-				<!--<a href="detalhesCurso.html"class="button">{{ curso.nome }} - {{ curso.sigla }}  </a>-->
+		    </ul>	
+				<a href="detalhesCurso.html"class="button">{{ curso.nome }} - {{ curso.sigla }}  </a>
 			</li>
-		{% endfor %}
-		    </ul>
+		{% endfor %} 
+		    </ul>-->	
 			</article>
 
 	</section>
@@ -131,7 +139,8 @@
 		    </ul>
 		</aside>
 	    	<div class="clear"></div>
-    <footer>
+	    </div>
+	    <footer>
 		<div class="footer-content width">
 		
 			<ul>
@@ -176,7 +185,7 @@
 		    <div class="clear"></div>
 		</div>
 		<div class="footer-bottom">
-		   <!-- <p>&copy; YourSite 2013. <a href="http://zypopwebtemplates.com/">Free CSS Website Templates</a> by ZyPOP</p>-->
+		   UTFPR - Universidade Tecnológica Federal do Paraná Câmpus Campo Mourão <!-- Desenvolvido por Humberto Moreira Gonçalves"-->
 		 </div>
 	    </footer>
 	</div>
