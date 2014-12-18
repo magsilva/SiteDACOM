@@ -20,14 +20,16 @@ def curso(request):
     return HttpResponse(t.render(c))
 
 
-def professor(request):
-    listaDeProfessores = Professor.objects.all().order_by('-nome')
-    t = loader.get_template('professor.html')
-    c = RequestContext(request, {
-      'listaDeProfessores': listaDeProfessores,
-    })
-    return HttpResponse(t.render(c))
+#def professor(request):
+ #   listaDeProfessores = Professor.objects.all().order_by('-nome')
+  #  t = loader.get_template('professor.html')
+   # c = RequestContext(request, {
+    #  'listaDeProfessores': listaDeProfessores,
+    #})
+    #return HttpResponse(t.render(c))
     
+def professor(request):  
+    return render_to_response('professor.html', {})
     
 def eventos(request):  
     return render_to_response('eventos.html', {})
