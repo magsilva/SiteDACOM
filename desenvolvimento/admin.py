@@ -3,7 +3,11 @@ from desenvolvimento.models import Curso
 from desenvolvimento.models import Funcionario
 from desenvolvimento.models import Professor
 from desenvolvimento.models import Coordenacao
-from desenvolvimento.models import Artigos
+from desenvolvimento.models import Artigo
+from desenvolvimento.models import ArtigoEmPeriodico
+from desenvolvimento.models import ArtigoEmConferencia
+from desenvolvimento.models import Projeto
+
 from django.contrib import admin
 
 admin.site.register(DepartamentoAcademico)
@@ -11,4 +15,8 @@ admin.site.register(Professor)
 admin.site.register(Curso)
 admin.site.register(Coordenacao)
 admin.site.register(Funcionario)
-admin.site.register(Artigos)
+admin.site.register(Artigo)
+admin.site.register(ArtigoEmPeriodico)
+admin.site.register(ArtigoEmConferencia)
+admin.site.register(Projeto)
+

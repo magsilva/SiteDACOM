@@ -1,10 +1,7 @@
 import sys, os, errno, shutil, Levenshtein
 #sys.path.append('lattes/scriptLattes/')
 from django.db import models
-#Django cron
-#scheduler ver 
-# __eq__ #metodo de comparacao
-
+import lattes 
 
 # Create your models here.
 class DepartamentoAcademico(models.Model):
@@ -24,6 +21,13 @@ class Funcionario(models.Model):
 
 class Professor(Funcionario, models.Model):
 	lattes = models.CharField('Link do Lattes', max_length=50)
+	#nomeCompleto = models.ForeignKey(Professor, related_name = 'NomeProfessor')
+	bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)        
+	enderecoProfissional  = models.CharField('Endereco Profissional', max_length=255)        
+	nomeEmCitacoesBibliograficas  =  models.CharField('nomeEmCitacoesBibliograficas', max_length=255)
+	textoResumo = models.CharField('bolsaProdutividade', max_length=500)
+	#enderecoProfissionalLat = models.CharField('Endereco Profissional Latitude ', max_length=255)
+	#enderecoProfissionalLon = models.CharField('Endereco Profissional Longitude', max_length=255)
 	#foto
 
 class Curso(models.Model):
@@ -36,58 +40,35 @@ class Coordenacao(models.Model):
 	suplente = models.ForeignKey(Professor, related_name = 'suplenteCoo')
 	curso = models.ForeignKey(Curso)
 
-class Artigos(models.Model):
-	nomeCompleto = models.ForeignKey(Professor, related_name = 'NomeProfessor')
-	bolsaProdutividade = models.CharField('bolsaProdutividade', max_length=100)        
-	enderecoProfissional  = models.CharField('bolsaProdutividade', max_length=100)        
-	nomeEmCitacoesBibliograficas  =  models.CharField('bolsaProdutividade', max_length=255)
-	textoResumo = models.CharField('bolsaProdutividade', max_length=500)
-# 	foto
+class Artigo(models.Model):
+	listadeAutores = [Professor]
+	titulo = models.CharField('Titulo do Artigo', max_length=255)
+	data = models.DateField('Data do Artigo')
+	doi = models.CharField('DOI', max_length = 255)
+	paginaInicial = models.CharField('Pagina Inicial', max_length=10)
+	paginaFinal = models.CharField('Pagina Final', max_length=10)
+	Resumo =  models.CharField('Resumo', max_length=5000)
+#Nao vai ter no lattes 
 
+class ArtigoEmPeriodico(Artigo):
+	nomeJournal = models.CharField('Nome Journal', max_length=255)
+	ISSN = models.CharField('Codigo ISSN', max_length=255) #identificador;models.CharField()
+	publisher = models.CharField('Editora', max_length=255)
+	numero = models.CharField('Numero', max_length=10)
+        volume = models.CharField('Volume', max_length=10)
 
-
-
-# class Artigo(models.Model):
-# 	listadeAutore;
-# 	titulo
-# 	data;
-# 	doi;#identificador de artigo nao necessario;
-# 	pagina inicial;
-# 	paginafinal;
-# 	Resumo; #Nao vai ter no lattes
-
-
-# class ArtigoEmPeriodico(Artigo):
-# 	nomeJournal;
-# 	ISSN; #identificador;
-# 	publisher;
-# 	numero, e volume;
 		
-# class ArtigoEmConferencia(Artigo):
-# 	nomedaConferencia
-# 	ISSN #nao necessario
-# 	ISBN #necesaario
-# 	local
+class ArtigoEmConferencia(Artigo):
+	nomedaConferencia = models.CharField('Nome da Conferencia', max_length=255)
+        ISSN  = models.CharField('Codigo ISSN', max_length=50 )
+	ISBN = models.CharField('Codigo ISBN', max_length=50)#obrigatorio
+	local = models.CharField('Local da Conferencia', max_length=255)
 
-# class Projeto(models)
-# 	listadeCoordenadores
-# 	listaColaboradores
-# 	nome
-# 	dataInicio
-# 	DatadeFim
-# 	AgendaFinanciadora
-# 	Resumo
+class Projeto(models.Model):
+	listadeCoordenadores = [Professor]
+	listaColaboradores = [Professor]
+	dataInicio = models.DateField()
+	datadeFim = models.DateField()
+	AgendaFinanciadora = models.CharField('Agencia Financiadora', max_length=255)
+	Resumo = models.CharField('Resumo', max_length = 5000)
 
-		# nomeCompleto = models.ForeignKey(Professor, related_name = 'NomeProfessor')
-		# bolsaProdutividade = models.CharField('bolsaProdutividade', max_length=100)        
-		# enderecoProfissional  = models.CharField('bolsaProdutividade', max_length=100)        
-		# nomeEmCitacoesBibliograficas  =  models.CharField('bolsaProdutividade', max_length=255)
-		# textoResumo = models.CharField('bolsaProdutividade', max_length=500)
-		
-
-
-		#self.foto 
-		
-		#def __unicode__(self):      
-        #		return self.nomeCompleto, bolsaProdutividade, enderecoProfissional, sexo, nomeEmCitacoesBibliograficas, textoResumo #self.foto
-        

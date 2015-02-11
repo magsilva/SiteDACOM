@@ -10,6 +10,20 @@ from django.shortcuts import get_object_or_404, render_to_response
 def index(request):  
     return render_to_response('index.html', {})
 
+def jquery1(request):
+    return render_to_reponse('/static/desenvolvimento/novapasta/js/init.js', {})
+
+def jquery2(request):
+    return render_to_reponse('/static/desenvolvimento/novapasta/js/jquery.min.js',{})
+
+def jquery3(request):
+    return render_to_reponse('/static/desenvolvimento/novapasta/js/skel.min.js',{})
+
+def jquery4(request):
+    return render_to_reponse('/static/desenvolvimento/novapasta/js/ijquery.dropotron.min.js',{})
+
+def jquery5(request):
+    return render_to_reponse('/static/desenvolvimento/novapasta/js/skel-layers.min.js',{})
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')

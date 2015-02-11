@@ -1,5 +1,8 @@
 # Django settings for utfpr project.
 
+import djcelery
+djcelery.setup_loader()
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -122,6 +125,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'desenvolvimento',
+    'djcelery',
     #'lattes.scriptLattes',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
