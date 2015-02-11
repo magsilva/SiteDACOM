@@ -7,7 +7,6 @@ from desenvolvimento.models import Artigo
 from desenvolvimento.models import ArtigoEmPeriodico
 from desenvolvimento.models import ArtigoEmConferencia
 from desenvolvimento.models import Projeto
-
 from django.contrib import admin
 
 admin.site.register(DepartamentoAcademico)

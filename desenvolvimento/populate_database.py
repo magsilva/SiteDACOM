@@ -1,3 +1,5 @@
+from numpy.distutils.fcompiler import none
+
 __author__ = 'root'
 
 
@@ -6,67 +8,98 @@ import shutil
 import Levenshtein
 import os, errno
 
-sys.path.append('scriptLattes')
+sys.path.append("../../scriptLattes")
 
-from grupo import *
-
-def populate():
-    python_cat = add_cat('Python')
+from compiladorDeListas import *
+from scriptLattes  import *
 
 
+def add_Artigo(titulo, data, doi, paginaInicial, paginaFinal, Resumo):
+    a = Artigo.objects.get_or_create(titulo = titulo,
+                                   data = data,
+                                   doi = doi,
+                                   paginaInicial = paginaInicial,
+                                   paginaFinal = paginaFinal,
+                                   Resumo = Resumo
+    )
+    return a
 
-    add_page(cat=python_cat,
-        title="Official Python Tutorial",
-        url="http://docs.python.org/2/tutorial/")
+def add_ArtigoEmPeriodico(nomeJournal ,ISSN , publisher, numero, volume):
 
-    add_page(cat=python_cat,
-        title="How to Think like a Computer Scientist",
-        url="http://www.greenteapress.com/thinkpython/")
-
-    add_page(cat=python_cat,
-        title="Learn Python in 10 Minutes",
-        url="http://www.korokithakis.net/tutorials/python/")
-
-    django_cat = add_cat("Django")
-
-    add_page(cat=django_cat,
-        title="Official Django Tutorial",
-        url="https://docs.djangoproject.com/en/1.5/intro/tutorial01/")
-
-    add_page(cat=django_cat,
-        title="Django Rocks",
-        url="http://www.djangorocks.com/")
-
-    add_page(cat=django_cat,
-        title="How to Tango with Django",
-        url="http://www.tangowithdjango.com/")
-
-    frame_cat = add_cat("Other Frameworks")
-
-    add_page(cat=frame_cat,
-        title="Bottle",
-        url="http://bottlepy.org/docs/dev/")
-
-    add_page(cat=frame_cat,
-        title="Flask",
-        url="http://flask.pocoo.org")
-
-    # Print out what we have added to the user.
-    for c in Category.objects.all():
-        for p in Page.objects.filter(category=c):
-            print "- {0} - {1}".format(str(c), str(p))
-
-def add_page(cat, title, url, views=0):
-    p = Page.objects.get_or_create(category=cat, title=title, url=url, views=views)[0]
+    p = ArtigoEmPeriodico.objects.get_or_create(nomeJournal = nomeJournal,
+                                   ISSN = ISSN,
+                                   publisher = publisher,
+                                   numero = numero,
+                                   volume = volume
+    )
     return p
 
-def add_cat(name):
-    c = Category.objects.get_or_create(name=name)[0]
+
+def add_ArtigoEmConferencia(nomedaConferencia, ISSN, ISBN,local):
+
+    c = ArtigoEmConferencia.objects.get_or_create(nomedaConferencia = nomedaConferencia,
+                                    ISSN = ISSN,
+                                    ISBN= ISBN,
+                                    local = local
+    )
     return c
+
+
+def populate():
+
+    for listadeArtigo in compiladorDeListas.grupo.compilador.listaDeArtigo.Objects.all():
+        add_Artigo( titulo = listadeArtigo.titulo,
+            data = listadeArtigo.ano,
+            doi = listadeArtigo.doi,
+            paginaInicial = listadeArtigo.paginas,
+            paginaFinal = listadeArtigo.paginas,
+            Resumo = listadeArtigo.resumo
+            )
+
+#    for listadeArtigoEmPeriodico in compiladorDeListas.grupo.compilador.listaDeArtigoEmPeriodico.Objects.all():
+ #        add_ArtigoEmPeriodico(
+
+            #nomeJournal = listadeArtigo.revista,
+            #ISSN = listadeArtigo.
+   #         publisher = listadeArtigoEmPeriodico.revista,
+  #          numero = listadeArtigoEmPeriodico.numero,
+   #         volume = listadeArtigoEmPeriodico.volume
+    #    )
+
+    #for listadeArtigoEmConferencia in  compiladorDeListas.grupo.compilador.listaDeArtigo.Objects.all()
+      #  add_ArtigoEmConferencia(nomedaConferencia =
+    #            ISSN  =
+    #            ISBN =
+    #            local =
+
+     #   pub = ResumoEmCongresso(self.idMembro)
+	#			pub.autores  = self.autores
+#				pub.titulo   = self.titulo
+#				pub.nomeDoEvento=self.nomeDoEvento
+##				pub.ano      = self.ano
+#				pub.volume   = self.volume
+#				pub.numero   = self.numero
+#				pub.paginas  = self.paginas
+#				pub.chave   = self.autores
+#				pub.doi     = 'http://dx.doi.org/'+self.doi if not self.doi==0 else ''
+#				self.listaResumoEmCongresso.append(pub)
+#				return
+ #       )
+
+
+#def add_page(cat, title, url, views=0):
+#    p = Page.objects.get_or_create(category=cat, title=title, url=url, views=views)[0]
+#    return p
+#
+#def add_Artigo(name):
+#    c = Artigo.objects.get_or_create(name=name)[0]
+#    return c
 
 # Start execution here!
 if __name__ == '__main__':
-    print "Starting Rango population script..."
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project.settings')
-    from rango.models import Category, Page
+    print "Começando a Popular o Banco de Dados Projeto Sites dos Departamentos..."
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+    from desenvolvimento.models import Artigo, ArtigoEmConferencia, ArtigoEmPeriodico, Projeto, Professor
     populate()
+
+

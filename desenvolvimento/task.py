@@ -9,6 +9,12 @@ class TodaManhaDeSegunda(PeriodicTask):
          logger = self.get_logger(**kwargs)
          logger.info("Executa toda segunda as 7h30 da manha")
 
+
+
+
+#if __name__ == "__main__":
+#    main()
+
 #class TodaManha(PeriodicTask):
 #     run_every = crontab(hours=7, minute=30)
 
