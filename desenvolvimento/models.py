@@ -1,7 +1,7 @@
 import sys, os, errno, shutil, Levenshtein
 #sys.path.append('lattes/scriptLattes/')
 from django.db import models
-import lattes 
+#import lattes
 
 # Create your models here.
 class DepartamentoAcademico(models.Model):
@@ -22,8 +22,8 @@ class Funcionario(models.Model):
 class Professor(Funcionario, models.Model):
 	lattes = models.CharField('Link do Lattes', max_length=50)
 	#nomeCompleto = models.ForeignKey(Professor, related_name = 'NomeProfessor')
-	bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)        
-	enderecoProfissional  = models.CharField('Endereco Profissional', max_length=255)        
+	bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)
+	enderecoProfissional  = models.CharField('Endereco Profissional', max_length=255)
 	nomeEmCitacoesBibliograficas  =  models.CharField('nomeEmCitacoesBibliograficas', max_length=255)
 	textoResumo = models.CharField('bolsaProdutividade', max_length=500)
 	#enderecoProfissionalLat = models.CharField('Endereco Profissional Latitude ', max_length=255)
@@ -48,7 +48,7 @@ class Artigo(models.Model):
 	paginaInicial = models.CharField('Pagina Inicial', max_length=10)
 	paginaFinal = models.CharField('Pagina Final', max_length=10)
 	Resumo =  models.CharField('Resumo', max_length=5000)
-#Nao vai ter no lattes 
+#Nao vai ter no lattes
 
 class ArtigoEmPeriodico(Artigo):
 	nomeJournal = models.CharField('Nome Journal', max_length=255)
@@ -57,12 +57,12 @@ class ArtigoEmPeriodico(Artigo):
 	numero = models.CharField('Numero', max_length=10)
         volume = models.CharField('Volume', max_length=10)
 
-		
+
 class ArtigoEmConferencia(Artigo):
-	nomedaConferencia = models.CharField('Nome da Conferencia', max_length=255)
-        ISSN  = models.CharField('Codigo ISSN', max_length=50 )
-	ISBN = models.CharField('Codigo ISBN', max_length=50)#obrigatorio
-	local = models.CharField('Local da Conferencia', max_length=255)
+    nomedaConferencia = models.CharField('Nome da Conferencia', max_length=255)
+    ISSN  = models.CharField('Codigo ISSN', max_length=50 )
+    ISBN = models.CharField('Codigo ISBN', max_length=50)#obrigatorio
+    local = models.CharField('Local da Conferencia', max_length=255)
 
 class Projeto(models.Model):
 	listadeCoordenadores = [Professor]

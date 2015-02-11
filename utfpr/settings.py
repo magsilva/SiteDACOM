@@ -1,8 +1,5 @@
 # Django settings for utfpr project.
 
-import djcelery
-djcelery.setup_loader()
-
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -126,6 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'desenvolvimento',
     'djcelery',
+    'kombu.transport.django',
     #'lattes.scriptLattes',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
@@ -161,3 +159,26 @@ LOGGING = {
         },
     }
 }
+
+#django celery: task scheduling package
+BROKER_HOST = "localhost"
+BROKER_PORT = 8000
+BROKER_VHOST = "teste"
+BROKER_USER = "humbbetao"
+BROKER_PASSWORD = "humb8657naval"
+BROKER_BACKEND = "djkombu.transport.DatabaseTransport"
+
+CELERY_RESULT_BACKEND = "mysql"
+CELERY_IMPORTS = ("desenvolvimento.task", )
+
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+
+
+import djcelery
+djcelery.setup_loader()
+
+
+
+
+
+#django celery: task scheduling package
