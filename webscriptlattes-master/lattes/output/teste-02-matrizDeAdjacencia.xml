@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>             
+<!--  An excerpt of an egocentric social network  -->             
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">             
+<graph edgedefault="undirected">             
+<!-- data schema -->             
+<key id="name" for="node" attr.name="name" attr.type="string"/>             
+<key id="nickname" for="node" attr.name="nickname" attr.type="string"/>             
+<key id="gender" for="node" attr.name="gender" attr.type="string"/>             
+<key id="image" for="node" attr.name="image" attr.type="string"/>             
+<key id="link" for="node" attr.name="link" attr.type="string"/>             
+<key id="amount" for="edge" attr.name="amount" attr.type="int"/>             
+<key id="pubs" for="node" attr.name="pubs" attr.type="int"/>
+<!-- nodes -->                 
+<node id="0">                 
+<data key="name">Giovani Rubert Librelotto</data>                 
+<data key="nickname">LIBRELOTTO, Giovani R.;Librelotto, G.R.;Librelotto, Giovani R;LIBRELOTTO, GIOVANI RUBERT</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4707017Z0</data>                 
+<data key="link">http://lattes.cnpq.br/0865997296771785</data>                 
+<data key="pubs">0</data>                 
+</node>
+</graph>            
+</graphml>

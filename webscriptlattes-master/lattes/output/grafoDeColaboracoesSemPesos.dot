@@ -1,0 +1,5 @@
+strict graph grafo1 {
+	graph [bb="0,0,136,18", id=grafo1, overlap=False];
+	node [label="\N", fontsize=8, shape=rectangle, style=filled];
+	0 [label="Giovani Rubert Librelotto [0]", URL="http://lattes.cnpq.br/0865997296771785", color="#000099", fontcolor="#FFFFFF", height="0.25", pos="68,9", width="1.8889"];
+}

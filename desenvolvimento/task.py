@@ -1,23 +1,24 @@
-from celery.task import task, PeriodicTask
-from celery.schedules import crontab
-from datetime import timedelta
+from __future__ import absolute_import
+import os
 
-class TodaManhaDeSegunda(PeriodicTask):
-     run_every = crontab(hour=7, minute=30, day_of_week=1)
+from celery import shared_task
 
-     def run(self, **kwargs):
-         logger = self.get_logger(**kwargs)
-         logger.info("Executa toda segunda as 7h30 da manha")
+from desenvolvimento.models import Professor
 
 
+@shared_task
+def processar(lattes):
+    objeto = Professor.objects.get(idlattes=lattes, nome=nome)
+    print '\n' * 5
+    print "python ./../lattes/scriptLattes.py ./../lattes/data/scriptlattes-utfpr-cm-dacom.config"
+    print '\n' * 5
+    erro = os.system(
+        "python /var/apps/lattes/scriptLattes.py /var/apps/lattes/exemplo/exemplo.config /var/apps/weblattes/static/%s%s %s /var/apps/lattes/exemplo/%s")
 
+    if erro:
+        objeto.status = -1  # quebrou
+    else:
+        objeto.status = 2  # processado
 
-#if __name__ == "__main__":
-#    main()
-
-#class TodaManha(PeriodicTask):
-#     run_every = crontab(hours=7, minute=30)
-
-     #def run(self, **kwargs):
-        # logger = self.get_logger(**kwargs)
-       #  logger.info("Executa todo dia as 7h30 da manha")
+    objeto.save()
+    return 0

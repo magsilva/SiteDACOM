@@ -1,3 +1,5 @@
+from django.contrib import admin
+
 from desenvolvimento.models import DepartamentoAcademico
 from desenvolvimento.models import Curso
 from desenvolvimento.models import Funcionario
@@ -7,7 +9,7 @@ from desenvolvimento.models import Artigo
 from desenvolvimento.models import ArtigoEmPeriodico
 from desenvolvimento.models import ArtigoEmConferencia
 from desenvolvimento.models import Projeto
-from django.contrib import admin
+
 
 admin.site.register(DepartamentoAcademico)
 admin.site.register(Professor)
