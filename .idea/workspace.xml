@@ -2,306 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aadf1f5b-065c-4364-93a4-f533304d0487" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/.geolocalizador.py.swp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Eo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Ep.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/doi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/doi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesComPesos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesNormalizado.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesSemPesos-t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesSemPesos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/stuff-olds/scriptLattes.tra" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/0.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/0002_auto__add_field_cv_categoria.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/migrations/0002_auto__add_field_cv_categoria.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/1.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/10.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/11.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/12.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/13.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/14.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/15.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/16.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/17.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/18.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/19.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/20.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/21.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/22.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/23.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/24.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/25.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/26.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/27.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/28.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/29.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/30.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/31.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/32.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/33.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/34.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/35.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/36.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/37.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/38.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/39.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/4.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/40.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/41.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/42.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/43.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/44.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/45.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/46.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/47.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/48.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/5.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/6.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/7.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/8.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/9.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/COPYING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Eo-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Ep-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/HTMLParserNew.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA2-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC2-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC3-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC4-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC5-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB0-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB1-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB2-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB4-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB5-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB6-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB7-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB8-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB9-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT5-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pj-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pm-0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/qualis/READ_ME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/eventos/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/orientacoes/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesArtisticas/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/qualis/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/analisadorDePublicacoes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/apresentacaoDeTrabalho.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/areaDeAtuacao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoAceito.py.old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoAceito.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoEmPeriodico.py.old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoEmPeriodico.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/authorRank.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/capituloDeLivroPublicado.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utfpr/celery.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/celery.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/celerybeat.pid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/compiladorDeListas.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/countries.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/countries.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/depuradorDOIhtml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/exemplo.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/exemplo.list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/formacaoAcademica.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/genericParser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/geolocalizador.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/geradorDePaginasWeb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/geradorDeXML.py.old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/geradorDeXML.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/graficoDeBarras.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/graficoDeInternacionalizacao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/graficoDeProporcoes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/grafoDeColaboracoes.py.old-python" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/grafoDeColaboracoes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesComPesos.dot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesInterativo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesNormalizado.dot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesSemPesos.dot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/grupo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/idioma.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/livroPublicado.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/mapaDeGeolocalizacao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/membro.py.old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/membro.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/membros.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/new  2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/eventos/organizacaoDeEvento.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/orientacoes/orientacaoConcluida.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/orientacoes/orientacaoEmAndamento.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/outroTipoDeProducaoBibliografica.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/outroTipoDeProducaoTecnica.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parser101007.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parser101021.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parser101590.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parserFileConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/parserLattes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/parserLattesXML.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/eventos/participacaoEmEvento.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/periodicos.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/premioOuTitulo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/processoOuTecnica.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesArtisticas/producaoArtistica.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/produtoTecnologico.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/projetoDePesquisa.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/publicacaoEinternacionalizacao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/qualis/qualis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/qualis_computacao_conferencias_2012.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/resumoEmCongresso.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/resumoExpandidoEmCongresso.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/css/scriptLattes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/scriptLattes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/stuff-olds/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/softwareComPatente.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/softwareSemPatente.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/status.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/templates/status.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/tasks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-authorRank.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-listaDeNomes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-listaDeRotulos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeAdjacencia.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeAdjacencia.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeFrequencia.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeFrequenciaNormalizada.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-membros.ris" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-publicacoes.ris" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-qualisGrupal.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-qualisPorMembro.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-vetorDeProducoes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/testeGeolocalizador.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/textoEmJornalDeNoticia.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/trabalhoCompletoEmCongresso.py.old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/trabalhoCompletoEmCongresso.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/trabalhoTecnico.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/lattes/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesComPesos.png" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesComPesos.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesNormalizado.png" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesNormalizado.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesSemPesos-t.png" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesSemPesos-t.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesSemPesos.png" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesSemPesos.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/scriptLattes" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/scriptLattes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/Eo-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/Eo-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/Ep-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/Ep-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/In0-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/In0-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA2-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA2-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA4-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA4-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA5-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA5-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA6-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OA6-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC3-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC3-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC4-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC4-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC5-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC5-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC6-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/OC6-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB0-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB0-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB1-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB1-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB2-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB2-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB3-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB3-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB4-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB4-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB5-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB5-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB6-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB6-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB7-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/PB7-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/Pj-0.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/Pj-0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utfpr/__init__.py" afterPath="$PROJECT_DIR$/utfpr/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/admin.py" afterPath="$PROJECT_DIR$/desenvolvimento/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/apps.py" afterPath="$PROJECT_DIR$/desenvolvimento/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/curso.html" afterPath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/curso.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/eventos.html" afterPath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/eventos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoes.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesComPesos.dot" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesComPesos.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesInterativo.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesInterativo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesNormalizado.dot" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesNormalizado.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesSemPesos.dot" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/grafoDeColaboracoesSemPesos.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/index.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/index.html" afterPath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html" afterPath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/left-sidebar.html" afterPath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/left-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/membros.html" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/membros.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" afterPath="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/models.py" afterPath="$PROJECT_DIR$/desenvolvimento/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/no-sidebar.html" afterPath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/no-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/populate_database.py" afterPath="$PROJECT_DIR$/desenvolvimento/populate_database.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html" afterPath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/right-sidebar.html" afterPath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/right-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/data/scriptlattes-utfpr-cm-dacom.config" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/data/scriptlattes-utfpr-cm-dacom.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utfpr/settings.py" afterPath="$PROJECT_DIR$/utfpr/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/start_djcelery.py" afterPath="$PROJECT_DIR$/desenvolvimento/start_djcelery.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/task.py" afterPath="$PROJECT_DIR$/desenvolvimento/task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/two-sidebar.html" afterPath="$PROJECT_DIR$/desenvolvimento/static/desenvolvimento/novapasta/two-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/urls.py" afterPath="$PROJECT_DIR$/desenvolvimento/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utfpr/urls.py" afterPath="$PROJECT_DIR$/utfpr/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/views.py" afterPath="$PROJECT_DIR$/desenvolvimento/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utfpr/wsgi.py" afterPath="$PROJECT_DIR$/utfpr/wsgi.py" />
     </list>
     <ignored path="utfpr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -328,8 +33,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desenvolvimento/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1405" max-vertical-offset="2085">
-              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="717" max-vertical-offset="1335">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -338,9 +43,11 @@
       <file leaf-file-name="leitorXMl.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9516129" vertical-offset="745" max-vertical-offset="2505">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.74380165" vertical-offset="630" max-vertical-offset="2925">
+              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -348,7 +55,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desenvolvimento/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="330">
               <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
               <folding />
             </state>
@@ -370,8 +77,8 @@
       <file leaf-file-name="database.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.6285715" vertical-offset="70993" max-vertical-offset="71565">
-              <caret line="4760" column="56" selection-start-line="4760" selection-start-column="45" selection-end-line="4760" selection-end-column="56" />
+            <state vertical-scroll-proportion="-5.909091" vertical-offset="26325" max-vertical-offset="71565">
+              <caret line="1768" column="25" selection-start-line="1768" selection-start-column="25" selection-end-line="1768" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -390,7 +97,7 @@
       <file leaf-file-name="professor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="975" max-vertical-offset="2565">
+            <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="2565">
               <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
               <folding />
             </state>
@@ -412,6 +119,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="1005">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utfpr/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2820">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -455,10 +172,10 @@
         <option value="$PROJECT_DIR$/desenvolvimento/urls.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/templates/leitorXML.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/leitoXMl.py" />
-        <option value="$PROJECT_DIR$/desenvolvimento/models.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html" />
         <option value="$PROJECT_DIR$/desenvolvimento/views.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html" />
+        <option value="$PROJECT_DIR$/desenvolvimento/models.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml" />
         <option value="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" />
       </list>
@@ -541,6 +258,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utfpr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utfpr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utfpr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="desenvolvimento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -606,7 +337,7 @@
       <recent name="$PROJECT_DIR$/desenvolvimento" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.leitorXMl">
     <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -622,30 +353,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in utfpr" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="utfpr" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -701,6 +408,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="utfpr" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desenvolvimento/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="leitorXMl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desenvolvimento" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="utfpr" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -831,18 +557,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.manage" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in utfpr" />
-      <item index="2" class="java.lang.String" itemvalue="Python.populate_database" />
-      <item index="3" class="java.lang.String" itemvalue="Python.start_djcelery" />
-      <item index="4" class="java.lang.String" itemvalue="Python.models" />
+      <item index="1" class="java.lang.String" itemvalue="Python.populate_database" />
+      <item index="2" class="java.lang.String" itemvalue="Python.start_djcelery" />
+      <item index="3" class="java.lang.String" itemvalue="Python.models" />
+      <item index="4" class="java.lang.String" itemvalue="Python.leitorXMl" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="1" class="java.lang.String" itemvalue="Python.models" />
-        <item index="2" class="java.lang.String" itemvalue="Python.populate_database" />
-        <item index="3" class="java.lang.String" itemvalue="Python.start_djcelery" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in utfpr" />
+        <item index="0" class="java.lang.String" itemvalue="Python.leitorXMl" />
+        <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="2" class="java.lang.String" itemvalue="Python.models" />
+        <item index="3" class="java.lang.String" itemvalue="Python.populate_database" />
+        <item index="4" class="java.lang.String" itemvalue="Python.start_djcelery" />
       </list>
     </recent_temporary>
   </component>
@@ -864,7 +590,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.50038433" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -877,7 +603,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819724" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29275808" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -923,7 +649,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1131,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utfpr/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2820">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utfpr/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="690">
@@ -1222,10 +941,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding>
+            <element signature="e#27#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="2490">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="2565">
+          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1246,53 +991,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/urls.py">
+    <entry file="file://$PROJECT_DIR$/utfpr/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="975" max-vertical-offset="2565">
-          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="e#27#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1405" max-vertical-offset="2085">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2820">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.6285715" vertical-offset="70993" max-vertical-offset="71565">
-          <caret line="4760" column="56" selection-start-line="4760" selection-start-column="45" selection-end-line="4760" selection-end-column="56" />
+        <state vertical-scroll-proportion="-5.909091" vertical-offset="26325" max-vertical-offset="71565">
+          <caret line="1768" column="25" selection-start-line="1768" selection-start-column="25" selection-end-line="1768" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="717" max-vertical-offset="1335">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9516129" vertical-offset="745" max-vertical-offset="2505">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.74380165" vertical-offset="630" max-vertical-offset="2925">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

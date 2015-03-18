@@ -1,66 +1,13 @@
 from django.db import models
 # Create your models here.
 
-CATEGORIAS = (
-    ('0', 'Adm, Contabeis e Turismo'),
-    ('1', 'Antropologia / Arqueologia'),
-    ('2', 'Arquitetura e Urbanismo'),
-    ('3', 'Artes / Musica'),
-    ('4', 'Astronomia / Fisica'),
-    ('5', 'Biodiversidade'),
-    ('6', 'Biotecnologia'),
-    ('7', 'Ciencia da Computacao'),
-    ('8', 'Ciencia de Alimentos'),
-    ('9', 'Ciencia Politica e Relacoes Internacionais'),
-    ('10', 'Ciencias Agrarias'),
-    ('11', 'Ciencias Ambientais'),
-    ('12', 'Ciencias Biologicas I'),
-    ('13', 'Ciencias Biologicas II'),
-    ('14', 'Ciencias Biologicas III'),
-    ('15', 'Ciencias Sociais Aplicadas I'),
-    ('16', 'Direito'),
-    ('17', 'Economia'),
-    ('18', 'Educacao'),
-    ('19', 'Educacao Fisica'),
-    ('20', 'Enfermagem'),
-    ('21', 'Engenharias I'),
-    ('22', 'Engenharias II'),
-    ('23', 'Engenharias III'),
-    ('24', 'Engenharias IV'),
-    ('25', 'Ensino'),
-    ('26', 'Farmacia'),
-    ('27', 'Filosofia/Teologia - Filosofia'),
-    ('28', 'Filosofia/Teologia - Teologia'),
-    ('29', 'Geociencias'),
-    ('30', 'Geografia'),
-    ('31', 'Historia'),
-    ('32', 'Interdisciplinar'),
-    ('33', 'Letras / Linguistica'),
-    ('34', 'Matematica / Probabilidade e Estatistica'),
-    ('35', 'Materiais'),
-    ('36', 'Medicina I'),
-    ('37', 'Medicina II'),
-    ('38', 'Medicina III'),
-    ('39', 'Medicina Veterinaria'),
-    ('40', 'Nutricao'),
-    ('41', 'Odontologia'),
-    ('42', 'Planejamento Urbano e Regional / Demografia'),
-    ('43', 'Psicologia'),
-    ('44', 'Quimica'),
-    ('45', 'Saude Coletiva'),
-    ('46', 'Servico Social'),
-    ('47', 'Sociologia'),
-    ('48', 'Zootecnia / Recursos Pesqueiros'),
-
-)
-
 
 class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
     sigla = models.CharField('Sigla', max_length=100)
     # chefe = models.ForeignKey(Professor)
     # suplente = models.ForeignKey(Professor)
-    #funcionario = [Funcionario]
+    # funcionario = [Funcionario]
 
 
 class Funcionario(models.Model):
@@ -71,19 +18,23 @@ class Funcionario(models.Model):
     funcao = models.CharField('Funcao', max_length=100)
 
 
+class Formacao(models.Model):
+    ano_inicio = models.CharField('Ano de Inicio', max_length=4)
+    ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
+    tipo =  models.CharField('Tipo', max_length=511)
+    descricao= models.CharField('Descricao', max_length=5000)
+
+class areadeAtuacao(models.Model):
+    descricao = models.CharField('Area de Atuacao', max_length=511)
+
 class Professor(Funcionario, models.Model):
     lattes = models.CharField('Link do Lattes', max_length=50)
-    # nomeCompleto = models.ForeignKey(Professor, related_name = 'NomeProfessor')
     bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)
     enderecoProfissional = models.CharField('Endereco Profissional', max_length=255)
     nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500)
-
-
-# enderecoProfissionalLat = models.CharField('Endereco Profissional Latitude ', max_length=255)
-# enderecoProfissionalLon = models.CharField('Endereco Profissional Longitude', max_length=255)
-#foto
-
+    formacao_academica = [Formacao]
+    areadeAtuacao = [areadeAtuacao]
 
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
@@ -130,4 +81,3 @@ class Projeto(models.Model):
     AgendaFinanciadora = models.CharField('Agencia Financiadora', max_length=255)
     nome =  models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=5000)
-

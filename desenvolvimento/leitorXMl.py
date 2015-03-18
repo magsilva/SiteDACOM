@@ -1,10 +1,6 @@
 from __future__ import print_function
-
-__author__ = 'root'
+import mysql.connector
 from xml.dom import minidom
-
-i = 0;
-
 if __name__ == "__main__":
     x = minidom.parse('lattes/data/lattes-site/database.xml')
     CurriculoLattes = x.documentElement
@@ -14,8 +10,8 @@ if __name__ == "__main__":
         nome_inicial = prof.getElementsByTagName("nome_inicial")[0]
         sexo = prof.getElementsByTagName("sexo")[0]
         endereco_profissional = prof.getElementsByTagName("endereco_profissional")[0]
-        print('--> %s' % id)
-        print("---> %s" % nome_inicial.firstChild.data)
+        # print('--> %s' % id)
+        # print("---> %s" % nome_inicial.firstChild.data)
 
         projeto = prof.getElementsByTagName("projeto")
         for proj in projeto:
@@ -36,6 +32,13 @@ if __name__ == "__main__":
             except IndexError:
                 desc =""
 
+            # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+            # c = con.cursor()
+            # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+            # c.execute(sql)
+            # con.commit()
+            # c.close()
+            # con.close()
 
         artigos = prof.getElementsByTagName("artigos_em_periodicos")
         for art in artigos:
@@ -61,8 +64,23 @@ if __name__ == "__main__":
                 volume =""
             try:
                 paginas = art.getElementsByTagName('paginas')[0]
+                paginaInicial= ''
+                paginaFinal=''
+                for a in paginas.firstChild.data:
+                    paginaInicial = paginas+a
+                    if a== '-': break
+                for a in paginas.firstChild.data:
+                    
+                    paginaInicial = paginaInicial+a
+
+                    # print("--->  %s" % paginaInicial)
+                    # else:
+                        # num = len(paginaInicial)
+                        # paginaFinal = paginas[num+1:]
+                        # print("---> %s " %  paginaFinal
             except IndexError:
                 paginas =""
+
             try:
                 numero = art.getElementsByTagName('numero')[0]
             except IndexError:
@@ -71,6 +89,23 @@ if __name__ == "__main__":
                 ano = art.getElementsByTagName('ano')[0]
             except IndexError:
                 ano =""
+
+            # paginaInicio = paginas.__getslice__()
+            # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+            # c = con.cursor()
+            # sql = "INSERT INTO desenvolvimento_artigo (titulo, data, doi, paginaInicial, paginaFinal, Resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+            # c.execute(sql)
+            # con.commit()
+            # c.close()
+            # con.close()
+
+                # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+                # c = con.cursor()
+                # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+                # c.execute(sql)
+                # con.commit()
+                # c.close()
+                # con.close()
 
             #print ("%s" %titulo.childNodes[0].data)
             # print ("%s" %ano_inicio.childNodes[0].data)
@@ -117,14 +152,7 @@ if __name__ == "__main__":
         # print '-->'
 
 
-        # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
-        # i+=1
-        # c = con.cursor()
-        #  sql = "INSERT INTO desenvolvimento_funcionario (departamento_id, funcao, nome) VALUES ('%d', '%s' , '%s')" % (1, 'Professor', nome_inicial.firstChild.data)
-        #c.execute(sql)
-        # con.commit()
-        # c.close()
-        # con.close()
+
 
         #  projeto=CurriculoLattes.documentElement
 
