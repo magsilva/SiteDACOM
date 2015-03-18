@@ -68,10 +68,8 @@ if __name__ == "__main__":
                 paginaFinal=''
                 for a in paginas.firstChild.data:
                     paginaInicial = paginas+a
-                    if a== '-': break
                 for a in paginas.firstChild.data:
-                    
-                    paginaInicial = paginaInicial+a
+                         paginaInicial = paginaInicial+a
 
                     # print("--->  %s" % paginaInicial)
                     # else:

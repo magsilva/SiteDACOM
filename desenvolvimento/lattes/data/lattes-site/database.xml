@@ -6,6 +6,7 @@
       <nome_inicial>Alessandro Kraemer</nome_inicial>
       <nome_completo>Alessandro Kraemer</nome_completo>
       <nome_citacao_bibliografica>KRAEMER, A.;Alessandro Kraemer;KRAEMER, ALESSANDRO</nome_citacao_bibliografica>
+        <!-- usar para identificar os profs-->
       <sexo>Masculino</sexo>
     </identificacao>
     <idiomas>
@@ -105,7 +106,7 @@
           <ano>2013</ano>
         </capitulo>
     </capitulos_livros>
-    <trabalho_completo_congresso>
+    <trabalho_completo_congresso><!--  Eventos-->
         <trabalho_completo>
           <doi>http://dx.doi.org/10.3233/978-1-61499-322-3-123</doi>
           <autores>NOYA, G. P. ; TANAKA, T. ; KRAEMER, A.</autores>
@@ -143,7 +144,7 @@
           <paginas>11-18</paginas>
         </trabalho_completo>
     </trabalho_completo_congresso>
-    <resumo_congresso>
+    <resumo_congresso> <!-- artigo resumido do evento -->
         <resumo>
           <doi></doi>
           <autores>KRAEMER, A. ; KURODA, R. T. ; GOLDMAN, A.</autores>
@@ -338,7 +339,7 @@
         <id_lattes_colaborador>7992586996463223</id_lattes_colaborador>
         <id_lattes_colaborador>7810321373328408</id_lattes_colaborador>
     </colaboradores>
-    <artigos_em_periodicos>
+    <artigos_em_periodicos><!-- artigo em periodico -->
         <artigo>
           <doi>http://dx.doi.org/10.1007/s10606-012-9164-4</doi>
           <titulo>Awareness Support in Distributed Software Development: A Systematic Review and Mapping of the Literature</titulo>

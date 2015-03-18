@@ -81,3 +81,4 @@ class Projeto(models.Model):
     AgendaFinanciadora = models.CharField('Agencia Financiadora', max_length=255)
     nome =  models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=5000)
+
