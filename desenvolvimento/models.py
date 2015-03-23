@@ -36,6 +36,7 @@ class Professor(Funcionario, models.Model):
     formacao_academica = [Formacao]
     areadeAtuacao = [areadeAtuacao]
 
+
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20)
