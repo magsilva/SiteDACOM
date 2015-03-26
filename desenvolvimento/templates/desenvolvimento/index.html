@@ -54,6 +54,18 @@
 
                 --> <h2>Início</h2>
 
+                <ul>
+                {% for proj in listadeProjetos.all %}
+
+                       <li>
+                          <h3> {{ proj.nome }} </h3>
+                           <p/>
+                           {{ proj.resumo }}
+                       </li>
+
+                {% endfor %}
+                </ul>
+
                 <a href="detalhes.html" class="button">Leia Mais</a>
                 <a href="detalhes.html" class="button">Comentários</a>
             </article>

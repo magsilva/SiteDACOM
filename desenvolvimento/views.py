@@ -4,15 +4,20 @@ from django.template import loader
 from django.http import HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render_to_response
-from django import forms
+from models import *
 
-from desenvolvimento.models import Curso, Funcionario
-from models import Professor
 
+# def index(request):
+#
+#     return render_to_response('index.html', {})
 
 def index(request):
-
-    return render_to_response('index.html', {})
+    listadeProjetos = Projeto.objects.all().order_by('dataInicio')
+    t =loader.get_template('index.html')
+    c = RequestContext(request, {
+        'listadeProjetos': listadeProjetos,
+    })
+    return HttpResponse(t.render(c))
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')
@@ -24,7 +29,7 @@ def curso(request):
 
 
 def professor(request):
-    listasdeFunc = Funcionario.objects.all().order_by('nome')
+    listasdeFunc = Professor.objects.all().order_by('nome')
 
     t = loader.get_template('professor.html')
     c = RequestContext(request, {
