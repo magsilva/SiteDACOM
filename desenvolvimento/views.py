@@ -7,12 +7,8 @@ from django.shortcuts import render_to_response
 from models import *
 
 
-# def index(request):
-#
-#     return render_to_response('index.html', {})
-
 def index(request):
-    listadeProjetos = Projeto.objects.all().order_by('dataInicio')
+    listadeProjetos = Projeto.objects.all().order_by('-dataInicio')
     t =loader.get_template('index.html')
     c = RequestContext(request, {
         'listadeProjetos': listadeProjetos,
@@ -27,7 +23,6 @@ def curso(request):
     })
     return HttpResponse(t.render(c))
 
-
 def professor(request):
     listasdeFunc = Professor.objects.all().order_by('nome')
 
@@ -36,8 +31,6 @@ def professor(request):
         'listasdeProf': listasdeFunc,
     })
     return HttpResponse(t.render(c))
-    #return render_to_response('professor.html', {})
-
 
 def eventos(request):
     return render_to_response('eventos.html', {})

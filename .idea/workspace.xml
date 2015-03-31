@@ -1,245 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aadf1f5b-065c-4364-93a4-f533304d0487" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/COPYING" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/css/scriptLattes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/0.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/11.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/12.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/13.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/14.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/15.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/16.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/17.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/18.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/19.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/20.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/21.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/22.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/23.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/24.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/25.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/26.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/27.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/28.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/29.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/30.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/31.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/32.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/33.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/34.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/35.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/36.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/37.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/38.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/39.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/4.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/40.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/41.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/42.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/43.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/44.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/45.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/46.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/47.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/48.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/exemplo.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/exemplo.list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/periodicos.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/exemplo/qualis_computacao_conferencias_2012.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/doi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/imagens/lattesPoint_shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Eo-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Eo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Ep-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Ep.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA2-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OA2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC2-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC3-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC4-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC5-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/OC5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB0-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB1-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB2-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB4-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB5-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB6-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB7-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB8-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB9-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PB9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT5-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/PT5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pj-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pm-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/Pm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/doi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesComPesos.dot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesComPesos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesInterativo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesNormalizado.dot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesNormalizado.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesSemPesos-t.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesSemPesos.dot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/grafoDeColaboracoesSemPesos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/lattesPoint_shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/membros.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/scriptLattes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-authorRank.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-listaDeNomes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-listaDeRotulos.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeAdjacencia.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeAdjacencia.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeFrequencia.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-matrizDeFrequenciaNormalizada.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-membros.ris" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-publicacoes.ris" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-qualisGrupal.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-qualisPorMembro.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/output/teste-02-vetorDeProducoes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/authorRank.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/.geolocalizador.py.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/geolocalizador.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/graficoDeBarras.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/graficoDeInternacionalizacao.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/graficoDeProporcoes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/grafoDeColaboracoes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/grafoDeColaboracoes.py.old-python" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/mapaDeGeolocalizacao.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/charts/testeGeolocalizador.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/compiladorDeListas.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/countries.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/countries.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/eventos/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/eventos/organizacaoDeEvento.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/eventos/participacaoEmEvento.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/geradorDePaginasWeb.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/geradorDeXML.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/geradorDeXML.py.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/grupo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/HTMLParserNew.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/analisadorDePublicacoes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/depuradorDOIhtml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/genericParser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/new  2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parser101007.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parser101021.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parser101590.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/parserFileConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/internacionalizacao/publicacaoEinternacionalizacao.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/membro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/membro.py.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/orientacoes/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/orientacoes/orientacaoConcluida.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/orientacoes/orientacaoEmAndamento.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/parserLattes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/parserLattesXML.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesArtisticas/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesArtisticas/producaoArtistica.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/apresentacaoDeTrabalho.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoAceito.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoAceito.py.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoEmPeriodico.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/artigoEmPeriodico.py.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/capituloDeLivroPublicado.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/livroPublicado.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/outroTipoDeProducaoBibliografica.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/resumoEmCongresso.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/resumoExpandidoEmCongresso.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/textoEmJornalDeNoticia.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/trabalhoCompletoEmCongresso.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesBibliograficas/trabalhoCompletoEmCongresso.py.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/outroTipoDeProducaoTecnica.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/processoOuTecnica.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/produtoTecnologico.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/softwareComPatente.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/softwareSemPatente.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesTecnicas/trabalhoTecnico.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/areaDeAtuacao.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/formacaoAcademica.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/idioma.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/premioOuTitulo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/producoesUnitarias/projetoDePesquisa.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/qualis/READ_ME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/qualis/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/scriptLattes/qualis/qualis.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/stuff-olds/scriptLattes.tra" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/stuff-olds/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/lattes/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/migrations/0002_auto__add_field_cv_categoria.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/tasks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/templates/status.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/celery.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/celerybeat.pid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desenvolvimento/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desenvolvimento/populate_database.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desenvolvimento/start_djcelery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desenvolvimento/task.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desenvolvimento/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/0002_auto__add_field_cv_categoria.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utfpr/celery.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/lattes/scriptLattes" afterPath="$PROJECT_DIR$/desenvolvimento/lattes/scriptLattes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utfpr/__init__.py" afterPath="$PROJECT_DIR$/utfpr/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/admin.py" afterPath="$PROJECT_DIR$/desenvolvimento/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html" afterPath="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" afterPath="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/models.py" afterPath="$PROJECT_DIR$/desenvolvimento/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utfpr/settings.py" afterPath="$PROJECT_DIR$/utfpr/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/utfpr.iml" afterPath="$PROJECT_DIR$/.idea/utfpr.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desenvolvimento/views.py" afterPath="$PROJECT_DIR$/desenvolvimento/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -265,105 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32659408" vertical-offset="720" max-vertical-offset="1530">
-              <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populate_database.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/populate_database.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="990">
-              <caret line="60" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_djcelery.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/start_djcelery.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.291667" vertical-offset="536" max-vertical-offset="2670">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="750">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-              <folding>
-                <element signature="e#27#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leitorXMl.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="leitorXMl.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="3300">
-              <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desenvolvimento/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.4" vertical-offset="576" max-vertical-offset="3924">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -392,35 +80,37 @@
         <option value="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/views.py" />
         <option value="$PROJECT_DIR$/webscriptlattes-master/weblattes/proxy/tasks.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/tasks.py" />
-        <option value="$PROJECT_DIR$/utfpr/settings.py" />
-        <option value="$PROJECT_DIR$/utfpr/__init__.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/populate_database.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/start_djcelery.py" />
         <option value="$PROJECT_DIR$/webscriptlattes-master/weblattes/weblattes/celery.py" />
         <option value="$PROJECT_DIR$/utfpr/urls.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/status.html" />
         <option value="$PROJECT_DIR$/migrations/0002_auto__add_field_cv_categoria.py" />
-        <option value="$PROJECT_DIR$/desenvolvimento/task.py" />
         <option value="$PROJECT_DIR$/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/utfpr/celery.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/urls.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/templates/leitorXML.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/leitoXMl.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html" />
         <option value="$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml" />
-        <option value="$PROJECT_DIR$/desenvolvimento/admin.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/models.py" />
-        <option value="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" />
-        <option value="$PROJECT_DIR$/desenvolvimento/views.py" />
         <option value="$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html" />
+        <option value="$PROJECT_DIR$/desenvolvimento/views.py" />
+        <option value="$PROJECT_DIR$/desenvolvimento/task.py" />
+        <option value="$PROJECT_DIR$/utfpr/task.py" />
+        <option value="$PROJECT_DIR$/utfpr/celery.py" />
+        <option value="$PROJECT_DIR$/utfpr/__init__.py" />
+        <option value="$PROJECT_DIR$/desenvolvimento/admin.py" />
+        <option value="$PROJECT_DIR$/utfpr/settings.py" />
+        <option value="$PROJECT_DIR$/utfpr/tasks.py" />
+        <option value="$PROJECT_DIR$/desenvolvimento/leitorXMl.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="55" />
+    <option name="y" value="-14" />
+    <option name="width" value="1321" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -464,6 +154,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -506,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="desenvolvimento" />
+              <option name="myItemId" value="documentacao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,18 +214,9 @@
               <option name="myItemId" value="desenvolvimento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desenvolvimento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -556,7 +238,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="990" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -569,6 +251,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utfpr" />
       <recent name="$PROJECT_DIR$/desenvolvimento" />
     </key>
   </component>
@@ -823,28 +506,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="55" y="-14" width="1321" height="792" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27594158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27132976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.50038433" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2827381" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2827381" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -891,11 +574,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3924">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17795" max-vertical-offset="71580">
+          <caret line="1205" column="21" selection-start-line="1205" selection-start-column="21" selection-end-line="1205" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/desenvolvimento/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1530">
           <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,9 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,39 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1530">
           <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/professor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="2565">
-          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/lattes/data/lattes-site/database.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17795" max-vertical-offset="71580">
-          <caret line="1205" column="21" selection-start-line="1205" selection-start-column="21" selection-end-line="1205" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1530">
-          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="1530">
           <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3330">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1530">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/celerybeat.pid">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
@@ -1100,34 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utfpr/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/0002_auto__add_field_cv_categoria.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="630">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/status.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15347335" vertical-offset="385" max-vertical-offset="1005">
@@ -1135,31 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utfpr/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2820">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utfpr/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7200622" vertical-offset="47" max-vertical-offset="690">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utfpr/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2332815" vertical-offset="0" max-vertical-offset="643">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utfpr/celery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34992224" vertical-offset="0" max-vertical-offset="643">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1184,95 +793,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desenvolvimento/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/apps.py">
+    <entry file="file://$PROJECT_DIR$/utfpr/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="3300">
-          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/populate_database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="990">
-          <caret line="60" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/start_djcelery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desenvolvimento/templates/desenvolvimento/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.291667" vertical-offset="536" max-vertical-offset="2670">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-          <folding />
+        <state vertical-scroll-proportion="0.6365105" vertical-offset="536" max-vertical-offset="2670">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desenvolvimento/views.py">
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/lattes/scriptLattes/scriptLattes/charts/graficoDeInternacionalizacao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="750">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="e#27#61#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.19440125" vertical-offset="835" max-vertical-offset="2505">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2332815" vertical-offset="0" max-vertical-offset="643">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1280,6 +832,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32659408" vertical-offset="720" max-vertical-offset="1530">
           <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5800933" vertical-offset="2" max-vertical-offset="645">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utfpr/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utfpr/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="2385">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desenvolvimento/leitorXMl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4" vertical-offset="576" max-vertical-offset="3924">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding />
         </state>
       </provider>

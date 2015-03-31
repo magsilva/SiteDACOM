@@ -1,11 +1,3 @@
-# Django settings for utfpr project.
-
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
-
-import djcelery
-djcelery.setup_loader()
-
 ADMINS = (
     # ('humberto', 'humberto_voleibol@hotmail.com'),
 )
@@ -127,15 +119,10 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'desenvolvimento',
     'south',
-    'djcelery',
-   # 'kombu.transport.django',
-    #'lattes.scriptLattes',
-    # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
-
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error when DEBUG=False.
@@ -164,19 +151,3 @@ LOGGING = {
         },
     }
 }
-
-#django celery: task scheduling package
-# BROKER_HOST = "localhost"
-# BROKER_PORT = 8000
-# BROKER_VHOST = "teste"
-# BROKER_USER = "humbbetao"
-# BROKER_PASSWORD = "humb8657naval"
-# BROKER_BACKEND = "djkombu.transport.DatabaseTransport"
-#
-# CELERY_RESULT_BACKEND = "mysql"
-# CELERY_IMPORTS = ("desenvolvimento.tasks", )
-#
-# CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
-
-
-#django celery: task scheduling package
