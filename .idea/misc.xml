@@ -20,7 +20,11 @@
   <component name="ProjectModuleManager">
     <modules />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.1 (/usr/bin/python3.4)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.2 (/usr/bin/python3.4)" project-jdk-type="Python SDK" />
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
   <component name="RunManager">
     <list size="0" />
   </component>

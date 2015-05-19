@@ -1,10 +1,16 @@
 from django.db import models
+<<<<<<< HEAD
+=======
+# Create your models here.
+
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
 
 class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
     sigla = models.CharField('Sigla', max_length=100)
     # chefe = models.ForeignKey(Professor)
     # suplente = models.ForeignKey(Professor)
+<<<<<<< HEAD
 
 class Professor(models.Model):
     nome = models.CharField('Nome', max_length=100)
@@ -17,19 +23,57 @@ class Professor(models.Model):
     enderecoProfissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
     nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
+=======
+    # funcionario = [Funcionario]
+
+
+# class Funcionario(models.Model):
+#     nome = models.CharField('Nome', max_length=100)
+#     email = models.CharField('E-mail', max_length=200)
+#     telefone = models.CharField('Telefone', max_length=20)
+#     departamento = models.ForeignKey(DepartamentoAcademico)
+#     funcao = models.CharField('Funcao', max_length=100)
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
 
 
 class Formacao(models.Model):
     ano_inicio = models.CharField('Ano de Inicio', max_length=4)
     ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
+<<<<<<< HEAD
     tipo = models.CharField('Tipo', max_length=511)
     descricao = models.CharField('Descricao', max_length=5000)
+=======
+    tipo =  models.CharField('Tipo', max_length=511)
+    descricao= models.CharField('Descricao', max_length=5000)
+
+class areadeAtuacao(models.Model):
+    descricao = models.CharField('Area de Atuacao', max_length=511)
+
+class Professor(models.Model):
+    nome = models.CharField('Nome', max_length=100)
+    email = models.CharField('E-mail', max_length=200)
+    telefone = models.CharField('Telefone', max_length=20)
+    departamento = models.ForeignKey(DepartamentoAcademico)
+    funcao = models.CharField('Funcao', max_length=100)
+    lattes = models.CharField('Link do Lattes', max_length=50)
+    bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)
+    enderecoProfissional = models.CharField('Endereco Profissional', max_length=5000)
+    nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255)
+    textoResumo = models.CharField('bolsaProdutividade', max_length=500)
+    # formacao_academica = [Formacao]
+    # areadeAtuacao = [areadeAtuacao]
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
 
 
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
+<<<<<<< HEAD
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
     # disciplina = models.CharField('Disciplina', max_length=100)
+=======
+    sigla = models.CharField('Sigla', max_length=20)
+    disciplina = models.CharField('Disciplina', max_length=100)
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
 
 
 class Coordenacao(models.Model):
@@ -42,9 +86,15 @@ class Artigo(models.Model):
     listadeAutores = models.CharField('Lista de Autores', max_length=5000)
     titulo = models.CharField('Titulo do Artigo', max_length=255)
     data = models.CharField('Data do Artigo', max_length=5)
+<<<<<<< HEAD
     doi = models.CharField('DOI', max_length=255, null=True, blank=True)
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
+=======
+    doi = models.CharField('DOI', max_length=255)
+    paginas = models.CharField('Paginas', max_length=10)
+    Resumo = models.CharField('Resumo', max_length=5000)
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
 
 
 class ArtigoEmPeriodico(Artigo):
@@ -54,12 +104,17 @@ class ArtigoEmPeriodico(Artigo):
     numero = models.CharField('Numero', max_length=10)
     volume = models.CharField('Volume', max_length=10)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
 class ArtigoEmConferencia(Artigo):
     nomedaConferencia = models.CharField('Nome da Conferencia', max_length=255)
     ISSN = models.CharField('Codigo ISSN', max_length=50)
     ISBN = models.CharField('Codigo ISBN', max_length=50)  # obrigatorio
     local = models.CharField('Local da Conferencia', max_length=255)
 
+<<<<<<< HEAD
 
 class Projeto(models.Model):
     listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000, null=True, blank=True)
@@ -70,11 +125,22 @@ class Projeto(models.Model):
     nome = models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=10000)
 
+=======
+class Projeto(models.Model):
+    listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000)
+    listaColaboradores = models.CharField('Lista de Colaboradores', max_length=5000)
+    dataInicio = models.CharField('Data Inicio', max_length=5)
+    datadeFim = models.CharField('Data de Fim', max_length=5)
+    AgendaFinanciadora = models.CharField('Agencia Financiadora', max_length=255)
+    nome =  models.CharField('Nome do Projeto', max_length=1000)
+    resumo = models.CharField('Resumo', max_length=5000)
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
 
 class Evento(models.Model):
     doi = models.CharField('DOI', max_length=255)
     autores = models.CharField('Autores', max_length=5000)
     titulo = models.CharField('Titulo', max_length=5000)
+<<<<<<< HEAD
     nomeEvento = models.CharField('Nome do Evento', max_length=5000, null=True, blank=True)
     ano = models.CharField('Ano', max_length=4)
     volume = models.CharField('Volume', max_length=10)
@@ -91,3 +157,9 @@ class Formacao(models.Model):
 
 class AreaDeAtuacao(models.Model):
     descricao = models.CharField('Descricao', max_length=1000)
+=======
+    nomeEvento = models.CharField('Nome do Evento', max_length=5000)
+    ano = models.CharField('Ano', max_length=4)
+    volume = models.CharField('Volume', max_length=10)
+    paginas = models.CharField('Paginas', max_length=255)
+>>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041

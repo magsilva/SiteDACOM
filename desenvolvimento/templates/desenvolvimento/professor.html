@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    {% load staticfiles %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap-responsive.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap-responsive.min.css' %}">
+
+    <script type="text/javascript" href="{% static 'js/bootstrap.js'%}"></script>
+    <script type="text/javascript" href="{% static 'js/bootstrap.min.js'%}"></script>
+    <script type="text/javascript" href="{% static 'js/bootstrap.js'%}"></script>
+    <script type="text/javascript" href="{% static 'js/bootstrap.min.js'%}"></script>
+    <script type="text/javascript" href="{% static 'js/bootstrap.js'%}"></script>
+    <script type="text/javascript" href="{% static 'js/bootstrap.min.js'%}"></script>
+
+
+    <title> UTFPR </title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--
+
+    License: Creative Commons Attribution
+    //-->
+
+
+</head>
+<body>
+<div id="container">
+    <header>
+        <div class="width">
+            <center>
+                <a href="index.html">
+                    <img src="/home/humberto/Documentos/utfpr/desenvolvimento/static/desenvolvimento/img/logo.png"/>
+                </a>
+                <a><h3> DACOM - Departamento de Computação </h3></a>
+                <center>
+        </div>
+    </header>
+    <nav>
+        <div class="width">
+            <ul>
+                <li class=""><a href="index.html">Início</a></li>
+                <li class=""><a href="curso.html">Cursos</a></li>
+                <li class="start selected"><a href="professor.html">Professores</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li class="text">
+                    <form method="get" class="searchform" action="#">
+                        <p>
+                            <input type="text" size="25" value="" name="s" class="s"/>
+                            <button type="submit" class="button"> Buscar</button>
+                        </p>
+                    </form>
+                </li>
+                <li class="end">
+
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="body" class="width">
+
+        <section id="content">
+
+
+            <article class="expanded">
+                <ul>
+
+                <h2>Professores Presentes no Câmpus</h2>
+                                <ul  class="styledlist">
+                {% for prof in listasdeProf.all %}
+
+                       <li>
+                         Nome  <a href="curso.html">  {{ prof.nome }} </a>
+                           Função {{ prof.funcao }}
+                       </br>  Link do Lattes:
+                           <p>
+                       </li>
+
+                {% endfor %}
+                </ul>
+
+                <!--<ul class="styledlist">-->
+                    <!--<p>-->
+
+                    <!--<p>-->
+                        <!--&lt;!&ndash;{% for  professor in listaDeProfessores %}-->
+                                <!--<li>Nome: {{professor.nome }} </li>-->
+                           <!--<li>Email: {{professor.email}}</li>-->
+                           <!--<li>Link do Lattes: <a href="lattes.cnpq.br/9383290036853173">https://www.lattes.cnpq.br/9383290036853173</a></li>-->
+                       <!--{% endfor %}&ndash;&gt;-->
+                <!--</ul>-->
+            </article>
+
+        </section>
+
+        <div class="clear"></div>
+    </div>
+    <footer>
+        <div class="footer-content width">
+
+            <ul>
+                <a href="index.html">
+                    <li><h3>Início</h3></li>
+                </a>
+            </ul>
+            <ul>
+                <a href="curso.html">
+                    <li><h3>Cursos</h3></li>
+                </a>
+            </ul>
+            <ul>
+                <a href="professor.html">
+                    <li><h3>Professores</h3></li>
+                </a>
+            </ul>
+            <ul>
+                <a href="eventos.html">
+                    <li><h3>Eventos</h3></li>
+                </a>
+            </ul>
+            <!-- <ul>
+                 <li><h4>Proin accumsan</h4></li>
+                 <li><a href="#">Rutrum nulla a ultrices</a></li>
+                 <li><a href="#">Blandit elementum</a></li>
+                 <li><a href="#">Proin placerat accumsan</a></li>
+                 <li><a href="#">Morbi hendrerit libero </a></li>
+                 <li><a href="#">Curabitur sit amet tellus</a></li>
+             </ul>
+
+             <ul>
+                 <li><h4>Condimentum</h4></li>
+                 <li><a href="#">Curabitur sit amet tellus</a></li>
+                 <li><a href="#">Morbi hendrerit libero </a></li>
+                 <li><a href="#">Proin placerat accumsan</a></li>
+                 <li><a href="#">Rutrum nulla a ultrices</a></li>
+                 <li><a href="#">Cras dictum</a></li>
+             </ul>
+
+             <ul class="endfooter">
+                 <li><h4>Suspendisse</h4></li>
+                 <li><a href="#">Morbi hendrerit libero </a></li>
+                 <li><a href="#">Proin placerat accumsan</a></li>
+                 <li><a href="#">Rutrum nulla a ultrices</a></li>
+                 <li><a href="#">Curabitur sit amet tellus</a></li>
+                 <li><a href="#">Donec in ligula nisl.</a></li>
+             </ul>-->
+
+            <div class="clear"></div>
+        </div>
+        <div class="footer-bottom">
+            UTFPR - Universidade Tecnológica Federal do Paraná Câmpus Campo Mourão
+            <!-- Desenvolvido por Humberto Moreira Gonçalves"-->
+        </div>
+    </footer>
+</div>
+</body>
+</html>
