@@ -4,12 +4,12 @@ from django.conf.urls import patterns
 admin.autodiscover()
 
 urlpatterns = patterns('desenvolvimento.views',
-                      url(r'^$', 'views.index', name='index'),
-                      url(r'^index/$', 'views.index', name='index'),
-                      url(r'^curso/$', 'views.curso', name='curso'),
+                      url(r'^', 'index', name='index'),
+                      url(r'^index', 'index', name='index'),
+                      url(r'^curso', 'curso', name='curso'),
                        # (r'^detalhesCurso.html', 'detalhesCurso'),
-                      url(r'^professor/$', 'views.professor', name='professor'),
-                      url(r'^eventos/$', 'views.eventos', name='eventos'),
+                      url(r'^professor', 'professor', name='professor'),
+                      url(r'^eventos', 'eventos', name='eventos'),
                        # (r'^detalhesCurso/(0-9]+)/$', 'detalhesCurso'),
                        )
 
