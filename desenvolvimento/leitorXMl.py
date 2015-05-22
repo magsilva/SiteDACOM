@@ -13,122 +13,122 @@ if __name__ == "__main__":
         nomeemCItacoes = prof.getElementsByTagName("nome_citacao_bibliografica")[0]
 
         # print('--> %s' % id)
-        # print("---> %s" % nome_inicial.firstChild.data)
-        # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
-        # c = con.cursor()
-        #
-        # # sql = 'INSERT INTO desenvolvimento_professor (nome, departamento_id, funcao, lattes, enderecoProfissional, nomeEmCitacoesBibliograficas) VALUES (%s , %d , %s , %d , %s , %s) '  % (nome_inicial.firstChild.data, 1, 'Professor', id, endereco_profissional.firstChild.data, nomeemCItacoes.firstChild.data  )
-        # c.execute(
-        # "INSERT INTO desenvolvimento_professor (nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ( '%s' , '%d' , '%s' , '%s' , '%s') " % (
-        # nome_inicial.firstChild.data, 1, 'Professor', id,  nomeemCItacoes.firstChild.data))
-        # con.commit()
-        # c.close()
-        # con.close()
-
-        projeto = prof.getElementsByTagName("projeto")
-        for proj in projeto:
-            try:
-                ano_inicio = proj.getElementsByTagName('ano_inicio')[0]
-                print('--> %s' % ano_inicio.firstChild.data)
-            except IndexError:
-                ano_inicio = ""
-            try:
-                ano_conclusao = proj.getElementsByTagName('ano_conclusao')[0]
-            except IndexError:
-                ano_conclusao = ""
-            try:
-                nome = proj.getElementsByTagName('nome')[0]
-            except IndexError:
-                nome = ""
-            try:
-                desc = proj.getElementsByTagName('descricao')[0]
-            except IndexError:
-                desc = ""
-
-            # print('--> %s' % ano_inicio.firstChild.data)
-            #
-            # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
-            # c = con.cursor()
-            # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (
-            #     ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
-            # c.execute(
-            #     "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (
-            #         ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data,
-            #         desc.firstChild.data))
-            # con.commit()
-            # c.close()
-            # con.close() 497581q
-
-        # artigos = prof.getElementsByTagName("artigos_em_periodicos")
-        # for art in artigos:
-        #     # try:
-        #     doi = art.getElementsByTagName('doi')[0]
-        #     # except IndexError, TypeError:
-        #     #     doi. = ""
-        #     # try:
-        #     titulo = art.getElementsByTagName('titulo')[0]
-        #     # except IndexError,  TypeError:
-        #     #     titulo = ""
-        #     # try:
-        #     autores = art.getElementsByTagName('autores')[0]
-        #     # except IndexError,  TypeError:
-        #     #     nome = ""
-        #     # try:
-        #     revista = art.getElementsByTagName('revista')[0]
-        #     # except IndexError,  TypeError:
-        #     #     revista = ""
-        #     # try:
-        #     volume = art.getElementsByTagName('volume')[0]
-        #     # except IndexError,  TypeError:
-        #     #     volume = ""
-        #     # try:
-        #     paginas = art.getElementsByTagName('paginas')[0]
-        #     # except IndexError,  TypeError:
-        #     #     paginas = ""
-        #     # try:
-        #     numero = art.getElementsByTagName('numero')[0]
-        #     # except IndexError,  TypeError:
-        #     #     numero = ""
-        #     # try:
-        #     ano = art.getElementsByTagName('ano')[0]
-        #     # except IndexError,  TypeError:
-        #     #     ano = ""
-        #
+        # # print("---> %s" % nome_inicial.firstChild.data)
         # # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
         # # c = con.cursor()
-        # # sql = "INSERT INTO desenvolvimento_artigo (titulo, listadeAutores, data, doi, paginas) VALUES ( '%s', '%s' ,'%s', '%s', '%s')" % \
-        # #       titulo.firstChild.data, autores.firstChild.data, ano.firstChild.data, doi.firstChild.data, paginas.firstChild.data
         # #
-        # # sql2 = "SELECT id FROM desenvolvimento_artigo WHERE '%s " % titulo.firstChild.data
-        # #
-        # # sql3 = "INSERT INTO desenvolvimento_artigoemperiodico (artigo_ptr_id, nomeJournal, numero, volume) VALUES ('%s' , '%s', '%s' , '%s')" % (
-        # #     sql2, revista.firstChild.data, numero.firstChil.data, volume.firstChild.data)
-        # #
-        # # c.execute(sql)
-        # # con.commit()
-        # # c.execute(sql2)
-        # # con.commit()
-        # # c.execute(sql3)
+        # # # sql = 'INSERT INTO desenvolvimento_professor (nome, departamento_id, funcao, lattes, enderecoProfissional, nomeEmCitacoesBibliograficas) VALUES (%s , %d , %s , %d , %s , %s) '  % (nome_inicial.firstChild.data, 1, 'Professor', id, endereco_profissional.firstChild.data, nomeemCItacoes.firstChild.data  )
+        # # c.execute(
+        # # "INSERT INTO desenvolvimento_professor (nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ( '%s' , '%d' , '%s' , '%s' , '%s') " % (
+        # # nome_inicial.firstChild.data, 1, 'Professor', id,  nomeemCItacoes.firstChild.data))
         # # con.commit()
         # # c.close()
         # # con.close()
         #
+        # projeto = prof.getElementsByTagName("projeto")
+        # for proj in projeto:
+        #     try:
+        #         ano_inicio = proj.getElementsByTagName('ano_inicio')[0]
+        #         print('--> %s' % ano_inicio.firstChild.data)
+        #     except IndexError:
+        #         ano_inicio = ""
+        #     try:
+        #         ano_conclusao = proj.getElementsByTagName('ano_conclusao')[0]
+        #     except IndexError:
+        #         ano_conclusao = ""
+        #     try:
+        #         nome = proj.getElementsByTagName('nome')[0]
+        #     except IndexError:
+        #         nome = ""
+        #     try:
+        #         desc = proj.getElementsByTagName('descricao')[0]
+        #     except IndexError:
+        #         desc = ""
         #
+        #     # print('--> %s' % ano_inicio.firstChild.data)
+        #     #
+        #     # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+        #     # c = con.cursor()
+        #     # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (
+        #     #     ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+        #     # c.execute(
+        #     #     "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (
+        #     #         ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data,
+        #     #         desc.firstChild.data))
+        #     # con.commit()
+        #     # c.close()
+        #     # con.close() 497581q
         #
-        # # paginaInicio = paginas.__getslice__()
-        # # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
-        # # c = con.cursor()
-        # # sql = "INSERT INTO desenvolvimento_artigo (titulo, data, doi, paginaInicial, paginaFinal, Resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
-        # # c.execute(sql)
-        # # con.commit()
-        # # c.close()
-        # # con.close()
-        #
-        # # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
-        # # c = con.cursor()
-        # # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
-        # # c.execute(sql)
-        # # con.commit()
+        # # artigos = prof.getElementsByTagName("artigos_em_periodicos")
+        # # for art in artigos:
+        # #     # try:
+        # #     doi = art.getElementsByTagName('doi')[0]
+        # #     # except IndexError, TypeError:
+        # #     #     doi. = ""
+        # #     # try:
+        # #     titulo = art.getElementsByTagName('titulo')[0]
+        # #     # except IndexError,  TypeError:
+        # #     #     titulo = ""
+        # #     # try:
+        # #     autores = art.getElementsByTagName('autores')[0]
+        # #     # except IndexError,  TypeError:
+        # #     #     nome = ""
+        # #     # try:
+        # #     revista = art.getElementsByTagName('revista')[0]
+        # #     # except IndexError,  TypeError:
+        # #     #     revista = ""
+        # #     # try:
+        # #     volume = art.getElementsByTagName('volume')[0]
+        # #     # except IndexError,  TypeError:
+        # #     #     volume = ""
+        # #     # try:
+        # #     paginas = art.getElementsByTagName('paginas')[0]
+        # #     # except IndexError,  TypeError:
+        # #     #     paginas = ""
+        # #     # try:
+        # #     numero = art.getElementsByTagName('numero')[0]
+        # #     # except IndexError,  TypeError:
+        # #     #     numero = ""
+        # #     # try:
+        # #     ano = art.getElementsByTagName('ano')[0]
+        # #     # except IndexError,  TypeError:
+        # #     #     ano = ""
+        # #
+        # # # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+        # # # c = con.cursor()
+        # # # sql = "INSERT INTO desenvolvimento_artigo (titulo, listadeAutores, data, doi, paginas) VALUES ( '%s', '%s' ,'%s', '%s', '%s')" % \
+        # # #       titulo.firstChild.data, autores.firstChild.data, ano.firstChild.data, doi.firstChild.data, paginas.firstChild.data
+        # # #
+        # # # sql2 = "SELECT id FROM desenvolvimento_artigo WHERE '%s " % titulo.firstChild.data
+        # # #
+        # # # sql3 = "INSERT INTO desenvolvimento_artigoemperiodico (artigo_ptr_id, nomeJournal, numero, volume) VALUES ('%s' , '%s', '%s' , '%s')" % (
+        # # #     sql2, revista.firstChild.data, numero.firstChil.data, volume.firstChild.data)
+        # # #
+        # # # c.execute(sql)
+        # # # con.commit()
+        # # # c.execute(sql2)
+        # # # con.commit()
+        # # # c.execute(sql3)
+        # # # con.commit()
+        # # # c.close()
+        # # # con.close()
+        # #
+        # #
+        # #
+        # # # paginaInicio = paginas.__getslice__()
+        # # # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+        # # # c = con.cursor()
+        # # # sql = "INSERT INTO desenvolvimento_artigo (titulo, data, doi, paginaInicial, paginaFinal, Resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+        # # # c.execute(sql)
+        # # # con.commit()
+        # # # c.close()
+        # # # con.close()
+        # #
+        # # # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+        # # # c = con.cursor()
+        # # # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+        # # # c.execute(sql)
+        # # # con.commit()
         # # c.close()
         # # con.close()
         #

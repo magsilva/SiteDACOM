@@ -1,101 +1,276 @@
 from __future__ import print_function
-from xml.dom import minidom
+from xml.etree import ElementTree as ET
+import csv
+import sys
 # from MySQLimport *
 #
 import mysql.connector
+import sys
 
+
+class Departamento(object):
+    nome, sigla = None, None
+
+    def __init__(self):
+        self.nome = None
+        self.sigla = None
+
+        # def __lt__(self, other):
+        #     if self.nome!=other.nome:
+        #         return self.nome
+        #     if self.sigla!=other.sigla:
+        #         return self.sigla
+
+
+class Professor(object):
+    nome, email, telefone, departamento, funcao, \
+    lattes, bolsaProdutividade, enderecoProfissional, \
+    nomeEmCitacoesBibliograficas, textoResumo = None, None, None, \
+                                                None, None, None, None, None, None, None
+
+    def __init__(self):
+        self.nome = None
+        self.email = None
+        self.telefone = None
+        self.departamento = None
+        self.funcao = None
+        self.lattes = None
+        self.bolsaProdutividade = None
+        self.enderecoProfissional = None
+        self.nomeEmCitacoesBibliograficas = None
+        self.textoResumo = None
+
+
+class Formacao(object):
+    anoInicio, anoConclusao, tipo, descricao = None, None, None, None
+
+    def __init__(self):
+        self.ano_inicio = None
+        self.ano_conclusao = None
+
+
+class AreaDeAtuacao(object):
+    descricao = None
+
+    def __index__(self):
+        self.descricao = None
+
+
+class Curso(object):
+    nome, sigla = None, None
+
+    def __init__(self):
+        self.nome = None
+        self.sigla = None
+
+
+class Coordenacao(object):
+    coordenador, suplente, curso = None, None, None
+
+    def __init__(self):
+        self.coordenador = None
+        self.suplente = None
+        self.curso = None
+
+class Artigo(object):
+    listaDeAutores, titulo, data, doi, paginas,  resumo = None, None, None, None, None, None
+
+    def __init__(self):
+        self.data =None
+        self.doi =None
+        self.listaDeAutores =None
+        self.paginas =None
+        self.resumo =None
+        self.titulo =None
+
+
+
+class ArtigoEmPeriodico(Artigo):
+    nomeJournal ,  ISSN,  publisher , numero ,volume =None, None, None, None, None
+
+    def __init__(self):
+        super().__init__()
+        self.titulo = None
+        self.resumo =None
+        self.paginas =None
+        self.listaDeAutores=None
+        self.data = None
+        self.doi =None
+        self.ISSN =None
+        self.nomeJournal =None
+        self.numero =None
+        self.publisher =None
+
+
+
+
+
+class ArtigoEmConferencia(Artigo):
+    nomedaConferencia,   ISSN ,   ISBN ,    local  =None, None, None, None
+
+    def __init__(self):
+        super().__init__()
+        self.titulo = None
+        self.ISSN  = None
+        self.data =None
+        self.doi =None
+        self.listaDeAutores =None
+        self.ISBN =None
+        self.local =None
+        self.paginas =None
+        self.nomedaConferencia =None
+        self.resumo =None
+
+
+
+class Projeto(object):
+    listadeCoordenadores, listaColaboradores ,dataInicio ,datadeFim ,\
+    AgendaFinanciadora ,nome,  resumo =None, None, None, None, None, None, None
+
+    def __init__(self):
+        self.listaColaboradores =None
+        self.resumo =None
+        self.AgendaFinanciadora =None
+        self.datadeFim =None
+
+        self.dataInicio =None
+        self.nome =None
+        self.resumo =None
+
+
+
+
+
+class Evento(object):
+        doi, autores, titulo, nomeEvento, ano, volume,  paginas =None, None, None, None, None, None, None
+
+        def __init__(self):
+            self.doi
+            self.autores
+            self.titulo
+            self.nomeEvento
+            self.ano
+            self.volume
+            self.paginas
+
+
+
+def utfpr():
+    print( "Deu Certo")
+    return None
+
+
+
+def executeLattes():
+    print ("python scriptLattesV8.10/scriptLattes.py ./desenvolvimento/lattes/data/scriptLattes.config")
 
 if __name__ == "__main__":
-    x = minidom.parse('lattes/data/lattes-site/database.xml')
-    CurriculoLattes = x.documentElement
-    pesquisador = [Prof for Prof in CurriculoLattes.childNodes if Prof.nodeType == x.ELEMENT_NODE]
 
-    # AbrindoConexao
-    con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
-    c = con.cursor()
-
-    for prof in pesquisador:
-        id = prof.getAttribute('id')
-        nome_inicial = prof.getElementsByTagName("nome_inicial")[0]
-        sexo = prof.getElementsByTagName("sexo")[0]
-        nomeemCItacoes = prof.getElementsByTagName("nome_citacao_bibliografica")[0]
+    executeLattes()
+    # print ("python scriptLattesV8.10/scriptLattes.py ./desenvolvimento/lattes/data/scriptLattes.config")
 
 
 
-        # sql = "INSERT INTO desenvolvimento_funcionario(nome, email, telefone, departamento_id, funcao) " \
-        #       "VALUES ( '%s', '%s', '%s', '%d', '%s' )" % (nome_inicial.firstChild.data, ' ', ' ', 1, 'Professor')
-        # c.execute(sql)
-        # con.commit()
-
-
-
-
-        # sql="INSERT INTO desenvolvimento_funcionario(nome, email, telefone, departamento_id, funcao) " \
-        # "VALUES ( '%s', '%s', '%s', '%d', '%s' )"  %(nome_inicial.firstChild.data, ' ', ' ', 1, 'Professor')
-        # c.execute(sql);
-        # # c.commit();
-        # con.commit();
-        # c.close();
-        # con.close()
-
-
-        # c.execute(
-        sql= "INSERT INTO desenvolvimento_professor (nome, departamento_id, funcao, lattes,  nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')" % ( nome_inicial.firstChild.data, 1, 'Professor', id, nomeemCItacoes.firstChild.data)
-        c.execute(sql)
-
- # nome = models.CharField('Nome', max_length=100)
- #    email = models.CharField('E-mail', max_length=200)
- #    telefone = models.CharField('Telefone', max_length=20)
- #    departamento = models.ForeignKey(DepartamentoAcademico)
- #    funcao = models.CharField('Funcao', max_length=100)
- #    lattes = models.CharField('Link do Lattes', max_length=50)
- #    bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)
- #    enderecoProfissional = models.CharField('Endereco Profissional', max_length=5000)
- #    nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255)
- #    textoRe
-        # print(sql)
-        con.commit()
-
-# c.close()
-# con.close()
-        projeto = prof.getElementsByTagName("projeto")
-        for proj in projeto:
-            try:
-                ano_inicio = proj.getElementsByTagName('ano_inicio')[0]
-                print('--> %s' % ano_inicio.firstChild.data)
-            except IndexError:
-                ano_inicio = ""
-            try:
-                ano_conclusao = proj.getElementsByTagName('ano_conclusao')[0]
-            except IndexError:
-                ano_conclusao = ""
-            try:
-                nome = proj.getElementsByTagName('nome')[0]
-            except IndexError:
-                nome = ""
-            try:
-                desc = proj.getElementsByTagName('descricao')[0]
-            except IndexError:
-                desc = ""
-        # print('--> %s' % ano_inicio.firstChild.data)
-
+    # if len(sys.argv) != 1:
+    #     print
+    #     "Parametros insuficientes. Informe o nome de arquivo de entrada e o nome do arquivo de saida"
+    #     sys.exit(1)
+    # utfpr()
+    # print("Deu certo")
+        # converter = utfpr()
+        # converter.convert(sys.argv[1], sys.argv[2], "epsilon")
+#
+# if __name__ == "__main__":
+#     # # x = .parse('lattes/data/lattes-site/database.xml')
+    # CurriculoLattes = x.documentElement
+    # pesquisador = [Prof for Prof in CurriculoLattes.childNodes if Prof.nodeType == x.ELEMENT_NODE]
+    #
+    # # AbrindoConexao
     # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
     # c = con.cursor()
-        # # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (
-    # #     ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+    #
+    # for prof in pesquisador:
+    #     id = prof.getAttribute('id')
+    #     nome_inicial = prof.getElementsByTagName("nome_inicial")[0]
+    #     sexo = prof.getElementsByTagName("sexo")[0]
+    #     nomeemCItacoes = prof.getElementsByTagName("nome_citacao_bibliografica")[0]
+    #
+
+
+    # sql = "INSERT INTO desenvolvimento_funcionario(nome, email, telefone, departamento_id, funcao) " \
+    #       "VALUES ( '%s', '%s', '%s', '%d', '%s' )" % (nome_inicial.firstChild.data, ' ', ' ', 1, 'Professor')
+    # c.execute(sql)
+    # con.commit()
+
+
+
+
+    # sql="INSERT INTO desenvolvimento_funcionario(nome, email, telefone, departamento_id, funcao) " \
+    # "VALUES ( '%s', '%s', '%s', '%d', '%s' )"  %(nome_inicial.firstChild.data, ' ', ' ', 1, 'Professor')
+    # c.execute(sql);
+    # # c.commit();
+    # con.commit();
+    # c.close();
+    # con.close()
+
+
     # c.execute(
-    # "INSERT INTO desenvolvimento_projeto (dataInicio, listadeCoordenadores,listaColaboradores, AgendaFinanciadora,"
-    # " datadeFim, nome, resumo)"
-    #     " VALUES ('%s' , '%s', '%s', '%s',  '%s', '%s' , '%s')"
-    #     % ( ano_inicio.firstChild.data, '', '', '', ano_conclusao.firstChild.data, nome.firstChild.data,
-    #         desc.firstChild.data))
-    con.commit()
-    c.close()
-    con.close()  # artigos = prof.getElementsByTagName("artigos_em_periodicos")  # for art in artigos:  # # try:
-# doi = art.getElementsByTagName('doi')[0]
-# # except IndexError, TypeError:
-# #     doi. = ""
-# # try:
+    # sql = "INSERT INTO desenvolvimento_professor (nome, departamento_id, funcao, lattes,  nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')" % (
+    #     nome_inicial.firstChild.data, 1, 'Professor', id, nomeemCItacoes.firstChild.data)
+    # c.execute(sql)
+    #
+    # # nome = models.CharField('Nome', max_length=100)
+    # #    email = models.CharField('E-mail', max_length=200)
+    # #    telefone = models.CharField('Telefone', max_length=20)
+    # #    departamento = models.ForeignKey(DepartamentoAcademico)
+    # #    funcao = models.CharField('Funcao', max_length=100)
+    # #    lattes = models.CharField('Link do Lattes', max_length=50)
+    # #    bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)
+    # #    enderecoProfissional = models.CharField('Endereco Profissional', max_length=5000)
+    # #    nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255)
+    # #    textoRe
+    # # print(sql)
+    # con.commit()
+    #
+    # # c.close()
+    # # con.close()
+    # projeto = prof.getElementsByTagName("projeto")
+    # for proj in projeto:
+    #     try:
+    #         ano_inicio = proj.getElementsByTagName('ano_inicio')[0]
+    #         print('--> %s' % ano_inicio.firstChild.data)
+    #     except IndexError:
+    #         ano_inicio = ""
+    #     try:
+    #         ano_conclusao = proj.getElementsByTagName('ano_conclusao')[0]
+    #     except IndexError:
+    #         ano_conclusao = ""
+    #     try:
+    #         nome = proj.getElementsByTagName('nome')[0]
+    #     except IndexError:
+    #         nome = ""
+    #     try:
+    #         desc = proj.getElementsByTagName('descricao')[0]
+    #     except IndexError:
+    #         desc = ""
+    #         # print('--> %s' % ano_inicio.firstChild.data)
+    #
+    #         # con = mysql.connector.connect(user='root', passwd='root', database='UTFPR')
+    #         # c = con.cursor()
+    #         # # sql = "INSERT INTO desenvolvimento_projeto (dataInicio, datadeFim, nome, resumo) VALUES ('%s' , '%s', '%s' , '%s')" % (
+    #         # #     ano_inicio.firstChild.data, ano_conclusao.firstChild.data, nome.firstChild.data, desc.firstChild.data)
+    #         # c.execute(
+    #         # "INSERT INTO desenvolvimento_projeto (dataInicio, listadeCoordenadores,listaColaboradores, AgendaFinanciadora,"
+    #         # " datadeFim, nome, resumo)"
+    #         #     " VALUES ('%s' , '%s', '%s', '%s',  '%s', '%s' , '%s')"
+            #     % ( ano_inicio.firstChild.data, '', '', '', ano_conclusao.firstChild.data, nome.firstChild.data,
+#             #         desc.firstChild.data))
+# con.commit()
+# c.close()
+# con.close()  # artigos = prof.getElementsByTagName("artigos_em_periodicos")  # for art in artigos:  # # try:  # doi = art.getElementsByTagName('doi')[0]
+# # # except IndexError, TypeError:
+# # #     doi. = ""
+# # # try:
 #     titulo = art.getElementsByTagName('titulo')[0]
 #     # except IndexError,  TypeError:
 #     #     titulo = ""
@@ -243,4 +418,3 @@ if __name__ == "__main__":
 # #     #     # nome_completo = ident.getElementsBytagName('nome_completo')
 # #     # staff.getElementsByTagName("salary")[0]
 # #     # print "----> %s" % ident
-

@@ -1,17 +1,13 @@
 from django.shortcuts import render
-
-
 from django.template import loader
 from django.http import HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render_to_response
-
-from desenvolvimento.models import *
+from .models import *
 
 
 def index(request):
-    listadeProjetos = Projeto.objects.all().order_by('-dataInicio')[:5]
-    t = loader.get_template('index.html')
+     return render_to_response('index.html', {})
 
 
 def index(request):
@@ -28,6 +24,7 @@ def curso(request):
         'listaDeCursos': listaDeCursos,
     })
     return HttpResponse(t.render(c))
+
 def professor(request):
     listasdeFunc = Professor.objects.all().order_by('nome')
 

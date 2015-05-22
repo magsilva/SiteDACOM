@@ -6,6 +6,7 @@ class DepartamentoAcademico(models.Model):
     # chefe = models.ForeignKey(Professor)
     # suplente = models.ForeignKey(Professor)
 
+
 class Professor(models.Model):
     nome = models.CharField('Nome', max_length=100)
     email = models.CharField('E-mail', max_length=200, null=True, blank=True)
@@ -33,26 +34,9 @@ class Formacao(models.Model):
     ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
     tipo = models.CharField('Tipo', max_length=511)
     descricao = models.CharField('Descricao', max_length=5000)
-    tipo =  models.CharField('Tipo', max_length=511)
-    descricao= models.CharField('Descricao', max_length=5000)
 
 class areadeAtuacao(models.Model):
     descricao = models.CharField('Area de Atuacao', max_length=511)
-
-class Professor(models.Model):
-    nome = models.CharField('Nome', max_length=100)
-    email = models.CharField('E-mail', max_length=200)
-    telefone = models.CharField('Telefone', max_length=20)
-    departamento = models.ForeignKey(DepartamentoAcademico)
-    funcao = models.CharField('Funcao', max_length=100)
-    lattes = models.CharField('Link do Lattes', max_length=50)
-    bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100)
-    enderecoProfissional = models.CharField('Endereco Profissional', max_length=5000)
-    nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255)
-    textoResumo = models.CharField('bolsaProdutividade', max_length=500)
-    # formacao_academica = [Formacao]
-    # areadeAtuacao = [areadeAtuacao]
-
 
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
@@ -102,15 +86,6 @@ class Projeto(models.Model):
     nome = models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=10000)
 
-class Projeto(models.Model):
-    listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000)
-    listaColaboradores = models.CharField('Lista de Colaboradores', max_length=5000)
-    dataInicio = models.CharField('Data Inicio', max_length=5)
-    datadeFim = models.CharField('Data de Fim', max_length=5)
-    AgendaFinanciadora = models.CharField('Agencia Financiadora', max_length=255)
-    nome =  models.CharField('Nome do Projeto', max_length=1000)
-    resumo = models.CharField('Resumo', max_length=5000)
-
 class Evento(models.Model):
     doi = models.CharField('DOI', max_length=255)
     autores = models.CharField('Autores', max_length=5000)
@@ -120,18 +95,3 @@ class Evento(models.Model):
     volume = models.CharField('Volume', max_length=10)
     paginas = models.CharField('Paginas', max_length=255)
 
-
-class Formacao(models.Model):
-    anoInicio  = models.CharField('Ano de Inicio', max_length=5)
-    anoConclusao = models.CharField('Ano de Conclusao', max_length=5)
-    tipo = models.CharField('Tipo', max_length=100)
-    nome = models.CharField('nome', max_length=255)
-    instituicao = models.CharField('Instituicao', max_length=255)
-
-
-class AreaDeAtuacao(models.Model):
-    descricao = models.CharField('Descricao', max_length=1000)
-    nomeEvento = models.CharField('Nome do Evento', max_length=5000)
-    ano = models.CharField('Ano', max_length=4)
-    volume = models.CharField('Volume', max_length=10)
-    paginas = models.CharField('Paginas', max_length=255)

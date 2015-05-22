@@ -20,10 +20,10 @@
             <header>
                 <div class="width">
                     <center>
-                        <a href="{{ index }}">
+                        <a href="{% url 'desenvolvimento:index' %}">
                             <img src="{% static 'img/logo.png' %}"/>
                         </a>
-                        <a href="{{ index }}"><h3> DACOM - Departamento de Computação </h3></a>
+                        <a href="{% url 'desenvolvimento:index' %}"><h3> DACOM - Departamento de Computação </h3></a>
                     </center>
                 </div>
 
@@ -31,10 +31,10 @@
             <nav>
                 <div class="width">
                     <ul class="menu">
-                        <li class="start selected"><a href="{{ 'index' }}">Início</a></li>
-                        <li><a href="{{ 'curso' }}">Cursos</a></li>
-                        <li><a href="{{ 'professor' }}">Professores</a></li>
-                        <li><a href="{{ 'eventos' }}">Eventos</a></li>
+                        <li class="start selected"><a href="{% url 'desenvolvimento:index' %}">Início</a></li>
+                        <li><a href="{% url 'desenvolvimento:curso' %}">Cursos</a></li>
+                        <li><a href="{% url 'desenvolvimento:professor' %}">Professores</a></li>
+                        <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                         <li class="text">
                             <form method="get" class="searchform" action="#">
                                 <p>
@@ -120,26 +120,26 @@
 
             </div>
             <div class="clear"></div>
-            <div class="footer">
+               <div class="footer">
                 <div class="footer-content width">
 
                     <ul>
-                        <a href="index.html">
+                        <a href="{% url 'desenvolvimento:index' %}">
                             <li><h3>Início</h3></li>
                         </a>
                     </ul>
                     <ul>
-                        <a href="curso.html">
+                        <a href="{% url 'desenvolvimento:curso' %}">
                             <li><h3>Cursos</h3></li>
                         </a>
                     </ul>
                     <ul>
-                        <a href="professor.html">
+                        <a href="{% url 'desenvolvimento:professor' %}">
                             <li><h3>Professores</h3></li>
                         </a>
                     </ul>
                     <ul>
-                        <a href="eventos.html">
+                        <a href="{% url 'desenvolvimento:eventos' %}">
                             <li><h3>Eventos</h3></li>
                         </a>
                     </ul>
