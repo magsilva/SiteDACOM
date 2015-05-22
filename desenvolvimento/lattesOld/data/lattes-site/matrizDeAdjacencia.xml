@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>             
+<!--  An excerpt of an egocentric social network  -->             
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">             
+<graph edgedefault="undirected">             
+<!-- data schema -->             
+<key id="name" for="node" attr.name="name" attr.type="string"/>             
+<key id="nickname" for="node" attr.name="nickname" attr.type="string"/>             
+<key id="gender" for="node" attr.name="gender" attr.type="string"/>             
+<key id="image" for="node" attr.name="image" attr.type="string"/>             
+<key id="link" for="node" attr.name="link" attr.type="string"/>             
+<key id="amount" for="edge" attr.name="amount" attr.type="int"/>             
+<key id="pubs" for="node" attr.name="pubs" attr.type="int"/>
+<!-- nodes -->                 
+<node id="0">                 
+<data key="name">Alessandro Kraemer</data>                 
+<data key="nickname">KRAEMER, A.;Alessandro Kraemer;KRAEMER, ALESSANDRO</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4777129U1</data>                 
+<data key="link">http://lattes.cnpq.br/2661462115468004</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="1">                 
+<data key="name">Ana Paula Chaves Steinmacher</data>                 
+<data key="nickname">CHAVES, A. P.;CHAVES, Ana Paula</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4229944H5</data>                 
+<data key="link">http://lattes.cnpq.br/3007644116326636</data>                 
+<data key="pubs">5</data>                 
+</node>
+<!-- nodes -->                 
+<node id="2">                 
+<data key="name">André Luís Schwerz</data>                 
+<data key="nickname">SCHWERZ, André Luís;SCHWERZ, ANDRE LUIS</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4127155T2</data>                 
+<data key="link">http://lattes.cnpq.br/4954414332524750</data>                 
+<data key="pubs">3</data>                 
+</node>
+<!-- nodes -->                 
+<node id="3">                 
+<data key="name">André Luiz Satoshi Kawamoto</data>                 
+<data key="nickname">KAWAMOTO, A. L. S.;Kawamoto, André Luiz Satoshi;KAWAMOTO, André Luis Satoshi;KAWAMOTO, ANDRE LUIZ SATOSHI</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4768326Z9</data>                 
+<data key="link">http://lattes.cnpq.br/8230551395300039</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="4">                 
+<data key="name">Aretha Barbosa Alencar</data>                 
+<data key="nickname">ALENCAR, ARETHA B.;ALENCAR, A. B.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4756507H7</data>                 
+<data key="link">http://lattes.cnpq.br/3074461020062854</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="5">                 
+<data key="name">Diego Bertolini Gonçalves</data>                 
+<data key="nickname">GONÇALVES, Diego Bertolini;BERTOLINI, D.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4127101A3</data>                 
+<data key="link">http://lattes.cnpq.br/2264701855770284</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="6">                 
+<data key="name">Filipe Roseiro Côgo</data>                 
+<data key="nickname">CÔGO, F. R.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4270886E9</data>                 
+<data key="link">http://lattes.cnpq.br/9500095790815109</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="7">                 
+<data key="name">Frank Helbert Borsato</data>                 
+<data key="nickname">BORSATO, Frank Helbert;BORSATO, FRANK HELBERT</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4751064D4</data>                 
+<data key="link">http://lattes.cnpq.br/0902329099289356</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="8">                 
+<data key="name">Igor Fabio Steinmacher</data>                 
+<data key="nickname">STEINMACHER, Igor;STEINMACHER, IGOR</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4762712T5</data>                 
+<data key="link">http://lattes.cnpq.br/5529725593221391</data>                 
+<data key="pubs">15</data>                 
+</node>
+<!-- nodes -->                 
+<node id="9">                 
+<data key="name">Igor Scaliante Wiese</data>                 
+<data key="nickname">WIESE, Igor Scaliante;WIESE, IGOR S.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4127030Z8</data>                 
+<data key="link">http://lattes.cnpq.br/0447444423694007</data>                 
+<data key="pubs">10</data>                 
+</node>
+<!-- nodes -->                 
+<node id="10">                 
+<data key="name">Ivanilton Polato</data>                 
+<data key="nickname">POLATO, Ivanilton;Polato, Ivanilton</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4761043E8</data>                 
+<data key="link">http://lattes.cnpq.br/7551030263039033</data>                 
+<data key="pubs">2</data>                 
+</node>
+<!-- nodes -->                 
+<node id="11">                 
+<data key="name">Juliano Henrique Foleiss</data>                 
+<data key="nickname">FOLEISS, J. H.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4234580Y7</data>                 
+<data key="link">http://lattes.cnpq.br/4404958951175349</data>                 
+<data key="pubs">2</data>                 
+</node>
+<!-- nodes -->                 
+<node id="12">                 
+<data key="name">Lucio Geronimo Valentin</data>                 
+<data key="nickname">VALENTIN, Lucio Geronimo</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4701238E7</data>                 
+<data key="link">http://lattes.cnpq.br/5818012075167720</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="13">                 
+<data key="name">Luiz Arthur Feitosa dos Santos</data>                 
+<data key="nickname">SANTOS, L. A. F.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4775284Y5</data>                 
+<data key="link">http://lattes.cnpq.br/3725232561617394</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="14">                 
+<data key="name">Marco Aurélio Graciotto Silva</data>                 
+<data key="nickname">SILVA, M. A. G.;GRACIOTTO SILVA, M. A.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4774689J1</data>                 
+<data key="link">http://lattes.cnpq.br/9383290036853173</data>                 
+<data key="pubs">2</data>                 
+</node>
+<!-- nodes -->                 
+<node id="15">                 
+<data key="name">Marcos Silvano Almeida</data>                 
+<data key="nickname">ALMEIDA, Marcos Silvano</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4701238T6</data>                 
+<data key="link">http://lattes.cnpq.br/4946185987756278</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="16">                 
+<data key="name">Paulo Cesar Gonçalves</data>                 
+<data key="nickname">GONÇALVES, Paulo Cesar;GONÇALVES, P.C.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4736044H4</data>                 
+<data key="link">http://lattes.cnpq.br/4344660568698232</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="17">                 
+<data key="name">Paulo Henrique Sabo</data>                 
+<data key="nickname">SABO, P. H.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4206181Z9</data>                 
+<data key="link">http://lattes.cnpq.br/8942065049509047</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="18">                 
+<data key="name">Radames Juliano Halmeman</data>                 
+<data key="nickname">HALMEMAN, Radames Juliano</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4177986Y1</data>                 
+<data key="link">http://lattes.cnpq.br/5230011214963863</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="19">                 
+<data key="name">Rafael Liberato Roberto</data>                 
+<data key="nickname">ROBERTO, Rafael Liberato;LIBERATO, Rafael</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4127157A4</data>                 
+<data key="link">http://lattes.cnpq.br/7833556006473564</data>                 
+<data key="pubs">4</data>                 
+</node>
+<!-- nodes -->                 
+<node id="20">                 
+<data key="name">Reginaldo Ré</data>                 
+<data key="nickname">RÉ, R.;RE, REGINALDO</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4700424A8</data>                 
+<data key="link">http://lattes.cnpq.br/5545891505433768</data>                 
+<data key="pubs">4</data>                 
+</node>
+<!-- nodes -->                 
+<node id="21">                 
+<data key="name">Rodrigo Campiolo</data>                 
+<data key="nickname">CAMPIOLO, R.;CAMPIOLO, Rodrigo</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4753648U3</data>                 
+<data key="link">http://lattes.cnpq.br/2822469089227391</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="22">                 
+<data key="name">Rodrigo Hübner</data>                 
+<data key="nickname">HÜBNER, R.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4299422E2</data>                 
+<data key="link">http://lattes.cnpq.br/6568073205402062</data>                 
+<data key="pubs">3</data>                 
+</node>
+<!-- nodes -->                 
+<node id="23">                 
+<data key="name">Rogério Aparecido Gonçalves</data>                 
+<data key="nickname">GONÇALVES, R. A.;GONÇALVES, R.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4753254H8</data>                 
+<data key="link">http://lattes.cnpq.br/1677599200632096</data>                 
+<data key="pubs">2</data>                 
+</node>
+<!-- nodes -->                 
+<node id="24">                 
+<data key="name">Narci Nogueira da Silva</data>                 
+<data key="nickname">SILVA, N. N.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4707232J4</data>                 
+<data key="link">http://lattes.cnpq.br/2249157985559304</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="25">                 
+<data key="name">Everton Fernando Barros</data>                 
+<data key="nickname">BARROS, E. F.;BARROS, EVERTON F.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4282236D9</data>                 
+<data key="link">http://lattes.cnpq.br/9702195889525875</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="26">                 
+<data key="name">Rafael Henrique Dalegrave Zottesso</data>                 
+<data key="nickname">ZOTTESSO, R. H. D.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4437627E2</data>                 
+<data key="link">http://lattes.cnpq.br/0654156206572874</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- nodes -->                 
+<node id="27">                 
+<data key="name">Vidal Daniel da Fontoura</data>                 
+<data key="nickname">FONTOURA, V. D.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4473243T5</data>                 
+<data key="link">http://lattes.cnpq.br/0138023517065135</data>                 
+<data key="pubs">1</data>                 
+</node>
+<!-- nodes -->                 
+<node id="28">                 
+<data key="name">Gílson Maekawa Kanashiro</data>                 
+<data key="nickname">KANASHIRO, G. M.</data>                 
+<data key="gender">M</data>                 
+<data key="image">http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4254134P2</data>                 
+<data key="link">http://lattes.cnpq.br/3969785844681428</data>                 
+<data key="pubs">0</data>                 
+</node>
+<!-- edges -->                         
+<edge source="0" target="3">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="1" target="6">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="1" target="8">                         
+<data key="amount">6.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="1" target="9">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="1" target="14">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="2" target="8">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="2" target="9">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="2" target="19">                         
+<data key="amount">4.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="3" target="0">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="6" target="1">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="6" target="8">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="6" target="9">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="6" target="14">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="7" target="10">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="1">                         
+<data key="amount">6.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="2">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="6">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="9">                         
+<data key="amount">9.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="14">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="19">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="20">                         
+<data key="amount">3.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="8" target="27">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="9" target="1">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="9" target="2">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="9" target="6">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="9" target="8">                         
+<data key="amount">9.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="9" target="19">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="9" target="20">                         
+<data key="amount">4.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="9" target="27">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="10" target="7">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="10" target="20">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="11" target="22">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="13" target="21">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="14" target="1">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="14" target="6">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="14" target="8">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="15" target="23">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="19" target="2">                         
+<data key="amount">4.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="19" target="8">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="19" target="9">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="20" target="8">                         
+<data key="amount">3.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="20" target="9">                         
+<data key="amount">4.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="20" target="10">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="20" target="27">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="21" target="13">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="22" target="11">                         
+<data key="amount">2.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="22" target="23">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="23" target="15">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="23" target="22">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="27" target="8">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="27" target="9">                         
+<data key="amount">1.0</data>                         
+</edge>
+<!-- edges -->                         
+<edge source="27" target="20">                         
+<data key="amount">1.0</data>                         
+</edge>
+</graph>            
+</graphml>
