@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.conf.urls import url
+
 from . import views
 admin.autodiscover()
 
@@ -9,5 +10,6 @@ urlpatterns = [
       url(r'^curso', views.curso, name='curso'),
       url(r'^professor', views.professor, name='professor'),
       url(r'^eventos', views.eventos, name='eventos'),
+      url(r'^search', views.search, name='search')
 ]
 

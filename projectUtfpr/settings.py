@@ -48,6 +48,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'desenvolvimento',
+    'haystack',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -116,4 +117,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+    },
+}

@@ -16,6 +16,8 @@ class Professor(models.Model):
     lattes = models.CharField('Link do Lattes', max_length=50, null=True, blank=True)
     bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100, null=True, blank=True)
     enderecoProfissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
+    endereco_profissional_lat= models.CharField('Endereco Profissional_lat', max_length=5000, null=True, blank=True)
+    endereco_profissional_long= models.CharField('Endereco Profissional_long', max_length=5000, null=True, blank=True)
     nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
     # funcionario = [Funcionario]
@@ -42,8 +44,6 @@ class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
     # disciplina = models.CharField('Disciplina', max_length=100)
-    sigla = models.CharField('Sigla', max_length=20)
-    disciplina = models.CharField('Disciplina', max_length=100)
 
 
 class Coordenacao(models.Model):
@@ -59,9 +59,6 @@ class Artigo(models.Model):
     doi = models.CharField('DOI', max_length=255, null=True, blank=True)
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
-    doi = models.CharField('DOI', max_length=255)
-    paginas = models.CharField('Paginas', max_length=10)
-    Resumo = models.CharField('Resumo', max_length=5000)
 
 
 class ArtigoEmPeriodico(Artigo):
@@ -85,6 +82,10 @@ class Projeto(models.Model):
     AgendaFinanciadora = models.CharField('Agencia Financiadora', max_length=255, null=True, blank=True)
     nome = models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=10000)
+
+    def __unicode__(self):
+        return self.nome
+
 
 class Evento(models.Model):
     doi = models.CharField('DOI', max_length=255)

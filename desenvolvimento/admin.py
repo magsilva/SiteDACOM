@@ -1,5 +1,6 @@
 from django.contrib import admin
 
+
 from desenvolvimento.models import DepartamentoAcademico
 from desenvolvimento.models import Curso
 from desenvolvimento.models import Professor

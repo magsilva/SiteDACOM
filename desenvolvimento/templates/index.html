@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         {% load staticfiles %}
+
         <title>UTFPR </title>
         <link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}"/>
         <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" type="image/x-icon"/>
@@ -40,7 +41,7 @@
                                 <p>
                                     <input type="text" size="91" value="Digite o sua pesquisa aqui" onfocus="this.value='';"
                                            autocomplete="on" name="s" class="s" width/>
-                                    <button type="submit" class="button" width="40"> Buscar</button>
+                                    <button type="submit" class="button" width="40" onclick="{% url'haystack:search'%}"> Buscar</button>
                                 </p>
                             </form>
                         </li>
