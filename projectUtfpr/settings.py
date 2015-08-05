@@ -121,5 +121,9 @@ HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
         'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+        'HAYSTACK_SITECONF': 'haystack.search_sites',
     },
 }
+
+# HAYSTACK_SEARCH_ENGINE = 'whoosh'
+# HAYSTACK_WHOOSH_PATH = '/home/whoosh/mysite_index'
