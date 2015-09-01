@@ -88,6 +88,7 @@ WSGI_APPLICATION = 'projectUtfpr.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
@@ -125,5 +126,7 @@ HAYSTACK_CONNECTIONS = {
     },
 }
 
+APPEND_SLASH=False
 # HAYSTACK_SEARCH_ENGINE = 'whoosh'
 # HAYSTACK_WHOOSH_PATH = '/home/whoosh/mysite_index'
+
