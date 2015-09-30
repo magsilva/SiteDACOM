@@ -1,5 +1,6 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+# -*- coding: UTF-8 -*-
+# -*- encoding: UTF-8 -*-
+
 from __future__ import print_function
 from string import split
 from subprocess import call
@@ -7,10 +8,11 @@ import subprocess
 import xml.etree.cElementTree as et
 import csv
 import sys
+from dateutil.parser import parser
 import mysql.connector
 import sys
 import shutil
-# import Levenshtein
+import Levenshtein
 import os, errno
 import warnings
 
@@ -159,12 +161,6 @@ class Evento(object):
         self.ano = ""
         self.volume = ""
         self.paginas = ""
-
-
-def utfpr():
-    print("Deu Certo")
-    return None
-
 
 def executeLattes():
     call("python scriptLattes.py ./data/scriptlattes-utfpr-cm-dacom.config", shell=True)
@@ -320,6 +316,8 @@ def executeLeitorXML():
         'passwd': 'root',
         'database': 'UTFPR'
     }
+
+
     connection = mysql.connector.connect(**config)
     conector = connection.cursor()
     profs = []
@@ -382,39 +380,90 @@ def executeLeitorXML():
     #         auxiliar =0
 
     #projeto
-    # if resultProfessor.__len__()==0:
+    # if resultProjeto.__len__()==0:
     #     for profnovo in professor:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         sql = ("INSERT INTO desenvolvimento_projeto(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
     #         conector.execute(sql)
     #         connection.commit()
     # else:
     for p in projetoPesquisa:
-            # for row in resultProjeto:
+    #         for row in resultProjeto:
+            pDescricao = []
+            pSituacao = []
+            pNatureza =[]
+            pIntegrante =[]
+            pEnvolvidos = []
+            pCoordenador = []
 
-        try:
-            p1, p2 = (p.resumo.split("Descrição"))
-            print(p1, "------------------------------------")
-            # print()
-        except UnicodeDecodeError:
-            print("Erro")
+            pDescricao = p.resumo.encode("utf-8").split("Situação:" )
+            # print(pDescricao[1])
+            # if(pDescricao[1])
+            pSituacao = pDescricao[1]
+
+                            # print(pDescricao[1].decode("utf-8"))
+            pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
+            pNatureza = pSituacao[1]
+            print(pNatureza)
+            try:
+                pNatureza = p.resumo.encode("utf-8").split("Integrante:")
+                pIntegrante = pNatureza[1]
+
+                # print(pNatureza)
+                pIntegrante = p.resumo.split("Integrantes: ")
+                pEnvolvidos = pIntegrante[len(pIntegrante)-1]
+
+
+
+            except IndexError:
+                pIntegrante = p.resumo.split("Integrantes: ")
+                pCoordenador = pIntegrante[0].split("- Coordenador /")
+                # pEnvolvidos = pCoordenador[1].split("- Integrante /")
+                # print(pEnvolvidos)
+                # print(pCoordenador[0])
+                print(pCoordenador[0])
+
+
+
+                # print;
+                #separar em se não tiver natureza;
+
+
+                # print(arraysProfNovo)
+
+
+                 # print(pSituacao[1].decode("utf-8"))
+            # pNatureza = p.resumo.encode("utf-8").split("Integrante:")
+            # pIntegrante = pNatureza[1]
+            #
+            # print(pNatureza)
+            # pIntegrante = p.resumo.split("Alunos Envolvidos")
+            # pAlunosEnvolvidos = pIntegrante[len(pIntegrante)-1]
+
+            # print(pDescricao[0])
 
 
 
 
-        # print("descricao")
-        #         situacao =
-        #         natureza =
-        #         integrantes =
-        #         alunosEnvolvidos
-        #
-        #
-        #     Descricao, Situacao, Natureza, Integrantes, AlunosEnvolvidos, Financiadores;
-        #         # if row[0] == p.nome and row[5] == p.lattes:
+            # print(pDescricao[2])
+    #             # pSituacao = pDescricao[1];
+    #
+    #             # print(pDescricao[1].decode("utf-8"))
+    #             pSituacao =  p.resumo.encode("utf-8").split("Situação:")
+    #             # pNatureza = pSituacao[1]
+    #
+    #             # print(pSituacao[1].decode("utf-8"))
+    #             pNatureza = p.resumo.encode("utf-8").split("Natureza:")
+    #             # pIntegrante = pNatureza[1]
+    #
+    #             # print(pNatureza)
+    #             pIntegrante = p.resumo.split("Integrante")
+    #             pAlunosEnvolvidos = pIntegrante[len(pIntegrante)-1]
+    #
+    #             if row[0] == p.nome and row[5] == p.lattes:
     #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
     #                     sql = (
-    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-    #                      p.enderecoProfissional_lat, p.   enderecoProfissional_long, p.nome))
+    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
+    #                          p.enderecoProfissional_lat, p.   enderecoProfissional_long, p.nome))
     #                     conector.execute(sql)
     #                     connection.commit()
     #                     auxil = 1
@@ -422,13 +471,13 @@ def executeLeitorXML():
     #             arraysProfNovo.append(p)
     #             auxil = 0
     #     for profnovo in arraysProfNovo:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #         conector.execute(sql)
-    #         connection.commit()
-    #         auxiliar =0
-    #
-    #
+    #             sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+    #                    % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #             conector.execute(sql)
+    #             connection.commit()
+    #             auxiliar =0
+    # #
+    # #
     # # Artigo
     # if resultProfessor.__len__()==0:
     #     for profnovo in professor:
