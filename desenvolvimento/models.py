@@ -37,9 +37,11 @@ class Formacao(models.Model):
     ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
     tipo = models.CharField('Tipo', max_length=511)
     descricao = models.CharField('Descricao', max_length=5000)
+     # chave estrangeira do professor;
 
 class areadeAtuacao(models.Model):
     descricao = models.CharField('Area de Atuacao', max_length=511)
+    # chave estrangeira do professor; muito pra muitos;
 
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)

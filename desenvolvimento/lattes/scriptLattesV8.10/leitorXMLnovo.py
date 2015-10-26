@@ -21,8 +21,7 @@ warnings.filterwarnings('ignore')
 sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes')
 sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/producoesBibliograficas/')
 sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/producoesTecnicas/')
-sys.path.append('desenvolvimen'
-                'to/lattes/scriptLattesV8.10/scriptLattes/producoesArtisticas/')
+sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/producoesArtisticas/')
 sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/producoesUnitarias/')
 sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/orientacoes/')
 sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/eventos/')
@@ -404,6 +403,8 @@ def executeLeitorXML():
             pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
             pNatureza = pSituacao[1]
             print(pNatureza)
+
+
             try:
                 pNatureza = p.resumo.encode("utf-8").split("Integrante:")
                 pIntegrante = pNatureza[1]
@@ -411,16 +412,19 @@ def executeLeitorXML():
                 # print(pNatureza)
                 pIntegrante = p.resumo.split("Integrantes: ")
                 pEnvolvidos = pIntegrante[len(pIntegrante)-1]
+                pCoordenador = pEnvolvidos.split("Coordenador")
+                print (pCoordenador[1])
 
 
 
             except IndexError:
                 pIntegrante = p.resumo.split("Integrantes: ")
-                pCoordenador = pIntegrante[0].split("- Coordenador /")
+                pCoordenador = pIntegrante[0].split("- Coordenador")
+
                 # pEnvolvidos = pCoordenador[1].split("- Integrante /")
                 # print(pEnvolvidos)
                 # print(pCoordenador[0])
-                print(pCoordenador[0])
+                # print(pCoordenador[1])
 
 
 
