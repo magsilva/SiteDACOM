@@ -89,9 +89,6 @@ class Projeto(models.Model):
     def __unicode__(self):
         return self.nome
 
-
-
-
 class Evento(models.Model):
     doi = models.CharField('DOI', max_length=255)
     autores = models.CharField('Autores', max_length=5000)
@@ -100,8 +97,3 @@ class Evento(models.Model):
     ano = models.CharField('Ano', max_length=4)
     volume = models.CharField('Volume', max_length=10)
     paginas = models.CharField('Paginas', max_length=255)
-
-#
-#
-# class SearchForm(forms.Form):
-#     pesquisa = forms.CharField(max_length=100)
