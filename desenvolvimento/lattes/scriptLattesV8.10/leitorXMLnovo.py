@@ -181,9 +181,9 @@ def executeLeitorXML():
 
     for child in root:
         prof = Professor()
-        print(child.tag, child.attrib, "//////1")
+        # print(child.tag, child.attrib, "//////1")
         prof.lattes = child.get('id')
-        print(prof.lattes)
+        # print(prof.lattes)
         for child1 in child:
             # print(grand.tag, grand.attrib, "/////2")
             for identificacao in child1.iter('identificacao'):
@@ -247,7 +247,7 @@ def executeLeitorXML():
 
             for areaatuacao in child1.iter('area_atuacao'):
                 descricao = areaatuacao.find('descricao').text
-                print(descricao)
+                # print(descricao)
 
             for eventos in child1.iter('trabalho_completo_congresso'):  # eventos
                 for evento in eventos.iter('trabalho_completo'):
@@ -339,17 +339,14 @@ def executeLeitorXML():
     conector.execute ("SELECT * FROM desenvolvimento_projeto")
     resultProjeto = conector.fetchall()
 
-
-
-
     # inverter as ordem dos for
     # colocar o q ta fora dentro e q ta dentro fora
 
     arraysProfNovo =[]
     auxil = 0
 
-    #     # se o conjunto nao for vazio insere fiz isso pq um for com 0 de tamanho nao executa pra atualizar
-    #PRofessor
+    #Professor
+
     if resultProfessor.__len__()==0:
         for profnovo in professor:
             sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
@@ -358,7 +355,7 @@ def executeLeitorXML():
     else:
         for p in professor:
             for row in resultProfessor:
-                print(p.nome)
+                # print(p.nome)
                 if row[0] == p.nome and row[5] == p.lattes:
                     if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
                         sql = (
@@ -379,119 +376,184 @@ def executeLeitorXML():
             auxiliar =0
 
     # projeto
-    if resultProjeto.__len__()==0:
-        for projnovo in projeto:
-            sql = ("INSERT INTO desenvolvimento_projeto(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-    else:
-        for p in professor:
-            for row in resultProfessor:
-                print(p.nome)
-                if row[0] == p.nome and row[5] == p.lattes:
-                    if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-                        sql = (
-                        "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-                             p.enderecoProfissional_lat, p.   enderecoProfissional_long, p.nome))
-                        conector.execute(sql)
-                        connection.commit()
-                        auxil = 1
-            if auxil == 1:
-                arraysProfNovo.append(p)
-                auxil = 0
-        for profnovo in arraysProfNovo:
-                sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-                       % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-                conector.execute(sql)
-                connection.commit()
-                auxiliar =0
-    # Artigo
-    if resultProfessor.__len__()==0:
-        for profnovo in professor:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-    else:
-        for p in professor:
-            for row in resultProfessor:
-                print(p.nome)
-                if row[0] == p.nome and row[5] == p.lattes:
-                    if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-                        sql = (
-                        "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-                         p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
-                        conector.execute(sql)
-                        connection.commit()
-                        auxil = 1
-            if auxil == 1:
-                arraysProfNovo.append(p)
-                auxil = 0
-        for profnovo in arraysProfNovo:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-            auxiliar =0
+    if resultProjeto.__len__()!=0:
+
+        for p in projetoPesquisa:
+            # print ("ta aqui")
+            for row in resultProjeto:
+
+                # print ("ta aqui")
+                pDescricao = []
+                pSituacao = []
+                pNatureza =[]
+                pIntegrante =[]
+                pEnvolvidos = []
+                pCoordenador = []
+                pFinanciadores = []
+
+                pDescricao = p.resumo.encode("utf-8").split("Situação:" )
+                pSituacao = pDescricao[1]
+                pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
+                pNatureza = pSituacao[1]
+                # try:
+                pNatureza = p.resumo.encode("utf-8").split("Integrante:")
+
+                # pFinanciadores = pNatureza[1].encode("utf-8").split("Financiador(es):")
+                try:
+                    pIntegrante = pNatureza[1]
+                    pIntegrante = p.resumo.split("Integrantes: ")
+                    pEnvolvidos = pIntegrante[len(pIntegrante)-1]
+                    pCoordenador = pEnvolvidos.split("Coordenador")
+                except IndexError:
+
+                    pIntegrante = p.resumo.split("Integrantes: ")
+                    pCoordenador = pIntegrante[1].split("- Coordenador")
+                    pEnvolvidos = pCoordenador[1].split("- Integrante")
+                    # int numeroEnvolvidos =  pEnvolvidos.__len__()
+                    pFinanciadores = pEnvolvidos[pEnvolvidos.__len__()-1].encode("utf-8").split("Financiador(es):")
+
+                    # print(pFinanciadores)
+
+                    # print (pCoordenador)
+                    # print(pEnvolvidos)
+                    # print(pCoordenador[0])
+                    # print(pCoordenador[1])
 
 
-            #ArtigoEmConferencia
-    if resultProfessor.__len__()==0:
-        for profnovo in professor:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-    else:
-        for p in professor:
-            for row in resultProfessor:
-                print(p.nome)
-                if row[0] == p.nome and row[5] == p.lattes:
-                    if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-                        sql = (
-                        "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-                         p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
-                        conector.execute(sql)
-                        connection.commit()
-                        auxil = 1
-            if auxil == 1:
-                arraysProfNovo.append(p)
-                auxil = 0
-        for profnovo in arraysProfNovo:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-            auxiliar =0
 
-    # ArtigoEmPeriodico
-    if resultProfessor.__len__()==0:
-        for profnovo in professor:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-    else:
-        for p in professor:
-            for row in resultProfessor:
-                print(p.nome)
-                if row[0] == p.nome and row[5] == p.lattes:
-                    if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-                        sql = (
-                        "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-                         p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
-                        conector.execute(sql)
-                        connection.commit()
-                        auxil = 1
-            if auxil == 1:
-                arraysProfNovo.append(p)
-                auxil = 0
-        for profnovo in arraysProfNovo:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-            auxiliar =0
+                # print;
+                # separar em se não tiver natureza;
+
+
+                    # print(arraysProfNovo)
+                    #
+                    #
+                    # print(pSituacao[1].decode("utf-8"))
+                    # pNatureza = p.resumo.encode("utf-8").split("Integrante:")
+                    # pIntegrante = pNatureza[1]
+                    #
+                    # print(pNatureza)
+                    # pIntegrante = p.resumo.split("Alunos Envolvidos")
+                    # pAlunosEnvolvidos = pIntegrante[len(pIntegrante)-1]
+                    #
+                    # print(pDescricao[0])
+
+
+
+    #     for projnovo in projeto:
+    #         sql = ("INSERT INTO desenvolvimento_projeto(listadeCoordenadores, listaColaboradores, dataInicio, AgendaFinanciadora, nome) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #
+    #         # | id | listadeCoordenadores | listaColaboradores | dataInicio | datadeFim | AgendaFinanciadora | nome                                                                                                                                              | resumo
+    #         conector.execute(sql)
+    #         connection.commit()
+    # else:
+    #     for p in professor:
+    #         for row in resultProfessor:
+    #             print(p.nome)
+    #             if row[0] == p.nome and row[5] == p.lattes:
+    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
+    #                     sql = (
+    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
+    #                          p.enderecoProfissional_lat, p.   enderecoProfissional_long, p.nome))
+    #                     conector.execute(sql)
+    #                     connection.commit()
+    #                     auxil = 1
+    #         if auxil == 1:
+    #             arraysProfNovo.append(p)
+    #             auxil = 0
+    #     for profnovo in arraysProfNovo:
+    #             sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+    #                    % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #             conector.execute(sql)
+    #             connection.commit()
+    #             auxiliar =0
+    # # Artigo
+    # if resultProfessor.__len__()==0:
+    #     for profnovo in professor:
+    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         conector.execute(sql)
+    #         connection.commit()
+    # else:
+    #     for p in professor:
+    #         for row in resultProfessor:
+    #             print(p.nome)
+    #             if row[0] == p.nome and row[5] == p.lattes:
+    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
+    #                     sql = (
+    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
+    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
+    #                      p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
+    #                     conector.execute(sql)
+    #                     connection.commit()
+    #                     auxil = 1
+    #         if auxil == 1:
+    #             arraysProfNovo.append(p)
+    #             auxil = 0
+    #     for profnovo in arraysProfNovo:
+    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         conector.execute(sql)
+    #         connection.commit()
+    #         auxiliar =0
+    #
+    #
+    #         #ArtigoEmConferencia
+    # if resultProfessor.__len__()==0:
+    #     for profnovo in professor:
+    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         conector.execute(sql)
+    #         connection.commit()
+    # else:
+    #     for p in professor:
+    #         for row in resultProfessor:
+    #             print(p.nome)
+    #             if row[0] == p.nome and row[5] == p.lattes:
+    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
+    #                     sql = (
+    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
+    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
+    #                      p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
+    #                     conector.execute(sql)
+    #                     connection.commit()
+    #                     auxil = 1
+    #         if auxil == 1:
+    #             arraysProfNovo.append(p)
+    #             auxil = 0
+    #     for profnovo in arraysProfNovo:
+    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         conector.execute(sql)
+    #         connection.commit()
+    #         auxiliar =0
+    #
+    # # ArtigoEmPeriodico
+    # if resultProfessor.__len__()==0:
+    #     for profnovo in professor:
+    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         conector.execute(sql)
+    #         connection.commit()
+    # else:
+    #     for p in professor:
+    #         for row in resultProfessor:
+    #             print(p.nome)
+    #             if row[0] == p.nome and row[5] == p.lattes:
+    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
+    #                     sql = (
+    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
+    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
+    #                      p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
+    #                     conector.execute(sql)
+    #                     connection.commit()
+    #                     auxil = 1
+    #         if auxil == 1:
+    #             arraysProfNovo.append(p)
+    #             auxil = 0
+    #     for profnovo in arraysProfNovo:
+    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         conector.execute(sql)
+    #         connection.commit()
+    #         auxiliar =0
 
 
 
@@ -500,7 +562,7 @@ def executeLeitorXML():
 
 
 if __name__ == "__main__":
-    executeLattes()
+    # executeLattes()
     executeLeitorXML()
 
 
