@@ -486,6 +486,8 @@ class Membro:
 			s += "\n"
 			for pub in self.listaArtigoEmPeriodico:
 				s += pub.__str__()
+				# print(pub.str())
+				# print "HERE"
 
 			s += "\n"
 			for pub in self.listaLivroPublicado:
@@ -607,6 +609,7 @@ class Membro:
 			s += "\n- Organização de eventos                      : " + str(len(self.listaOrganizacaoDeEvento))
 			s += "\n\n"
 
+			# print(self.listaAreaDeAtuacao.__str__())
 		return s
 
 # ---------------------------------------------------------------------------- #

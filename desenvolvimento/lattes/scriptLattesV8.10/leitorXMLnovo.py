@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # -*- encoding: UTF-8 -*-
-
+from __future__ import absolute_import
 from __future__ import print_function
 from string import split
 from subprocess import call
@@ -165,6 +165,9 @@ def executeLattes():
     call("python scriptLattes.py ./data/scriptlattes-utfpr-cm-dacom.config", shell=True)
 
 
+
+
+
 def executeLeitorXML():
     # fd = open("data/lattes-site/database.xml")
     # parsedXML = et.parse(fd)
@@ -305,10 +308,9 @@ def executeLeitorXML():
 
 
 
-                        # Aqui
-                        # Insercao No BD
-
-                        # abrindoCOnexao
+    # Aqui
+    # Insercao No BD
+    # abrindoCOnexao
 
     config = {
         'user': 'root',
@@ -320,7 +322,7 @@ def executeLeitorXML():
     connection = mysql.connector.connect(**config)
     conector = connection.cursor()
     profs = []
-    # auxiliar=0
+
     conector.execute("SELECT * FROM desenvolvimento_professor")
     resultProfessor = conector.fetchall()
 
@@ -390,8 +392,10 @@ def executeLeitorXML():
                 pEnvolvidos = []
                 pCoordenador = []
                 pFinanciadores = []
+                pNumeroProducao =[]
 
                 pDescricao = p.resumo.encode("utf-8").split("Situação:" )
+                print(pDescricao)
                 pSituacao = pDescricao[1]
                 pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
                 pNatureza = pSituacao[1]
@@ -410,8 +414,36 @@ def executeLeitorXML():
                     pCoordenador = pIntegrante[1].split("- Coordenador")
                     pEnvolvidos = pCoordenador[1].split("- Integrante")
                     # int numeroEnvolvidos =  pEnvolvidos.__len__()
-                    pFinanciadores = pEnvolvidos[pEnvolvidos.__len__()-1].encode("utf-8").split("Financiador(es):")
+                    pFinanciadores = pEnvolvidos[pEnvolvidos.__len__()-1].split("Financiador(es):")
 
+
+                coordernadores = ''.join(pCoordenador[1])
+
+                # print(coordernadores[1])
+                # envolvidos = ','.join(pEnvolvidos)
+
+                # # for projnovo in projeto:
+                # sql = ("INSERT INTO desenvolvimento_projeto(listadeCoordenadores, listaColaboradores, dataInicio, AgendaFinanciadora, nome) VALUES ('%s' , '%s' , '%s', '%s', '%s')"
+                #        % (coordernadores,envolvidos ,"", pFinanciadores[0], pDescricao[0]))
+                #
+                #     # | id | listadeCoordenadores | listaColaboradores | dataInicio | datadeFim | AgendaFinanciadora | nome                                                                                                                                              | resumo
+                # conector.execute(sql)
+                # connection.commit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        # pNumeroProducao = pFinanciadores[1].split("Número de Producões")
                     # print(pFinanciadores)
 
                     # print (pCoordenador)
@@ -562,8 +594,9 @@ def executeLeitorXML():
 
 
 if __name__ == "__main__":
-    # executeLattes()
-    executeLeitorXML()
+    executeLattes()
+
+    # executeLeitorXML()
 
 
     # for p in projetoPesquisa:

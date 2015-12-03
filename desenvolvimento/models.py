@@ -1,5 +1,4 @@
 from django.db import models
-from django import forms
 
 class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
@@ -22,6 +21,12 @@ class Professor(models.Model):
     nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
     # funcionario = [Funcionario]
+
+    def __unicode__(self):
+        return self.nome
+
+    def __init__(self):
+        return Professor()
 
 
 # class Funcionario(models.Model):

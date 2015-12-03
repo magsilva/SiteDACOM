@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-<<<<<<< HEAD
-    <mapping directory="" vcs="" />
-=======
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
->>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
+    <mapping directory="$PROJECT_DIR$/django-haystack" vcs="Git" />
   </component>
 </project>

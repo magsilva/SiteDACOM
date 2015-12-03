@@ -7,12 +7,12 @@
 #  http://scriptlattes.sourceforge.net/
 #
 #
-#  Este programa é um software livre; você pode redistribui-lo e/ou 
-#  modifica-lo dentro dos termos da Licença Pública Geral GNU como 
-#  publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+#  Este programa é um software livre; você pode redistribui-lo e/ou
+#  modifica-lo dentro dos termos da Licença Pública Geral GNU como
+#  publicada pela Fundação do Software Livre (FSF); na versão 2 da
 #  Licença, ou (na sua opinião) qualquer versão.
 #
-#  Este programa é distribuído na esperança que possa ser util, 
+#  Este programa é distribuído na esperança que possa ser util,
 #  mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
 #  MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
 #  Licença Pública Geral GNU para maiores detalhes.
@@ -28,6 +28,7 @@ import re
 import string
 from tidylib import tidy_document
 from htmlentitydefs import name2codepoint
+import mysql.connector
 
 # ---------------------------------------------------------------------------- #
 from HTMLParser import HTMLParser
@@ -68,8 +69,140 @@ from organizacaoDeEvento import *
 from participacaoEmEvento import *
 
 
+
+class Departamento(object):
+    nome, sigla = "", ""
+
+    def __init__(self):
+        self.nome = ""
+        self.sigla = ""
+
+class Professor(object):
+    nome, email, telefone, departamento, funcao, \
+    lattes, bolsaProdutividade, enderecoProfissional, \
+    nomeEmCitacoesBibliograficas, textoResumo, enderecoProfissional_lat, enderecoProfissional_long = "", "", "", "", "", "", "", "", "", "", "", ""
+
+    def __init__(self):
+        self.nome = ""
+        self.email = ""
+        self.telefone = ""
+        self.departamento = None
+        self.funcao = ""
+        self.lattes = ""
+        self.bolsaProdutividade = ""
+        self.enderecoProfissional = ""
+        self.nomeEmCitacoesBibliograficas = ""
+        self.textoResumo = ""
+
+
+class Formacao(object):
+    anoInicio, anoConclusao, tipo, descricao = "", "", "", ""
+
+    def __init__(self):
+        self.anoInicio = ""
+        self.anoConclusao = ""
+        self.tipo = ""
+        self.descricao = ""
+
+
+class AreadeAtuacao(object):
+    descricao = ""
+
+    def __index__(self):
+        self.descricao = ""
+
+
+class Curso(object):
+    nome, sigla = "", ""
+
+    def __init__(self):
+        self.nome = ""
+        self.sigla = ""
+
+
+class Coordenacao(object):
+    coordenador, suplente, curso = "", "", ""
+
+    def __init__(self):
+        self.coordenador = ""
+        self.suplente = ""
+        self.curso = ""
+
+
+class Artigo(object):
+    listaDeAutores, titulo, data, doi, paginas, resumo = "", "", "", "", "", ""
+
+    def __init__(self):
+        self.data = ""
+        self.doi = ""
+        self.listaDeAutores = ""
+        self.paginas = ""
+        self.resumo = ""
+        self.titulo = ""
+
+
+class ArtigoEmPeriodico(Artigo):
+    nomeJournal, ISSN, publisher, numero, volume = "", "", "", "", ""
+
+    def __init__(self):
+        self.titulo = "",
+        self.resumo = ""
+        self.paginas = "",
+        self.listaDeAutores = ""
+        self.data = ""
+        self.doi = ""
+        self.ISSN = ""
+        self.nomeJournal = ""
+        self.numero = ""
+        self.publisher = ""
+
+
+class ArtigoEmConferencia(Artigo):
+    nomedaConferencia, ISSN, ISBN, local = "", "", "", ""
+
+    def __init__(self):
+        self.titulo = ""
+        self.ISSN = ""
+        self.data = ""
+        self.doi = ""
+        self.listaDeAutores = ""
+        self.ISBN = ""
+        self.local = ""
+        self.paginas = ""
+        self.nomedaConferencia = ""
+        self.resumo = ""
+
+class Projeto(object):
+    listadeCoordenadores, listaColaboradores, dataInicio, datadeFim, \
+    AgendaFinanciadora, nome, resumo = "", "", "", "", "", "", ""
+
+    def __init__(self):
+        self.listaColaboradores = ""
+        self.resumo = ""
+        self.AgendaFinanciadora = ""
+        self.datadeFim = ""
+        self.dataInicio = ""
+        self.nome = ""
+        self.resumo = ""
+
+
+class Evento(object):
+    doi, autores, titulo, nomeEvento, ano, volume, paginas = "", "", "", "", "", "", ""
+
+    def __init__(self):
+        self    .doi = ""
+        self.autores = ""
+        self.titulo = ""
+        self.nomeEvento = ""
+        self.ano = ""
+        self.volume = ""
+        self.paginas = ""
+
+
+
+
 class ParserLattes(HTMLParser):
-	
+
 	identificador16 = ''
 	item = None
 	nomeCompleto = ''
@@ -80,8 +213,9 @@ class ParserLattes(HTMLParser):
 	atualizacaoCV = ''
 	foto = ''
 	textoResumo = ''
-	
-	
+
+	# prof = Professor()
+
 	salvarIdentificador16 = None
 	salvarNome = None
 	salvarBolsaProdutividade = None
@@ -115,7 +249,7 @@ class ParserLattes(HTMLParser):
 	achouOrientacoes = None
 	achouOutrasInformacoesRelevantes = None
 	spanInformacaoArtigo = None
-	
+
 	recuperarIdentificador16 = None
 
 
@@ -152,7 +286,7 @@ class ParserLattes(HTMLParser):
 	achouDesenhoIndustrial = None
 	achouPatenteRegistro = None
 
-	
+
 	achouProducaoArtistica = None
 
 	achouOrientacoesEmAndamento	= None
@@ -199,7 +333,7 @@ class ParserLattes(HTMLParser):
 	listaPatente = []
 	listaProgramaComputador = []
 	listaDesenhoIndustrial = []
-		
+
 	listaProducaoArtistica = []
 
 	# Orientaççoes em andamento (OA)
@@ -231,6 +365,10 @@ class ParserLattes(HTMLParser):
 	idOrientando = None
 	citado = 0
 	complemento = ''
+
+
+
+
 
 	# ------------------------------------------------------------------------ #
 	def __init__(self, idMembro, cvLattesHTML):
@@ -270,7 +408,7 @@ class ParserLattes(HTMLParser):
 		self.listaPatente = []
 		self.listaProgramaComputador = []
 		self.listaDesenhoIndustrial = []
-				
+
 		self.listaProducaoArtistica = []
 
 		self.listaOASupervisaoDePosDoutorado = []
@@ -294,7 +432,7 @@ class ParserLattes(HTMLParser):
 
 
 		# inicializacao para evitar a busca exaustiva de algumas palavras-chave
-		self.salvarAtualizacaoCV = 1 
+		self.salvarAtualizacaoCV = 1
 		self.salvarFoto = 1
 		self.procurarCabecalho = 0
 		self.achouGrupo = 0
@@ -323,16 +461,17 @@ class ParserLattes(HTMLParser):
 	# ------------------------------------------------------------------------ #
 	def handle_starttag(self, tag, attributes):
 
+
 		if tag=='h2':
 			for name, value in attributes:
 				if name=='class' and value=='nome':
 					self.salvarNome = 1
 					self.item = ''
 					break
-		
+
 		if tag=='li':
 		    self.recuperarIdentificador16 = 1
-		    	      
+
 		if tag=='p':
 			for name, value in attributes:
 				if name=='class' and value=='resumo':
@@ -354,7 +493,7 @@ class ParserLattes(HTMLParser):
 
 			for name, value in attributes:
 				if name=='class' and value=='title-wrapper':
-					self.umaUnidade = 1	
+					self.umaUnidade = 1
 					break
 
 			for name, value in attributes:
@@ -371,13 +510,15 @@ class ParserLattes(HTMLParser):
 						self.salvarEnderecoProfissional = 1
 						self.item = ''
 
+            # print()
+
 					if self.salvarParte1:
 						self.salvarParte1 = 0
 						self.salvarParte2 = 1
-				
+
 				if name=='class' and value=='layout-cell-pad-5 text-align-right':
 					self.item = ''
-					if self.achouFormacaoAcademica or self.achouAtuacaoProfissional or self.achouProjetoDePesquisa or self.achouMembroDeCorpoEditorial or self.achouRevisorDePeriodico or self.achouAreaDeAtuacao or self.achouIdioma or self.achouPremioOuTitulo or self.salvarItem: 
+					if self.achouFormacaoAcademica or self.achouAtuacaoProfissional or self.achouProjetoDePesquisa or self.achouMembroDeCorpoEditorial or self.achouRevisorDePeriodico or self.achouAreaDeAtuacao or self.achouIdioma or self.achouPremioOuTitulo or self.salvarItem:
 						self.salvarParte1 = 1
 						self.salvarParte2 = 0
 						if not self.salvarParte3:
@@ -391,7 +532,7 @@ class ParserLattes(HTMLParser):
 					self.complemento = value.replace("/buscatextual/servletcitacoes?","")
 
 
-		if tag=='h1' and self.umaUnidade: 
+		if tag=='h1' and self.umaUnidade:
 			self.procurarCabecalho = 1
 
 			self.achouIdentificacao = 0
@@ -416,7 +557,7 @@ class ParserLattes(HTMLParser):
 			self.achouPatenteRegistro = 0
 
 		if tag=='img':
-			if self.salvarFoto: 
+			if self.salvarFoto:
 				for name, value in attributes:
 					if name=='src' and u'servletrecuperafoto' in value:
 						self.foto = value
@@ -431,13 +572,13 @@ class ParserLattes(HTMLParser):
 
 		if tag=='br':
 			self.item = self.item + ' '
-		
+
 		if tag=='span':
 			if self.achouProducaoEmCTA:
 				for name, value in attributes:
 					if name=='class' and value==u'informacao-artigo':
 						self.spanInformacaoArtigo = 1
-		
+
 		if tag=='a':
 			if self.salvarItem: # and self.achouArtigoEmPeriodico:
 				for name, value in attributes:
@@ -455,50 +596,197 @@ class ParserLattes(HTMLParser):
 
 	# ------------------------------------------------------------------------ #
 	def handle_endtag(self, tag):
+
+    # Aqui
+		# Insercao No BD
+		# abrindoCOnexao
+
+		config = {
+			'user': 'root',
+			'passwd': 'root',
+			'database': 'UTFPR'
+		}
+
+
+		connection = mysql.connector.connect(**config)
+		conector = connection.cursor()
+		profs = []
+
+		conector.execute("SELECT * FROM desenvolvimento_professor")
+		resultProfessor = conector.fetchall()
+
+		conector.execute("SELECT * FROM desenvolvimento_artigo")
+		resultArtigo = conector.fetchall()
+
+		conector.execute ("SELECT * FROM desenvolvimento_artigoemconferencia")
+		resultAritgoEmConferencia = conector.fetchall()
+
+		conector.execute ("SELECT * FROM desenvolvimento_artigoemperiodico")
+		resultArtigoEmPeriodico = conector.fetchall()
+
+		conector.execute ("SELECT * FROM desenvolvimento_formacao")
+		resultFormacao = conector.fetchall()
+
+		conector.execute ("SELECT * FROM desenvolvimento_projeto")
+		resultProjeto = conector.fetchall()
+
+		# inverter as ordem dos for
+		# colocar o q ta fora dentro e q ta dentro fora
+
+
+		auxil = 0
+
+    #Professor
+    #
+
+    #
+    # # projeto
+    # if resultProjeto.__len__()!=0:
+    #
+    #     for p in projetoPesquisa:
+    #         # print ("ta aqui")
+    #         for row in resultProjeto:
+    #
+    #             # print ("ta aqui")
+    #             pDescricao = []
+    #             pSituacao = []
+    #             pNatureza =[]
+    #             pIntegrante =[]
+    #             pEnvolvidos = []
+    #             pCoordenador = []
+    #             pFinanciadores = []
+    #             pNumeroProducao =[]
+    #
+    #             pDescricao = p.resumo.encode("utf-8").split("Situação:" )
+    #             print(pDescricao)
+    #             pSituacao = pDescricao[1]
+    #             pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
+    #             pNatureza = pSituacao[1]
+    #             # try:
+    #             pNatureza = p.resumo.encode("utf-8").split("Integrante:")
+    #
+    #             # pFinanciadores = pNatureza[1].encode("utf-8").split("Financiador(es):")
+    #             try:
+    #                 pIntegrante = pNatureza[1]
+    #                 pIntegrante = p.resumo.split("Integrantes: ")
+    #                 pEnvolvidos = pIntegrante[len(pIntegrante)-1]
+    #                 pCoordenador = pEnvolvidos.split("Coordenador")
+    #             except IndexError:
+    #
+    #                 pIntegrante = p.resumo.split("Integrantes: ")
+    #                 pCoordenador = pIntegrante[1].split("- Coordenador")
+    #                 pEnvolvidos = pCoordenador[1].split("- Integrante")
+    #                 # int numeroEnvolvidos =  pEnvolvidos.__len__()
+    #                 pFinanciadores = pEnvolvidos[pEnvolvidos.__len__()-1].split("Financiador(es):")
+    #
+    #
+    #             coordernadores = ''.join(pCoordenador[1])
+    #
+    #             # print(coordernadores[1])
+    #             # envolvidos = ','.join(pEnvolvidos)
+    #
+    #             # # for projnovo in projeto:
+    #             # sql = ("INSERT INTO desenvolvimento_projeto(listadeCoordenadores, listaColaboradores, dataInicio, AgendaFinanciadora, nome) VALUES ('%s' , '%s' , '%s', '%s', '%s')"
+    #             #        % (coordernadores,envolvidos ,"", pFinanciadores[0], pDescricao[0]))
+    #             #
+    #             #     # | id | listadeCoordenadores | listaColaboradores | dataInicio | datadeFim | AgendaFinanciadora | nome                                                                                                                                              | resumo
+    #             # conector.execute(sql)
+    #             # connection.commit()
+		prof = Professor()
+
+
 		# Informações do pesquisador (pre-cabecalho)
 		if tag=='h2':
 			if self.salvarNome:
  				self.nomeCompleto = stripBlanks(self.item)
+				prof.nome= self.nomeCompleto
 				self.salvarNome = 0
 			if self.salvarBolsaProdutividade:
 				self.salvarBolsaProdutividade = 0
 
 		if tag=='p':
 			if self.salvarTextoResumo:
+
 				self.textoResumo = stripBlanks(self.item)
+				prof.textoResumo = self.textoResumo
 				self.salvarTextoResumo = 0
 
 		if tag=='span' and self.salvarBolsaProdutividade:
 			self.bolsaProdutividade = stripBlanks(self.item)
 			self.bolsaProdutividade = re.sub('Bolsista de Produtividade em Pesquisa do CNPq - ','', self.bolsaProdutividade)
 			self.bolsaProdutividade = self.bolsaProdutividade.strip('()')
+			prof.bolsaProdutividade = self.salvarBolsaProdutividade
 			self.salvarBolsaProdutividade = 0
-		
+
 		if tag=='span' and self.salvarIdentificador16 == 1:
+
+
 			self.identificador16 = re.findall(u'http://lattes.cnpq.br/(\d{16})', value)
+			prof.lattes = value
+
 			self.salvarIdentificador16 = 0
-			
+
 		# Cabeçalhos
 		if tag=='h1' and self.procurarCabecalho:
 			self.procurarCabecalho = 0
 
 
-		if tag=='div': 
+		if tag=='div':
 			if self.salvarNomeEmCitacoes:
+				# print stripBlanks(self.item)
+
 				self.nomeEmCitacoesBibliograficas = stripBlanks(self.item)
+				# print self.nomeEmCitacoesBibliograficas
+
+				prof.nomeEmCitacoesBibliograficas =   self.nomeEmCitacoesBibliograficas
 				self.salvarNomeEmCitacoes = 0
 				self.achouNomeEmCitacoes = 0
 			if self.salvarSexo:
 				self.sexo = stripBlanks(self.item)
+
 				self.salvarSexo = 0
 				self.achouSexo = 0
 			if self.salvarEnderecoProfissional:
 				self.enderecoProfissional = stripBlanks(self.item)
 				self.enderecoProfissional = re.sub("\'", '', self.enderecoProfissional)
 				self.enderecoProfissional = re.sub("\"", '', self.enderecoProfissional)
+				prof.enderecoProfissional= self.enderecoProfissional
 				self.salvarEnderecoProfissional = 0
 				self.achouEnderecoProfissional = 0
-			
+
+
+		# arraysProfNovo[]
+		# arrayProf =[]
+
+		if resultProfessor.__len__()==0:
+			# for profnovo in professor:
+			sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+			conector.execute(sql)
+			connection.commit()
+		else:
+			for row in resultProfessor:
+					# print(p.nome)
+				if row[0] == prof.nome and row[5] == prof.lattes:
+					if row[3] != prof.departamento or row[4] != prof.funcao or row[5] != prof.lattes or row[10] != prof.nomeEmCitacoesBibliograficas:
+						sql = (
+						"UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
+						(prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas, prof.enderecoProfissional,
+						 prof.enderecoProfissional_lat, prof.enderecoProfissional_long, prof.nome))
+						conector.execute(sql)
+						connection.commit()
+						auxil = 1
+
+			if auxil == 1:
+				arrayProf.append(prof)
+				auxil = 0
+
+				sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+				 % (prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
+				conector.execute(sql)
+				connection.commit()
+				auxiliar =0
+
+
 			if (self.salvarParte1 and not self.salvarParte2) or (self.salvarParte2 and not self.salvarParte1) :
 				if len(stripBlanks(self.item))>0:
 					self.partesDoItem.append(stripBlanks(self.item)) # acrescentamos cada celula da linha em uma lista!
@@ -510,7 +798,43 @@ class ParserLattes(HTMLParser):
 
 					if self.achouFormacaoAcademica and len(self.partesDoItem)>=2:
 						iessimaFormacaoAcademica = FormacaoAcademica(self.partesDoItem) # criamos um objeto com a lista correspondentes às celulas da linha
+
+
+    # ano_inicio = models.CharField('Ano de Inicio', max_length=4)
+    # ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
+    # tipo = models.CharField('Tipo', max_length=511)
+    # descricao = models.CharField('Descricao', max_length=5000)
+
+						if resultFormacao.__len__()==0:
+							# for profnovo in professor:
+							sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+							conector.execute(sql)
+							connection.commit()
+						else:
+							for row in resultFormacao:
+									# print(p.nome)
+								if row[3] == iessimaFormacaoAcademica.descricao and row[2] == iessimaFormacaoAcademica.tipo:
+									if row[0] != iessimaFormacaoAcademica.anoInicio or row[1] != iessimaFormacaoAcademica.anoConclusao or row[2] != iessimaFormacaoAcademica.tipo or row[3] != iessimaFormacaoAcademica.descricao:
+										sql = (
+										"UPDATE desenvolvimento_formacao SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s ",
+										(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
+										conector.execute(sql)
+										connection.commit()
+										auxil = 1
+
+							if auxil == 1:
+								# arrayProf.append(prof)
+								auxil = 0
+
+								sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+								conector.execute(sql)
+								connection.commit()
+								auxiliar =0
+
+						# print(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo)
+
 						self.listaFormacaoAcademica.append(iessimaFormacaoAcademica) # acrescentamos o objeto de FormacaoAcademica
+
 
 					#if self.achouAtuacaoProfissional:
 					#	print self.partesDoItem
@@ -522,6 +846,34 @@ class ParserLattes(HTMLParser):
 							self.salvarParte3 = 0
 							if len(self.partesDoItem)>=3:
 								iessimoProjetoDePesquisa = ProjetoDePesquisa(self.idMembro, self.partesDoItem) # criamos um objeto com a lista correspondentes às celulas da linha
+
+
+								if resultFormacao.__len__()==0:
+									# for profnovo in professor:
+									sql = ("INSERT INTO desenvolvimento_projeto(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+									conector.execute(sql)
+									connection.commit()
+								else:
+									for row in resultFormacao:
+											# print(p.nome)
+										if row[3] == iessimaFormacaoAcademica.descricao and row[2] == iessimaFormacaoAcademica.tipo:
+											if row[0] != iessimaFormacaoAcademica.anoInicio or row[1] != iessimaFormacaoAcademica.anoConclusao or row[2] != iessimaFormacaoAcademica.tipo or row[3] != iessimaFormacaoAcademica.descricao:
+												sql = (
+												"UPDATE desenvolvimento_formacao SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s ",
+												(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
+												conector.execute(sql)
+												connection.commit()
+												auxil = 1
+
+									if auxil == 1:
+										# arrayProf.append(prof)
+										auxil = 0
+
+										sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+										conector.execute(sql)
+										connection.commit()
+										auxiliar =0
+
 								self.listaProjetoDePesquisa.append(iessimoProjetoDePesquisa) # acrescentamos o objeto de ProjetoDePesquisa
 
 					#if self.achouMembroDeCorpoEditorial:
@@ -529,14 +881,16 @@ class ParserLattes(HTMLParser):
 
 					#if self.achouRevisorDePeriodico:
 					#	print self.partesDoItem
-					
+
 					if self.achouAreaDeAtuacao and len(self.partesDoItem)>=2:
 						iessimaAreaDeAtucao = AreaDeAtuacao(self.partesDoItem) # criamos um objeto com a lista correspondentes às celulas da linha
 						self.listaAreaDeAtuacao.append(iessimaAreaDeAtucao) # acrescentamos o objeto de AreaDeAtuacao
-					
+
 					if self.achouIdioma and len(self.partesDoItem)>=2:
 						iessimoIdioma = Idioma(self.partesDoItem) # criamos um objeto com a lista correspondentes às celulas da linha
+						# print(iessimoIdioma)
 						self.listaIdioma.append(iessimoIdioma) # acrescentamos o objeto de Idioma
+
 
 					if self.achouPremioOuTitulo and len(self.partesDoItem)>=2:
 						iessimoPremio = PremioOuTitulo(self.idMembro, self.partesDoItem) # criamos um objeto com a lista correspondentes às celulas da linha
@@ -547,7 +901,7 @@ class ParserLattes(HTMLParser):
 					#	#print "===>>>> PROCESSANDO PATENTE e REGISTRO"
 					#	if self.achouPatente:
  					#		iessimoItem = Patente(self.idMembro, self.partesDoItem, self.relevante)
-					#		self.listaPatente.append(iessimoItem)    
+					#		self.listaPatente.append(iessimoItem)
 					#	if self.achouProgramaComputador:
  					#		iessimoItem = ProgramaComputador(self.idMembro, self.partesDoItem, self.relevante)
 					#		self.listaProgramaComputador.append(iessimoItem)
@@ -563,50 +917,50 @@ class ParserLattes(HTMLParser):
 								self.doi = ''
 								self.relevante = 0
 								self.complemento = ''
-    
+
 							if self.achouLivroPublicado:
 								iessimoItem = LivroPublicado(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaLivroPublicado.append(iessimoItem)
 								self.relevante = 0
-    
+
 							if self.achouCapituloDeLivroPublicado:
 								iessimoItem = CapituloDeLivroPublicado(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaCapituloDeLivroPublicado.append(iessimoItem)
 								self.relevante = 0
-					
+
 							if self.achouTextoEmJornalDeNoticia:
 								iessimoItem = TextoEmJornalDeNoticia(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaTextoEmJornalDeNoticia.append(iessimoItem)
 								self.relevante = 0
-					
+
 							if self.achouTrabalhoCompletoEmCongresso:
 								iessimoItem = TrabalhoCompletoEmCongresso(self.idMembro, self.partesDoItem, self.doi, self.relevante)
 								self.listaTrabalhoCompletoEmCongresso.append(iessimoItem)
 								self.doi = ''
 								self.relevante = 0
-						
+
 							if self.achouResumoExpandidoEmCongresso:
 								iessimoItem = ResumoExpandidoEmCongresso(self.idMembro, self.partesDoItem, self.doi, self.relevante)
 								self.listaResumoExpandidoEmCongresso.append(iessimoItem)
 								self.doi = ''
 								self.relevante = 0
-					
+
 							if self.achouResumoEmCongresso:
 								iessimoItem = ResumoEmCongresso(self.idMembro, self.partesDoItem, self.doi, self.relevante)
 								self.listaResumoEmCongresso.append(iessimoItem)
 								self.doi = ''
 								self.relevante = 0
-    
+
 							if self.achouArtigoAceito:
 								iessimoItem =  ArtigoAceito(self.idMembro, self.partesDoItem, self.doi, self.relevante)
 								self.listaArtigoAceito.append(iessimoItem)
 								self.doi = ''
 								self.relevante = 0
-					
+
 							if self.achouApresentacaoDeTrabalho:
 								iessimoItem =  ApresentacaoDeTrabalho(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaApresentacaoDeTrabalho.append(iessimoItem)
-    
+
 							if self.achouOutroTipoDeProducaoBibliografica:
 								iessimoItem = OutroTipoDeProducaoBibliografica(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaOutroTipoDeProducaoBibliografica.append(iessimoItem)
@@ -616,23 +970,23 @@ class ParserLattes(HTMLParser):
 							if self.achouSoftwareComPatente:
 								iessimoItem = SoftwareComPatente(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaSoftwareComPatente.append(iessimoItem)
-    
+
 							if self.achouSoftwareSemPatente:
 								iessimoItem = SoftwareSemPatente(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaSoftwareSemPatente.append(iessimoItem)
-						
+
 							if self.achouProdutoTecnologico:
 								iessimoItem = ProdutoTecnologico(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaProdutoTecnologico.append(iessimoItem)
-    
+
 							if self.achouProcessoOuTecnica:
 								iessimoItem = ProcessoOuTecnica(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaProcessoOuTecnica.append(iessimoItem)
-    
+
 							if self.achouTrabalhoTecnico:
 								iessimoItem = TrabalhoTecnico(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaTrabalhoTecnico.append(iessimoItem)
-    
+
 							if self.achouOutroTipoDeProducaoTecnica:
 								iessimoItem = OutroTipoDeProducaoTecnica(self.idMembro, self.partesDoItem, self.relevante)
 								self.listaOutroTipoDeProducaoTecnica.append(iessimoItem)
@@ -712,7 +1066,7 @@ class ParserLattes(HTMLParser):
 			self.item = self.item + htmlentitydecode(dado)
 
 		dado = stripBlanks(dado)
-			
+
 		if self.salvarAtualizacaoCV:
 			data = re.findall(u'Última atualização do currículo em (\d{2}/\d{2}/\d{4})', dado)
 			if len(data)>0: # se a data de atualizacao do CV for identificada
@@ -755,10 +1109,10 @@ class ParserLattes(HTMLParser):
 				self.achouOrientacoes = 1
 			if u'Patentes e registros'== dado:
 				self.achouPatenteRegistro = 1
-				#print "0==>>>>ACHOU PATENTE e REGISTRO"	
+				#print "0==>>>>ACHOU PATENTE e REGISTRO"
 			if u'Outras informações relevantes'==dado:
 				self.achouOutrasInformacoesRelevantes = 1
-			self.umaUnidade = 0	
+			self.umaUnidade = 0
 		if self.achouIdentificacao:
 			if u'Nome em citações bibliográficas'==dado:
 				self.achouNomeEmCitacoes = 1
@@ -774,20 +1128,20 @@ class ParserLattes(HTMLParser):
 				self.salvarItem = 1
 				self.achouPatente = 1
 				self.achouProgramaComputador = 0
-				self.achouDesenhoIndustrial = 0					
-				#print "1==>>>>ACHOU PATENTE e REGISTRO"				
+				self.achouDesenhoIndustrial = 0
+				#print "1==>>>>ACHOU PATENTE e REGISTRO"
 			if u'Programa de computador'==dado:
 				self.salvarItem = 1
 				self.achouPatente = 0
 				self.achouProgramaComputador = 1
-				self.achouDesenhoIndustrial = 0	
+				self.achouDesenhoIndustrial = 0
 				#print "2==>>>>ACHOU PATENTE e REGISTRO"
 			if u'Desenho industrial'==dado:
 				self.salvarItem = 1
 				self.achouPatente = 0
 				self.achouProgramaComputador = 0
-				self.achouDesenhoIndustrial = 1			
-			
+				self.achouDesenhoIndustrial = 1
+
 		if self.achouProducoes:
 			if u'Produção bibliográfica'==dado:
 				self.achouProducaoEmCTA = 1
@@ -801,7 +1155,7 @@ class ParserLattes(HTMLParser):
 				self.achouProducaoEmCTA = 0
 				self.achouProducaoTecnica = 0
 				self.achouProducaoArtisticaCultural= 1
-			
+
 			if u'Demais trabalhos'==dado:
 				self.salvarItem = 0
 				self.achouProducaoEmCTA = 0
@@ -991,14 +1345,14 @@ class ParserLattes(HTMLParser):
 				#	self.achouProcessoOuTecnica = 0
 				#	self.achouTrabalhoTecnico = 0
 				#	self.achouOutroTipoDeProducaoTecnica = 0
-    
+
 			if self.achouProducaoArtisticaCultural:
 				#if u'Produção artística/cultural'==dado:
 				if u'Outras produções artísticas/culturais'==dado or u'Artes Cênicas'==dado or u'Música'==dado:
-					# separar as listas de producoes artisticas por tipos 
+					# separar as listas de producoes artisticas por tipos
 					self.salvarItem = 1
 					self.achouOutraProducaoArtisticaCultural = 1
-			
+
 		if self.achouBancas:
 			if u'Participação em bancas de trabalhos de conclusão'==dado:
 				self.salvarItem = 0
@@ -1089,7 +1443,7 @@ class ParserLattes(HTMLParser):
 
 		if self.achouOutrasInformacoesRelevantes:
 			self.salvarItem = 0
-				
+
 		if self.recuperarIdentificador16 and self.identificador16 == '':
 		  id = re.findall(u'http://lattes.cnpq.br/(\d{16})', dado)
 		  if len(id) > 0:
@@ -1106,7 +1460,7 @@ class ParserLattes(HTMLParser):
 def stripBlanks(s):
 	return re.sub('\s+', ' ', s).strip()
 
-def htmlentitydecode(s):                                                                               
-	return re.sub('&(%s);' % '|'.join(name2codepoint),                                                 
-		lambda m: unichr(name2codepoint[m.group(1)]), s)   
+def htmlentitydecode(s):
+	return re.sub('&(%s);' % '|'.join(name2codepoint),
+		lambda m: unichr(name2codepoint[m.group(1)]), s)
 

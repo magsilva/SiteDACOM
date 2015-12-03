@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/projectUtfpr.iml" filepath="$PROJECT_DIR$/.idea/projectUtfpr.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/utfpr.iml" filepath="$PROJECT_DIR$/.idea/utfpr.iml" />
->>>>>>> e75cb122e700f2a2f1b538f220809e0b1802c041
     </modules>
   </component>
 </project>
