@@ -1,0 +1,3314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Luiz Arthur Feitosa dos Santos)</title>
+<link type="text/css" rel="stylesheet" href="./3725232561617394_files/import.css">
+<link type="text/css" href="./3725232561617394_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./3725232561617394_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./3725232561617394_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./3725232561617394_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./3725232561617394_files/espelho.css">
+<script type="text/javascript" async="" src="./3725232561617394_files/ga.js"></script><script type="text/javascript" src="./3725232561617394_files/jquery.min.js"></script><style type="text/css"></style><script src="./3725232561617394_files/jquery.cookie.js" type="text/javascript"></script><script src="./3725232561617394_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./3725232561617394_files/tooltip-position.js"></script><script type="text/javascript" src="./3725232561617394_files/jquery.tipsy.js"></script><script type="text/javascript" src="./3725232561617394_files/jquery.megamenu.js"></script><script type="text/javascript" src="./3725232561617394_files/byOrder.js"></script><script type="text/javascript" src="./3725232561617394_files/font-size.js"></script><script type="text/javascript" src="./3725232561617394_files/cv_citacoes.js"></script><script type="text/javascript" src="./3725232561617394_files/hint_ajax.js"></script><script type="text/javascript" src="./3725232561617394_files/menuFlowScroll.js"></script><script type="text/javascript" src="./3725232561617394_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./3725232561617394_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5&idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=3725232561617394" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="15" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="18" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProjetosPesquisa" class="acessibilidade separador" tabindex="21" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProducoesCientificas" class="acessibilidade separador" tabindex="23" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#EducacaoPopularizacaoCTA" class="acessibilidade separador" tabindex="56" _megamenupos="5pos"><span></span>Educação e Popularização de C &amp; T</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Eventos" class="acessibilidade separador" tabindex="71" _megamenupos="6pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Orientacoes" class="acessibilidade separador" tabindex="74" _megamenupos="7pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Bancas" class="acessibilidade separador" tabindex="77" _megamenupos="8pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="80" _megamenupos="9pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./3725232561617394_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Luiz Arthur Feitosa dos Santos</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/3725232561617394</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 19/06/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Doutorando em Ciência da Computação pelo IME/USP. Possui mestrado em Ciência da Computação pela Universidade Estadual de Maringá (2005), graduação em Ciências da Computação pela Universidade Paranaense   Campus Paranavaí (2002) e Certificado Linux Professional Institute - LPI. Atualmente é professor da Universidade Tecnológica Federal do Paraná (UTFPR)   Campus Campo Mourão. Trabalhou de 2006 a 2010 como professor do Centro Universitário de Maringá   CESUMAR, nos cursos de Redes de Computadores, Análise e Desenvolvimento de Sistemas, Sistemas de Informação, Automação Industrial, Engenharia Mecatrônica. Foi professor de pós-graduação da Universidade Paranaense   UNIPAR   campus Paranavaí (em 2010), onde também lecionou na graduação de 2005 a 2009 para o curso de Sistemas de Informação, também foi professor da Faculdade Intermunicipal do Noroeste do Paraná   FACINOR entre 2006 à 2009 no curso de Informática Empresarial. Tem experiência na área de Ciência da Computação, atuando principalmente nos seguintes temas: redes de computadores e segurança da informação. Mais especificamente atua com: Cluster de alto desempenho, Cluster de Balanceamento de Carga, Cluster de alta disponibilidade, VoIP, Firewall IPtables no Linux (já foi consultor para algumas empresas de TI), Firewall PF no OpenBSD, Sistemas de Detecção de Intrusão, gerência de redes, servidores de redes, dispositivos embarcados, dentre outros.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="82">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Luiz Arthur Feitosa dos Santos<img src="./3725232561617394_files/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SANTOS, L. A. F.</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="83">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Campus Campo Mourão. <br class="clear">BR 369 - Km 0,5<br class="clear">87301-006 - Campo Mourao, PR - Brasil - Caixa-postal: 271<br class="clear">Telefone: (44) 35234156<br class="clear">URL da Homepage: <a target="blank" href="http://www.utfpr.edu.br/campomourao" tabindex="84">http://www.utfpr.edu.br/campomourao</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="85">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Ciencia da Computacao. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">Título: Mecanismos autonômicos para proteção de redes locais com base em SDN, <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/2934786440085983" tabindex="86"><img src="./3725232561617394_files/logolattes.gif"></a>Dr. Daniel Macêdo Batista.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=40004015019P5&amp;nivelCurso=M"> (Conceito CAPES 3)</span>. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Desenvolvimento de Algoritmos Paralelos para Simulador de Multiprocessadores Superescalares,Ano de Obtenção: 2005.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/1637859392334942" tabindex="87"><img src="./3725232561617394_files/logolattes.gif"></a>Prof Dr. João Angelo Martini.<br class="clear">Palavras-chave: Arquiteturas Paralelas; Simuladores; Algoritmos Paralelos.<br class="clear">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação / Especialidade: Modelos Analíticos e de Simulação. <br class="clear">Setores de atividade: Desenvolvimento de Novos Materiais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciências da Computação. <br class="clear">Universidade Paranaense.
+		
+	<br class="clear">Título: Voz sobre IP - VoIP. <br class="clear">Orientador: Roni Francis Shigueta. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="88">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Certificação LPI Nível 1 Exame 102.  (Carga horária: 80h). <br class="clear">Linux Professional Institute.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Certificação LPI Nível 1 Exame 101.  (Carga horária: 80h). <br class="clear">Linux Professional Institute.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso Portal Periódicos da Capes.  (Carga horária: 8h). <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Mysql e Php.  (Carga horária: 40h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Implementação de redes Windows 2000 Server.  (Carga horária: 46h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Disponibilização e integração de serviços em redes.  (Carga horária: 48h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Montagem e configuração de redes de computadores.  (Carga horária: 48h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Implementação de redes Windows NT.  (Carga horária: 48h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Elaboração e documentação de projeto de redes.  (Carga horária: 48h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Developer Forms 6 0.  (Carga horária: 40h). <br class="clear">Usb Group.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Introdução Ao Oracle e Procedural Option.  (Carga horária: 40h). <br class="clear">Usb Group.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Sistema de Detecção de Intrusão.  (Carga horária: 20h). <br class="clear">Universidade Federal de Santa Catarina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Administração de Banco de Dados Dba.  (Carga horária: 40h). <br class="clear">Usb Group.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Developer Reports 6 0.  (Carga horária: 40h). <br class="clear">Usb Group.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Internet Móvel Tecnologia Aplicações e Qos.  (Carga horária: 20h). <br class="clear">Universidade Federal de Santa Catarina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Implementação de Redes Windows Nt.  (Carga horária: 40h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Certificado Conectiva de Administração de Redes.  (Carga horária: 60h). <br class="clear">Conectiva Linux.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Introdução Ao Sistema Operacional Linux.  (Carga horária: 40h). <br class="clear">Universidade Paranaense.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Certificado Conectiva Administração de Servidores.  (Carga horária: 40h). <br class="clear">Conectiva Linux.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Automação Com Ênfase Em Robótica.  (Carga horária: 220h). <br class="clear">Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Banco de Dados I.  (Carga horária: 55h). <br class="clear">Citrus Design Informática S C Ltda.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Analise de Sistemas I Projeto e Desenvolvimento de.  (Carga horária: 55h). <br class="clear">Citrus Design Informática S C Ltda.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Banco de Dados III Clipper.  (Carga horária: 55h). <br class="clear">Citrus Design Informática S C Ltda.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ambiente Windows 95 e Internet.  (Carga horária: 35h). <br class="clear">Citrus Design Informática S C Ltda.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Banco de Dados II Dbase III Plus.  (Carga horária: 55h). <br class="clear">Citrus Design Informática S C Ltda.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ambiente Windows 3 11.  (Carga horária: 55h). <br class="clear">Citrus Design Informática S C Ltda.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introdução a Microinformática SO MS-DOS 6.22.  (Carga horária: 55h). <br class="clear">Citrus Design Informática S C Ltda.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="89">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade de São Paulo, USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Viniel Informatica, VINIEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Técnico em Informática, Enquadramento Funcional: Técnico em Informática, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Chefe do setor de Hardware e Software da Viniel Informática, por aproximadamente dois anos. Onde o acadêmico realizava serviços como instalação de redes, montagens e consertos de microcomputadores, consertos de impressoras (matricial e jato de tinta), instalação de Sistemas Operacionais, instalação de programas em micros e supervisão técnica sobre o serviço realizado por outros funcionários.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2000 - 3/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Técnico em Hardware e Software. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Centro Universitário de Maringá, CESUMAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: Professor, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor do curso de Graduação em Redes de Computadores, nas seguintes disciplinas: Sistemas Operacionais (1º Ano), Protocolos de Comunicação (2º Ano), Segurança de Dados (3º Ano). Bem como orientador de trabalhos de conclusão de curso. E durante um período professor da disciplina de Tecnologias Atuais em Redes de Computadores. Professor do curso de Graduação em Sistemas de Informação, nas seguintes disciplinas: Redes I (3º Ano) e Redes II (4º Ano). E durante um período professor de Sistemas Operacionais e Orientador. Professor do curso de Tecnologia em Análise e Desenvolvimento de Sistemas (antigo PD), na disciplina de: Redes de Computadores e Segurança da Informação (3º Ano). E durante um período professor de Sistemas Operacionais e Orientador. Professor do curso de Engenharia de Controle e Automação (Mecatrônica), na disciplina de Sistemas Distribuídos e Redes. Professor do curso de Tecnologia em Automação Industrial, na disciplina de Sistemas Distribuídos e Redes. Ajudou a reformular a grade dos cursos de Redes de Computadores e Análise e Desenvolvimento de Sistemas em 2008.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2010 - 7/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, TECNOLOGIA EM AUTOMAÇÃO INDUSTRIAL, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas Distribuídos e Redes<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2010 - 7/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecatrônica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas Distribuídos e Redes<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2006 - 7/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Redes I<br class="clear">Redes II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2006 - 7/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Analise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Redes de Computadores<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2006 - 7/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Redes de Computadores, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Protocolos de Comunicação<br class="clear">Segurança da Informação<br class="clear">Sistemas Operacionais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2007 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Analise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas Operacionais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2008 - 1/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas Operacionais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2007 - 1/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Redes de Computadores, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Tecnologias Atuais em Redes de Computadores<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Paranaense, UNIPAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor titular, Carga horária: 10</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor do curso de Graduação em Sistemas de Informação, nas seguintes disciplinas: Sistemas Operacionais (1º Ano), Redes de Computadores (2º Ano) e Segurança em Redes de Computadores e Internet (3º Ano). Bem como orientador de trabalhos de conclusão de curso. A UNIPAR - Campos Paranavaí ocupa a terceira melhor pontuação do estado do Paraná no exame do Enade, com 277 pontos no curso de Sistemas de Informação, o que comprova a nota A obtida no Inep/2005.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/2010 - 5/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Esp. em Tecnologia Desenvolvimento de Soluções Web, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Segurança e Auditoria de Sistemas<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 3/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Redes de Computadores<br class="clear">Segurança em Ambientes de Redes e Internet<br class="clear">Sistemas Operacionais<br class="clear">Tópicos Especiais em Sistemas de Informação<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdade Intermunicipal do Noroeste do Paraná, FACINOR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor, Carga horária: 8</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ministrou as disciplinas de: Sistemas Operacionais, aplicando aulas práticas de Linux; Software Livre; Redes de Computadores I; Ajudou a reformular a grade do curso de Informática Empresarial, no ano de 2008.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2005 - 2/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Informática Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Uso e Gestão de Sistemas Operacionais<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>União Educacional de Cascavel, UNIVEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor vistante, Enquadramento Funcional: Professor pós-graduação, Carga horária: 33</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização "Lato Sensu" em Redes de Computadores nas disciplinas de Segurança em Redes de Computadores, nos dias 27 de outubro, 10 e 24 de novembro de 2007 e Instalação de Servidores no mês de Fevereiro, totalizando carga horária de 33 horas/aula. Curso realizado em convênio com o IMBRAPE - Instituto Brasileiro de Estudos e Pesquisas Sócio-Econômicos.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Tornearia Paranavaí LTDA, TORNEARIA-PVAI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Encarregado CPD, Enquadramento Funcional: Encarregado CPD, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerente do CPD da Tornearia Paranavaí, na qual o acadêmico implantou a rede tanto física como lógica, implementou um Servidor LINUX no qual foi configurado: servidor SAMBA, SENDMAIL, ICQ, IRC. Instalação e configuração de servidor Windows para compartilhar à Internet usando o Wingate separando assim o servidor de Internet dos demais, para melhor controle de segurança e integridade do sistema de informação da empresa. Ainda, na mesma empresa fez um programa de controle de ligações telefônicas (feita em linguagem Clipper devido aos equipamentos oferecidos pela empresa).</div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="90">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_GT-EWS: Mecanismos para um Sistema de Alerta Antecipado" tabindex="91"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GT-EWS: Mecanismos para um Sistema de Alerta Antecipado<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto propõe o desenvolvimento de uma ferramenta para monitorar atividade maliciosa e detectar antecipadamente eventos e incidentes de segurança, através da correlação e análise de dados providos por sensores de redes tradicionais e outras fontes, como redes sociais, fóruns e registros de redes virtuais. Esta ferramenta será utilizada também para monitorar o uso de nomes de instituições em fóruns e redes sociais, alertando possíveis atividades maliciosas. Como contribuição para a RNP, espera-se que esta ferramenta auxilie nos processos de segurança da informação, em especial detecção e resposta a incidentes de segurança. Esta ferramenta também poderá ser oferecida como um serviço de detecção de atividade maliciosa e monitoramento de padrões para as suas instituições usuárias. É importante destacar também a contribuição científica deste trabalho, que é a avaliação de novos sensores e o fornecimento de evidências empíricas do uso de técnicas de recuperação de informação para suportar novas arquiteturas de EWS (Early Warning Systems -- Sistemas de Alerta Antecipado).. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (3)  / Especialização: (1)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear"><br class="clear">Integrantes: Luiz Arthur Feitosa dos Santos - Integrante / Rodrigo Campiolo - Integrante / Daniel Macêdo Batista - Coordenador / Italo Valcy da Silva Brito - Integrante / Rafael Brito Gomes - Integrante.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="92">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Teleinformática. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação/Especialidade: Modelos Analíticos e de Simulação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Segurança. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Operacionais. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="93">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="94">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="95"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="96"></a>
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas" tabindex="97"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3725232561617394_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="98">SANTOS, L. A. F.</a></b> 
+							;
+						CAMPIOLO, R. ; BATISTA, D. M. ; GEROSA, M. A. . Extração de alertas de segurança postados em mensagens de redes sociais.. Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC), 24 mar.  2013. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="99"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3725232561617394_files/ico_relevante.gif" style="icone-relevancia">
+		CAMPIOLO, R. ; BATISTA, D. M. ; GEROSA, M. A. ; <b>SANTOS, L. A. F.</b> . Análise de Mensagens de Segurança Postadas no Twitter. In: Simpósio Brasileiro de Sistemas Colaborativos, 2012, São Paulo - SP. SBSC 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="100">SANTOS, L. A. F.</a></b> 
+						;
+					Desenvolvimento de algoritmos para Simulador de Arquiteturas Paralelas. In: DIN VI FITEN VI Fórum de Informática e Tecnologia de Maringá, 2004, Maringá, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="101">SANTOS, L. A. F.</a></b> 
+						;
+					Voz sobre IP. In: XI EAIC - Encontro Anual de Iniciação Cientifica, 2002, Maringá - PR. XI EAIC, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="102">SANTOS, L. A. F.</a></b> 
+						;
+					Voz sobre IP - VoIP. In: IV Semana da Informática, 2002, Paranavaí. IV SEIMPAR, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="103">SANTOS, L. A. F.</a></b> 
+						;
+					Implementação de um Protótipo de uma rede Voz sobre IP. In: VII ENAPI - Encontro Anual de Pesquisa e de Iniciação Cientifica da UNOESTE, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="104">SANTOS, L. A. F.</a></b> 
+						;
+					Analise de Protocolos H.323 e SIP em redes voz sobre IP. In: I Encontro de Iniciação científica e I Fórum de Pesquisa da UNIPAR, 2002, Umuarama - PR, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="105">SANTOS, L. A. F.</a></b> 
+						;
+					Interoperabilidade entre Bluetooth e WAP. In: VI ENAPI - Encontro Anual de Pesquisa e de Iniciação Cientifica da UNOESTE, 2001, Presidente Prudente - SP. VI ENAP, 2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="106"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BATISTA, D. M. ; CAMPIOLO, R. ; <b>SANTOS, L. A. F.</b> . Uma Arquitetura Autonômica para Detecção e Reação a Ameaças de Segurança em Redes de Computadores. In: SBRC 2014 - Wosida, 2014, Florianópolis. Wosida 2014, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="107">SANTOS, L. A. F.</a></b> 
+						;
+					Utilização de Bluethooth como redes de acesso WAP. In: III Semana da Informática, 2001, Paranavaí. III Semana da Informática, 2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="108"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3725232561617394_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="109">SANTOS, L. A. F.</a></b> 
+						;
+					CAMPIOLO, R. ; BATISTA, D. M. ; GEROSA, M. A. . Evaluating the Utilization of Twitter Messages as a Source of Security Alerts. In: ACM Symposium on Applied Computing, 2013, Coimbra. Proceedings of the ACM Symposium on Applied Computing, 2013. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="110"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="111">SANTOS, L. A. F.</a></b> 
+							;
+						Construindo e Integrando Redes Privadas Virtuais Utilizando IPSEC. 2007. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="112">SANTOS, L. A. F.</a></b> 
+							;
+						Analisando a Ferramenta SNORT. 2007. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SÁ, R. N. DE ; <b>SANTOS, L. A. F.</b> . Transmissão Multimídia em Redes de Computadores. 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SÁ, R. N. DE ; <b>SANTOS, L. A. F.</b> . Transmissão Multimídia em Redes de Computadores. 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SÁ, R. N. DE ; <b>SANTOS, L. A. F.</b> . Transmissão Multimídia em Redes de Computadores. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="113">SANTOS, L. A. F.</a></b> 
+							;
+						MARTINI, J. A. ; Ronaldo Augusto de Lara Gonçalves . Simulador de Cluster. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GONCALVES, R. ; MARTINI, J. A. ; <b>SANTOS, L. A. F.</b> . Ferramenta de Simulação de Clusters Superescalares: Desenvolvimento e Avaliação de Aplicações Paralelas. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="114">SANTOS, L. A. F.</a></b> 
+							;
+						Utilização de Bluetooth como redes de acesso WAP. 2001. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="115"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente" tabindex="116"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3725232561617394_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="117">SANTOS, L. A. F.</a></b> 
+					;
+				YUTIAMA, F. ; DOI, M. K. I. ; BECKHAUSER, T. ; BECKHAUSER, G. . idBeck - Balança para bovinos. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="118">SANTOS, L. A. F.</a></b> 
+					;
+				Controle Telefônico. 2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas" tabindex="119"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARBOSA, Everton ; <b>SANTOS, L. A. F.</b> . Segurança e uso da Internet. 2010. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="120">SANTOS, L. A. F.</a></b> 
+						;
+					Segurança da Informação. 2010. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="121">SANTOS, L. A. F.</a></b> 
+						;
+					Divulgação de curso. 2010. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="122"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="123">SANTOS, L. A. F.</a></b> 
+						;
+					CAMPIOLO, R. ; GONCALVES, R. A. . Introdução ao Linux. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="124">SANTOS, L. A. F.</a></b> 
+						;
+					YUTIAMA, F. ; WERNER ; FLOR, D. E. . X Semana de informática e VII Mostra de trabalhos de iniciação científica do curso de sistemas de informação. 2010. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="125">SANTOS, L. A. F.</a></b> 
+						;
+					Curso de introdução ao sistema operacional Linux. 2008. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos" tabindex="126"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="127">SANTOS, L. A. F.</a></b> 
+						;
+					Projeto Internet Móvel. 2004 (Demais trabalhos relevantes) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3725232561617394_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="128">SANTOS, L. A. F.</a></b> 
+						;
+					Monitoria em Redes de Computadores e Sistemas Operacionais. 2002 (Demais trabalhos relevantes) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="129">SANTOS, L. A. F.</a></b> 
+						;
+					Membro Fundador da Empresa Junior da UNIPAR Campus Paranavaí fazendo parte do conselho deliberativo da empresa.. 2002 (Demais trabalhos relevantes) . </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="130">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="131"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>; WERNER; YUTIAMA, F..  Participação em banca de Leandro Mian Medeiros.Sistema de controle de modalidade do movimento tradicionalistas gaúcha do Paraná - SISCONMOD.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>; WERNER; YUTIAMA, F..  Participação em banca de Gilmar Stevam Gonçalves.Sistema legionários.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>; WERNER; YUTIAMA, F..  Participação em banca de Edvan Coan Cauneto.SiCAD - Sistema de Controle Acadêmico.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>; WERNER; YUTIAMA, F..  Participação em banca de Kayo Rennan da Costa.SGEMACO - Sistema de gerenciamento de materiais para construção.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>; WERNER; YUTIAMA, F..  Participação em banca de Tedy Marcos Miranda Firomi.Sistemas gerencial farmacêutico.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>; WERNER; YUTIAMA, F..  Participação em banca de Fernando Santos Carvalho.SysCol - Soluções Inteligentes.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Guilherme Gaviraghi.Sistema para Controle Comercial e Financeiro.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Roberto Rodrigues de Souza.Sistema de Compra Venda e Assistência Técnica.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Veridiana Cristina da Silva.Sistema Gerencial Metalúrgica Terrabras.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Davi Gritz.Frota Control.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Glauber Aparecido Ferri.TCC ONLINE - Sistema de Gerenciamento e Controle de TCC.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Junior Henrique Jardim.Auto Control - Sistema de Controle para Oficinas.
+							2009. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Fábio R. Siquineli Mendes.Siscom - Automação Comercial.
+							2008. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Felipe de Carvalho.Starvídeo.
+							2008. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Vinicius de Carlos C. Silva.Sistemas de controle Financeiro.
+							2008. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Wesley Maciel Barbosa.Company Manager.
+							2008. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Marcelo Cristiano Althmann.Sistema Consigna.
+							2008. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Percivaldo Antonio Carlos Rossato.SAPIN - Sistema de Apoio à Infância.
+							2008. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FILHO, Antonio Placido Vendramin; <b>SANTOS, L. A. F.</b>.  Participação em banca de Antonio Placido Vendramin Filho.Estudo de Novas Tecnologias para a Plataforma Java EE.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Daniel Buniotti.Monitoramento Móvel de Residência.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Daniel Inacio costa Feitosa.SCEF - Sistema de Controle de Estoque e Finanças.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Douglas Neves de Carvalho.Sistemas de controle de Aluguel - SCA.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Edgar Moreira de Andrade.Galeria Virtual.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Hugo Gavlak Lemos da Silva.Programação Orientada a Aspectos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Irlei Rodrigo Ferraciolli da Silva.Controle de estoque de Farmácia (SISFARMA).
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Rafael Satin dos Santos.SCP Sistema de Controle de Produção.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Tiago mario de Souza.sistema de consulta online.
+							2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Alexandre Barbosa Minari.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Fabio Henrique Schorro.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Juliano Canella Gambine.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Mirnalis Daisy Cenerini.?.
+							2005 - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Nycolas Bittencourt Santos.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Renato Sabatini Francisco.VOZ SOBRE IP (VoIP): INSTALANDO GATEKEEPER.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Willian Hideki Wataya.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Alisson Andre Martini.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Anderson Cezar Stefani.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Marcel Kume Romão.?.
+							2005. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Edimar Gomes Rangel.SICORE - Sistema de controle de restaurante.
+							2004. Trabalho de Conclusão de Curso (Graduação em Ciências da Computação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de Fábio Afonso Fuccio.SCBCCR - SISTEMA DE CONTROLE BOVINO CORTE E CONTROLE RURAL.
+							2004. Trabalho de Conclusão de Curso (Graduação em Ciências da Computação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de ALEXANDRE PAULINO DA SILVA.SIPED - SISTEMA INTEGRADO DE PEDIDOS.
+							2004. Trabalho de Conclusão de Curso (Graduação em Redes de Computadores)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de ANDRE CESAR LEANDRO.CLUSTER DE ALTA DISPONIBILIDADE.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de DENIS DINIZ ALVES.SISTEMA DE ACOMPANHAMENTO DE ESTÁGIO SUPERVISIONADO.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de EDUARDO TALARICO DA SILVA.HOME PAGE CESPRI.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de JOSE BARROSO ROBLES FILHO.SISTEMA DE CONTROLE PARA ASSISTÊNCIA TÉCNICA DE INFORMÁTICA.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de JUAN MANUEL BONOMI GARAY.CLUSTERS E SUAS APLICAÇÕES.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de OLICIO APARECIDO RODRIGUES.VULNERABILIDADE DOS SISTEMAS COMPUTACIONAIS.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de SERGIO ANTONIO PINTO.SIDAM - SISTEMA INFORMATIZADO DE DISTRIBUIÇÃO DE ÁGUA MINERAL.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>.  Participação em banca de WESLEI RIGONI.SISDESP - SISTEMA DESPACHANTE.
+							2004. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Paranaense. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="132"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, L. A. F.</b>; MALDONADO, Y.; MARTINI, J. A.. Concurso Público para Professor Efetivo, na área de Engenharia de Software e Programação de Sistemas de Computação.
+							2006. Faculdade de Filosofia Ciências e Letras de Mandaguari. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="133">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="134"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FITEN.Ferramentas de Segurança Open Source.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ciclo de palestras com ênfase em informática.Computação de alto desempenho com cluster Beowulf.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Fórum pedagógico do curso de sistemas de informação da UNIPAR Paranavaí.Debate sobre Informática.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Professores.Debate sobre Informática.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum pedagógico do curso de sistemas de informação da UNIPAR Paranavaí.Debate sobre Informática.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário Científico Tecnológico do Programa de I Seminário Científico Tecnológico do Programa de Pós-Graduação em Ciência da Computação. 2003. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Semana da Informática e iniciação científica.Debate entre os egressos.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Simpósio Brasileiro de Redes de computadores.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana da Informática. 2000. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Memória e cultura indígena, Brasil 500 anos de descobrimento.
+							1999. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="135"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="136">SANTOS, L. A. F.</a></b> 
+						;
+					CAMPIOLO, R. ; GONCALVES, D. B. . I SEINFO - Semana da Computação da UTFPR-CM. 2014. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="137">SANTOS, L. A. F.</a></b> 
+						;
+					IV Semana da Informática e Iniciação Cientifica . 2002. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="138">SANTOS, L. A. F.</a></b> 
+						;
+					III Semana da Informática . 2001. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="139">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="140"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALAN BRUMATE. Virtualização de Servidores: Um Comparativo Vmware ESX e Citrix XenServer.
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André Stefan Ronix. CIRCUITO TRATADOR DE SINAL ANALÓGICO PARA SENSOR ELETROQUÍMICO USADO EM EQUIPAMENTO DE ANÁLISE DA QUALIDADE DA ÁGUA.
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em TECNOLOGIA EM AUTOMAÇÃO INDUSTRIAL)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CELSO CORREIA DE MELLO JUNIOR. Um proposta de replicação de dados utilizando Linux e Glusterfs.
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HUDSON MOLINARI. Estudo sobre infraestrutura Elétrica de qualidade para as Redes de Computadores.
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Idacir Willian Bonini. SISTEMA DE SUPERVISÓRIO PARA ADUTORA DE VINHAÇA.
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em TECNOLOGIA EM AUTOMAÇÃO INDUSTRIAL)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Baldes Da Silva Cerqueira Reis. Proposta de segurança em redes com tecnologia Network Access Protection.
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sergio Roberto de Araujo Jr. Gerenciamento e Monitoramento de Rede usando as ferramentas Nagios e Centreon.
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caio Cesar da Silva Souza
+. Um estudo sobre o uso de SNMP para manter a segurança da rede.
+						Início: 2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cristiano Felipe Vicentin
+. Sistema de controle de acesso a câmeras de segurança.
+						Início: 2009. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Centro Universitário de Maringá. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="141"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno David de Oliveira.
+							Um estudo sobre o OpenVPN e criptografia de dados.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sílvio Rogério Felipe Gomes.
+							AVALIAÇÃO DE SISTEMAS DE INFORMAÇÕES FINANCEIRAS - Estudo de Caso
+Estudo de Caso.
+							2007.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização MBA Finanças VI)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Junior Cesar Oliveira.
+							UMA FERRAMENTA INDEPENDENTE PARA MANTER A  CONFIDENCIALIDADE DOS DADOS EM DIFERENTES ARQUITETURAS  DE NUVENS DE ARMAZENAMENTO.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alessandro Araújo da Silva.
+							Meios de Transmissão de dados - Transmissão de dados via rede elétrica.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUILHERME DE CAMPOS FERRAREZI.
+							ESTUDO DE MÉTODOS DE BALANCEAMENTO DE CARGA DE BANDA.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Eduardo Zanini.
+							Tecnologia de Cluster de Disponibilidade.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rogel Horvatich Clinio.
+							Uso de Proxy para gerenciamento de acesso a Internet.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anderson Clayton Pereira da Silva.
+							Qualidade de Serviço em redes VoIP.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Malavazi Bezerra.
+							Estudo comparativo entre tecnologias de VPN.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEANDRO LOPES DORIGAM.
+							Estruturas de roteamento OpenSource.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago José Ruiz.
+							Cluster de firewall com PF do OpenBSD - carp.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fábio Luiz Bortolozo.
+							Técnicas de combate anti-span.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fábio Roberto dos Santos.
+							Interface Web no gerenciamento de servidores Linux.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Egredia.
+							Segurança na transmissão de dados em redes móveis.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vicente Sabino Junior.
+							Estudo de caso de firewall utilizando o PF do OpenBSD.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Yuri Rafael Grajefe Feitosa.
+							Firewall - Segurança da Informação com IPtables e Squid.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adenilson aparecido dos Santos.
+							A influência das chaves criptograficas em VPN´s.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Eduardo de Lima Saugo.
+							Segurança da informação e o fator humano - Minimizando falhas e riscos da engenharia social em ambientes corporativos.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Igor Bettinardi de Grande.
+							segurança em redes wireless.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Kleberson dos Santos.
+							Segurança pró-ativa em redes utilizando IDS e Firewall.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maykol Lopes de Lima.
+							Como diminuir custos e reciclar microcomputadores utilizando Linux Terminal Service Project.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALISON HIDEKI OSATO.
+							ASTERISK um software PBX Open Source.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DANILO GONÇALVES BAIO.
+							Estudo de ferramentas e técnicas para combater o spam em servidores de e-mail.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EMMANUEL PAIZAN SANTINI.
+							Implementação de técnicas anti-spam.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fabiano Rodrigues Batista.
+							Virtualização de servidores.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luís Felipe Cavalheiro.
+							Alta Disponibilidade em Servidores de Arquivos.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernando Falconi da Silva.
+							IPv6 - Um estudo de caso.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HELTON MERENCIANO RAMOS.
+							MONITORAMENTO EM REDES DE COMPUTADORES COM ÊNFASE NA UTILIZAÇÃO DE AGENTES MÓVEIS.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliano André Bongiorno.
+							Sistema Web para controle de acesso a Internet.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LINCOLN ITSUKI KOGA.
+							Servidor de Acesso à Internet:.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Lamberti de Abreu.
+							Implementação de clusters em máquinas virtuais.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROBERTO RODRIGUES DA SILVA.
+							GRID COMPUTACIONAL: ALTO DESEMPENHO SOBRE DEMANDA.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Augusto Garcia Rosa.
+							Gerenciamento de  Redes.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juscelino Candido de Lima Junior.
+							Comparativo de rede sem vpn e com vpn + ipsec + openswan.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maurício Bana Rossi.
+							Uma Visão Prática da Segurança de Informações.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Ricardo Corrêa.
+							Analisando ataques a redes de computadores com Honeypots e Honeynet.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Nardoni de Sá.
+							Transmissão Multimídia em Redes de Computadores.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Edgard Henrique Hirata.
+							VoIP - Gatekeeper e Asterisk.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Claudio Marcelo Domingos.
+							A importância dos Sistemas de Detecção de Intrusão - IDS.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cleberson Takenara.
+							Estudo comparativo entre VPN s (Virtual Private Network).
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Henrique Daniel Haubert.
+							Implementação de Qualidade de Serviços em aplicações de missão crítica.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliano Ribeiro.
+							Cluster de Balanceamento de Carga.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leandro Nunes.
+							SOFTWARE LIVRE:
+Software Livre: Vantagens e desvantagens de sua utilizacão.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Wagner Fonseca Souza.
+							Segurança de dados aspectos legais e defesas.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diogenes Ferreira Romão.
+							TV Digital -  Padrões e tendências.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Paulo Lana.
+							Terminal Services.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Duarte Rogoski
+.
+							Servidor de Diretórios - LDAP.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Porto Nitibailoff
+.
+							Implementando Política de Segurança.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RENATO SABATINI FRANCISCO.
+							VOZ SOBRE IP (VoIP): INSTALANDO GATEKEEPER.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Redes de Computadores)  - Centro Universitário de Maringá. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André C. Leandro.
+							Cluster de Alta Disponibilidade.
+							2004. 45 f.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juan Manuel Bonomi Garay.
+							CLUSTER E SUAS APLICAÇÕES.
+							2004. 70 f.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Olicio Aparecido Rodrigues.
+							VULNERABILIDADES DOS SISTEMAS COMPUTACUIONAIS.
+							2004. 73 f.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Paranaense. Orientador: Luiz Arthur Feitosa dos Santos.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA" tabindex="142">
+<h1 tabindex="0">Educação e Popularização de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="CursosCurtaEPCTA" tabindex="143"></a><br class="clear"><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3725232561617394" target="_blank" tabindex="144">SANTOS, L. A. F.</a></b> 
+						;
+					CAMPIOLO, R. ; GONCALVES, R. A. . Introdução ao Linux. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes" tabindex="145">
+<h1 tabindex="0">Outras informações relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">(i) Aprovado no concurso público para cargo de carreira do magistério superior, na categoria de professor do Instituto Federal de São Paulo - IFSP, na área de Informática - Arquitetura de Redes, conforme Diário Oficial da União de 02/07/2010, página 108, seção3.
+
+(ii) Aprovado no concurso público para cargo de carreira do magistério superior, na categoria de professor - classe assistente da Universidade Tecnológica Federal do Paraná - UTFPR - Campus Campo Mourão, na área de Computação/Redes de Computadores, Sistemas Operacionais e Arquitetura de Computadores. Edital número 058/2010 - CPCP - CM do ano de 2010.
+
+(iii) Aprovado no concurso público para cargo de carreira do magistério superior, na categoria de professor - classe assistente da Universidade Tecnológica Federal do Paraná - UTFPR - Campus Pato Branco, na área de Computação/Redes de Computadores. Edital número 199/2009 - CPCP - PB do ano de 2009.
+
+(iv) Aprovado no concurso de professor colaborador na área de Redes de Computadores da Universidade Estadual de Maringá - UEM, no ano de 2007.
+</pre>
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 9:13:12</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=3725232561617394" target="_blank" class="button" tabindex="146"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="147"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="148">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OutrasInformacoesRelevantes" tabindex="14">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#FormacaoAcademicaTitulacao" tabindex="16">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#FormacaoComplementar" tabindex="17">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#AtuacaoProfissional" tabindex="19">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#AreasAtuacao" tabindex="20">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProjetosPesquisa" tabindex="22">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProducaoBibliografica" tabindex="24">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ArtigosCompletos" tabindex="25">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ArtigosAceitos" tabindex="26">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#LivrosCapitulos" tabindex="27">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#TextosJornaisRevistas" tabindex="28">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#TrabalhosPublicadosAnaisCongresso" tabindex="29">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ApresentacaoTrabalho" tabindex="30">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OutrasProducoesBibliograficas" tabindex="31">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OutrasProducoesBibliograficas" tabindex="32">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OutrasProducoesBibliograficas" tabindex="33">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OutrasProducoesBibliograficas" tabindex="34">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProducaoTecnica" tabindex="35">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#AssessoriaConsultoria" tabindex="36">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#SoftwareSemPatente" tabindex="37">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProdutosTecnologicos" tabindex="38">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProcessosTecnicas" tabindex="39">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#TrabalhosTecnicos" tabindex="40">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#DemaisProducaoTecnica" tabindex="41">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#DemaisProducaoTecnica" tabindex="42">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#DemaisProducaoTecnica" tabindex="43">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#DemaisProducaoTecnica" tabindex="44">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ManutencaoObraArtistica" tabindex="45">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#DemaisProducaoTecnica" tabindex="46">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#EntrevistasMesasRedondas" tabindex="47">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#DemaisProducaoTecnica" tabindex="48">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#RedesSociais" tabindex="49">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#DemaisProducoesTecnicas" tabindex="50">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProducaoArtisticaCultural" tabindex="51">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ArtesCenicas" tabindex="52">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Musica" tabindex="53">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ArtesVisuais" tabindex="54">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OutrasProducoesArtisticas" tabindex="55">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-educacaoPopularizacaoCTA" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ArtigosEPCTA" tabindex="57">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#LivrosCapitulosEPCTA" tabindex="58">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#TextosJornaisEPCTA" tabindex="59">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ApresentacoesTrabalhoEPCTA" tabindex="60">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProgramaComputadorEPCTA" tabindex="61">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#CursosCurtaEPCTA" tabindex="62">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#MaterialDidaticoEPCTA" tabindex="63">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#EntrevistasEPCTA" tabindex="64">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ProgramaComputadorRegistradoEPCTA" tabindex="65">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OrganizacaoEventosEPCTA" tabindex="66">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#RedesSociaisEPCTA" tabindex="67">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ArtesVisuaisEPCTA" tabindex="68">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ArtesCenicasEPCTA" tabindex="69">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#MusicaEPCTA" tabindex="70">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ParticipacaoEventos" tabindex="72">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#OrganizacaoEventos" tabindex="73">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Orientacoesconcluidas" tabindex="75">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#Orientacaoemandamento" tabindex="76">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ParticipacaoBancasTrabalho" tabindex="78">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775284Y5#ParticipacaoBancasComissoes" tabindex="79">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="9pos" style="z-index: 1010; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4775284Y5&tipo=completo&idiomaExibicao=1" tabindex="81">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

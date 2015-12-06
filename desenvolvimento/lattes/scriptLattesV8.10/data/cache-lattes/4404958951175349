@@ -1,0 +1,1502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Juliano Henrique Foleiss)</title>
+<link type="text/css" rel="stylesheet" href="./4404958951175349_files/import.css">
+<link type="text/css" href="./4404958951175349_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./4404958951175349_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./4404958951175349_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./4404958951175349_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./4404958951175349_files/espelho.css">
+<script type="text/javascript" async="" src="./4404958951175349_files/ga.js"></script><script type="text/javascript" src="./4404958951175349_files/jquery.min.js"></script><script src="./4404958951175349_files/jquery.cookie.js" type="text/javascript"></script><script src="./4404958951175349_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./4404958951175349_files/tooltip-position.js"></script><script type="text/javascript" src="./4404958951175349_files/jquery.tipsy.js"></script><script type="text/javascript" src="./4404958951175349_files/jquery.megamenu.js"></script><script type="text/javascript" src="./4404958951175349_files/byOrder.js"></script><script type="text/javascript" src="./4404958951175349_files/font-size.js"></script><script type="text/javascript" src="./4404958951175349_files/cv_citacoes.js"></script><script type="text/javascript" src="./4404958951175349_files/hint_ajax.js"></script><script type="text/javascript" src="./4404958951175349_files/menuFlowScroll.js"></script><script type="text/javascript" src="./4404958951175349_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+<style type="text/css"></style></head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./4404958951175349_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=4404958951175349" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="13" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProjetosPesquisa" class="acessibilidade separador" tabindex="20" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProducoesCientificas" class="acessibilidade separador" tabindex="24" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Eventos" class="acessibilidade separador" tabindex="57" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Orientacoes" class="acessibilidade separador" tabindex="59" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Bancas" class="acessibilidade separador" tabindex="62" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="65" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./4404958951175349_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Juliano Henrique Foleiss</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/4404958951175349</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 23/11/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em ciência da computacão pela Universidade Estadual de Maringá (2009) e mestrado em Ciência da Computação pela Universidade Estadual de Maringá (2012). Atualmente é professor assistente do magistério superior da Universidade Tecnológica Federal do Paraná. Atualmente tem trabalhado principalmente na área de Recuperação de Informação baseada em Conteúdo de Áudio. Cursa doutorado na Faculdade de Engenharia Elétrica e Computação da Unicamp.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="67">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Juliano Henrique Foleiss</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FOLEISS, J. H.</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="68">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="69">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Engenharia Elétrica<span class="ajaxCAPES" data-param="&amp;codigoCurso=33003017021P3&amp;nivelCurso=D"> (Conceito CAPES 7)</span>. <br class="clear">Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear">Orientador: Tiago Fernandes Tavares. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=40004015019P5&amp;nivelCurso=M"> (Conceito CAPES 3)</span>. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Profiling Contínuo para Determinação de Unidades de Tradução em Tradução Dinâmica de Binários,Ano de Obtenção: 2012.<br class="clear">Orientador: Prof. Dr. Anderson Faustino da Silva.<br class="clear">Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear">Palavras-chave: Tradução Dinâmica de Binários; Máquinas Virtuais; Compiladores; Compilação Dinâmica.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Compiladores. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Software Básico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em ciência da computacão. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Revisitando a Arquitetura de Compilação do Sistema YAP Prolog. <br class="clear">Orientador: Prof. Dr. Anderson Faustino da Silva. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="70">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Monitoria em Compiladores.  (Carga horária: 120h). <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Monitoria Especial.  (Carga horária: 503h). <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Monitoria de Algoritmos e Estruturas de Dados I.  (Carga horária: 116h). <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="71">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente do Magistério Superior, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Análise de Algoritmos<br class="clear">Máquinas Virtuais e Emulação de Sistemas<br class="clear">Sistemas Operacionais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Introdução à Ciência da Computação<br class="clear">Análise de Algoritmos<br class="clear">Compiladores<br class="clear">Lógica Matemática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Análise de Algoritmos<br class="clear">Lógica Matemática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Lógica Matemática<br class="clear">Análise de Algoritmos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#LP_Máquinas Virtuais" tabindex="72">Máquinas Virtuais</a><br class="clear"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#LP_Music Information Retrieval" tabindex="73">Music Information Retrieval</a><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Elétrica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estruturas de Dados<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas Para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Web Services e XML<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - 07/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Técnico Integrado em Informática, Nível: Ensino Médio</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Desenvolvimento Web I<br class="clear">Linguagem de Programação III<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="74">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Máquinas Virtuais" tabindex="75"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Máquinas Virtuais</div>
+</div><a name="LP_Music Information Retrieval" tabindex="76"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Music Information Retrieval</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="77">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Perfilamento de Execução para Otimização Dinâmica de Código para GPU e Linguagens de Programação Paralela" tabindex="78"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Perfilamento de Execução para Otimização Dinâmica de Código para GPU e Linguagens de Programação Paralela<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto tem o objetivo de desenvolver e utilizar novas técnicas de perfilamento por amostragem que utilizem recursos modernos de monitoramento de execução como ferramentas para coleta de perfis de execução que possam ser utilizados em processos de otimização dinâmica. É possível utilizar estes perfis de execução para detectar regiões quentes de código passíveis à paralelização por GPU de acordo com a execução do programa. Além de detectar estas regiões é possível recompilar tais regiões, anteriormente executadas pela CPU, para executar em GPU. Assim, não é necessário recompilar o código de forma alguma, o sistema encarrega-se de utilizar os recursos de paralelismo massivamente paralelo oferecido pela GPU de forma transparente. Também é possível utilizar os perfis de execução dinamicamente coletados para melhorar a execução de programas que executam em ambientes de execução paralelos. Ao reconhecer os padrões dinâmicos do fluxo de controle do programa, é possível otimizar a sequência de execução das unidades paralelas para que o escalonamento da execução aconteça de forma eficiente.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2) . <br class="clear"><br class="clear">Integrantes: Juliano Henrique Foleiss - Coordenador / Anderson Faustino da Silva - Integrante / Rodrigo Hübner - Integrante / Rogério Aparecido Gonçalves - Integrante.<br class="clear"></div>
+</div><a name="PP_Infraestrutura para Armazenamento e Gerenciamento de Questões e Exercícios Práticos" tabindex="79"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Infraestrutura para Armazenamento e Gerenciamento de Questões e Exercícios Práticos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Elaborar questões a fim de alimentar um sistema de informação para auxiliar o professor no planejamento e gerenciamento de questões utilizadas em atividades avaliativas em suas disciplinas. Este sistema irá oferecer aos alunos uma forma de avaliar seu conhecimento através de simulados , filtrando as questões relacionadas à disciplina que está cursando e outros indicadores... <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Juliano Henrique Foleiss - Integrante / Rodrigo Hübner - Coordenador / Filipe Roseiro Côgo - Integrante / Diego Bertolini Gonçalves - Integrante.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosExtensao" tabindex="80">
+<h1 tabindex="0">Projetos de extensão</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Elaboração de Diários de Desenvolvimento e Tutoriais como Material de Apoio para Disciplinas de Máquinas Virtuais e Emulação de Sistemas" tabindex="81"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Elaboração de Diários de Desenvolvimento e Tutoriais como Material de Apoio para Disciplinas de Máquinas Virtuais e Emulação de Sistemas<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Departamento de Computação do Campus Campo Mourão está ofertando uma disciplina optativa no curso de Bacharelado em Ciência de Computação para capacitar alunos para o desenvolvimento de Máquinas Virtuais. Do ponto de vista econômico e tecnológico, máquinas virtuais oferecem um apelo significativo, permitindo a redução de custos e aumento da flexibilidade do parque computacional por meio de virtualização de sistemas e dispositivos.
+
+Pelo caráter tecnológico da UTFPR é interessante que as disciplinas avançadas do curso propiciem o desenvolvimento de novas tecnologias que venham agregar valor a necessidades do campus e da sociedade no âmbito tecnológico. Embora seja um assunto de pesquisa relativamente ativo no meio acadêmico, existem poucas universidades com disciplinas especialmente voltadas para o desenvolvimento de máquinas virtuais.
+
+Por tratar de um assunto avançado na área de Sistemas de Computação, que engloba as principais disciplinas da área, como Sistemas Operacionais, Arquitetura de Computadores e Compiladores, a disciplina de Máquinas Virtuais e Emulação de Sistemas requer planejamento e materiais de apoio adequados para habilitar os alunos a desenvolver novas tecnologias.. <br class="clear">Situação: Em andamento; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Juliano Henrique Foleiss - Coordenador.<br class="clear"></div>
+</div><a name="PP_Compute você Mesm@: Conexões de saberes e fazeres para inclusão digital" tabindex="82"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compute você Mesm@: Conexões de saberes e fazeres para inclusão digital<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo deste trabalho é valorizar o saber e o fazer na área de computação para a inclusão digital e posteriormente a inclusão social. Isto deve ser feito por meio de qualificação de escolas estimulando o acesso aberto , via repositório digital, para a formação de minorias (mulheres, altas habilidades, formação docente) em atividades de trabalho na área de computação visando o empoderamento, a garantia de direitos e a participação social através das TICs. Este projeto envolve iniciativas que incentivam a participação de minorias na computação privilegiando o forte impacto que a área tem na sociedade, sendo capaz de alterar significativamente as relações sociais. Neste viés, almeja-se que aprendizagem , mestria e trabalho sejam necessariamente perpassados pela cidadania... <br class="clear">Situação: Em andamento; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (4)  / Mestrado acadêmico: (2)  / Doutorado: (3) . <br class="clear"><br class="clear">Integrantes: Juliano Henrique Foleiss - Coordenador / Rodrigo Hübner - Integrante / Linnyer Beatrys Ruiz - Integrante / Luiz Arthur Feitosa dos Santos - Integrante / Marília Abrahão Amaral - Integrante / Maria Claudia Figueiredo Pereira Emer - Integrante / Paulo Cesar Gonçalves - Integrante / Leonelo Dell Anhol Almeida` - Integrante / Silvia Amelia Bim - Integrante / Muriel de Souza Godoi - Integrante / Claudia Bordin Rodrigues da Silva - Integrante / Adriano Lopes Romero - Integrante / Roseli Constantino Schwerz - Integrante / Cesar Vanderlei Deimling - Integrante / Marco Aurélio Graciotto Silva - Integrante / Matias Sebastião Peruyera - Integrante / Fabiane Alves de Lima - Integrante / Rodrigo Barbosa e Silva - Integrante / André Pottes - Integrante / Catia Batista Reis - Integrante.<br class="clear">Financiador(es): Fundação Araucária de Apoio ao Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="OutrosProjetos" tabindex="83">
+<h1 tabindex="0">Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Elaboração de Tutoriais Exploratorios como Material de Apoio para Disciplinas de Sistemas Operacionais" tabindex="84"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Elaboração de Tutoriais Exploratorios como Material de Apoio para Disciplinas de Sistemas Operacionais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo do projeto é oferecer aos alunos um material de apoio em forma de tutoriais exploratórios para aumentar o conteúdo prático da disciplina de sistemas operacionais. Os tutoriais são projetados para permitir que os alunos possam explorar o código-fonte de um sistema operacional moderno, assimilando na prática o conteúdo apresentado nas aulas teóricas. Em específico, serão explorados os tópicos a seguir: inicialização do sistema (boot), gerenciamento de memória, gerenciamento de processos, interface de chamadas ao sistema e gerenciamento de E/S.. <br class="clear">Situação: Em andamento; Natureza: Outra. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Juliano Henrique Foleiss - Coordenador / Felipe Torres Minorelli - Integrante.<br class="clear">Financiador(es): Universidade Tecnológica Federal do Paraná - Bolsa.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="85">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Computacional. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Recuperação de Informação em Música. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Máquinas Virtuais. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="86">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Japonês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="87">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="88"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="89"></a>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="90"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4404958951175349_files/ico_relevante.gif" style="icone-relevancia">
+		HUBNER, R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="91">FOLEISS, J. H.</a></b> ; Gonçalves, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="92">SILVA, A. F.</a> . Development and Evaluation of PLH-Env: a Implicit Parallel Execution Environment. In: XXXIII International Conference of the Chilean Computer Science Society, 2014, Talca. Proceedings of the International Conference of the Chilean Computer Science Society, 2014, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4404958951175349_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="93">FOLEISS, J. H.</a></b> 
+						;
+					HUBNER, R. ; Gonçalves, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="94">SILVA, A. F.</a> . Efficient Instrumentation Profiling Strategy for Translation Unit Incremental Discovery in Dynamic Binary Translation. In: XXXIII International Conference of the Chilean Computer Science Society, 2014, Talca. Proceedings of the International Conference of the Chilean Computer Science Society, 2014, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HUBNER, R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="95">FOLEISS, J. H.</a></b> ; DAMATO, A. L. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="96">SILVA, A. F.</a> . Maximizando os Recursos Computacionais com um Ambiente de Execução Baseado Estritamente em Tarefas. In: XI Workshop em Desempenho de Sistemas Computacionais e de Comunicação, 2012, Curitiba. Anais do XI Workshop em Desempenho de Sistemas Computacionais e de Comunicação, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMATO, A. L. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="97">FOLEISS, J. H.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2872064505456567" target="_blank" tabindex="98">Ruiz, L. B.</a> ; HUBNER, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="99">SILVA, A. F.</a> . The UNB-RISC16 Object File Format. In: XXXI International Conference of the Chilean Computer Science Society, 2012, Valparaíso. Proceedings of the XXXI International Conference of the Chilean Computer Science Society, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4404958951175349_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="100">FOLEISS, J. H.</a></b> 
+						;
+					DAMATO, A. L. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="101">SILVA, A. F.</a> . Dynamic Binary Translation: a Model-Driven Approach. In: XXXI International Conference of the Chilean Computer Science Society, 2012, Valparaíso. Proceedings of the XXXI International Conference of the Chilean Computer Science Society, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4404958951175349_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="102">FOLEISS, J. H.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="103">SILVA, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2872064505456567" target="_blank" tabindex="104">Ruiz, L. B.</a> . An Experimental Evaluation of Compiler Optimizations on Code Size. In: Simpósio Brasileiro de Linguagens de Programação, 2011, São Paulo. Anais do Simpósio Brasileiro de Linguagens de Programação, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="105">FOLEISS, J. H.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="106">SILVA, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2872064505456567" target="_blank" tabindex="107">Ruiz, L. B.</a> . Understanding the Energy Consumption of the Wireless Sensor Network Data-processing Service. In: IADIS International Conference Applied Computing, 2011, RIo de Janeiro. Proceedings of IADIS International Conference Applied Computing, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HUBNER, R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="108">FOLEISS, J. H.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="109">SILVA, A. F.</a> . The Description of PLH: A General Propose Parallel Language for Humans. In: IADIS International Conference Applied Computing, 2011, Rio de Janeiro. Proceedings of IADIS International Conference Applied Computing, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4404958951175349_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="110">FOLEISS, J. H.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="111">SILVA, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2872064505456567" target="_blank" tabindex="112">Ruiz, L. B.</a> . The Effect of Combining Compiler Optimizations on Code Size. In: XXX International Conference of the Chilean Computer Science Society, 2011, Curicó. Proceedings of the XXX International Conference of the Chilean Computer Science Society, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="113">FOLEISS, J. H.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="114">SILVA, A. F.</a> . Reavaliando a Lacuna do Desempenho entre as Linguagens Java, C e C++. In: XXXVI Conferência Latino-Americana de Informática, 2010, Assunção. Anais da XXXVI Conferência Latino-Americana de Informática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="115">FOLEISS, J. H.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="116">SILVA, A. F.</a> . Coloração de Grafo: Um Algoritmo Paralelo Escalável. In: International Information and Telecommunication Technologies Symposium, 2010, Rio de Janeiro. Proceedings of the International Information and Telecommunication Technologies Symposium, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="117">FOLEISS, J. H.</a></b> 
+						;
+					Feltrim, V. D. ; Gonçalves, R. A. L. . SASM: Uma ferramenta para o ensino do processo de montagem e conjunto de instruções CISC. In: XVII Workshop sobre Educação em Computação (WEI 2009), 2009, Bento Gonçalves, RS. Anais do XXIX Congresso da Sociedade Brasileira de Computação, 2009. p. 475-483. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="118">FOLEISS, J. H.</a></b> 
+						;
+					Assunção, G. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1342155623515902" target="_blank" tabindex="119">Cruz, E. H. M.</a> ; Gonçalves, R. A. L. ; Feltrim, V. D. . SCC: Um Compilador C como Ferramenta de Ensino de Compiladores. In: Workshop sobre Educação em Arquitetura de Computadores (WEAC 2009), 2009, São Paulo, SP. Proceedings of 21st International Symposium on Computer Architecture and High Performance Computing (SBAC - PAD 2009), 2009. p. 15-22. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1342155623515902" target="_blank" tabindex="120">Cruz, E. H. M.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="121">FOLEISS, J. H.</a></b> ; Assunção, G. P. ; Gonçalves, R. A. L. . Ferramenta de Simulação de Processador para Ensino de Graduação e Pesquisa Científica. In: Sulcomp, 2008, Criciúma. Sulcomp, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="122"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, W. M. ; ROSSINI, F. L. ; LOBEIRO, A. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="123">FOLEISS, J. H.</a></b> ; HUBNER, R. . Uma Alternativa Robusta, Rápida e Gratuíta para Pesquisadores que Utilizam MATLAB. In: IV Ciclo de Palestras: Perspectivas Matemáticas, 2014, Campo Mourão. Ciclo de Palestras: Perspectivas Matemáticas, 2014. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="124"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="125">FOLEISS, J. H.</a></b> 
+						;
+					HUBNER, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="126">SILVA, A. F.</a> . Uma Infraestrutura de Alto Desempenho para a Execução de Aplicações Paralela. In: International Information and Telecommunication Technologies Symposium, 2010, Rio de Janeiro. Proceedings of the International Information and Telecommunication Technologies Symposium, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="127">FOLEISS, J. H.</a></b> 
+						;
+					Feltrim, V. D. . Projeto Sois: Implementação do Compilador SCC. In: XVIII Encontro Anual de Iniciação Científica (EAIC 2009), 2009, Londrina, PR. Anais do XVIII Encontro Anual de Iniciação Científica (EAIC 2009), 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1342155623515902" target="_blank" tabindex="128">Cruz, E. H. M.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="129">FOLEISS, J. H.</a></b> ; Assunção, G. P. ; Gonçalves, R. A. L. . SSSim - Simulador Funcional Detalhado de Processador Superescalar Baseado em Ciclos de Execução Real: Uso na Avaliação de Desempenho. In: WSCAD-CTIC, 2008, Campo Grande. Anais do WSCAD-CTIC, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="130"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="131">FOLEISS, J. H.</a></b> 
+							;
+						HUBNER, R. ; Gonçalves, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="132">SILVA, A. F.</a> . Efficient Instrumentation Profiling Strategy for Translation Unit Incremental Discovery in Dynamic Binary Translation. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HUBNER, R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="133">FOLEISS, J. H.</a></b> ; Gonçalves, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="134">SILVA, A. F.</a> . evelopment and Evaluation of PLH-Env: a Implicit Parallel Execution Environment. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="135">FOLEISS, J. H.</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="136">SILVA, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2872064505456567" target="_blank" tabindex="137">Ruiz, L. B.</a> . An Experimental Evaluation of Compiler Optimizations on Code Size. 2011. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="138">FOLEISS, J. H.</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="139">SILVA, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2872064505456567" target="_blank" tabindex="140">Ruiz, L. B.</a> . Understanding the Energy Consumption of the Wireless Sensor Network Data-processing Service. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HUBNER, R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="141">FOLEISS, J. H.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3436095483096185" target="_blank" tabindex="142">SILVA, A. F.</a> . The Description of PLH: A General Propose Parallel Language for Humans. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="143">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="144"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALENCAR, A. B.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="145">FOLEISS, J. H.</a></b>.  Participação em banca de Tassia Kyoko Watanabe Tanaka.Desenvolvimento de um serviço embutido em máquina virtual para apresentação de dados científicos em plataforma de nuvem.
+							2014. Trabalho de Conclusão de Curso (Graduação em Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HUBNER, R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="146">FOLEISS, J. H.</a></b>; ZOTESSO, R..  Participação em banca de Daniele Rodrigues Lima.Desenvolvimento de um Modelo para o Gerenciamento de Melhor Configuração para Computação Colaborativa.
+							2014. Trabalho de Conclusão de Curso (Graduação em Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="147"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4404958951175349" target="_blank" tabindex="148">FOLEISS, J. H.</a></b>; SILVA, M. A. G.; ALENCAR, A. B.. Banca de Avaliação do Simpósio de Estágios da COINT / DACOM - 2015/1.
+							2015.
+							Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="149">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="150"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IADIS International Conference Applied Computing. Understanding the Energy Consumption of the Wireless Sensor Network Data-processing Service. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IADIS International Conference Applied Computing. The Description of PLH: A General Propose Parallel Language for Humans. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Linguagens de Programação.An Experimental Evaluation of Compiler Optimizations on Code Size.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Workshop sobre Educação em Computação (WEI 2009).SASM: Uma ferramenta para o ensino do processo de montagem e conjunto de instruções CISC. 2009. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop sobre Educação em Arquitetura de Computadores (WEAC 2009).SCC: Um compilador C como ferramenta de ensino de Compiladores. 2009. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Encontro Anual de Iniciação Científica (EAIC 2009).Projeto SOIS: Implementação do Compilador SCC.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="151">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="152"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Otávio Oliveira Napoli. Um Algoritmo para Construção de Grafos de Fluxo de Controle Baseados em Amostragem.
+						Início: 2015. Trabalho de Conclusão de Curso (Graduação em Ciências da Computação)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Torres Minorelli. Elaboração de Tutoriais Exploratorios como Material de Apoio para Disciplinas de Sistemas Operacionais. Início: 2015. Iniciação científica (Graduando em Ciências da Computação)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="153"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Éder dos Santos Ferreira.
+							Produção de Tutoriais para Desenvolvimento de Jogos Utilizando CORONA SDK.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências da Computação)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Otávio Oliveira Napoli.
+							Estudo e Desenvolvimento de Técnicas de Perfilamento por Amostragem em Ambiente GNU/Linux X86_64.
+							2014.
+							Iniciação Científica. (Graduando em Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Paulo Medeiros.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexsandro Lauber.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Luiz Gomes de Oliveira.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Otavio Oliveira Napoli.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Ciências da Computação)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Saulo Fernando Carneiro Verussa.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Vinicius Kempf.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Victor Matheus Fernandes dos Santos.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Willyan Schultz Dworak.
+							Orientação da Disciplina de Estágio Obrigatório.
+							2015.
+							Orientação de outra natureza. (Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Juliano Henrique Foleiss.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 9:12:27</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=4404958951175349" target="_blank" class="button" tabindex="154"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="155"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="156">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#FormacaoAcademicaTitulacao" tabindex="14">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#FormacaoComplementar" tabindex="15">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#LinhaPesquisa" tabindex="18">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#AreasAtuacao" tabindex="19">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProjetosPesquisa" tabindex="21">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProjetosExtensao" tabindex="22">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#OutrosProjetos" tabindex="23">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProducaoBibliografica" tabindex="25">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ArtigosCompletos" tabindex="26">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ArtigosAceitos" tabindex="27">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#LivrosCapitulos" tabindex="28">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#TextosJornaisRevistas" tabindex="29">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#TrabalhosPublicadosAnaisCongresso" tabindex="30">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ApresentacaoTrabalho" tabindex="31">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#OutrasProducoesBibliograficas" tabindex="32">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#OutrasProducoesBibliograficas" tabindex="33">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#OutrasProducoesBibliograficas" tabindex="34">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#OutrasProducoesBibliograficas" tabindex="35">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProducaoTecnica" tabindex="36">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#AssessoriaConsultoria" tabindex="37">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#SoftwareSemPatente" tabindex="38">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProdutosTecnologicos" tabindex="39">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProcessosTecnicas" tabindex="40">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#TrabalhosTecnicos" tabindex="41">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#DemaisProducaoTecnica" tabindex="42">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#DemaisProducaoTecnica" tabindex="43">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#DemaisProducaoTecnica" tabindex="44">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#DemaisProducaoTecnica" tabindex="45">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ManutencaoObraArtistica" tabindex="46">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#DemaisProducaoTecnica" tabindex="47">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#EntrevistasMesasRedondas" tabindex="48">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#DemaisProducaoTecnica" tabindex="49">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#RedesSociais" tabindex="50">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#DemaisProducoesTecnicas" tabindex="51">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ProducaoArtisticaCultural" tabindex="52">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ArtesCenicas" tabindex="53">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Musica" tabindex="54">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ArtesVisuais" tabindex="55">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#OutrasProducoesArtisticas" tabindex="56">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ParticipacaoEventos" tabindex="58">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Orientacoesconcluidas" tabindex="60">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#Orientacaoemandamento" tabindex="61">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ParticipacaoBancasTrabalho" tabindex="63">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234580Y7#ParticipacaoBancasComissoes" tabindex="64">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4234580Y7&tipo=completo&idiomaExibicao=1" tabindex="66">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

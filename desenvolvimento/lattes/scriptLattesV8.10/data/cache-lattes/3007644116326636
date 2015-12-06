@@ -1,0 +1,2708 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Ana Paula Chaves Steinmacher)</title>
+<link type="text/css" rel="stylesheet" href="./3007644116326636_files/import.css">
+<link type="text/css" href="./3007644116326636_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./3007644116326636_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./3007644116326636_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./3007644116326636_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./3007644116326636_files/espelho.css">
+<script type="text/javascript" async="" src="./3007644116326636_files/ga.js"></script><script type="text/javascript" src="./3007644116326636_files/jquery.min.js"></script><style type="text/css"></style><script src="./3007644116326636_files/jquery.cookie.js" type="text/javascript"></script><script src="./3007644116326636_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./3007644116326636_files/tooltip-position.js"></script><script type="text/javascript" src="./3007644116326636_files/jquery.tipsy.js"></script><script type="text/javascript" src="./3007644116326636_files/jquery.megamenu.js"></script><script type="text/javascript" src="./3007644116326636_files/byOrder.js"></script><script type="text/javascript" src="./3007644116326636_files/font-size.js"></script><script type="text/javascript" src="./3007644116326636_files/cv_citacoes.js"></script><script type="text/javascript" src="./3007644116326636_files/hint_ajax.js"></script><script type="text/javascript" src="./3007644116326636_files/menuFlowScroll.js"></script><script type="text/javascript" src="./3007644116326636_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./3007644116326636_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=3007644116326636" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProjetosPesquisa" class="acessibilidade separador" tabindex="21" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProducoesCientificas" class="acessibilidade separador" tabindex="24" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#EducacaoPopularizacaoCTA" class="acessibilidade separador" tabindex="57" _megamenupos="5pos"><span></span>Educação e Popularização de C &amp; T</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Eventos" class="acessibilidade separador" tabindex="72" _megamenupos="6pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Orientacoes" class="acessibilidade separador" tabindex="75" _megamenupos="7pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Bancas" class="acessibilidade separador" tabindex="78" _megamenupos="8pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="81" _megamenupos="9pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./3007644116326636_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Ana Paula Chaves Steinmacher</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/3007644116326636</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 02/12/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Tec. em Informática - Mod. Sistemas de Informação pela Universidade Tecnológica Federal do Paraná (2006) e mestrado em Ciência da Computação pela Universidade Estadual de Maringá (2009). Atualmente é professora de magistério superior da Universidade Tecnológica Federal do Paraná - Câmpus Campo Mourão. Tem experiência na área de Ciência da Computação, com ênfase em Engenharia de Software, atuando principalmente nos seguintes temas: desenvolvimento distribuído de software, context-awareness e sistemas colaborativos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="83">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ana Paula Chaves Steinmacher<img src="./3007644116326636_files/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CHAVES, A. P.;CHAVES, Ana Paula</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="84">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Campus Campo Mourão. <br class="clear">VIA ROSALINA MARIA DOS SANTOS, 1233 - DACOM<br class="clear">Área Urbanizada I<br class="clear">87301006 - Campo Mourão, PR - Brasil - Caixa-postal: 271<br class="clear">Telefone: (44) 35181448<br class="clear">URL da Homepage: <a target="blank" href="http://www.utfpr.edu.br/campomourao" tabindex="85">http://www.utfpr.edu.br/campomourao</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="86">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=40004015019P5&amp;nivelCurso=M"> (Conceito CAPES 3)</span>. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Um modelo baseado em context-awareness para um Ambiente de Desenvolvimento Distribuído de Software,Ano de Obtenção: 2009.<br class="clear">Orientador: Elisa Hatsue Moriya Huzita.<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: context-awareness; Desenvolvimento Distribuído de Software; Modelagem contextual; Disseminação de informações; Ontologia.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. <br class="clear">Setores de atividade: Desenvolvimento de Programas (Software). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Tec. em Informática - Mod. Sistemas de Informação. <br class="clear">Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	<br class="clear">Título: Módulos Edição e Monitoramento para uma Ferramenta de Apoio ao Desenvolvimento Distribuído de Software. <br class="clear">Orientador: Alexandre L'Erario. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="87">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Aluno</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Iniciação científica, Enquadramento Funcional: Estagiária, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Iniciação científica, Enquadramento Funcional: Estagiária, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Iniciação científica, Enquadramento Funcional: Estagiária, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Iniciação científica, Enquadramento Funcional: Estagiária, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2005 - 06/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Ministério da Educação, Cornélio Procópio. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear">Desenvolvimento de software e iniciação científica. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor de Magistério Superior, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Introdução à Ciência da Computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do Núcleo Permanente de Pessoal Docente (NPPD).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Ética, Profissão e Cidadania<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, Coordenação do Curso Técnico Integrado em Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do Colegiado do Curso Técnico Integrado em Informática.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Campus Campo Mourão, Coordenação do Curso Superior de Bacharelado em Ciências da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#LP_Sistemas Colaborativos" tabindex="88">Sistemas Colaborativos</a><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Engenharia de Software I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados I - Técnico Integrado em Informática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, Coordenação do Curso Superior em Sistemas para Internet. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do Núcleo Docente Estruturante do Curso Superior de Tecnologia em Sistemas para Internet.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas de Informação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2011 - 06/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Campo Mourão, Coordenação do Curso Superior de Bacharelado em Ciências da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 06/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Campo Mourão, Coordenação do Curso Superior em Sistemas para Internet. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados I<br class="clear">Linguagem de Programação III<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2010 - 07/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Eletrônica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos de Programação II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados I<br class="clear">Engenharia de Software II<br class="clear">Linguagem de Programação III<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdade Integrado de Campo Mourão, CEI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Professor, Carga horária: 14</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Análise e Desenvolvimento de Sistema, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Lógica Matemática Aplicada à Computação<br class="clear">Matemática<br class="clear">Orientação a Objetos<br class="clear">Programação e Estrutura de Dados<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Análise e Desenvolvimento de Sistema, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Ferramentas Livres de Desenvolvimento de Software<br class="clear">Segurança e Auditoria de Sistemas<br class="clear">Matemática<br class="clear">Lógica Matemática Aplicada à Computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Análise e Desenvolvimento de Sistema, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos e Técnicas de Programação II<br class="clear">Estrutura de Dados<br class="clear">Lógica Matemática Aplicada à Computação<br class="clear">Matemática<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Empresa Brasileira de Pesquisa Agropecuária, EMBRAPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiária, Enquadramento Funcional: Estagiária, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de um sistema para apoiar o melhoramento de sementes de trigo, chamado Desdobra Segregantes.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Londrina, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear">Desenvolvimento de sistema. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="89">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Sistemas Colaborativos" tabindex="90"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistemas Colaborativos</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="91">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Uso de Inteligência Coletiva para Melhorar a Mobilidade Urbana em Cidades Inteligentes" tabindex="92"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uso de Inteligência Coletiva para Melhorar a Mobilidade Urbana em Cidades Inteligentes<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo deste projeto é investigar técnicas de sistemas colaborativos, mais especificamente aquelas baseadas em crowdsoucing e crowdsensing, que possam contribuir para transformar as cidades em cidades inteligentes.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Coordenador / Filipe Roseiro Côgo - Integrante.<br class="clear">Financiador(es): Universidade Tecnológica Federal do Paraná - Bolsa.<br class="clear">Número de produções C, T &amp; A: 1 / Número de orientações: 2</div>
+</div><a name="PP_Análise de redes sociais de desenvolvedores para predição de bugs em projetos de software" tabindex="93"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise de redes sociais de desenvolvedores para predição de bugs em projetos de software<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Igor Fabio Steinmacher em 20/09/2012.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Visamos investigar o uso da mineração de repositórios para recuperar informações a respeito de projetos em andamento, tanto do ponto de vista técnico (análise de dependências entre artefatos de software, métricas de qualidade, números de falhas etc.) quanto social (número de mensagens trocadas, centralidade na rede social formada pela comunicação, coordenação ou cooperação etc.). Desse modo, propomos avaliar o uso de métricas de redes sociais para predição de defeitos (bugs) em projetos de software, utilizando dados de mecanismos de colaboração analisados sob o ponto de vista de um modelo de colaboração largamente utilizado na literatura de sistemas colaborativos (o Modelo 3C de colaboração). Os dados obtidos serão usados para criar redes sociais, que serão analisadas com métricas da área de SNA (Social Network Analysis). Os resultados obtidos por essa análise terão sua eficácia na predição de bugs comparada com outras abordagens da literatura. Adicionalmente, espera-se como resultado: desenvolver um ferramental para mineração de dados de projetos de software, para extrair dados de listas de e-mails, fóruns e logs de sistemas de controle de versão; definir uma taxonomia para classificação de bugs; e criar matrizes de relacionamento entre desenvolvedores que representem redes sociais de projetos de software, para cada um dos eixos do modelo 3C de colaboração.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Igor Scaliante Wiese - Integrante / Igor Fabio Steinmacher - Coordenador / Marco Aurelio Gerosa - Integrante / José Teodoro da Silva - Integrante / Reginaldo Ré - Integrante.<br class="clear">Financiador(es): Fundação Araucária de Apoio ao Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name="PP_UbiBus: Um Sistema de Transporte Público Inteligente, Ubíquo e Sensível ao Contexto" tabindex="94"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">UbiBus: Um Sistema de Transporte Público Inteligente, Ubíquo e Sensível ao Contexto<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nas últimas décadas, o trânsito em cidades de médio e grande porte, bem como os transtornos causados direta ou indiretamente por este, tornaram-se um problema crescente no cotidiano de qualquer cidadão. Problemas como falta de pontualidade dos ônibus e ausência de informações que apóiem os passageiros em suas decisões sobre o uso de transporte urbano, torna ainda mais complexo o uso desses serviços. Esse projeto tem por objetivo propor um sistema de transporte público inteligente que considere características de mobilidade dos veículos e passageiros, bem como ocorrência de fatores dinâmicos que afetem os transportes, oferecendo serviços de maior qualidade aos passageiros de grandes cidades, tais como previsão de rotas, estimativas mais precisas de tempo de chegada dos ônibus ou recomendações de melhores rotas e meios de transporte de acordo com informações coletadas em tempo real. Serão investigados vários aspectos ligados a: i) aquisição, processamento e gerenciamento de informações de contexto estáticas e dinâmicas; ii) algoritmos e modelos matemáticos para cálculo de tempos de deslocamento e definição de melhores rotas; (iii) técnicas de visualização para interpretação de informações geográficas, considerando grandes volumes de dados relacionados aos meios de transporte e rotas; iv) desenvolvimento de middleware para construção de sistemas móveis e ubíquos; (v) desenvolvimento de aplicações sensíveis ao contexto contendo informações de apoio ao passageiro adaptáveis a diferentes dispositivos e à internet; e (vi) desenvolvimento de sistemas de recomendação de rotas e meios de transporte e redes sociais para colaboração entre passageiros. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (3) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Elisa Hatsue Moriya Huzita - Integrante / Vaninha Vieira - Integrante / Patrícia Tedesco - Integrante / Ana Carolina Salgado - Coordenador / Glêdson Elias da Silveira - Integrante / Valeria Cesario Times - Integrante / Carlos Ferraz - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name="PP_SIMTUR: Sistema Inteligente para Monitoramento de Tráfego Urbano" tabindex="95"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SIMTUR: Sistema Inteligente para Monitoramento de Tráfego Urbano<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Questões recorrentes, tais como os grandes congestionamentos nos centros urbanos e a ausência de fomento à utilização de transportes coletivos, são obstáculos ao desenvolvimento de cidades inteligentes. Como soluções a essas dificuldades e visando atingir uma mobilidade sustentável, as TICs (Tecnologias da Informação e Comunicação) vêm sendo aplicadas, tendo como principal resultado os Sistemas de Transportes Inteligentes (STI). Neste contexto, este projeto propõe criar, modelar e implementar um sistema integrado de soluções, intitulado SIMTUR, direcionado ao rastreamento, comunicação, controle e monitoramento de transporte e tráfego em cidades. SIMTUR pretende prover informações sobre o tráfego, localização e demais condições urbanas (nível de poluição, temperatura, umidade e outras) aos usuários de transporte coletivo e privado, além de informações de itinerários para os passageiros de transportes coletivos. O projeto desenvolverá, ainda, um simulador de semáforos inteligentes e disponibilizará uma base de dados, que podem ser utilizados por instituições governamentais e prefeituras para auxiliar no planejamento urbano. Em geral, o sistema SIMTUR contribuirá para a desobstrução de vias urbanas e almeja incentivar o uso de transportes coletivos de mobilidade. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Elisa Hatsue Moriya Huzita - Integrante / Vaninha Vieira - Integrante / Patrícia Tedesco - Integrante / Ana Carolina Salgado - Integrante / Carlos Ferraz - Integrante / Patricia Jaques Maillard - Coordenador / Michele Nogueira - Integrante / Yuzo Iano - Integrante / Gilberto Nakamiti - Integrante / Kelvin Dias - Integrante.<br class="clear">Financiador(es): Rede Nacional de Ensino e Pesquisa - Auxílio
+										financeiro.</div>
+</div><a name="PP_Suporte à Percepção e ao Contexto em Ambientes de Desenvolvimento Distribuído de Software" tabindex="96"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Suporte à Percepção e ao Contexto em Ambientes de Desenvolvimento Distribuído de Software<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O desenvolvimento distribuído de software tem sido adotado, cada vez mais, para minimizar as dificuldades encontradas com o crescimento do mercado global e tem se tornado uma atividade multi-site, multi-cultural e globalmente distribuída. A distribuição física das equipes agrava os problemas já inerentes à gerência do processo de desenvolvimento. Diferenças culturais, de linguagem, de fuso horário, entre outros aspectos, aumentam a complexidade na comunicação, coordenação e controle durante o desenvolvimento de software. Desta forma, uma série de desafios se apresenta em todos os níveis e setores, sejam técnicos, sociais ou culturais. Na tentativa de garantir a comunicação clara e não ambígua, entre os indivíduos envolvidos no trabalho cooperativo, pesquisadores investiram na utilização de técnicas de percepção que, combinadas ao gerenciamento de contexto, favoreceram os estudos acerca de sistemas conhecidos como context-awareness. Assim, definir modelos e mecanismos que ofereçam suporte ao contexto no trabalho cooperativo em um ambiente de desenvolvimento distribuído de software torna-se uma necessidade antes mesmo do que ter o privilégio de usufruir das facilidades proporcionadas pelas tecnologias. O desenvolvimento deste projeto explorará tecnologias relacionadas à reutilização, contexto, percepção e segurança considerando o desenvolvimento distribuído de software. Para viabilizar a construção de um ambiente deste porte, este projeto explorará características específicas de uma infra-estrutura distribuída. Este trabalho tem por objetivo contribuir com novas pesquisas no ambiente DiSEN (Distributed Software Engineering Environment). Para tanto, serão desenvolvidos mecanismos de apoio à comunicação, percepção, contexto e segurança e, assim, oferecer suporte aos problemas provocados pela distância temporal, geográfica e sócio-cultural presentes no desenvolvimento distribuído de software. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Mestrado acadêmico: (2) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Elisa Hatsue Moriya Huzita - Coordenador / Gislaine Camila Lapasini Leal - Integrante / Tania Fátima Calvi Taiti - Integrante / Anderson Faustino da Silva - Integrante / Luciana Andreia Fondazzi Martimiano - Integrante.<br class="clear"></div>
+</div><a name="PP_Suporte à Reutilização em Ambientes Distribuídos de Desenvolvimento de Software" tabindex="97"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Suporte à Reutilização em Ambientes Distribuídos de Desenvolvimento de Software<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto tem por objetivo definir mecanismos que ofereçam o suporte à reutilização e ao trabalho cooperativo em um ambiente de desenvolvimento de software distribuído. Para a implementação deste mecanismos serão exploradas as técncias/tecnologias como por exemplo, de workflow, aspectos e linguagens de marcação, que se mostrarem mais adequadas para tal. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Elisa Hatsue Moriya Huzita - Coordenador / Tania Fátima Calvi Taiti - Integrante / Itana Maria de Souza Gimenes - Integrante.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name="PP_Utilização de seleção de variáveis e redes neurais para previsão de microclima" tabindex="98"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Utilização de seleção de variáveis e redes neurais para previsão de microclima<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo do projeto é aplicar a seleção de variáveis e redes neurais na previsão de séries temporais de microclima.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (1) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Jocimara Segantini Ferranti - Integrante / Antônio Airton Carneiro de Freitas - Coordenador.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear">Número de produções C, T &amp; A: 3</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosExtensao" tabindex="99">
+<h1 tabindex="0">Projetos de extensão</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Produção de material didático para disciplina optativa de Sistemas Sensíveis ao Contexto" tabindex="100"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de material didático para disciplina optativa de Sistemas Sensíveis ao Contexto<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Produzir material didático para a disciplina optativa Sistemas Sensíveis ao Contexto, do curso superior de Bacharelado em Ciência da Computação. O intuito será, não apenas discutir os conceitos teóricos dos sistemas sensíveis ao contexto, mas proporcionar a exemplificação desses conceitos e sua importância no contexto de cidades inteligentes. O público-alvo da disciplina constitui-se de acadêmicos do curso de computação. O material produzido será disponibilizado gratuitamente para acesso externo por meio da página da instituição. Ademais, o material também poderá ser utilizado em palestras e minicursos sobre contexto e cidades inteligentes que possam ser realizados para a comunidade externa, quer seja em feiars e exposições, quer sejam em eventos específicos.. <br class="clear">Situação: Em andamento; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Coordenador.<br class="clear"></div>
+</div><a name="PP_Mulheres Livres: Entrada de Mulheres em Projetos de Software Livre" tabindex="101"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mulheres Livres: Entrada de Mulheres em Projetos de Software Livre<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo deste projeto é coordenar ações que orientem meninas e mulheres a conhecer e ingressar em projetos de software livre, despertando o interesse pela área de Tecnologias da Informação e Comunicação e pela participação em projetos de software, além de promover entre as jovens o conhecimento acerca de um ambiente real de desenvolvimento de software, auxiliando na sua preparação para o mercado de trabalho. Desta forma, espera-se contribuir para a visibilidade e reconhecimento da Ciência da Computação para a formação das pessoas em todos os níveis e para todos os grupos, em especial àqueles com baixa representatividade atualmente, tal como as mulheres.. <br class="clear">Situação: Em andamento; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (4) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Igor Fabio Steinmacher - Coordenador / Marco Aurélio Graciotto Silva - Integrante.<br class="clear">Financiador(es): Universidade Tecnológica Federal do Paraná - Bolsa.<br class="clear">Número de produções C, T &amp; A: 1 / Número de orientações: 3</div>
+</div><a name="PP_Preparação para o POSCOMP 2011" tabindex="102"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Preparação para o POSCOMP 2011<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Curso preparatorio para apoiar um grupo de alunos a se preparar para relalizar o exame POSCOMP necessário para ingresso em programas de pós-graduação em Ciência da Computação. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Ana Paula Chaves Steinmacher - Integrante / Igor Fabio Steinmacher - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="103">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IET Software (Print)</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="104">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="105">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende PoucoLê Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PremiosTitulos" tabindex="106">
+<h1 tabindex="0">Prêmios e títulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora Nome de Turma dos Formandos do Curso Superior de Tecnologia em Sistemas para Internet, Universidade Tecnológica Federal do Paraná - Câmpus Campo Mourão. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Segundo melhor artigo no SBSC 2012: Newcomers Withdrawal in Open Source Software Projects: Analysis of Hadoop Common Project, SBSC/CESC/SBC - Sociedade Brasileira de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aluna Destaque, Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aluna Destaque, Sociedade Brasileira de Computação. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="107">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="108"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="109"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="110"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.824</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">STEINMACHER, Igor</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10606-012-9164-4" target="_blank" tabindex="111"></a>STEINMACHER, Igor ; STEINMACHER, IGOR ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="112">CHAVES, A. P.</a></b> ; Gerosa, Marco Aurélio . Awareness Support in Distributed Software Development: A Systematic Review and Mapping of the Literature. Computer Supported Cooperative Work<sup><img id="09259724_1" src="./3007644116326636_files/jcr.gif" class="ajaxJCR jcrTip" data-issn="09259724" original-title="COMPUT SUPP COOP W J (0925-9724)&lt;br /&gt;Fator de impacto (JCR 2014): 0.824"></sup>, v. 22, p. 113-158, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s10606-012-9164-4&amp;issn=09259724&amp;volume=22&amp;issue=&amp;paginaInicial=113&amp;titulo=Awareness Support in Distributed Software Development: A Systematic Review and Mapping of the Literature&amp;sequencial=1&amp;nomePeriodico=Computer Supported Cooperative Work" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000316354300002&DestLinkType=CitingArticles&DestApp=ALL_WOS&UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="./3007644116326636_files/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">5</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/s10606-012-9164-4&md5=834f11d2461ead168455dab98ae3c0f9" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="./3007644116326636_files/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">6</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">0.466</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">LEAL, G. C. L.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="113">LEAL, G. C. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="114">LEAL, G. C. L.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="115">CHAVES, A. P.</a></b> ; HUZITA, E. H. M. ; DELAMARO, M. E. . An Integrated Approach of Software Development and Test Processes to Distributed Teams. Journal of Universal Computer Science (Print)<sup><img id="0948695X_2" src="./3007644116326636_files/jcr.gif" class="ajaxJCR jcrTip" data-issn="0948695X" original-title="J UNIVERS COMPUT SCI (0948-695X)&lt;br /&gt;Fator de impacto (JCR 2014): 0.466"></sup>, v. 18, p. 2686, 2012. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=0948695X&amp;volume=18&amp;issue=&amp;paginaInicial=2686&amp;titulo=An Integrated Approach of Software Development and Test Processes to Distributed Teams&amp;sequencial=2&amp;nomePeriodico=Journal of Universal Computer Science (Print)" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000314533500006&DestLinkType=CitingArticles&DestApp=ALL_WOS&UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="./3007644116326636_files/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">1</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="./3007644116326636_files/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">1</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">CHAVES, A. P.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2011</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="116">CHAVES, A. P.</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="117">STEINMACHER, I. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="118">HUZITA, E. H. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="119">LEAL, G. C. L.</a> ; BIASAO, A.B. . OntoDiSENv1: an Ontology to Support Global Software Development. CLEI Electronic Journal<sup></sup>, v. 14, p. 1-12, 2011. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=07175000&amp;volume=14&amp;issue=&amp;paginaInicial=1&amp;titulo=OntoDiSENv1: an Ontology to Support Global Software Development&amp;sequencial=3&amp;nomePeriodico=CLEI Electronic Journal" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="./3007644116326636_files/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">4</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="120"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BATISTA, P. ; RIBEIRO, L. ; COGO, F. R. ; <b>CHAVES, Ana Paula</b> . Um Survey sobre Soluções de Computacação Urbana Como Meio de Promoção da Socialização Face-a-Face. In: Simpósio Brasileiro de Sistemas Colaborativos, 2015, Salvador-BA. Anais do XII Simpósio Brasileiro de Sistemas Colaborativos, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAMOS, F. V. ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="121">GEROSA, M. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="122">STEINMACHER, I. F.</a> . Um estudo exploratório sobre contribuições casuais em projetos de software livre: caso do projeto LibreOffice. In: IX Workshop em Desenvolvimento Distribuído de Software, Ecossistemas de Software e Sistemas-de-Sistemas, 2015, Belo Horizonte. IX Workshop em Desenvolvimento Distribuído de Software, Ecossistemas de Software e Sistemas-de-Sistemas, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PRUDENCIO, M. M. V ; COGO, F. R. ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="123">STEINMACHER, I. F.</a> . Participação de Mulheres em Projetos de Software Livre: Caso da Comunidade Brasileira da Mozilla Foundation. In: XVI Workshop Internacional de Software Livre (WSL 2015), 2015, Porto Alegre. Proceedings of WSL 2015, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/sbes.2014.9" target="_blank" tabindex="124"></a>STEINMACHER, IGOR ; <b>CHAVES, Ana Paula</b> ; CONTE, TAYANA UCHOA ; GEROSA, Marco Aurelio . Preliminary Empirical Identification of Barriers Faced by Newcomers to Open Source Software Projects. In: 2014 Brazilian Symposium on Software Engineering (SBES), 2014, Maceio. 2014 Brazilian Symposium on Software Engineering, 2014. p. 51-60. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANTONIO, M. F. ; COGO, F. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="125">STEINMACHER, I. F.</a> ; <b>CHAVES, A. P.</b> . FIltragem Colaborativa de Rotas de Ônibus Usando Dados sobre a Acessibilidade das Vias Urbanas. In: Simpósio Brasileiro de Sistemas Colaborativos, 2014, Curitiba. Anais do XI Simpósio Brasileiro de Sistemas Colaborativos (SBSC2014), 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CHASE.2013.6614728" target="_blank" tabindex="126"></a>STEINMACHER, IGOR ; WIESE, IGOR ; <b>CHAVES, Ana Paula</b> ; GEROSA, Marco Aurelio . Why do newcomers abandon open source software projects?. In: 2013 6th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE), 2013, San Francisco. 2013 6th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE), 2013. p. 25. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="127">STEINMACHER, I. F.</a> ; SILVA, M. A. G. ; COGO, F. R. ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="128">GEROSA, M. A.</a> . Tópicos de pesquisa e rede de coautoria no Simpósio Brasileiro de Sistemas Colaborativos. In: Simpósio Brasileiro de Sistemas Colaborativos, 2013, Manaus. X Simpósio Brasileiro de Sistemas Colaborativos. New York: ACM, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7992586996463223" target="_blank" tabindex="129">VIEIRA, V.</a> ; FERRAZ, C. ; TEDESCO, P. ; TIMES, V. C ; SALGADO, A. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="130">HUZITA, E. H. M.</a> ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="131">STEINMACHER, I. F.</a> . The UbiBus Project: Using Context and Ubiquitous Computing to build Advanced Public Transportation Systems to Support Bus Passengers. In: VIII Simpósio Brasileiro de Sistemas de Informação (SBSI 2012), 2012, São Paulo. Anais do VIII Simpósio Brasileiro de Sistemas de Informação (SBSI 2012), 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SBSC.2012.16" target="_blank" tabindex="132"></a>STEINMACHER, Igor ; WIESE, IGOR S. ; <b>CHAVES, Ana Paula</b> ; GEROSA, Marco Aurelio . Newcomers Withdrawal in Open Source Software Projects: Analysis of Hadoop Common Project. In: 2012 Brazilian Symposium on Collaborative Systems (SBSC), 2012, Sao Paulo. 2012 Brazilian Symposium on Collaborative Systems. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SBSC.2012.26" target="_blank" tabindex="133"></a>NISHI, MARCELO KOTI ; <b>CHAVES, Ana Paula</b> ; STEINMACHER, Igor . A Collective Intelligence Based System for Visualizing Problems in Public Roads. In: 2012 Brazilian Symposium on Collaborative Systems (SBSC), 2012, Sao Paulo. 2012 Brazilian Symposium on Collaborative Systems. p. 94-98. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="134">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="135">STEINMACHER, I. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7992586996463223" target="_blank" tabindex="136">VIEIRA, V.</a> . Social networks and collective intelligence applied to public transportation systems: A survey. In: Simpósio Brasileiro de Sistemas Colaborativos, 2011, Parati - RJ. Anais do VIII Simpósio Brasileiro de Sistemas Colaborativos, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, L. P.S ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="137">STEINMACHER, I. F.</a> . Um aplicativo baseado em inteligência coletiva para compartilhamento de rotas em redes sociais. In: Simpósio Brasileiro de Sistemas Colaborativos, 2011, Parati - RJ. Anais do VIII Simpósio Brasileiro de Sistemas Colaborativos, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="138">STEINMACHER, I. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="139">WIESE, I. S.</a> ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="140">GEROSA, M. A.</a> . Adicionando contexto a uma ferramenta de chat síncrono para apoiar o desenvolvimento distribuído de software. In: Simpósio Brasileiro de Sistemas Colaborativos, 2011, Parati - RJ. Anais do VIII Simpósio Brasileiro de Sistemas Colaborativos, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIVIAN, R. L ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="141">HUZITA, E. H. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="142">LEAL, G. C. L.</a> ; <b>CHAVES, A. P.</b> . Context-Awareness on Software Artifacts in Distributed Software Development: A Systematic Review. In: CRIWG Conference on Collaboration and Technology, 2011, Parati - RJ. Lecture Notes in Computer Science. Berlin/Heidelberg: Springer, 2011. v. 6969. p. 30-44. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCIO, D. R. ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="143">STEINMACHER, I. F.</a> . Um aplicativo para dispositivos móveis voltado para usuários de transporte público. In: Encontro Paranaense de Computação, 2011, Cascavel. IV Encontro Paranaense de Computação, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3007644116326636_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="144">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="145">HUZITA, E. H. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7992586996463223" target="_blank" tabindex="146">VIEIRA, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="147">STEINMACHER, I. F.</a> . A Context Conceptual Model for a Distributed Software Development Environment. In: The 22nd International Conference on Software Engineering and Knowledge Engineering, 2010, San Francisco. Proceedings of the The 22nd International Conference on Software Engineering and Knowledge Engineering. Skokie-IL: Knowledge Systems Institute, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="148">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="149">LEAL, G. C. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="150">STEINMACHER, I. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="151">HUZITA, E. H. M.</a> . OntoDiSEN: uma ontologia para apoiar o desenvolvimento distribuído de software. In: IV WDDS - Workshop de Desenvolvimento Distribuído de Software, 2010, Salvador. IV WDDS - Workshop de Desenvolvimento Distribuído de Software, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="152">CHAVES, A. P.</a></b> 
+						;
+					FERRANTI, J. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="153">LEAL, G. C. L.</a> ; POZZA, R. S. . EPIMA: uma abordagem para desenvolvimento de sistemas acadêmicos. In: XVIII Congresso Ibero-americano de Educação Superior em Computação (CIESC 2010), 2010, Assunción. XVIII Congresso Ibero-americano de Educação Superior em Computação - XXXVI Conferência Latinoamericana de Informática (CLEI 2010), 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3007644116326636_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-15714-1_15" target="_blank" tabindex="154"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="155">STEINMACHER, I. F.</a> ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="156">GEROSA, M. A.</a> . Awareness Support in Global Software Development: A Systematic Review Based on the 3C Collaboration Model. In: 16th CRIWG Conference on Collaboration and Technology, 2010, Maastricht. Proceedings fo CRIWG 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="157">LEAL, G. C. L.</a> ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7290031573187386" target="_blank" tabindex="158">SILVA, C. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="159">HUZITA, E. H. M.</a> . Framework FIB: um estudo experimental. In: XXXV Conferencia Latinoamericana de Informática, 2009, Pelotas - RS - Brasil. XXXV Conferencia Latinoamericana de Informática (XXXV CLEI), 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7290031573187386" target="_blank" tabindex="160">SILVA, C. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="161">LEAL, G. C. L.</a> ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="162">HUZITA, E. H. M.</a> . DiSEN-SCV: versions management with conflict treatment to artifacts XMI. In: XXVIII International Conference of the Chilean Computer Society, 2009, Santiago. Chilean Computer Science Society, 2009. SCCC '09. International Conference of the, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3007644116326636_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SBSC.2009.30" target="_blank" tabindex="163"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="164">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7992586996463223" target="_blank" tabindex="165">VIEIRA, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="166">HUZITA, E. H. M.</a> ; Donegá, W. C. . Context-Based Notification Supporting Distributed Software Teams Management and Coordination. In: VI Simpósio Brasileiro de Sistemas Colaborativos, 2009, Fortaleza. Anais do VI Simpósio Brasileiro de Sistemas Colaborativos, 2009. p. 80-89. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sato, G. Y. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="167">LEAL, G. C. L.</a> ; <b>CHAVES, A. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="168">HUZITA, E. H. M.</a> . Uma Ferramenta para Controle de Modificação de Software: DiSEN-Chanco. In: VI Workshop de Manutenção de Software Moderna, 2009, Ouro Preto. Workshop de Manutenção Moderna de Software - VIII Simpósio Brasileiro de Qualidade de Software, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3007644116326636_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="169">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="170">WIESE, I. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7290031573187386" target="_blank" tabindex="171">SILVA, C. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="172">HUZITA, E. H. M.</a> . Um modelo baseado em context-awareness para disseminação de informações em um ambiente de desenvolvimento distribuído de software. In: XXXIV Conferencia Latinoamericana de Informática (CLEI 2008), 2008, Santa Fe. Anais da XXXIV Conferencia Latinoamericana de Informática, 2008. p. 1365-1374. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SCCC.2008.10" target="_blank" tabindex="173"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="174">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="175">LEAL, G. C. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="176">HUZITA, E. H. M.</a> . An Experimental Study of the FIB Framework Driven by the PDCA Cycle. In: International Conference of the Chilean Computer Science Society, 2008, Punta Arenas. International Conference of the Chilean Computer Science Society, 2008. p. 23-31. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="177">CHAVES, A. P.</a></b> 
+						;
+					FERRANTI, J. S. ; LERARIO, A. ; POZZA, R. S. . Ferramenta para instanciação de processos de software que permite o gerenciamento de projetos de desenvolvimento distribuído. In: 2ª Conferência Ibérica de Sistemas e Tecnologias de Informação, 2007, Porto. Novas Perspectivas em Sistemas e Tecnologias de Informação. Porto, 2007. v. II. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="178">CHAVES, A. P.</a></b> 
+						;
+					FERRANTI, J. S. ; LERARIO, A. ; POZZA, R. S. . Proposta de uma Ferramenta para Instanciação de Processos de Software que Permite o Gerenciamento de Projetos de Desenvolvimento Distribuído. In: VII Fórum de Informática e Tecnologia de Maringá, 2006, Maringá. Anais do VII FITEM. VII Fórum de Informática e Tecnologia de Maringá, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="179">CHAVES, A. P.</a></b> 
+						;
+					FREITAS, A. A. C. ; FERRANTI, J. S. . Prevsião da temperatura e da umidade relativa via seleção de variáveis e redes neurais artificiais visando prevenir a ocorrência da ferrugem asiática. In: IX Seminário de Iniciação Científica e Tecnológica, 2005, Curitiba. Anais do IX Seminário de Iniciação Científica e Tecnológica, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="180">CHAVES, A. P.</a></b> 
+						;
+					FREITAS, A. A. C. ; FERRANTI, J. S. . Estimação da umidade relativa do ar por meio da seleção de variáveis e redes neurais artificiais visando prevenir a ocorrência da ferrugem asiática. In: V Congresso Brasileiro de Agroinformática e II Simpósio Brasileiro de Tecnologia da Informação no agronegócio Cooperativo, 2005, Londrina. Agronegócio, Tecnologia e Inovação, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="181">CHAVES, A. P.</a></b> 
+						;
+					FREITAS, A. A. C. ; FERRANTI, J. S. . Applying ARIMA model in the context of agriculture and industries. In: 1st International Congress University - Industries Cooperation, 2005. Proceedings of 1st International Congress University - Industries Cooperation, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="182"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="183">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="184">GEROSA, M. A.</a> . Using Collective Intelligence to Improve Urban Mobility in Smart Cities. In: Doing CSCW Research in Latin American: differences, opportunities, challenges, and lessons learned, 2015, Vancouver, BC, Canada. CSCW 2015 Workshop: Doing CSCW Research in Latin American, 2015. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIVIAN, R. L ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="185">HUZITA, E. H. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="186">LEAL, G. C. L.</a> ; <b>CHAVES, A. P.</b> . Uma Arquitetura Baseada Em Serviços Para Gerenciamento De Contexto Em Aplicações Web Sensíveis Ao Contexto. In: 6ª Conferência Ibérica de Sistemas e Tecnologias de Informação, 2011, Chaves - Portugal. Anais da 6ª Conferência Ibérica de Sistemas e Tecnologias de Informação, 2011. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="187"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="188">CHAVES, A. P.</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="189">WIESE, I. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7290031573187386" target="_blank" tabindex="190">SILVA, C. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6545213253559397" target="_blank" tabindex="191">HUZITA, E. H. M.</a> . Um modelo baseado em context-awareness para um Ambiente de Desenvolvimento Distribuído de Software. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="192">CHAVES, A. P.</a></b> 
+							;
+						FERRANTI, J. S. ; LERARIO, A. ; POZZA, R. S. . Proposta de uma ferramenta de instanciação de processo de software que permite o gerenciamento de projetos de desenvolvimento distribuído. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="193"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente" tabindex="194"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./3007644116326636_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="195">CHAVES, A. P.</a></b> 
+					;
+				Desdobra Segregantes. 2006. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="196"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="197">CHAVES, A. P.</a></b> 
+						;
+					PRUDENCIO, M. M. V ; SCHERER, N. ; SANGALI, E. ; FROZZA, A. C. . Introdução à Programação de Aplicativos usando Android. 2015. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="198">CHAVES, A. P.</a></b> 
+						;
+					Aplicação de SCRUM na Hacken Empresa Junior. 2015. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="199">CHAVES, A. P.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7810321373328408" target="_blank" tabindex="200">LEAL, G. C. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7290031573187386" target="_blank" tabindex="201">SILVA, C. A.</a> . Engenharia de Web para Desenvolvimento de Aplicações. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="202">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="203"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SABO, P. H.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="204">CHAVES, A. P.</a></b>; GONÇALVES, P. C..  Participação em banca de Alexsandro Lauber.Desenvolvimento de Software e Implantação de Sistema para Leitura de Dados de Dispositivos com RFID.
+							2015. Trabalho de Conclusão de Curso (Graduação em Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RÉ, R.; COGO, F. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="205">CHAVES, A. P.</a></b>.  Participação em banca de Juliana Iora.Padrões de Correção de Bugs: Um Estudo Exploratório.
+							2014. Trabalho de Conclusão de Curso (Graduação em Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SABO, P. H.; GONÇALVES, P. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="206">CHAVES, A. P.</a></b>.  Participação em banca de Alexsandro Lauber.Sistema de leitura de dados de dispositivos com RFID integrado à balança de pesagem.
+							2014. Trabalho de Conclusão de Curso (Graduação em Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COGO, F. R.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="207">STEINMACHER, I. F.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="208">CHAVES, A. P.</a></b>.  Participação em banca de Genivaldo Furtuoso.Sistemas Inteligentes de Transporte: Avaliação de um Sistema Baseado em Dados de Redes Sociais.
+							2014. Trabalho de Conclusão de Curso (Graduação em Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COGO, F. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="209">CHAVES, A. P.</a></b>; BARROS, E. F..  Participação em banca de Marlon Fernandes Antonio.Interface Acessível para Sistemas de Recomendação de Rotas de Ônibus para Auxiliar Deficientes Visuais no Uso do Sistema Público de Transporte.
+							2014. Trabalho de Conclusão de Curso (Graduação em Sistemas Para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="210">WIESE, I. S.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="211">CHAVES, A. P.</a></b>; SILVA, G. C.  Participação em banca de Diogo Vieira Fortunato.Identificando valores de referência para predição de sucesso e fracasso em Open Source Software: um estudo empírico.
+							2011. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORENO, E. A. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="212">CHAVES, A. P.</a></b>; SCHEFFER, R..  Participação em banca de Admarlon Jhonny Rodrigues de Andrade.SGM - Sistema de Gerenciamento de Oficina.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILHANUEVA, M. P.; PEGORIN, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="213">CHAVES, A. P.</a></b>.  Participação em banca de Tiago José Marciano.Controle de Processos Canal de Vendas GVT.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILELA JR, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="214">CHAVES, A. P.</a></b>; MEIRA, M. V..  Participação em banca de Ana Cristina Massaretto.Sistema de Auxílio ao Gerenciamento de Propriedade Leiteira.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILELA JR, A.; MORENO, E. A. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="215">CHAVES, A. P.</a></b>.  Participação em banca de Douglas Cezar Silva.Sistema de Gerenciamento de Clínica Odontológica.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTANA, A. C.; MORENO, E. A. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="216">CHAVES, A. P.</a></b>.  Participação em banca de Gicelly de Souza Casarin.Sistema de Gestão em Clínica - Módulo Financeiro.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILELA JR, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="217">CHAVES, A. P.</a></b>; MAIOCHI, G..  Participação em banca de Guilherme Guimarães.MAXSYS - Controle de Estoque.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILHANUEVA, M. P.; PEGORIN, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="218">CHAVES, A. P.</a></b>.  Participação em banca de Alan Ferreira dos Santos.Controle de Processos Canal de Vendas GVT.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILELA JR, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="219">CHAVES, A. P.</a></b>; VILHANUEVA, M. P..  Participação em banca de Tiago José Marciano.Controle de Processos Canal de Vendas GVT.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILELA JR, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="220">CHAVES, A. P.</a></b>; VILHANUEVA, M. P..  Participação em banca de Alan Ferreira dos Santos.Controle de Processos Canal de Vendas GVT.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILELA JR, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="221">CHAVES, A. P.</a></b>; MORENO, E. A. D..  Participação em banca de Douglas Cezar Silva.Sistema de Gerenciamento de Clínica Odontológica.
+							2009. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="222"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="223">WIESE, I. S.</a>; SILVA, M. A. G.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="224">CHAVES, A. P.</a></b>. Processo Seletivo para Professor do Magistério Superior.
+							2015. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="225">WIESE, I. S.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="226">CHAVES, A. P.</a></b>; SILVA, G. C. Processo Seletivo para Professor Substituto do Ensino Básico, Técnico e Tecnológico.
+							2012.
+							Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="227">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="228"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Doing CSCW Research in Latin American: differences, opportunities, challenges, and lessons learned. Using Collective Intelligence to Improve Urban Mobility in Smart Cities. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Software: teoria e prática. Um estudo exploratório sobre contribuições casuais em projetos de software livre: caso do projeto LibreOffice. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Sistemas Colaborativos.Um Survey sobre Soluções de Computacação Urbana Como Meio de Promoção da Socialização Face-a-Face.
+							2015. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2014 Brazilian Symposium on Software Engineering (SBES). 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Sistemas Colaborativos.Filtragem colaborativa de rotas de ônibus usando dados sobre a acessibilidade das vias urbanas.
+							2014. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2012 Brazilian Symposium on Collaborative Systems (SBSC).Um Sistema Baseado em Inteligência Coletiva para Visualização de Problemas em Vias Públicas.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The 22nd International Conference on Software Engineering and Knowledge Engineering. A Context Conceptual Model for a Distributed Software Development Environment. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SWIB - Simpósios SBSC, WebMedia, IHC e SBBD.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Cientifico da Regiao Centro Ocidental do Parana. Seçao de Cominicaçao Oral. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Simpósio Brasileiro de Sistemas Colaborativos.Notificação Baseada em Contexto como Apoio à Gerência e Coordenação em Equipes de Software Distribuídas.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIV Conferencia Latinoamericana de Informática. Um modelo baseado em context-awareness para um Ambiente de Desenvolvimento Distribuído de Software. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Fórum de Informática e Tecnologia de Maringá - X Mostra de Trabalhos de Informática.Proposta de uma ferramenta de instanciação de processo de software que permite o gerenciamento de projetos de desenvolvimento distribuído.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Escola Regional de Informática da Sociedade Brasileira de Computação Regional Sul.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso Brasileiro de Agroinformática e II Simpósio Brasileiro de Tecnologia da Informação no agronegócio Cooperativo. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Seminário Científico Tecnológico do Programa de Pós-Graduação em Ciência da Computação. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="229"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA JUNIOR, E. A. ; COLANZI, T. E ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="230">STEINMACHER, I. F.</a> ; <b>CHAVES, A. P.</b> ; WIESE, IGOR S. . Congresso Brasileiro de Software: teoria e prática (2016). 2014. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="231">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="232"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Raphael Lira da Silva. Aplicativo de rede social para facilitar a coleta de dados em pesquisas Origem/Destino.
+						Início: 2015. Trabalho de Conclusão de Curso (Graduação em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariana Martins Vargas Prudencio. Participação de Mulheres em Projetos de Software Livre.
+						Início: 2015. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sérgio Ramos da Silva. Um aplicativo para auxiliar deficiêntes visuais a desembarcar do ônibus.
+						Início: 2014. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná, UTFPR - PróReitoria de Graduação. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Taila Camila Mantovani. Plataformas de software para cidades inteligentes. Início: 2015. Iniciação científica (Graduando em Ciências da Computação)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Vinicius Ribeiro. Identificação de elementos de gamificação para promover a socialização em ambientes de interação coletiva. Início: 2015. Iniciação científica (Graduando em Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Yassuo Tomyiama. Produção de material didático para disciplina optativa de Sistemas Sensíveis ao Contexto.
+						Início: 2015.
+							Orientação de outra natureza. Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Veronica Speranca. Mulheres Livres: Entrada de Mulheres em Projetos de Software Livre.
+						Início: 2015.
+							Orientação de outra natureza. Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mylena Batista Pinto. Estágio curricular obrigatório.
+						Início: 2015.
+							Orientação de outra natureza. Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diullya Carolina Cordeiro. Estágio curricular obrigatório.
+						Início: 2015.
+							Orientação de outra natureza. Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Erica Yurie Saito. Mulheres Livres: Entrada de Mulheres em Projetos de Software Livre.
+						Início: 2015.
+							Orientação de outra natureza. Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="233"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carina de Souza Brito.
+							Categorização de problemas de pessoas com deficiência visual, no uso de transportes públicos coletivo e deslocamento, baseada em técnicas de Grounded Theory.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Koti Nischi.
+							Um Sistema Baseado em Inteligência Coletiva para Visualização de Problemas em Vias Públicas.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Ferreira Vasconcelos.
+							Uso de mapas colaborativos para apoiar usuários de transporte público.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Philipe Serrano Alves.
+							Um aplicativo baseado em inteligência coletiva para compartilhamento de rotas em redes sociais.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ivan Marcelo Ferreira.
+							Sistema Help Desk.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ivan Marcelo Ferreira.
+							Sistema de Help Desk.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Ferreira Vasconcelos.
+							Estudo de modelo de dados, refatoração e integração de ferramentas ao sistema UbiBus.
+							2012.
+							Iniciação Científica. (Graduando em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Koti Nischi.
+							Um sistema baseado em inteligência coletiva para visualização de problemas em vias públicas.
+							2011.
+							Iniciação Científica. (Graduando em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná,
+							Rede Nacional de Ensino e Pesquisa. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maisa Barreto.
+							Estágio curricular obrigatório.
+							2015.
+							Orientação de outra natureza. (Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Edson Luiz Michalkiewicz Junior.
+							Estágio curricular obrigatório na empresa UNESPAR.
+							2015.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mateus Modena Neves.
+							Estágio curricular obrigatório na empresa UNESPAR.
+							2015.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Henrique Luis Mazzuchetti.
+							Estágio curricular obrigatório na empresa UNESPAR.
+							2015.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro Victor Fontoura Zawadniak.
+							Estágio curricular obrigatório na empresa UNESPAR.
+							2015.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Willian Lopes Popovicz.
+							Estágio curricular obrigatório - Tecnologia em Sistemas para Internet.
+							2014.
+							Orientação de outra natureza. (Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariane Affonso Medeiros.
+							Mulheres Livres: Entrada de Mulheres em Projetos de Software Livre.
+							2014.
+							Orientação de outra natureza. (Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Carolina Frozza.
+							Mulheres Livres: Entrada de Mulheres em Projetos de Software Livre.
+							2014.
+							Orientação de outra natureza. (Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luis Danilo de Oliveira.
+							Monitoria em Lógica Matemática Aplicada à Computação.
+							2009.
+							Orientação de outra natureza. (Tecnologia em Análise e Desenvolvimento de Sistema)  - Faculdade Integrado de Campo Mourão. Orientador: Ana Paula Chaves Steinmacher.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA" tabindex="234">
+<h1 tabindex="0">Educação e Popularização de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="CursosCurtaEPCTA" tabindex="235"></a><br class="clear"><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="236">CHAVES, A. P.</a></b> 
+						;
+					PRUDENCIO, M. M. V ; SCHERER, N. ; SANGALI, E. ; FROZZA, A. C. . Introdução à Programação de Aplicativos usando Android. 2015. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="237">CHAVES, A. P.</a></b> 
+						;
+					Aplicação de SCRUM na Hacken Empresa Junior. 2015. . </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 8:58:08</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=3007644116326636" target="_blank" class="button" tabindex="238"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="239"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="240">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#PremiosTitulos" tabindex="13">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#LinhaPesquisa" tabindex="18">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#RevisorPeriodico" tabindex="19">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#AreasAtuacao" tabindex="20">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProjetosPesquisa" tabindex="22">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProjetosExtensao" tabindex="23">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProducaoBibliografica" tabindex="25">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ArtigosCompletos" tabindex="26">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ArtigosAceitos" tabindex="27">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#LivrosCapitulos" tabindex="28">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#TextosJornaisRevistas" tabindex="29">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#TrabalhosPublicadosAnaisCongresso" tabindex="30">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ApresentacaoTrabalho" tabindex="31">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#OutrasProducoesBibliograficas" tabindex="32">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#OutrasProducoesBibliograficas" tabindex="33">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#OutrasProducoesBibliograficas" tabindex="34">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#OutrasProducoesBibliograficas" tabindex="35">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProducaoTecnica" tabindex="36">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#AssessoriaConsultoria" tabindex="37">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#SoftwareSemPatente" tabindex="38">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProdutosTecnologicos" tabindex="39">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProcessosTecnicas" tabindex="40">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#TrabalhosTecnicos" tabindex="41">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#DemaisProducaoTecnica" tabindex="42">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#DemaisProducaoTecnica" tabindex="43">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#DemaisProducaoTecnica" tabindex="44">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#DemaisProducaoTecnica" tabindex="45">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ManutencaoObraArtistica" tabindex="46">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#DemaisProducaoTecnica" tabindex="47">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#EntrevistasMesasRedondas" tabindex="48">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#DemaisProducaoTecnica" tabindex="49">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#RedesSociais" tabindex="50">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#DemaisProducoesTecnicas" tabindex="51">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProducaoArtisticaCultural" tabindex="52">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ArtesCenicas" tabindex="53">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Musica" tabindex="54">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ArtesVisuais" tabindex="55">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#OutrasProducoesArtisticas" tabindex="56">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-educacaoPopularizacaoCTA" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ArtigosEPCTA" tabindex="58">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#LivrosCapitulosEPCTA" tabindex="59">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#TextosJornaisEPCTA" tabindex="60">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ApresentacoesTrabalhoEPCTA" tabindex="61">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProgramaComputadorEPCTA" tabindex="62">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#CursosCurtaEPCTA" tabindex="63">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#MaterialDidaticoEPCTA" tabindex="64">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#EntrevistasEPCTA" tabindex="65">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ProgramaComputadorRegistradoEPCTA" tabindex="66">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#OrganizacaoEventosEPCTA" tabindex="67">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#RedesSociaisEPCTA" tabindex="68">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ArtesVisuaisEPCTA" tabindex="69">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ArtesCenicasEPCTA" tabindex="70">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#MusicaEPCTA" tabindex="71">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ParticipacaoEventos" tabindex="73">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#OrganizacaoEventos" tabindex="74">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Orientacoesconcluidas" tabindex="76">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#Orientacaoemandamento" tabindex="77">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ParticipacaoBancasTrabalho" tabindex="79">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4229944H5#ParticipacaoBancasComissoes" tabindex="80">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="9pos" style="z-index: 1010; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4229944H5&tipo=completo&idiomaExibicao=1" tabindex="82">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

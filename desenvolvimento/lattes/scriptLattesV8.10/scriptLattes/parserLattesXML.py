@@ -221,7 +221,6 @@ class ParserLattesXML(HTMLParser):
           self.url = 'http://lattes.cnpq.br/' + value
           self.url = self.url.encode('utf-8')
 
-
         if tag == 'dados-gerais':
           for name, value in attributes:
             if name == 'nome-completo':
@@ -372,6 +371,7 @@ class ParserLattesXML(HTMLParser):
         # ----------------------------------------------------------------------
         if tag == 'endereco-profissional':
           for name, value in attributes:
+
             if name == 'nome-instituicao-empresa':
               nomeIntituicao = value
             if name == 'nome-unidade':
@@ -388,7 +388,9 @@ class ParserLattesXML(HTMLParser):
               uf = value
             if name == 'cep':
               cep = value
+
           self.enderecoProfissional = nomeIntituicao + ". " + nomeUnidade + ". " + orgao + ". " + logradouro + " CEP " + cep + " - " + cidade + ", " + uf + " - " + pais
+
           # print nomeIntituicao
         # ----------------------------------------------------------------------
         if self.achouArtigoEmPeriodico:
@@ -403,6 +405,7 @@ class ParserLattesXML(HTMLParser):
           if tag == 'dados-basicos-do-artigo':
             for name, value in attributes:
               if name == 'titulo-do-artigo':
+
                 self.titulo = value
               if name == 'ano-do-artigo':
                 self.ano = value
@@ -753,6 +756,7 @@ class ParserLattesXML(HTMLParser):
           pub.volume = self.volume
           pub.paginas = self.paginas
           pub.chave = self.autores
+
           self.listaCapituloDeLivroPublicado.append(pub)
 
         # ----------------------------------------------------------------------

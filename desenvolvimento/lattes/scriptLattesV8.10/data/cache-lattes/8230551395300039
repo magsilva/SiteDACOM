@@ -1,0 +1,2076 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (André Luiz Satoshi Kawamoto)</title>
+<link type="text/css" rel="stylesheet" href="./8230551395300039_files/import.css">
+<link type="text/css" href="./8230551395300039_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./8230551395300039_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./8230551395300039_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./8230551395300039_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./8230551395300039_files/espelho.css">
+<script type="text/javascript" async="" src="./8230551395300039_files/ga.js"></script><script type="text/javascript" src="./8230551395300039_files/jquery.min.js"></script><style type="text/css"></style><script src="./8230551395300039_files/jquery.cookie.js" type="text/javascript"></script><script src="./8230551395300039_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./8230551395300039_files/tooltip-position.js"></script><script type="text/javascript" src="./8230551395300039_files/jquery.tipsy.js"></script><script type="text/javascript" src="./8230551395300039_files/jquery.megamenu.js"></script><script type="text/javascript" src="./8230551395300039_files/byOrder.js"></script><script type="text/javascript" src="./8230551395300039_files/font-size.js"></script><script type="text/javascript" src="./8230551395300039_files/cv_citacoes.js"></script><script type="text/javascript" src="./8230551395300039_files/hint_ajax.js"></script><script type="text/javascript" src="./8230551395300039_files/menuFlowScroll.js"></script><script type="text/javascript" src="./8230551395300039_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./8230551395300039_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=8230551395300039" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="13" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="15" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ProducoesCientificas" class="acessibilidade separador" tabindex="18" _megamenupos="3pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Eventos" class="acessibilidade separador" tabindex="51" _megamenupos="4pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Orientacoes" class="acessibilidade separador" tabindex="53" _megamenupos="5pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Bancas" class="acessibilidade separador" tabindex="56" _megamenupos="6pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Citacoes" class="acessibilidade separador" tabindex="59" _megamenupos="7pos"><span></span>Citações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="64" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./8230551395300039_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">André Luiz Satoshi Kawamoto</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/8230551395300039</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 21/07/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação  em Bacharelado Em Ciência da Computação pela Universidade Estadual de Maringá(1996) e mestrado em Ciência da Computação pela Universidade Federal de São Carlos(1999). Atualmente é Prof. do Ensino Básico, Técnico e Tecnológico da Universidade Tecnológica Federal do Paraná. Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Computação. Atuando principalmente nos seguintes temas:métodos formais, multimidia. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplicação CVLattes)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="66">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">André Luiz Satoshi Kawamoto<img src="./8230551395300039_files/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">KAWAMOTO, A. L. S.;Kawamoto, André Luiz Satoshi;KAWAMOTO, André Luis Satoshi;KAWAMOTO, ANDRE LUIZ SATOSHI;SATOSHI KAWAMOTO, ANDRE LUIZ;KAWAMOTO, ANDRÉ L. S.</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="67">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Unidade de Campo Mourão. <br class="clear">Via Marginal Rosalina Maria dos Santos<br class="clear">Área Urbanizada I<br class="clear">87301899 - Campo Mourão, PR - Brasil - Caixa-postal: 271<br class="clear">Telefone: (44) 35181400<br class="clear">Fax: (44) 35181400<br class="clear">URL da Homepage: <a target="blank" href="http://www.cm.utfpr.edu.br/" tabindex="68">http://www.cm.utfpr.edu.br</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="69">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Ciencia da Computacao. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">Título: Computacao Grafica e Interatividade, <br class="clear">Orientador: Flavio Soares Correa da Silva. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento Gráfico (Graphics). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33001014008P4&amp;nivelCurso=M"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	<br class="clear">Título: Tradutor Automático de Especificações E-LOTOS para o padrao MHEG-5,Ano de Obtenção: 1999.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/3742302894743620" tabindex="70"><img src="./8230551395300039_files/logolattes.gif"></a>Wanderley Lopes de Souza.<br class="clear">Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear">Palavras-chave: métodos formais, multimidia.<br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bacharelado Em Ciência da Computação. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Análise de Desempenho da Plataforma WOLF. <br class="clear">Orientador: Joao Angelo Martini. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="71">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Prof. do Ensino Básico, Técnico e Tecnológico, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos<br class="clear">Desenvolvimento Web<br class="clear">Instalação e Manutenção de Computadores I<br class="clear">Linguagem de Programação I<br class="clear">Linguagem de Programação II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos de Programação<br class="clear">Algoritmos e Estruturas de Dados I<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Instituto de Ensino Superior Thathi, THATHI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 8</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2002 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Teoria dos Grafos e Aplicações<br class="clear">Tecnologias Web<br class="clear">Organização de Computadores<br class="clear">Linguagens Montadoras<br class="clear">Linguagens e Técnicas de Programação I<br class="clear">Computação Gráfica e Realidade Virtual<br class="clear">Computação Gráfica<br class="clear">Compiladores<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Euripedes de Marilia, UNIVEM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 18</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2006 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Construção de Algoritmos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2006 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Faculdade de Informática de Marília, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do Conselho do Curso de Bacharelado em Sistemas de Informação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2002 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Princípios de Engenharia de Software<br class="clear">Engenharia de Software<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2002 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciencia da Computacao, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Engenharia de Software<br class="clear">Estruturas de Dados e Recuperação da Informação<br class="clear">Construção de Algoritmos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2001 - 05/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Lato Sensu Engenharia de Software, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Engenharia de Software<br class="clear">Gerência de Projetos<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="72">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Linguagem Formais e Autômatos. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics). <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="73">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Japonês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="74">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="75"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="76"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:3</div><div class="cita">Total de citações:19</div><div class="detalhes">"KAWAMOTO, A. L. S", "KAWAMOTO, Andrésatoshi"&nbsp;&nbsp;Data:&nbsp;23/01/2015</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="77"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">KAWAMOTO, André Luis Satoshi</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5335/rbca.2013.3269" target="_blank" tabindex="78"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="79">KAWAMOTO, A. L. S.</a></b> 
+							;
+						MARTINS, VALERIA FARINAZZO . Application designed for the elderly using gestural interface. Revista Brasileira de Computação Aplicada<sup></sup>, v. 5, p. 96-109, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.5335/rbca.2013.3269&amp;issn=21766649&amp;volume=5&amp;issue=&amp;paginaInicial=96&amp;titulo=Application designed for the elderly using gestural interface&amp;sequencial=1&amp;nomePeriodico=Revista Brasileira de Computação Aplicada" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">KAWAMOTO, A. L. S.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="80">KAWAMOTO, A. L. S.</a></b> 
+							;
+						Corrêa a da Silva, F . Utilização de Dispositivos de Interfaces Naturais de Usuário em Aplicações de Realidade Aumentada. Tendências e Técnicas em Realidade Virtual e Aumentada<sup></sup>, v. 3, p. 75-88, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=21776776&amp;volume=3&amp;issue=&amp;paginaInicial=75&amp;titulo=Utilização de Dispositivos de Interfaces Naturais de Usuário em Aplicações de Realidade Aumentada&amp;sequencial=2&amp;nomePeriodico=Tendências e Técnicas em Realidade Virtual e Aumentada" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados" tabindex="81"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-41106-9_28" target="_blank" tabindex="82"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="83">KAWAMOTO, A. L. S.</a></b> 
+						;
+					Martins, Valéria Farinazzo ; Silva, Flávio Soares Corrêa . Usability Evaluation of an Application Designed for the Older Adults. In: Junia C. Analeto; Esteban W. G. Clua; Flavio S. Correa da Silva; Sidney Fels; Hyum S. Yang. (Org.). Lecture Notes in Computer Science. 1ed.: Springer Berlin Heidelberg, 2013, v. 8215, p. 189-192. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5772/9490" target="_blank" tabindex="84"></a>SALVADOR, V. F. M. ; OLIVEIRA NETO, J. ; <b>KAWAMOTO, A. L. S.</b> . An Empirical Approach for the Evaluation of Voice User Interfaces. User Interfaces. 1ed.Viena: InTech, 2010, v. 1, p. 153-164. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA NETO, J. ; SALVADOR, V. F. M. ; <b>KAWAMOTO, A. L. S.</b> . Aplicações interativas baseadas em voz na Educação: oportunidades e estudo de caso. In: Anita Maria da Rocha Fernandes; Michelle Silva Wangham. (Org.). Computer On The Beach - Livro de Minicursos. 1ed.S. José: Editora Vale do Itajaí - UNIVALI, 2010, v. , p. 1-26. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas" tabindex="85"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="86">KAWAMOTO, A. L. S.</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1637859392334942" target="_blank" tabindex="87">MARTINI, J. A.</a> . Análise da Arquitetura WOLF. Apontamentos da Universidade Estadual de Maringá, , v. 55, 01 mar.  1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="88"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SMC.2014.6974274" target="_blank" tabindex="89"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="90">KAWAMOTO, A. L. S.</a></b> 
+						;
+					MARTINS, VALERIA FARINAZZO ; DA SILVA, FLAVIO SOARES CORREA . Converging Natural User Interfaces guidelines and the design of applications for older adults. In: 2014 IEEE International Conference on Systems, Man and Cybernetics SMC, 2014, San Diego. 2014 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2014. p. 2328-2334. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SALVADOR, V. F. M. ; <b>Kawamoto, André Luiz Satoshi</b> ; Corrêa a da Silva, F . SBC - Proceedings of SBGames 2013. In: XII Brazilian Symposium on Games and Digital Entertainment, 2013, São Paulo. SBC - Proceedings of SBGames 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KRAEMER, A. ; <b>KAWAMOTO, A. L. S.</b> ; GEROSA, M. A. . Predição de Resultado de Eleição para Reitor de Universidade utilizando Tweets como Fonte de Pesquisa. In: Conferência IADIS Ibero-Americana WWW/Internet, 2012, Madri. Atas da Conferência IADIS Ibero-Americana, 2012. p. 11-18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SALVADOR, V. F. M. ; <b>KAWAMOTO, A. L. S.</b> ; GUIMARAES, M. P. . Usability Evaluation of Television based Gestures and Voice Control. In: LatinDisplay and International Display Research Conference, 2012, São Paulo. Proceedigns of LatinDisplay and International Display Research Conference, 2012. p. 1-7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, N. V. ; <b>KAWAMOTO, A. L. S.</b> . Geração de Vídeos Estereoscópicos para Uso no Ensino. In: UTCiencia, 2009, Campo Mourao. Anais - UTCiencia, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./8230551395300039_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/achi.2008.34" target="_blank" tabindex="91"></a>SALVADOR, V. F. M. ; OLIVEIRA NETO, J. ; <b>KAWAMOTO, A. L. S.</b> . Requirement Engineering Contributions to Voice User Interface. In: First International Conference on Advances in Computer-Human Interaction, 2008, Saint-Luce. Proceedings of the First International Conference on Advances in Computer-Human Interaction, 2008. v. 1. p. 309-314. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./8230551395300039_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ACHI.2008.32" target="_blank" tabindex="92"></a>SALVADOR, V. F. M. ; <b>KAWAMOTO, A. L. S.</b> ; OLIVEIRA NETO, J. . Utilization of Fuzzy Theory in the Modeling of Users of Adaptive Hypermedia Systems. In: First International Conference on Advances in Computer-Human Interaction, 2008, Saint-Luce. Proceedings of the First International Conference on Advances in Computer-Human Interaction, 2008. v. 1. p. 290-296. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, N. V. ; <b>KAWAMOTO, A. L. S.</b> . Modelagem Tridimensioal de Moléculas Utilizando Blender. In: 2a. UTCiencia, 2008, Campo Mourão. Anais da 2a. UTCiencia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, N. V. ; <b>KAWAMOTO, A. L. S.</b> . Blender - Modelagem UTCiencia. In: 1a. UTCiencia, 2007, Campo Mourão. Anais da 1a. UTCiencia, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./8230551395300039_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ICSMC.2006.385208" target="_blank" tabindex="93"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="94">KAWAMOTO, A. L. S.</a></b> 
+						;
+					KIRNER, T. G. ; KIRNER, C. . Experience on the Implementation of a Collaborative Virtual Environment for Educational Applications. In: 2006 IEEE International Conference on Systems, Man, and Cybernetics, 2006, Taipei. Proceedings of the 2006 IEEE International Conference on Systems, Man, and Cybernetics, 2006. v. 2. p. 2315-2321. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="95">KAWAMOTO, A. L. S.</a></b> 
+						;
+					CANTÃO, J. ; PINTO, A. ; AQUINO, P. ; ALVARES, J. ; KIRNER, T. G. ; KIRNER, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7541399131195077" target="_blank" tabindex="96">WAZLAWICK, R. S.</a> . AVC-MV: Um Ambiente Virtual Colaborativo para Aplicações Educacionais. In: Simpósio Brasileiro de Realidade Virtual, 2001, Florianópolis. Anais do SVR 2001, 2001. p. 226-237. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./8230551395300039_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="97">KAWAMOTO, A. L. S.</a></b> 
+						;
+					CANTÃO, J. ; PINTO, A. ; KIRNER, T. G. ; KIRNER, C. ; WASLAWICK, R. S. . Aspectos de Comunicação e Funcionalidade de um Ambiente Virtual Colaborativo. In: Simpósio Brasileiro de Redes de Computadores, 2001, Florianópolis. Anais do SBRC 2001, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/363361.363378" target="_blank" tabindex="98"></a>KIRNER, TEREZA G. ; KIRNER, CLAUDIO ; <b>KAWAMOTO, ANDRÉ L. S.</b> ; CANTÃO, JEFFERSON ; PINTO, ALOÍSIO ; WAZLAWICK, RAUL S. . Development of a collaborative virtual environment for educational applications. In: the sixth international conference, 2001, Paderbon. Proceedings of the sixth international conference on 3D Web technology - Web3D '01. New York: ACM Press, 2001. p. 61. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAMPAIO, P. N. M. ; SHIGA, C. Y. ; <b>KAWAMOTO, A. L. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3742302894743620" target="_blank" tabindex="99">SOUZA, W. L.</a> . Automatic MHEG-5 implementation of multimedia applications specified in E-LOTOS. In: International Conference on Information Systems, Analysis and Synthesis, 1999, Orlando. Proceedings of the 5th International Conference on Information Systems, Analysis and Synthesis, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="100">KAWAMOTO, A. L. S.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3742302894743620" target="_blank" tabindex="101">SOUZA, W. L.</a> . Tradutor Automático de Especificações E-LOTOS para o padrão MHEG-5. In: XVII Simposio Brasileiro de Redes de Computadores, 1999, Salvador. Anais do XVII Simpósio Brasileiro de Redes de Computadores, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SHIGA, C. Y. ; SAMPAIO, P. N. M. ; <b>KAWAMOTO, A. L. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3742302894743620" target="_blank" tabindex="102">SOUZA, W. L.</a> . Especificações de Aplicações Multimídia Interativas em E-LOTOS. In: Latinamerican Conference of Informatics - CLEI, 1998, Quito. Proceedings of the XXIV Latinamerican Conference of Informatics - CLEI, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAMPAIO, P. N. M. ; <b>KAWAMOTO, A. L. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3742302894743620" target="_blank" tabindex="103">SOUZA, W. L.</a> . Uma metodologia para a implementação em MHEG-5 de aplicações multimídia realizadas em E-LOTOS. In: Simpósio Brasileiro de Sistemas Multimídia e Hipermídia, 1998, Rio de Janeiro. Anais do IV Simpósio Brasileiro de Sistemas Multimídia e Hipermídia, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="104">KAWAMOTO, A. L. S.</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1637859392334942" target="_blank" tabindex="105">MARTINI, J. A.</a> . Análise da Arquitetura WOLF. In: Semana de Informática do Departamento de Informatica da Universidade Estadual de Maringá, 1996, Maringá. Semana de Informática do Departamento de Informatica da Universidade Estadual de Maringá. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="106"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SALVADOR, V. F. M. ; ANDRADE, M. T. C. ; <b>KAWAMOTO, A. L. S.</b> ; OLIVEIRA NETO, J. . Fuzzy Theory Applied on the User Modelling in Speech Interface. In: IADIS International Conference Interfaces and Human Computer Interaction 2007, 2007, Lisboa. Proceedings IADIS International Conference Interfaces and Human Computer Interaction 2007, 2007. v. 1. p. 201-205. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="107"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIZA, M. ; ALMEIDA, F. ; <b>KAWAMOTO, A. L. S.</b> . Young and Adult Education in the Context of Progressive Pedagogies. In: 8th International Technology, Education and Development Conference, 2014, Valencia. INTED2014 Proceedings, 2014. p. 6489-6496. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SVR.2013.23" target="_blank" tabindex="108"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="109">KAWAMOTO, A. L. S.</a></b> 
+						;
+					SILVA, FLAVIO SOARES CORREA DA . Using Low-Cost Technologies in the Development of People-Monitoring Applications. In: 2013 XV Symposium on Virtual and Augmented Reality (SVR), 2013, Cuiabá - Mato Grosso. 2013 XV Symposium on Virtual and Augmented Reality. p. 204-207. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Gabriel Costa ; RE, R. ; <b>KAWAMOTO, A. L. S.</b> ; SCHWERZ, A. L. . Uma Experiência na Aplicação de Práticas de Apoio no EnsinoAprendizado de Algoritmos. In: XVII Workshop de Informática na Escola, 2011, Aracaju. Anais do XXII Simpósio Brasileiro de Informática na Educação/XVII Workshop de Informática na Escola, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. H. ; <b>KAWAMOTO, A. L. S.</b> . Desenvolvimento de um Sistema para Consultas de Interações Medicamentosas Online. In: 14º SIICUSP, 2006, São Paulo. Anais do 14º SIICUSP (Simpósio Internacional de Iniciação Científica da USP), 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="110">KAWAMOTO, A. L. S.</a></b> 
+						;
+					CARDOZO, Katia Francisco . Thathi molecule viewer - uma ferramenta de apoio ao ensino de Química. In: 8o. CIC - Congresso de Iniciação Científica, 2005, São Carlos. Anais do 8o. CIC UNICEP, 2005. v. 1. p. 121-121. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDOZO, Katia Francisco ; <b>KAWAMOTO, A. L. S.</b> . THATHI Molecule-Viewer- Uma Ferramenta de Apoio ao Ensino de Química. In: 13º SIICUSP, 2005, São Carlos. Anais do 13º SIICUSP (Simposio Internacional de Iniciação Científica da USP), 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos" tabindex="111"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="112">KAWAMOTO, A. L. S.</a></b> 
+						;
+					Desenvolvimento do Módulo de Suporte Multi-usuário. 2001 (Pesquisa) . </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="113">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="114"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="115">KAWAMOTO, A. L. S.</a></b>; CARGNIN, C.; MENON, M. C..  Participação em banca de Silzete Felizardo. O pedagogo, sua história e seu contexto de trabalho frente à tecnologia educacional. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="116">KAWAMOTO, A. L. S.</a></b>; PIZA, M. A.; ROMERO, A. L..  Participação em banca de Patricia Lopes Romero. UTILIZAÇÃO DE OBJETOS EDUCACIONAIS PARA O ENSINO DE LITERATURA NO PROEJA. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="117">KAWAMOTO, A. L. S.</a></b>; KRAEMER, A.; PIZA, M. A..  Participação em banca de Raquel de Almeida Lipinski. Instrumento de Avaliação para Objetos de Aprendizagem (Software de Apresentação). 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENON, M. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="118">KAWAMOTO, A. L. S.</a></b>; PIZA, M. A..  Participação em banca de Valmir Lopes da Silva. 20:30 Leitura em língua portuguesa: uma análise do currículo do proeja em Campo Mourão.. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENON, M. C.; ROMERO, A. L.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="119">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Patricia Lubacheski. Literatura e proeja: uma proposta de trabalho com a obra O santo inquérito de Dias Gomes. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CANOVAS, D. P. S.; KRAEMER, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="120">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Larissa Scaliante Raimundo. O uso dos recursos tecnológicos como instrumento de aprendizagem dos alunos do proeja nas aulas de lingua inglesa. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, J. H. D.; PRATES, M. E. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="121">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Jane de Souza Neco da Silva. O uso de tecnologias para o ensino de geografia no PROEJA. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CANOVAS, D. P. S.; ROMERO, A. L.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="122">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Alline Favro. Os Professores do PROEJA frente ao uso dos recursos tecnológicos presentes na escola. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, J. H. D.; GONZALEZ, E.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="123">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Vanessa de Souza Cavalheri. Inclusão no proeja: uma realidade. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CANOVAS, D. P. S.; CARGNIN, C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="124">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Lucilene de Araujo. As políticas de inclusão para a pessoa com surdez no PROEJA. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KRAEMER, A.; CANOVAS, D. P. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="125">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Edson Vieira da Silva. Verificação se os alunos atuais do proeja correspondem ao público-alvo que se destina o projeto político pedagógico do colégio Marechal rondon em Campo Mourão. 2012. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIZA, M. A.; KRAEMER, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="126">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Suelita Matsumi Rodrigues. Tecnologia Educacional: Possibilidades e Desafios no PROEJA.. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KRAEMER, A.; MENON, M. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="127">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Joao Luiz Scaramal Junior. Influência da Internet nas Variações Linguísticas. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIZA, M. A.; KRAEMER, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="128">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Eliana Menegasso Da Cruz. Um Estudo do PROEJA de Campo Mourão.. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENON, M. C.; RICARDI, D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="129">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Tânia Regina Aldrigue. O ensino de língua inglesa na EJA e PROEJA.. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARGNIN, C.; SILVA, N. N.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="130">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Alberto Pereira da Silva. BROffice.Calc como recurso pedagogico para matematica financeira no PROEJA. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PERUZZA, A. P. M.; PETRUZZA, R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="131">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Rita de Cassia da Silva Lacava.Biblioteca Virtual: Interagindo VRML com PHP e MySQL.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARQUES, F. L. N.; SPOTO, E. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="132">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Ricardo Felipe Guimarães Gonçalves Paulino.PLEASY - Ferramenta de Apoio ao Desenvolvedor de SGBD Oracle.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PERUZZA, A. P. M.; PETRUZZA, R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="133">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Thalita Martins.Biblioteca Virtual: Interagindo VRML com PHP e MySQL.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTELO BRANCO, K. R.; BREGA, J. R. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="134">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Adriano dos Santos Lucas.Avaliação de Desempenho do Protocolo WEP em Redes Sem Fio AD HOC Usando um Simulador de Redes.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="135">KAWAMOTO, A. L. S.</a></b>; PERUZZA, A. P. M.; PETRUZZA, R..  Participação em banca de Rodrigo Coltri Marri.Estudo de WebML (Web Modeling Language).
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PETRUZZA, R.; PERUZZA, A. P. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="136">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Rodrigo Goulart Zappaterra.Estudo Sobre Comunicação de Dados Via Rede Elétrica.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PETRUZZA, R.; PERUZZA, A. P. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="137">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Marco Aurelio Valli Pioto.Redes Wireless IEEE 802.11b: Protocolos de Segurança WEP e WPA.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PETRUZZA, R.; PERUZZA, A. P. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="138">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Luis Fernando Cavalhieri.Estudo do Padrão IPv6 e sua Comparação com IPv4.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUGATTI, I. G.; PERUZZA, A. P. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="139">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Hugo Wesley Kudo.Realidade Virtual e Processos de Manufatura (Produção, Beneficiamento e Distribuição da Banana).
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUGATTI, I. G.; PERUZZA, A. P. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="140">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Jairo Yukio Kuroda.Realidade Virtual e Processos de Manufatura (Produção, Beneficiamento e Distribuição da Banana).
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUGATTI, I. G.; PERUZZA, A. P. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="141">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Bruno Navilli Zenni.Realidade Virtual e Processos de Manufatura (Produção, Beneficiamento e Distribuição da Banana).
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="142">KAWAMOTO, A. L. S.</a></b>; SPOTO, E. S.; PERUZZA, A. P. M..  Participação em banca de Anderson Honorato da Silva.Desenvolvimento de um Sistema para Consulta de Interações Medicamentosas Online.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PERUZZA, A. P. M.; CAMARGO, V. V.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="143">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Rafael Takashi Tanaka.Sistema de Gerenciamento de Avaliações Online: Prova Certa.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SPOTO, E. S.; BREGA, J. R. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="144">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Renato Geraldi.Criação de um Workflow de Teste Voltado para Banco de Dados.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SPOTO, E. S.; BREGA, J. R. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="145">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Jose Ricardo Sarmento.Criação de um Workflow de Teste para o Desenvolvimento de Aplicação Orientado a Objetos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SPOTO, E. S.; BREGA, J. R. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="146">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Jeferson Davi Parckert.Aspectos de Automatização da Documentação da Aplicação de Workflow de Teste.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMARGO, V. V.; SPOTO, E. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="147">KAWAMOTO, A. L. S.</a></b>.  Participação em banca de Jose Uetanabara Junior.Uma Comparação entre Abordagens de Modelagem Orientada a Aspectos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="148">KAWAMOTO, A. L. S.</a></b>; SPOTO, E. S..  Participação em banca de Luis Henrique da Ponte Matos.Teste e Avaliação de Desempenho em Banco Open Source Usando Kylix.
+							2004. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="149">KAWAMOTO, A. L. S.</a></b>; SPOTO, E. S.; MARQUES, F. L. N..  Participação em banca de Julio Cezar Pioto.Estudo Comparativo Sobre SGBD Relacional e Orientados a Objetos.
+							2004. Trabalho de Conclusão de Curso (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="150">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="151"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Workshop em Realidade Virtual e Aumentada. 2011. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Fórum PROEJA SUL. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBIE - Simpósio Brasileiro de Informática na Educação.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º Congresso de Iniciação Científica do UNICEP. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop de Dissertações em Computação. 2006. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8o. CIC - Congresso de Iniciação Científica. Thathi molecule viewer - uma ferramenta de apoio ao ensino de Química. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">INFO2001.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Redes de Computadores.Aspectos de Comunicação e Funcionalidade de um Ambiente Virtual Colaborativo.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Realidade VIrtual.AVC-MV: Um Ambiente Virtual Colaborativo para Aplicações Educacionais.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Nacional da Sociedade Brasileira de Computação.
+							2000. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop de Computação Reconfigurável - CORE 2000. 2000. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Simposio Brasileiro de Redes de Computadores. Tradutor Automático de Especificações E-LOTOS para o Padrão MHEG-5. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Workshop em Métodos Formais. 1999. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="152">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas" tabindex="153"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Raquel Lipinski de Andrade Machado.
+							Instrumento de Avaliação de Objetos de Aprendizagem (Software de Apresentação).
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Patricia Lopes Romero.
+							Utilização de Objetos Educacionais para o Ensino de Literatura no PROEJA.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silzete Felizardo.
+							O pedagogo, sua história e seu contexto de trabalho frente à tecnologia educacional.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alberto Pereira da Silva.
+							BrOffice.Calc como Recurso Pedagógico para Ensino de Matemática Financeira no PROEJA.
+							2010.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em PROEJA)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alex Eduardo Pires.
+							Sistema Métrico - Ferramenta para COCOMO II.
+							2003. 65 f.
+							Monografia. (Aperfeiçoamento/Especialização em Lato Sensu Especialização Em Engenharia de Softwar)  - Centro Universitário Euripedes de Marília. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Pazian.
+							Métricas de Software.
+							2003. 60 f.
+							Monografia. (Aperfeiçoamento/Especialização em Lato Sensu Especialização Em Engenharia de Softwar)  - Fundação de Ensino Eurípides Soares da Rocha. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliano Milaré dos Santos.
+							Implementação uma biblioteca de funcoes para Visão Estereoscópica em OpenGL.
+							2006. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Instituto de Ensino Superior Thathi. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anderson Honorato da Silva.
+							Desenvolvimento de um Sistema para Consulta de Interações Medicamentosas Online.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Coltri Marri.
+							Estudo de WebML (WEB Modeling Language).
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renato Bueno de Camargo Junior.
+							Desenvolvimento de aplicações para dispositivos portáteis utilizando J2ME.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maicon Martins.
+							Desenvolvimento de uma Ferramenta de Apoio ao modelo CMMI.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Ciencia da Computacao)  - Universidade Euripedes de Marilia. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ricardo Campos Veríssimo.
+							Estudo e implementação de uma aplicação utilizando XML.
+							2004. 52 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Fundação de Ensino Eurípides Soares da Rocha. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Nakamura.
+							Estudo e Implementação de uma Ferramenta para o modelo COCOMO II.
+							2004. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Centro Universitário Euripedes de Marília. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ailton Taira Shimabukuro.
+							Implementação de uma Ferramenta de Apoio ao Ensino de Grafos.
+							2004. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Fundação de Ensino Eurípides Soares da Rocha. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Morita.
+							Implementação de Algoritmos para Grafos em uma Ferramenta de Ensino.
+							2004. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Fundação de Ensino Eurípides Soares da Rocha. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Helio Rubens.
+							OOHDM - Uma metodologia Orientada a Objetos para Modelagem de Sistemas Hipermidia.
+							2004. 40 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Instituto de Ensino Superior Thathi. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandre Grespan Miguel.
+							Drive-In Control.
+							2003. 65 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Centro Universitário Euripedes de Marília. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Paschoal Pecci.
+							Desenvolvimento de Ferramenta Automatizada para Interface de Dados Oracle/SQL.
+							2003. 41 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Fundação de Ensino Eurípides Soares da Rocha. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">José Alberto Guimarães Tolentino.
+							Comparação de Desempenho dos SGBDs MySQL e Microsoft Access com páginas PHP.
+							2002. 30 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Centro Universitário Euripedes de Marília. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Andreolli Ribeiro.
+							Estudo Comparativo de Ferramentas para Modelagem UML.
+							2002. 52 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Fundação de Ensino Eurípides Soares da Rocha. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Katia Francisco Cardozo.
+							Investigação do uso de uma extensao de XML para o desenvolvimento de aplicações de apoio ao ensino de Química.
+							2005.
+							Iniciação Científica. (Graduando em Ciência da Computação)  - Instituto de Ensino Superior Thathi. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliano Milaré dos Santos.
+							Implementação de Métodos para Visão Estereoscópica.
+							2005.
+							Iniciação Científica. (Graduando em Ciencia da Computacao)  - Universidade Euripedes de Marilia. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nikaelly Vieira de Lima.
+							Geração de Imagens Estereoscópicas para Uso no Ensino.
+							2008.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Copedê Martini.
+							Programação de Sistemas Comerciais e Suporte ao Cliente.
+							2002. 29 f.
+							Orientação de outra natureza - Centro Universitário Euripedes de Marília. Orientador: André Luiz Satoshi Kawamoto.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 8:57:34</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=8230551395300039" target="_blank" class="button" tabindex="154"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="155"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="156">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#FormacaoAcademicaTitulacao" tabindex="14">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#AtuacaoProfissional" tabindex="16">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#AreasAtuacao" tabindex="17">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ProducaoBibliografica" tabindex="19">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ArtigosCompletos" tabindex="20">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ArtigosAceitos" tabindex="21">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#LivrosCapitulos" tabindex="22">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#TextosJornaisRevistas" tabindex="23">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#TrabalhosPublicadosAnaisCongresso" tabindex="24">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ApresentacaoTrabalho" tabindex="25">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#OutrasProducoesBibliograficas" tabindex="26">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#OutrasProducoesBibliograficas" tabindex="27">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#OutrasProducoesBibliograficas" tabindex="28">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#OutrasProducoesBibliograficas" tabindex="29">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ProducaoTecnica" tabindex="30">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#AssessoriaConsultoria" tabindex="31">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#SoftwareSemPatente" tabindex="32">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ProdutosTecnologicos" tabindex="33">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ProcessosTecnicas" tabindex="34">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#TrabalhosTecnicos" tabindex="35">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#DemaisProducaoTecnica" tabindex="36">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#DemaisProducaoTecnica" tabindex="37">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#DemaisProducaoTecnica" tabindex="38">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#DemaisProducaoTecnica" tabindex="39">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ManutencaoObraArtistica" tabindex="40">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#DemaisProducaoTecnica" tabindex="41">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#EntrevistasMesasRedondas" tabindex="42">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#DemaisProducaoTecnica" tabindex="43">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#RedesSociais" tabindex="44">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#DemaisProducoesTecnicas" tabindex="45">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ProducaoArtisticaCultural" tabindex="46">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ArtesCenicas" tabindex="47">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Musica" tabindex="48">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ArtesVisuais" tabindex="49">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#OutrasProducoesArtisticas" tabindex="50">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ParticipacaoEventos" tabindex="52">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Orientacoesconcluidas" tabindex="54">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Orientacaoemandamento" tabindex="55">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ParticipacaoBancasTrabalho" tabindex="57">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#ParticipacaoBancasComissoes" tabindex="58">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-citacoes" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Citacoes" tabindex="60">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Citacoes" tabindex="61">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Citacoes" tabindex="62">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768326Z9#Citacoes" tabindex="63">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4768326Z9&tipo=completo&idiomaExibicao=1" tabindex="65">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

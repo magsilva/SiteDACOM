@@ -14,7 +14,7 @@ from .models import *
 
 
 def index(request):
-    listadeProjetos = Projeto.objects.all().order_by('-datadeFim')
+    listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
     paginator = Paginator(listadeProjetos, 10)
     page =  request.GET.get('page')
     try:
@@ -52,14 +52,37 @@ def curso(request):
     return HttpResponse(t.render(c))
 
 def professor(request):
-    listasdeFunc = Professor.objects.all().order_by('nome')
 
-    t = loader.get_template('professor.html')
-    c = RequestContext(request, {
-        'listasdeProf': listasdeFunc,
-    })
-    return HttpResponse(t.render(c))
+    listadeProf = Professor.objects.all().order_by('nome')
+    paginator = Paginator(listadeProf, 10)
+    page = request.GET.get('page')
+    try:
+        professores = paginator.page(page)
+    except PageNotAnInteger:
+    # If page is not an integer, deliver first page.
+        professores = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+       professores= paginator.page(paginator.num_pages)
+    return render_to_response('professor.html', {"professores": professores})
 
 def eventos(request):
-    return render_to_response('eventos.html', {})
+
+
+    listadeEventos = Evento.objects.all().order_by('nome')
+    paginator = Paginator(listadeEventos, 10)
+    page = request.GET.get('page')
+    try:
+        eventos = paginator.page(page)
+    except PageNotAnInteger:
+    # If page is not an integer, deliver first page.
+        eventos = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+       eventos= paginator.page(paginator.num_pages)
+    return render_to_response('eventos.html', {"eventos": eventos})
+
+
+
+    # return render_to_response('eventos.html', {})
 

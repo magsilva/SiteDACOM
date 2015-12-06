@@ -226,6 +226,7 @@ class Membro:
 			
 		# -----------------------------------------------------------------------------------------
 		# Obtemos todos os dados do CV Lattes
+
 		self.nomeCompleto                 = parser.nomeCompleto
 		self.bolsaProdutividade           = parser.bolsaProdutividade
 		self.enderecoProfissional         = parser.enderecoProfissional
@@ -234,6 +235,7 @@ class Membro:
 		self.atualizacaoCV                = parser.atualizacaoCV
 		self.textoResumo                  = parser.textoResumo
 		self.foto                         = parser.foto
+
 
 		self.listaIDLattesColaboradores = parser.listaIDLattesColaboradores
 		self.listaFormacaoAcademica     = parser.listaFormacaoAcademica

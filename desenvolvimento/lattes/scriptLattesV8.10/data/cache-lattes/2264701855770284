@@ -1,0 +1,2250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Diego Bertolini Gonçalves)</title>
+<link type="text/css" rel="stylesheet" href="./2264701855770284_files/import.css">
+<link type="text/css" href="./2264701855770284_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./2264701855770284_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./2264701855770284_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./2264701855770284_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./2264701855770284_files/espelho.css">
+<script type="text/javascript" async="" src="./2264701855770284_files/ga.js"></script><script type="text/javascript" src="./2264701855770284_files/jquery.min.js"></script><style type="text/css"></style><script src="./2264701855770284_files/jquery.cookie.js" type="text/javascript"></script><script src="./2264701855770284_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./2264701855770284_files/tooltip-position.js"></script><script type="text/javascript" src="./2264701855770284_files/jquery.tipsy.js"></script><script type="text/javascript" src="./2264701855770284_files/jquery.megamenu.js"></script><script type="text/javascript" src="./2264701855770284_files/byOrder.js"></script><script type="text/javascript" src="./2264701855770284_files/font-size.js"></script><script type="text/javascript" src="./2264701855770284_files/cv_citacoes.js"></script><script type="text/javascript" src="./2264701855770284_files/hint_ajax.js"></script><script type="text/javascript" src="./2264701855770284_files/menuFlowScroll.js"></script><script type="text/javascript" src="./2264701855770284_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./2264701855770284_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=2264701855770284" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="15" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="18" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProjetosPesquisa" class="acessibilidade separador" tabindex="23" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProducoesCientificas" class="acessibilidade separador" tabindex="25" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Eventos" class="acessibilidade separador" tabindex="58" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Orientacoes" class="acessibilidade separador" tabindex="61" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Bancas" class="acessibilidade separador" tabindex="64" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="67" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./2264701855770284_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Diego Bertolini Gonçalves</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/2264701855770284</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 04/11/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Diego Bertolini concluiu o doutorado em Ciência da Computação pela Universidade Federal do Paraná em 2014. Atualmente é professor Adjunto no Departamento de Computação da UTFPR - Campus Campo Mourão. Atua principalmente nos seguintes temas: Reconhecimento de Padrões, Aprendizagem de Máquina e Visão Computacional.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="69">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diego Bertolini Gonçalves<img src="./2264701855770284_files/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GONÇALVES, Diego Bertolini;BERTOLINI, D.</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="70">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Campus Campo Mourão. <br class="clear">Via Marginal Rosalina Maria dos Santos, 1233<br class="clear">Área Urbanizada I<br class="clear">87301899 - Campo Mourão, PR - Brasil - Caixa-postal: 271<br class="clear">Telefone: (44) 35181449<br class="clear">URL da Homepage: <a target="blank" href="http://www.utfpr.edu.br/" tabindex="71">www.utfpr.edu.br</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="72">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Informática<span class="ajaxCAPES" data-param="&amp;codigoCurso=40001016034P5&amp;nivelCurso=D"> (Conceito CAPES 4)</span>. <br class="clear">Universidade Federal do Paraná, UFPR, Brasil.
+		
+	<br class="clear">Título: Identificação e Verificação de Escritores Usando Características Texturais e Dissimilaridade, Ano de obtenção: 2014. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/8607171759049558" tabindex="73"><img src="./2264701855770284_files/logolattes.gif"></a>Luiz Eduardo Soares de Oliveira. <br class="clear">Coorientador: Robert Sabourin. <br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: Identificação de Escritor; Reconhecimento de Padrões.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Informática<span class="ajaxCAPES" data-param="&amp;codigoCurso=40003019004P1&amp;nivelCurso=M"> (Conceito CAPES 4)</span>. <br class="clear">Pontifícia Universidade Católica do Paraná, PUC/PR, Brasil.
+		
+	<br class="clear">Título: Agrupamento de Classificadores na Verificação de Assinaturas Off-Line,Ano de Obtenção: 2008.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/8607171759049558" tabindex="74"><img src="./2264701855770284_files/logolattes.gif"></a>Luiz Eduardo Soares de Oliveira.<br class="clear">Palavras-chave: Agrupamento de Classificadores; Algoritmo Genético; Verificação de Assinaturas Off-Line.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Setores de atividade: Industria Eletro-Eletrônica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Sistemas de Informação. <br class="clear">Universidade Paranaense, UNIPAR, Brasil.
+		
+	<br class="clear">Título: Indexação e Recuperação de Imagens por Cor e Estrutura. <br class="clear">Orientador: Yandre Maldonado e Gomes da Costa. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="75">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Oratória - Como falar em público.  (Carga horária: 20h). <br class="clear">Serviço Nacional de Aprendizagem Comercial Paraná, SENAC-PR, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="76">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Inteligência Artificial<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - 02/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Inteligência Artificial<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - 02/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Inteligência Artificial<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 03/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Ambiental, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Computação I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 03/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2013 - 12/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Eletrônica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos da Programação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - 06/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Eletrônica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos da Programação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - 06/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Programação I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - 03/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Ambiental, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos da Computaçãpo<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Colaborador, Enquadramento Funcional: Professor Colaborador, Carga horária: 0</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor Colaborador no Programa de Pós-graduação em Ciência da Computação (PCC)</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: T24, Carga horária: 24</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 08/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desing de Moda, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos da Computação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2008 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desing de Moda, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática Aplicada<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Agronomia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática Aplicada à Agronomia<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos da Computação<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdade Estadual de Educação Ciências e Letras de Paranavaí, FAFIPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Temporário, Enquadramento Funcional: T20, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: T20, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas de Informação aplicado à Saúde<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática Instrumental<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas de Informação Aplicada à Saude.<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática Instrumental<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdade de Tecnolodia e Ciências do Norte do Paraná, FATECIE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Colaborador, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Colaboração para o reconhecimento do Curso Superior de Tecnologia Sistemas para Internet. A princípio respondendo como possível coodenador do curso.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Colégio Nobel - Paranavaí, NOBEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: Contrato, Carga horária: 4</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Colégio Nobel - Paranavaí, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#LP_Robótica com Mindstorms" tabindex="77">Robótica com Mindstorms</a><br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Paranaense, UNIPAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Iniciação Científica, Enquadramento Funcional: Aluno de Iniciação Científica, Carga horária: 5</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Iniciação Científica, Enquadramento Funcional: , Carga horária: 5</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados II<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>A G Transportes Rodoviários, A.G.T., Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágiario, Enquadramento Funcional: , Carga horária: 6</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2004 - 12/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , A G Transportes Rodoviários, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear">Levantamento de Requisitos e Modelagem de Dados para Implementação de um Ambiente Computacional. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Escritório de Contabílidade Líder, ECL*, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 6</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2003 - 12/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Escritório de Contabílidade Líder, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear">Análise, Modelagem e Projeto de Sistema para Contábilidade Comercial. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="78">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Robótica com Mindstorms" tabindex="79"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Robótica com Mindstorms</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: O objetivo deste projeto é apresentar para alunos do ensino médio a robótica de maneira simples e divertida. O aluno percebe que existe uma lógica de programação a qual é possível controlar estes dispositivos. Assim alunos vêem na prática diversos sensores, programação e física.. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="80">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Identificação de Script Indiano usando Descritores de Textura." tabindex="81"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Identificação de Script Indiano usando Descritores de Textura.<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O principal objetivo neste trabalho é reconhecer o estilo do script indiano o qual determinado documento manuscrito foi redigido. A princípio contamos com quatro diferentes estilos de scripts, sendo eles: Bangla, Oriya, Persian e Roman. O número de documentos manuscritos difere de estilo para estilo. Nesta abordagem utilizaremos um esquema de geração de textura para a partir dos documentos originais podermos gerar uma textura mais representativa do script, para que posteriormente possamos utilizar descritores de textura como características ou mesmo uma Rede Neural Convolucional. Após gerada a textura, dividimos a imagem em blocos de textura. Assim, diferentes tamanhos de blocos podem ser avaliados. O classificador SVM será empregado, utilizando a abordagem um contra todos, com kernel RBF. Neste projeto temos algumas motivações em avaliar outros classificadores como CNN.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Diego Bertolini Gonçalves - Coordenador / Marcos R. Souza - Integrante.<br class="clear"></div>
+</div><a name="PP_Identificação de Escritores através de Manuscritos Árabes" tabindex="82"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Identificação de Escritores através de Manuscritos Árabes<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste trabalho nosso objetivo é utilizar o manuscrito como textura, e empregar descritores de textura para representação de escritores. A partir disso utilizaremos abordagem de dissimilaridade para na qual novas classes podem ser inseridas sem retreinamento do modelo. Neste trabalho, nosso objetivo é analisar o impacto no desempenho ao inserir novas classes do conjunto de teste e até que ponto o modelo gerado ainda consegue fazer uma boa classificação.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Diego Bertolini Gonçalves - Coordenador / Guilherme Pereira Noya - Integrante.<br class="clear"></div>
+</div><a name="PP_IDENTIFICAÇÃO E VERIFICAÇÃO DE AUTORIA USANDO DESCRITORES DE TEXTURA" tabindex="83"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IDENTIFICAÇÃO E VERIFICAÇÃO DE AUTORIA USANDO DESCRITORES DE TEXTURA<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Estudo de descritores de textura.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Diego Bertolini Gonçalves - Coordenador / Gabriel Simões - Integrante / Bruno Cesar Puli Dala Rosa - Integrante.<br class="clear"></div>
+</div><a name="PP_Estudo de Técnicas de Recuperação de Imagens por Similaridade de Conteúdo" tabindex="84"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de Técnicas de Recuperação de Imagens por Similaridade de Conteúdo<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Encontra-se toda a descrição na página da universidade.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Diego Bertolini Gonçalves - Integrante / Gabriel Costa Silva - Integrante / Yandre Maldonado e Gomes da Costa - Coordenador / Hereck Fabio Santin - Integrante.<br class="clear"></div>
+</div><a name="PP_PRESERVAÇÃO DE INFORMAÇÕES ESPACIAIS NA INDEXAÇÃO E RECUPERAÇÃO DE IMAGENS POR SIMILARIDADE DE ESTRUTURA E COR" tabindex="85"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PRESERVAÇÃO DE INFORMAÇÕES ESPACIAIS NA INDEXAÇÃO E RECUPERAÇÃO DE IMAGENS POR SIMILARIDADE DE ESTRUTURA E COR<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Encontra-se toda a descrição na página da universidade.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (3)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Diego Bertolini Gonçalves - Coordenador / Gabriel Costa Silva - Integrante / Marcelo Bruscagim - Integrante.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="86">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Workshop de Visão Computacional</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: INTERNATIONAL CONFERENCE ON SYSTEMS, SIGNALS AND IMAGE PROCESSING</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Acta Scientiarum (UEM)</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="87">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Visão Imagem e Robótica/Especialidade: Reconhecimento de Padões. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Processamento de Imagens Digitais/Especialidade: Técnicas de Recuperação de Imagens Por Similaridade e Conteúdo. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Visão Imagem e Robótica/Especialidade: Grafoscopia. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Robótica/Especialidade: Robótica com Mindstorms. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="88">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PremiosTitulos" tabindex="89">
+<h1 tabindex="0">Prêmios e títulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PROGRAMA DE EXCELÊNCIA EM INFORMÁTICA - PEXI, UNIPAR - CAMPUS PARANAVAÍ. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="90">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="91"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="92"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="93"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">2.24</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GONÇALVES, Diego Bertolini</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span>
+		<img src="./2264701855770284_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.eswa.2012.10.016" target="_blank" tabindex="94"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="95">GONÇALVES, Diego Bertolini</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8607171759049558" target="_blank" tabindex="96">Oliveira, L.S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1247721504657205" target="_blank" tabindex="97">Justino, E.</a> ; Sabaourin, R. . Texture-based descriptors for writer identification and verification. Expert Systems with Applications<sup><img id="09574174_1" src="./2264701855770284_files/jcr.gif" class="ajaxJCR jcrTip" data-issn="09574174" original-title="EXPERT SYST APPL (0957-4174)&lt;br /&gt;Fator de impacto (JCR 2014): 2.24"></sup>, v. 40, p. 2069-2080, 2013. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.eswa.2012.10.016&amp;issn=09574174&amp;volume=40&amp;issue=&amp;paginaInicial=2069&amp;titulo=Texture-based descriptors for writer identification and verification&amp;sequencial=1&amp;nomePeriodico=Expert Systems with Applications" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.eswa.2012.10.016&md5=0fc09b7e780c8896690eca6f3dba7bba" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="./2264701855770284_files/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">6</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="jcr">3.096</span><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GONÇALVES, Diego Bertolini</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span>
+		<img src="./2264701855770284_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.patcog.2009.05.009" target="_blank" tabindex="98"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="99">GONÇALVES, Diego Bertolini</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8607171759049558" target="_blank" tabindex="100">Oliveira, L.S.</a> ; Sabaourin, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1247721504657205" target="_blank" tabindex="101">Justino, E.</a> . Reducing forgeries in writer-independent off-line signature verification through ensemble of classifiers. Pattern Recognition<sup><img id="00313203_2" src="./2264701855770284_files/jcr.gif" class="ajaxJCR jcrTip" data-issn="00313203" original-title="PATTERN RECOGN (0031-3203)&lt;br /&gt;Fator de impacto (JCR 2014): 3.096"></sup>, v. 43, p. 387-396, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.patcog.2009.05.009&amp;issn=00313203&amp;volume=43&amp;issue=&amp;paginaInicial=387&amp;titulo=Reducing forgeries in writer-independent off-line signature verification through ensemble of classifiers&amp;sequencial=2&amp;nomePeriodico=Pattern Recognition" tooltip="Citações a partir de 1996"><b class="label-citacoes">Citações:</b><a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000270261500032&DestLinkType=CitingArticles&DestApp=ALL_WOS&UsrCustomerID=83e8e710a8e621f095e069bfe7c1e2bd" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><img src="./2264701855770284_files/isi.gif"><span class="numero-citacao" data-tipo-ordenacao="1">29</span></a><a href="http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.patcog.2009.05.009&md5=d91899af3840e8d357590aa50f6571d2" target="_blank" class="citacaoTip" original-title="Citações a partir de 1996"><span class="separador-citacoes">|</span><img src="./2264701855770284_files/scopus.png"><span class="numero-citacao" data-tipo-ordenacao="3">52</span></a></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="102"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="103">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8607171759049558" target="_blank" tabindex="104">Oliveira, L.S.</a> ; Sabaourin, R. . Improving Writer Identification Through Writer Selection. In: XX Iberoamerican Congress on Pattern Recognition, 2015, Montevideo. Procs of the XX Iberoamerican Congress on Pattern Recognition, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./2264701855770284_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="105">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8607171759049558" target="_blank" tabindex="106">Oliveira, L.S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1247721504657205" target="_blank" tabindex="107">Justino, E.</a> ; Sabaourin, R. . Assessing Textural Features For Writer Identification on Different Writing Styles and Forgeries. In: International Conference on Pattern Recognition, 2014, Stockholm. Procs of the International Conference on Pattern Recognition. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, Yandre Maldonado e Gomes da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8607171759049558" target="_blank" tabindex="108">Oliveira, L.S.</a> ; Martins, Jefferson ; <b>GONÇALVES, Diego Bertolini</b> . Uso de descritores de textura extraídos de GLCM para o reconhecimento de padrões em diferentes domínios de aplicação. In: Conferência Lationo-americada de Informática, 2011, Quito. CLEI 2011, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./2264701855770284_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="109">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8607171759049558" target="_blank" tabindex="110">Oliveira, L.S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1247721504657205" target="_blank" tabindex="111">Justino, E.</a> ; Sabaourin, R. . Ensemble of Classifiers for Off-line Signature Verification. In: IEEE International Conference on System, Man and Cybernetics, 2008, Singapore. Procs of the 2008 IEEE International Conference on System, Man, and Cybernetics, 2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./2264701855770284_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="112">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					COSTA, Yandre Maldonado e Gomes da ; BRUSCAGIM, Marcelo ; SILVA, Gabriel Costa . Recuperação de Imagens por Combinação dos Aspectos Cromático e Estrutural. In: II Jornada do Conhecimento e da Tecnologia, 2005, Marília. II Jornada do Conhecimento e da Tecnologia, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="113">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					SILVA, Gabriel Costa ; SANTIN, Hereck Fabio ; COSTA, Yandre Maldonado e Gomes da . Avaliação de Técnicas para Recuperação de Imagens baseada nos aspectos Cromático e Estrutural por curvas Recall x Precision. In: XI Congresso Argentino de Ciencias de la Computacíon - CACIC 2005, 2005, Concordia. CACIC 2005, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="114">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					COSTA, Yandre Maldonado e Gomes da . Construção de um Ambiente Computacional para Criação de Descritores de Conteúdo Cromático e Estrutural para Imagens Digitais. In: III Encontro de Iniciação Científica e III Fórum de Pesquisa da Universidade Paranaense - UNIPAR, 2004, Paranavaí. III Encontro de Iniciação Científica e III Fórum de Pesquisa da Universidade Paranaense - UNIPAR, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="115"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="116">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					Indexação e Recuperação de Imagens Digitais por Cor e Estrutura. In: VII Semana da Informática e IV Mostra de Trabalhos de Iniciação Científica, 2005, Paranavaí, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="117"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="118">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					SILVA, Gabriel Costa ; SANTIN, Hereck Fabio ; BRUSCAGIM, Marcelo ; COSTA, Yandre Maldonado e Gomes da . Estudo de Técnicas para Detecção de Bordas em Imagens Digitais. In: EAIC - Encontro Anual de Iniciação Científica, 2005, Guarapuava, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="119">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					Uso de Técnicas de Detecção de Bordas para Criação de Descritores de Conteúdo Estrutural de Imagens Digitais. In: EAIC - Encontro Anual de Iniciação Científica, 2005, Guarapuava, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="120">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					SILVA, Gabriel Costa ; SANTIN, Hereck Fabio ; BRUSCAGIM, Marcelo ; COSTA, Yandre Maldonado e Gomes da . Preservação de Informações Espaciais na Criação de Descritores de Imagens. In: EAIC - Encontro Anual de Iniciação Científica, 2005, Guarapuava, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="121">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					SILVA, Gabriel Costa ; BRUSCAGIM, Marcelo ; SANTIN, Hereck Fabio ; COSTA, Yandre Maldonado e Gomes da . Indexação e Recuperação de Imagens Digitais. In: VII Semana da Informática e IV Mostra de Trabalhos de Iniciação Científica, 2005, Paranavaí. VII Semana da Informática e IV Mostra de Trabalhos de Iniciação Científica, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="122">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					Recuperação de Imagens a partir de Descritores de Conteúdo. In: I ERIC - Encontro Regional de Iniciação Científica da FAFIFAN, 2005, Mandaguari. Encontro Regional de Iniciação Científica, 2005. v. 01. p. 47v-47v. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Gabriel Costa ; SANTIN, Hereck Fabio ; <b>GONÇALVES, Diego Bertolini</b> ; BRUSCAGIM, Marcelo ; COSTA, Yandre Maldonado e Gomes da . Uso de Diferentes Espaços de Cores para Criação de Descritores de Conteúdo Cromático de Imagens Digitais.. In: EAIC - Encontro Anual de Iniciação Científica, 2005, Guarapuava. EAIC - Encontro Anual de Iniciação Científica, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="123">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					Comparação entre Pares de Imagens Digitais por Conteúdo Cromático e Estrutural. In: XIV EAIC - Encontro Anual de Iniciação Científica, 2005, Guarapuava, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, Yandre Maldonado e Gomes da ; <b>GONÇALVES, Diego Bertolini</b> ; BRUSCAGIM, Marcelo ; SILVA, Gabriel Costa . Indexação e Recuperação de Imagens Digitais. In: IVI Encontro de Iniciação Científica e IV Fórum de Pesquisa da UNIPAR e II Encontro Paranaense de Ética, 2005, Umuarama. IVI Encontro de Iniciação Científica e IV Fórum de Pesquisa da UNIPAR e II Encontro Paranaense de Ética, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="124">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					COSTA, Yandre Maldonado e Gomes da ; SILVA, Gabriel Costa ; BRUSCAGIM, Marcelo . Construção de um Ambiente Computacional para Criação de Descriotres de Conteúdo Estrutural para Imagens Digitais. In: EAIC - Encontro Anual de Iniciação Científica, 2004, Londrina, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="125">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					Construção de um Ambiente Computacional para Criação de Descritores de Conteúdo Cromático para Imagens Digitais. In: XIII EAIC - Encontro Anual de Iniciação Científica, 2004, Londrina, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="126"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="127">GONÇALVES, Diego Bertolini</a></b> 
+							;
+						Writer Identification using Dissimilarity. 2015. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="128">GONÇALVES, Diego Bertolini</a></b> 
+							;
+						Reconhecimento de Padrões: Uma Visão Prática. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="129"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="130">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					O Excel como Ferramenta para Acadêmicos de Ciências e Matemática.. 2009. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="131">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="132"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RE, R.; WIESE, I. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="133">GONÇALVES, Diego Bertolini</a></b>.  Participação em banca de Eduardo Roberto Greco.Medindo a diversidade socio-técnica em respositórios de software livre.
+							2014. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="134"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="135">GONÇALVES, Diego Bertolini</a></b>. Contratação de Analista de Sistemas para FAFIPA.
+							2009. Faculdade Estadual de Educação Ciências e Letras de Paranavaí. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="136">GONÇALVES, Diego Bertolini</a></b>. EVINCI (Encontro de Iniciação Científica da UFPR).
+							2012.
+							Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="137">GONÇALVES, Diego Bertolini</a></b>. Programa de Iniciação Científica da Universidade Federal do Paraná.
+							2010.
+							Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="138">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="139"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Iberoamerican Congress on Pattern Recognition. Improving Writer Identification Through Writer Selection. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IBM developerWorks Live!. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII SEMANA DE INFORMÁTICA E IVI MOSTRA DE TRABALHOS DE INICIAÇÃO CIENTÍFICA.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI CONGRESSO ARGENTINO DE CIENCIAS DE LA COMPUTACION. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV CONGRESSO DA SOCIEDADE BRASILEIRA DE COMPUTAÇÃO. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JAI2 - Visualização de Informações - Uma abordagem Prática. 2005. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I ERIC - Encontro Regional de Iniciação Científica.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SEMANA DE INFORMÁTICA E III MOSTRA DE TRABALHOS DE INICIAÇÃO CIENTÍFICA.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CICLO DE PALESTRAS COM ÊNFASE EM INFORMÁTICA.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oratória como falar em Público. 2004. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V SEMANA DE INFORMÁTICA E INICIAÇÃO CIENTÍFICA.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SEMANA DA INFORMÁTICA E III MOSTRA DE TRABALHOS DE INICIAÇÃO CIENTÍFICA.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro de Iniciação Científica e III Fórum de Pesquisa.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Montagem e Manutenção de Microcomputadores. 2003. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV SEMANA DE INFORMÁTICA E INICIAÇÃO CIENTÍFICA.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="140"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="141">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					KAWAMOTO, A. L. S. . II SEINFO - Semana da Computação da UTFPR-CM. 2015.. 2015. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMPIOLO, R. ; SANTOS, L. A. F. ; <b>BERTOLINI, D.</b> . I SEINFO - Semana da Computação da UTFPR-CM. 2014.. 2014. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264701855770284" target="_blank" tabindex="142">GONÇALVES, Diego Bertolini</a></b> 
+						;
+					ExpoUT-2013. 2013. . </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="143">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="144"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcos Roberto e Souza. Identificação de Script Indiano.
+						Início: 2015. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nelson Vieira Da Silva Junior. Identificação de Escritores Usando Diferentes Línguas Manuscritas. Início: 2015. Iniciação científica (Graduando em Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Righetto. Identificação de Escritores através de Manuscritos Árabes. Início: 2015. Iniciação científica (Graduando em Ciência da Computação)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="145"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Noya.
+							Identificação de Escritores através de Manuscritos Árabes.
+							2014.
+							Iniciação Científica. (Graduando em Ciência da Computação)  - Universidade Tecnológica Federal do Paraná,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Diego Bertolini Gonçalves.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Cesar Puli Dala Rosa.
+							Avaliação de Descritores de Textura na Identificação de Autoria.
+							2014.
+							Orientação de outra natureza - Universidade Tecnológica Federal do Paraná,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Diego Bertolini Gonçalves.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Simões.
+							Avaliação do Impacto da Formação de Textura na Identificação de Autoria.
+							2014.
+							Orientação de outra natureza - Universidade Tecnológica Federal do Paraná,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Diego Bertolini Gonçalves.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">leonardo Bodner de Freinas.
+							Verificação de Assinaturas usando Descritores de Textura: Analise de Parâmetros..
+							2014.
+							Orientação de outra natureza. (Informática)  - Universidade Tecnológica Federal do Paraná,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Diego Bertolini Gonçalves.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alan Pedro Sepúlvida do Nascimento.
+							Verificação de Assinaturas usando Descritores de Textura: Analise dos Descritores..
+							2014.
+							Orientação de outra natureza. (Informática)  - Universidade Tecnológica Federal do Paraná,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Diego Bertolini Gonçalves.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">leonardo Bodner de Freinas.
+							Verificação de Assinaturas usando Descritores de Textura: Analise de Parâmetros..
+							2014.
+							Orientação de outra natureza. (Informática)  - Universidade Tecnológica Federal do Paraná,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Diego Bertolini Gonçalves.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes" tabindex="146">
+<h1 tabindex="0">Outras informações relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">- Aprovado pela banca na defesa de Qualificação de Doutorado em 19/04/2012.
+- Aprovado em Teste Seletivo para professor Colaborador no IFPR-Paranvaí.</pre>
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 8:59:22</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=2264701855770284" target="_blank" class="button" tabindex="147"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="148"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="149">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#PremiosTitulos" tabindex="13">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#OutrasInformacoesRelevantes" tabindex="14">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#FormacaoAcademicaTitulacao" tabindex="16">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#FormacaoComplementar" tabindex="17">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#AtuacaoProfissional" tabindex="19">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#LinhaPesquisa" tabindex="20">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#RevisorPeriodico" tabindex="21">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#AreasAtuacao" tabindex="22">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProjetosPesquisa" tabindex="24">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProducaoBibliografica" tabindex="26">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ArtigosCompletos" tabindex="27">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ArtigosAceitos" tabindex="28">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#LivrosCapitulos" tabindex="29">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#TextosJornaisRevistas" tabindex="30">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#TrabalhosPublicadosAnaisCongresso" tabindex="31">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ApresentacaoTrabalho" tabindex="32">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#OutrasProducoesBibliograficas" tabindex="33">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#OutrasProducoesBibliograficas" tabindex="34">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#OutrasProducoesBibliograficas" tabindex="35">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#OutrasProducoesBibliograficas" tabindex="36">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProducaoTecnica" tabindex="37">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#AssessoriaConsultoria" tabindex="38">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#SoftwareSemPatente" tabindex="39">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProdutosTecnologicos" tabindex="40">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProcessosTecnicas" tabindex="41">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#TrabalhosTecnicos" tabindex="42">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#DemaisProducaoTecnica" tabindex="43">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#DemaisProducaoTecnica" tabindex="44">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#DemaisProducaoTecnica" tabindex="45">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#DemaisProducaoTecnica" tabindex="46">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ManutencaoObraArtistica" tabindex="47">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#DemaisProducaoTecnica" tabindex="48">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#EntrevistasMesasRedondas" tabindex="49">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#DemaisProducaoTecnica" tabindex="50">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#RedesSociais" tabindex="51">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#DemaisProducoesTecnicas" tabindex="52">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ProducaoArtisticaCultural" tabindex="53">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ArtesCenicas" tabindex="54">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Musica" tabindex="55">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ArtesVisuais" tabindex="56">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#OutrasProducoesArtisticas" tabindex="57">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ParticipacaoEventos" tabindex="59">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#OrganizacaoEventos" tabindex="60">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1010; left: 549.5px; top: 109px; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Orientacoesconcluidas" tabindex="62">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#Orientacaoemandamento" tabindex="63">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ParticipacaoBancasTrabalho" tabindex="65">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127101A3#ParticipacaoBancasComissoes" tabindex="66">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4127101A3&tipo=completo&idiomaExibicao=1" tabindex="68">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

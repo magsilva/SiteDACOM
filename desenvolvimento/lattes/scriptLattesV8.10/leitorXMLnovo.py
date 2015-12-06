@@ -179,6 +179,7 @@ def executeLeitorXML():
     artigos = []
     artigosEmPeriodico = []
     artigosEmConferencia = []
+    Eventos =[]
     tree = et.parse("data/lattes-site/database.xml")
     root = tree.getroot()
 
@@ -253,6 +254,7 @@ def executeLeitorXML():
                 # print(descricao)
 
             for eventos in child1.iter('trabalho_completo_congresso'):  # eventos
+                e = Evento()
                 for evento in eventos.iter('trabalho_completo'):
                     if evento.find('doi').text is not None:
                         doi = evento.find('doi').text
@@ -268,6 +270,19 @@ def executeLeitorXML():
                         volume = evento.find('volume').text
                     if evento.find('paginas').text is not None:
                         paginas = evento.find('paginas').text
+
+
+                    e.doi=doi
+                    e.autores=autores
+                    e.titulo =titulo
+                    e.nomeEvento =nome_evento
+                    e.ano = ano
+                    e.volume = volume
+                    e.paginas = paginas
+
+                    Eventos.append(e)
+                    # print(2)
+
             for resumoCongresso in child1.iter('resumo_congresso'):
                 for resumCo in resumoCongresso.iter('resumo'):
                     if resumCo.find('doi').text is not None:
@@ -286,6 +301,8 @@ def executeLeitorXML():
                         paginas = resumCo.find('paginas').text
                     if resumCo.find('numero').text is not None:
                         numero = resumCo.find('numero').text
+
+
             for artigoPeriodico in child1.iter('artigos_em_periodicos'):
                 for artigo in artigoPeriodico.iter('artigo'):
                     if artigo.find('doi').text is not None:
@@ -347,77 +364,92 @@ def executeLeitorXML():
     arraysProfNovo =[]
     auxil = 0
 
+
+    for eventoNovo in Eventos:
+        sql = ("INSERT INTO desenvolvimento_evento(doi, autores, titulo, nomeEvento, ano, volume, paginas) VALUES ('%s' , %s , '%s', '%s', '%s' , %s , '%s')" % (eventoNovo.doi, eventoNovo.autores, eventoNovo.titulo, eventoNovo.nomeEvento, eventoNovo.ano, eventoNovo.volume, eventoNovo.paginas))
+        conector.execute(sql)
+        connection.commit()
+
+
     #Professor
 
-    if resultProfessor.__len__()==0:
-        for profnovo in professor:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-    else:
-        for p in professor:
-            for row in resultProfessor:
-                # print(p.nome)
-                if row[0] == p.nome and row[5] == p.lattes:
-                    if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-                        sql = (
-                        "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-                         p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
-                        conector.execute(sql)
-                        connection.commit()
-                        auxil = 1
-            if auxil == 1:
-                arraysProfNovo.append(p)
-                auxil = 0
-        for profnovo in arraysProfNovo:
-            sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-            conector.execute(sql)
-            connection.commit()
-            auxiliar =0
+    # if resultProfessor.__len__()==0:
+    # for profnovo in professor:
+    #     sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #     conector.execute(sql)
+    #     connection.commit()
+
+
+
+
+    # else:
+    #     for p in professor:
+    #         for row in resultProfessor:
+    #             # print(p.nome)
+    #             if row[0] == p.nome and row[5] == p.lattes:
+    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
+    #                     sql = (
+    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
+    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
+    #                      p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
+    #                     conector.execute(sql)
+    #                     connection.commit()
+    #                     auxil = 1
+    #         if auxil == 1:
+    #             arraysProfNovo.append(p)
+    #             auxil = 0
+    #     for profnovo in arraysProfNovo:
+    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeemcitacoesbibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+    #         conector.execute(sql)
+    #         connection.commit()
+    #         auxiliar =0
 
     # projeto
-    if resultProjeto.__len__()!=0:
+    # if resultProjeto.__len__()!=0:
 
-        for p in projetoPesquisa:
-            # print ("ta aqui")
-            for row in resultProjeto:
-
-                # print ("ta aqui")
-                pDescricao = []
-                pSituacao = []
-                pNatureza =[]
-                pIntegrante =[]
-                pEnvolvidos = []
-                pCoordenador = []
-                pFinanciadores = []
-                pNumeroProducao =[]
-
-                pDescricao = p.resumo.encode("utf-8").split("Situação:" )
-                print(pDescricao)
-                pSituacao = pDescricao[1]
-                pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
-                pNatureza = pSituacao[1]
+    # for projnovo in projetoPesquisa:
+    # # for projnovo in projeto:
+    #     sql = ("""INSERT INTO desenvolvimento_projeto(nome,resumo) VALUES ("%s" , "%s")"""              % (projnovo.nome, projnovo.resumo))
+    #
+    #         # | id | listadeCoordenadores | listaColaboradores | dataInicio | datadeFim | AgendaFinanciadora | nome                                                                                                                                              | resumo
+    #     conector.execute(sql)
+    #     connection.commit()
+                #
+                # # print ("ta aqui")
+                # pDescricao = []
+                # pSituacao = []
+                # pNatureza =[]
+                # pIntegrante =[]
+                # pEnvolvidos = []
+                # pCoordenador = []
+                # pFinanciadores = []
+                # pNumeroProducao =[]
+                #
+                # pDescricao = p.resumo.encode("utf-8").split("Situação:" )
+                # print(pDescricao)
+                # pSituacao = pDescricao[1]
+                # pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
+                # pNatureza = pSituacao[1]
+                # # try:
+                # pNatureza = p.resumo.encode("utf-8").split("Integrante:")
+                #
+                # # pFinanciadores = pNatureza[1].encode("utf-8").split("Financiador(es):")
                 # try:
-                pNatureza = p.resumo.encode("utf-8").split("Integrante:")
-
-                # pFinanciadores = pNatureza[1].encode("utf-8").split("Financiador(es):")
-                try:
-                    pIntegrante = pNatureza[1]
-                    pIntegrante = p.resumo.split("Integrantes: ")
-                    pEnvolvidos = pIntegrante[len(pIntegrante)-1]
-                    pCoordenador = pEnvolvidos.split("Coordenador")
-                except IndexError:
-
-                    pIntegrante = p.resumo.split("Integrantes: ")
-                    pCoordenador = pIntegrante[1].split("- Coordenador")
-                    pEnvolvidos = pCoordenador[1].split("- Integrante")
-                    # int numeroEnvolvidos =  pEnvolvidos.__len__()
-                    pFinanciadores = pEnvolvidos[pEnvolvidos.__len__()-1].split("Financiador(es):")
-
-
-                coordernadores = ''.join(pCoordenador[1])
+                #     pIntegrante = pNatureza[1]
+                #     pIntegrante = p.resumo.split("Integrantes: ")
+                #     pEnvolvidos = pIntegrante[len(pIntegrante)-1]
+                #     pCoordenador = pEnvolvidos.split("Coordenador")
+                # except IndexError:
+                #
+                #     pIntegrante = p.resumo.split("Integrantes: ")
+                #     pCoordenador = pIntegrante[1].split("- Coordenador")
+                #     pEnvolvidos = pCoordenador[1].split("- Integrante")
+                #     # int numeroEnvolvidos =  pEnvolvidos.__len__()
+                #     pFinanciadores = pEnvolvidos[pEnvolvidos.__len__()-1].split("Financiador(es):")
+                #
+                #
+                # coordernadores = ''.join(pCoordenador[1])
 
                 # print(coordernadores[1])
                 # envolvidos = ','.join(pEnvolvidos)
@@ -472,12 +504,7 @@ def executeLeitorXML():
 
 
 
-    #     for projnovo in projeto:
-    #         sql = ("INSERT INTO desenvolvimento_projeto(listadeCoordenadores, listaColaboradores, dataInicio, AgendaFinanciadora, nome) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #
-    #         # | id | listadeCoordenadores | listaColaboradores | dataInicio | datadeFim | AgendaFinanciadora | nome                                                                                                                                              | resumo
-    #         conector.execute(sql)
-    #         connection.commit()
+
     # else:
     #     for p in professor:
     #         for row in resultProfessor:
@@ -594,9 +621,9 @@ def executeLeitorXML():
 
 
 if __name__ == "__main__":
-    executeLattes()
+    # executeLattes()
 
-    # executeLeitorXML()
+    executeLeitorXML()
 
 
     # for p in projetoPesquisa:

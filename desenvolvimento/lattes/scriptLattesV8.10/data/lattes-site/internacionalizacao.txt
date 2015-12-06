@@ -1,7 +1,0 @@
-2012 , http://dx.doi.org/10.1002/widm.1071 , 1, Brazil; 
-2013 , http://dx.doi.org/10.1007/s10606-012-9164-4 , 1, Brazil; 
-2013 , http://dx.doi.org/10.5335/rbca.2013.3269 , 0, 
-2013 , http://dx.doi.org/10.1016/j.eswa.2012.10.016 , 0, 
-2013 , http://dx.doi.org/10.1016/j.jss.2012.10.012 , 0, 
-2014 , http://dx.doi.org/10.5329/resi.2014.1302005 , 0, 
-2014 , http://dx.doi.org/10.1016/j.jnca.2014.07.022 , 0, 

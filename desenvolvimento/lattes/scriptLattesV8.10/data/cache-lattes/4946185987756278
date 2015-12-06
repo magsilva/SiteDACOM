@@ -1,0 +1,2033 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Marcos Silvano Almeida)</title>
+<link type="text/css" rel="stylesheet" href="./4946185987756278_files/import.css">
+<link type="text/css" href="./4946185987756278_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./4946185987756278_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./4946185987756278_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./4946185987756278_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./4946185987756278_files/espelho.css">
+<script type="text/javascript" async="" src="./4946185987756278_files/ga.js"></script><script type="text/javascript" src="./4946185987756278_files/jquery.min.js"></script><style type="text/css"></style><script src="./4946185987756278_files/jquery.cookie.js" type="text/javascript"></script><script src="./4946185987756278_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./4946185987756278_files/tooltip-position.js"></script><script type="text/javascript" src="./4946185987756278_files/jquery.tipsy.js"></script><script type="text/javascript" src="./4946185987756278_files/jquery.megamenu.js"></script><script type="text/javascript" src="./4946185987756278_files/byOrder.js"></script><script type="text/javascript" src="./4946185987756278_files/font-size.js"></script><script type="text/javascript" src="./4946185987756278_files/cv_citacoes.js"></script><script type="text/javascript" src="./4946185987756278_files/hint_ajax.js"></script><script type="text/javascript" src="./4946185987756278_files/menuFlowScroll.js"></script><script type="text/javascript" src="./4946185987756278_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./4946185987756278_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6&idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=4946185987756278" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProjetosPesquisa" class="acessibilidade separador" tabindex="20" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProducoesCientificas" class="acessibilidade separador" tabindex="23" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Eventos" class="acessibilidade separador" tabindex="56" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Orientacoes" class="acessibilidade separador" tabindex="59" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="62" _megamenupos="7pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./4946185987756278_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Marcos Silvano Almeida</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/4946185987756278</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 21/07/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Mestre em Ciência da Computação pela Universidade Estadual de Maringá, atualmente é Professor da Universidade Tecnológica Federal do Paraná, Campus Campo Mourão. Tem experiência na área de Ciência da Computação, com ênfase em Metodologia e Técnicas da Computação. Atua principalmente nos seguintes temas: Aplicações Móveis, Engenharia de Software e Desenvolvimento de Jogos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="64">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Marcos Silvano Almeida<img src="./4946185987756278_files/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ALMEIDA, Marcos Silvano</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="65">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná. <br class="clear">BR 369 - km 0,5<br class="clear">87301-006 - Campo Mourao, PR - Brasil<br class="clear">Telefone: (44) 35234156<br class="clear">URL da Homepage: <a target="blank" href="http://www.utfpr.edu.br/" tabindex="66">www.utfpr.edu.br</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="67">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Ciências da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=33002010176P0&amp;nivelCurso=D"> (Conceito CAPES 6)</span>. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">Título: Abordagem de Design de Jogos Orientada a Componentes, <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/8571722708574643" tabindex="68"><img src="./4946185987756278_files/logolattes.gif"></a>Flavio Soares Correa da Silva. <br class="clear">Palavras-chave: ferramentas de design de jogos; sistematização do processo de design de jogos; design  de jogos baseado em componentes; componentes de jogos.<br class="clear">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=40004015019P5&amp;nivelCurso=M"> (Conceito CAPES 3)</span>. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: MGUP: RUP Aplicado a Jogos Móveis,Ano de Obtenção: 2006.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/3970891727388929" tabindex="69"><img src="./4946185987756278_files/logolattes.gif"></a>Prof. Dr. Antonio Mendes da Silva Filho.<br class="clear">Palavras-chave: Processo de Software; Jogos Móveis; Engenharia de Software; Rational Unified Process; Desenvolvimento de Jogos.<br class="clear">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Jogos. <br class="clear">Setores de atividade: Desenvolvimento de Programas (Software); Desenvolvimento de Programas (Software) e Prestação de Serviços em Informática; Consultoria em Sistemas de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bacharelado em Informática. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Investigação de Soluções Rational para o Processo de Software. <br class="clear">Orientador: Profª Drª Itana Maria se Souza Gimenez. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="70">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Linguagem de Programação IV<br class="clear">Banco de Dados I<br class="clear">Banco de Dados II<br class="clear">Informática Básica<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados I<br class="clear">Linguagem de Programação II<br class="clear">Linguagem de Programação IV<br class="clear">Programação para Dispositivos Móveis e Sem Fio<br class="clear">Projeto Integrador<br class="clear">Tópicos Especiais em Tecnologia I<br class="clear">Tópicos Especiais em Tecnologia II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Programação de Aplicativos<br class="clear">Projeto Integrador<br class="clear">Computação Móvel<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdades do Centro do Paraná, UCP/ASSESPI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 22</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2006 - 6/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Sistema de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Coordenação de Estágios<br class="clear">Estágio Supervisionado I<br class="clear">Estágio Supervisionado III<br class="clear">Estágio Supervisionado IV<br class="clear">Orientações de Trabalhos de Conclusão de Curso e Estágios<br class="clear">Programação e Sistemas Computacionais III<br class="clear">Sistemas de Banco de Dados I<br class="clear">Tópicos Avançados em Sistema de Informação I<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdade Integrado de Campo Mourão, CEI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Professor, Carga horária: 16</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2006 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Análise e Desenvolvimento de Sistema, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados I<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Centro de Estudos e Sistemas Avançados do Recife, CESAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Engenheiro de Sistemas, Carga horária: 40</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 02/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Desenvolvimento, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Desenvolvimento de Jogos em Java e C++ para celulares J2ME e Brew. </div>
+</div><br class="clear"><div class="inst_back">
+<b>União de Faculdades Metropolitanas de Maringá, UNIFAMMA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 6</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2004 - 1/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática Aplicada<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2004 - 1/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Comunicação Social, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática Aplicada<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Serviço Social do Comércio, SENAC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor, Carga horária: 15</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/2003 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Introdução ao Desenvolvimento de Jogos, Nível: Aperfeiçoamento</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Desenvolvimento de Jogos<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Orion Soft Tecnologia Ltda., ORION, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Empreendedor, Enquadramento Funcional: Desenvolvedor de Software, Carga horária: 40</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2002 - 5/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Desenvolvimento de Aplicações de Sistemas de Informação.. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Incubadora Tecnológica de Maringá, INFOMAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Empreendedor, Enquadramento Funcional: Empreendedor, Carga horária: 40</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2001 - 6/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Empreendedor.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2001 - 6/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Projeto Enigma Gamesdev, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#LP_Desenvolvimento de Jogos" tabindex="71">Desenvolvimento de Jogos</a><br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="72">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Desenvolvimento de Jogos" tabindex="73"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de Jogos</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Pesquisa e desenvolvimento de ferramentas, técnicas, processos e produtos de jogos computadorizados.. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosExtensao" tabindex="74">
+<h1 tabindex="0">Projetos de extensão</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Curso de Desenvolvimento de Jogos" tabindex="75"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Desenvolvimento de Jogos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tem por objetivo a produção de material didático para realização de cursos de desenvolvimento de jogos que possam contribuir para instigar o interesse de jovens pela produção de jogos.. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Marcos Silvano Almeida - Coordenador / Otávio Oliveira de Napoli - Integrante.<br class="clear"></div>
+</div><a name="PP_Produção de Protótipos de Jogos Digitais" tabindex="76"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de Protótipos de Jogos Digitais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tem por objetivo a construção de protótipos de jogos modificáveis e extensíveis que possam ser aplicados em projetos e disciplinas.. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (1) . <br class="clear"><br class="clear">Integrantes: Marcos Silvano Almeida - Coordenador / Éder dos Santos Ferreira - Integrante.<br class="clear"></div>
+</div><a name="PP_Produção de Software de Apoio ao Processo Ensino-Aprendizado de alunos com deficiência visual utilizando tecnologias open source" tabindex="77"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de Software de Apoio ao Processo Ensino-Aprendizado de alunos com deficiência visual utilizando tecnologias open source<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo do projeto é prover apoio ao processo de ensino-aprendizagem de alunos com necessidades educacionais especiais através da produção de softwares especificamente projetados para alunos com deficiências visuais.. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear"><br class="clear">Integrantes: Marcos Silvano Almeida - Coordenador / Luiz Philipe Serrano Alves - Integrante.<br class="clear"></div>
+</div><a name="PP_Construção de jogos de entretenimento com conteúdo educacional utilizando tecnologias gratuitas" tabindex="78"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Construção de jogos de entretenimento com conteúdo educacional utilizando tecnologias gratuitas<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tem por objetivo principal a construção de jogos utilizando tecnologias gratuitas que sejam fundamentalmente voltados ao entretenimento, mas que contenham, explícita ou implicitamente, conteúdo educativo didático, folclórico ou cultural.. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear"><br class="clear">Integrantes: Marcos Silvano Almeida - Coordenador / Wenner Soares Santos - Integrante.<br class="clear"></div>
+</div><a name="PP_Proposta de apoio computacional no processo ensino-aprendizagem dos alunos com necessidades especiais da APAE Campo Mourão" tabindex="79"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Proposta de apoio computacional no processo ensino-aprendizagem dos alunos com necessidades especiais da APAE Campo Mourão<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto propõe apoiar o processo de ensino aprendizagem de crianças com necessidades educacionais especiais utilizando Tecnologias de Informação e Comunicação, na Escola de Educação Especial Josephina Wendling Nunes, mantida pela Associação de Pais e Amigos dos Excepcionais no município de Campo Mourão, Paraná. O foco principal do projeto é disseminar o uso do computador na educação especial favorecendo a inclusão digital de indivíduos com necessidades educacionais especiais. Para atingir este foco os professores envolvidos no projeto devem orientar alunos do Técnico Integrado em Informática e do Curso Superior de Tecnologia em Sistemas para Internet em diferentes atividades de pesquisa, extensão e desenvolvimento. Entre estas atividades pode-se destacar a elaboração de objetos de aprendizagem que auxiliem atividades de desenvolvimento motor e cognitivo motivando o uso do computador por alunos com necessidades educacionais especiais. Outro relevante aspecto previsto neste projeto é a inclusão digital dos alunos com deficiência visual que atualmente não utilizam o computador em suas atividades na escola. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (4) . <br class="clear"><br class="clear">Integrantes: Marcos Silvano Almeida - Integrante / André Luís Schwerz - Coordenador / Selma Cristina Krenski - Integrante / Lucas Perassoli Melquiades - Integrante / Rodrigo Takashi Kuroda - Integrante / Luiz Philipe Serrano Alves - Integrante / Ana Clauda Maciel - Integrante.<br class="clear">Financiador(es): Instituto do Patrimônio Histórico e Artístico Nacional - DF - Auxílio
+										financeiro / Ministério da Cultura - Auxílio
+										financeiro / Ministério da Educação - Auxílio
+										financeiro / Ministério do Trabalho e Emprego - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento" tabindex="80">
+<h1 tabindex="0">Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Construção de jogos de entretenimento educativos" tabindex="81"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Construção de jogos de entretenimento educativos<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projetar e construir jogos de entretenimento que possam ser aplicados à educação.. <br class="clear">Situação: Concluído; Natureza: Desenvolvimento. <br class="clear"><br class="clear">Integrantes: Marcos Silvano Almeida - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="82">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Jogos. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Móvel. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="83">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="84">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="85"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="86"></a>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="87"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="88">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					SILVA, F. S. C. . A Systematic Review of Game Design Methods and Tools. In: ICEC 2013 - XII International Conference on Entertainment Computing, 2013, São Paulo. Springer LNCS - Lecture Notes in Computer Science, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="89">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					SILVA, F. S. C. . Requirements for game design tools. In: SBGames 2013 - XII Simpósio Brasileiro de Jogos e Entretenimento Digital, 2013, São Paulo. Anais do SBGames 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="90">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					SILVA, F. S. C. . Towards a Library of Game Components. In: SBGames 2013 - XII Simpósio Brasileiro de Jogos e Entretenimento Digital, 2013, São Paulo. Anais do SBGames 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="91">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					SILVA, F. S. C. . Towards a Game Design Patterns Suggestion Tool. In: SBGames 2013 - XII Simpósio Brasileiro de Jogos e Entretenimento Digital, 2013, São Paulo. Anais do SBGames 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4946185987756278_files/ico_relevante.gif" style="icone-relevancia">
+		MELQUIADES, L. P. ; KRENSKI, S. C. ; <b>ALMEIDA, Marcos Silvano</b> ; SCHWERZ, A. L. . O Uso de uma Ferramenta de Autoria como Apoio Computacional no Ensino de Alunos com Necessidades Especiais. In: 5th Latin American Conference on Learning Objects - LACLO, 2010, São Paulo. 5th Latin American Conference on Learning Objects, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="92">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					FREIRE, V. H. N. . Construção de Jogos de Entretenimento que Agregam recursos de aprendizagem. In: 3ª UT Ciência, 2009, Campo Mourão. 3ª UT Ciência, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="93">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					FREIRE, V. H. N. ; OBADOVSKI, S. B. . Jogos de Entretenimento como Recurso de Aprendizagem. In: 2ª UT Ciência, 2008, Campo Mourão. 2ª UT Ciência, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="94">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					Avaliação de Desempenho de Protocolos de Controle para Redes de Interconexão Ópticas. In: XXIII Congresso da Sociedade Brasileira de Computação, 2003, Campinas. Anais do XXIII Congresso da Sociedade Brasileira de Computação, 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="95"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="96">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					GONÇALVES, Ronaldo Augusto de Lara ; MARTINI, João Angelo . Avaliação de Desempenho de Protocolos de Controle para Redes de Interconexão Ópticas. In: XII Encontro Anual de Iniciação Científica, 2003, Ponta Grossa. Anais do XII Encontro Anual de Iniciação Cientifica. Foz do Iguaçu: Editora da Unioeste, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="97">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					VALENTIN, Lucio Geronimo ; COELHO, Regina Célia . Visualização Tridimensional de Estruturas Neurais Artificiais Morfologicamente Realistas. In: X Encontro Anual de Iniciação Científica, 2001, Ponta Grossa. Anais do X Encontro Anual de Iniciação Científica. Ponta Grossa: Editora Ponta Grossa, 2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="98"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="99">ALMEIDA, Marcos Silvano</a></b> 
+							;
+						Desenvolvimento de Jogos e o Mercado Nacional. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="100">ALMEIDA, Marcos Silvano</a></b> 
+							;
+						Tecnologias da Informação. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="101"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente" tabindex="102"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="103">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				Fuja! (jogo de entretenimento para Linux). 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="104">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				Invasores do Espaço (jogo de entretenimento para Windows). 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NOYA, G. P. ; <b>ALMEIDA, Marcos Silvano</b> . Angry Nerd (jogo de entretenimento para Linux). 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, G. P. ; <b>ALMEIDA, Marcos Silvano</b> . Space Detour (jogo de entretenimento para Linux). 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4946185987756278_files/ico_relevante.gif" style="icone-relevancia">
+		Lucas Simões da Silva ; <b>ALMEIDA, Marcos Silvano</b> . Sketch-Man (jogo de entretenimento). 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KURODA, R. T. ; <b>ALMEIDA, Marcos Silvano</b> ; SCHWERZ, A. L. . Asteróides (jogo 'edutainment'). 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, L. P. S. ; <b>ALMEIDA, Marcos Silvano</b> ; SCHWERZ, A. L. . Corrida Maluca (jogo 'edutainment'). 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KURODA, R. T. ; <b>ALMEIDA, Marcos Silvano</b> ; SCHWERZ, A. L. . Perguntas (jogo 'edutainment'). 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, L. P. S. ; <b>ALMEIDA, Marcos Silvano</b> ; SCHWERZ, A. L. . Quebra-cabeça (jogo 'edutainment'). 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="105">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				JGame - Framework J2SE de Jogos 2D. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4946185987756278_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="106">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				VALENTIN, Lucio Geronimo ; ANGOTTI, J. P. . Mobile Tour UTFPR (advergame). 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Simões da Silva ; <b>ALMEIDA, Marcos Silvano</b> . Math Attack (jogo 'edutainment'). 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="107">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				JMGame - Framework J2ME de Jogos 2D. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="108">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				OBADOVSKI, S. B. . Mars Invaders (jogo 'edutainment'). 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="109">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				FREIRE, V. H. N. . Verbanoid (jogo 'edutainment'). 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="110">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				Aero Ataque (jogo de entretenimento). 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="111">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				Dongue (jogo de entretenimento). 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="112">ALMEIDA, Marcos Silvano</a></b> 
+					;
+				ANGOTTI, J. P. . SOS Terra (jogo de entretenimento). 2007. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="113"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="114">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					VALENTIN, Lucio Geronimo ; COELHO, Regina Célia . Elaboração de Material Didático de Apoio à Computação Gráfica e Visão Cibernética.
+							2000. (Desenvolvimento de material didático ou instrucional - Software). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="115">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="116"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBGames 2013 - XIII Simpósio Brasileiro de Jogos e Entretenimento Digital.Requirements for game design tools.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ICEC 2013 - International Conference on Entertainment Computing.A Systematic Review of Game Design Methods and Tools.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana de Capacitação e Planejamento de Ensino.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ExpoUT 2011 - Mostra de Profissões. Desenvolvimento Experimental de Jogo Independente. 2011. (Exposição). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana de Capacitação e Planejamento de Ensino.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: o papel do docente universitário na sociedade contemporânea. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: os desafios do professor na pós-modernidade. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ExpoUT 2010. Participação na sala temática da Mostra de Profissões.Apresentação e demonstração dos projetos de jogos desenvolvidos na UTFPR Campo Mourão.. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana de Capacitação e Planejamento de Ensino.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mostra de Extensão da UTFPR.Proposta de apoio computacional no processo de ensino-aprendizagem dos alunos com necessidades especiais da APAE.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ExpoUT 2009. Participação na sala temática da Mostra de Profissões.Apresentação e demonstração dos projetos de jogos desenvolvidos na UTFPR Campo Mourão.. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana de Capacitação e Planejamento de Ensino.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ExpoUT 2008. Participação na sala temática da Mostra de Profissões.Apresentação e demonstração dos projetos de jogos desenvolvidos na UTFPR CM. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II SITCOMP - Semana de Inovação Tecnológica de Ciência da Computação.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Congresso da Sociedade Brasileira de Computação. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Encontro Anual de Iniciação Científica.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro de Informpática Educativa na UEM.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Fórum de Informática e Tecnologia do Norte do Paraná - FITEM. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Fórum de Informática e Tecnologia do Norte do Paraná - FITEM. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop de Desenvolvimento de Jogos para PCs. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tendências Mundiais para a Globalização e Implantação da Qualidade em Empresas de Base Tecnológica. 2000. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum de Informática e Tecnologia do Norte do Paraná - FITEN. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="117"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="118">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					Concurso de Desenvolvimento de Aplicativos. 2014. (Festival). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="119">ALMEIDA, Marcos Silvano</a></b> 
+						;
+					ExpoUT. Membro da comissão de organização designada pela portaria no. 052/09. 2009. (Exposição). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="120">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas" tabindex="121"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Simoes Da Silva.
+							Construção de jogos de entretenimento educativos em ambiente Linux.
+							2010.
+							Iniciação Científica. (Graduando em Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná,
+							Fundação de apoio ao desenvolvimento científico e tecnológico do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sarah Beatriz Obadovski Alves.
+							Construção de jogos de entretenimento que possam ser aplicados à educação.
+							2008.
+							Iniciação Científica. (Graduando em Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná,
+							Fundação de apoio ao desenvolvimento científico e tecnológico do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanderson Henrique Neves Freire.
+							Construção de jogos de entretenimento educativos.
+							2008.
+							Iniciação Científica. (Graduando em Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Philipe Serrano Alves.
+							Produção de Software de Apoio ao Processo Ensino-Aprendizado de alunos com deficiência visual utilizando tecnologias open source.
+							2011.
+							Orientação de outra natureza. (Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná,
+							Fundação Araucária de Apoio ao Desenvolvimento Científico e Tecnológico. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Wenner Soares Santos.
+							Construção de jogos de entretenimento com conteúdo educacional utilizando tecnologias gratuitas.
+							2011.
+							Orientação de outra natureza. (Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Takashi Kuroda.
+							Produção de software de apoio no processo ensino-aprendizagem para a APAE Campo Mourão (Extensão/Inovação).
+							2010.
+							Orientação de outra natureza. (Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná,
+							Ministério da Educação. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Philipe Serrano Alves.
+							Produção de software de apoio no processo ensino-aprendizagem para a APAE Campo Mourão (Extensão/Inovação).
+							2010.
+							Orientação de outra natureza. (Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná,
+							Ministério da Educação. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Débora Sandi.
+							Estágio Curricular Obrigatório.
+							2010.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Henrique Neves Shiba.
+							Estágio Curricular Obrigatório.
+							2010.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Cláudia Maciel.
+							Produção de software de apoio no processo ensino-aprendizagem para a APAE Campo Mourão (Extensão/Inovação).
+							2010.
+							Orientação de outra natureza. (Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Perassoli Mesquiades.
+							Produção de software de apoio no processo ensino-aprendizagem para a APAE Campo Mourão (Extensão/Inovação).
+							2010.
+							Orientação de outra natureza. (Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dhebora do Canto.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Henrique Martins.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Larissa Zubek.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mayara Coghi Molina.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mauricio Roberto Ceolim.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Beatriz Ramos Baragatti.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro Matias De Araujo.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Barco Kopko.
+							Estágio Curricular Obrigatório.
+							2008.
+							Orientação de outra natureza. (Técnico Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: Marcos Silvano Almeida.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 9:14:05</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=4946185987756278" target="_blank" class="button" tabindex="122"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="123"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="124">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#LinhaPesquisa" tabindex="18">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#AreasAtuacao" tabindex="19">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProjetosExtensao" tabindex="21">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProjetosDesenvolvimento" tabindex="22">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProducaoBibliografica" tabindex="24">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ArtigosCompletos" tabindex="25">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ArtigosAceitos" tabindex="26">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#LivrosCapitulos" tabindex="27">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#TextosJornaisRevistas" tabindex="28">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#TrabalhosPublicadosAnaisCongresso" tabindex="29">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ApresentacaoTrabalho" tabindex="30">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#OutrasProducoesBibliograficas" tabindex="31">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#OutrasProducoesBibliograficas" tabindex="32">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#OutrasProducoesBibliograficas" tabindex="33">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#OutrasProducoesBibliograficas" tabindex="34">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProducaoTecnica" tabindex="35">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#AssessoriaConsultoria" tabindex="36">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#SoftwareSemPatente" tabindex="37">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProdutosTecnologicos" tabindex="38">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProcessosTecnicas" tabindex="39">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#TrabalhosTecnicos" tabindex="40">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#DemaisProducaoTecnica" tabindex="41">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#DemaisProducaoTecnica" tabindex="42">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#DemaisProducaoTecnica" tabindex="43">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#DemaisProducaoTecnica" tabindex="44">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ManutencaoObraArtistica" tabindex="45">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#DemaisProducaoTecnica" tabindex="46">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#EntrevistasMesasRedondas" tabindex="47">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#DemaisProducaoTecnica" tabindex="48">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#RedesSociais" tabindex="49">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#DemaisProducoesTecnicas" tabindex="50">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ProducaoArtisticaCultural" tabindex="51">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ArtesCenicas" tabindex="52">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Musica" tabindex="53">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ArtesVisuais" tabindex="54">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#OutrasProducoesArtisticas" tabindex="55">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#ParticipacaoEventos" tabindex="57">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#OrganizacaoEventos" tabindex="58">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Orientacoesconcluidas" tabindex="60">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238T6#Orientacaoemandamento" tabindex="61">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4701238T6&tipo=completo&idiomaExibicao=1" tabindex="63">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

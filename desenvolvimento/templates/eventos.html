@@ -29,7 +29,7 @@
 
     </header>
     <nav>
-        <div class="width">
+         <div class="width">
             <ul class="menu">
                 <li><a href="{% url 'desenvolvimento:index' %}">Início</a></li>
                 <li><a href="{% url 'desenvolvimento:curso' %}">Cursos</a></li>
@@ -37,7 +37,9 @@
                 <li class="start selected"><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/search/" method="get">
-                        <input type="text" name="q">
+                        <input type="text" name="q" size="91" value="Digite o sua pesquisa aqui"
+                               onfocus="this.value='';"
+                               autocomplete="on" class="s"/>
                     </form>
                 </li>
             </ul>
@@ -45,20 +47,38 @@
     </nav>
     <div class="corpo">
         <section id="content">
-            <article class="expanded">
+            <br class="expanded">
                 <h2>Eventos</h2>
-                <ul>
-                    {% for proj in listadeProjetos.all %}
-                    <li>
-                        <h3> {{ proj.nome }} </h3>
 
-                        <p/>
-                        {{ proj.resumo }}
-                    </li>
-                    {% endfor %}
-                </ul>
-                <a href="detalhes.html" class="button">Leia Mais</a>
-                <a href="detalhes.html" class="button">Comentários</a>
+                    Não há eventos cadastrados
+
+
+                                       <br><br>
+            <br>
+            <br>
+
+                                       <br><br>
+            <br>
+            <br>
+
+                    <div class="pagination">
+                        <br>
+    <span class="step-links">
+        {% if eventos.has_previous %}<p></p>
+
+            <a href="?page={{ eventos.previous_page_number }}"><br>Anterior</a>
+        {% endif %}
+
+        <span class="current">
+            Página {{ eventos.number }} de {{ eventos.paginator.num_pages }}
+        </span>
+
+        {% if eventos.has_next %}
+            <a href="?page={{ projects.next_page_number }}">Próxima</a>
+        {% endif %}
+    </span>
+                    </div>
+
             </article>
         </section>
         <!--<div class="sidebar">-->

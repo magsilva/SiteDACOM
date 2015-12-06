@@ -50,16 +50,39 @@
                     <article class="expanded">
                         <h2>Professores</h2>
                         <ul>
-                            {% for proj in listadeProjetos.all %}
-                            <li>
-                                <h3> {{ proj.nome }} </h3>
-                                <p/>
-                                {{ proj.resumo }}
-                            </li>
-                            {% endfor %}
+                    {% for prof in professores %}
+                    <br/>
+                    <br/><b>
+                    {{ prof.nome }}</b><br/>
+                        {{prof.resumo}}
+
+                    {% endfor %}
+
+                              <div class="pagination">
+                    <span class="step-links">
+                                <br/>
+                        <br/>
+                        <br/>
+                        {% if professores.has_previous %}
+
+                            <a href="?page={{ professores.previous_page_number }}">Anterior</a>
+                        {% endif %}
+
+                        <span class="current">
+                            Página {{ professores.number }} de {{ professores.paginator.num_pages }}
+                        </span>
+
+                        {% if professores.has_next %}
+                            <a href="?page={{ professores.next_page_number }}">Próxima</a>
+                        {% endif %}
+    </span>
+
+
+                    <!--</div>-->
+
                         </ul>
-                        <a href="detalhes.html" class="button">Leia Mais</a>
-                        <a href="detalhes.html" class="button">Comentários</a>
+                        <!--<a href="detalhes.html" class="button">Leia Mais</a>-->
+                        <!--<a href="detalhes.html" class="button">Comentários</a>-->
                     </article>
                 </section>
                 <!--<div class="sidebar">-->

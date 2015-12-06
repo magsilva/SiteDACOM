@@ -1,0 +1,1493 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Narci Nogueira da Silva)</title>
+<link type="text/css" rel="stylesheet" href="./2249157985559304_files/import.css">
+<link type="text/css" href="./2249157985559304_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./2249157985559304_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./2249157985559304_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./2249157985559304_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./2249157985559304_files/espelho.css">
+<script type="text/javascript" async="" src="./2249157985559304_files/ga.js"></script><script type="text/javascript" src="./2249157985559304_files/jquery.min.js"></script><style type="text/css"></style><script src="./2249157985559304_files/jquery.cookie.js" type="text/javascript"></script><script src="./2249157985559304_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./2249157985559304_files/tooltip-position.js"></script><script type="text/javascript" src="./2249157985559304_files/jquery.tipsy.js"></script><script type="text/javascript" src="./2249157985559304_files/jquery.megamenu.js"></script><script type="text/javascript" src="./2249157985559304_files/byOrder.js"></script><script type="text/javascript" src="./2249157985559304_files/font-size.js"></script><script type="text/javascript" src="./2249157985559304_files/cv_citacoes.js"></script><script type="text/javascript" src="./2249157985559304_files/hint_ajax.js"></script><script type="text/javascript" src="./2249157985559304_files/menuFlowScroll.js"></script><script type="text/javascript" src="./2249157985559304_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./2249157985559304_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=2249157985559304" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProducoesCientificas" class="acessibilidade separador" tabindex="20" _megamenupos="3pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#EducacaoPopularizacaoCTA" class="acessibilidade separador" tabindex="53" _megamenupos="4pos"><span></span>Educação e Popularização de C &amp; T</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Eventos" class="acessibilidade separador" tabindex="68" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Orientacoes" class="acessibilidade separador" tabindex="70" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Bancas" class="acessibilidade separador" tabindex="73" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="76" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./2249157985559304_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Narci Nogueira da Silva</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/2249157985559304</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 30/11/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Graduado em Tecnologia Em Processamento de Dados pela Universidade Estadual de Maringá (1994). Especialização em Gestão Agroindustrial pela Universidade Federal de São Carlos, UFSCAR(1998). Especialização em Gestão Industrial pela Universidade Tecnológica Federal do Paraná - Campus Cornélio Procópio(2003). Especialização em Engenharia de Produção pela Universidade Tecnológica Federal do Paraná - Campus Ponta Grossa (2004). Atualmente é professor de 1 e 2 graus da Universidade Tecnológica Federal do Paraná - Campus Campo Mourão e esta cursando o Mestrado Profissional em Informática, no Programa de Pós-Graduação em Informática - PPGI da UTFPR - Cornélio Procópio.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="78">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Narci Nogueira da Silva</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SILVA, N. N.</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="79">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Campus Campo Mourão. <br class="clear">Via Rosalina Maria dos Santos, 1233.<br class="clear">Vila Carolo<br class="clear">87301005 - Campo Mourão, PR - Brasil - Caixa-postal: 271<br class="clear">Telefone: (44) 35181400<br class="clear">Ramal: 1449<br class="clear">Fax: (44) 35181400<br class="clear">URL da Homepage: <a target="blank" href="http://www.utfpr.edu.br/campomourao" tabindex="80">http://www.utfpr.edu.br/campomourao</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="81">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado interrompido em 2008 em Engenharia da Produção. <br class="clear">Universidade Tecnológica Federal do Paraná - Campus Ponta Grossa, UTFPR-PG, Brasil.
+		
+	<br class="clear">Título: REDES INDUSTRIAIS: CARACTERÍSTICAS E PERSPECTIVAS PARA ETHERNET INDUSTRIAL.,Orientador: Luciano Scandelari.<br class="clear">Ano de interrupção: 2008<br class="clear">Palavras-chave: Ethernet Industrial; Redes Industriais.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado profissional em andamento em Programa de Pós-Graduação em Informática - PPGI. <br class="clear">Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	<br class="clear">Título: , Ano de Obtenção: . <br class="clear">Orientador: Marco Aurélio Graciotto Silva.
+			
+			<br class="clear">Palavras-chave: Engenharia de Software; Teste de Software; Test-Driven Development - TDD.<br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Curso de Especialização em Gestão Industrial. <br class="clear">Centro Federal de Educação Tecnológica do Paraná- Unidade de Cornélio Procó, CEFET-PR, Brasil.
+		
+	<br class="clear">Título: A Integração de Equipamentos e Sistemas Computacionais na Indústria Têxtil - Um Estudo De Caso.. <br class="clear">Orientador: Prof. Dr. Luciano Scandelari. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Gestão Agroindustrial.  (Carga Horária: 520h). <br class="clear">Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	<br class="clear">Título: Um Estudo de Mudança Tecnológica : O Caso Chocomilk.. <br class="clear">Orientador: PROFº DR. MÁRIO OTÁVIO BATALHA.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Tecnólogo Em Processamento de Dados. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="82">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor de 1 e 2 graus, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Campus Cornélio Procópio, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#LP_Engenharia de Software" tabindex="83">Engenharia de Software</a><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/1996 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Disciplinas da área de Informática para o Curso de Bacharelado<br class="clear">Disciplinas da área de Informática para o Curso Superior de Tecnologia<br class="clear">Disciplinas da área de Informática para o Curso Técnico Integrado<br class="clear">Informática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2014 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Campus Cornélio Procópio, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">TUTOR NÍVEL I (PRESENCIAL) do Curso Técnico em Redes de Computadores, subsequente, na modalidade de Educação a Distância. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Conselho Deliberativo Especializado de Planejamento e Administração, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Conselheiro.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2009 - 03/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Diretor-Geral do Campus.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 04/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Gerente de Ensino e Pesquisa.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Assessor de Gabinete.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2001 - 08/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Chefe de Departamento de Apoio ao Ensino - DEAPO.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/1996 - 12/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Departamento de Informática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Administrador da Rede Local. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/1996 - 12/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Administrador dos Servidores Web, Nat, DNS, Proxy, WebMail. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdade Estadual de Ciências e Letras de Campo Mourão, FECILCAM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor titular</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Afastamento por 02 anos.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/1998 - 01/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Informática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/1998 - 01/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Coordenação de Ensino Geral, Centro de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Direção do Centro de Informática- Administração de Rede de Computadores. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Programa Nacional de Informática na Educação, PROINFO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor Multiplicador</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professores Multiplicadores do NTE(Núcleo de Tecnologia Educacional) Campo Mourão no curso de capacitação em Informática Aplicada à Educação para professores da rede Estadual e Municipal de Ensino.</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>CIES - Centro Integrado de Ensino Superior Ltda, CIES, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 20</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>BANESTADO PARTICIPAÇÕES, ADMINISTRAÇÃO E SERVIÇOS LTDA, BANESTADO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1988 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Digitador, Carga horária: 30, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Coamo Agroindustrial Cooperativa, COAMO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1984 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Operador de Computador, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Trombini Veículos Ltda, TROMBINI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1984</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: OffIce Boy, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Agropastoril Trombini Ltda, TROMBINI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1980 - 1982</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: OffIce Boy, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="84">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Engenharia de Software" tabindex="85"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Engenharia de Software</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="86">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="87">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="88">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="89"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="90"></a>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="91"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./2249157985559304_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="92">SILVA, N. N.</a></b> 
+						;
+					BELINE, W. ; SANTIN, A. O. . QUEBRANDO PARADIGMAS COM A UTILIZAÇÃO DO SOFTWARE LIVRE NA SEGURANÇA COMPUTACIONAL.. In: Conisli Congresso Internacional de Software Livre., 2003. Conisli Congresso Internacional de Software Livre., 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="93"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./2249157985559304_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="94">SILVA, N. N.</a></b> 
+						;
+					SANTIN, A. O. ; BELINE, W. . É Possível Garantir a Segurança da Informação de uma Empresa Através de Software Livre?. In: X Encontro Anual de Iniciação Científica, 2001, Ponta Grossa. Anais do X Encontro Anual de Iniciação Científica e I Encontro de Pesquisa da UEPG. Ponta Grossa: Editora UEPG, 2001. p. 296-297. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="95"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas" tabindex="96"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="97">SILVA, N. N.</a></b> 
+						;
+					GESTÃO ESCOLAR: Limites, possibilidades e desafios. 2011. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="98"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="99">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="100"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="101">SILVA, N. N.</a></b>.  Participação em banca de Ana Paula Gonçalves Stefeneti. A Influência das Concepções de Linguegem e no Material Didático no Ensino Aprendizagem de Lingua Portuguesa na Educação de Jovens e Adultos. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="102">SILVA, N. N.</a></b>.  Participação em banca de Ana Paula Pirolo Ramos. Educação e Trabalho no Brasil: O PROEJA como Nova Perspectiva de Ensino. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="103">SILVA, N. N.</a></b>.  Participação em banca de Claudia Maria Colaço Lemos. Uma Proposta de Avaliação para o PROEJA Sob uma Prerspectiva da Aprendizagem Significativa. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="104">SILVA, N. N.</a></b>.  Participação em banca de Djalma Gonçalves Ferreira. Informática - Contribuições e Fundamentação Teórica para a Educação de Jovens e Adultos Privados da Liberdade Inseridos na Educação de Jovens e Adultos (EJA). 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="105">SILVA, N. N.</a></b>.  Participação em banca de Edineia Fatima Maran. O Papel do Professor no Processo Ensino Aprendizagem da Leitura e da Produção Escrita na EJA e na PROEJA. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="106">SILVA, N. N.</a></b>.  Participação em banca de Elissandra Beneti Cateli. A Atualidade, os Avanços e Contradições do PROEJA. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="107">SILVA, N. N.</a></b>.  Participação em banca de Maria do Socorro Lima. Alfabetização na Educação de Jovens e Adultos. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="108">SILVA, N. N.</a></b>.  Participação em banca de Rosiely Cristine de Oliveira. Noções Básicas acerca do Programa de Educação para Jovens e Adultos. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="109">SILVA, N. N.</a></b>.  Participação em banca de Selma Ferreira de Lima Malagutti. Educação Profissional e Trabalho na Formação do Aluno no PROEJA. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="110">SILVA, N. N.</a></b>.  Participação em banca de Yolanda Maria Machado Padrilha. A Importância da Afetividade no Processo Ensino-Aprendizagem de Jovens e Adultos. 2009. Monografia (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="111">SILVA, N. N.</a></b>.  Participação em banca de Ana Aparecida Minichiello. Diversificar o Meio Ambiente Rural através da Educação para Jovens e Adultos no Campo. 2006. Monografia (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="112">SILVA, N. N.</a></b>.  Participação em banca de Lilian Pretel de Souza. O Uso das Tecnologias nas Disciplinas de Ciências e Biologia na EJA )Educação de Jovens e Adultos). 2006. Monografia (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="113">SILVA, N. N.</a></b>.  Participação em banca de Luzia de Matos Cora. O Uso das Tecnologias nas Disciplinas de Geografia no Enfoque EJA. 2006. Monografia (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="114">SILVA, N. N.</a></b>.  Participação em banca de Osmar Pereira Gomes Filho. A Inclusão de Jovens e Adultos Portadores de Deficiência Auditiva no Âmbito Educacional. 2006. Monografia (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="115">SILVA, N. N.</a></b>.  Participação em banca de Ronaldo Balan de Oliveira. Tecnologias que Podem Auxiliar no Ensino da Educação de Jovens e Adultos. 2006. Monografia (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="116">SILVA, N. N.</a></b>.  Participação em banca de Rosa Bernadette Tomain Souza Lima. Tecnologia como Ferramenta de Auxílio da Educação de Jovens e Adultos. 2006. Monografia (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="117">SILVA, N. N.</a></b>.  Participação em banca de José Cordeiro. O Computador Como Ferramenta na Educação de Jovens e Adultos. 2006. Monografia (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="118"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAIOCHI; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="119">SILVA, N. N.</a></b>; HALMEMAN. Concurso Público para cargo de professor de Ensino Superior: Informática..
+							2006. Faculdade Estadual de Ciências e Letras de Campo Mourão. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="120">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="121"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Workshop de Engenharia de Software - PPGI.Levantamento sobre disciplinas introdutórias à Computação em cursos de Engenharia. 2015. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="122">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas" tabindex="123"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CLAUDIA MARIA COLAÇO LEMOS.
+							Uma proposta de avaliação para o PROEJA sob uma perspectiva da aprendizagem significativa.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná-Campus Campo Mourão. Orientador: Narci Nogueira da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Djalma Gonçalves Ferreira.
+							Informática - Contribuições e Fundamentação Teórica para a Educação de Jovens e Adultos Privados da Liberdade Inseridos na Educação de Jovens e Adultos (EJA).
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. Orientador: Narci Nogueira da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Selma Ferreira de Lima Malagutti.
+							Educação Profissional e Trabalho na Formação do Aluno no PROEJA.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. Orientador: Narci Nogueira da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rosiely Cristine de Oliveira.
+							Noções Básicas acerca do Programa de Educação para Jovens e Adultos.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em II Curso de Especialização em Educação Profissiona)  - Universidade Tecnológica Federal do Paraná. Orientador: Narci Nogueira da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">José Cordeiro.
+							O Computador como Ferramenta na Educação de Jovens e Adultos.
+							2007.
+							Monografia. (Aperfeiçoamento/Especialização em I Curso de Especialização em Ecucação Profissional)  - Universidade Tecnológica Federal do Paraná. Orientador: Narci Nogueira da Silva.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA" tabindex="124">
+<h1 tabindex="0">Educação e Popularização de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="EntrevistasEPCTA" tabindex="125"></a><br class="clear"><div class="inst_back">
+<b>Entrevistas, mesas redondas, programas e comentários na mídia </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2249157985559304" target="_blank" tabindex="126">SILVA, N. N.</a></b> 
+						;
+					GESTÃO ESCOLAR: Limites, possibilidades e desafios. 2011. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes" tabindex="127">
+<h1 tabindex="0">Outras informações relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Aprovado no exame de proficiência em inglês TOEFL ITP com a pontuação total de 380. (Exame realizado no dia 03 de setembro de 2015).</pre>
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 9:20:13</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=2249157985559304" target="_blank" class="button" tabindex="128"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="129"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="130">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#OutrasInformacoesRelevantes" tabindex="13">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1010; left: 243.5px; top: 109px; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#LinhaPesquisa" tabindex="18">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#AreasAtuacao" tabindex="19">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProducaoBibliografica" tabindex="21">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ArtigosCompletos" tabindex="22">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ArtigosAceitos" tabindex="23">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#LivrosCapitulos" tabindex="24">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#TextosJornaisRevistas" tabindex="25">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#TrabalhosPublicadosAnaisCongresso" tabindex="26">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ApresentacaoTrabalho" tabindex="27">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#OutrasProducoesBibliograficas" tabindex="28">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#OutrasProducoesBibliograficas" tabindex="29">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#OutrasProducoesBibliograficas" tabindex="30">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#OutrasProducoesBibliograficas" tabindex="31">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProducaoTecnica" tabindex="32">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#AssessoriaConsultoria" tabindex="33">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#SoftwareSemPatente" tabindex="34">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProdutosTecnologicos" tabindex="35">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProcessosTecnicas" tabindex="36">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#TrabalhosTecnicos" tabindex="37">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#DemaisProducaoTecnica" tabindex="38">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#DemaisProducaoTecnica" tabindex="39">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#DemaisProducaoTecnica" tabindex="40">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#DemaisProducaoTecnica" tabindex="41">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ManutencaoObraArtistica" tabindex="42">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#DemaisProducaoTecnica" tabindex="43">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#EntrevistasMesasRedondas" tabindex="44">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#DemaisProducaoTecnica" tabindex="45">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#RedesSociais" tabindex="46">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#DemaisProducoesTecnicas" tabindex="47">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProducaoArtisticaCultural" tabindex="48">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ArtesCenicas" tabindex="49">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Musica" tabindex="50">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ArtesVisuais" tabindex="51">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#OutrasProducoesArtisticas" tabindex="52">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-educacaoPopularizacaoCTA" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ArtigosEPCTA" tabindex="54">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#LivrosCapitulosEPCTA" tabindex="55">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#TextosJornaisEPCTA" tabindex="56">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ApresentacoesTrabalhoEPCTA" tabindex="57">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProgramaComputadorEPCTA" tabindex="58">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#CursosCurtaEPCTA" tabindex="59">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#MaterialDidaticoEPCTA" tabindex="60">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#EntrevistasEPCTA" tabindex="61">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ProgramaComputadorRegistradoEPCTA" tabindex="62">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#OrganizacaoEventosEPCTA" tabindex="63">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#RedesSociaisEPCTA" tabindex="64">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ArtesVisuaisEPCTA" tabindex="65">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ArtesCenicasEPCTA" tabindex="66">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#MusicaEPCTA" tabindex="67">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ParticipacaoEventos" tabindex="69">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Orientacoesconcluidas" tabindex="71">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#Orientacaoemandamento" tabindex="72">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ParticipacaoBancasTrabalho" tabindex="74">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4707232J4#ParticipacaoBancasComissoes" tabindex="75">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4707232J4&tipo=completo&idiomaExibicao=1" tabindex="77">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

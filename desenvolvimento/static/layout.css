@@ -477,7 +477,7 @@ article .article-info a {
 
 .footer .footer-content ul {
 
-	width: 260px;
+	width: 180px;
 	list-style: none;
 	margin: 0 65px 0 0;
 	padding: 0;
@@ -631,7 +631,8 @@ article .article-info a {
 .text
 {
     list-style: none outside none;
-    top:-5px;
+    margin-left:5px;
+    margin-top:4px;
 
 }
 

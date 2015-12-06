@@ -57,6 +57,7 @@ class GeradorDeXML:
 				xmlTemp  = '  <pesquisador id="' + registro.idLattes + '">\n'
 					
 				xmlTemp += self.getDadosIdentificacao(registro)
+				# print (self.getDadosIdentificacao(registro))
 				xmlTemp += self.getIdiomas(registro)
 				xmlTemp += self.getDadosEndereco(registro)
 				xmlTemp += self.getFormacaoAcademica(registro)

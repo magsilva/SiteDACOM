@@ -1,0 +1,1650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Lucio Geronimo Valentin)</title>
+<link type="text/css" rel="stylesheet" href="./5818012075167720_files/import.css">
+<link type="text/css" href="./5818012075167720_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./5818012075167720_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./5818012075167720_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./5818012075167720_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./5818012075167720_files/espelho.css">
+<script type="text/javascript" async="" src="./5818012075167720_files/ga.js"></script><script type="text/javascript" src="./5818012075167720_files/jquery.min.js"></script><style type="text/css"></style><script src="./5818012075167720_files/jquery.cookie.js" type="text/javascript"></script><script src="./5818012075167720_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./5818012075167720_files/tooltip-position.js"></script><script type="text/javascript" src="./5818012075167720_files/jquery.tipsy.js"></script><script type="text/javascript" src="./5818012075167720_files/jquery.megamenu.js"></script><script type="text/javascript" src="./5818012075167720_files/byOrder.js"></script><script type="text/javascript" src="./5818012075167720_files/font-size.js"></script><script type="text/javascript" src="./5818012075167720_files/cv_citacoes.js"></script><script type="text/javascript" src="./5818012075167720_files/hint_ajax.js"></script><script type="text/javascript" src="./5818012075167720_files/menuFlowScroll.js"></script><script type="text/javascript" src="./5818012075167720_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./5818012075167720_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2" original-title="Imprimir currículo"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=5818012075167720" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="13" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="15" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProjetosPesquisa" class="acessibilidade separador" tabindex="18" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProducoesCientificas" class="acessibilidade separador" tabindex="22" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#PotencialInovacao" class="acessibilidade separador" tabindex="55" _megamenupos="5pos"><span></span>Inovação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#Eventos" class="acessibilidade separador" tabindex="70" _megamenupos="6pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#Bancas" class="acessibilidade separador" tabindex="73" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="76" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./5818012075167720_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Lucio Geronimo Valentin</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/5818012075167720</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 19/11/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Graduado em Informática pela Universidade Estadual de Maringá (2003) e mestre em Ciência da Computação pela Universidade Estadual de Maringá (2006). Tem experiência na área de Ciência da Computação, com ênfase em Engenharia de Software, atuando principalmente nos seguintes temas: Arquitetura de Software, Data Warehouse, Mineração de Dados e Ambientes de Descoberta de Conhecimento. Também desenvolveu trabalhos de iniciação científica com os temas: gráficos 3D, neurônios artificiais, estruturas neurais e digitalizador tridimensional. Atualmente é professor efetivo da Universidade Tecnológica Federal do Paraná - UTFPR (2008) e doutorando pela Universidade de São Paulo - USP (2011). O título atual de sua tese é representação de informações não-estruturadas de laudos de exames radiológicos através de modelagem interativa de grafos conceituais.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="78">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Lucio Geronimo Valentin<img src="./5818012075167720_files/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">VALENTIN, Lucio Geronimo</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="79">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Campus Campo Mourão. <br class="clear">BR 369 - km 0,5<br class="clear">87301-006 - Campo Mourao, PR - Brasil<br class="clear">Telefone: (44) 35234156<br class="clear">URL da Homepage: <a target="blank" href="http://cm.utfpr.edu.br/" tabindex="80">http://cm.utfpr.edu.br</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="81">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Ciencia da Computacao. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">Título: Representação de informações não-estruturadas de laudos de exames radiológicos através de modelagem interativa de grafos conceituais, <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/0926213060635986" tabindex="82"><img src="./5818012075167720_files/logolattes.gif"></a>Marcel Parolin Jackowski. <br class="clear">Palavras-chave: Descoberta de Conhecimento; Processamento de Linguagem Natural; Ontologia.<br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=40004015019P5&amp;nivelCurso=M"> (Conceito CAPES 3)</span>. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Uma Arquitetura de Software para Sistemas de Descoberta de Conhecimento em Banco de Dados,Ano de Obtenção: 2006.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/9860200333424680" tabindex="83"><img src="./5818012075167720_files/logolattes.gif"></a>Maria Madalena Dias.<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: Arquitetura de Referência; Arquitetura de Software; Data Warehouse.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bacharelado em Informática. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Investigação sobre a solução Rational para Captura de Requisitos. <br class="clear">Orientador: Itana Maria de Souza Gimenes. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Médio (2º grau). <br class="clear">Colégio Estadual Unidade Pólo, CEUP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Fundamental (1º grau). <br class="clear">Colégio Estadual Unidade Pólo, CEUP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - 1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Fundamental (1º grau). <br class="clear">Escola Municipal Ariovaldo Moreno, EMAM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="84">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade de São Paulo, USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: </div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor efetivo, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Sistemas de Informação<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Engenharia de Software<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Web Services e XML<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Linguagem de Programação III<br class="clear">Linguagem de Programação I<br class="clear">Banco de Dados II<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados II<br class="clear">Linguagem de Programação I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Linguaguem de Programação I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Linguagem de Programação I<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Orion Soft Tecnologia Ltda, ORION, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Sócio, Enquadramento Funcional: Gerente de Projeto, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Foram desenvolvidos dois projetos na empresa durante este período: 1) Sistema de administração de Sindicatos Patronais: A equipe possuía seis programadores que utilizaram a tecnologia Java 2EE e afins para desenvolver uma aplicação modular para ser acessada por meio de um navegador de Internet. 2) Sistema acadêmico gerencial: Este projeto foi desenvolvido em parceria com outras duas empresas. A equipe possuía nove programadores, dos quais seis eram do primeiro projeto. Toda a experiência da equipe e alguns módulos foram reutilizados neste segundo projeto. Dentre as experiências adquiridas neste período destacam-se o gerenciamento de equipe, documentação do processo de desenvolvimento de software, contato com tecnologias como Hibernate (persitência de objetos em bancos de dados relacionais), Spring (integração e configuração modular), Java Server Faces (componentes de interfaces WEB), JUnit (teste unitário), Apache Server (servidor de aplicações), xDoclet (anotações de metadados em código), controladores de repositório de projeto e por fim, ferramentas de entrega e implantação. Em ambas, atuei como gerente de projeto e programador.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Sócio, Enquadramento Funcional: Consultor de Desenvolvimento, Carga horária: 10</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Durante este período desenvolvi as funções de consultor técnico para alteração da tecnologia de desenvolvimento da empresa. A tecnologia Java foi escolhida e foi implantada no desenvolvimento dos novos projetos da empresa. Também participei do processo de seleção de novos colaboradores para a empresa e ainda dava suporte no processo de desenvolvimento.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Sócio, Enquadramento Funcional: Analista, programador e suporte, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Participei do desenvolvimento de um sistema gerencial para cooperativas odontológicas. Foi utilizado o Delphi para a implementação. Participei de todo o processo, desde o levantamento de requisitos até o suporte e manutenção. Durante este período também participei da implantação de servidores e da estrutura de rede dos computadores das empresas que utilizavam o sistema. O suporte era oferecido por telefone, e-mail e conexão remota.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2000 - 05/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Sede, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Desenvolvimento de Sistemas de Informação. </div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Aluno de Mestrado com Bolsa, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Aluno de mestrado sem bolsa, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Aluno de Graduação, Carga horária: 20</div>
+</div><br class="clear"><br class="clear"><div class="inst_back">
+<b>Totaltech Informática Ltda, TOTALTECH, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Técnico em Manutanção de Computadores, Carga horária: 44</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nesta empresa foram desenvolvidas atividades em suporte técnico, montagem e manutenção de computadores, configuração de sistema operacional e aplicativos de software, instalação física e lógica de redes de computadores.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1996 - 3/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Departamento Técnico, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear">Técnico em Hardware. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="85">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Busca inteligente em laudos e imagens de ultrassonografia" tabindex="86"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Busca inteligente em laudos e imagens de ultrassonografia<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto tem como objetivo a pesquisa e desenvolvimento de uma ferramenta de software capaz de realizar pesquisas em laudos e imagens de exames de ultrassonografia feitos através do Sistema Único de Saúde (SUS). Este projeto será realizado em parceria com o Instituto de Pesquisa e Ensino em Medicina Diagnóstica e Terapêutica (IPmed), que disponibilizará a base de dados. O desenvolvimento desta ferramenta possibilitará a extração de informações sobre a situação da saúde dessa parcela da população que utiliza os serviços do SUS.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Doutorado: (1) . <br class="clear"><br class="clear">Integrantes: Lucio Geronimo Valentin - Coordenador / Marcel Parolin Jackowski - Integrante.<br class="clear"></div>
+</div><a name="PP_Construção de um Data Warehouse para Gestão em Ciência e Tecnologia" tabindex="87"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Construção de um Data Warehouse para Gestão em Ciência e Tecnologia<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este é um projeto de pesquisa institucional que tem como objetivo dar continuidade ao trabalho desenvolvido na dissertação de mestrado de Andre L.A. Menolli, orientada pela coordenadora deste projeto. Assim, pretende-se neste projeto analisar outras fontes de dados que poderão ser integradas no DW construído por Menolli, alem daquelas ja integradas (Curriculo Lattes do CNPq e Datacapes da CAPES).. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (3) . <br class="clear"><br class="clear">Integrantes: Lucio Geronimo Valentin - Integrante / Maria Madalena Dias - Coordenador / Adriana Herden - Integrante / Harisson Valter Cezarino - Integrante / Roger Marquardt - Integrante / José Rafael Carvalho - Integrante.<br class="clear"><br class="clear">Número de produções C, T &amp; A: 4</div>
+</div><a name="PP_Digitalizador 3D de Baixo Custo" tabindex="88"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Digitalizador 3D de Baixo Custo<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo maior do projeto foi pesquisar e desenvolver um digitalizador (scanner) 3D de baixo custo. O projeto também serviu para dismistificar as tecnologias necessárias a construção de tal ferramenta. Estudos foram realizados acerca de montagem de cistuitos eletrônicos, programação em ambiente Delphi, bibliotecas de rotinas gráficas 3D, captura e análise de imagens, e construção de modelos tridimensionais.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (1)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Lucio Geronimo Valentin - Integrante / Luís Augusto Consularo - Coordenador.<br class="clear">Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear">Número de produções C, T &amp; A: 1</div>
+</div><a name="PP_Representação Bi e Tridimensional de Células e Estruturas Neurais Artificiais" tabindex="89"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Representação Bi e Tridimensional de Células e Estruturas Neurais Artificiais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto teve como objetivo o desenvolvimento de uma biblioteca DLL como base para construção de um software visualizador 3D de estruturas neurais artificiais. Como resultado do projeto, foram desenvolvidos a biblioteca DLL e o software de visualização. Estudos foram realizados sobre Computação Gráfica, DirectX, OpenGL, Windows API, MFC, MS Visual C++ e Delphi. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Lucio Geronimo Valentin - Integrante / Marcos Silvano Almeida - Integrante / Regina Célia Coelho - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento" tabindex="90">
+<h1 tabindex="0">Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Desenvolvimento de ferramenta para extração de informações de laudos médicos de ultrassonografia transvaginal" tabindex="91"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de ferramenta para extração de informações de laudos médicos de ultrassonografia transvaginal<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Desenvolvimento. <br class="clear">Alunos envolvidos: Doutorado: (1) . <br class="clear"><br class="clear">Integrantes: Lucio Geronimo Valentin - Coordenador / Marcel Parolin Jackowski - Integrante / Andrea Parolin Jackowski - Integrante.<br class="clear">Financiador(es): Instituto de Pesquisa e Ensino em Medicina Diagnós - Cooperação.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="OutrosProjetos" tabindex="92">
+<h1 tabindex="0">Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Elaboração de Material Didático de apoio à Computação Gráfica e Visão Cibernética" tabindex="93"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Elaboração de Material Didático de apoio à Computação Gráfica e Visão Cibernética<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo principal deste projeto foi a elaboração de materiais didáticos com conteúdos abordando tópicos das diciplinas de Computação Gráfica e Visão Cibernética.. <br class="clear">Situação: Concluído; Natureza: Outra. <br class="clear">Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Lucio Geronimo Valentin - Coordenador / Marcos Silvano Almeida - Integrante.<br class="clear">Financiador(es): Universidade Estadual de Maringá - Bolsa.</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="94">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Lingüística, Letras e Artes / Área: Artes / Subárea: Música/Especialidade: Instrumentação Musical. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="95">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende RazoavelmenteLê Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="96">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="97"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="98"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="99"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">VALENTIN, Lucio Geronimo</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2008</span>
+		<img src="./5818012075167720_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="100">VALENTIN, Lucio Geronimo</a></b> 
+							;
+						<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9860200333424680" target="_blank" tabindex="101">DIAS, M. M.</a> ; PACHECO, R. C. S. . Questões importantes na implementação de software. Revista Tecnológica (UEM)<sup></sup>, v. 17, p. 73-80, 2008. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=15178048&amp;volume=17&amp;issue=&amp;paginaInicial=73&amp;titulo=Questões importantes na implementação de software&amp;sequencial=1&amp;nomePeriodico=Revista Tecnológica (UEM)" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="102"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./5818012075167720_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="103">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9860200333424680" target="_blank" tabindex="104">DIAS, M. M.</a> . From Reference Architecture towardsSoftware Architecture for Knowledge Discovery in Database Systems. In: XXXIV Conferência Latinoamericana de Informática, 2008, Santa Fé. XXXIV CLEI, 2008. p. 679-688. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./5818012075167720_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="105">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9860200333424680" target="_blank" tabindex="106">DIAS, M. M.</a> ; PACHECO, R. C. S. . An Environment of Knowledge Discovery in Database. In: SEKE'06, 2006, San Francisco, USA. Eighteenth International Conference on Software Engineering &amp; Knowledge Engineering, 2006,, 2006. p. 676-681. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="107">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					CONSULARO, Luís Augusto . Digitalizador 3D de Baixo Custo. In: XI Encontro Anual de Iniciação Científica - EAIC, 2002, Maringá. Anais do XI Encontro Anual de Iniciação Científica. Maringá: Editora da UEM, 2002. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica" tabindex="108"></a><br class="clear"><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria" tabindex="109"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="110">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					Relatório Parcial de Projeto: Representação Bi e Tridimensional de Células e Estruturas Neurais Artificiais. 2000. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente" tabindex="111"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="112">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				ALMEIDA, Marcos Silvano ; GONCALVES, R. A. ; BORSATO, F. H. ; GONCALVES, P. C. . DACOM Touch. 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./5818012075167720_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="113">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				ALVES, A. A. F. . Monstrengo. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./5818012075167720_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="114">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9860200333424680" target="_blank" tabindex="115">DIAS, M. M.</a> . Framework de Desenvolvimento de Sistemas de KDD. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="116">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				Software do Digitalizador 3D de Baixo Custo. 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="117">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				ALMEIDA, Marcos Silvano . Biblioteca DLL para construção de softwares de visualização tridimensional de neurônios artificiais. 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="118">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				ALMEIDA, Marcos Silvano . Visualizador Tridimensional de Estruturas Neurais Morfologicamente Realistas. 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="119">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				ALMEIDA, Marcos Silvano ; POSTAI, Rodrigo ; MOREIRA, Marcell Matheus Monaco . Simulador de Escalonador de Sistema Operacional. 2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ProdutosTecnologicos" tabindex="120"></a>Produtos tecnológicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="121">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					Hardware do Digitalizador 3D de Baixo Custo. 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos" tabindex="122"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="123">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					ALMEIDA, Marcos Silvano . Advergame Socio-Cultural. 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="124">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					Relatório Final de Projeto: Representação Bi e Tridimensional de Células e Estruturas Neurais Artificiais. 2001. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="125">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="126"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="127">VALENTIN, Lucio Geronimo</a></b>; STEINMACHER, I. F.; STEINMACHER, A. P. C..  Participação em banca de Marcelo Koti Nishi.Um sistema baseado em inteligência coletiva para visualização de problemas em vias plúblicas.
+							2012. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear"><br class="clear"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="128">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="129"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIV Conferencia Latinoamericana de Informática. From Reference Architecture towards Software Architecture for Knowledge Dicovery in Database Sustems. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Encontro Anual de Iniciação Científica - EAIC.XI Encontro Anual de Iniciação Científica - EAIC.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Encontro Anual de Iniciação Científica - EAIC.
+							2001. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum de Informática e Tecnologia do Norte do Paraná - FITEN. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="130"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="131">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					V Simpósio de Estágios da COINT/COINF - 2011-2. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="132">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					IV Simpósio de Estágios da COINT/COINF - 2011-1. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="133">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					II Simpósio de Estágios da COINT/COINF - 2010-1. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="134">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					III Simpósio de Estágios da COINT/COINF - 2010-2. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="135">VALENTIN, Lucio Geronimo</a></b> 
+						;
+					I Simpósio de Estágios da COINT/COINF - 2009-2. 2009. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PotencialInovacao" tabindex="136">
+<h1 tabindex="0">Inovação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProgramaComputadorSemRegistroPI" tabindex="137"></a><br class="clear"><div class="inst_back">
+<b>Programa de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./5818012075167720_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="138">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				ALVES, A. A. F. . Monstrengo. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="139">VALENTIN, Lucio Geronimo</a></b> 
+					;
+				ALMEIDA, Marcos Silvano ; GONCALVES, R. A. ; BORSATO, F. H. ; GONCALVES, P. C. . DACOM Touch. 2014. </div>
+</div>
+<br class="clear">
+<a name="ProjetosPesquisaPI" tabindex="140"></a><br class="clear"><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+<a name="ProjetoDesenvolvimentoTecnologicoPI" tabindex="141"></a><br class="clear"><div class="inst_back">
+<b>Projeto de desenvolvimento tecnológico</b>
+</div>
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 9:12:52</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=5818012075167720" target="_blank" class="button" tabindex="142"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="143"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="144">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#FormacaoAcademicaTitulacao" tabindex="14">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#AtuacaoProfissional" tabindex="16">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#AreasAtuacao" tabindex="17">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProjetosPesquisa" tabindex="19">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProjetosDesenvolvimento" tabindex="20">Projetos de desenvolvimento</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OutrosProjetos" tabindex="21">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProducaoBibliografica" tabindex="23">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ArtigosCompletos" tabindex="24">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ArtigosAceitos" tabindex="25">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#LivrosCapitulos" tabindex="26">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#TextosJornaisRevistas" tabindex="27">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#TrabalhosPublicadosAnaisCongresso" tabindex="28">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ApresentacaoTrabalho" tabindex="29">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OutrasProducoesBibliograficas" tabindex="30">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OutrasProducoesBibliograficas" tabindex="31">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OutrasProducoesBibliograficas" tabindex="32">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OutrasProducoesBibliograficas" tabindex="33">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProducaoTecnica" tabindex="34">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#AssessoriaConsultoria" tabindex="35">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#SoftwareSemPatente" tabindex="36">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProdutosTecnologicos" tabindex="37">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProcessosTecnicas" tabindex="38">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#TrabalhosTecnicos" tabindex="39">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DemaisProducaoTecnica" tabindex="40">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DemaisProducaoTecnica" tabindex="41">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DemaisProducaoTecnica" tabindex="42">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DemaisProducaoTecnica" tabindex="43">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ManutencaoObraArtistica" tabindex="44">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DemaisProducaoTecnica" tabindex="45">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#EntrevistasMesasRedondas" tabindex="46">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DemaisProducaoTecnica" tabindex="47">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#RedesSociais" tabindex="48">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DemaisProducoesTecnicas" tabindex="49">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProducaoArtisticaCultural" tabindex="50">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ArtesCenicas" tabindex="51">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#Musica" tabindex="52">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ArtesVisuais" tabindex="53">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OutrasProducoesArtisticas" tabindex="54">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-potencialInovacao" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#PatentePI" tabindex="56">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProgramaComputadorRegistradoPI" tabindex="57">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#CultivarProtegidaPI" tabindex="58">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#CultivarRegistradaPI" tabindex="59">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#DesenhoIndustrialRegistradoPI" tabindex="60">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#MarcaRegistradaPI" tabindex="61">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#TopografiaCircuitoIntegradoRegistradaPI" tabindex="62">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProgramaComputadorSemRegistroPI" tabindex="63">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProdutosPI" tabindex="64">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProcessosTecnicasPI" tabindex="65">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProjetosPesquisaPI" tabindex="66">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProjetoDesenvolvimentoTecnologicoPI" tabindex="67">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ProjetoExtensaoPI" tabindex="68">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OutrosProjetosPI" tabindex="69">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ParticipacaoEventos" tabindex="71">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#OrganizacaoEventos" tabindex="72">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ParticipacaoBancasTrabalho" tabindex="74">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4701238E7#ParticipacaoBancasComissoes" tabindex="75">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4701238E7&tipo=completo&idiomaExibicao=1" tabindex="77">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

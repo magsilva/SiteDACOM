@@ -1,0 +1,2333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2 -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (André Luís Schwerz)</title>
+<link type="text/css" rel="stylesheet" href="./4954414332524750_files/import.css">
+<link type="text/css" href="./4954414332524750_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./4954414332524750_files/impressao.css">
+<link type="text/css" rel="stylesheet" href="./4954414332524750_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./4954414332524750_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./4954414332524750_files/espelho.css">
+<script type="text/javascript" async="" src="./4954414332524750_files/ga.js"></script><script type="text/javascript" src="./4954414332524750_files/jquery.min.js"></script><style type="text/css"></style><script src="./4954414332524750_files/jquery.cookie.js" type="text/javascript"></script><script src="./4954414332524750_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./4954414332524750_files/tooltip-position.js"></script><script type="text/javascript" src="./4954414332524750_files/jquery.tipsy.js"></script><script type="text/javascript" src="./4954414332524750_files/jquery.megamenu.js"></script><script type="text/javascript" src="./4954414332524750_files/byOrder.js"></script><script type="text/javascript" src="./4954414332524750_files/font-size.js"></script><script type="text/javascript" src="./4954414332524750_files/cv_citacoes.js"></script><script type="text/javascript" src="./4954414332524750_files/hint_ajax.js"></script><script type="text/javascript" src="./4954414332524750_files/menuFlowScroll.js"></script><script type="text/javascript" src="./4954414332524750_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});       
+			
+			  
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./4954414332524750_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="2"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="3"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="4"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="5"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=4954414332524750" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="6"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="7"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="8">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="9" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="16" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProjetosPesquisa" class="acessibilidade separador" tabindex="19" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProducoesCientificas" class="acessibilidade separador" tabindex="21" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Eventos" class="acessibilidade separador" tabindex="54" _megamenupos="5pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Orientacoes" class="acessibilidade separador" tabindex="57" _megamenupos="6pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Bancas" class="acessibilidade separador" tabindex="60" _megamenupos="7pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="63" _megamenupos="8pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./4954414332524750_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">André Luís Schwerz</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/4954414332524750</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 01/11/2015</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ciência da Computação pela Universidade Federal de Mato Grosso do Sul (2003) e mestrado em Ciência da Computação pela Universidade Estadual de Maringá (2006). Atualmente é professor da Universidade Tecnológica Federal do Paraná.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="65">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">André Luís Schwerz<img src="./4954414332524750_files/icon-rfb.png" class="alinhamento-texto-img" title="Dados cadastrais validados junto a Receita Federal do Brasil"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SCHWERZ, André Luís;SCHWERZ, ANDRE LUIS;SCHWERZ, André</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="66">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Campus Campo Mourão. <br class="clear">Via Marginal Rosalina Maria dos Santos<br class="clear">Área Urbanizada I<br class="clear">87301899 - Campo Mourão, PR - Brasil - Caixa-postal: 271<br class="clear">Telefone: (44) 35234156<br class="clear">Ramal: 249<br class="clear">URL da Homepage: <a target="blank" href="http://www.utfpr.edu.br/campomourao" tabindex="67">http://www.utfpr.edu.br/campomourao</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="68">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Ciencia da Computacao. <br class="clear">Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear">com <b>período </b><b>sanduíche </b> em Georgia Institute of Technology (Orientador: Calton Pu). <br class="clear">Título: Compartilhamento de Dados entre Transações Longas, <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/0131770792108992" tabindex="69"><img src="./4954414332524750_files/logolattes.gif"></a>João Eduardo Ferreira. <br class="clear">Bolsista do(a): Fundação Araucária, FUND. ARAUCÁRIA, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&amp;codigoCurso=40004015019P5&amp;nivelCurso=M"> (Conceito CAPES 3)</span>. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Uma Proposta de um Modelo de Tarefas em um Ambiente de Monitoramento da Usabilidade,Ano de Obtenção: 2006.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/9632527229517196" tabindex="70"><img src="./4954414332524750_files/logolattes.gif"></a>Sérgio Roberto P da Silva.<br class="clear">Palavras-chave: Avaliação de Usabilidade de Sistemas Interativos; Arquivo de Log do Servidor; Interação Humano-Computador; Modelo de Tarefa; Websites.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Interação Humano-Computador. <br class="clear">Setores de atividade: Consultoria em Sistemas de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciência da Computação. <br class="clear">Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	<br class="clear">Título: Montagem de Fragmentos. <br class="clear">Orientador: Nalvo Franco de Almeida Junior. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="71">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Prof. do Ensino Básico, Técnico e Tenológico, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Progressão funcional por mérito da Classe DIII do nível 1 para o nível 2 de acordo com a portaria n. 005 de 12 de janeiro de 2009. Progressão funcional por mérito da Classe DIII do nível 2 para o nível 3 de acordo com a portaria n. 126 de 4 de agosto de 2010. Progressão funcional por mérito da Classe DIII do nível 3 para o nível 4 de acordo com a portaria n. 020 de 10 de fevereiro de 2012. Promoção funcional para a Classe DIII nível 4 para Classe DIV nível 1 de acordo com a portaria n. 224 de 11 de dezembro de 2013. Reconhecimento de Saberes e Competências - RSCIII de acordo com a portaria n. 2574 de 22 de dezembro de 2014.</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Banco de Dados 2<br class="clear">Tópicos Avançados em Ciência da Computação 2<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2010 - 11/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Integrante do núcleo docente estruturante do Curso Superior de Tecnologia em Sistemas para Internet de acordo com as portarias n. 160 de 19 de agosto de 2010 e n. 166 de 30 de agosto de 2011 e com a portaria n. 020 de 11 de fevereiro de 2014..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do colegiado do curso de bacharelado em ciência da computação como responsável pelo trabalho de conclusão de curso de acordo com portaria n. 024 de 15 de fevereiro de 2013 e portaria n.157 de 6 de setembro de 2013 ..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2012 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da comissão responsável pela elaboração do projeto de readequação da estrutura física dos laboratórios de informática de acordo com as portarias n. 200 de 20 de dezembro de 2012 e n. 189 de 21 de novembro de 2012..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2009 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro do colegiado do Curso Superior de Tecnologia em Sistemas para Internet como responsável pelo TCC de acordo com as portarias n. 039 de 8 de março de 2012, n. 098 de 14 de maio de 2010, n. 143 de 31 de agosto de 2009 e n.158 de 6 de setembro de 2013..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 08/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Desenvolvimento Web II / Curso Técnico Integrado em Informática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 08/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia de Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Construção de Páginas Web III<br class="clear">Trabalho de Conclusão de Curso<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2011 - 03/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Professor substituto do coordenador do curso Técnico Integrado em Informática de acordo com as portarias n. 0493 de 11 de abril de 2011 e n. 0622 de 11 de março de 2013..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2012 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Ambientação em Ensino a Distância / Curso Técnico Subsequente em Meio Ambiente<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 04/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da banca examinadora para avaliação individual e antecipada de conhecimentos, atitudes e habilidades da disciplina de Desenvolvimento Web I de acordo com portaria n.061 de 27 de março de 2012..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - 02/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da comissão especial de análise de jubilamento de acordo com a portaria n. 025 de 18 de fevereiro de 2011.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro de comissão de sindicância de acordo com portaria n. 195 de 21 de outubro de 2011..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2011 - 10/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro de banca examinadora para avaliação individual e antecipada de conhecimentos, atitudes e habilidades da disciplina de Construção de Páginas Web I de acordo com portaria n. 175 de 9 de setembro de 2011.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 10/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear">Curso de Preparação para o POSCOMP 2011. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2011 - 09/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Presidente da comissão interna de reestruturação do curso Técnico Integrado em Informática no campus Campo Mourão de acordo com a portaria n. 073 de 29 de abril de 2011.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2011 - 05/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Presidente da comissão de conscientização sobre os aspectos éticos e sociais na formação dos alunos do Curso Técnico Integrado em Informática de acordo com a portaria n. 103 de 25 de maio de 2011..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 02/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da comissão especial de análise de jubilamento de acordo com a portaria n. 021 de 19 de fevereiro de 2010.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2010 - 11/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da comissão responsável pela organização da documentação e adequações para o reconhecimento do Curso Superior de Tecnologia em Sistemas para Internet de acordo com a portaria n. 202 de 29 de outubro de 2010..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 02/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da comissão especial de análise de jubilamento de acordo com a portaria n. 033 de 16 de fevereiro de 2010.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Multimeios Aplicado a Meio Ambiente / Curso Técnico Subsequente em Meio Ambiente<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Responsável pela participação do campus na XI Olimpíada Brasileira de Informática 2009 de acordo com a portaria n. 069 de 27 de março de 2009.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Disciplina: Desenvolvimento Web II / Curso Técnico Integrado em Informática<br class="clear">Disciplina: Linguagem de Programação I / Curso Técnico Integrado em Informática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia de Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Construção de Páginas Web I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2008 - 05/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da comissão para elaboração de regulamento da portaria e das normas de acesso aos diversos ambientes do campus de Campo Mourão de acordo com as portarias n. 184 de 28 de novembro de 2008 e n. 042 de 26 de fevereiro de 2009..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Campo Mourão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Membro da comissão responsável pela divulgação do vestibular de verão 2009 e do exame de seleção 2009 de acordo com a portaria n. 151 de 02 de outubro de 2008.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia de Sistemas para Internet, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Construção de Páginas Web I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Desenvolvimento Web I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algoritmos<br class="clear">Informática<br class="clear">Sistemas Operacionais<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdade Integrado de Campo Mourão, INTEGRADO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 17</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2006 - 7/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise e Desenvolvimento de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos de Banco de Dados<br class="clear">Modelagem de Dados<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Faculdades Integradas do Vale do Ivaí, UNIVALE*, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 4</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2006 - 1/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Processamento de Dados, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Análise e Projeto de Sistemas II<br class="clear">Pesquisa Operacional<br class="clear">Fundamentos da Computação<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágiario, Enquadramento Funcional: Outro, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2004 - 4/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados , Centro de Ciências Exatas e Tecnologia, Núcleo de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados<br class="clear">SCPG - Sistema de Controle de Pós-Graduação<br></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/2002 - 4/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Centro de Ciências Exatas e Tecnologia, Núcleo de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear">NIN/UFMS. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosExtensao" tabindex="72">
+<h1 tabindex="0">Projetos de extensão</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Proposta de apoio computacional no processo ensino-aprendizagem dos alunos com necessidades especiais da APAE Campo Mourão" tabindex="73"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Proposta de apoio computacional no processo ensino-aprendizagem dos alunos com necessidades especiais da APAE Campo Mourão<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto propõe apoiar o processo de ensino aprendizagem de crianças com necessidades educacionais especiais utilizando Tecnologias de Informação e Comunicação, na Escola de Educação Especial Josephina Wendling Nunes, mantida pela Associação de Pais e Amigos dos Excepcionais no município de Campo Mourão, Paraná. O foco principal do projeto é disseminar o uso do computador na educação especial favorecendo a inclusão digital de indivíduos com necessidades educacionais especiais. Para atingir este foco os professores envolvidos no projeto devem orientar alunos do Técnico Integrado em Informática e do Curso Superior de Tecnologia em Sistemas para Internet em diferentes atividades de pesquisa, extensão e desenvolvimento. Entre estas atividades pode-se destacar a elaboração de objetos de aprendizagem que auxiliem atividades de desenvolvimento motor e cognitivo motivando o uso do computador por alunos com necessidades educacionais especiais. Outro relevante aspecto previsto neste projeto é a inclusão digital dos alunos com deficiência visual que atualmente não utilizam o computador em suas atividades na escola.. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (4) . <br class="clear"><br class="clear">Integrantes: André Luís Schwerz - Coordenador / Marcos Silvano Orita Almeida - Integrante / Selma Cristina Krenski - Integrante / Lucas Perassoli Melquiades - Integrante / Luiz Philipe Serrano Alves - Integrante / Rodrigo Takashi Kuroda - Integrante / Ana Claudia Maciel - Integrante.<br class="clear">Financiador(es): Instituto do Patrimônio Histórico e Artístico Nacional - DF - Auxílio
+										financeiro / Ministério da Cultura - Auxílio
+										financeiro / Ministério do Trabalho e Emprego - Auxílio
+										financeiro / Ministério da Educação - Auxílio
+										financeiro.<br class="clear">Número de produções C, T &amp; A: 3 / Número de orientações: 1</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="74">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Interação Humano-Computador. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="75">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="PremiosTitulos" tabindex="76">
+<h1 tabindex="0">Prêmios e títulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3o. Lugar Regional do The 2003 ACM South América Programming Contest, ACM. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="77">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="78"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="79"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="80"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">STEINMACHER, Igor Fábio</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5329/resi.2014.1302005" target="_blank" tabindex="81"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="82">STEINMACHER, Igor Fábio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="83">WIESE, Igor Scaliante</a> ; <b>SCHWERZ, André Luís</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="84">ROBERTO, Rafael Liberato</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0131770792108992" target="_blank" tabindex="85">FERREIRA, João Eduardo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="86">GEROSA, Marco Aurélio</a> . HISTORICAL ANALYSIS OF MESSAGE CONTENTS TO RECOMMEND ISSUES TO OPEN SOURCE SOFTWARE CONTRIBUTORS. RESI : Revista Eletrônica de Sistemas de Informação<sup></sup>, v. 13, p. 6, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.5329/resi.2014.1302005&amp;issn=16773071&amp;volume=13&amp;issue=&amp;paginaInicial=6&amp;titulo=HISTORICAL ANALYSIS OF MESSAGE CONTENTS TO RECOMMEND ISSUES TO OPEN SOURCE SOFTWARE CONTRIBUTORS&amp;sequencial=1&amp;nomePeriodico=RESI : Revista Eletrônica de Sistemas de Informação" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos" tabindex="87"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="88">ROBERTO, Rafael Liberato</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="89">SCHWERZ, André Luís</a></b> . Utilização de Multimeios. 1. ed. Cuiabá: UAB/edUFMT, 2010. 93p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="90"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="91">ROBERTO, Rafael Liberato</a> ; <b>SCHWERZ, André Luís</b> ; PU, Calton ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0131770792108992" target="_blank" tabindex="92">FERREIRA, João Eduardo</a> . Abordagem Transacional para Padrões de Controle de Fluxo de Processos Científicos e de Negócios. In: XXX Simpósio Brasileiro de Banco de Dados, 2015, Petrópolis. XXX Simpósio Brasileiro de Banco de Dados, 2015. p. 15-20. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="93">ROBERTO, Rafael Liberato</a> ; <b>SCHWERZ, André Luís</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6670304965931085" target="_blank" tabindex="94">TAKAI, Osvaldo Kotaro</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0131770792108992" target="_blank" tabindex="95">FERREIRA, João Eduardo</a> . Gerenciador de Dados Compartilhados entre Processos de Negócio: Data-Control Process para WED-Tool. In: VIII Workshop Brasileiro em Gestão de Processos de Negócios, 2014, Londrina. X Simpósio Brasileiro de Sistemas de Informação, 2014. v. 2. p. 26-33. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="96">SCHWERZ, André Luís</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="97">ROBERTO, Rafael Liberato</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="98">WIESE, Igor Scaliante</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="99">STEINMACHER, Igor Fábio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="100">GEROSA, Marco Aurélio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0131770792108992" target="_blank" tabindex="101">FERREIRA, João Eduardo</a> . Predizendo a Participação de Desenvolvedores em Discussões em Projetos de Software Livre. In: XIV Workshop de Software Livre (WSL 2013), 2013, Porto Alegre. Workshop de Software Livre, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SBSC.2012.27" target="_blank" tabindex="102"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="103">SCHWERZ, André Luís</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="104">ROBERTO, Rafael Liberato</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="105">WIESE, Igor Scaliante</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="106">STEINMACHER, Igor Fábio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4507073071352893" target="_blank" tabindex="107">GEROSA, Marco Aurélio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0131770792108992" target="_blank" tabindex="108">FERREIRA, João Eduardo</a> . Prediction of Developer Participation in Issues of Open Source Projects. In: 2012 Brazilian Symposium on Collaborative Systems (SBSC), 2012, Sao Paulo. 2012 Brazilian Symposium on Collaborative Systems. p. 109. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3148238617605718" target="_blank" tabindex="109">MELQUIADES, Lucas Perassoli</a> ; KRENSKI, Selma Cristina ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="110">ALMEIDA, Marcos Silvano Orita</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="111">SCHWERZ, André Luís</a></b> . O Uso de uma Ferramenta de Autoria como Apoio Computacional no Ensino de Alunos com Necessidades Especiais. In: 5th Latin American Conference on Learning Objects - LACLO, 2010, São Paulo. 5th Latin American Conference on Learning Object. São Paulo: LACLO, 2010. p. 111-117. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1817767231176728" target="_blank" tabindex="112">FRANCISCO, Mariana Salamoni</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="113">WIESE, Igor Scaliante</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="114">ROBERTO, Rafael Liberato</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="115">SCHWERZ, André Luís</a></b> . Um Objeto Jogo baseado no Tangram direcionado ao Ensino Fundamental. In: 3a. UTCiência, 2009, Campo Mourão. 3a. UTCiência, 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1817767231176728" target="_blank" tabindex="116">FRANCISCO, Mariana Salamoni</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="117">WIESE, Igor Scaliante</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="118">ROBERTO, Rafael Liberato</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="119">SCHWERZ, André Luís</a></b> . Um Objeto Jogo baseado no Tangram aplicado no Ensino Fundamental. In: 2a. UTCiência, 2008, Campo Mourão. 2a. UTCiência. Campo Mourão: Universidade Tecnológica Federal do Paraná, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Jéssica Raifur ; CAMPOS, Angela Gadotti ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="120">ROBERTO, Rafael Liberato</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="121">WIESE, Igor Scaliante</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1838875919713622" target="_blank" tabindex="122">BUENO, Paulo Agenor Alves</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="123">SCHWERZ, André Luís</a></b> . Um Objeto de Aprendizagem Aplicado ao Ensino da Mitose na Biologia. In: 2a. UTCiência, 2008, Campo Mourão. 2a. UTCiência. Campo Mourão: Universidade Tecnológica Federal do Paraná, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4954414332524750_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-540-73105-4_129" target="_blank" tabindex="124"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="125">SCHWERZ, André Luís</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7235951485247158" target="_blank" tabindex="126">MORANDINI, Marcelo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9632527229517196" target="_blank" tabindex="127">SILVA, Sergio Roberto da</a> . A Task Model Proposal for Web Sites Usability Evaluation for the ErgoMonitor Environment. In: 12th International Conference, HCI International 2007, 2007, Beijing, China. Human-Computer Interaction. Interaction Design and Usability. Lecture Notes in Computer Science. Berlin, Germany: Springer, 2007. v. 4550. p. 1188-1197. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4954414332524750_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="128">SCHWERZ, André Luís</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7235951485247158" target="_blank" tabindex="129">MORANDINI, Marcelo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6985892121344767" target="_blank" tabindex="130">ROCHA, Heloísa Vieira da</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0646596036246889" target="_blank" tabindex="131">CYBIS, Walter de Abreu</a> . ErgoMonitor: Web Sites Environment Usability Monitoring Using the Log Files Analysis. In: 11th International Conference on Human-Computer Interaction, 2005, Las Vegas. Proceedings of 11th International Conference on Human-Computer Interaction, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="./4954414332524750_files/ico_relevante.gif" style="icone-relevancia">
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="132">SCHWERZ, André Luís</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7235951485247158" target="_blank" tabindex="133">MORANDINI, Marcelo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0646596036246889" target="_blank" tabindex="134">CYBIS, Walter de Abreu</a> . Ergo-Monitor: Ambiente de Monitoramento da Usabillidade de Web Sites Analisando Arquivos de Log. In: IV Simpósio Brasileiro de Qualidade de Software, 2005, Porto Alegre. IV Simpósio Brasileiro de Qualidade de Software, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="135">SCHWERZ, André Luís</a></b> 
+						;
+					<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7235951485247158" target="_blank" tabindex="136">MORANDINI, Marcelo</a> . Definição e Prototipagem no Monitoramento de Usabilidade em Ambiente WEB. In: VI Fórum de Informática e Tecnologia de Maringá, 2004, Maringá. VI Fórum de Informática e Tecnologia de Maringá, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="137"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2906049721153618" target="_blank" tabindex="138">SILVA, Gabriel Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5545891505433768" target="_blank" tabindex="139">RE, Reginaldo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="140">KAWAMOTO, André Luis Satoshi</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="141">SCHWERZ, André Luís</a></b> . Uma Experiência na Aplicação de Práticas de Apoio no Ensino-Aprendizado de Algoritmos. In: XXII Simpósio Brasileiro de Informática na Educação/XVII Workshop de Informática na Escola, 2011, Aracajú. Anais do XXII Simpósio Brasileiro de Informática na Educação/XVII Workshop de Informática na Escola, 2011. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="142"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7235951485247158" target="_blank" tabindex="143">MORANDINI, Marcelo</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="144">SCHWERZ, André Luís</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8788636422042754" target="_blank" tabindex="145">TAIT, Tania Fatima Calvi</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2377044759133452" target="_blank" tabindex="146">MEDEIROS FILHO, Dante Alves</a> . Citizenship Integration and Ergonomics Criteria in Development of Brazilian Municipal Web Sites. In: 13th International Conference on Human-Computer Interaction (HCI International 2009), 2009, San Diego, CA, USA. Proceedings of 13th International Conference on Human-Computer Interaction (HCII2009). San Diego, CA, USA: HCI International, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="147"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3058607234809133" target="_blank" tabindex="148">KURODA, Rodrigo Takashi</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="149">ALMEIDA, Marcos Silvano Orita</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="150">SCHWERZ, André Luís</a></b> . Proposta de apoio computacional no processo ensino-aprendizagem dos alunos com necessidades especiais da APAE de Campo Mourão. 2011. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="151">ALMEIDA, Marcos Silvano Orita</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="152">SCHWERZ, André Luís</a></b> . Proposta de apoio computacional no processo de ensino-aprendizagem dos alunos com necessidades especiais da APAE. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="153">SCHWERZ, André Luís</a></b> 
+							;
+						IHC - Interação Humano-Computador. 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="154">SCHWERZ, André Luís</a></b> 
+							;
+						Concepção e Implementação de uma Proposta do Modelo de Tarefas no Ambiente de Monitoramento de Usabilidade de Websites: Ergo-Monitor. 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="155">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="156"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="157">WIESE, Igor Scaliante</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2822469089227391" target="_blank" tabindex="158">CAMPIOLO, Rodrigo</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="159">SCHWERZ, André Luís</a></b>.  Participação em banca de Maiara Alcova Rodrigues.Identificação de Perfis em Projetos de Software Livre.
+							2012. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="160">STEINMACHER, Igor Fábio</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7551030263039033" target="_blank" tabindex="161">POLATO, Ivanilton</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="162">SCHWERZ, André Luís</a></b>.  Participação em banca de Luiz Philipe Serrano Alves.Um aplicativo baseado em inteligência coletiva para compartilhamento de rotas em redes sociais.
+							2011. Trabalho de Conclusão de Curso (Graduação em Tecnologia de Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2718368329252132" target="_blank" tabindex="163">SCHEFFER, Rosely</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2488218564310628" target="_blank" tabindex="164">MORENO, Edson Alexandre</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="165">SCHWERZ, André Luís</a></b>.  Participação em banca de Ulisses Ribas e José Leandro Xavier.Sistema de Gerenciamento de Biblioteca.
+							2007. Trabalho de Conclusão de Curso (Graduação em Análise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2488218564310628" target="_blank" tabindex="166">MORENO, Edson Alexandre</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="167">SCHWERZ, André Luís</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2718368329252132" target="_blank" tabindex="168">SCHEFFER, Rosely</a>.  Participação em banca de Tiago Ramos Sartori.SCCS - Sistema de Controle de Chamados Internos.
+							2007. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="169">SCHWERZ, André Luís</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9057310284122178" target="_blank" tabindex="170">NESPOLO, Pedro</a>.  Participação em banca de Fernanda Aparecida Taveira.Sistema de Controle Comercial.
+							2007. Trabalho de Conclusão de Curso (Graduação em Análise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="171">ROBERTO, Rafael Liberato</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="172">SCHWERZ, André Luís</a></b>.  Participação em banca de Dione Pompilho de Oliveira.Sistemas de Controle de Horários ED.
+							2007. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="173">WIESE, Igor Scaliante</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="174">SCHWERZ, André Luís</a></b>.  Participação em banca de Julio Marcelo Tofoli.SisMoega - Sistema para Controle de Moinhos de Trigo Terceirizados.
+							2007. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="175">WIESE, Igor Scaliante</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="176">SCHWERZ, André Luís</a></b>.  Participação em banca de Elen Caroline Rocha.Controle de custos durante a produção de grãos.
+							2007. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="177">SCHWERZ, André Luís</a></b>.  Participação em banca de Luiz Carlos Caetano.Sistema Gerenciador de Ocorrências Policiais.
+							2007. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="178">SCHWERZ, André Luís</a></b>.  Participação em banca de Márcio Valério Vitol.Controle de frota de veículos.
+							2007. Trabalho de Conclusão de Curso (Graduação em Análise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="179">SCHWERZ, André Luís</a></b>.  Participação em banca de Alexandre Pegorin.Controle Gerencial de Estocagem de Grãos.
+							2007. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="180">SCHWERZ, André Luís</a></b>.  Participação em banca de Luciana Cristina Quirino Santos.Sistema de apoio a benefícios sociais.
+							2007. Trabalho de Conclusão de Curso (Graduação em Analise e Desenvolvimento de Sistemas)  - Faculdade Integrado de Campo Mourão. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="181"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2661462115468004" target="_blank" tabindex="182">KRAEMER, Alessandro</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="183">SCHWERZ, André Luís</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8942065049509047" target="_blank" tabindex="184">SABO, Paulo Henrique</a>. Membro da Comissão Organizadora do Processo Seletivo para Professor.
+							2013. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="185">ROBERTO, Rafael Liberato</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="186">SCHWERZ, André Luís</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1920650157123774" target="_blank" tabindex="187">GOEDTEL, Alessandro</a>. Membro da Comissão Organizadora do Concurso Público para Professor.
+							2012. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5818012075167720" target="_blank" tabindex="188">VALENTIN, Lucio Geronimo</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="189">SCHWERZ, André Luís</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2661462115468004" target="_blank" tabindex="190">KRAEMER, Alessandro</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5545891505433768" target="_blank" tabindex="191">RE, Reginaldo</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3007644116326636" target="_blank" tabindex="192">STEINMACHER, Ana Paula Chaves</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2906049721153618" target="_blank" tabindex="193">SILVA, Gabriel Costa</a>. Membro da Comissão Organizadora do Processo Seletivo para Professor.
+							2011. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0850760212152191" target="_blank" tabindex="194">LAUREANO, Marcos Aurélio Pchek</a>; VIEIRA JUNIOR, Paulo Roberto; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="195">SCHWERZ, André Luís</a></b>. Membro da Comissão Julgadora do Concurso Público para Professor.
+							2010. Instituto Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="196">SCHWERZ, André Luís</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="197">KAWAMOTO, André Luis Satoshi</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="198">ALMEIDA, Marcos Silvano Orita</a>. Membro da Comissão Organizadora do Concurso Público para Professor.
+							2010. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="199">ROBERTO, Rafael Liberato</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529725593221391" target="_blank" tabindex="200">STEINMACHER, Igor Fábio</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="201">SCHWERZ, André Luís</a></b>. Membro da Comissão Organizadora do Processo Seletivo para Professor.
+							2009. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5545891505433768" target="_blank" tabindex="202">RE, Reginaldo</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="203">SCHWERZ, André Luís</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="204">KAWAMOTO, André Luis Satoshi</a>. Membro da Comissão Organizadora do Concurso Público para Professor.
+							2009. Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7551030263039033" target="_blank" tabindex="205">POLATO, Ivanilton</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5545891505433768" target="_blank" tabindex="206">RE, Reginaldo</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="207">SCHWERZ, André Luís</a></b>. Membro da Comissão Organizadora do Concurso Público para Professor.
+							2009. Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2509766431540422" target="_blank" tabindex="208">MENOTTI, Ricardo</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="209">KAWAMOTO, André Luis Satoshi</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="210">SCHWERZ, André Luís</a></b>. Membro da Comissão Organizadora do Processo Seletivo para Professor.
+							2008. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5545891505433768" target="_blank" tabindex="211">RE, Reginaldo</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4946185987756278" target="_blank" tabindex="212">ALMEIDA, Marcos Silvano Orita</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="213">SCHWERZ, André Luís</a></b>. Membro da Comissão Organizadora do Concurso Público para Professor.
+							2007. Universidade Tecnológica Federal do Paraná. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="214">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="215"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXX Simpósio Brasileiro de Banco de Dados.Abordagem Transacional para Padrões de Controle de Fluxo de Processos Científicos e de Negócios.
+							2015. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVIII Simpósio de Banco de Dados.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Simpósio Brasileiro de Sistemas Colaborativos.Predição da Participação de Desenvolvedores em Tarefas em Projetos de Software Livre.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII Simpósio Brasileiro de Banco de Dados.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1o. Seminário de Extensão e Inovação da UTFPR - SEI.Proposta de apoio computacional no processo ensino-aprendizagem dos alunos com necessidades especiais da APAE de Campo Mourão. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5th Latin American Conference on Learning Objects - LACLO. O Uso de uma Ferramenta de Autoria como Apoio Computacional no Ensino de Alunos com Necessidades Especiais. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SWIB - Simpósios SBSC, WebMedia, IHC e SBBD.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Simpósio Brasileiro de Informática na Educação.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mostra de Extensão da UTFPR.Proposta de apoio computacional no processo de ensino-aprendizagem dos alunos com necessidades especiais da APAE.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Simpósio Brasileiro de Banco de Dados.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Simpósio Brasileiro de Engenharia de Software.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Third Workshop on Ontologies and Metamodeling in Software and Data Engineering. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Simpósio Brasileiro de Qualidade de Software.IV Simpósio Brasileiro de Qualidade de Software.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Congresso da Sociedade Brasileira de Computação. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Escola Regional de Informática. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Congresso da Sociedade Brasileira de Computação. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="216"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="217">KAWAMOTO, André Luis Satoshi</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="218">SCHWERZ, André Luís</a></b> . XI Olimpíada Brasileira de Informática (OBI2009). 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8230551395300039" target="_blank" tabindex="219">KAWAMOTO, André Luis Satoshi</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4954414332524750" target="_blank" tabindex="220">SCHWERZ, André Luís</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2509766431540422" target="_blank" tabindex="221">MENOTTI, Ricardo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7833556006473564" target="_blank" tabindex="222">ROBERTO, Rafael Liberato</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0447444423694007" target="_blank" tabindex="223">WIESE, Igor Scaliante</a> . X Olimpiada Brasileira de Informática (OBI2008). 2008. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="224">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento" tabindex="225"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Lopes da Silva. Um estudo para composição de serviços web na UTFPR Câmpus Campo Mourão.
+						Início: 2012. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas" tabindex="226"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Kempf.
+							Desenvolvimento de competições de Programação.
+							2012.
+							Iniciação Científica. (Graduando em Tecnologia de Sistemas para Internet)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Igor da Rocha Gulicz.
+							Estudo comparativo entre banco de dados não-convencionais para uso em websites..
+							2011.
+							Iniciação Científica. (Graduando em Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná,
+							Fundação Araucária. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariana Martins Vargas Prudêncio.
+							Aplicação de Tecnologias Educacionais no contexto da APAE Campo Mourão.
+							2010.
+							Iniciação Científica. (Graduando em Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná,
+							Fundação Araucária. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariana Salamoni Francisco.
+							Implementação de um Jogo Educacional.
+							2008.
+							Iniciação Científica. (Graduando em Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná,
+							Fundação Araucária. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernanda Farias Araújo.
+							Estágio Curricular Obrigatório.
+							2011.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sabrina Aguiar da Silva.
+							Estágio Curricular Obrigatório.
+							2011.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Veiga Ramos.
+							Estágio Curricular Obrigatório.
+							2011.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Joao Pedro Cavasin.
+							Estágio Curricular Obrigatório.
+							2011.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Heloiza Mendes Paulichen.
+							Estágio Curricular Obrigatório.
+							2011.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Max Naegeler Roecker.
+							Estágio Não Obrigatório.
+							2011.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Rafael de Godoy.
+							Estágio Curricular Obrigatório.
+							2010.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Perassoli Melquiades.
+							Estágio Curricular Obrigatório.
+							2010.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Philipe Serrano Alves.
+							Estágio Curricular Obrigatório.
+							2010.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bárbara Regina Delconte Ferreira Pavezzi.
+							Estágio Curricular Obrigatório.
+							2010.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gessica Cardozo dos Santos.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jessica Behrens Crispim.
+							Estágio Curricular Obrigatório.
+							2009.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leandro Carlos Oliveira Castro.
+							Controle de reserva de ambientes educacionais e dispositivos multimídias.
+							2008.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Eduardo Pizzinatto.
+							Estágio Curricular Obrigatório.
+							2008.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mayara Cristine Carvalho Adamzuk.
+							Estágio Curricular Obrigatório.
+							2008.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Fernando Mendes de Almeida.
+							Estágio Curricular Obrigatório.
+							2008.
+							Orientação de outra natureza. (Técnico em Integrado em Informática)  - Universidade Tecnológica Federal do Paraná. Orientador: André Luís Schwerz.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 04/12/2015 às 8:58:27</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&idcnpq=4954414332524750" target="_blank" class="button" tabindex="227"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="228"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="229">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Identificacao" tabindex="10">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Endereco" tabindex="11">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Idiomas" tabindex="12">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#PremiosTitulos" tabindex="13">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#AtuacaoProfissional" tabindex="17">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#AreasAtuacao" tabindex="18">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProjetosExtensao" tabindex="20">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProducaoBibliografica" tabindex="22">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ArtigosCompletos" tabindex="23">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ArtigosAceitos" tabindex="24">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#LivrosCapitulos" tabindex="25">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#TextosJornaisRevistas" tabindex="26">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#TrabalhosPublicadosAnaisCongresso" tabindex="27">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ApresentacaoTrabalho" tabindex="28">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#OutrasProducoesBibliograficas" tabindex="29">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#OutrasProducoesBibliograficas" tabindex="30">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#OutrasProducoesBibliograficas" tabindex="31">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#OutrasProducoesBibliograficas" tabindex="32">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProducaoTecnica" tabindex="33">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#AssessoriaConsultoria" tabindex="34">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#SoftwareSemPatente" tabindex="35">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProdutosTecnologicos" tabindex="36">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProcessosTecnicas" tabindex="37">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#TrabalhosTecnicos" tabindex="38">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#DemaisProducaoTecnica" tabindex="39">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#DemaisProducaoTecnica" tabindex="40">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#DemaisProducaoTecnica" tabindex="41">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#DemaisProducaoTecnica" tabindex="42">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ManutencaoObraArtistica" tabindex="43">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#DemaisProducaoTecnica" tabindex="44">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#EntrevistasMesasRedondas" tabindex="45">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#DemaisProducaoTecnica" tabindex="46">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#RedesSociais" tabindex="47">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#DemaisProducoesTecnicas" tabindex="48">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ProducaoArtisticaCultural" tabindex="49">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ArtesCenicas" tabindex="50">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Musica" tabindex="51">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ArtesVisuais" tabindex="52">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#OutrasProducoesArtisticas" tabindex="53">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ParticipacaoEventos" tabindex="55">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#OrganizacaoEventos" tabindex="56">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Orientacoesconcluidas" tabindex="58">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#Orientacaoemandamento" tabindex="59">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ParticipacaoBancasTrabalho" tabindex="61">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4127155T2#ParticipacaoBancasComissoes" tabindex="62">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4127155T2&tipo=completo&idiomaExibicao=1" tabindex="64">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>

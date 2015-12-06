@@ -22,7 +22,6 @@
 #  Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
-
 import HTMLParser
 import re
 import string
@@ -69,7 +68,6 @@ from organizacaoDeEvento import *
 from participacaoEmEvento import *
 
 
-
 class Departamento(object):
     nome, sigla = "", ""
 
@@ -94,7 +92,6 @@ class Professor(object):
         self.nomeEmCitacoesBibliograficas = ""
         self.textoResumo = ""
 
-
 class Formacao(object):
     anoInicio, anoConclusao, tipo, descricao = "", "", "", ""
 
@@ -104,13 +101,11 @@ class Formacao(object):
         self.tipo = ""
         self.descricao = ""
 
-
 class AreadeAtuacao(object):
     descricao = ""
 
     def __index__(self):
         self.descricao = ""
-
 
 class Curso(object):
     nome, sigla = "", ""
@@ -119,7 +114,6 @@ class Curso(object):
         self.nome = ""
         self.sigla = ""
 
-
 class Coordenacao(object):
     coordenador, suplente, curso = "", "", ""
 
@@ -127,7 +121,6 @@ class Coordenacao(object):
         self.coordenador = ""
         self.suplente = ""
         self.curso = ""
-
 
 class Artigo(object):
     listaDeAutores, titulo, data, doi, paginas, resumo = "", "", "", "", "", ""
@@ -140,8 +133,7 @@ class Artigo(object):
         self.resumo = ""
         self.titulo = ""
 
-
-class ArtigoEmPeriodico(Artigo):
+class ArtigoemPeriodico(Artigo):
     nomeJournal, ISSN, publisher, numero, volume = "", "", "", "", ""
 
     def __init__(self):
@@ -155,7 +147,6 @@ class ArtigoEmPeriodico(Artigo):
         self.nomeJournal = ""
         self.numero = ""
         self.publisher = ""
-
 
 class ArtigoEmConferencia(Artigo):
     nomedaConferencia, ISSN, ISBN, local = "", "", "", ""
@@ -184,7 +175,6 @@ class Projeto(object):
         self.dataInicio = ""
         self.nome = ""
         self.resumo = ""
-
 
 class Evento(object):
     doi, autores, titulo, nomeEvento, ano, volume, paginas = "", "", "", "", "", "", ""
@@ -755,12 +745,8 @@ class ParserLattes(HTMLParser):
 				self.achouEnderecoProfissional = 0
 
 
-		# arraysProfNovo[]
-		# arrayProf =[]
-
 		if resultProfessor.__len__()==0:
-			# for profnovo in professor:
-			sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+			sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeemcitacoesbibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (prof.nome, 1, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
 			conector.execute(sql)
 			connection.commit()
 		else:
@@ -769,9 +755,9 @@ class ParserLattes(HTMLParser):
 				if row[0] == prof.nome and row[5] == prof.lattes:
 					if row[3] != prof.departamento or row[4] != prof.funcao or row[5] != prof.lattes or row[10] != prof.nomeEmCitacoesBibliograficas:
 						sql = (
-						"UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
+						"UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeemcitacoesbibliograficas=%s, enderecoProfissional=%s, Where nome=%s ",
 						(prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas, prof.enderecoProfissional,
-						 prof.enderecoProfissional_lat, prof.enderecoProfissional_long, prof.nome))
+							 prof.nome))
 						conector.execute(sql)
 						connection.commit()
 						auxil = 1
@@ -805,31 +791,31 @@ class ParserLattes(HTMLParser):
     # tipo = models.CharField('Tipo', max_length=511)
     # descricao = models.CharField('Descricao', max_length=5000)
 
-						if resultFormacao.__len__()==0:
-							# for profnovo in professor:
-							sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-							conector.execute(sql)
-							connection.commit()
-						else:
-							for row in resultFormacao:
-									# print(p.nome)
-								if row[3] == iessimaFormacaoAcademica.descricao and row[2] == iessimaFormacaoAcademica.tipo:
-									if row[0] != iessimaFormacaoAcademica.anoInicio or row[1] != iessimaFormacaoAcademica.anoConclusao or row[2] != iessimaFormacaoAcademica.tipo or row[3] != iessimaFormacaoAcademica.descricao:
-										sql = (
-										"UPDATE desenvolvimento_formacao SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s ",
-										(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
-										conector.execute(sql)
-										connection.commit()
-										auxil = 1
-
-							if auxil == 1:
-								# arrayProf.append(prof)
-								auxil = 0
-
-								sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-								conector.execute(sql)
-								connection.commit()
-								auxiliar =0
+						# if resultFormacao.__len__()==0:
+						# 	# for profnovo in professor:
+						# 	sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+						# 	conector.execute(sql)
+						# 	connection.commit()
+						# else:
+						# 	for row in resultFormacao:
+						# 			# print(p.nome)
+						# 		if row[3] == iessimaFormacaoAcademica.descricao and row[2] == iessimaFormacaoAcademica.tipo:
+						# 			if row[0] != iessimaFormacaoAcademica.anoInicio or row[1] != iessimaFormacaoAcademica.anoConclusao or row[2] != iessimaFormacaoAcademica.tipo or row[3] != iessimaFormacaoAcademica.descricao:
+						# 				sql = (
+						# 				"UPDATE desenvolvimento_formacao SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s ",
+						# 				(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
+						# 				conector.execute(sql)
+						# 				connection.commit()
+						# 				auxil = 1
+                        #
+						# 	if auxil == 1:
+						# 		# arrayProf.append(prof)
+						# 		auxil = 0
+                        #
+						# 		sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+						# 		conector.execute(sql)
+						# 		connection.commit()
+						# 		auxiliar =0
 
 						# print(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo)
 
@@ -848,31 +834,31 @@ class ParserLattes(HTMLParser):
 								iessimoProjetoDePesquisa = ProjetoDePesquisa(self.idMembro, self.partesDoItem) # criamos um objeto com a lista correspondentes às celulas da linha
 
 
-								if resultFormacao.__len__()==0:
-									# for profnovo in professor:
-									sql = ("INSERT INTO desenvolvimento_projeto(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-									conector.execute(sql)
-									connection.commit()
-								else:
-									for row in resultFormacao:
-											# print(p.nome)
-										if row[3] == iessimaFormacaoAcademica.descricao and row[2] == iessimaFormacaoAcademica.tipo:
-											if row[0] != iessimaFormacaoAcademica.anoInicio or row[1] != iessimaFormacaoAcademica.anoConclusao or row[2] != iessimaFormacaoAcademica.tipo or row[3] != iessimaFormacaoAcademica.descricao:
-												sql = (
-												"UPDATE desenvolvimento_formacao SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s ",
-												(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
-												conector.execute(sql)
-												connection.commit()
-												auxil = 1
-
-									if auxil == 1:
-										# arrayProf.append(prof)
-										auxil = 0
-
-										sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-										conector.execute(sql)
-										connection.commit()
-										auxiliar =0
+								# if resultFormacao.__len__()==0:
+								# 	# for profnovo in professor:
+								# 	sql = ("INSERT INTO desenvolvimento_projeto(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+								# 	conector.execute(sql)
+								# 	connection.commit()
+								# else:
+								# 	for row in resultFormacao:
+								# 			# print(p.nome)
+								# 		if row[3] == iessimaFormacaoAcademica.descricao and row[2] == iessimaFormacaoAcademica.tipo:
+								# 			if row[0] != iessimaFormacaoAcademica.anoInicio or row[1] != iessimaFormacaoAcademica.anoConclusao or row[2] != iessimaFormacaoAcademica.tipo or row[3] != iessimaFormacaoAcademica.descricao:
+								# 				sql = (
+								# 				"UPDATE desenvolvimento_formacao SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s ",
+								# 				(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
+								# 				conector.execute(sql)
+								# 				connection.commit()
+								# 				auxil = 1
+                                #
+								# 	if auxil == 1:
+								# 		# arrayProf.append(prof)
+								# 		auxil = 0
+                                #
+								# 		sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
+								# 		conector.execute(sql)
+								# 		connection.commit()
+								# 		auxiliar =0
 
 								self.listaProjetoDePesquisa.append(iessimoProjetoDePesquisa) # acrescentamos o objeto de ProjetoDePesquisa
 
@@ -1464,3 +1450,135 @@ def htmlentitydecode(s):
 	return re.sub('&(%s);' % '|'.join(name2codepoint),
 		lambda m: unichr(name2codepoint[m.group(1)]), s)
 
+
+
+
+
+                                # if resultArtigoEmConferencia.__len__() == 0:
+                                #     sql = (   "INSERT INTO desenvolvimento_artigoemperiodico(numero, volume, listadeautores, nomejournal, issn, publisher, titulo, data, doi, paginas, resumo) VALUES ('%s' , %s , '%s', '%s', '%s' , %s , '%s', '%s', '%s')" % (
+                                #         iessimoItem.numero, iessimoItem.autores, iessimoItem.doi, iessimoItem.relevantes,
+                                #         iessimoItem.paginas, iessimoItem.revista, iessimoItem.numero, iessimoItem.ano))
+                                #     conector.execute(sql)
+                                #     connection.commit()
+                                # else:
+                                #     for row in resultArtigoEmConferencia:
+                                #
+                                #         if row[3] == iessimoItem.descricao and row[2] == iessimoItem.tipo:
+                                #
+                                #             if row[0] != iessimoItem.numero or row[1] != iessimoItem.volume or row[2] != iessimoItem.listadeautores or row[3]!= iessimoItem.nomejournal or row[4] != iessimoItem.issn or row[5] != iessimoItem.publisher or row[7] != iessimoItem.data or row[8] != iessimoItem.doi or row[9] != iessimoItem.paginas or row[10] != iessimoItem.resumo:
+                                #                 sql = (
+                                #                 "UPDATE desenvolvimento_formacao SET numero='%s', volume=%s, listadeautores=%s, nomejournal=%s , issn=%s , publisher=%s ,titulo=%s , data=%s , doi=%s , paginas=%s , resumo =%s, Where =%s "(
+                                #                     iessimoItem.numero, iessimoItem.volume, iessimoItem.listadeautores, iessimoItem.nomejournal,
+                                #                     iessimoItem.issn, iessimoItem.publisher, iessimoItem.titulo, iessimoItem.data,
+                                #                     iessimoItem.doi, iessimoItem.paginas, iessimoItem.resumo, iessimoItem.resumo))
+                                #                 conector.execute(sql)
+                                #                 connection.commit()
+                                #
+                                #     if auxil == 1:
+                                #         sql = (
+                                #         "INSERT INTO desenvolvimento_artigoemperiodico(numero, volume, listadeautores, nomejournal, issn, publisher, titulo, data, doi, paginas, resumo) VALUES ('%s' , %s , '%s', '%s', '%s' , %s , '%s', '%s', '%s')" % (
+                                #         iessimoItem.numero, iessimoItem.autores, iessimoItem.doi, iessimoItem.relevantes,
+                                #         iessimoItem.paginas, iessimoItem.revista, iessimoItem.numero, iessimoItem.ano))
+                                # #         conector.execute(sql)
+                                #         connection.commit()
+
+
+
+							# if resultProjeto.__len__()==0:
+							# 	# for profnovo in professor:
+							# 	sql = ("""INSERT INTO desenvolvimento_projeto(datainicio, datadefim,  nome, resumo) VALUES ('%s' , '%s' , '%s', "%s")"""  % (iessimoProjetoDePesquisa.anoInicio, iessimoProjetoDePesquisa.anoConclusao, iessimoProjetoDePesquisa.nome, "".join(iessimoProjetoDePesquisa.descricao)))
+							# 	print(sql)
+							# 	conector.execute(sql)
+							# 	connection.commit()
+								# else:
+								# 	for row in resultProjeto:
+								# 			# print(p.nome)
+								# 		if row[3] == iessimoProjetoDePesquisa.descricao and row[2] == iessimoProjetoDePesquisa.tipo:
+								# 			if row[0] != iessimoProjetoDePesquisa.anoInicio or row[1] != iessimoProjetoDePesquisa.anoConclusao\
+								# 					or row[2] != iessimoProjetoDePesquisa.tipo or row[3] != iessimoProjetoDePesquisa.descricao:
+								# 				sql = (
+								# 				"UPDATE desenvolvimento_projeto SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s ",
+								# 				(iessimoProjetoDePesquisa.anoInicio, iessimoProjetoDePesquisa.anoConclusao, iessimoProjetoDePesquisa.tipo, iessimoProjetoDePesquisa.descricao, iessimoProjetoDePesquisa.descricao))
+								#
+								#
+								# 				conector.execute(sql)
+								# 				connection.commit()
+								# 				auxil = 1
+
+								# 	if auxil == 1:
+								# 		# arrayProf.append(prof)
+								# 		auxil = 0
+
+								# 		sql = ("INSERT INTO desenvolvimento_projeto(datainicio, datadefim,nome, resumo) VALUES ('%s' , %s , '%s', '%s')"
+								# 		   % (iessimoProjetoDePesquisa.anoInicio, iessimoProjetoDePesquisa.anoConclusao,
+								# 			  iessimoProjetoDePesquisa.nome, iessimoProjetoDePesquisa.descricao,))
+								# 		conector.execute(sql)
+								# 		connection.commit()
+								# 		auxiliar =0
+
+
+		# arraysProfNovo[]
+		# arrayProf =[]
+
+		# print prof.nome
+		# auxil =0
+		# if resultProfessor.__len__()==0:
+		# 	# for profnovo in professor:
+		# 	sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeemcitacoesbibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (prof.nome, 1, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
+		# 	conector.execute(sql)
+		# 	connection.commit()
+		# else:
+		# 	# print( resultProfessor)
+		# 	for row in resultProfessor:
+		# 			# print(p.nome)
+		# 		if row[1] == prof.nome and row[5] == prof.lattes:
+		# 			if row[3] != prof.departamento or row[4] != prof.funcao or row[5] != prof.lattes or row[10] != prof.nomeEmCitacoesBibliograficas:
+		# 				sql = ("""UPDATE desenvolvimento_professor SET nome=%s, departamento_id=%d, funcao=%s, lattes=%s, nomeemcitacoesbibliograficas=%s, enderecoprofissional=%s, Where nome=%s """ % (prof.nome,1, "Professor", prof.lattes, prof.nomeEmCitacoesBibliograficas, prof.enderecoProfissional, prof.nome))
+		# 				conector.execute(sql)
+		# 				connection.commit()
+		# 		else:
+		# 			auxil+=1
+        #
+		# 	if auxil >0:
+		# 		# arrayProf.append(prof)
+		# 		auxil = 0
+        #
+		# 		sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeemcitacoesbibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+		# 		 % (prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
+		# 		conector.execute(sql)
+		# 		connection.commit()
+				# auxil =0
+
+
+
+									# 	# print(iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo)
+                    #
+					# 	if resultFormacao.__len__() == 0:
+					# 		sql = ('INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ("%s" , "%s" , "%s", "%s")' % (iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
+					# 		conector.execute(sql)
+					# 		connection.commit()
+					# 	else:
+					# 		for row in resultFormacao:
+					# 			if row[3] == iessimaFormacaoAcademica.descricao and row[2] == iessimaFormacaoAcademica.tipo:
+					# 				if row[0] != iessimaFormacaoAcademica.anoInicio or row[1] != iessimaFormacaoAcademica.anoConclusao or row[2] != iessimaFormacaoAcademica.tipo or row[3] != iessimaFormacaoAcademica.descricao:
+					# 					sql = ("UPDATE desenvolvimento_formacao SET ano_inicio='%s', ano_conclusao_id=%d, tipo=%s, descricao=%s Where =%s " % (iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao, iessimaFormacaoAcademica.descricao))
+					# 					conector.execute(sql)
+					# 					connection.commit()
+					# 					auxil = 1
+                    #
+					# 		if auxil == 1:
+					# 			# arrayProf.append(prof)
+					# 			auxil = 0
+                    #
+					# 			sql = ("INSERT INTO desenvolvimento_formacao(ano_inicio, ano_conclusao, tipo, descricao) VALUES ('%s' , %s , '%s', '%s')"  % (iessimaFormacaoAcademica.anoInicio, iessimaFormacaoAcademica.anoConclusao, iessimaFormacaoAcademica.tipo, iessimaFormacaoAcademica.descricao))
+					# 			conector.execute(sql)
+					# 			connection.commit()
+					# 			auxiliar =0
+
+
+						 # acrescentamos o objeto de FormacaoAcademica
+
+
+					#if self.achouAtuacaoProfissional:
+					#	print self.partesDoItem
+					#	print self.partesDoItem

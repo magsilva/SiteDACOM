@@ -14,19 +14,14 @@ class Professor(models.Model):
     departamento = models.ForeignKey(DepartamentoAcademico)
     funcao = models.CharField('Funcao', max_length=100)
     lattes = models.CharField('Link do Lattes', max_length=50, null=True, blank=True)
-    bolsaProdutividade = models.CharField('Bolsa Produtividade', max_length=100, null=True, blank=True)
-    enderecoProfissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
-    endereco_profissional_lat= models.CharField('Endereco Profissional_lat', max_length=5000, null=True, blank=True)
-    endereco_profissional_long= models.CharField('Endereco Profissional_long', max_length=5000, null=True, blank=True)
-    nomeEmCitacoesBibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255, null=True, blank=True)
+    bolsaprodutividade = models.CharField('Bolsa Produtividade', max_length=100, null=True, blank=True)
+    enderecoprofissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
+    nomeemcitacoesbibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
     # funcionario = [Funcionario]
 
     def __unicode__(self):
         return self.nome
-
-    def __init__(self):
-        return Professor()
 
 
 # class Funcionario(models.Model):
@@ -61,7 +56,7 @@ class Coordenacao(models.Model):
 
 
 class Artigo(models.Model):
-    listadeAutores = models.CharField('Lista de Autores', max_length=5000)
+    listadeautores = models.CharField('Lista de Autores', max_length=5000)
     titulo = models.CharField('Titulo do Artigo', max_length=255)
     data = models.CharField('Data do Artigo', max_length=5)
     doi = models.CharField('DOI', max_length=255, null=True, blank=True)
@@ -70,7 +65,7 @@ class Artigo(models.Model):
 
 
 class ArtigoEmPeriodico(Artigo):
-    nomeJournal = models.CharField('Nome Journal', max_length=255)
+    nomejournal = models.CharField('Nome Journal', max_length=255)
     ISSN = models.CharField('Codigo ISSN', max_length=255)  # identificador;models.CharField()
     publisher = models.CharField('Editora', max_length=255)
     numero = models.CharField('Numero', max_length=10)
@@ -85,20 +80,17 @@ class ArtigoEmConferencia(Artigo):
 class Projeto(models.Model):
     listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000, null=True, blank=True)
     listaColaboradores = models.CharField('Lista de Colaboradores', max_length=5000, null=True, blank=True)
-    dataInicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)
-    datadeFim = models.CharField('Data de Fim', max_length=5, null=True, blank=True)
-    AgendaFinanciadora = models.CharField('Agencia Financiadora', max_length=255, null=True, blank=True)
+    datainicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)
+    datadefim = models.CharField('Data de Fim', max_length=5, null=True, blank=True)
+    agendafinanciadora = models.CharField('Agencia Financiadora', max_length=255, null=True, blank=True)
     nome = models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=10000)
-
-    def __unicode__(self):
-        return self.nome
 
 class Evento(models.Model):
     doi = models.CharField('DOI', max_length=255)
     autores = models.CharField('Autores', max_length=5000)
     titulo = models.CharField('Titulo', max_length=5000)
-    nomeEvento = models.CharField('Nome do Evento', max_length=5000, null=True, blank=True)
+    nomeevento = models.CharField('Nome do Evento', max_length=5000, null=True, blank=True)
     ano = models.CharField('Ano', max_length=4)
     volume = models.CharField('Volume', max_length=10)
     paginas = models.CharField('Paginas', max_length=255)
