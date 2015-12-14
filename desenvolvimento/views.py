@@ -66,6 +66,25 @@ def professor(request):
        professores= paginator.page(paginator.num_pages)
     return render_to_response('professor.html', {"professores": professores})
 
+
+def projetos(request):
+
+    listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
+    paginator = Paginator(listadeProjetos, 10)
+    page =  request.GET.get('page')
+    try:
+        projects = paginator.page(page)
+    except PageNotAnInteger:
+    # If page is not an integer, deliver first page.
+        projects = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+       projects= paginator.page(paginator.num_pages)
+
+    return render_to_response('projetos.html', {"projects": projects})
+
+
+
 def eventos(request):
 
 

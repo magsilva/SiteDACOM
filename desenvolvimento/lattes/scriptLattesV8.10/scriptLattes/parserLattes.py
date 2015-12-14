@@ -746,14 +746,7 @@ class ParserLattes(HTMLParser):
 				self.salvarEnderecoProfissional = 0
 				self.achouEnderecoProfissional = 0
 
-        print (professor.nome + "EYE2")
-		#ver se eu não tenho q inserir td de uma vez, acho q quando ta assim,
-        # se quebrar  alinha quebra o codigo
-    #lembrete
-
-
-
-		if (self.salvarParte1 and not self.salvarParte2) or (self.salvarParte2 and not self.salvarParte1) :
+			if (self.salvarParte1 and not self.salvarParte2) or (self.salvarParte2 and not self.salvarParte1) :
 				if len(stripBlanks(self.item))>0:
 					self.partesDoItem.append(stripBlanks(self.item)) # acrescentamos cada celula da linha em uma lista!
 					self.item = ''
@@ -764,6 +757,7 @@ class ParserLattes(HTMLParser):
 
 					if self.achouFormacaoAcademica and len(self.partesDoItem)>=2:
 						iessimaFormacaoAcademica = FormacaoAcademica(self.partesDoItem) # criamos um objeto com a lista correspondentes às celulas da linha
+
 
 
     # ano_inicio = models.CharField('Ano de Inicio', max_length=4)

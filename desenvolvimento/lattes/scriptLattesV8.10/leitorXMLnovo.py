@@ -323,6 +323,16 @@ def executeLeitorXML():
                         numero = artigo.find('numero').text
 
 
+                    print("NOVOVOVOVOS")
+
+                    artigo = Artigo()
+                    artigo.paginas = paginas
+                    artigo.data = ano
+                    artigo.doi = doi
+                    artigo.listaDeAutores = autores
+                    artigo.titulo= titulo
+                    artigos.append(artigo)
+
 
 
     # Aqui
@@ -365,8 +375,13 @@ def executeLeitorXML():
     auxil = 0
 
 
-    for eventoNovo in Eventos:
-        sql = ("INSERT INTO desenvolvimento_evento(doi, autores, titulo, nomeEvento, ano, volume, paginas) VALUES ('%s' , %s , '%s', '%s', '%s' , %s , '%s')" % (eventoNovo.doi, eventoNovo.autores, eventoNovo.titulo, eventoNovo.nomeEvento, eventoNovo.ano, eventoNovo.volume, eventoNovo.paginas))
+    # for eventoNovo in Eventos:
+    #     sql = ("INSERT INTO desenvolvimento_evento(doi, autores, titulo, nomeEvento, ano, volume, paginas) VALUES ('%s' , %s , '%s', '%s', '%s' , %s , '%s')" % (eventoNovo.doi, eventoNovo.autores, eventoNovo.titulo, eventoNovo.nomeEvento, eventoNovo.ano, eventoNovo.volume, eventoNovo.paginas))
+    #     conector.execute(sql)
+    #     connection.commit()
+
+    for artigo in artigos:
+        sql = ("INSERT INTO desenvolvimento_artigo(doi, autores, titulo, ano,  paginas) VALUES ('%s' , %s , '%s', '%s, '%s)" % (artigo.doi, artigo.autores, artigo.titulo, artigo.ano, artigo.paginas))
         conector.execute(sql)
         connection.commit()
 
@@ -621,9 +636,8 @@ def executeLeitorXML():
 
 
 if __name__ == "__main__":
-     executeLattes()
-
-    # executeLeitorXML()
+     # executeLattes()
+    executeLeitorXML()
 
 
     # for p in projetoPesquisa:
