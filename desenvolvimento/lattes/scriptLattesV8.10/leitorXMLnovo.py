@@ -621,9 +621,9 @@ def executeLeitorXML():
 
 
 if __name__ == "__main__":
-    # executeLattes()
+     executeLattes()
 
-    executeLeitorXML()
+    # executeLeitorXML()
 
 
     # for p in projetoPesquisa:

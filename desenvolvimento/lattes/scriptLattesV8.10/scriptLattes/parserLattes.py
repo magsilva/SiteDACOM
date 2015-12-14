@@ -682,15 +682,17 @@ class ParserLattes(HTMLParser):
     #             #     # | id | listadeCoordenadores | listaColaboradores | dataInicio | datadeFim | AgendaFinanciadora | nome                                                                                                                                              | resumo
     #             # conector.execute(sql)
     #             # connection.commit()
-		prof = Professor()
+		professor = Professor()
 
 
 		# Informações do pesquisador (pre-cabecalho)
 		if tag=='h2':
 			if self.salvarNome:
  				self.nomeCompleto = stripBlanks(self.item)
-				prof.nome= self.nomeCompleto
+				professor.nome= self.nomeCompleto
+
 				self.salvarNome = 0
+				print professor.nome + "EYE"
 			if self.salvarBolsaProdutividade:
 				self.salvarBolsaProdutividade = 0
 
@@ -698,21 +700,21 @@ class ParserLattes(HTMLParser):
 			if self.salvarTextoResumo:
 
 				self.textoResumo = stripBlanks(self.item)
-				prof.textoResumo = self.textoResumo
+				# prof.textoResumo = self.textoResumo
 				self.salvarTextoResumo = 0
 
 		if tag=='span' and self.salvarBolsaProdutividade:
 			self.bolsaProdutividade = stripBlanks(self.item)
 			self.bolsaProdutividade = re.sub('Bolsista de Produtividade em Pesquisa do CNPq - ','', self.bolsaProdutividade)
 			self.bolsaProdutividade = self.bolsaProdutividade.strip('()')
-			prof.bolsaProdutividade = self.salvarBolsaProdutividade
+			# prof.bolsaProdutividade = self.salvarBolsaProdutividade
 			self.salvarBolsaProdutividade = 0
 
 		if tag=='span' and self.salvarIdentificador16 == 1:
 
 
 			self.identificador16 = re.findall(u'http://lattes.cnpq.br/(\d{16})', value)
-			prof.lattes = value
+			# prof.lattes = value
 
 			self.salvarIdentificador16 = 0
 
@@ -728,7 +730,7 @@ class ParserLattes(HTMLParser):
 				self.nomeEmCitacoesBibliograficas = stripBlanks(self.item)
 				# print self.nomeEmCitacoesBibliograficas
 
-				prof.nomeEmCitacoesBibliograficas =   self.nomeEmCitacoesBibliograficas
+				# prof.nomeEmCitacoesBibliograficas =   self.nomeEmCitacoesBibliograficas
 				self.salvarNomeEmCitacoes = 0
 				self.achouNomeEmCitacoes = 0
 			if self.salvarSexo:
@@ -740,40 +742,18 @@ class ParserLattes(HTMLParser):
 				self.enderecoProfissional = stripBlanks(self.item)
 				self.enderecoProfissional = re.sub("\'", '', self.enderecoProfissional)
 				self.enderecoProfissional = re.sub("\"", '', self.enderecoProfissional)
-				prof.enderecoProfissional= self.enderecoProfissional
+				# prof.enderecoProfissional= self.enderecoProfissional
 				self.salvarEnderecoProfissional = 0
 				self.achouEnderecoProfissional = 0
 
-
-		if resultProfessor.__len__()==0:
-			sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeemcitacoesbibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (prof.nome, 1, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
-			conector.execute(sql)
-			connection.commit()
-		else:
-			for row in resultProfessor:
-					# print(p.nome)
-				if row[0] == prof.nome and row[5] == prof.lattes:
-					if row[3] != prof.departamento or row[4] != prof.funcao or row[5] != prof.lattes or row[10] != prof.nomeEmCitacoesBibliograficas:
-						sql = (
-						"UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeemcitacoesbibliograficas=%s, enderecoProfissional=%s, Where nome=%s ",
-						(prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas, prof.enderecoProfissional,
-							 prof.nome))
-						conector.execute(sql)
-						connection.commit()
-						auxil = 1
-
-			if auxil == 1:
-				arrayProf.append(prof)
-				auxil = 0
-
-				sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-				 % (prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
-				conector.execute(sql)
-				connection.commit()
-				auxiliar =0
+        print (professor.nome + "EYE2")
+		#ver se eu não tenho q inserir td de uma vez, acho q quando ta assim,
+        # se quebrar  alinha quebra o codigo
+    #lembrete
 
 
-			if (self.salvarParte1 and not self.salvarParte2) or (self.salvarParte2 and not self.salvarParte1) :
+
+		if (self.salvarParte1 and not self.salvarParte2) or (self.salvarParte2 and not self.salvarParte1) :
 				if len(stripBlanks(self.item))>0:
 					self.partesDoItem.append(stripBlanks(self.item)) # acrescentamos cada celula da linha em uma lista!
 					self.item = ''
@@ -1582,3 +1562,33 @@ def htmlentitydecode(s):
 					#if self.achouAtuacaoProfissional:
 					#	print self.partesDoItem
 					#	print self.partesDoItem
+
+
+
+
+                    		# if resultProfessor.__len__()==0:
+		# 	sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeemcitacoesbibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (prof.nome, 1, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
+		# 	conector.execute(sql)
+		# 	connection.commit()
+		# else:
+		# 	for row in resultProfessor:
+		# 			# print(p.nome)
+		# 		if row[0] == professor.nome and row[5] == prof.lattes:
+		# 			if row[3] != professor.departamento or row[4] != prof.funcao or row[5] != prof.lattes or row[10] != prof.nomeEmCitacoesBibliograficas:
+		# 				sql = (
+		# 				"UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeemcitacoesbibliograficas=%s, enderecoProfissional=%s, Where nome=%s ",
+		# 				(prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas, prof.enderecoProfissional,
+		# 					 prof.nome))
+		# 				conector.execute(sql)
+		# 				connection.commit()
+		# 				auxil = 1
+        #
+		# 	if auxil == 1:
+		# 		arrayProf.append(prof)
+		# 		auxil = 0
+        #
+		# 		sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
+		# 		 % (prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas))
+		# 		conector.execute(sql)
+		# 		connection.commit()
+		# 		auxiliar =0
