@@ -46,6 +46,7 @@ class areadeAtuacao(models.Model):
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
+    #departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="Departamento Academico")
     # disciplina = models.CharField('Disciplina', max_length=100)
 
 
