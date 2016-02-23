@@ -161,6 +161,86 @@ class Evento(object):
         self.volume = ""
         self.paginas = ""
 
+
+
+
+def inserirDepartamento(nomeDepartamento, siglaDepartamento,conector, connection):
+    sql = ("INSERT INTO desenvolvimento_departamentoacademico(nome, sigla) VALUES ('%s' ,'%s')"  % (nomeDepartamento, siglaDepartamento))
+    conector.execute(sql)
+    connection.commit()
+
+def inserirCurso(nomeDoCurso, siglaDoCurso,conector, connection):
+    sql = ("INSERT INTO desenvolvimento_curso(nome, sigla) VALUES ('%s' ,'%s')"  % (nomeDoCurso, siglaDoCurso))
+    conector.execute(sql)
+    connection.commit()
+
+def initSistem():
+    config = {
+        'user': 'root',
+        'passwd': 'Humberto1!',
+        'database': 'UTFPR'
+    }
+
+
+    connection = mysql.connector.connect(**config)
+    conector = connection.cursor()
+
+    conector.execute("SELECT * FROM desenvolvimento_departamentoacademico")
+    departamentos = conector.fetchall()
+
+    conector.execute("SELECT * FROM desenvolvimento_curso")
+    cursos = conector.fetchall()
+
+    boolean = 1
+
+    if departamentos.__len__()==0:
+        nomeDepartamento = "Departamento Acadêmico de Computação"
+        siglaDepartamento = "DACOM"
+
+        inserirDepartamento(nomeDepartamento, siglaDepartamento, conector, connection)
+
+        print( "Foi adicionado o " + nomeDepartamento + " - " + siglaDepartamento )
+
+        while boolean ==1:
+            print("Quer adicionar outros departamentos?")
+            print("1 - para sim adicionar outros departamentos, 2 - para não adicionar outros departamentos")
+            boolean  =  int(raw_input('1 - para sim adicionar outros departamentos, 2 - para não adicionar outros departamentos:'))
+
+            if boolean==1:
+                nomeDepartamento = str(raw_input('Digite o nome do departamento academico: '))
+                siglaDepartamento = str(raw_input('Digite o sigla do departamento academico: '))
+                inserirDepartamento(nomeDepartamento, siglaDepartamento, conector, connection)
+
+            if boolean == 2:
+                print("Registro de departamento acadêmicos feitos com sucesso :)")
+
+            if boolean != 1 and boolean != 2:
+                print("Valor incorreto, por favor preste atneção nas intruções")
+
+    if cursos.__len__()==0:
+        nomeDoCurso =  "Bacharelado de Ciência da Computação"
+        siglaDoCurso = "BCC"
+        inserirCurso(nomeDoCurso, siglaDoCurso, conector, connection)
+        print( "Foi adicionado o " + nomeDoCurso+ " - " + siglaDoCurso )
+
+        while boolean ==1:
+            print("Quer adicionar outros cursos?")
+            print("1 - para sim adicionar outros cursos, 2 - para não adicionar outros cursos")
+            boolean  =  int(raw_input('1 - para sim adicionar outros cursos, 2 - para não adicionar outros cursos:'))
+
+            if boolean==1:
+                nomeDoCurso = str(raw_input('Digite o nome do curso: '))
+                siglaDoCurso = str(raw_input('Digite o sigla do curso: '))
+                inserirCurso(nomeDoCurso, siglaDoCurso, conector, connection)
+            if boolean == 2:
+                print("Registro de departamento acadêmicos feitos com sucesso :)")
+
+            if  boolean != 1 and boolean != 2:
+                print("Valor incorreto, por favor preste atneção nas intruções")
+
+
+
+
 def executeLattes():
     call("python scriptLattes.py ./data/scriptlattes-utfpr-cm-dacom.config", shell=True)
 
