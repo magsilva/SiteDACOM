@@ -10,11 +10,31 @@ import csv
 import sys
 from dateutil.parser import parser
 import mysql.connector
-import sys
 import shutil
-import Levenshtein
 import os, errno
 import warnings
+import sys
+import os.path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from django.conf import settings
+settings.configure(DEBUG=True)
+
+settings.DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'UTFPR',  # Or path to database file if using sqlite3.
+        'USER': 'root',
+        'PASSWORD': 'Humberto1!',
+        'HOST': '',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'PORT': '',  # Set to empty string for default.
+    }
+}
+
+from desenvolvimento.models import Artigo, Professor, ArtigoEmConferencia, areadeAtuacao, DepartamentoAcademico, ArtigoEmPeriodico, Projeto
+
+
+
+
 
 warnings.filterwarnings('ignore')
 
@@ -37,42 +57,42 @@ class Departamento(object):
     def __init__(self):
         self.nome = ""
         self.sigla = ""
-
-
-class Professor(object):
-    nome, email, telefone, departamento, funcao, \
-    lattes, bolsaProdutividade, enderecoProfissional, \
-    nomeEmCitacoesBibliograficas, textoResumo, enderecoProfissional_lat, enderecoProfissional_long = "", "", "", "", "", "", "", "", "", "", "", ""
-
-    def __init__(self):
-        self.nome = ""
-        self.email = ""
-        self.telefone = ""
-        self.departamento = None
-        self.funcao = ""
-        self.lattes = ""
-        self.bolsaProdutividade = ""
-        self.enderecoProfissional = ""
-        self.nomeEmCitacoesBibliograficas = ""
-        self.textoResumo = ""
-
-
-class Formacao(object):
-    anoInicio, anoConclusao, tipo, descricao = "", "", "", ""
-
-    def __init__(self):
-        self.anoInicio = ""
-        self.anoConclusao = ""
-        self.tipo = ""
-        self.descricao = ""
-
-
-class AreaDeAtuacao(object):
-    descricao = ""
-
-    def __index__(self):
-        self.descricao = ""
-
+#
+#
+# class Professor(object):
+#     nome, email, telefone, departamento, funcao, \
+#     lattes, bolsaProdutividade, enderecoProfissional, \
+#     nomeEmCitacoesBibliograficas, textoResumo, enderecoProfissional_lat, enderecoProfissional_long = "", "", "", "", "", "", "", "", "", "", "", ""
+#
+#     def __init__(self):
+#         self.nome = ""
+#         self.email = ""
+#         self.telefone = ""
+#         self.departamento = None
+#         self.funcao = ""
+#         self.lattes = ""
+#         self.bolsaProdutividade = ""
+#         self.enderecoProfissional = ""
+#         self.nomeEmCitacoesBibliograficas = ""
+#         self.textoResumo = ""
+#
+#
+# class Formacao(object):
+#     anoInicio, anoConclusao, tipo, descricao = "", "", "", ""
+#
+#     def __init__(self):
+#         self.anoInicio = ""
+#         self.anoConclusao = ""
+#         self.tipo = ""
+#         self.descricao = ""
+#
+#
+# class AreaDeAtuacao(object):
+#     descricao = ""
+#
+#     def __index__(self):
+#         self.descricao = ""
+#
 
 class Curso(object):
     nome, sigla = "", ""
@@ -81,86 +101,86 @@ class Curso(object):
         self.nome = ""
         self.sigla = ""
 
-
-class Coordenacao(object):
-    coordenador, suplente, curso = "", "", ""
-
-    def __init__(self):
-        self.coordenador = ""
-        self.suplente = ""
-        self.curso = ""
-
-
-class Artigo(object):
-    listaDeAutores, titulo, data, doi, paginas, resumo = "", "", "", "", "", ""
-
-    def __init__(self):
-        self.data = ""
-        self.doi = ""
-        self.listaDeAutores = ""
-        self.paginas = ""
-        self.resumo = ""
-        self.titulo = ""
+#
+# class Coordenacao(object):
+#     coordenador, suplente, curso = "", "", ""
+#
+#     def __init__(self):
+#         self.coordenador = ""
+#         self.suplente = ""
+#         self.curso = ""
 
 
-class ArtigoEmPeriodico(Artigo):
-    nomeJournal, ISSN, publisher, numero, volume = "", "", "", "", ""
+# class Artigo(object):
+#     listaDeAutores, titulo, data, doi, paginas, resumo = "", "", "", "", "", ""
+#
+#     def __init__(self):
+#         self.data = ""
+#         self.doi = ""
+#         self.listaDeAutores = ""
+#         self.paginas = ""
+#         self.resumo = ""
+#         self.titulo = ""
+#
+#
+# class ArtigoEmPeriodico(Artigo):
+#     nomeJournal, ISSN, publisher, numero, volume = "", "", "", "", ""
+#
+#     def __init__(self):
+#         self.titulo = "",
+#         self.resumo = ""
+#         self.paginas = "",
+#         self.listaDeAutores = ""
+#         self.data = ""
+#         self.doi = ""
+#         self.ISSN = ""
+#         self.nomeJournal = ""
+#         self.numero = ""
+#         self.publisher = ""
+#
+#
+# class ArtigoEmConferencia(Artigo):
+#     nomedaConferencia, ISSN, ISBN, local = "", "", "", ""
+#
+#     def __init__(self):
+#         self.titulo = ""
+#         self.ISSN = ""
+#         self.data = ""
+#         self.doi = ""
+#         self.listaDeAutores = ""
+#         self.ISBN = ""
+#         self.local = ""
+#         self.paginas = ""
+#         self.nomedaConferencia = ""
+#         self.resumo = ""
 
-    def __init__(self):
-        self.titulo = "",
-        self.resumo = ""
-        self.paginas = "",
-        self.listaDeAutores = ""
-        self.data = ""
-        self.doi = ""
-        self.ISSN = ""
-        self.nomeJournal = ""
-        self.numero = ""
-        self.publisher = ""
-
-
-class ArtigoEmConferencia(Artigo):
-    nomedaConferencia, ISSN, ISBN, local = "", "", "", ""
-
-    def __init__(self):
-        self.titulo = ""
-        self.ISSN = ""
-        self.data = ""
-        self.doi = ""
-        self.listaDeAutores = ""
-        self.ISBN = ""
-        self.local = ""
-        self.paginas = ""
-        self.nomedaConferencia = ""
-        self.resumo = ""
-
-
-class Projeto(object):
-    listadeCoordenadores, listaColaboradores, dataInicio, datadeFim, \
-    AgendaFinanciadora, nome, resumo = "", "", "", "", "", "", ""
-
-    def __init__(self):
-        self.listaColaboradores = ""
-        self.resumo = ""
-        self.AgendaFinanciadora = ""
-        self.datadeFim = ""
-        self.dataInicio = ""
-        self.nome = ""
-        self.resumo = ""
-
-
-class Evento(object):
-    doi, autores, titulo, nomeEvento, ano, volume, paginas = "", "", "", "", "", "", ""
-
-    def __init__(self):
-        self    .doi = ""
-        self.autores = ""
-        self.titulo = ""
-        self.nomeEvento = ""
-        self.ano = ""
-        self.volume = ""
-        self.paginas = ""
-
+#
+# class Projeto(object):
+#     listadeCoordenadores, listaColaboradores, dataInicio, datadeFim, \
+#     AgendaFinanciadora, nome, resumo = "", "", "", "", "", "", ""
+#
+#     def __init__(self):
+#         self.listaColaboradores = ""
+#         self.resumo = ""
+#         self.AgendaFinanciadora = ""
+#         self.datadeFim = ""
+#         self.dataInicio = ""
+#         self.nome = ""
+#         self.resumo = ""
+#
+#
+# class Evento(object):
+#     doi, autores, titulo, nomeEvento, ano, volume, paginas = "", "", "", "", "", "", ""
+#
+#     def __init__(self):
+#         self    .doi = ""
+#         self.autores = ""
+#         self.titulo = ""
+#         self.nomeEvento = ""
+#         self.ano = ""
+#         self.volume = ""
+#         self.paginas = ""
+#
 
 
 
@@ -184,6 +204,17 @@ def atualizarProfessor(nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCi
     conector.execute(sql)
     connection.commit()
 
+def inserirProjeto(dataInicio, datadeFim, nome, resumo, conector, connection):
+    sql = ("INSERT INTO desenvolvimento_projeto(nome, resumo, dataInicio, datadeFim) VALUES ('%s' , '%s' , '%s', '%s')"% (nome, resumo,dataInicio, datadeFim))
+    conector.execute(sql)
+    connection.commit()
+
+
+def atualizarProjeto(nome, descricao, dataInicio, datadeFim, conector, connection):
+    sql = ("UPDATE desenvolvimento_projeto SET nome='%s', resumo='%s', dataInicio='%s, datadeFim=%s,  Where nome=%s ",(nome, descricao, dataInicio, datadeFim))
+    conector.execute(sql)
+    connection.commit()
+
 
 def initSistem():
     config = {
@@ -202,8 +233,8 @@ def initSistem():
     conector.execute("SELECT * FROM desenvolvimento_curso")
     cursos = conector.fetchall()
 
-    conector.execute("SELECT * FROM desenvolvimento_professor")
-    professor = conector.fetchall()
+    # conector.execute("SELECT * FROM desenvolvimento_professor")
+    # professor = conector.fetchall()
 
     boolean = 1
 
@@ -258,16 +289,11 @@ def executeLattes():
 
 
 
-
 def executeLeitorXML():
-    # fd = open("data/lattes-site/database.xml")
-    # parsedXML = et.parse(fd)
-    # curriculo_lattes = parsedXML.findall("pesquisador")
-    # definindo Arrays
     professoresScriptLattes = []
     arraysProfNovo = []
-    projetoPesquisa = []
-    artigos = []
+    projetoPesquisaScriptLattes = []
+    artigosScriptLattes = []
     artigosEmPeriodico = []
     artigosEmConferencia = []
     Eventos =[]
@@ -295,7 +321,8 @@ def executeLeitorXML():
                 prof.nome_completo = nome_completo
                 prof.nomeEmCitacoesBibliograficas = nome_citacao_bibliografica
                 prof.sexo = sexo
-                prof.departamento = 1
+                departamento = DepartamentoAcademico.objects.get(sigla='DACOM')
+                prof.departamento = departamento
                 prof.funcao = "Professor"
 
                 professoresScriptLattes.append(prof)
@@ -320,25 +347,20 @@ def executeLeitorXML():
             #             nome = formacao1.find('nome_instituicao').text
             #         if formacao1.find('descricao').text is not None:
             #             descricao = formacao1.find('descricao').text
-            # for projetospesquisa in child1.iter('projetos_pesquisa'):
-            #     for projeto in projetospesquisa.iter('projeto'):
-            #
-            #         if projeto.find('ano_inicio').text is not None:
-            #             ano_inicio = projeto.find('ano_inicio').text
-            #         if projeto.find('ano_conclusao').text is not None:
-            #             ano_conclusao = projeto.find('ano_conclusao').text
-            #         if projeto.find('nome').text is not None:
-            #             nome = projeto.find('nome').text
-            #         if projeto.find('descricao').text is not None:
-            #             descricao = projeto.find('descricao').text
-            #
-            #         projeto = Projeto()
-            #         projeto.dataInicio = ano_inicio
-            #         projeto.datadeFim = ano_conclusao
-            #         projeto.nome = nome
-            #         projeto.resumo = descricao
-            #
-            #         projetoPesquisa.append(projeto)
+            for projetospesquisa in child1.iter('projetos_pesquisa'):
+                for projeto in projetospesquisa.iter('projeto'):
+
+                    if projeto.find('ano_inicio').text is not None:
+                        ano_inicio = projeto.find('ano_inicio').text
+                    if projeto.find('ano_conclusao').text is not None:
+                        ano_conclusao = projeto.find('ano_conclusao').text
+                    if projeto.find('nome').text is not None:
+                        nome = projeto.find('nome').text
+                    if projeto.find('descricao').text is not None:
+                        descricao = projeto.find('descricao').text
+
+                    projeto = Projeto(nome= nome, resumo = descricao, datadeFim = ano_conclusao, dataInicio = ano_inicio)
+                    projetoPesquisaScriptLattes.append(projeto)
             #
             # for areaatuacao in child1.iter('area_atuacao'):
             #     descricao = areaatuacao.find('descricao').text
@@ -393,7 +415,7 @@ def executeLeitorXML():
             #         if resumCo.find('numero').text is not None:
             #             numero = resumCo.find('numero').text
             #
-            #
+            # #
             # for artigoPeriodico in child1.iter('artigos_em_periodicos'):
             #     for artigo in artigoPeriodico.iter('artigo'):
             #         if artigo.find('doi').text is not None:
@@ -422,66 +444,126 @@ def executeLeitorXML():
             #         artigo.doi = doi
             #         artigo.listaDeAutores = autores
             #         artigo.titulo= titulo
-            #         artigos.append(artigo)
+            #         artigosScriptLattes.append(artigo)
 
 
 
     # Aqui
     # Insercao No BD
     # abrindoCOnexao
-
-    config = {
-        'user': 'root',
-        'passwd': 'root',
-        'database': 'UTFPR'
-    }
-
-
-    connection = mysql.connector.connect(**config)
-    conector = connection.cursor()
     profs = []
+    professoresCadastrados =  Professor.objects.all()
+    projetosCadastrados = Projeto.objects.all()
+    artigosCadastrados = Artigo.objects.all()
+    artigosEmConferenciaCadastrados = ArtigoEmConferencia.objects.all()
+    artigosEmPeriodicoCadastrados =  ArtigoEmPeriodico.objects.all()
 
-    conector.execute("SELECT * FROM desenvolvimento_professor")
-    professoresCadastrados = conector.fetchall()
-
-    conector.execute("SELECT * FROM desenvolvimento_artigo")
-    resultArtigo = conector.fetchall()
-
-    conector.execute ("SELECT * FROM desenvolvimento_artigoemconferencia")
-    resultAritgoEmConferencia = conector.fetchall()
-
-    conector.execute ("SELECT * FROM desenvolvimento_artigoemperiodico")
-    resultArtigoEmPeriodico = conector.fetchall()
-
-    conector.execute ("SELECT * FROM desenvolvimento_formacao")
-    resultFormacao = conector.fetchall()
-
-    conector.execute ("SELECT * FROM desenvolvimento_projeto")
-    resultProjeto = conector.fetchall()
 
     arraysProfNovo =[]
+    arraysProjNovo =[]
     auxil = 0
 
     #Professor
 
     if professoresCadastrados.__len__()==0:
-        for prof in professoresScriptLattes:
-            inserirProfessor(prof.nome, prof.departamento, prof.funcao, prof.lattes, prof.nomeEmCitacoesBibliograficas)
-
+        for item in professoresScriptLattes:
+            item.save()
     else:
-        for p in professoresScriptLattes:
+        for item in professoresScriptLattes:
             for row in professoresCadastrados:
-                if row[0] == p.nome and row[5] == p.lattes:
-                    if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-                        atualizarProfessor(p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, conector, connection)
+                if item.nome==row.nome and item.lattes==row.lattes:
+                    if row.nomeEmCitacoesBibliograficas!=item.nomeEmCitacoesBibliograficas:
+                        row.nomeEmCitacoesBibliograficas = item.nomeEmCitacoesBibliograficas
+                        row.save()
                         auxil = 1
             if auxil == 1:
-                arraysProfNovo.append(p)
+                arraysProfNovo.append(item)
                 auxil = 0
         for profnovo in arraysProfNovo:
-            inserirProfessor(profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas, conector, connection)
+            profnovo.save()
             auxiliar =0
 
+    #Projeto
+    if projetosCadastrados.__len__()==0:
+        for item in projetoPesquisaScriptLattes:
+            item.save()
+    else:
+        for item in projetoPesquisaScriptLattes:
+            for row in projetosCadastrados:
+                if item.nome==row.nome:
+                    Projeto(nome= nome, resumo = descricao, datadeFim = ano_conclusao, dataInicio = ano_inicio)
+                    if row.resumo!=item.resumo or row.datadeFim!=item.datadeFim or row.dataInicio!=p.dataInicio:
+                        row.resumo = item.resumo
+                        row.datadeFim= item.datadeFim
+                        row.dataInicio =row.dataInicio
+                        row.save()
+                        auxil = 1
+            if auxil == 1:
+                arraysProjNovo.append(item)
+                auxil = 0
+        for projnovo in arraysProjNovo:
+            projnovo.save()
+            auxiliar =0
+
+    #Artigo
+    if projetosCadastrados.__len__()==0:
+        for item in projetoPesquisaScriptLattes:
+            item.save()
+    else:
+        for item in projetoPesquisaScriptLattes:
+            for row in projetosCadastrados:
+                if item.nome==row.nome:
+                    Projeto(nome= nome, resumo = descricao, datadeFim = ano_conclusao, dataInicio = ano_inicio)
+                    if row.resumo!=item.resumo or row.datadeFim!=item.datadeFim or row.dataInicio!=p.dataInicio:
+                        row.resumo = item.resumo
+                        row.datadeFim= item.datadeFim
+                        row.dataInicio =row.dataInicio
+                        row.save()
+                        auxil = 1
+            if auxil == 1:
+                arraysProjNovo.append(item)
+                auxil = 0
+        for projnovo in arraysProjNovo:
+            projnovo.save()
+            auxiliar =0
+
+    #
+    # #Projeto
+    # if projetosCadastrados.__len__()==0:
+    #     for proj in professoresScriptLattes:
+    #         inserirProjeto(proj.dataInicio, proj.datadeFim, proj.nome, proj.resumo, conector, connection)
+    # else:
+    #     for p in projetoPesquisaScriptLattes:
+    #         for row in projetosCadastrados:
+    #             if row[0] == p.nome:
+    #                 if row[3] != p.descricao or row[1] != p.dataInicio or row[2] != p.datadeFim:
+    #                     atualizarProjeto(p.nome, p.descricao, p.dataInicio, p.datadeFim)
+    #                     auxil = 1
+    #         if auxil == 1:
+    #             arraysProjNovo.append(p)
+    #             auxil = 0
+    #     for projNovo in arraysProjNovo:
+    #         inserirProfessor(projNovo.nome, projNovo.descricao, projNovo.dataInicio, projNovo.datadeFim, conector, connection)
+    #         auxiliar = 0
+    #
+    # if artigosCadastrados.__len__()==0:
+    #     for art  in  artigosScriptLattes:
+    #       a =  Artigo(listadeautores=art.listadeautores, titulo=art.titulo, data =art.data, doi =art.doi, paginas =art.paginas, resumo=art.resumo)
+    #       a.save()
+    #
+    # else:
+    #     for p in projetoPesquisaScriptLattes:
+    #         for row in projetosCadastrados:
+    #             if row[0] == p.nome:
+    #                 if row[3] != p.descricao or row[1] != p.dataInicio or row[2] != p.datadeFim:
+    #                     atualizarProjeto(p.nome, p.descricao, p.dataInicio, p.datadeFim)
+    #                     auxil = 1
+    #         if auxil == 1:
+    #             arraysProjNovo.append(p)
+    #             auxil = 0
+    #     for projNovo in arraysProjNovo:
+    #         inserirProfessor(projNovo.nome, projNovo.descricao, projNovo.dataInicio, projNovo.datadeFim, conector, connection)
+    #         auxiliar = 0
 
 
 
@@ -616,179 +698,39 @@ def executeLeitorXML():
     #             conector.execute(sql)
     #             connection.commit()
     #             auxiliar =0
-    # # Artigo
-    # if resultProfessor.__len__()==0:
-    #     for profnovo in professor:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #         conector.execute(sql)
-    #         connection.commit()
-    # else:
-    #     for p in professor:
-    #         for row in resultProfessor:
-    #             print(p.nome)
-    #             if row[0] == p.nome and row[5] == p.lattes:
-    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-    #                     sql = (
-    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-    #                      p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
-    #                     conector.execute(sql)
-    #                     connection.commit()
-    #                     auxil = 1
-    #         if auxil == 1:
-    #             arraysProfNovo.append(p)
-    #             auxil = 0
-    #     for profnovo in arraysProfNovo:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #         conector.execute(sql)
-    #         connection.commit()
-    #         auxiliar =0
-    #
-    #
-    #         #ArtigoEmConferencia
-    # if resultProfessor.__len__()==0:
-    #     for profnovo in professor:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #         conector.execute(sql)
-    #         connection.commit()
-    # else:
-    #     for p in professor:
-    #         for row in resultProfessor:
-    #             print(p.nome)
-    #             if row[0] == p.nome and row[5] == p.lattes:
-    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-    #                     sql = (
-    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-    #                      p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
-    #                     conector.execute(sql)
-    #                     connection.commit()
-    #                     auxil = 1
-    #         if auxil == 1:
-    #             arraysProfNovo.append(p)
-    #             auxil = 0
-    #     for profnovo in arraysProfNovo:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #         conector.execute(sql)
-    #         connection.commit()
-    #         auxiliar =0
-    #
-    # # ArtigoEmPeriodico
-    # if resultProfessor.__len__()==0:
-    #     for profnovo in professor:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"                   % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #         conector.execute(sql)
-    #         connection.commit()
-    # else:
-    #     for p in professor:
-    #         for row in resultProfessor:
-    #             print(p.nome)
-    #             if row[0] == p.nome and row[5] == p.lattes:
-    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-    #                     sql = (
-    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",
-    #                     (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-    #                      p.enderecoProfissional_lat, p.enderecoProfissional_long, p.nome))
-    #                     conector.execute(sql)
-    #                     connection.commit()
-    #                     auxil = 1
-    #         if auxil == 1:
-    #             arraysProfNovo.append(p)
-    #             auxil = 0
-    #     for profnovo in arraysProfNovo:
-    #         sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-    #                % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #         conector.execute(sql)
-    #         connection.commit()
-    #         auxiliar =0
-
-
-
-    conector.close()
-    connection.close()
 
 
 if __name__ == "__main__":
      # executeLattes()
+    initSistem()
     executeLeitorXML()
 
 
-    # for p in projetoPesquisa:
-    #         for row in resultProjeto:
-    #         pDescricao = []
-    #         pSituacao = []
-    #         pNatureza =[]
-    #         pIntegrante =[]
-    #         pEnvolvidos = []
-    #         pCoordenador = []
-    #
-    #         pDescricao = p.resumo.encode("utf-8").split("Situação:" )
-    #         # print(pDescricao[1])
-    #         # if(pDescricao[1])
-    #         pSituacao = pDescricao[1]
-    #
-    #                         # print(pDescricao[1].decode("utf-8"))
-    #         pSituacao =  p.resumo.encode("utf-8").split("Natureza:")
-    #         pNatureza = pSituacao[1]
-    #         print(pNatureza)
-    #
-    #
-    #         try:
-    #             pNatureza = p.resumo.encode("utf-8").split("Integrante:")
-    #             pIntegrante = pNatureza[1]
-    #
-    #             # print(pNatureza)
-    #             pIntegrante = p.resumo.split("Integrantes: ")
-    #             pEnvolvidos = pIntegrante[len(pIntegrante)-1]
-    #             pCoordenador = pEnvolvidos.split("Coordenador")
-    #             print (pCoordenador[1])
-    #
-    #
-    #
-    #         except IndexError:
-    #             pIntegrante = p.resumo.split("Integrantes: ")
-    #             pCoordenador = pIntegrante[0].split("- Coordenador")
-    #
-    #             # pEnvolvidos = pCoordenador[1].split("- Integrante /")
-    #             # print(pEnvolvidos)
-    #             # print(pCoordenador[0])
-    #             # print(pCoordenador[1])
-    #
-    #
 
-                # print;
-                #separar em se não tiver natureza;
-
-
-                # print(arraysProfNovo)
-
-
-                 # print(pSituacao[1].decode("utf-8"))
-            # pNatureza = p.resumo.encode("utf-8").split("Integrante:")
-            # pIntegrante = pNatureza[1]
-            #
-            # print(pNatureza)
-            # pIntegrante = p.resumo.split("Alunos Envolvidos")
-            # pAlunosEnvolvidos = pIntegrante[len(pIntegrante)-1]
-
-            # print(pDescricao[0])
-
-
-
-
-            # print(pDescricao[2])
-    #             # pSituacao = pDescricao[1];
     #
-    #             # print(pDescricao[1].decode("utf-8"))
-    #             pSituacao =  p.resumo.encode("utf-8").split("Situação:")
-    #             # pNatureza = pSituacao[1]
+    # config = {
+    #     'user': 'root',
+    #     'passwd': 'Humberto1!',
+    #     'database': 'UTFPR'
+    # }
     #
-    #             # print(pSituacao[1].decode("utf-8"))
-    #             pNatureza = p.resumo.encode("utf-8").split("Natureza:")
-    #             # pIntegrante = pNatureza[1]
     #
-    #             # print(pNatureza)
-    #             pIntegrante = p.resumo.split("Integrante")
-    #             pAlunosEnvolvidos = pIntegrante[len(pIntegrante)-1]
+    # connection = mysql.connector.connect(**config)
+    # conector = connection.cursor()
+         # conector.execute("SELECT * FROM desenvolvimento_professor")
+    # professoresCadastrados = conector.fetchall()
+    #
+    # conector.execute("SELECT * FROM desenvolvimento_artigo")
+    # artigosCadastrados = conector.fetchall()
+    #
+    # conector.execute ("SELECT * FROM desenvolvimento_artigoemconferencia")
+    # resultAritgoEmConferencia = conector.fetchall()
+    #
+    # conector.execute ("SELECT * FROM desenvolvimento_artigoemperiodico")
+    # resultArtigoEmPeriodico = conector.fetchall()
+    #
+    # conector.execute ("SELECT * FROM desenvolvimento_formacao")
+    # resultFormacao = conector.fetchall()
+    #
+    # conector.execute ("SELECT * FROM desenvolvimento_projeto")
+    # projetosCadastrados = conector.fetchall()
