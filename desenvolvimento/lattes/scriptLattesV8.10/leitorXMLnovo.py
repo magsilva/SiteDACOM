@@ -461,6 +461,7 @@ def executeLeitorXML():
 
     arraysProfNovo =[]
     arraysProjNovo =[]
+    arraysArtNovo =[]
     auxil = 0
 
     #Professor
@@ -491,8 +492,7 @@ def executeLeitorXML():
         for item in projetoPesquisaScriptLattes:
             for row in projetosCadastrados:
                 if item.nome==row.nome:
-                    Projeto(nome= nome, resumo = descricao, datadeFim = ano_conclusao, dataInicio = ano_inicio)
-                    if row.resumo!=item.resumo or row.datadeFim!=item.datadeFim or row.dataInicio!=p.dataInicio:
+                    if row.resumo!=item.resumo or row.datadeFim!=item.datadeFim or row.dataInicio!=item.dataInicio:
                         row.resumo = item.resumo
                         row.datadeFim= item.datadeFim
                         row.dataInicio =row.dataInicio
@@ -504,81 +504,32 @@ def executeLeitorXML():
         for projnovo in arraysProjNovo:
             projnovo.save()
             auxiliar =0
+
 
     #Artigo
-    if projetosCadastrados.__len__()==0:
-        for item in projetoPesquisaScriptLattes:
+    if artigosCadastrados.__len__()==0:
+        for item in artigosScriptLattes:
             item.save()
     else:
-        for item in projetoPesquisaScriptLattes:
-            for row in projetosCadastrados:
-                if item.nome==row.nome:
-                    Projeto(nome= nome, resumo = descricao, datadeFim = ano_conclusao, dataInicio = ano_inicio)
-                    if row.resumo!=item.resumo or row.datadeFim!=item.datadeFim or row.dataInicio!=p.dataInicio:
+        for item in artigosScriptLattes:
+            for row in artigosCadastrados:
+                if item.titulo==row.titulo:
+                    if row.listadeautores!=item.listadeautores or row.data!=item.data or row.doi!=item.doi or row.paginas != item.paginas or row.resumo!=item.resumo:
                         row.resumo = item.resumo
-                        row.datadeFim= item.datadeFim
-                        row.dataInicio =row.dataInicio
+                        row.data= item.data
+                        row.paginas =item.paginas
+                        row.listadeautores=item.listadeautores
+                        row.doi = item.doi
                         row.save()
                         auxil = 1
             if auxil == 1:
-                arraysProjNovo.append(item)
+                arraysArtNovo.append(item)
                 auxil = 0
-        for projnovo in arraysProjNovo:
-            projnovo.save()
+        for Artnovo in arraysArtNovo:
+            Artnovo.save()
             auxiliar =0
 
-    #
-    # #Projeto
-    # if projetosCadastrados.__len__()==0:
-    #     for proj in professoresScriptLattes:
-    #         inserirProjeto(proj.dataInicio, proj.datadeFim, proj.nome, proj.resumo, conector, connection)
-    # else:
-    #     for p in projetoPesquisaScriptLattes:
-    #         for row in projetosCadastrados:
-    #             if row[0] == p.nome:
-    #                 if row[3] != p.descricao or row[1] != p.dataInicio or row[2] != p.datadeFim:
-    #                     atualizarProjeto(p.nome, p.descricao, p.dataInicio, p.datadeFim)
-    #                     auxil = 1
-    #         if auxil == 1:
-    #             arraysProjNovo.append(p)
-    #             auxil = 0
-    #     for projNovo in arraysProjNovo:
-    #         inserirProfessor(projNovo.nome, projNovo.descricao, projNovo.dataInicio, projNovo.datadeFim, conector, connection)
-    #         auxiliar = 0
-    #
-    # if artigosCadastrados.__len__()==0:
-    #     for art  in  artigosScriptLattes:
-    #       a =  Artigo(listadeautores=art.listadeautores, titulo=art.titulo, data =art.data, doi =art.doi, paginas =art.paginas, resumo=art.resumo)
-    #       a.save()
-    #
-    # else:
-    #     for p in projetoPesquisaScriptLattes:
-    #         for row in projetosCadastrados:
-    #             if row[0] == p.nome:
-    #                 if row[3] != p.descricao or row[1] != p.dataInicio or row[2] != p.datadeFim:
-    #                     atualizarProjeto(p.nome, p.descricao, p.dataInicio, p.datadeFim)
-    #                     auxil = 1
-    #         if auxil == 1:
-    #             arraysProjNovo.append(p)
-    #             auxil = 0
-    #     for projNovo in arraysProjNovo:
-    #         inserirProfessor(projNovo.nome, projNovo.descricao, projNovo.dataInicio, projNovo.datadeFim, conector, connection)
-    #         auxiliar = 0
 
-
-
-
-    # for eventoNovo in Eventos:
-    #     sql = ("INSERT INTO desenvolvimento_evento(doi, autores, titulo, nomeEvento, ano, volume, paginas) VALUES ('%s' , %s , '%s', '%s', '%s' , %s , '%s')" % (eventoNovo.doi, eventoNovo.autores, eventoNovo.titulo, eventoNovo.nomeEvento, eventoNovo.ano, eventoNovo.volume, eventoNovo.paginas))
-    #     conector.execute(sql)
-    #     connection.commit()
-    #
-    # for artigo in artigos:
-    #     sql = ("INSERT INTO desenvolvimento_artigo(doi, autores, titulo, ano,  paginas) VALUES ('%s' , %s , '%s', '%s, '%s)" % (artigo.doi, artigo.autores, artigo.titulo, artigo.ano, artigo.paginas))
-    #     conector.execute(sql)
-    #     connection.commit()
-    # projeto
-    # if resultProjeto.__len__()!=0:
 
     # for projnovo in projetoPesquisa:
     # # for projnovo in projeto:
@@ -675,37 +626,13 @@ def executeLeitorXML():
                     # print(pDescricao[0])
 
 
-
-
-    # else:
-    #     for p in professor:
-    #         for row in resultProfessor:
-    #             print(p.nome)
-    #             if row[0] == p.nome and row[5] == p.lattes:
-    #                 if row[3] != p.departamento or row[4] != p.funcao or row[5] != p.lattes or row[10] != p.nomeEmCitacoesBibliograficas:
-    #                     sql = (
-    #                     "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",                        (p.nome, p.departamento, p.funcao, p.lattes, p.nomeEmCitacoesBibliograficas, p.enderecoProfissional,
-    #                          p.enderecoProfissional_lat, p.   enderecoProfissional_long, p.nome))
-    #                     conector.execute(sql)
-    #                     connection.commit()
-    #                     auxil = 1
-    #         if auxil == 1:
-    #             arraysProfNovo.append(p)
-    #             auxil = 0
-    #     for profnovo in arraysProfNovo:
-    #             sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"
-    #                    % (profnovo.nome, profnovo.departamento, profnovo.funcao, profnovo.lattes, profnovo.nomeEmCitacoesBibliograficas))
-    #             conector.execute(sql)
-    #             connection.commit()
-    #             auxiliar =0
-
-
 if __name__ == "__main__":
-     # executeLattes()
+    executeLattes()
     initSistem()
     executeLeitorXML()
 
 
+    #lixo utilizavel
 
     #
     # config = {
