@@ -56,7 +56,15 @@
                     <br/>
                     <br/><b>
                     {{ project.nome|upper }}</b><br/>
-                        {{project.resumo}}
+                        Situação: {{project.situacao}}<br/>
+                        Natureza: {{project.natureza}}<br/>
+                        Integrantes:
+                        {% for i in project.integrante.all %}
+                                {{ i.nome }}<br>
+                        {% endfor %}<br>
+
+                        Data de Ínicio {{project.datainicio}}<br/>
+                        Data de Fim {{project.datadefim}}<br/>
                     {% endfor %}
 
                     <div class="pagination">

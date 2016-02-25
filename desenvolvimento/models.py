@@ -3,9 +3,27 @@ from django.db import models
 class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
     sigla = models.CharField('Sigla', max_length=100)
+    def __unicode__(self):
+        return self.nome
+    # def __unicode__(self):
+    #     return self.nome,  self.sigla
     # chefe = models.ForeignKey(Professor)
     # suplente = models.ForeignKey(Professor)
 
+class Formacao(models.Model):
+    ano_inicio = models.CharField('Ano de Inicio', max_length=4)
+    ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
+    tipo = models.CharField('Tipo', max_length=511)
+    descricao = models.CharField('Descricao', max_length=5000)
+    nome = models.CharField('Nome', max_length=5000)
+    def __unicode__(self):
+        return self.nome
+     # chave estrangeira do professor;
+
+class AreaDeAtuacao(models.Model):
+    descricao = models.CharField('Area de Atuacao', max_length=511)
+    def __unicode__(self):
+        return self.descricao
 
 class Professor(models.Model):
     nome = models.CharField('Nome', max_length=100)
@@ -16,44 +34,27 @@ class Professor(models.Model):
     lattes = models.CharField('Link do Lattes', max_length=50, null=True, blank=True)
     bolsaprodutividade = models.CharField('Bolsa Produtividade', max_length=100, null=True, blank=True)
     enderecoprofissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
-    nomeemcitacoesbibliograficas = models.CharField('nomeEmCitacoesBibliograficas', max_length=255, null=True, blank=True)
+    nomeemcitacoesbibliograficas = models.CharField('Nome em Citacoes Bibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
-    # funcionario = [Funcionario]
+    formacao = models.ManyToManyField(Formacao, related_name='Formacao')
+    areadeAtuacao = models.ManyToManyField(AreaDeAtuacao, related_name='AreadeAtuacao')
 
     def __unicode__(self):
         return self.nome
 
 
-# class Funcionario(models.Model):
-#     nome = models.CharField('Nome', max_length=100)
-#     email = models.CharField('E-mail', max_length=200)
-#     telefone = models.CharField('Telefone', max_length=20)
-#     departamento = models.ForeignKey(DepartamentoAcademico)
-#     funcao = models.CharField('Funcao', max_length=100)
-
-
-class Formacao(models.Model):
-    ano_inicio = models.CharField('Ano de Inicio', max_length=4)
-    ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
-    tipo = models.CharField('Tipo', max_length=511)
-    descricao = models.CharField('Descricao', max_length=5000)
-     # chave estrangeira do professor;
-
-class areadeAtuacao(models.Model):
-    descricao = models.CharField('Area de Atuacao', max_length=511)
-    # chave estrangeira do professor; muito pra muitos;
-
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
-    #departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="Departamento Academico")
-    # disciplina = models.CharField('Disciplina', max_length=100)
+    departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="DepartamentoAcademico")
 
+    # def __unicode__(self):
+    #     return self.nome,  self.sigla
 
 class Coordenacao(models.Model):
     coordenador = models.ForeignKey(Professor, related_name='coordenadorCoo')
     suplente = models.ForeignKey(Professor, related_name='suplenteCoo')
-    curso = models.ForeignKey(Curso)
+    curso = models.ForeignKey(Curso,related_name='Curso' )
 
 
 class Artigo(models.Model):
@@ -64,6 +65,8 @@ class Artigo(models.Model):
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
 
+    def __unicode__(self):
+        return self.titulo, self.resumo
 
 class ArtigoEmPeriodico(Artigo):
     nomejournal = models.CharField('Nome Journal', max_length=255)
@@ -78,14 +81,27 @@ class ArtigoEmConferencia(Artigo):
     ISBN = models.CharField('Codigo ISBN', max_length=50)  # obrigatorio
     local = models.CharField('Local da Conferencia', max_length=255)
 
+class Integrante(models.Model, models.BooleanField):
+    nome = models.CharField('nome', max_length=255)
+    ehProfessor = models.BooleanField(default=False)
+
 class Projeto(models.Model):
-    listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000, null=True, blank=True)
-    listaColaboradores = models.CharField('Lista de Colaboradores', max_length=5000, null=True, blank=True)
+    # listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000, null=True, blank=True)
+    # listaColaboradores = models.CharField('Lista de Colaboradores', max_length=5000, null=True, blank=True)
     datainicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)
     datadefim = models.CharField('Data de Fim', max_length=5, null=True, blank=True)
     agendafinanciadora = models.CharField('Agencia Financiadora', max_length=255, null=True, blank=True)
     nome = models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=10000)
+    situacao = models.CharField('Situacao', max_length=100, null=True, blank=True)
+    natureza = models.CharField('Natureza', max_length=100, null=True, blank=True)
+    integrante = models.ManyToManyField(Integrante, related_name='Integrantes')
+    # coordenador =  models.ForeignKey(Integrante, related_name='Coordenador')
+
+    def __unicode__(self):
+        return self.nome, self.resumo
+
+
 
 class Evento(models.Model):
     doi = models.CharField('DOI', max_length=255)
@@ -95,3 +111,4 @@ class Evento(models.Model):
     ano = models.CharField('Ano', max_length=4)
     volume = models.CharField('Volume', max_length=10)
     paginas = models.CharField('Paginas', max_length=255)
+
