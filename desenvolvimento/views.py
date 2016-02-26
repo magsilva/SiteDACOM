@@ -105,3 +105,10 @@ def eventos(request):
 
     # return render_to_response('eventos.html', {})
 
+
+
+def detailsProjeto(request, projeto_id):
+    return HttpResponse("Voce esta vendo o projeto" % projeto_id)
+
+def detailsProfessor():
+    pass

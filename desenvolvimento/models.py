@@ -84,6 +84,7 @@ class Integrante(models.Model, models.BooleanField):
     nome = models.CharField('nome', max_length=255)
     ehProfessor = models.BooleanField(default=False)
     professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
+    ehCoordenador = models.BooleanField(default=False, )
 
 class Projeto(models.Model):
     # listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000, null=True, blank=True)
@@ -95,7 +96,6 @@ class Projeto(models.Model):
     resumo = models.CharField('Resumo', max_length=10000)
     situacao = models.CharField('Situacao', max_length=100, null=True, blank=True)
     natureza = models.CharField('Natureza', max_length=100, null=True, blank=True)
-    integrante = models.ManyToManyField(Integrante, related_name='Integrantes')
     professor = models.ForeignKey(Professor, related_name='Professor')
     # coordenador =  models.ForeignKey(Integrante, related_name='Coordenador')
 

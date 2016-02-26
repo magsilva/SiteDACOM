@@ -11,5 +11,6 @@ urlpatterns = [
       url(r'^professor', views.professor, name='professor'),
       url(r'^projetos', views.projetos, name='projetos'),
       url(r'^eventos', views.eventos, name='eventos'),
+      url(r'^index(?P<projeto_id>[0-9]+)/detailsProjeto/$', views.detailsProjeto, name='detailsProjeto'),
 ]
 

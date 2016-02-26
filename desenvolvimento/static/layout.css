@@ -15,6 +15,23 @@ body {
     padding:0;
 }
 
+.anterior{
+    width:50px;
+    height:50px;
+    background-color:#232323;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.anterior .hover:{
+    width:50px;
+    height:50px;
+    background-color:#f9c61f;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
 
 /** element defaults **/
 table {
