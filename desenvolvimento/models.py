@@ -5,25 +5,7 @@ class DepartamentoAcademico(models.Model):
     sigla = models.CharField('Sigla', max_length=100)
     def __unicode__(self):
         return self.nome
-    # def __unicode__(self):
-    #     return self.nome,  self.sigla
-    # chefe = models.ForeignKey(Professor)
-    # suplente = models.ForeignKey(Professor)
 
-class Formacao(models.Model):
-    ano_inicio = models.CharField('Ano de Inicio', max_length=4)
-    ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
-    tipo = models.CharField('Tipo', max_length=511)
-    descricao = models.CharField('Descricao', max_length=5000)
-    nome = models.CharField('Nome', max_length=5000)
-    def __unicode__(self):
-        return self.nome
-     # chave estrangeira do professor;
-
-class AreaDeAtuacao(models.Model):
-    descricao = models.CharField('Area de Atuacao', max_length=511)
-    def __unicode__(self):
-        return self.descricao
 
 class Professor(models.Model):
     nome = models.CharField('Nome', max_length=100)
@@ -36,11 +18,27 @@ class Professor(models.Model):
     enderecoprofissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
     nomeemcitacoesbibliograficas = models.CharField('Nome em Citacoes Bibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
-    formacao = models.ManyToManyField(Formacao, related_name='Formacao')
-    areadeAtuacao = models.ManyToManyField(AreaDeAtuacao, related_name='AreadeAtuacao')
 
     def __unicode__(self):
         return self.nome
+
+
+class Formacao(models.Model):
+    ano_inicio = models.CharField('Ano de Inicio', max_length=4)
+    ano_conclusao = models.CharField('Ano de Conclusao', max_length=4)
+    tipo = models.CharField('Tipo', max_length=511)
+    descricao = models.CharField('Descricao', max_length=5000)
+    nome = models.CharField('Nome', max_length=5000)
+    formacaoProfessor = models.ForeignKey(Professor, related_name='FormacaoProfessor')
+    def __unicode__(self):
+        return self.nome
+
+class AreaDeAtuacao(models.Model):
+    descricao = models.CharField('Area de Atuacao', max_length=511)
+    areaProfessor = models.ForeignKey(Professor, related_name='AreaProfessor')
+    def __unicode__(self):
+        return self.descricao
+
 
 
 class Curso(models.Model):
@@ -64,9 +62,10 @@ class Artigo(models.Model):
     doi = models.CharField('DOI', max_length=255, null=True, blank=True)
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
+    professorDoArtigo = models.ForeignKey(Professor, related_name='ProfessorDoArtigo')
 
     def __unicode__(self):
-        return self.titulo, self.resumo
+        return self.titulo
 
 class ArtigoEmPeriodico(Artigo):
     nomejournal = models.CharField('Nome Journal', max_length=255)
@@ -84,6 +83,7 @@ class ArtigoEmConferencia(Artigo):
 class Integrante(models.Model, models.BooleanField):
     nome = models.CharField('nome', max_length=255)
     ehProfessor = models.BooleanField(default=False)
+    professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
 
 class Projeto(models.Model):
     # listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000, null=True, blank=True)
@@ -96,10 +96,11 @@ class Projeto(models.Model):
     situacao = models.CharField('Situacao', max_length=100, null=True, blank=True)
     natureza = models.CharField('Natureza', max_length=100, null=True, blank=True)
     integrante = models.ManyToManyField(Integrante, related_name='Integrantes')
+    professor = models.ForeignKey(Professor, related_name='Professor')
     # coordenador =  models.ForeignKey(Integrante, related_name='Coordenador')
 
     def __unicode__(self):
-        return self.nome, self.resumo
+        return self.nome
 
 
 

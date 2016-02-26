@@ -64,36 +64,36 @@ sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/patentesR
 #         self.nome = ""
 #         self.sigla = ""
 
-def inserirDepartamento(nomeDepartamento, siglaDepartamento,conector, connection):
-    sql = ("INSERT INTO desenvolvimento_departamentoacademico(nome, sigla) VALUES ('%s' ,'%s')"  % (nomeDepartamento, siglaDepartamento))
-    conector.execute(sql)
-    connection.commit()
-
-def inserirCurso(nomeDoCurso, siglaDoCurso,conector, connection):
-    sql = ("INSERT INTO desenvolvimento_curso(nome, sigla) VALUES ('%s' ,'%s')"  % (nomeDoCurso, siglaDoCurso))
-    conector.execute(sql)
-    connection.commit()
-
-def inserirProfessor(nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas,conector, connection):
-    sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"% (nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas))
-    conector.execute(sql)
-    connection.commit()
-
-def atualizarProfessor(nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas,conector, connection):
-    sql = ( "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",(nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas, nomeDoProfessor))
-    conector.execute(sql)
-    connection.commit()
-
-def inserirProjeto(dataInicio, datadeFim, nome, resumo, conector, connection):
-    sql = ("INSERT INTO desenvolvimento_projeto(nome, resumo, dataInicio, datadeFim) VALUES ('%s' , '%s' , '%s', '%s')"% (nome, resumo,dataInicio, datadeFim))
-    conector.execute(sql)
-    connection.commit()
-
-
-def atualizarProjeto(nome, descricao, dataInicio, datadeFim, conector, connection):
-    sql = ("UPDATE desenvolvimento_projeto SET nome='%s', resumo='%s', dataInicio='%s, datadeFim=%s,  Where nome=%s ",(nome, descricao, dataInicio, datadeFim))
-    conector.execute(sql)
-    connection.commit()
+# def inserirDepartamento(nomeDepartamento, siglaDepartamento,conector, connection):
+#     sql = ("INSERT INTO desenvolvimento_departamentoacademico(nome, sigla) VALUES ('%s' ,'%s')"  % (nomeDepartamento, siglaDepartamento))
+#     conector.execute(sql)
+#     connection.commit()
+#
+# def inserirCurso(nomeDoCurso, siglaDoCurso,conector, connection):
+#     sql = ("INSERT INTO desenvolvimento_curso(nome, sigla) VALUES ('%s' ,'%s')"  % (nomeDoCurso, siglaDoCurso))
+#     conector.execute(sql)
+#     connection.commit()
+#
+# def inserirProfessor(nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas,conector, connection):
+#     sql = ("INSERT INTO desenvolvimento_professor(nome, departamento_id, funcao, lattes, nomeEmCitacoesBibliograficas) VALUES ('%s' , %d , '%s', '%s', '%s')"% (nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas))
+#     conector.execute(sql)
+#     connection.commit()
+#
+# def atualizarProfessor(nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas,conector, connection):
+#     sql = ( "UPDATE desenvolvimento_professor SET nome='%s', departamento_id=%d, funcao=%s, lattes=%s, nomeEmCitacoesBibliograficas=%s, enderecoProfissional=%s, endereco_profissional_lat=%s, endereco_profissional_long=%s Where nome=%s ",(nomeDoProfessor, departamentoId, funcao, lattes, nomeEmCitacoesBibliograficas, nomeDoProfessor))
+#     conector.execute(sql)
+#     connection.commit()
+#
+# def inserirProjeto(dataInicio, datadeFim, nome, resumo, conector, connection):
+#     sql = ("INSERT INTO desenvolvimento_projeto(nome, resumo, dataInicio, datadeFim) VALUES ('%s' , '%s' , '%s', '%s')"% (nome, resumo,dataInicio, datadeFim))
+#     conector.execute(sql)
+#     connection.commit()
+#
+#
+# def atualizarProjeto(nome, descricao, dataInicio, datadeFim, conector, connection):
+#     sql = ("UPDATE desenvolvimento_projeto SET nome='%s', resumo='%s', dataInicio='%s, datadeFim=%s,  Where nome=%s ",(nome, descricao, dataInicio, datadeFim))
+#     conector.execute(sql)
+#     connection.commit()
 
 
 def initSistem():
@@ -120,7 +120,7 @@ def initSistem():
 
     departamento = None
     try:
-        if DepartamentoAcademico.objects.get(id=1) is None:
+        if DepartamentoAcademico.objects.all().__len__()==0:
             nomeDepartamento = "Departamento Acadêmico de Computação"
             siglaDepartamento = "DACOM"
 
@@ -131,7 +131,7 @@ def initSistem():
 
             while boolean ==1:
                 print("Quer adicionar outros departamentos?")
-                print("1 - para sim adicionar outros departamentos, 2 - para não adicionar outros departamentos")
+                # print("1 - para sim adicionar outros departamentos, 2 - para não adicionar outros departamentos")
                 boolean  =  int(raw_input('1 - para sim adicionar outros departamentos, 2 - para não adicionar outros departamentos:'))
 
                 if boolean==1:
@@ -148,11 +148,10 @@ def initSistem():
     except DepartamentoAcademico.DoesNotExist:
         nomeDepartamento = "Departamento Acadêmico de Computação"
         siglaDepartamento = "DACOM"
-
         departamento =  DepartamentoAcademico(nome=nomeDepartamento, sigla=siglaDepartamento)
         departamento.save()
 
-
+    boolean =1
     if Curso.objects.all().__len__()==0:
         nomeDoCurso =  "Bacharelado de Ciência da Computação"
         siglaDoCurso = "BCC"
@@ -163,7 +162,7 @@ def initSistem():
 
         while boolean ==1:
             print("Quer adicionar outros cursos?")
-            print("1 - para sim adicionar outros cursos, 2 - para não adicionar outros cursos")
+            # print("1 - para sim adicionar outros cursos, 2 - para não adicionar outros cursos")
             boolean  =  int(raw_input('1 - para sim adicionar outros cursos, 2 - para não adicionar outros cursos:'))
 
             if boolean==1:
@@ -250,11 +249,13 @@ def executeLeitorXML():
                     if formacao1.find('descricao').text is not None:
                         descricao = formacao1.find('descricao').text
 
-                    print(ano_inicio)
+                    # print(ano_inicio)
 
-                    formacao = Formacao(ano_inicio=ano_inicio[0:4], ano_conclusao=ano_conclusao, tipo=tipo, descricao=nome)
-                    if Formacao.objects.filter(nome=nome).__len__()==0:
-                        formacao.save()
+                    # formacao = Formacao(ano_inicio=ano_inicio[0:4], ano_conclusao=ano_conclusao, tipo=tipo, descricao=descricao, nome= nome)
+                    # if Formacao.objects.filter(nome=nome).__len__()==0:
+                    #     formacao.save()
+                    #
+                    # item.formacao.add(formacao)
 
             for projetospesquisa in child1.iter('projetos_pesquisa'):
                 for projeto in projetospesquisa.iter('projeto'):
@@ -286,23 +287,26 @@ def executeLeitorXML():
                         parte5 =  parte4[1].split("- Integrante")
                     except IndexError:
                         parte5 =  parte4[0].split("- Integrante")
+                    profDoProjeto =  Professor.objects.get(nome=prof.nome)
 
                     try:
-                        proj2 = Projeto(nome=nome, resumo = parte1[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[0].split(".")[0])
+                        proj2 = Projeto(nome=nome, resumo = parte1[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[0].split(".")[0], professor = profDoProjeto)
                     except IndexError:
-                        proj2 = Projeto(nome=nome, resumo = parte1[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = " ", natureza = parte3[0].split(".")[0])
+                        proj2 = Projeto(nome=nome, resumo = parte1[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = " ", natureza = parte3[0].split(".")[0], professor = profDoProjeto)
 
                     if Projeto.objects.filter(nome=nome).__len__()==0:
                         proj2.save()
                     else:
-                        p2 = Projeto.objects.filter(nome=nome)[0]
+                        p2 = Projeto.objects.get(nome=nome)
                         p2.nome = proj2.nome
                         p2.resumo = proj2.resumo
                         p2.datadefim = proj2.datadefim
                         p2.datainicio = proj2.datainicio
                         p2.situacao = proj2.situacao
                         p2.natureza = proj2.natureza
+                        p2.professor = proj2.professor
                         p2.save()
+
                         # for i in parte5[1:parte5.__len__()-1]:
                         #     # i.replace(" / ", "")
                         # #
@@ -325,11 +329,11 @@ def executeLeitorXML():
             for areaatuacao in child1.iter('area_atuacao'):
                 descricao = areaatuacao.find('descricao').text
 
-                # area = AreaDeAtuacao(descricao= descricao)
-                #
+                area = AreaDeAtuacao(descricao= descricao)
+
                 # if AreaDeAtuacao.objects.filter(descricao=descricao).__len__()==0:
                 #     area.save()
-                #
+                #     # prof.areadeAtuacao.add(area)
                 # prof.areadeAtuacao.add(area)
 
 
