@@ -35,7 +35,7 @@ settings.DATABASES = {
 }
 
 from desenvolvimento.models import Artigo, Professor, ArtigoEmConferencia, AreaDeAtuacao, \
-    Integrante, DepartamentoAcademico, ArtigoEmPeriodico, Projeto, Evento, Curso, Formacao
+    Integrante, DepartamentoAcademico, ArtigoEmPeriodico, Projeto, Evento, Curso, Formacao, DadosDeProfessor
 
 warnings.filterwarnings('ignore')
 
@@ -146,10 +146,16 @@ def executeLeitorXML():
                 prof.nome = nome_inicial
                 prof.nome_completo = nome_completo
                 prof.nomeEmCitacoesBibliograficas = nome_citacao_bibliografica
+
                 prof.sexo = sexo
                 departamento = DepartamentoAcademico.objects.get(sigla='DACOM')
                 prof.departamento = departamento
                 prof.funcao = "Professor"
+
+
+
+
+
 
                 if Professor.objects.filter(nome=prof.nome).__len__()==0:
                     prof.save()
@@ -162,6 +168,12 @@ def executeLeitorXML():
                     item.funcao = "Professor"
                     item.save()
 
+                dadosDeCitacaoEmBibliografia =  prof.nomeEmCitacoesBibliograficas.split(";")
+                print (dadosDeCitacaoEmBibliografia)
+                for dado in dadosDeCitacaoEmBibliografia:
+
+                    dadosDeProfessor = DadosDeProfessor(nome=dado, professorDados=Professor.objects.get(nome=prof.nome))
+                    dadosDeProfessor.save()
 
             for formacao in child1.iter('formacao_academica'):
                 for formacao1 in formacao.iter('formacao'):
@@ -266,9 +278,10 @@ def executeLeitorXML():
 
             for areaatuacao in child1.iter('area_atuacao'):
                 descricao = areaatuacao.find('descricao').text
-                profDaIteracao =  Professor.objects.get(nome=prof.nome)
-                area = AreaDeAtuacao(descricao= descricao, areaProfessor=profDaIteracao)
 
+                profDaIteracao =  Professor.objects.get(nome=prof.nome)
+
+                area = AreaDeAtuacao(descricao= descricao, areaProfessor=profDaIteracao)
                 if AreaDeAtuacao.objects.filter(descricao=descricao).__len__()==0:
                     area.save()
 

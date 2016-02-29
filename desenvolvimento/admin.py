@@ -12,6 +12,7 @@ from desenvolvimento.models import AreaDeAtuacao
 from desenvolvimento.models import Evento
 from desenvolvimento.models import Integrante
 from desenvolvimento.models import Projeto
+from desenvolvimento.models import DadosDeProfessor
 
 
 
@@ -26,5 +27,6 @@ admin.site.register(Projeto)
 admin.site.register(Evento)
 admin.site.register(AreaDeAtuacao)
 admin.site.register(Integrante)
+admin.site.register(DadosDeProfessor)
 
 

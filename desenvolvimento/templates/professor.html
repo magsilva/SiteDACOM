@@ -55,9 +55,8 @@
                     {% for prof in professores %}
                     <br/>
                     <br/><b>
-                    <li><a href="{{prof.id}}/">{{prof.nome}}</a></li>
-                        <!--{{prof.resumo}}-->
-
+                    <li>{{prof.nome}}</li>
+                            <li><a href="{{prof.id}}/">Detalhes</a></li>
                     {% endfor %}
 
                               <div class="pagination">
