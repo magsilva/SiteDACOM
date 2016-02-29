@@ -1,7 +1,7 @@
 from django.core.paginator import PageNotAnInteger, Paginator, EmptyPage
 from django.shortcuts import render
 from django.template import loader
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 # from django.views.generic import CreateView
@@ -107,8 +107,13 @@ def eventos(request):
 
 
 
-def detailsProjeto(request, projeto_id):
-    return HttpResponse("Voce esta vendo o projeto" % projeto_id)
+def details(request, projeto_professor):
+    try:
+        details = Projeto.objects.filter(professor=projeto_professor)
+    except Projeto.DoesNotExist:
+        raise Http404("Professor does not exist")
+    return render(request, 'detailsProjeto.html', {'details': details})
 
-def detailsProfessor():
-    pass
+
+def detailsProjeto():
+ pass

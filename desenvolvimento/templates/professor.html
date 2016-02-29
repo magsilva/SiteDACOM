@@ -55,7 +55,7 @@
                     {% for prof in professores %}
                     <br/>
                     <br/><b>
-                    {{ prof.nome }}</b><br/>
+                    <li><a href="{{prof.id}}/">{{prof.nome}}</a></li>
                         <!--{{prof.resumo}}-->
 
                     {% endfor %}
