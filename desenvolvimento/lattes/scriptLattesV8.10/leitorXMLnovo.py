@@ -169,7 +169,7 @@ def executeLeitorXML():
                     item.save()
 
                 dadosDeCitacaoEmBibliografia =  prof.nomeEmCitacoesBibliograficas.split(";")
-                print (dadosDeCitacaoEmBibliografia)
+                # print (dadosDeCitacaoEmBibliografia)
                 for dado in dadosDeCitacaoEmBibliografia:
 
                     dadosDeProfessor = DadosDeProfessor(nome=dado, professorDados=Professor.objects.get(nome=prof.nome))
@@ -254,26 +254,26 @@ def executeLeitorXML():
                         p2.professor = proj2.professor
                         # p2.save()
 
-                        for i in parte5[1:parte5.__len__()-1]:
-                            # print(i.replace("/", ""))
-                            if i.__contains__("- Coordenador"):
-                                for j in i.replace("/", "").split("- Coordenador"):
-                                    if Professor.objects.filter(nome=j):
-                                        profI = Professor.objects.filter(nome=j)[0]
-                                        item=  Integrante(nome=j, ehCoordenador =True, ehProfessor = True,professor = profI)
-                                        item.save()
-                                    else:
-                                        item=  Integrante(nome=j, ehCoordenador =True, ehProfessor = False, professor = None)
-                                        item.save()
-
-                            else:
-                                if Professor.objects.filter(nome=i):
-                                    profI = Professor.objects.filter(nome=i)[0]
-                                    item=  Integrante(nome=i, ehCoordenador =False, ehProfessor = True,professor = profI)
-                                    item.save()
-                                else:
-                                    item=  Integrante(nome=i, ehCoordenador =False, ehProfessor = False, professor = None)
-                                    item.save()
+                        # for i in parte5[1:parte5.__len__()-1]:
+                        #     # print(i.replace("/", ""))
+                        #     if i.__contains__("- Coordenador"):
+                        #         for j in i.replace("/", "").split("- Coordenador"):
+                        #             if Professor.objects.filter(nome=j):
+                        #                 profI = Professor.objects.filter(nome=j)[0]
+                        #                 item=  Integrante(nome=j, ehCoordenador =True, ehProfessor = True,professor = profI)
+                        #                 item.save()
+                        #             else:
+                        #                 item=  Integrante(nome=j, ehCoordenador =True, ehProfessor = False, professor = None)
+                        #                 item.save()
+                        #
+                        #     else:
+                        #         if Professor.objects.filter(nome=i):
+                        #             profI = Professor.objects.filter(nome=i)[0]
+                        #             item=  Integrante(nome=i, ehCoordenador =False, ehProfessor = True,professor = profI)
+                        #             item.save()
+                        #         else:
+                        #             item=  Integrante(nome=i, ehCoordenador =False, ehProfessor = False, professor = None)
+                        #             item.save()
 
 
             for areaatuacao in child1.iter('area_atuacao'):
@@ -325,28 +325,28 @@ def executeLeitorXML():
                         eventoNovo.paginas = e.paginas
                         eventoNovo.save()
 
-                    # Eventos.append(e)
-
-            #         # print(2)
-            #
-            # for resumoCongresso in child1.iter('resumo_congresso'):
-            #     for resumCo in resumoCongresso.iter('resumo'):
-            #         if resumCo.find('doi').text is not None:
-            #             doi = resumCo.find('doi').text
-            #         if resumCo.find('autores').text is not None:
-            #             autores = resumCo.find('autores').text
-            #         if resumCo.find('titulo').text is not None:
-            #             titulo = resumCo.find('titulo').text
-            #         if resumCo.find('nome_evento').text is not None:
-            #             nome_evento = resumCo.find('nome_evento').text
-            #         if resumCo.find('ano').text is not None:
-            #             ano = resumCo.find('ano').text
-            #         if resumCo.find('volume').text is not None:
-            #             volume = resumCo.find('volume').text
-            #         if resumCo.find('paginas').text is not None:
-            #             paginas = resumCo.find('paginas').text
-            #         if resumCo.find('numero').text is not None:
-            #             numero = resumCo.find('numero').text
+            for resumoCongresso in child1.iter('resumo_congresso'):
+                for resumCo in resumoCongresso.iter('resumo'):
+                    print("titulo")
+                    if resumCo.find('doi').text is not None:
+                        doi = resumCo.find('doi').text
+                        print(doi)
+                    if resumCo.find('autores').text is not None:
+                        autores = resumCo.find('autores').text
+                        print(autores)
+                    if resumCo.find('titulo').text is not None:
+                        titulo = resumCo.find('titulo').text
+                        print(titulo)
+                    if resumCo.find('nome_evento').text is not None:
+                        nome_evento = resumCo.find('nome_evento').text
+                    if resumCo.find('ano').text is not None:
+                        ano = resumCo.find('ano').text
+                    if resumCo.find('volume').text is not None:
+                        volume = resumCo.find('volume').text
+                    if resumCo.find('paginas').text is not None:
+                        paginas = resumCo.find('paginas').text
+                    if resumCo.find('numero').text is not None:
+                        numero = resumCo.find('numero').text
             # #
             #         artigo = Artigo()
             #         artigo.paginas = paginas

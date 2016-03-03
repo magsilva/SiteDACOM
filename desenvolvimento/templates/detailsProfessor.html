@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,54 +41,27 @@
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/search/" method="get">
-                        <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
+                        <input type="text" name="q" size="88" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
-                        <input type="submit" value="Buscar" />
                     </form>
                 </li>
-                <li><a href="/search/"></a></li>
             </ul>
         </div>
     </nav>
     <div class="corpo">
         <section id="content">
             <article class="expanded">
-                <h2>Início</h2>
+                <h2>Detalhes Projeto</h2>
 
-                    {% for project in projects %}
+
+                {% for detailProject in detailsProjeto %}
                     <br/>
                     <br/><b>
-                   <li><a href="{{project.nome}}/"> {{ project.nome|upper }}</a></li></b><br/>
-                        Professor: <br/>
-                        <!--<li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>-->
-                        <li><a href="{{project.id}}/">{{project.professor}}</a></li>
-                        Situação: {{project.situacao}}<br/>
-                        Natureza: {{project.natureza}}<br/>
-                        Data de Ínicio {{project.datainicio}}<br/>
-                        Data de Fim {{project.datadefim}}<br/>
-                        Resumo: {{project.resumo}}<br/>
+                    {{ detailProject.nome|upper }}</b><br/>
+                        Data de Ínicio {{detailProject.datainicio}}<br/>
+                        Data de Fim {{detailProject.datadefim}}<br/>
                     {% endfor %}
-
-                    <div class="pagination">
-
-    <span class="step-links">
-
-        {% if projects.has_previous %}
-
-            <a href="?page={{ projects.previous_page_number }}" class="anterior">Anterior</a>
-        {% endif %}
-
-        <span class="current">
-
-        Página {{ projects.number }} de {{ projects.paginator.num_pages }}
-        </span>
-
-        {% if projects.has_next %}
-            <a href="?page={{ projects.next_page_number }}">Próxima</a>
-        {% endif %}
-    </span>
-                    </div>
 
                 </ul>
             </article>

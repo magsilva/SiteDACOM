@@ -1,5 +1,6 @@
 {{ object.nome }}
 {{ object.professor }}
 {{ object.datainicio}}
-{ object.datadefim}}
-{ object.resumo}}
+{{ object.datadefim}}
+{{ object.resumo}}
+{{ object.professor.nome}}

@@ -58,9 +58,9 @@
                         <p>
                          <b> <a href="{{ result.object.get_absolute_url }}">{{ result.object.nome }}</a></b></br>
                           Professor: {{ result.object.professor }}<br/>
-                            Data de ìnicio {{ result.object.datainicio}}<br/>
-                            Data de Término {{result.object.datadefim}}<br/>
-                            Resumo{{ result.object.resumo}}<br/>
+                            Data de ìnicio: {{ result.object.datainicio}}<br/>
+                            Data de Término: {{result.object.datadefim}}<br/>
+                            Resumo: {{ result.object.resumo}}<br/>
                         </p>
                         {% empty %}
                         <p>Não foi encontrado nada.</p>

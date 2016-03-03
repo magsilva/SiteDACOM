@@ -3,6 +3,7 @@ from django.db import models
 class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
     sigla = models.CharField('Sigla', max_length=100)
+
     def __unicode__(self):
         return self.nome
 
@@ -51,9 +52,6 @@ class Curso(models.Model):
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="DepartamentoAcademico")
 
-    # def __unicode__(self):
-    #     return self.nome,  self.sigla
-
 class Coordenacao(models.Model):
     coordenador = models.ForeignKey(Professor, related_name='coordenadorCoo')
     suplente = models.ForeignKey(Professor, related_name='suplenteCoo')
@@ -89,11 +87,9 @@ class Integrante(models.Model, models.BooleanField):
     nome = models.CharField('nome', max_length=255)
     ehProfessor = models.BooleanField(default=False)
     professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
-    ehCoordenador = models.BooleanField(default=False, )
+    ehCoordenador = models.BooleanField(default=False)
 
 class Projeto(models.Model):
-    # listadeCoordenadores = models.CharField('Lista de Coordenadores', max_length=5000, null=True, blank=True)
-    # listaColaboradores = models.CharField('Lista de Colaboradores', max_length=5000, null=True, blank=True)
     datainicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)
     datadefim = models.CharField('Data de Fim', max_length=5, null=True, blank=True)
     agendafinanciadora = models.CharField('Agencia Financiadora', max_length=255, null=True, blank=True)
@@ -102,7 +98,6 @@ class Projeto(models.Model):
     situacao = models.CharField('Situacao', max_length=100, null=True, blank=True)
     natureza = models.CharField('Natureza', max_length=100, null=True, blank=True)
     professor = models.ForeignKey(Professor, related_name='Professor')
-    # coordenador =  models.ForeignKey(Integrante, related_name='Coordenador')
 
     def __unicode__(self):
         return self.nome

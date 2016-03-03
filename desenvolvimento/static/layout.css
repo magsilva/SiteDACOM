@@ -341,6 +341,7 @@ form.searchform submit {
 {
     width: 80%;
     margin: 0 auto;
+    min-height:415px;
 
 
 }

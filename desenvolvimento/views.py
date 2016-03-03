@@ -27,21 +27,6 @@ def index(request):
        projects= paginator.page(paginator.num_pages)
 
     return render_to_response('index.html', {"projects": projects})
-    #
-    # t =loader.get_template('index.html')
-    # c = RequestContext(request, {
-    #     'listadeProjetos': listadeProjetos,
-    # })
-    # return HttpResponse(t.render(c))
-
-
-# contact_list = Contacts.objects.all()
-#     paginator = Paginator(contact_list, 25) # Show 25 contacts per page
-#
-#     page = request.GET.get('page')
-#     try:
-#         contacts = paginator.page(page)
-#     except PageNotAnInteger:
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')
@@ -102,11 +87,6 @@ def eventos(request):
     return render_to_response('eventos.html', {"eventos": eventos})
 
 
-
-    # return render_to_response('eventos.html', {})
-
-
-
 def details(request, projeto_professor):
     try:
         details = Projeto.objects.filter(professor=projeto_professor)
@@ -115,5 +95,10 @@ def details(request, projeto_professor):
     return render(request, 'detailsProjeto.html', {'details': details})
 
 
-def detailsProjeto():
- pass
+def detailsProjeto(request, projeto_projeto):
+    try:
+        detailsProjeto = Projeto.objects.filter(nome=projeto_projeto)
+    except Projeto.DoesNotExist:
+        raise Http404("Professor does not exist")
+    return render(request, 'detailsProfessor.html', {'detailsProjeto': detailsProjeto})
+
