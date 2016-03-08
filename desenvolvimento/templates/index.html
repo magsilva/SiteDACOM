@@ -42,7 +42,7 @@
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
-                        <input type="submit" value="Buscar" />
+                        <input class="searchform" type="submit" value="Buscar" />
                     </form>
                 </li>
                 <li><a href="/search/"></a></li>
@@ -55,12 +55,10 @@
                 <h2>Início</h2>
 
                     {% for project in projects %}
-                    <br/>
-                    <br/><b>
-                   <li><a href="{{project.nome}}/"> {{ project.nome|upper }}</a></li></b><br/>
-                        Professor: <br/>
-                        <!--<li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>-->
-                        <li><a href="{{project.id}}/">{{project.professor}}</a></li>
+    <br>
+                <a href="{{project.nome}}/"> <div class="nomeProjeto">{{ project.nome|upper }}</div></a></b>
+                <br>
+                        Professor:  <a href="{{project.id}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
                         Situação: {{project.situacao}}<br/>
                         Natureza: {{project.natureza}}<br/>
                         Data de Ínicio {{project.datainicio}}<br/>

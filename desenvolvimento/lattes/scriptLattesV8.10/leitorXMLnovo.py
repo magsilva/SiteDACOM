@@ -34,8 +34,7 @@ settings.DATABASES = {
     }
 }
 
-from desenvolvimento.models import Artigo, Professor, ArtigoEmConferencia, AreaDeAtuacao, \
-    Integrante, DepartamentoAcademico, ArtigoEmPeriodico, Projeto, Evento, Curso, Formacao, DadosDeProfessor
+from desenvolvimento.models import Artigo, Professor, ArtigoEmConferencia, AreaDeAtuacao, Integrante, DepartamentoAcademico, ArtigoEmPeriodico, Projeto, Evento, Curso, Formacao, DadosDeProfessor, IntegranteProfessor
 
 warnings.filterwarnings('ignore')
 
@@ -110,7 +109,7 @@ def initSistem():
                 curso = Curso(nome =nomeDoCurso, siglaDoCurso = siglaDoCurso, departamentoAcademico = departamento)
                 curso.save()
             if boolean == 2:
-                print("Registro de departamento cursos com sucesso :)")
+                print("Registro de cursos com sucesso :)")
 
             if  boolean != 1 and boolean != 2:
                 print("Valor incorreto, por favor preste atenção nas intruções")
@@ -254,26 +253,27 @@ def executeLeitorXML():
                         p2.professor = proj2.professor
                         # p2.save()
 
-                        # for i in parte5[1:parte5.__len__()-1]:
-                        #     # print(i.replace("/", ""))
-                        #     if i.__contains__("- Coordenador"):
-                        #         for j in i.replace("/", "").split("- Coordenador"):
-                        #             if Professor.objects.filter(nome=j):
-                        #                 profI = Professor.objects.filter(nome=j)[0]
-                        #                 item=  Integrante(nome=j, ehCoordenador =True, ehProfessor = True,professor = profI)
-                        #                 item.save()
-                        #             else:
-                        #                 item=  Integrante(nome=j, ehCoordenador =True, ehProfessor = False, professor = None)
-                        #                 item.save()
-                        #
-                        #     else:
-                        #         if Professor.objects.filter(nome=i):
-                        #             profI = Professor.objects.filter(nome=i)[0]
-                        #             item=  Integrante(nome=i, ehCoordenador =False, ehProfessor = True,professor = profI)
-                        #             item.save()
-                        #         else:
-                        #             item=  Integrante(nome=i, ehCoordenador =False, ehProfessor = False, professor = None)
-                        #             item.save()
+                        for i in parte5[1:parte5.__len__()-1]:
+                            # print(i.replace("/", ""))
+                            if i.__contains__("- Coordenador"):
+                                for j in i.replace("/", "").split("- Coordenador"):
+                                    if Professor.objects.filter(nome=j):
+                                        profI = Professor.objects.filter(nome=j)[0]
+
+                                        item=  IntegranteProfessor(nome=j, ehCoordenador =True, professor = profI)
+                                        item.save()
+                                    else:
+                                        item=  Integrante(nome=j, ehCoordenador =True)
+                                        item.save()
+
+                            else:
+                                if Professor.objects.filter(nome=i):
+                                    profI = Professor.objects.filter(nome=i)[0]
+                                    item=  IntegranteProfessor(nome=i, ehCoordenador =False, professor = profI)
+                                    item.save()
+                                else:
+                                    item=  Integrante(nome=i, ehCoordenador =False)
+                                    item.save()
 
 
             for areaatuacao in child1.iter('area_atuacao'):

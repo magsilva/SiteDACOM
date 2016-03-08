@@ -39,9 +39,10 @@
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/search/" method="get">
-                        <input type="text" name="q" size="88" value="Digite o sua pesquisa aqui"
+                        <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
+                        <input type="submit" value="Buscar" />
                     </form>
                 </li>
             </ul>
@@ -54,9 +55,9 @@
 
                     {% for project in projects %}
                     <br/>
-                    <br/><b>
-                    {{ project.nome|upper }}</b><br/>
-                        <li><a href="{{project.id}}/">{{project.professor}}</a></li>
+                    <br/>
+                   <div class="nomeProjeto"><b>{{ project.nome|upper }}</b> </div>
+                    <a href="{{project.id}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
                         Situação: {{project.situacao}}<br/>
                         Natureza: {{project.natureza}}<br/>
                         Data de Ínicio {{project.datainicio}}<br/>

@@ -21,6 +21,9 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# gettext = lambda s: s
+# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -48,8 +51,16 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'desenvolvimento',
     'haystack',
-)
+    # 'django.contrib.sites',
 
+    # 'cms',  # django CMS itself
+    #  'mptt',  # utilities for implementing a tree
+    # 'menus',  # helper for model independent hierarchical website navigation
+    # 'sekizai',  # for javascript and css management
+    # 'djangocms_admin_style',  # for the admin skin. You **must** add 'djangocms_admin_style' in the list **before** 'django.contrib.admin'.
+
+)
+# SITE_ID = 1
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

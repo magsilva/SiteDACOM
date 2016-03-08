@@ -125,6 +125,14 @@ form input, form select, form textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
+
+form submit .hover: {
+    padding: 5px;
+    color: #232323;
+    background-color:#232323;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 form
 {
     margin-right:0px;
@@ -336,7 +344,18 @@ form.searchform submit {
     font-size: inherit;
     line-height: inherit;
     font-size: 15px;
+    color:#000;
 }
+
+form.searchform submit .hover: {
+    padding: 2px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-size: 15px;
+    color:#cccccc;
+}
+
 .corpo
 {
     width: 80%;
@@ -814,6 +833,30 @@ a
     text-decoration: none;
 }
 a .hover:
+{
+    color: #f9c61f;
+    text-decoration: none;
+}
+
+
+.nomeProjeto
+{
+    color: #000;
+    text-decoration: none;
+}
+.nomeProjeto .hover:
+{
+    color: #f9c61f;
+    text-decoration: none;
+}
+
+.nomeProfessor
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.nomeProfessor .hover:
 {
     color: #f9c61f;
     text-decoration: none;

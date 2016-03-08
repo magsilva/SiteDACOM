@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
     sigla = models.CharField('Sigla', max_length=100)
@@ -85,9 +86,15 @@ class ArtigoEmConferencia(Artigo):
 
 class Integrante(models.Model, models.BooleanField):
     nome = models.CharField('nome', max_length=255)
-    ehProfessor = models.BooleanField(default=False)
-    professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
+    # ehProfessor = models.BooleanField(default=False)
+    # professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
     ehCoordenador = models.BooleanField(default=False)
+
+class IntegranteProfessor(Integrante):
+    # nomeDoProfessor = models.CharField('Nome do Professor', max_length=255)
+    # ehProfessor = models.BooleanField(default=False)
+    professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
+    # ehCoordenador = models.BooleanField(default=False)
 
 class Projeto(models.Model):
     datainicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)
