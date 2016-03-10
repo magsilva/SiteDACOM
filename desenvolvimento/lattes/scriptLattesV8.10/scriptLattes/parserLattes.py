@@ -586,39 +586,39 @@ class ParserLattes(HTMLParser):
 
 	# ------------------------------------------------------------------------ #
 	def handle_endtag(self, tag):
-
-    # Aqui
-		# Insercao No BD
-		# abrindoCOnexao
-
-		config = {
-			'user': 'root',
-			'passwd': 'root',
-			'database': 'UTFPR'
-		}
-
-
-		connection = mysql.connector.connect(**config)
-		conector = connection.cursor()
-		profs = []
-
-		conector.execute("SELECT * FROM desenvolvimento_professor")
-		resultProfessor = conector.fetchall()
-
-		conector.execute("SELECT * FROM desenvolvimento_artigo")
-		resultArtigo = conector.fetchall()
-
-		conector.execute ("SELECT * FROM desenvolvimento_artigoemconferencia")
-		resultAritgoEmConferencia = conector.fetchall()
-
-		conector.execute ("SELECT * FROM desenvolvimento_artigoemperiodico")
-		resultArtigoEmPeriodico = conector.fetchall()
-
-		conector.execute ("SELECT * FROM desenvolvimento_formacao")
-		resultFormacao = conector.fetchall()
-
-		conector.execute ("SELECT * FROM desenvolvimento_projeto")
-		resultProjeto = conector.fetchall()
+    #
+    # # Aqui
+		# # Insercao No BD
+		# # abrindoCOnexao
+    #
+		# config = {
+		# 	'user': 'root',
+		# 	'passwd': 'root',
+		# 	'database': 'UTFPR'
+		# }
+    #
+    #
+		# connection = mysql.connector.connect(**config)
+		# conector = connection.cursor()
+		# profs = []
+    #
+		# conector.execute("SELECT * FROM desenvolvimento_professor")
+		# resultProfessor = conector.fetchall()
+    #
+		# conector.execute("SELECT * FROM desenvolvimento_artigo")
+		# resultArtigo = conector.fetchall()
+    #
+		# conector.execute ("SELECT * FROM desenvolvimento_artigoemconferencia")
+		# resultAritgoEmConferencia = conector.fetchall()
+    #
+		# conector.execute ("SELECT * FROM desenvolvimento_artigoemperiodico")
+		# resultArtigoEmPeriodico = conector.fetchall()
+    #
+		# conector.execute ("SELECT * FROM desenvolvimento_formacao")
+		# resultFormacao = conector.fetchall()
+    #
+		# conector.execute ("SELECT * FROM desenvolvimento_projeto")
+		# resultProjeto = conector.fetchall()
 
 		# inverter as ordem dos for
 		# colocar o q ta fora dentro e q ta dentro fora

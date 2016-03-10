@@ -10,13 +10,13 @@ RESU  - Está cursando Doutorado na Universidade Federal do Paraná, com estági
 FO1a  - 2014
 FO1b  - 
 FO1c  - Doutorado em andamento em Informática (Conceito CAPES 4)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Federal do Paraná, UFPR, Brasil
+FO1e  - com período sanduíche em Laboratoire d'Informatique de Grenoble (Orientador: Denis Trystam). Título: Uma Estratégia de Agendamento de Tarefas para Área de Convergência entre Plataformas de Nuvem e HPC, Orientador: Carlos Alberto Maziero. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico.
 FO2a  - 2001
 FO2b  - 2004
 FO2c  - Mestrado em Metodologias e Técnicas de Computação
 FO2d  - Pontifícia Universidade Católica do Paraná
-FO2e  - Título: Sistema de Workflow em Tempo Real para Usuários Móveis utilizando Recursos de Voz,Ano de Obtenção: 2004. Orientador:
+FO2e  - Título: Sistema de Workflow em Tempo Real para Usuários Móveis utilizando Recursos de Voz,Ano de Obtenção: 2004. Orientador: Edgard Jamhour. Bolsista do(a): Pontifícia Universidade Católica do Paraná, PUCPR, Brasil.
 FO3a  - 2000
 FO3b  - 2001
 FO3c  - Especialização em Redes e Sistemas Distribuídos
@@ -35,30 +35,14 @@ FO5e  - Título: Especificação de Arquitetura Computacional.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Redes de Computadores e Sistemas Distribuídos.
 ARE3  - Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem/Especialidade: Métodos e Técnicas de Ensino.
-ID1a  - 3.
-ID1b  - Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem/Especialidade: Métodos e Técnicas de Ensino.
-ID2a  - 3.
-ID2b  - Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem/Especialidade: Métodos e Técnicas de Ensino.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Português
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Português
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID7a  - Espanhol
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID8a  - Espanhol
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID9a  - Francês
-ID9b  - Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
-ID10a  - Francês
-ID10b  - Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
-ID11a  - Francês
-ID11b  - Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
-ID12a  - Francês
-ID12b  - Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Português
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID3a  - Espanhol
+ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID4a  - Francês
+ID4b  - Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Ana Paula Chaves Steinmacher
@@ -71,8 +55,8 @@ RESU  - Possui graduação em Tec. em Informática - Mod. Sistemas de Informaç�
 FO1a  - 2007
 FO1b  - 2009
 FO1c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Estadual de Maringá, UEM, Brasil
+FO1e  - Título: Um modelo baseado em context-awareness para um Ambiente de Desenvolvimento Distribuído de Software,Ano de Obtenção: 2009. Orientador: Elisa Hatsue Moriya Huzita. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: context-awareness; Desenvolvimento Distribuído de Software; Modelagem contextual; Disseminação de informações; Ontologia. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. Setores de atividade: Desenvolvimento de Programas (Software).
 FO2a  - 2003
 FO2b  - 2006
 FO2c  - Graduação em Tec
@@ -80,22 +64,10 @@ FO2d  - em Informática - Mod
 FO2e  - Sistemas de Informação. Universidade Tecnológica Federal do Paraná, UTFPR, Brasil. Título: Módulos Edição e Monitoramento para uma Ferramenta de Apoio ao Desenvolvimento Distribuído de Software. Orientador: Alexandre L'Erario.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
-ID1a  - 2.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
-ID2a  - 2.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
-ID3a  - Espanhol
-ID3b  - Compreende PoucoLê Razoavelmente.
-ID4a  - Espanhol
-ID4b  - Compreende PoucoLê Razoavelmente.
-ID5a  - Inglês
-ID5b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco.
-ID6a  - Inglês
-ID6b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco.
-ID7a  - Inglês
-ID7b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco.
-ID8a  - Inglês
-ID8b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco.
+ID1a  - Espanhol
+ID1b  - Compreende PoucoLê Razoavelmente.
+ID2a  - Inglês
+ID2b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - André Luís Schwerz
@@ -109,12 +81,12 @@ FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciencia da Computacao
 FO1d  - Universidade de São Paulo, USP, Brasil
-FO1e  - com período
+FO1e  - com período sanduíche em Georgia Institute of Technology (Orientador: Calton Pu). Título: Compartilhamento de Dados entre Transações Longas, Orientador: João Eduardo Ferreira. Bolsista do(a): Fundação Araucária, FUND. ARAUCÁRIA, Brasil.
 FO2a  - 2004
 FO2b  - 2006
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: Uma Proposta de um Modelo de Tarefas em um Ambiente de Monitoramento da Usabilidade,Ano de Obtenção: 2006. Orientador: Sérgio Roberto P da Silva. Palavras-chave: Avaliação de Usabilidade de Sistemas Interativos; Arquivo de Log do Servidor; Interação Humano-Computador; Modelo de Tarefa; Websites. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Interação Humano-Computador. Setores de atividade: Consultoria em Sistemas de Informática.
 FO3a  - 2000
 FO3b  - 2003
 FO3c  - Graduação em Ciência da Computação
@@ -123,18 +95,8 @@ FO3e  - Título: Montagem de Fragmentos. Orientador: Nalvo Franco de Almeida Jun
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Interação Humano-Computador.
-ID1a  - 3.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Interação Humano-Computador.
-ID2a  - 3.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Interação Humano-Computador.
-ID3a  - Inglês
-ID3b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID6a  - Inglês
-ID6b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
+ID1a  - Inglês
+ID1b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - André Luiz Satoshi Kawamoto
@@ -152,8 +114,8 @@ FO1e  - Título: Computacao Grafica e Interatividade, Orientador: Flavio Soares 
 FO2a  - 1997
 FO2b  - 1999
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 4)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Federal de São Carlos, UFSCAR, Brasil
+FO2e  - Título: Tradutor Automático de Especificações E-LOTOS para o padrao MHEG-5,Ano de Obtenção: 1999. Orientador: Wanderley Lopes de Souza. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: métodos formais, multimidia. Grande área: Ciências Exatas e da Terra
 FO3a  - 1993
 FO3b  - 1996
 FO3c  - Graduação em Bacharelado Em Ciência da Computação
@@ -162,22 +124,10 @@ FO3e  - Título: Análise de Desempenho da Plataforma WOLF. Orientador: Joao Ang
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Linguagem Formais e Autômatos.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics).
-ID1a  - 3.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics).
-ID2a  - 3.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics).
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Japonês
-ID5b  - Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco.
-ID6a  - Japonês
-ID6b  - Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco.
-ID7a  - Japonês
-ID7b  - Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco.
-ID8a  - Japonês
-ID8b  - Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Japonês
+ID2b  - Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Aretha Barbosa Alencar
@@ -190,13 +140,13 @@ RESU  - Possui graduação em Bacharelado Em Ciência da Computação pela Unive
 FO1a  - 2008
 FO1b  - 2013
 FO1c  - Doutorado em Ciências da Computação e Matemática Computacional (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - com período sanduíche em INDIANA UNIVERSITY, BLOOMINGTON (Orientador: Katy Börner). Título: Visualização da evolução temporal de coleções de artigos científicos, Ano de obtenção: 2013. Orientador: Maria Cristina Ferreira de Oliveira. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Visualização de Informação; Coleções de documentos dinâmicas; Extração de tópicos. Grande área: Ciências Exatas e da Terra
 FO2a  - 2005
 FO2b  - 2007
 FO2c  - Mestrado em Ciências da Computação e Matemática Computacional (Conceito CAPES 6)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade de São Paulo, USP, Brasil
+FO2e  - Título: Mineração e Visualização de Coleções de Séries Temporais,Ano de Obtenção: 2007. Orientador: Maria Cristina Ferreira de Oliveira. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. Palavras-chave: Visualização de Informação; Séries Temporais; Mineração de Dados.
 FO3a  - 2001
 FO3b  - 2004
 FO3c  - Graduação em Bacharelado Em Ciência da Computação
@@ -204,22 +154,10 @@ FO3d  - Universidade Federal de São Carlos, UFSCAR, Brasil
 FO3e  - 
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics).
-ID1a  - 2.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics).
-ID2a  - 2.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics).
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Português
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Português
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID7a  - Português
-ID7b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID8a  - Português
-ID8b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Português
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Diego Bertolini Gonçalves
@@ -232,13 +170,13 @@ RESU  - Diego Bertolini concluiu o doutorado em Ciência da Computação pela Un
 FO1a  - 2010
 FO1b  - 2014
 FO1c  - Doutorado em Informática (Conceito CAPES 4)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Federal do Paraná, UFPR, Brasil
+FO1e  - Título: Identificação e Verificação de Escritores Usando Características Texturais e Dissimilaridade, Ano de obtenção: 2014. Orientador: Luiz Eduardo Soares de Oliveira. Coorientador: Robert Sabourin. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Identificação de Escritor; Reconhecimento de Padrões.
 FO2a  - 2006
 FO2b  - 2008
 FO2c  - Mestrado em Informática (Conceito CAPES 4)
-FO2d  - 
-FO2e  - 
+FO2d  - Pontifícia Universidade Católica do Paraná, PUC/PR, Brasil
+FO2e  - Título: Agrupamento de Classificadores na Verificação de Assinaturas Off-Line,Ano de Obtenção: 2008. Orientador: Luiz Eduardo Soares de Oliveira. Palavras-chave: Agrupamento de Classificadores; Algoritmo Genético; Verificação de Assinaturas Off-Line. Grande área: Ciências Exatas e da Terra Setores de atividade: Industria Eletro-Eletrônica.
 FO3a  - 2002
 FO3b  - 2005
 FO3c  - Graduação em Sistemas de Informação
@@ -248,22 +186,10 @@ ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Processamento de Imagens Digitais/Especialidade: Técnicas de Recuperação de Imagens Por Similaridade e Conteúdo.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Visão Imagem e Robótica/Especialidade: Grafoscopia.
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Robótica/Especialidade: Robótica com Mindstorms.
-ID1a  - 4.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Robótica/Especialidade: Robótica com Mindstorms.
-ID2a  - 4.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Robótica/Especialidade: Robótica com Mindstorms.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID5a  - Espanhol
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID6a  - Espanhol
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID7a  - Espanhol
-ID7b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID8a  - Espanhol
-ID8b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
+ID2a  - Espanhol
+ID2b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Filipe Roseiro Côgo
@@ -276,8 +202,8 @@ RESU  - é mestre em Ciência da Computação pela Universidade Estadual de Mari
 FO1a  - 2009
 FO1b  - 2012
 FO1c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Estadual de Maringá, UEM, Brasil
+FO1e  - Título: Recuperação de Informação Utilizando o Conceito de Folkauthority,Ano de Obtenção: 2012. Orientador: Sérgio Roberto Pereira da Silva. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.
 FO2a  - 2009
 FO2b  - 2010
 FO2c  - Especialização em Desenvolvimento Orientado a Objetos em Java
@@ -290,22 +216,10 @@ FO3d  - Universidade Estadual de Maringá, UEM, Brasil
 FO3e  - Orientador: Sérgio Roberto Pereira da Silva.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
-ID1a  - 2.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
-ID2a  - 2.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
-ID3a  - Espanhol
-ID3b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
-ID4a  - Espanhol
-ID4b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID7a  - Inglês
-ID7b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID8a  - Inglês
-ID8b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID1a  - Espanhol
+ID1b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
+ID2a  - Inglês
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Frank Helbert Borsato
@@ -318,13 +232,13 @@ RESU  - Possui graduação em Ciência da Computação pela Universidade Estadua
 FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciências da Computação e Matemática Computacional (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - Título: Rastreamento de olhar de baixo custo e alto desempenho, Orientador: Carlos Hitoshi Morimoto.
 FO2a  - 2004
 FO2b  - 2006
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: Autonomia cognitiva em rede neural topológica multicamada de plasticidade sináptica intracamada,Ano de Obtenção: 2007. Orientador: Maurício Fernandes Figueiredo. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil.
 FO3a  - 2000
 FO3b  - 2004
 FO3c  - Graduação em Ciência da Computação
@@ -336,18 +250,8 @@ ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
 ARE5  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
 ARE6  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Redes de Computadores.
-ID1a  - 6.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Redes de Computadores.
-ID2a  - 6.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Redes de Computadores.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Igor Fabio Steinmacher
@@ -360,13 +264,13 @@ RESU  - Doutor em Ciência da Computação pelo IME-USP, Graduado em Ciência da
 FO1a  - 2011
 FO1b  - 2015
 FO1c  - Doutorado em Ciências da Computação (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - com período sanduíche em University of California, Irvine (Orientador: David F. Redmiles (Bolsista da CAPES no período)). Título: Supporting Newcomers to Overcome the Barriers to Contribute to Open Source Software Projects, Ano de obtenção: 2015. Orientador: Marco Aurélio Gerosa. Bolsista do(a): Fundação Araucária de Apoio ao Desenvolvimento Científico e Tecnológico, FAADCT/PR, Brasil. Palavras-chave: Novatos; Software Livre; Onboarding; Open Source Software; Engenharia de Software Experimental.
 FO2a  - 2003
 FO2b  - 2005
 FO2c  - Mestrado em Computação (Conceito CAPES 7)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Federal do Rio Grande do Sul, UFRGS, Brasil
+FO2e  - Título: Estudo e Análise de Desempenho da Antecipação de Tarefas em Sistemas de Workflow,Ano de Obtenção: 2005. Orientador: José Valdeni de Lima. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Workflow; Flexibilidade; Antecipação; Simulação. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação. Setores de atividade: Desenvolvimento de Programas (Software).
 FO3a  - 1998
 FO3b  - 2003
 FO3c  - Graduação em Ciência da Computação
@@ -376,30 +280,14 @@ ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação.
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Distribuídos.
-ID1a  - 4.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Distribuídos.
-ID2a  - 4.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Distribuídos.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Espanhol
+ID2b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID3a  - Francês
+ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID4a  - Português
 ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Espanhol
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID6a  - Espanhol
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID7a  - Francês
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID8a  - Francês
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID9a  - Português
-ID9b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID10a  - Português
-ID10b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID11a  - Português
-ID11b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID12a  - Português
-ID12b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Igor Scaliante Wiese
@@ -413,12 +301,12 @@ FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciencia da Computacao
 FO1d  - Universidade de São Paulo, USP, Brasil
-FO1e  - com período
+FO1e  - com período sanduíche em University of California, Irvine (Orientador: David F. Redmiles). Título: à definir, Orientador: Marco Aurélio Gerosa. Grande área: Ciências Exatas e da Terra
 FO2a  - 2004
 FO2b  - 2006
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: UM MODELO DE INTEROPERABILIDADE PARA AMBIENTES DE DESENVOLVIMENTO DISTRIBUÍDOS DE SOFTWARE,Ano de Obtenção: 2006. Orientador: Elisa Hatsue Moriya Huzita. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Interoperabilidade; Tranformação de Modelos; MDA; Ambiente de Desenv Distribuído de Software; Metamodelo. Grande área: Ciências Exatas e da Terra
 FO3a  - 1998
 FO3b  - 2002
 FO3c  - Graduação em Ciencia da Computacao
@@ -426,22 +314,10 @@ FO3d  - Universidade Paranaense, UNIPAR, Brasil
 FO3e  - Título: Um Comparativo entre linguagens de Desenvolvimento Web (PHP, JSP e ASP). Orientador: Munif Gebara Junior.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
-ID1a  - 2.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
-ID2a  - 2.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID5a  - Espanhol
-ID5b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID6a  - Espanhol
-ID6b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID7a  - Espanhol
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID8a  - Espanhol
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID2a  - Espanhol
+ID2b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Ivanilton Polato
@@ -454,13 +330,13 @@ RESU  - Ivanilton Polato é Professor Efetivo da Coordenação de Ciência da Co
 FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciências da Computação (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - Título: A Hybrid Storage Model using Block Placement Policy for the Hadoop Distributed File System, Orientador: Fabio Kon.
 FO2a  - 2002
 FO2b  - 2004
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: XDF - Extended Dataflow: Uma Extensão do Modelo de Fluxo de Dados com Suporte a Tratamento de Eventos,Ano de Obtenção: 2004. Orientador: Antonio Mendes da Silva Filho. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Modelos Computacionais; Processamento Digital de Sinais; Fluxo de Dados; Tratamento de Eventos. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação. Setores de atividade: Desenvolvimento de Programas (Software).
 FO3a  - 1995
 FO3b  - 1998
 FO3c  - Graduação em Ciência da Computação
@@ -469,26 +345,12 @@ FO3e  - Título: Validação de Parâmetros para Aquisição de Conhecimento Cog
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas para Internet e Web Services.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
-ID1a  - 3.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
-ID2a  - 3.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Italiano
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Italiano
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID7a  - Espanhol
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID8a  - Espanhol
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID9a  - Espanhol
-ID9b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID10a  - Espanhol
-ID10b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Italiano
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID3a  - Espanhol
+ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Juliano Henrique Foleiss
@@ -501,13 +363,13 @@ RESU  - Possui graduação em ciência da computacão pela Universidade Estadual
 FO1a  - 2015
 FO1b  - 
 FO1c  - Doutorado em andamento em Engenharia Elétrica (Conceito CAPES 7)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Estadual de Campinas, UNICAMP, Brasil
+FO1e  - Orientador: Tiago Fernandes Tavares.
 FO2a  - 2010
 FO2b  - 2012
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: Profiling Contínuo para Determinação de Unidades de Tradução em Tradução Dinâmica de Binários,Ano de Obtenção: 2012. Orientador: Prof. Dr. Anderson Faustino da Silva. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Tradução Dinâmica de Binários; Máquinas Virtuais; Compiladores; Compilação Dinâmica. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Compiladores. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Software Básico.
 FO3a  - 2006
 FO3b  - 2009
 FO3c  - Graduação em ciência da computacão
@@ -516,26 +378,12 @@ FO3e  - Título: Revisitando a Arquitetura de Compilação do Sistema YAP Prolog
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Computacional.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Recuperação de Informação em Música.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Máquinas Virtuais.
-ID1a  - 3.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Máquinas Virtuais.
-ID2a  - 3.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Máquinas Virtuais.
-ID3a  - Português
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Português
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID7a  - Japonês
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID8a  - Japonês
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID9a  - Japonês
-ID9b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID10a  - Japonês
-ID10b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID1a  - Português
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Inglês
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID3a  - Japonês
+ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Lucio Geronimo Valentin
@@ -549,12 +397,12 @@ FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciencia da Computacao
 FO1d  - Universidade de São Paulo, USP, Brasil
-FO1e  - Título: Representação de informações não-estruturadas de laudos de exames radiológicos através de modelagem interativa de grafos conceituais, Orientador:
+FO1e  - Título: Representação de informações não-estruturadas de laudos de exames radiológicos através de modelagem interativa de grafos conceituais, Orientador: Marcel Parolin Jackowski. Palavras-chave: Descoberta de Conhecimento; Processamento de Linguagem Natural; Ontologia. Grande área: Ciências Exatas e da Terra
 FO2a  - 2004
 FO2b  - 2006
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: Uma Arquitetura de Software para Sistemas de Descoberta de Conhecimento em Banco de Dados,Ano de Obtenção: 2006. Orientador: Maria Madalena Dias. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Arquitetura de Referência; Arquitetura de Software; Data Warehouse. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação.
 FO3a  - 1999
 FO3b  - 2003
 FO3c  - Graduação em Bacharelado em Informática
@@ -581,26 +429,12 @@ ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
 ARE5  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
 ARE6  - Grande área: Lingüística, Letras e Artes / Área: Artes / Subárea: Música/Especialidade: Instrumentação Musical.
-ID1a  - 6.
-ID1b  - Grande área: Lingüística, Letras e Artes / Área: Artes / Subárea: Música/Especialidade: Instrumentação Musical.
-ID2a  - 6.
-ID2b  - Grande área: Lingüística, Letras e Artes / Área: Artes / Subárea: Música/Especialidade: Instrumentação Musical.
-ID3a  - Português
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Português
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Espanhol
-ID5b  - Compreende RazoavelmenteLê Razoavelmente.
-ID6a  - Espanhol
-ID6b  - Compreende RazoavelmenteLê Razoavelmente.
-ID7a  - Inglês
-ID7b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID8a  - Inglês
-ID8b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID9a  - Inglês
-ID9b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID10a  - Inglês
-ID10b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID1a  - Português
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Espanhol
+ID2b  - Compreende RazoavelmenteLê Razoavelmente.
+ID3a  - Inglês
+ID3b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Luiz Arthur Feitosa dos Santos
@@ -614,12 +448,12 @@ FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciencia da Computacao
 FO1d  - Universidade de São Paulo, USP, Brasil
-FO1e  - Título: Mecanismos autonômicos para proteção de redes locais com base em SDN, Orientador:
+FO1e  - Título: Mecanismos autonômicos para proteção de redes locais com base em SDN, Orientador: Dr. Daniel Macêdo Batista..
 FO2a  - 2003
 FO2b  - 2005
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: Desenvolvimento de Algoritmos Paralelos para Simulador de Multiprocessadores Superescalares,Ano de Obtenção: 2005. Orientador: Prof Dr. João Angelo Martini. Palavras-chave: Arquiteturas Paralelas; Simuladores; Algoritmos Paralelos. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação / Especialidade: Modelos Analíticos e de Simulação. Setores de atividade: Desenvolvimento de Novos Materiais.
 FO3a  - 1998
 FO3b  - 2002
 FO3c  - Graduação em Ciências da Computação
@@ -631,18 +465,8 @@ ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação.
 ARE5  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Segurança.
 ARE6  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Operacionais.
-ID1a  - 6.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Operacionais.
-ID2a  - 6.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Operacionais.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Marco Aurélio Graciotto Silva
@@ -655,13 +479,13 @@ RESU  - Possui graduação em Ciência da Computação pela Universidade Estadua
 FO1a  - 2008
 FO1b  - 2012
 FO1c  - Doutorado em Ciências da Computação e Matemática Computacional (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - Título: LOD: uma abordagem para desenvolvimento de objetos de aprendizagem multimídias e interativos, Ano de obtenção: 2012. Orientador: José Carlos Maldonado. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: objeto de aprendizagem; processo de desenvolvimento; modelagem; televisão digital; educação; desenvolvimento baseado em modelos. Grande área: Ciências Exatas e da Terra Setores de atividade: Pesquisa e Desenvolvimento; Educação.
 FO2a  - 2002
 FO2b  - 2005
 FO2c  - Mestrado em Ciências da Computação e Matemática Computacional (Conceito CAPES 6)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade de São Paulo, USP, Brasil
+FO2e  - Título: Uma investigação sobre o processo de engenharia de requisitos com o apoio de hiperdocumentos,Ano de Obtenção: 2005. Orientador: Renata Pontin de Mattos Fortes. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: engenharia de requisitos; software livre; wiki; engenharia de software; hipertexto. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Hipermídia. Setores de atividade: Pesquisa e Desenvolvimento.
 FO3a  - 1998
 FO3b  - 2001
 FO3c  - Graduação em Ciência da Computação
@@ -693,26 +517,12 @@ FO8c  - Ensino Fundamental (1º grau)
 FO8d  - Colégio Estadual Santa Maria Goretti, GORETTI, Brasil
 FO8e  - 
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
-ID1a  - 1.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
-ID2a  - 1.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
-ID3a  - Inglês
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Espanhol
+ID2b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID3a  - Português
 ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Espanhol
-ID5b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID6a  - Espanhol
-ID6b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID7a  - Português
-ID7b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID8a  - Português
-ID8b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID9a  - Português
-ID9b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID10a  - Português
-ID10b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Marcos Silvano Almeida
@@ -725,13 +535,13 @@ RESU  - Mestre em Ciência da Computação pela Universidade Estadual de Maring�
 FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciências da Computação (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - Título: Abordagem de Design de Jogos Orientada a Componentes, Orientador: Flavio Soares Correa da Silva. Palavras-chave: ferramentas de design de jogos; sistematização do processo de design de jogos; design de jogos baseado em componentes; componentes de jogos. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação.
 FO2a  - 2004
 FO2b  - 2006
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: MGUP: RUP Aplicado a Jogos Móveis,Ano de Obtenção: 2006. Orientador: Prof. Dr. Antonio Mendes da Silva Filho. Palavras-chave: Processo de Software; Jogos Móveis; Engenharia de Software; Rational Unified Process; Desenvolvimento de Jogos. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Jogos. Setores de atividade: Desenvolvimento de Programas (Software); Desenvolvimento de Programas (Software) e Prestação de Serviços em Informática; Consultoria em Sistemas de Informática.
 FO3a  - 1999
 FO3b  - 2003
 FO3c  - Graduação em Bacharelado em Informática
@@ -740,26 +550,12 @@ FO3e  - Título: Investigação de Soluções Rational para o Processo de Softwa
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Jogos.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Móvel.
-ID1a  - 3.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Móvel.
-ID2a  - 3.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Móvel.
-ID3a  - Português
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Português
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID7a  - Espanhol
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID8a  - Espanhol
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID9a  - Espanhol
-ID9b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID10a  - Espanhol
-ID10b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID1a  - Português
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Inglês
+ID2b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID3a  - Espanhol
+ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Paulo Cesar Gonçalves
@@ -772,26 +568,16 @@ RESU  - Possui graduação em Informática pela Universidade Estadual de Maring�
 FO1a  - 2005
 FO1b  - 2007
 FO1c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Estadual de Maringá, UEM, Brasil
+FO1e  - Título: Protótipo de um Robô Móvel de Baixo Custo para Uso Educacional,Ano de Obtenção: 2007. Orientador: Dante Alves Medeiros Filho. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Robótica Educacional. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Hardware. Setores de atividade: Educação.
 FO2a  - 1999
 FO2b  - 2004
 FO2c  - Graduação em Informática
 FO2d  - Universidade Estadual de Maringá, UEM, Brasil
 FO2e  - Título: Aplicação da Robótica no Ensino de Programação. Orientador: Dante Alves Medeiros Filho.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação.
-ID1a  - 1.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação.
-ID2a  - 1.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação.
-ID3a  - Inglês
-ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID4a  - Inglês
-ID4b  - Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID5a  - Inglês
-ID5b  - Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente.
+ID1a  - Inglês
+ID1b  - Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Paulo Henrique Sabo
@@ -809,8 +595,8 @@ FO1e  - Orientador: Paulo Cardieri.
 FO2a  - 2009
 FO2b  - 2011
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: Modelo de estação agro meteorológica para monitoramento vitícola,Ano de Obtenção: 2011. Orientador: Joao Angelo Martini. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: meteorologia; microcontroladores; Viticultura. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Arquitetura de Sistemas de Computação. Setores de atividade: Agricultura, Pecuária e Serviços Relacionados.
 FO3a  - 2014
 FO3b  - 
 FO3c  - Especialização em andamento em Engenharia Elétrica com Ênfase em Eletrônica
@@ -831,26 +617,12 @@ ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Redes de Computadores.
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Microcontroladores.
 ARE5  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Redes de Sensores.
-ID1a  - 5.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Redes de Sensores.
-ID2a  - 5.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Redes de Sensores.
-ID3a  - Português
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Português
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente.
-ID7a  - Espanhol
-ID7b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Pouco.
-ID8a  - Espanhol
-ID8b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Pouco.
-ID9a  - Espanhol
-ID9b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Pouco.
-ID10a  - Espanhol
-ID10b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Pouco.
+ID1a  - Português
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Inglês
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente.
+ID3a  - Espanhol
+ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Pouco.
 
 TY  - MEMBRO
 NOME  - Radames Juliano Halmeman
@@ -863,13 +635,13 @@ RESU  - Doutor em Agronomia (Energia na Agricultura) - Unesp/Botucatu - SP. Mest
 FO1a  - 2010
 FO1b  - 2014
 FO1c  - Doutorado em Agronomia (Energia na Agricultura) (Conceito CAPES 4)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil
+FO1e  - Título: DESENVOLVIMENTO DE UM SISTEMA PARA MONITORAMENTO REMOTO EM CENTRAIS DE MICROGERAÇÃO FOTOVOLTAICA, Ano de obtenção: 2014. Orientador: Odivaldo José Seraphim. Palavras-chave: Monitoramento remoto; Energia fotovoltaica; Redes de sensores sem fios; Arduino; ZigBee. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Agrárias / Área: Engenharia Agrícola / Subárea: Energização Rural. Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Telecomunicações / Especialidade: Sistemas de Telecomunicações. Setores de atividade: Atividades dos serviços de tecnologia da informação; Pesquisa e desenvolvimento científico; Eletricidade, gás e outras utilidades.
 FO2a  - 2001
 FO2b  - 2003
 FO2c  - Mestrado em Informática (Conceito CAPES 4)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Federal do Paraná, UFPR, Brasil
+FO2e  - Título: Um Componente de Gerenciamento de Execução de Workflow Segundo a Abordagem de Linha de Produto de Software,Ano de Obtenção: 2003. Orientador: Itana Maria Souza Gimenes. Palavras-chave: Arquitetura de Software; Componentes; Engenharia de Software; Linha de Produto; Workflow; variabilidade.
 FO3a  - 1998
 FO3b  - 1999
 FO3c  - Especialização em O Processo Ensino Aprendizagem
@@ -882,18 +654,8 @@ FO4d  - Universidade Estadual de Maringá, UEM, Brasil
 FO4e  - Título: Desenvolvimento do Sistema de Folha de Pagamento - Módulo de Rescisão de Contratos. Orientador: Ademir Carniel.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação.
 ARE2  - Grande área: Ciências Humanas / Área: Educação.
-ID1a  - 2.
-ID1b  - Grande área: Ciências Humanas / Área: Educação.
-ID2a  - 2.
-ID2b  - Grande área: Ciências Humanas / Área: Educação.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Rafael Liberato Roberto
@@ -906,31 +668,21 @@ RESU  - Possui graduação em Engenharia da Computação pela Universidade Norte
 FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciências da Computação (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - Título: Transações Longas, Orientador: João Eduardo Ferreira. Grande área: Ciências Exatas e da Terra
 FO2a  - 2004
 FO2b  - 2006
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: UMA ABORDAGEM PARA IDENTIFICAÇÃO DE INTERESSES DOS USUÁRIOS DURANTE A NAVEGAÇÃO EM WEBSITES SEMÂNTICOS,Ano de Obtenção: 2006. Orientador: Dr Sergio Roberto P. da Silva. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil.
 FO3a  - 1999
 FO3b  - 2003
 FO3c  - Graduação em Engenharia da Computação
 FO3d  - Universidade Norte do Paraná, UNOPAR, Brasil
 FO3e  - Título: Desenvolvimento de Modelagem para Jogos Educacionais com Adaptablidade de Navegação. Orientador: Marilia Abrahão Amaral.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
-ID1a  - 1.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
-ID2a  - 1.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Reginaldo Ré
@@ -944,12 +696,12 @@ FO1a  - 2004
 FO1b  - 2009
 FO1c  - Doutorado em Ciência da Computação e Matemática Computacional
 FO1d  - Insituto de Ciências Matemáticas e de Computação
-FO1e  - Título: Uma contribuição para a minimização do número de stubs no teste de integração de programas orientados a aspectos, Ano de obtenção: 2009. Orientador:
+FO1e  - Título: Uma contribuição para a minimização do número de stubs no teste de integração de programas orientados a aspectos, Ano de obtenção: 2009. Orientador: Paulo cesar Masiero. Palavras-chave: Teste de Software; programação orientada a aspectos; teste de programas orientados a aspectos. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Linguagens de Programação.
 FO2a  - 1999
 FO2b  - 2002
 FO2c  - Mestrado em Ciências da Computação e Matemática Computacional (Conceito CAPES 6)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade de São Paulo, USP, Brasil
+FO2e  - Título: Um Processo para Construção de Frameworks a Partir da Engenharia Reversa de Sistemas de Informação Baseados na Web: Aplicação ao Domínio dos Leilões Virtuais,Ano de Obtenção: 2002. Orientador: Paulo Cesar Masiero. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo. Palavras-chave: Padrões de Software; Frameworks Orientados a Objeto; Sistemas de Informação baseados na Web; Engenharia Reversa; Online Auctions. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. Setores de atividade: Desenvolvimento de Programas (Software).
 FO3a  - 1994
 FO3b  - 1998
 FO3c  - Graduação em Bacharelado em Ciência da Computação
@@ -958,22 +710,10 @@ FO3e  - Título: Uma Aplicação de Redes de Petri para Modelagem de Sistemas. O
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação.
-ID1a  - 3.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação.
-ID2a  - 3.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID5a  - Português
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Português
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID7a  - Português
-ID7b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID8a  - Português
-ID8b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID2a  - Português
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Rodrigo Campiolo
@@ -987,34 +727,22 @@ FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciencia da Computacao
 FO1d  - Universidade de São Paulo, USP, Brasil
-FO1e  - Título: Uma Abordagem Colaborativa e Distribuída para a Detecção Antecipada de Incidentes de Segurança Usando Fontes de Dados Heterogêneas e Abertas, Orientador:
+FO1e  - Título: Uma Abordagem Colaborativa e Distribuída para a Detecção Antecipada de Incidentes de Segurança Usando Fontes de Dados Heterogêneas e Abertas, Orientador: Daniel Macêdo Batista.
 FO2a  - 2003
 FO2b  - 2005
 FO2c  - Mestrado em Ciências da Computação (Conceito CAPES 4)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Federal de Santa Catarina, UFSC, Brasil
+FO2e  - Título: Aspectos de Modelagem de Ambientes de Computação Ubíqua,Ano de Obtenção: 2005. Orientador: João Bosco Mangueira Sobral. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Palavras-chave: Sistemas Distribuídos; computação ubíqua; modelagem. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Arquitetura de Sistemas de Computação. Setores de atividade: Desenvolvimento de Programas (Software).
 FO3a  - 1999
 FO3b  - 2002
 FO3c  - Graduação em Ciência da Computação
 FO3d  - Universidade Estadual de Maringá, UEM, Brasil
 FO3e  - Título: Aspectos de Segurança para uma Plataforma de Redes Ativas. Orientador: Flávio Arnaldo Braga da Silva.
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação.
-ID1a  - 1.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação.
-ID2a  - 1.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação.
-ID3a  - Português
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Português
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID7a  - Inglês
-ID7b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID8a  - Inglês
-ID8b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
+ID1a  - Português
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Inglês
+ID2b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Rodrigo Hübner
@@ -1027,13 +755,13 @@ RESU  - Aluno de doutorado pela Universidade Estadual de Campinas (UNICAMP) na F
 FO1a  - 2015
 FO1b  - 
 FO1c  - Doutorado em andamento em Engenharia Elétrica (Conceito CAPES 7)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Estadual de Campinas, UNICAMP, Brasil
+FO1e  - Título: Redes Neurais Aplicadas à Situações de Risco em Ambientes Autônomos, Orientador: Gilmar Barreto. Coorientador: Linnyer Beatrys Ruiz Aylon. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Interfaces Cérebro-Computador.
 FO2a  - 2010
 FO2b  - 2012
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: PLH: Uma linguagem de programação baseada estritamente em tarefas,Ano de Obtenção: 2012. Orientador: Anderson Faustino da Silva. Bolsista do(a): Fundação Araucária de Apoio ao Des. Científico e Tecnológico do Paraná, FA, Brasil. Palavras-chave: linguagem de programação; ambiente de execução; tarefas; Paralelismo. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Programação Paralela.
 FO3a  - 2014
 FO3b  - 
 FO3c  - Especialização em andamento em Engenharia Elétrica com Enfase em Eletrônica
@@ -1047,18 +775,8 @@ FO4e  - Título: Um Modelo de Programação Paralela com Trabalhadores Implícit
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Compiladores.
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Programação Paralela.
-ID1a  - 3.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Programação Paralela.
-ID2a  - 3.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Programação Paralela.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Rogério Aparecido Gonçalves
@@ -1071,13 +789,13 @@ RESU  - Doutorando no Programa de Pós-Graduação em Ciência da Computação d
 FO1a  - 2011
 FO1b  - 
 FO1c  - Doutorado em andamento em Ciências da Computação (Conceito CAPES 6)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade de São Paulo, USP, Brasil
+FO1e  - Título: Paralelização Automática de Código em Plataformas Heterogêneas Modernas para HPC, Orientador: Prof. Dr. Alfredo Goldman vel Lejbman. Palavras-chave: Computação Paralela; Computação Heterogênea; GPGPU. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Computação Paralela. Setores de atividade: Pesquisa e desenvolvimento científico.
 FO2a  - 2006
 FO2b  - 2008
 FO2c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO2d  - 
-FO2e  - 
+FO2d  - Universidade Estadual de Maringá, UEM, Brasil
+FO2e  - Título: PowerSMT: Ferramenta para Análise de Consumo de Potência em Arquiteturas SMT,Ano de Obtenção: 2008. Orientador: Prof. Dr. Ronaldo Augusto de Lara Gonçalves. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Palavras-chave: Arquitetura de Computadores; Consumo de Potência; Multiplas Tarefas Simultaneas; Simultaneous Multithreading; Simulação. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Arquitetura de Computadores. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Computação com Consumo Eficiente de Potência. Setores de atividade: Pesquisa e desenvolvimento científico; Outro.
 FO3a  - 2001
 FO3b  - 2005
 FO3c  - Graduação em Informática
@@ -1087,22 +805,10 @@ ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Paralela.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Processamento Paralelo.
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Heterogênea.
-ID1a  - 4.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Heterogênea.
-ID2a  - 4.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Computação Heterogênea.
-ID3a  - Inglês
-ID3b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID4a  - Inglês
-ID4b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
-ID5a  - Português
-ID5b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID6a  - Português
-ID6b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID7a  - Português
-ID7b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID8a  - Português
-ID8b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID1a  - Inglês
+ID1b  - Compreende Pouco, Fala Pouco, Lê Bem, Escreve Razoavelmente.
+ID2a  - Português
+ID2b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
 
 TY  - MEMBRO
 NOME  - Narci Nogueira da Silva
@@ -1141,26 +847,12 @@ ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação.
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
-ID1a  - 4.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
-ID2a  - 4.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico.
-ID3a  - Português
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Português
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
-ID6a  - Inglês
-ID6b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
-ID7a  - Espanhol
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente.
-ID8a  - Espanhol
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente.
-ID9a  - Espanhol
-ID9b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente.
-ID10a  - Espanhol
-ID10b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente.
+ID1a  - Português
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Inglês
+ID2b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco.
+ID3a  - Espanhol
+ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Everton Fernando Barros
@@ -1173,8 +865,8 @@ RESU  - Mestre em Ciência da Computação pela Universidade Estadual de Maring�
 FO1a  - 2009
 FO1b  - 2011
 FO1c  - Mestrado em Ciência da Computação (Conceito CAPES 3)
-FO1d  - 
-FO1e  - 
+FO1d  - Universidade Estadual de Maringá, UEM, Brasil
+FO1e  - Título: Um Algoritmo Cultural para Descoberta de Conhecimento em Banco de Dados,Ano de Obtenção: 2011. Orientador: Ademir Aparecido Constantino. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Mineração de Dados; Programação Genética; Algoritmos Culturais; Plano de Saúde. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial / Especialidade: Mineração de Dados. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial / Especialidade: Heurísticas e Meta-Heurísticas. Setores de atividade: Atividades de atenção à saúde humana.
 FO2a  - 2003
 FO2b  - 2008
 FO2c  - Graduação em Ciência da Computação
@@ -1184,22 +876,10 @@ ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computaç
 ARE2  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial/Especialidade: Mineração de Dados.
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial/Especialidade: Programação Genética.
 ARE4  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial/Especialidade: Algoritmos Culturais.
-ID1a  - 4.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial/Especialidade: Algoritmos Culturais.
-ID2a  - 4.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial/Especialidade: Algoritmos Culturais.
-ID3a  - Português
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Português
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Inglês
-ID5b  - Compreende RazoavelmenteLê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende RazoavelmenteLê Bem, Escreve Razoavelmente.
-ID7a  - Inglês
-ID7b  - Compreende RazoavelmenteLê Bem, Escreve Razoavelmente.
-ID8a  - Inglês
-ID8b  - Compreende RazoavelmenteLê Bem, Escreve Razoavelmente.
+ID1a  - Português
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Inglês
+ID2b  - Compreende RazoavelmenteLê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Rafael Henrique Dalegrave Zottesso
@@ -1229,22 +909,10 @@ FO4b  - 2011
 FO4c  - Graduação em Sistemas de Informação
 FO4d  - Universidade Paranaense, UNIPAR, Brasil
 FO4e  - Título: Sistema de Identificação Animal Utilizanado RFID. Orientador: Késsia Rita da Costa Marchi.
-ID1a  - 2008 - 2009
-ID1b  - Vínculo: Estágio, Enquadramento Funcional: Manutenção Técnica e Docente de Informática, Carga horária: 30
-ID2a  - 2008 - 2009
-ID2b  - Vínculo: Estágio, Enquadramento Funcional: Manutenção Técnica e Docente de Informática, Carga horária: 30
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
-ID5a  - Espanhol
-ID5b  - Compreende PoucoLê Pouco.
-ID6a  - Espanhol
-ID6b  - Compreende PoucoLê Pouco.
-ID7a  - Espanhol
-ID7b  - Compreende PoucoLê Pouco.
-ID8a  - Espanhol
-ID8b  - Compreende PoucoLê Pouco.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.
+ID2a  - Espanhol
+ID2b  - Compreende PoucoLê Pouco.
 
 TY  - MEMBRO
 NOME  - Vidal Daniel da Fontoura
@@ -1260,18 +928,8 @@ FO1c  - Graduação em Tecnologia em Sistemas para Internet
 FO1d  - Universidade Tecnológica Federal do Paraná, UTFPR, Brasil
 FO1e  - 
 ARE1  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação.
-ID1a  - 1.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação.
-ID2a  - 1.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação.
-ID3a  - Inglês
-ID3b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID4a  - Inglês
-ID4b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID5a  - Inglês
-ID5b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
-ID6a  - Inglês
-ID6b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
+ID1a  - Inglês
+ID1b  - Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente.
 
 TY  - MEMBRO
 NOME  - Gílson Maekawa Kanashiro
@@ -1301,27 +959,11 @@ ARE2  - Grande área: Ciências Exatas e da Terra / Área: Matemática / Subáre
 ARE3  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Linguagem Formais e Autômatos.
 ARE4  - Grande área: Outros / Área: Robótica, Mecatrônica e Automação.
 ARE5  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Computabilidade e Modelos de Computação.
-ID1a  - 5.
-ID1b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Computabilidade e Modelos de Computação.
-ID2a  - 5.
-ID2b  - Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Computabilidade e Modelos de Computação.
-ID3a  - Inglês
-ID3b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID4a  - Inglês
-ID4b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
-ID5a  - Francês
-ID5b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente.
-ID6a  - Francês
-ID6b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente.
-ID7a  - Italiano
-ID7b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID8a  - Italiano
-ID8b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID9a  - Espanhol
-ID9b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID10a  - Espanhol
-ID10b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID11a  - Espanhol
-ID11b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
-ID12a  - Espanhol
-ID12b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID1a  - Inglês
+ID1b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem.
+ID2a  - Francês
+ID2b  - Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente.
+ID3a  - Italiano
+ID3b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
+ID4a  - Espanhol
+ID4b  - Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco.
