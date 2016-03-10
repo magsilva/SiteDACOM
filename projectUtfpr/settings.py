@@ -51,6 +51,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'desenvolvimento',
     'haystack',
+
     # 'django.contrib.sites',
 
     # 'cms',  # django CMS itself

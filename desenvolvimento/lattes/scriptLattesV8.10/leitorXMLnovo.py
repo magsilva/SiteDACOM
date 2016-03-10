@@ -19,10 +19,14 @@ import os, errno
 import warnings
 import sys
 import os.path
+  # import django;
+  # django.setup()
+
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from django.conf import settings
-settings.configure(DEBUG=True)
 
+settings.configure(DEBUG=True)
+# from django.core.wsgi import get_wsgi_application
 settings.DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
@@ -151,11 +155,6 @@ def executeLeitorXML():
                 prof.departamento = departamento
                 prof.funcao = "Professor"
 
-
-
-
-
-
                 if Professor.objects.filter(nome=prof.nome).__len__()==0:
                     prof.save()
                 if Professor.objects.get(nome=prof.nome) is not None:
@@ -166,6 +165,7 @@ def executeLeitorXML():
                     item.departamento = prof.departamento
                     item.funcao = "Professor"
                     item.save()
+                    print("Professor: "+item.nome+ " Salvo com Sucesso")
 
                 dadosDeCitacaoEmBibliografia =  prof.nomeEmCitacoesBibliograficas.split(";")
                 # print (dadosDeCitacaoEmBibliografia)
@@ -173,6 +173,7 @@ def executeLeitorXML():
 
                     dadosDeProfessor = DadosDeProfessor(nome=dado, professorDados=Professor.objects.get(nome=prof.nome))
                     dadosDeProfessor.save()
+                    print("Dados Do professor salvo com sucesso")
 
             for formacao in child1.iter('formacao_academica'):
                 for formacao1 in formacao.iter('formacao'):
@@ -194,6 +195,7 @@ def executeLeitorXML():
                     formacao = Formacao(ano_inicio=ano_inicio[0:4], ano_conclusao=ano_conclusao, tipo=tipo, descricao=descricao, nome= nome, formacaoProfessor=profDaIteracao)
                     if Formacao.objects.filter(nome=nome).__len__()==0:
                         formacao.save()
+                        print("Formacao do Professor salvo com sucesso")
 
             for projetospesquisa in child1.iter('projetos_pesquisa'):
                 for projeto in projetospesquisa.iter('projeto'):
@@ -246,34 +248,50 @@ def executeLeitorXML():
                         p2 = Projeto.objects.get(nome=nome)
                         p2.nome = proj2.nome
                         p2.resumo = proj2.resumo
+                        if proj2.datadefim=="Atual":
+                            proj2.datadefim=2016
                         p2.datadefim = proj2.datadefim
                         p2.datainicio = proj2.datainicio
                         p2.situacao = proj2.situacao
                         p2.natureza = proj2.natureza
                         p2.professor = proj2.professor
+                        print("Projeto salvo com Sucesso")
                         # p2.save()
 
                         for i in parte5[1:parte5.__len__()-1]:
                             # print(i.replace("/", ""))
+                            i = (i.replace(" / ", ""))
+
+                            # print(i)
                             if i.__contains__("- Coordenador"):
-                                for j in i.replace("/", "").split("- Coordenador"):
+                                for j in i.split("- Coordenador"):
                                     if Professor.objects.filter(nome=j):
                                         profI = Professor.objects.filter(nome=j)[0]
-
                                         item=  IntegranteProfessor(nome=j, ehCoordenador =True, professor = profI)
                                         item.save()
+                                        print("Integrante salvo com Sucesso")
                                     else:
-                                        item=  Integrante(nome=j, ehCoordenador =True)
-                                        item.save()
+                                        integrante=  Integrante(nome=j, ehCoordenador =True)
+                                        integrante.save()
+                                        print("Integrante salvo com Sucesso")
 
                             else:
                                 if Professor.objects.filter(nome=i):
                                     profI = Professor.objects.filter(nome=i)[0]
-                                    item=  IntegranteProfessor(nome=i, ehCoordenador =False, professor = profI)
-                                    item.save()
+
+                                    item2 = IntegranteProfessor(nome=i, professor = profI)
+                                    if IntegranteProfessor.objects.filter(nome=item2.nome).__len__()!=0:
+                                        itemAntigo = IntegranteProfessor.objects.filter(nome=item2.nome)
+                                        itemAntigo.nome = item2.nome
+                                        itemAntigo.save()
+                                    else:
+                                      item2.save()
+
+                                    print("Integrante salvo com Sucesso")
                                 else:
-                                    item=  Integrante(nome=i, ehCoordenador =False)
-                                    item.save()
+                                    integrante=  Integrante(nome=i, ehCoordenador =False)
+                                    integrante.save()
+                                    print("Integrante salvo com Sucesso")
 
 
             for areaatuacao in child1.iter('area_atuacao'):
@@ -284,8 +302,7 @@ def executeLeitorXML():
                 area = AreaDeAtuacao(descricao= descricao, areaProfessor=profDaIteracao)
                 if AreaDeAtuacao.objects.filter(descricao=descricao).__len__()==0:
                     area.save()
-
-
+                    print("Area de Atuação salvo com Sucesso")
 
             for eventos in child1.iter('trabalho_completo_congresso'):  # eventos
                 e = Evento()
@@ -324,6 +341,7 @@ def executeLeitorXML():
                         eventoNovo.volume =e.olume
                         eventoNovo.paginas = e.paginas
                         eventoNovo.save()
+                        print("Evento salvo com Sucesso")
 
             for resumoCongresso in child1.iter('resumo_congresso'):
                 for resumCo in resumoCongresso.iter('resumo'):
@@ -388,34 +406,3 @@ if __name__ == "__main__":
     executeLattes()
     initSistem()
     executeLeitorXML()
-
-
-    #lixo utilizavel
-
-    #
-    # config = {
-    #     'user': 'root',
-    #     'passwd': 'Humberto1!',
-    #     'database': 'UTFPR'
-    # }
-    #
-    #
-    # connection = mysql.connector.connect(**config)
-    # conector = connection.cursor()
-         # conector.execute("SELECT * FROM desenvolvimento_professor")
-    # professoresCadastrados = conector.fetchall()
-    #
-    # conector.execute("SELECT * FROM desenvolvimento_artigo")
-    # artigosCadastrados = conector.fetchall()
-    #
-    # conector.execute ("SELECT * FROM desenvolvimento_artigoemconferencia")
-    # resultAritgoEmConferencia = conector.fetchall()
-    #
-    # conector.execute ("SELECT * FROM desenvolvimento_artigoemperiodico")
-    # resultArtigoEmPeriodico = conector.fetchall()
-    #
-    # conector.execute ("SELECT * FROM desenvolvimento_formacao")
-    # resultFormacao = conector.fetchall()
-    #
-    # conector.execute ("SELECT * FROM desenvolvimento_projeto")
-    # projetosCadastrados = conector.fetchall()

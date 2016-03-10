@@ -84,17 +84,19 @@ class ArtigoEmConferencia(Artigo):
     ISBN = models.CharField('Codigo ISBN', max_length=50)  # obrigatorio
     local = models.CharField('Local da Conferencia', max_length=255)
 
-class Integrante(models.Model, models.BooleanField):
+class Integrante(models.Model):
     nome = models.CharField('nome', max_length=255)
-    # ehProfessor = models.BooleanField(default=False)
-    # professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
     ehCoordenador = models.BooleanField(default=False)
+    def __unicode__(self):
+        return self.nome
 
 class IntegranteProfessor(Integrante):
-    # nomeDoProfessor = models.CharField('Nome do Professor', max_length=255)
-    # ehProfessor = models.BooleanField(default=False)
     professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
-    # ehCoordenador = models.BooleanField(default=False)
+
+
+
+
+
 
 class Projeto(models.Model):
     datainicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)

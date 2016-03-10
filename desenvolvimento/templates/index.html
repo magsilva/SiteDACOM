@@ -55,9 +55,9 @@
                 <h2>Início</h2>
 
                     {% for project in projects %}
-    <br>
+    <br/>
                 <a href="{{project.nome}}/"> <div class="nomeProjeto">{{ project.nome|upper }}</div></a></b>
-                <br>
+                <br/>
                         Professor:  <a href="{{project.id}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
                         Situação: {{project.situacao}}<br/>
                         Natureza: {{project.natureza}}<br/>
