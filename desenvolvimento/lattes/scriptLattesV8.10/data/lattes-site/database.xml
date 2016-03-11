@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<curriculo_lattes data_processamento="10/03/2016 11:42:14">
+<?xml version="1.0"?>
+<curriculo_lattes data_processamento="11/03/2016 09:52:29">
   <pesquisador id="2661462115468004">
     <identificacao>
       <identificador10></identificador10>
@@ -423,7 +423,7 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/s10606-012-9164-4&md5=834f11d2461ead168455dab98ae3c0f9</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1007/s10606-012-9164-4&amp;md5=834f11d2461ead168455dab98ae3c0f9</doi>
           <titulo>Awareness Support in Distributed Software Development: A Systematic Review and Mapping of the Literature</titulo>
           <autores>STEINMACHER, Igor ; STEINMACHER, IGOR ; CHAVES, A. P. ; Gerosa, Marco Aurélio</autores>
           <revista>Computer Supported Cooperative Work</revista>
@@ -433,7 +433,7 @@
           <ano>0</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=null&amp;md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
           <titulo>An Integrated Approach of Software Development and Test Processes to Distributed Teams</titulo>
           <autores>LEAL, G. C. L. ; LEAL, G. C. L. ; CHAVES, A. P. ; HUZITA, E. H. M. ; DELAMARO, M. E.</autores>
           <revista>Journal of Universal Computer Science (Print)</revista>
@@ -443,7 +443,7 @@
           <ano>0</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=null&amp;md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
           <titulo>OntoDiSENv1: an Ontology to Support Global Software Development</titulo>
           <autores>CHAVES, A. P. ; STEINMACHER, I. F. ; HUZITA, E. H. M. ; LEAL, G. C. L. ; BIASAO, A.B.</autores>
           <revista>CLEI Electronic Journal</revista>
@@ -1202,7 +1202,7 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1002/widm.1071&md5=231d7755c5737c26c20e820d738b7a22</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1002/widm.1071&amp;md5=231d7755c5737c26c20e820d738b7a22</doi>
           <titulo>Seeing beyond reading: a survey on visual text analytics</titulo>
           <autores>ALENCAR, ARETHA B. ; OLIVEIRA, M. C. F. ; PAULOVICH, F. V.</autores>
           <revista>WIREs Data Mining and Knowledge Discovery</revista>
@@ -1496,7 +1496,7 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.eswa.2012.10.016&md5=0fc09b7e780c8896690eca6f3dba7bba</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1016/j.eswa.2012.10.016&amp;md5=0fc09b7e780c8896690eca6f3dba7bba</doi>
           <titulo>Texture-based descriptors for writer identification and verification</titulo>
           <autores>GONÇALVES, Diego Bertolini ; Oliveira, L.S. ; Justino, E. ; Sabaourin, R.</autores>
           <revista>Expert Systems with Applications</revista>
@@ -1506,7 +1506,7 @@
           <ano>0</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.patcog.2009.05.009&md5=d91899af3840e8d357590aa50f6571d2</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1016/j.patcog.2009.05.009&amp;md5=d91899af3840e8d357590aa50f6571d2</doi>
           <titulo>Reducing forgeries in writer-independent off-line signature verification through ensemble of classifiers</titulo>
           <autores>GONÇALVES, Diego Bertolini ; Oliveira, L.S. ; Sabaourin, R. ; Justino, E.</autores>
           <revista>Pattern Recognition</revista>
@@ -2323,7 +2323,7 @@
           <ano>2014</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1007/s10606-012-9164-4&md5=834f11d2461ead168455dab98ae3c0f9</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1007/s10606-012-9164-4&amp;md5=834f11d2461ead168455dab98ae3c0f9</doi>
           <titulo>Awareness Support in Distributed Software Development: A Systematic Review and Mapping of the Literature</titulo>
           <autores>STEINMACHER, Igor ; STEINMACHER, IGOR ; CHAVES, A. P. ; Gerosa, Marco Aurélio</autores>
           <revista>Computer Supported Cooperative Work</revista>
@@ -2333,7 +2333,7 @@
           <ano>0</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=null&amp;md5=f8a2d9f8af7e0fb17f9968fbbee28b49</doi>
           <titulo>OntoDiSENv1: an Ontology to Support Global Software Development</titulo>
           <autores>CHAVES, Ana Paula ; STEINMACHER, Igor ; LEAL, Gislaine Camila Lapasini ; BIASAO, Alberto B. ; HUZITA, Elisa Hatsue Moriya</autores>
           <revista>CLEI Electronic Journal</revista>
@@ -3393,7 +3393,7 @@
     </colaboradores>
     <artigos_em_periodicos>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.jnca.2014.07.022&md5=9f4c35a130f92cba69b306daccd03e4b</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1016/j.jnca.2014.07.022&amp;md5=9f4c35a130f92cba69b306daccd03e4b</doi>
           <titulo>A comprehensive view of Hadoop research-A systematic literature review</titulo>
           <autores>POLATO, Ivanilton ; RÉ, REGINALDO ; GOLDMAN, ALFREDO ; KON, FABIO</autores>
           <revista>Journal of Network and Computer Applications</revista>
@@ -3403,7 +3403,7 @@
           <ano>0</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.entcs.2006.05.027&md5=9251685cf3b98d443ade5844c399788d</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1016/j.entcs.2006.05.027&amp;md5=9251685cf3b98d443ade5844c399788d</doi>
           <titulo>A Component-based Approach to Embedded Software Design</titulo>
           <autores>POLATO, Ivanilton ; SILVA FILHO, Antonio Mendes da</autores>
           <revista>Electronic Notes in Theoretical Computer Science</revista>
@@ -5720,7 +5720,7 @@
           <ano>2015</ano>
         </artigo>
         <artigo>
-          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1016/j.jnca.2014.07.022&md5=9f4c35a130f92cba69b306daccd03e4b</doi>
+          <doi>http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&amp;rel=R6.0.0&amp;doi=10.1016/j.jnca.2014.07.022&amp;md5=9f4c35a130f92cba69b306daccd03e4b</doi>
           <titulo>A comprehensive view of Hadoop research-A systematic literature review</titulo>
           <autores>POLATO, Ivanilton ; RÉ, REGINALDO ; GOLDMAN, ALFREDO ; KON, FABIO</autores>
           <revista>Journal of Network and Computer Applications</revista>

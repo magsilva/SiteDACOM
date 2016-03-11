@@ -73,16 +73,20 @@ class Artigo(models.Model):
 
 class ArtigoEmPeriodico(Artigo):
     nomejournal = models.CharField('Nome Journal', max_length=255)
-    ISSN = models.CharField('Codigo ISSN', max_length=255)  # identificador;models.CharField()
+    ISSN = models.CharField('Codigo ISSN', max_length=255)
     publisher = models.CharField('Editora', max_length=255)
-    numero = models.CharField('Numero', max_length=10)
-    volume = models.CharField('Volume', max_length=10)
+    numero = models.CharField('Numero', max_length=100)
+    volume = models.CharField('Volume', max_length=100)
+
+    def __unicode__(self):
+        return self.titulo
 
 class ArtigoEmConferencia(Artigo):
     nomedaConferencia = models.CharField('Nome da Conferencia', max_length=255)
     ISSN = models.CharField('Codigo ISSN', max_length=50)
     ISBN = models.CharField('Codigo ISBN', max_length=50)  # obrigatorio
     local = models.CharField('Local da Conferencia', max_length=255)
+    ano = models.CharField('Ano', max_length=4)
 
 class Integrante(models.Model):
     nome = models.CharField('nome', max_length=255)
@@ -92,11 +96,6 @@ class Integrante(models.Model):
 
 class IntegranteProfessor(Integrante):
     professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
-
-
-
-
-
 
 class Projeto(models.Model):
     datainicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)
@@ -122,3 +121,5 @@ class Evento(models.Model):
     volume = models.CharField('Volume', max_length=10)
     paginas = models.CharField('Paginas', max_length=255)
 
+    def __unicode__(self):
+        return self.titulo

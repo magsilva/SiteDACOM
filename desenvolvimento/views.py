@@ -7,7 +7,8 @@ from django.shortcuts import render_to_response
 # from django.views.generic import CreateView
 # from desenvolvimento.forms import Projet  oForm
 from .models import *
-
+# from django
+from itertools import chain
 #
 # def index(request):
 #      return render_to_response('index.html', {})
@@ -15,7 +16,11 @@ from .models import *
 
 def index(request):
     listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
-    paginator = Paginator(listadeProjetos, 10)
+    listadeArtigos = ArtigoEmConferencia.objects.distinct().all().order_by('-data')
+    # lista =  listadeArtigos | listadeProjetos
+    result_list =  list(chain(listadeProjetos, listadeArtigos))
+
+    paginator = Paginator(result_list, 10)
     page =  request.GET.get('page')
     try:
         projects = paginator.page(page)
