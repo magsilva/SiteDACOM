@@ -9,30 +9,30 @@ from django.shortcuts import render_to_response
 from .models import *
 # from django
 from itertools import chain
-#
-# def index(request):
-#      return render_to_response('index.html', {})
+from functools import reduce
+from operator import and_, or_, attrgetter
 
 
 def index(request):
     listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
-    listadeArtigos = ArtigoEmConferencia.objects.distinct().all().order_by('-data')
+    listadeArtigos = ArtigoEmPeriodico.objects.distinct().all().order_by('-data')
     listadeIntegrantes = Integrante.objects.distinct().all().order_by('-datadefim')
     listadeIntegrantesProfessor = IntegranteProfessor.objects.distinct().all().order_by('-datadefim')
-    result_list =  list(chain(listadeProjetos, listadeArtigos))
+    resultList = list(chain(listadeProjetos, listadeArtigos))
+    # resultList = listadeProjetos
+    # resultList = sorted(chain(listadeProjetos, listadeArtigos))
 
-    paginator = Paginator(result_list, 10)
+    paginator = Paginator(resultList, 10)
     page =  request.GET.get('page')
     try:
-        projects = paginator.page(page)
+      projects = paginator.page(page)
     except PageNotAnInteger:
-    # If page is not an integer, deliver first page.
+        # If page is not an integer, deliver first page.
         projects = paginator.page(1)
     except EmptyPage:
-        # If page is out of range (e.g. 9999), deliver last page of results.
-       projects= paginator.page(paginator.num_pages)
-
-    return render_to_response('index.html', {"projects": projects, "integrantes": listadeIntegrantes, "integrantes": listadeIntegrantesProfessor})
+            # If page is out of range (e.g. 9999), deliver last page of results.
+        projects= paginator.page(paginator.num_pages)
+    return render_to_response('index.html', {'projects': projects, 'integrantes': listadeIntegrantes, 'integrantesProfessor': listadeIntegrantesProfessor})
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')

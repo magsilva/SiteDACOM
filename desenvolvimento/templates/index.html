@@ -53,37 +53,52 @@
         <section id="content">
             <article class="expanded">
                 <h2>Início</h2>
+ <!--{% ifequal project.nome "" %}-->
+                          <!--OLA-->
 
-                    {% for project in projects %}
-    <br/>
-                <a href="{{project.nome}}/"> <div class="nomeProjeto">{{ project.nome|upper }}</div></a></b>
-                <br/>
-                        Professor:  <a href="{{project.id}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
-                        Situação: {{project.situacao}}<br/>
-                        Natureza: {{project.natureza}}<br/>
-                        Data de Ínicio {{project.datainicio}}<br/>
-                        Data de Fim {{project.datadefim}}<br/>
-                        Resumo: {{project.resumo}}<br/>
+                        <!--{% else %}-->
+                            <!--<a href="{{project.nome}}/"> <div class="nomeProjeto">{{ project.nome|upper }}</div></a></b>-->
+                        <!--{%endifequal%}-->
+                        <!--{% ifequal project.titulo "" %}-->
+                         <!--Ola-->
+                        <!--{% else %}-->
 
-                        Integrantes:<br/>
+                            <!--<a href="{{project.titulo}}/"> <div class="nomeProjeto">{{ project.titulo|upper }}</div></a></b>-->
+                        <!--{%endifequal%}-->
+
+                    {% for project in projects%}
+              <br>
+<a href="{{project.titulo}}/"> <div class="nomeProjeto">{{ project.titulo|upper }}</div></a></b>
+              <a href="{{project.nome}}/"> <div class="nomeProjeto">{{ project.nome|upper }}</div></a></b>
+                        <br/>
+                                Professor:  <a href="{{project.id}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
+                                Situação: {{project.situacao}}<br/>
+                                Natureza: {{project.natureza}}<br/>
+                                Data de Ínicio {{project.datainicio}}<br/>
+                                Data de Fim {{project.datadefim}}<br/>
+                                Resumo: {{project.resumo}}<br/>
+
+                                Integrantes:<br/>
 
                     {% endfor %}
+            <br/>
+
 
                     <div class="pagination">
 
     <span class="step-links">
 
-        {% if projects.has_previous %}
+        {% if project.has_previous %}
 
             <a href="?page={{ projects.previous_page_number }}" class="anterior">Anterior</a>
         {% endif %}
 
         <span class="current">
 
-        Página {{ projects.number }} de {{ projects.paginator.num_pages }}
+        Página {{ project.number }} de {{ project.paginator.num_pages }}
         </span>
 
-        {% if projects.has_next %}
+        {% if project.has_next %}
             <a href="?page={{ projects.next_page_number }}">Próxima</a>
         {% endif %}
     </span>
