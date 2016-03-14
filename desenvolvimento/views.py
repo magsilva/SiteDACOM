@@ -17,7 +17,8 @@ from itertools import chain
 def index(request):
     listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
     listadeArtigos = ArtigoEmConferencia.objects.distinct().all().order_by('-data')
-    # lista =  listadeArtigos | listadeProjetos
+    listadeIntegrantes = Integrante.objects.distinct().all().order_by('-datadefim')
+    listadeIntegrantesProfessor = IntegranteProfessor.objects.distinct().all().order_by('-datadefim')
     result_list =  list(chain(listadeProjetos, listadeArtigos))
 
     paginator = Paginator(result_list, 10)
@@ -31,7 +32,7 @@ def index(request):
         # If page is out of range (e.g. 9999), deliver last page of results.
        projects= paginator.page(paginator.num_pages)
 
-    return render_to_response('index.html', {"projects": projects})
+    return render_to_response('index.html', {"projects": projects, "integrantes": listadeIntegrantes, "integrantes": listadeIntegrantesProfessor})
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')
@@ -78,7 +79,7 @@ def projetos(request):
 def eventos(request):
 
 
-    listadeEventos = Evento.objects.all().order_by('nome')
+    listadeEventos = Evento.objects.all().order_by('titulo')
     paginator = Paginator(listadeEventos, 10)
     page = request.GET.get('page')
     try:
