@@ -875,10 +875,19 @@ border:5px solid #ffffff;
 {
 font-weight: bold;
 display:inline;
+    text-align:;
 
 
 }
+.tab h5 a
+{
 
+    text-align:left;
+    display:inline;
+    display:inline;
+
+
+}
 .titulo{
     width:auto;
     height:auto;

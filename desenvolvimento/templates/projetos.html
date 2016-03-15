@@ -53,15 +53,23 @@
             <article class="expanded">
                 <h2>Projetos</h2>
 
-                    {% for project in projects %}
-                    <br/>
-                    <br/>
-                   <div class="nomeProjeto"><b>{{ project.nome|upper }}</b> </div>
-                    <a href="{{project.id}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
-                        Situação: {{project.situacao}}<br/>
-                        Natureza: {{project.natureza}}<br/>
-                        Data de Ínicio {{project.datainicio}}<br/>
-                        Data de Fim {{project.datadefim}}<br/>
+                    {% for project in projects%}
+                            <div class="quadradoInteiro">
+                                <h3 class="titulo">Projeto: {{ project.nome}}</h3>
+                                     <div class="tab">
+                                          <a href="{{project.id}}/">
+                                                <div class="nomeProfessor"> Professor: {{project.professor}}</div>
+                                          </a>
+                                          <h5>Situação:</h5> {{project.situacao}}<br/>
+                                          <h5>Natureza:</h5>  {{project.natureza}}<br/>
+                                          <h5>Início:</h5>  {{project.datainicio}}<br/>
+                                          <h5>Término:</h5>  {{project.datadefim}}<br/>
+                                          <h5>Resumo:</h5>  {{project.resumo}}<br/>
+                                          <h5>Integrantes:<br/>
+                                     </div>
+                                <br/>
+                            </div>
+                          <br/>
                     {% endfor %}
 
                     <div class="pagination">

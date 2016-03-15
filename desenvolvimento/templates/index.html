@@ -59,7 +59,7 @@
                         {%if project.nome|length > 0 %}
 
                             <div class="quadradoInteiro">
-                                <h3 class="titulo">Projeto: {{ project.nome}}</h3>
+                                 <a href="{{project.nome}}/">   <h3 class="titulo">Projeto: {{ project.nome}}</h3></a>
                                      <div class="tab">
                                           <a href="{{project.id}}/">
                                                 <div class="nomeProfessor"> Professor: {{project.professor}}</div>
@@ -77,19 +77,18 @@
                                   {%else%}
 <br>
                               <div class="quadradoInteiro">
-                                                <h3 class="titulo">Artigo em Periódico: {{project.titulo}}</h3><br/>
+                                                <a href="{{project.titulo}}/"> <h3 class="titulo"> Artigo em Periódico: {{project.titulo}}</h3></a><br/>
                                                      <div class="tab">
                                                           <a href="{{project.id}}/">
                                                                 <div class="nomeProfessor"> Professor: {{project.professorDoArtigo}}</div>
                                                           </a>
                                                           <h5>Data:</h5> {{project.data}}<br/>
-                                                          <h5>DOI:</h5>  {{project.doi}}<br/>
-                                                       <h5>Nome Journal:</h5>  {{project.nomejournal}}<br/>
-                                                       <h5>ISSN:</h5>  {{project.ISSN}}<br/>
-                                                       <h5>Editora:</h5>  {{project.editora}}<br/>
-                                                       <h5>Numero:</h5>  {{project.numero}}<br/>
-                                                       <h5>Volume:</h5>  {{project.volume}}<br/>
-
+                                                          <a href="{{project.doi}}"><h5>DOI:</h5>  {{project.doi}}<br/></a>
+                                                          <h5>Nome Journal:</h5>  {{project.nomejournal}}<br/>
+                                                          <h5>ISSN:</h5>  {{project.ISSN}}<br/>
+                                                          <h5>Editora:</h5>  {{project.publisher}}<br/>
+                                                          <h5>Numero:</h5>  {{project.numero}}<br/>
+                                                          <h5>Volume:</h5>  {{project.volume}}<br/>
                                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                                           <h5>Integrantes:<br/>
                                                      </div>

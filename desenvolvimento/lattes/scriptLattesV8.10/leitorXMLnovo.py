@@ -347,28 +347,33 @@ def executeLeitorXML():
                     numero=""
                     if artigo.find('doi').text is not None:
                         doi = artigo.find('doi').text
-                    if artigo.find('autores').text is not None:
-                        autores = artigo.find('autores').text
                     if artigo.find('titulo').text is not None:
                         titulo = artigo.find('titulo').text
+                    if artigo.find('autores').text is not None:
+                        autores = artigo.find('autores').text
                     if artigo.find('revista').text is not None:
                         revista = artigo.find('revista').text
-                    if artigo.find('ano').text is not None:
-                        ano = artigo.find('ano').text
                     if artigo.find('volume').text is not None:
                         volume = artigo.find('volume').text
                     if artigo.find('paginas').text is not None:
                         paginas = artigo.find('paginas').text
                     if artigo.find('numero').text is not None:
                         numero = artigo.find('numero').text
+                    if artigo.find('ano').text is not None:
+                        ano = artigo.find('ano').text
+
+
                     profDaIteracao =  Professor.objects.get(nome=prof.nome)
+
                     artigo = ArtigoEmPeriodico()
+
                     artigo.paginas = paginas
                     artigo.data = ano
                     artigo.doi = doi
                     artigo.titulo= titulo
-                    artigo.revista = revista
+                    artigo.publisher = revista
                     artigo.volume = volume
+                    artigo.listadeautores=autores
                     artigo.numero = numero
                     artigo.professorDoArtigo = profDaIteracao
 
@@ -381,9 +386,10 @@ def executeLeitorXML():
                             art.data=2016
                         art.paginas = artigo.paginas
                         art.doi = artigo.doi
-                        art.revista = artigo.revista
+                        art.publisher = artigo.publisher
                         art.volume = artigo.volume
                         art.numero = artigo.numero
+                        art.listadeautores = artigo.listadeautores
                         art.professor = artigo.professorDoArtigo
                         art.save()
                         print("ArtigoEMConferencia salvo com Sucesso")
