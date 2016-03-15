@@ -53,56 +53,74 @@
         <section id="content">
             <article class="expanded">
                 <h2>Início</h2>
- <!--{% ifequal project.nome "" %}-->
-                          <!--OLA-->
-
-                        <!--{% else %}-->
-                            <!--<a href="{{project.nome}}/"> <div class="nomeProjeto">{{ project.nome|upper }}</div></a></b>-->
-                        <!--{%endifequal%}-->
-                        <!--{% ifequal project.titulo "" %}-->
-                         <!--Ola-->
-                        <!--{% else %}-->
-
-                            <!--<a href="{{project.titulo}}/"> <div class="nomeProjeto">{{ project.titulo|upper }}</div></a></b>-->
-                        <!--{%endifequal%}-->
-
+             <!--{{ project}}-->
                     {% for project in projects%}
-              <br>
-<a href="{{project.titulo}}/"> <div class="nomeProjeto">{{ project.titulo|upper }}</div></a></b>
-              <a href="{{project.nome}}/"> <div class="nomeProjeto">{{ project.nome|upper }}</div></a></b>
                         <br/>
-                                Professor:  <a href="{{project.id}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
-                                Situação: {{project.situacao}}<br/>
-                                Natureza: {{project.natureza}}<br/>
-                                Data de Ínicio {{project.datainicio}}<br/>
-                                Data de Fim {{project.datadefim}}<br/>
-                                Resumo: {{project.resumo}}<br/>
+                        {%if project.nome|length > 0 %}
 
-                                Integrantes:<br/>
+                            <div class="quadradoInteiro">
+                                <h3 class="titulo">Projeto: {{ project.nome}}</h3>
+                                     <div class="tab">
+                                          <a href="{{project.id}}/">
+                                                <div class="nomeProfessor"> Professor: {{project.professor}}</div>
+                                          </a>
+                                          <h5>Situação:</h5> {{project.situacao}}<br/>
+                                          <h5>Natureza:</h5>  {{project.natureza}}<br/>
+                                          <h5>Início:</h5>  {{project.datainicio}}<br/>
+                                          <h5>Término:</h5>  {{project.datadefim}}<br/>
+                                          <h5>Resumo:</h5>  {{project.resumo}}<br/>
+                                          <h5>Integrantes:<br/>
+                                     </div>
+                                <br/>
+                            </div>
+                          <br/>
+                                  {%else%}
+<br>
+                              <div class="quadradoInteiro">
+                                                <h3 class="titulo">Artigo em Periódico: {{project.titulo}}</h3><br/>
+                                                     <div class="tab">
+                                                          <a href="{{project.id}}/">
+                                                                <div class="nomeProfessor"> Professor: {{project.professorDoArtigo}}</div>
+                                                          </a>
+                                                          <h5>Data:</h5> {{project.data}}<br/>
+                                                          <h5>DOI:</h5>  {{project.doi}}<br/>
+                                                       <h5>Nome Journal:</h5>  {{project.nomejournal}}<br/>
+                                                       <h5>ISSN:</h5>  {{project.ISSN}}<br/>
+                                                       <h5>Editora:</h5>  {{project.editora}}<br/>
+                                                       <h5>Numero:</h5>  {{project.numero}}<br/>
+                                                       <h5>Volume:</h5>  {{project.volume}}<br/>
 
-                    {% endfor %}
+                                                          <h5>Resumo:</h5>  {{project.resumo}}<br/>
+                                                          <h5>Integrantes:<br/>
+                                                     </div>
+                                                <br/>
+                                            </div>
+                                          <br/>
+                        {%endif%}
+                      {% endfor %}
+
             <br/>
 
 
-                    <div class="pagination">
+                    <!--<div class="pagination">-->
 
-    <span class="step-links">
+    <!--<span class="step-links">-->
 
-        {% if project.has_previous %}
+        <!--{% if project.has_previous %}-->
 
-            <a href="?page={{ projects.previous_page_number }}" class="anterior">Anterior</a>
-        {% endif %}
+            <!--<a href="?page={{ projects.previous_page_number }}" class="anterior">Anterior</a>-->
+        <!--{% endif %}-->
 
-        <span class="current">
+        <!--<span class="current">-->
 
-        Página {{ project.number }} de {{ project.paginator.num_pages }}
-        </span>
+        <!--Página {{ project.number }} de {{ project.paginator.num_pages }}-->
+        <!--</span>-->
 
-        {% if project.has_next %}
-            <a href="?page={{ projects.next_page_number }}">Próxima</a>
-        {% endif %}
-    </span>
-                    </div>
+        <!--{% if project.has_next %}-->
+            <!--<a href="?page={{ projects.next_page_number }}">Próxima</a>-->
+        <!--{% endif %}-->
+    <!--</span>-->
+                    <!--</div>-->
 
                 </ul>
             </article>

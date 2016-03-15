@@ -861,3 +861,43 @@ a .hover:
     color: #f9c61f;
     text-decoration: none;
 }
+.tab
+{
+
+margin-left:10px;
+    margin-right:10px;
+border:5px solid #ffffff;
+
+
+
+}
+.tab h5
+{
+font-weight: bold;
+display:inline;
+
+
+}
+
+.titulo{
+    width:auto;
+    height:auto;
+    margin-left:10px;
+    margin-right:10px;
+    border-bottom:1px solid #f9c61f;
+
+
+
+
+
+}
+.quadradoInteiro
+{
+    border-radius: 10px;
+    border:1px solid #E6E8FA;
+    float:left;
+    margin-bottom:5px;
+    width:100%;
+    height:auto;
+    text-align:justify;
+}

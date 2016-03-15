@@ -19,20 +19,22 @@ def index(request):
     listadeIntegrantes = Integrante.objects.distinct().all().order_by('-datadefim')
     listadeIntegrantesProfessor = IntegranteProfessor.objects.distinct().all().order_by('-datadefim')
     resultList = list(chain(listadeProjetos, listadeArtigos))
-    # resultList = listadeProjetos
+    projects =resultList
+    # resultList = listadeProjetos | listadeArtigos
     # resultList = sorted(chain(listadeProjetos, listadeArtigos))
-
-    paginator = Paginator(resultList, 10)
-    page =  request.GET.get('page')
-    try:
-      projects = paginator.page(page)
-    except PageNotAnInteger:
-        # If page is not an integer, deliver first page.
-        projects = paginator.page(1)
-    except EmptyPage:
-            # If page is out of range (e.g. 9999), deliver last page of results.
-        projects= paginator.page(paginator.num_pages)
-    return render_to_response('index.html', {'projects': projects, 'integrantes': listadeIntegrantes, 'integrantesProfessor': listadeIntegrantesProfessor})
+    # resultList = listadeProjetos. listadeArtigos
+    # paginator = Paginator(resultList, 10)
+    # page =  request.GET.get('page')
+    # try:
+    #   projects = paginator.page(page)
+    # except PageNotAnInteger:
+    #     # If page is not an integer, deliver first page.
+    #     projects = paginator.page(1)
+    # except EmptyPage:
+    #         # If page is out of range (e.g. 9999), deliver last page of results.
+    #     projects= paginator.page(paginator.num_pages)
+    return render_to_response('index.html', {'projects': projects})
+    # return render_to_response('index.html', {'projects': projects, 'integrantes': listadeIntegrantes, 'integrantesProfessor': listadeIntegrantesProfessor})
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')
