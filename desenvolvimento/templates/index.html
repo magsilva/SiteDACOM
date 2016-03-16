@@ -70,6 +70,15 @@
                                           <h5>Término:</h5>  {{project.datadefim}}<br/>
                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                           <h5>Integrantes:<br/>
+                                              {% for i in listadeIntegrantesProfessor %}
+                                                {% ifequal i.professor project.professor.id %}
+                                                    {% ifequal i.ehCoordenador True %}
+                                                        Coordenador: {{i.nome}}
+                                                    {% else %}
+                                                        Integrantes {{i.nome}}
+                                                    {% endifequal %}
+                                                {% endifequal %}
+                                              {% endfor %}
                                      </div>
                                 <br/>
                             </div>

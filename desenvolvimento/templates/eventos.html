@@ -51,18 +51,25 @@
         <section id="content">
             <br class="expanded">
                 <h2>Eventos</h2>
+                  {%for e in eventos%}
+                  <div class="quadradoInteiro">
+                                 <a href="{{project.nome}}/">   <h3 class="titulo">Evento: {{ e.titulo}}</h3></a>
+                                     <div class="tab">
+                                          <a href="{{project.id}}/">
+                                                <div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>
+                                          </a>
+                                          <h5>DOI:</h5> {{e.doi}}<br/>
+                                          <h5>Autores:</h5>  {{e.autores}}<br/>
+                                          <h5>Data:</h5>  {{e.ano}}<br/>
+                                          <h5>Volume:</h5>  {{e.volume}}<br/>
+                                          <h5>Paginas:</h5>  {{e.paginas}}<br/>
+                                          <!--<h5>Integrantes:<br/>-->
 
-                    Não há eventos cadastrados
+                                     </div>
+                                <br/>
+                            </div>
 
-
-                                       <br><br>
-            <br>
-            <br>
-
-                                       <br><br>
-            <br>
-            <br>
-
+          {%endfor%}
                     <div class="pagination">
                         <br>
     <span class="step-links">
@@ -83,64 +90,6 @@
 
             </article>
         </section>
-        <!--<div class="sidebar">-->
-            <!--<ul>-->
-                <!--<li>-->
-                    <!--<h4>Outros Câmpus</h4>-->
-                    <!--<ul>-->
-                        <!--<li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de-->
-                            <!--presunto cru</a>-->
-
-                            <!--<p><a href="#" class="readmore">Leia Mais &raquo;</a></li>-->
-                        <!--<li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de-->
-                            <!--presunto cru</a>-->
-
-                            <!--<p><a href="#" class="readmore">Leia Mais &raquo;</a></li>-->
-                        <!--<li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de-->
-                            <!--presunto cru</a>-->
-
-                            <!--<p><a href="#" class="readmore">Leia Mais &raquo;</a></li>-->
-                        <!--<li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de-->
-                            <!--presunto cru</a>-->
-
-                            <!--<p><a href="#" class="readmore">Leia Mais &raquo;</a></li>-->
-                        <!--<li><a href="index.html">Câmpus Francisco Beltrão realiza experimento para elaboração de-->
-                            <!--presunto cru</a>-->
-
-                            <!--<p><a href="#" class="readmore">Leia Mais &raquo;</a></li>-->
-                    <!--</ul>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--<h4>Categorias</h4>-->
-                    <!--<ul>-->
-                        <!--<li><a href="index.html">Departamento</a></li>-->
-                        <!--<li><a href="examples.html">Coordenação</a></li>-->
-                    <!--</ul>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--<h4>Sobre nós</h4>-->
-                    <!--<ul>-->
-                        <!--<li class="text">-->
-                            <!--<p style="margin: 0;">Um meio eletrônico de aproximar as pessoas do UTFPR - Universidade-->
-                                <!--Tecnológica Federal do Paraná Câmpus Campo Mourão das pessoas <a href="#"-->
-                                                                                                 <!--class="readmore">Leia-->
-                                    <!--Mais &raquo;</a></p>-->
-                        <!--</li>-->
-                    <!--</ul>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--<h4> Links Importantes </h4>-->
-                    <!--<ul>-->
-                        <!--<li><a href="http://www.themeforest.net/?ref=spykawg" title="premium templates">Moodle Campo-->
-                            <!--Mourão</a></li>-->
-                        <!--<li><a href="http://www.dreamhost.com/r.cgi?259541" title="web hosting">Site UTFPR Campo-->
-                            <!--Mourão</a></li>-->
-
-                    <!--</ul>-->
-                <!--</li>-->
-
-            <!--</ul>-->
-        <!--</div>-->
 
     </div>
     <div class="clear"></div>
