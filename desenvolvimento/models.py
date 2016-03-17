@@ -8,6 +8,10 @@ class DepartamentoAcademico(models.Model):
     def __unicode__(self):
         return self.nome
 
+# class Pessoa(models.Model):
+#     nome = models.CharField('Nome', max_length=100)
+
+# class Professor (Pessoa):
 class Professor(models.Model):
     nome = models.CharField('Nome', max_length=100)
     email = models.CharField('E-mail', max_length=200, null=True, blank=True)
@@ -23,6 +27,7 @@ class Professor(models.Model):
     def __unicode__(self):
         return self.nome
 
+# class DadosDePessoa(models.Model):
 
 class DadosDeProfessor(models.Model):
     nome = models.CharField('nome do professor', max_length=100)
@@ -123,3 +128,6 @@ class Evento(models.Model):
 
     def __unicode__(self):
         return self.titulo
+
+
+

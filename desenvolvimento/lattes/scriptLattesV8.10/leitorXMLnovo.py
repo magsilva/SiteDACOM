@@ -396,6 +396,6 @@ def executeLeitorXML():
 
 
 if __name__ == "__main__":
-    # executeLattes()
+    executeLattes()
     initSistem()
     executeLeitorXML()
