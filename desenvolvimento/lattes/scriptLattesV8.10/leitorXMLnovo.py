@@ -2,12 +2,16 @@
 # -*- encoding: UTF-8 -*-
 from __future__ import absolute_import
 from __future__ import print_function
+
+import os
 from subprocess import call
 import xml.etree.ElementTree as et
 import warnings
 import sys
 from django.conf import settings
 #
+from django.core.files import File
+
 settings.configure(DEBUG=True)
 settings.DATABASES = {
     'default': {
@@ -395,7 +399,70 @@ def executeLeitorXML():
                         print("ArtigoEMConferencia salvo com Sucesso")
 
 
+
+def findProfilePhoto():
+    import shutil
+    util ="/home/humberto/Documentos/projectUtfpr/desenvolvimento/lattes/scriptLattesV8.10/data/cache-lattes/"
+    diretorios = os.listdir(util)
+
+    j=0
+    for pasta in diretorios:
+        if(pasta.__contains__("_files")):
+            idLattes = pasta[0:16]
+            prof = Professor.objects.get(lattes=idLattes)
+            indice = os.listdir(util+pasta+"/")
+            for i  in indice:
+                if i.__contains__("servletrecuperafoto"):
+
+                    # os.rename(util+pasta+"/servletrecuperafoto",util+pasta+"/servletrecuperafoto"+str(j)+".img" )
+                    shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".img", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto")
+                    j+=1
+                    prof.profile_image="/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto/servletrecuperafoto"+str(j)+".img"
+                    prof.save()
+                    # prof.profile_image.save(name= "servletrecuperafoto.img", File(open("/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto")), save()))
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
-    executeLattes()
-    initSistem()
-    executeLeitorXML()
+    # executeLattes()
+    # initSistem()
+    # executeLeitorXML()
+    findProfilePhoto()

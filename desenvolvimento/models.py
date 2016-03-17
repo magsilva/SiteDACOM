@@ -1,4 +1,7 @@
+import os
+
 from django.db import models
+from django.db.models import ImageField
 
 
 class DepartamentoAcademico(models.Model):
@@ -12,6 +15,10 @@ class DepartamentoAcademico(models.Model):
 #     nome = models.CharField('Nome', max_length=100)
 
 # class Professor (Pessoa):
+
+# def get_image_path(instance, filename):
+#     return os.path.join('home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto', str(instance.id), filename)
+
 class Professor(models.Model):
     nome = models.CharField('Nome', max_length=100)
     email = models.CharField('E-mail', max_length=200, null=True, blank=True)
@@ -23,6 +30,7 @@ class Professor(models.Model):
     enderecoprofissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
     nomeemcitacoesbibliograficas = models.CharField('Nome em Citacoes Bibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
+    profile_image = ImageField(blank=True, null=True)
 
     def __unicode__(self):
         return self.nome
