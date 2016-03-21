@@ -21,6 +21,9 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+import enchant
+enchant.dict_exists('pt-br')
+
 # gettext = lambda s: s
 # BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -38,9 +41,14 @@ SECRET_KEY = '0%&n3=+ir*sbnx8zx7a&4)eic)au3(=ff37!=^zmh0#aebbl-#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
+
+
+
 ALLOWED_HOSTS = []
 
 # Application definition
+
 
 INSTALLED_APPS = (
     'djangocms_admin_style',
@@ -58,16 +66,15 @@ INSTALLED_APPS = (
      'mptt',  # utilities for implementing a tree
     'menus',  # helper for model independent hierarchical website navigation
     'sekizai',  # for javascript and css management
-    # 'djangocms_file',
-    # 'djangocms_flash',
-    # 'djangocms_googlemap',
-    # 'djangocms_inherit',
-    # 'djangocms_picture',
-    # 'djangocms_teaser',
-    # 'djangocms_video',
-    # 'djangocms_link',
-    # 'djangocms_snippet',
+    'mezzanine.core',
+    'mezzanine.pages',
+    'mezzyblocks',
 )
+
+MEDIA_URL = '/media/'
+PACKAGE_NAME_FILEBROWSER = "filebrowser"
+
+
 SITE_ID = 1
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -89,6 +96,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
     'cms.middleware.language.LanguageCookieMiddleware',
+    'mezzyblocks.middleware.BlocksTemplateContextMiddleware',
 )
 
 ROOT_URLCONF = 'projectUtfpr.urls'
@@ -146,6 +154,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+
+
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
@@ -155,8 +165,7 @@ HAYSTACK_CONNECTIONS = {
 }
 
 APPEND_SLASH=False
-# HAYSTACK_SEARCH_ENGINE = 'whoosh'
-# HAYSTACK_WHOOSH_PATH = '/home/whoosh/mysite_index'
+
 
 MIGRATION_MODULES = {
     # Add also the following modules if you're using these plugins:
@@ -171,4 +180,6 @@ MIGRATION_MODULES = {
     'djangocms_video': 'djangocms_video.migrations_django',
     'djangocms_text_ckeditor': 'djangocms_text_ckeditor.migrations_django',
 }
+
+
 
