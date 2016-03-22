@@ -21,8 +21,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-import enchant
-enchant.dict_exists('pt-br')
+
 
 # gettext = lambda s: s
 # BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -66,13 +65,9 @@ INSTALLED_APPS = (
      'mptt',  # utilities for implementing a tree
     'menus',  # helper for model independent hierarchical website navigation
     'sekizai',  # for javascript and css management
-    'mezzanine.core',
-    'mezzanine.pages',
-    'mezzyblocks',
+    # 'mezzyblocks',
 )
 
-MEDIA_URL = '/media/'
-PACKAGE_NAME_FILEBROWSER = "filebrowser"
 
 
 SITE_ID = 1
@@ -96,7 +91,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
     'cms.middleware.language.LanguageCookieMiddleware',
-    'mezzyblocks.middleware.BlocksTemplateContextMiddleware',
+    # 'mezzyblocks.middleware.BlocksTemplateContextMiddleware',
 )
 
 ROOT_URLCONF = 'projectUtfpr.urls'
@@ -152,7 +147,9 @@ USE_L10N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
-
+MEDIA_URL = '/media/'
+STATIC_ROOT='/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/'
+MEDIA_ROOT='/home/humberto/Documentos/projectUtfpr/desenvolvimento/media/'
 
 
 

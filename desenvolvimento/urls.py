@@ -1,6 +1,8 @@
 from django.contrib import admin
 from django.conf.urls import url
+from django.conf.urls.static import static
 
+from projectUtfpr import settings
 from . import views
 admin.autodiscover()
 
@@ -14,5 +16,4 @@ urlpatterns = [
       url(r'^(?P<projeto_professor>[0-9]+)/$', views.details, name='details'),
       url(r'^(?P<projeto_projeto>.+)/$', views.detailsProjeto, name='detailsProjeto'),
       # url(r'^(?P<projeto_professor>[0-9]+)/projetos/$', views.detailsProjeto, name='detailsProjeto'),
-]
-
+]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

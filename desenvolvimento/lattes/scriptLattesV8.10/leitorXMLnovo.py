@@ -410,14 +410,17 @@ def findProfilePhoto():
         if(pasta.__contains__("_files")):
             idLattes = pasta[0:16]
             prof = Professor.objects.get(lattes=idLattes)
+
+            # print(Professor.objects.get(lattes="0138023517065135"))
+
             indice = os.listdir(util+pasta+"/")
             for i  in indice:
-                if i.__contains__("servletrecuperafoto"):
+                if (i=="servletrecuperafoto"):
 
                     # os.rename(util+pasta+"/servletrecuperafoto",util+pasta+"/servletrecuperafoto"+str(j)+".img" )
-                    shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".img", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto")
+                    shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".img", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/")
                     j+=1
-                    prof.profile_image="/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto/servletrecuperafoto"+str(j)+".img"
+                    prof.profile_image="/static/servletrecuperafoto"+str(j)+".img"
                     prof.save()
                     # prof.profile_image.save(name= "servletrecuperafoto.img", File(open("/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto")), save()))
 

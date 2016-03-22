@@ -3,6 +3,8 @@ import os
 from django.db import models
 from django.db.models import ImageField
 
+from projectUtfpr.settings import MEDIA_ROOT, MEDIA_URL, STATIC_ROOT, STATIC_URL
+
 
 class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
@@ -30,7 +32,7 @@ class Professor(models.Model):
     enderecoprofissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
     nomeemcitacoesbibliograficas = models.CharField('Nome em Citacoes Bibliograficas', max_length=255, null=True, blank=True)
     textoResumo = models.CharField('bolsaProdutividade', max_length=500, null=True, blank=True)
-    profile_image = ImageField(blank=True, null=True)
+    profile_image = ImageField(upload_to="", blank=True, null=True)
 
     def __unicode__(self):
         return self.nome
@@ -65,6 +67,16 @@ class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="DepartamentoAcademico")
+    #carga horaria
+    #de aula, estagio, atividade complementar, optativas
+
+    #modelar cursos
+    #add disciplinas
+    #disciplina: nome, sigla, periodo, ementa, descricao, carga horaria, tipo
+
+
+
+
 
 class Coordenacao(models.Model):
     coordenador = models.ForeignKey(Professor, related_name='coordenadorCoo')
