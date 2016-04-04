@@ -14,6 +14,7 @@ from desenvolvimento.models import Integrante
 from desenvolvimento.models import IntegranteProfessor
 from desenvolvimento.models import Projeto
 from desenvolvimento.models import DadosDeProfessor
+from desenvolvimento.models import Disciplinas
 
 
 
@@ -30,5 +31,6 @@ admin.site.register(AreaDeAtuacao)
 admin.site.register(Integrante)
 admin.site.register(IntegranteProfessor)
 admin.site.register(DadosDeProfessor)
+admin.site.register(Disciplinas)
 
 

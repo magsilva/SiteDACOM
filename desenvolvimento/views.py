@@ -81,7 +81,6 @@ def projetos(request):
 
 def eventos(request):
 
-
     listadeEventos = Evento.objects.all().order_by('titulo')
     paginator = Paginator(listadeEventos, 10)
     page = request.GET.get('page')
@@ -96,12 +95,14 @@ def eventos(request):
     return render_to_response('eventos.html', {"eventos": eventos})
 
 
+
+
 def details(request, projeto_professor):
-    try:
-        details = Projeto.objects.filter(professor=projeto_professor)
-    except Projeto.DoesNotExist:
-        raise Http404("Professor does not exist")
-    return render(request, 'detailsProjeto.html', {'details': details})
+     try:
+        details = Professor.objects.filter(nome=projeto_professor)
+     except Projeto.DoesNotExist:
+         raise Http404("ProjetoNaoExiste")
+     return render(request, 'detailsProjeto.html', {'details': details})
 
 
 def detailsProjeto(request, projeto_projeto):
@@ -110,4 +111,3 @@ def detailsProjeto(request, projeto_projeto):
     except Projeto.DoesNotExist:
         raise Http404("Professor does not exist")
     return render(request, 'detailsProfessor.html', {'detailsProjeto': detailsProjeto})
-

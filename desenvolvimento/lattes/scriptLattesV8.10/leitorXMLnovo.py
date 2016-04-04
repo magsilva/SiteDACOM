@@ -5,6 +5,7 @@ from __future__ import print_function
 
 import os
 from subprocess import call
+# from lxml import etree as et
 import xml.etree.ElementTree as et
 import warnings
 import sys
@@ -15,12 +16,12 @@ from django.core.files import File
 settings.configure(DEBUG=True)
 settings.DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'UTFPR',  # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'UTFPR',
         'USER': 'root',
         'PASSWORD': 'Humberto1!',
-        'HOST': '',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '',  # Set to empty string for default.
+        'HOST': '',
+        'PORT': '',
     }
 }
 
@@ -393,12 +394,21 @@ def executeLeitorXML():
                         art.publisher = artigo.publisher
                         art.volume = artigo.volume
                         art.numero = artigo.numero
-                        art.listadeautores = artigo.listadeautores
-                        art.professor = artigo.professorDoArtigo
+                        # art.listadeautores = artigo.listadeautores
+                        # art.professor = artigo.professorDoArtigo
                         art.save()
                         print("ArtigoEMConferencia salvo com Sucesso")
 
-
+                    # for i in autores.split(";"):
+                    #     temp1= Professor.objects.filter(nome=i);
+                    #     temp2 = DadosDeProfessor.objects.filter(nome=i);
+                    #     if(temp1.__len__()>0):
+                    #         art= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
+                    #         art.professores=temp1;
+                    #     if(temp2.__len__()>0):
+                    #         art= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
+                    #         art.professores=temp2.professorDados;
+                    #         # insert no artigo
 
 def findProfilePhoto():
     import shutil
@@ -407,65 +417,39 @@ def findProfilePhoto():
 
     j=0
     for pasta in diretorios:
-        if(pasta.__contains__("_files")):
-            idLattes = pasta[0:16]
-            prof = Professor.objects.get(lattes=idLattes)
 
-            # print(Professor.objects.get(lattes="0138023517065135"))
+        if(pasta.__contains__("_files")):
+            print(pasta[0:16])
+            idLattes = pasta[0:16]
+            print(idLattes)
 
             indice = os.listdir(util+pasta+"/")
             for i  in indice:
-                if (i=="servletrecuperafoto"):
+                if (i.__contains__("servletrecuperafoto")):
 
-                    # os.rename(util+pasta+"/servletrecuperafoto",util+pasta+"/servletrecuperafoto"+str(j)+".img" )
-                    shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".img", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/")
-                    j+=1
-                    prof.profile_image="/static/servletrecuperafoto"+str(j)+".img"
+                    prof = Professor.objects.get(lattes=idLattes)
+                    print(prof.nome);
+                    print(prof.lattes);
+                    print(idLattes);
+                    # os.rename(i,util+pasta+"/servletrecuperafoto"+str(j)+".jpg" )
+                    shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".jpg", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/")
+                    prof.profile_image="/static/servletrecuperafoto"+str(j)+".jpg"
                     prof.save()
+                    j+=1
+
+
                     # prof.profile_image.save(name= "servletrecuperafoto.img", File(open("/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto")), save()))
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                # elif(i.__contains__("servletrecuperafoto")):
+                #     try:
+                #         shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".jpg", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/")
+                #         j+=1
+                #         prof.profile_image="/static/servletrecuperafoto"+str(j)+".jpg"
+                #         prof.save()
+                #     except  IOError:
+                #         print("")
 
 if __name__ == "__main__":
     # executeLattes()
-    # initSistem()
-    # executeLeitorXML()
+    initSistem()
+    executeLeitorXML()
     findProfilePhoto()

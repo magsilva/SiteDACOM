@@ -67,6 +67,34 @@ class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="DepartamentoAcademico")
+    cargaHoraria =  models.CharField('CargaHoraria', max_length=20, null=True, blank=True)
+    estagio =  models.CharField('Estagio',  max_length=256, null=True, blank=True)
+    atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
+    optativasDoCurso = models.CharField('OptativasDoCurso', max_length=256, null= True, blank=True)
+
+
+class Disciplinas(models.Model):
+    nome = models.CharField('Nome da Disciplina', max_length=50)
+    sigla = models.CharField('Sigla da Disciplina', max_length=50)
+    ementa = models.CharField('Ementa', max_length=50)
+    descricao = models.CharField('Descricao', max_length=50)
+    cargaHoraria= models.CharField('Carga Horaria', max_length=50)
+
+    OptativaHumanas = 'OH'
+    OptativaProfissionalizante  = 'OP'
+    NucleoComum = 'NC'
+    FormacaoProfissionalizante = 'FP'
+    TIPODEDISCIPLINA = (
+        (OptativaHumanas, 'Optativa Humanas'),
+        (OptativaProfissionalizante, 'Optativa Profissionalizante'),
+        (NucleoComum, 'Nucleo Comum'),
+        (FormacaoProfissionalizante, 'Formacao Profissionalizante'),
+    )
+    tipo  = models.CharField(max_length=2,
+                                      choices=TIPODEDISCIPLINA,
+                                      default=FormacaoProfissionalizante)
+    cursoNome= models.ForeignKey(Curso, related_name="CursoNome")
+
     #carga horaria
     #de aula, estagio, atividade complementar, optativas
 
@@ -91,10 +119,15 @@ class Artigo(models.Model):
     doi = models.CharField('DOI', max_length=255, null=True, blank=True)
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
-    professorDoArtigo = models.ForeignKey(Professor, related_name='ProfessorDoArtigo')
+
+    professores= models.ManyToManyField(Professor,related_name="ArtigoProfessor");
+
 
     def __unicode__(self):
         return self.titulo
+
+
+
 
 class ArtigoEmPeriodico(Artigo):
     nomejournal = models.CharField('Nome Journal', max_length=255)
@@ -102,6 +135,7 @@ class ArtigoEmPeriodico(Artigo):
     publisher = models.CharField('Editora', max_length=255)
     numero = models.CharField('Numero', max_length=100)
     volume = models.CharField('Volume', max_length=100)
+
 
     def __unicode__(self):
         return self.titulo

@@ -15,5 +15,5 @@ urlpatterns = [
       url(r'^eventos', views.eventos, name='eventos'),
       url(r'^(?P<projeto_professor>[0-9]+)/$', views.details, name='details'),
       url(r'^(?P<projeto_projeto>.+)/$', views.detailsProjeto, name='detailsProjeto'),
-      # url(r'^(?P<projeto_professor>[0-9]+)/projetos/$', views.detailsProjeto, name='detailsProjeto'),
+      # url(r'^(?P<projeto_projeto>[0-9]+)/projetos/$', views.detailsProjeto, name='detailsProjeto'),
 ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
