@@ -52,10 +52,10 @@
             <article class="expanded">
                 <h2>Cursos</h2>
                 <ul>
-                                        {% for c in listaDeCursos %}
+                                        {% for curso in listaDeCursos %}
                     <br/>
                     <br/><b>
-                    {{c.nome|upper }}</b><br/>
+                    <a href="{{curso.id}}/">{{curso.nome|upper }}A</a></b><br/>
 
                     {% endfor %}
                 </ul>

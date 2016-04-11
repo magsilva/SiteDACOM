@@ -15,6 +15,7 @@ from desenvolvimento.models import IntegranteProfessor
 from desenvolvimento.models import Projeto
 from desenvolvimento.models import DadosDeProfessor
 from desenvolvimento.models import Disciplina
+from desenvolvimento.models import RelacaoDisciplinaCurso
 
 
 
@@ -32,5 +33,6 @@ admin.site.register(Integrante)
 admin.site.register(IntegranteProfessor)
 admin.site.register(DadosDeProfessor)
 admin.site.register(Disciplina)
+admin.site.register(RelacaoDisciplinaCurso)
 
 

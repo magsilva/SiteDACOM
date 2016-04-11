@@ -72,24 +72,24 @@ class Curso(models.Model):
     cargaHoraria =  models.CharField('CargaHoraria', max_length=20, null=True, blank=True)
     estagio =  models.CharField('Estagio',  max_length=256, null=True, blank=True)
     atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
-    # optativasDoCurso = models.CharField('OptativasDoCurso', max_length=256, null= True, blank=True)
-    # disciplinas =  models.ManyToManyField(Disciplina,related_name="Disciplinas do Curso")
+
+    def __unicode__(self):
+        return self.nome
 
 class Disciplina(models.Model):
-    nome = models.CharField('Nome da Disciplina', max_length=50)
-    sigla = models.CharField('Sigla da Disciplina', max_length=50)
-    ementa = models.CharField('Ementa', max_length=50)
-    descricao = models.CharField('Descricao', max_length=50)
-    cargaHoraria= models.CharField('Carga Horaria', max_length=50)
+    nome = models.CharField('Nome da Disciplina', max_length=50, null=True, blank=True)
+    sigla = models.CharField('Sigla da Disciplina', max_length=50, null=True, blank=True)
+    ementa = models.CharField('Ementa', max_length=5000, null=True, blank=True)
+    descricao = models.CharField('Descricao', max_length=50, null=True, blank=True)
+    cargaHorariaPratica = models.CharField('Carga Horaria Pratica', max_length=50)
+    cargaHorariaTeorica =models.CharField('Carga Horaria Teorica', max_length=50)
 
-    cursoDisc = models.ForeignKey(Curso, related_name="CursoNome", null=True, blank=True)
-    departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="DepartamentoAcademicoNome", null=True, blank=True)
+    cursoDaDisciplina = models.ForeignKey(Curso, related_name="NomeCurso", null=True, blank=True)
+    departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="NomeDepartamentoAcademico", null=True, blank=True)
 
 class RelacaoDisciplinaCurso(models.Model):
-    cursoRelacao = models.ForeignKey(Curso, related_name="CursoNome2")
-    disciplina = models.ForeignKey(Disciplina, related_name="RelacaoDisciplinaCursoNome2")
 
-    periodgedito = models.IntegerField('Periodo')
+    periodo = models.IntegerField('Periodo')
 
     OptativaHumanas = 'OH'
     OptativaProfissionalizante  = 'OP'
@@ -106,16 +106,8 @@ class RelacaoDisciplinaCurso(models.Model):
                                       choices=TIPODEDISCIPLINA,
                                       default=FormacaoProfissionalizante)
 
-    # tipo = models.ForeignKey(TipoDeDisciplina, related_name="Tipo")
-
-
-
-    #carga horaria
-    #de aula, estagio, atividade complementar, optativas
-
-    #modelar cursos
-    #add disciplinas
-    #disciplina: nome, sigla, periodo, ementa, descricao, carga horaria, tipo
+    cursoRelacao = models.ForeignKey(Curso, related_name="CursoRelacionado", null=True, blank=True)
+    disciplina = models.ForeignKey(Disciplina, related_name="DisciplinaRelacionada",null=True, blank=True)
 
 class Coordenacao(models.Model):
     coordenador = models.ForeignKey(Professor, related_name='coordenadorCoo')
@@ -136,9 +128,6 @@ class Artigo(models.Model):
 
     def __unicode__(self):
         return self.titulo
-
-
-
 
 class ArtigoEmPeriodico(Artigo):
     nomejournal = models.CharField('Nome Journal', max_length=255)

@@ -96,6 +96,25 @@ def eventos(request):
 
 
 
+def detailCurso(request, curso_id):
+     try:
+        detailCurso = RelacaoDisciplinaCurso.objects.filter(cursoRelacao=curso_id)
+     except RelacaoDisciplinaCurso.DoesNotExist:
+         raise Http404("CursoNaoExiste")
+     return render(request, 'detailCurso.html', {'detailCurso': detailCurso})
+
+
+
+
+
+def detailCursoEmenta(request, curso_id, ementa):
+     try:
+        detailEmenta = Disciplina.objects.filter(nome=ementa)[0]
+     except Disciplina.DoesNotExist:
+         raise Http404("ProjetoNaoExiste")
+     return render(request, 'detailEmenta.html', {'detailEmenta': detailEmenta})
+
+
 
 def details(request, projeto_professor):
      try:

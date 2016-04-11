@@ -242,6 +242,8 @@ def executeLeitorXML():
                         p2.professor = proj2.professor
                         print("Projeto salvo com Sucesso")
                         p2.save()
+                        #     criar um classe buscar e faz um mapeamento de dados do professor;
+
 
                         for i in parte5[1:parte5.__len__()-1]:
                             i = (i.replace(" / ", ""))
@@ -323,24 +325,19 @@ def executeLeitorXML():
                         eventoNovo.paginas = e.paginas
                         eventoNovo.save()
                         print("Evento salvo com Sucesso")
-
-                    for i in autores.split(";"):
-                        temp1= Professor.objects.filter(nome=i);
-                        temp2 =DadosDeProfessor.objects.filter(nome=i);
+                        e = eventoNovo
 
 
-                        if(temp1.__len__()>0):
-                            ev= Evento.objects.filter(titulo=titulo)[0]
-                            # ev.professores=temp1
-                            eventoNovo.professoresDoEvento.add(temp1[0])
-                            # ev.save()
-                        elif(temp2.__len__()>0):
-                            temp3 = Professor.objects.filter(nome = temp2[0].nome)
-                            ev= Evento.objects.filter(titulo=titulo)[0]
-                            if(temp3.__len__()>0):
-                            # ev.professores=temp3
-                                eventoNovo.professoresDoEvento.add(temp3[0])
-                                # ev.save()
+                    for i in autores.split(" ; "):
+                        i= i.strip()
+                        profCurrent = DadosDeProfessor.objects.filter(nome=i);
+
+                        if(profCurrent.__len__()>0):
+                            professor = profCurrent[0].professorDados
+                            if(professor):
+                                e.professoresDoEvento.add(professor)
+                        else:
+                            print("Professor nao e da DACOM")
 
 
             for resumoCongresso in child1.iter('resumo_congresso'):
@@ -422,46 +419,16 @@ def executeLeitorXML():
                         print("ArtigoEMConferencia salvo com Sucesso")
 
                     for i in autores.split(" ; "):
-                        # print( i + " Autores ")
                         i= i.strip()
+                        profCurrent = DadosDeProfessor.objects.filter(nome=i);
 
-                        # lista = []
-                        #
-                        # lista.append(i)
-                        # for name in DadosDeProfessor.objects.filter(nome=)
-
-
-                        # temp1 = Professor.objects.filter(nome=i);
-                        temp2 = DadosDeProfessor.objects.filter(nome=i);
-
-
-                        # if(temp1.__len__()>0):
-                        #
-                        #     artNovo= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
-                        #
-                        #     artNovo.professores.add(temp1[0])
-                        #     # artNovo.save()
-
-                        if(temp2.__len__()>0):
-                            # for temp3 in temp2:
-                            professor = temp2[0].professorDados
+                        if(profCurrent.__len__()>0):
+                            professor = profCurrent[0].professorDados
                             if(professor):
-                                # artNovo= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
                                 artigo.professores.add(professor)
-
-
-
-                                # if(temp4.__len__()>0):
-                                #     for temp5 in temp4:
-                                #         art
-                                        # print(temp5.nome +  "NOVO")
-                                        # artNovo= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
-                                        # artNovo.professores.add(temp5)
-
                         else:
                             print("Professor nao e da DACOM")
-                                    # artNovo.save()
-                            # insert no artigo
+
 
 def findProfilePhoto():
     import shutil
@@ -501,8 +468,21 @@ def findProfilePhoto():
                 #     except  IOError:
                 #         print("")
 
+
+def fillData():
+    curso = Curso.objects.get(id =1)
+    departamento = DepartamentoAcademico.objects.get(id=1)
+    disciplina = Disciplina(nome="ALGORITMOS", sigla="BCC31A", ementa=" Um algoritmo é uma sequência finita e não ambígua de instruções computáveis para solucionar um problema.Um algoritmo consiste em uma expressão textual das etapas da resolução de algum problema, seja ele computacional ou não. Um exemplo clássico de algoritmo não-computacional é uma receita de bolo. Outros exemplos são instruções de montagem de um brinquedo ou equipamento, instruções para ir de um lugar a outro e receitas médicas.Imagine a fabricação de um bolo como sendo o problema. A receita desse bolo seria o algoritmo. Os ingredientes seriam os dados de entrada. Os recipientes utilizados para fazer o bolo são as variáveis envolvidas no processo. O modo de fazer consiste na descrição dos passos a serem utilizados para obter a solução do problema.Em computação, podemos definir um algoritmo como sendo uma forma genérica de se representar procedimentos computacionais que, quando executados, levam à solução de uma classe de problemas de natureza semelhante.",
+                                           descricao="materia", cargaHorariaPratica="2", cargaHorariaTeorica="5", cursoDaDisciplina=curso, departamentoAcademico=departamento)
+    disciplina.save()
+    relacao = RelacaoDisciplinaCurso(periodo=1, tipo='FP', cursoRelacao=curso, disciplina=disciplina )
+    relacao.save()
+
+
+
 if __name__ == "__main__":
     # executeLattes()
     initSistem()
     executeLeitorXML()
     findProfilePhoto()
+    fillData()
