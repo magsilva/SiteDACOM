@@ -63,7 +63,14 @@
                                           <h5>Data:</h5>  {{e.ano}}<br/>
                                           <h5>Volume:</h5>  {{e.volume}}<br/>
                                           <h5>Paginas:</h5>  {{e.paginas}}<br/>
+                                         Autores:
                                           <!--<h5>Integrantes:<br/>-->
+                                           {% if e.professoresDoEvento %}
+                                              {% for i in e.professoresDoEvento.all %}
+                                                    {{ i.nome }}
+                                              {% endfor %}
+                                         {% endif %}
+
 
                                      </div>
                                 <br/>

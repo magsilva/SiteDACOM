@@ -4,3 +4,16 @@ node_js:
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+
+{% ifequal i.professor project.professor.id %}
+                                                    {% ifequal i.ehCoordenador True %}
+                                                        Coordenador: {{i.nome}}
+                                                    {% else %}
+                                                        Integrantes {{i.nome}}
+                                                    {% endifequal %}
+                                                {% endifequal %}
+                                                {% ifequal i.ehCoordenador True %}
+                                                        Coordenador: {{i.nome}}
+                                                    {% else %}
+                                                        Integrantes {{i.nome}}
+                                                    {% endifequal %}

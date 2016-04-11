@@ -63,6 +63,8 @@ class AreaDeAtuacao(models.Model):
 
 
 
+
+
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
@@ -70,20 +72,30 @@ class Curso(models.Model):
     cargaHoraria =  models.CharField('CargaHoraria', max_length=20, null=True, blank=True)
     estagio =  models.CharField('Estagio',  max_length=256, null=True, blank=True)
     atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
-    optativasDoCurso = models.CharField('OptativasDoCurso', max_length=256, null= True, blank=True)
+    # optativasDoCurso = models.CharField('OptativasDoCurso', max_length=256, null= True, blank=True)
+    # disciplinas =  models.ManyToManyField(Disciplina,related_name="Disciplinas do Curso")
 
-
-class Disciplinas(models.Model):
+class Disciplina(models.Model):
     nome = models.CharField('Nome da Disciplina', max_length=50)
     sigla = models.CharField('Sigla da Disciplina', max_length=50)
     ementa = models.CharField('Ementa', max_length=50)
     descricao = models.CharField('Descricao', max_length=50)
     cargaHoraria= models.CharField('Carga Horaria', max_length=50)
 
+    cursoDisc = models.ForeignKey(Curso, related_name="CursoNome", null=True, blank=True)
+    departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="DepartamentoAcademicoNome", null=True, blank=True)
+
+class RelacaoDisciplinaCurso(models.Model):
+    cursoRelacao = models.ForeignKey(Curso, related_name="CursoNome2")
+    disciplina = models.ForeignKey(Disciplina, related_name="RelacaoDisciplinaCursoNome2")
+
+    periodgedito = models.IntegerField('Periodo')
+
     OptativaHumanas = 'OH'
     OptativaProfissionalizante  = 'OP'
     NucleoComum = 'NC'
     FormacaoProfissionalizante = 'FP'
+
     TIPODEDISCIPLINA = (
         (OptativaHumanas, 'Optativa Humanas'),
         (OptativaProfissionalizante, 'Optativa Profissionalizante'),
@@ -93,7 +105,10 @@ class Disciplinas(models.Model):
     tipo  = models.CharField(max_length=2,
                                       choices=TIPODEDISCIPLINA,
                                       default=FormacaoProfissionalizante)
-    cursoNome= models.ForeignKey(Curso, related_name="CursoNome")
+
+    # tipo = models.ForeignKey(TipoDeDisciplina, related_name="Tipo")
+
+
 
     #carga horaria
     #de aula, estagio, atividade complementar, optativas
@@ -101,10 +116,6 @@ class Disciplinas(models.Model):
     #modelar cursos
     #add disciplinas
     #disciplina: nome, sigla, periodo, ementa, descricao, carga horaria, tipo
-
-
-
-
 
 class Coordenacao(models.Model):
     coordenador = models.ForeignKey(Professor, related_name='coordenadorCoo')
@@ -179,6 +190,7 @@ class Evento(models.Model):
     ano = models.CharField('Ano', max_length=4)
     volume = models.CharField('Volume', max_length=10)
     paginas = models.CharField('Paginas', max_length=255)
+    professoresDoEvento= models.ManyToManyField(Professor,related_name="professoresDoEvento");
 
     def __unicode__(self):
         return self.titulo

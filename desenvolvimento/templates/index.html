@@ -71,7 +71,9 @@
                                           <h5>Término:</h5>  {{project.datadefim}}<br/>
                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                           <h5>Integrantes:<br/>
-                                              {% for i in listadeIntegrantesProfessor %}
+
+
+                                              {% for i in integrantesProfessor %}
                                                 {% ifequal i.professor project.professor.id %}
                                                     {% ifequal i.ehCoordenador True %}
                                                         Coordenador: {{i.nome}}
@@ -101,6 +103,7 @@
                                                           <h5>Volume:</h5>  {{project.volume}}<br/>
                                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                                           <h5>Autores:<br/>
+                                                              {{ project.professores.all }}
                                                      </div>
                                                 <br/>
                                             </div>

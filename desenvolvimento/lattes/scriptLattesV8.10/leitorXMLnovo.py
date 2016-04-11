@@ -324,6 +324,25 @@ def executeLeitorXML():
                         eventoNovo.save()
                         print("Evento salvo com Sucesso")
 
+                    for i in autores.split(";"):
+                        temp1= Professor.objects.filter(nome=i);
+                        temp2 =DadosDeProfessor.objects.filter(nome=i);
+
+
+                        if(temp1.__len__()>0):
+                            ev= Evento.objects.filter(titulo=titulo)[0]
+                            # ev.professores=temp1
+                            eventoNovo.professoresDoEvento.add(temp1[0])
+                            # ev.save()
+                        elif(temp2.__len__()>0):
+                            temp3 = Professor.objects.filter(nome = temp2[0].nome)
+                            ev= Evento.objects.filter(titulo=titulo)[0]
+                            if(temp3.__len__()>0):
+                            # ev.professores=temp3
+                                eventoNovo.professoresDoEvento.add(temp3[0])
+                                # ev.save()
+
+
             for resumoCongresso in child1.iter('resumo_congresso'):
                 for resumCo in resumoCongresso.iter('resumo'):
                     print("titulo")
@@ -384,6 +403,7 @@ def executeLeitorXML():
 
                     if ArtigoEmPeriodico.objects.filter(titulo=titulo).__len__()==0:
                         artigo.save()
+
                     else:
                         art= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
                         art.titulo = artigo.titulo
@@ -397,18 +417,51 @@ def executeLeitorXML():
                         # art.listadeautores = artigo.listadeautores
                         # art.professor = artigo.professorDoArtigo
                         art.save()
+                        artigo=art
+
                         print("ArtigoEMConferencia salvo com Sucesso")
 
-                    # for i in autores.split(";"):
-                    #     temp1= Professor.objects.filter(nome=i);
-                    #     temp2 = DadosDeProfessor.objects.filter(nome=i);
-                    #     if(temp1.__len__()>0):
-                    #         art= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
-                    #         art.professores=temp1;
-                    #     if(temp2.__len__()>0):
-                    #         art= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
-                    #         art.professores=temp2.professorDados;
-                    #         # insert no artigo
+                    for i in autores.split(" ; "):
+                        # print( i + " Autores ")
+                        i= i.strip()
+
+                        # lista = []
+                        #
+                        # lista.append(i)
+                        # for name in DadosDeProfessor.objects.filter(nome=)
+
+
+                        # temp1 = Professor.objects.filter(nome=i);
+                        temp2 = DadosDeProfessor.objects.filter(nome=i);
+
+
+                        # if(temp1.__len__()>0):
+                        #
+                        #     artNovo= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
+                        #
+                        #     artNovo.professores.add(temp1[0])
+                        #     # artNovo.save()
+
+                        if(temp2.__len__()>0):
+                            # for temp3 in temp2:
+                            professor = temp2[0].professorDados
+                            if(professor):
+                                # artNovo= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
+                                artigo.professores.add(professor)
+
+
+
+                                # if(temp4.__len__()>0):
+                                #     for temp5 in temp4:
+                                #         art
+                                        # print(temp5.nome +  "NOVO")
+                                        # artNovo= ArtigoEmPeriodico.objects.filter(titulo=titulo)[0]
+                                        # artNovo.professores.add(temp5)
+
+                        else:
+                            print("Professor nao e da DACOM")
+                                    # artNovo.save()
+                            # insert no artigo
 
 def findProfilePhoto():
     import shutil

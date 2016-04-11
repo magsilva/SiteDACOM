@@ -17,8 +17,8 @@ def index(request):
     listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
     listadeArtigos = ArtigoEmPeriodico.objects.distinct().all().order_by('-data')
 
-    listadeIntegrantes = Integrante.objects.distinct().all().order_by('-datadefim')
-    listadeIntegrantesProfessor = IntegranteProfessor.objects.distinct().all().order_by('-datadefim')
+    integrantes = Integrante.objects.distinct().all()
+    integrantesProfessor = IntegranteProfessor.objects.distinct().all()
     resultList = list(chain(listadeProjetos, listadeArtigos))
     projects =resultList
     # resultList = listadeProjetos | listadeArtigos
@@ -35,7 +35,7 @@ def index(request):
     #         # If page is out of range (e.g. 9999), deliver last page of results.
     #     projects= paginator.page(paginator.num_pages)
     # return render_to_response('index.html', {'projects': projects})
-    return render_to_response('index.html', {'projects': projects, 'integrantes': listadeIntegrantes, 'integrantesProfessor': listadeIntegrantesProfessor})
+    return render_to_response('index.html', {'projects': projects, 'integrantes': integrantes, 'integrantesProfessor': integrantesProfessor})
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')

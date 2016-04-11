@@ -1,0 +1,18 @@
+
+                                          <!--<h5>Início:</h5>  {{project.datainicio}}<br/>-->
+                                          <!--<h5>Término:</h5>  {{project.datadefim}}<br/>-->
+                                          <!--{% ifequal i.professor project.professor.id %}-->
+                                                    <!--{% ifequal i.ehCoordenador True %}-->
+                                                        Coordenador: {{i.nome}}
+                                                    {% else %}
+                                                        Integrantes {{i.nome}}
+                                                    <!--{% endifequal %}-->
+                                                <!--{% endifequal %}-->
+
+                                                {% ifequal i.professor project.professor.id %}
+                                                    {% ifequal i.ehCoordenador True %}
+                                                        Coordenador: {{i.nome}}
+                                                    {% else %}
+                                                        Integrantes {{i.nome}}
+                                                    {% endifequal %}
+                                                {% endifequal %}
