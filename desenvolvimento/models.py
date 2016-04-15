@@ -83,6 +83,8 @@ class Disciplina(models.Model):
     descricao = models.CharField('Descricao', max_length=50, null=True, blank=True)
     cargaHorariaPratica = models.CharField('Carga Horaria Pratica', max_length=50)
     cargaHorariaTeorica =models.CharField('Carga Horaria Teorica', max_length=50)
+    cargaHorariaAPS =models.CharField('Carga Horaria Atividade Pratica Supervisionada', max_length=50)
+    cargaHorariaTotal =models.CharField('Carga Horaria Total', max_length=50)
 
     cursoDaDisciplina = models.ForeignKey(Curso, related_name="NomeCurso", null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="NomeDepartamentoAcademico", null=True, blank=True)
@@ -122,8 +124,7 @@ class Artigo(models.Model):
     doi = models.CharField('DOI', max_length=255, null=True, blank=True)
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
-
-    professores= models.ManyToManyField(Professor,related_name="ArtigoProfessor");
+    professores= models.ManyToManyField(Professor,related_name="ArtigoProfessor")
 
 
     def __unicode__(self):
@@ -143,7 +144,7 @@ class ArtigoEmPeriodico(Artigo):
 class ArtigoEmConferencia(Artigo):
     nomedaConferencia = models.CharField('Nome da Conferencia', max_length=255)
     ISSN = models.CharField('Codigo ISSN', max_length=50)
-    ISBN = models.CharField('Codigo ISBN', max_length=50)  # obrigatorio
+    ISBN = models.CharField('Codigo ISBN', max_length=50)
     local = models.CharField('Local da Conferencia', max_length=255)
     ano = models.CharField('Ano', max_length=4)
 

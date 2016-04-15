@@ -37,7 +37,7 @@ DATABASES = {
 }
 "
 	Modifique 'NAME', 'USER', 'PASSWORD', 'HOST', 'PORT' para as suas configurações;
-  
+
 5.
 	1. Executar os seguintes comando como root, python manage.py migrate, esse comando criará as tabelas no banco de dados;
 	2.Executar os seguintes comando como root, python manage.py syncdb, esse comando realizará a configuração do admin do projeto Django, defina seu login e senha do Django;
@@ -49,7 +49,7 @@ DATABASES = {
     Algo como  página 1 de 1 deverá ser visualizado em algumas páginas;
     Para preencher os dados, execute um desses comandos;
 
-    
+
 	1. entre na pasta desenvolvimento/lattes/scriptlattes/data/
         no arquivo lattes-dacom.csv insira os dados dos membros
         na seguinte ordem: numero do lattes, nome do membro, e função;
@@ -62,10 +62,19 @@ DATABASES = {
         execute o comando 'python leitoXMLnovo.py'   esse comando percorrer os dados e populara o banco de dados
 
 
-8. Visite http://127.0.0.1:8000/desenvolvimento/ para ver se tudo esta ok;
+8. Executar:
+  - Isto permite o acesso apenas na máquina local:
+      python manage.py runserver
 
+  - Isto permitir o acesso externamente
+      python manage.py runserver 0.0.0.0:8000
+        O parâmetro '0.0.0.0' permite a ligação do servidor com todas as interfaces de rede do computador.
+        Desta forma, é possível acessar o servidor externamente (e, no caso, mantendo-se a porta 8000, que é o padrão).
 
-9. Para habilitar a pesquisa execute o comando 'python manage.py update_index'
+9. 1.Visite http://127.0.0.1:8000/desenvolvimento/ se executou por acesso local;
+   2. Visite http://0.0.0.0:8000/desenvolvimento/ se executou por acesso remoto;
+
+10. Para habilitar a pesquisa execute o comando 'python manage.py update_index'
 
 
 Dependências:

@@ -5,13 +5,14 @@ from __future__ import print_function
 
 import os
 from subprocess import call
-# from lxml import etree as et
 import xml.etree.ElementTree as et
 import warnings
 import sys
+
+from bs4 import BeautifulSoup
 from django.conf import settings
-#
-from django.core.files import File
+from lxml import html
+import requests
 
 settings.configure(DEBUG=True)
 settings.DATABASES = {
@@ -469,20 +470,40 @@ def findProfilePhoto():
                 #         print("")
 
 
-def fillData():
-    curso = Curso.objects.get(id =1)
-    departamento = DepartamentoAcademico.objects.get(id=1)
-    disciplina = Disciplina(nome="ALGORITMOS", sigla="BCC31A", ementa=" Um algoritmo é uma sequência finita e não ambígua de instruções computáveis para solucionar um problema.Um algoritmo consiste em uma expressão textual das etapas da resolução de algum problema, seja ele computacional ou não. Um exemplo clássico de algoritmo não-computacional é uma receita de bolo. Outros exemplos são instruções de montagem de um brinquedo ou equipamento, instruções para ir de um lugar a outro e receitas médicas.Imagine a fabricação de um bolo como sendo o problema. A receita desse bolo seria o algoritmo. Os ingredientes seriam os dados de entrada. Os recipientes utilizados para fazer o bolo são as variáveis envolvidas no processo. O modo de fazer consiste na descrição dos passos a serem utilizados para obter a solução do problema.Em computação, podemos definir um algoritmo como sendo uma forma genérica de se representar procedimentos computacionais que, quando executados, levam à solução de uma classe de problemas de natureza semelhante.",
-                                           descricao="materia", cargaHorariaPratica="2", cargaHorariaTeorica="5", cursoDaDisciplina=curso, departamentoAcademico=departamento)
-    disciplina.save()
-    relacao = RelacaoDisciplinaCurso(periodo=1, tipo='FP', cursoRelacao=curso, disciplina=disciplina )
-    relacao.save()
+def cadastrarDisciplina():
+    url = 'http://www.utfpr.edu.br/campomourao/cursos/bacharelados/Ofertados-neste-Campus/ciencia-da-computacao/ementario-e-carga-horaria-das-disciplinas'
+    page = requests.get(url)
+    html = page.content
+    soup = BeautifulSoup(html)
 
+    materias = soup.find('div', attrs={'id': 'parent-fieldname-text-22101d6136a200e0702b6f79331e3fd7'})
+    # print (table.prettify())
+    i=0
 
-
+    for dadosDaMateria in materias.strings:
+        # print(dadosDaMateria)
+        novaDisciplina = Disciplina()
+        if(i%4==0):
+            # i=0
+            novaDisciplina.nome=dadosDaMateria
+            print(dadosDaMateria)
+        # if(i%4==1):
+        #     cargahoraria = dadosDaMateria.split(" ")
+        #     print(cargahoraria)
+        #     # novaDisciplina.cargaHorariaTeorica=cargahoraria[0]
+        #     # novaDisciplina.cargaHorariaPratica=cargahoraria[1]
+        #     # novaDisciplina.cargaHorariaAPS=cargahoraria[2]
+        #     # novaDisciplina.cargaHorariaTA=cargahoraria[3]
+        # # if(i%4==2):
+        #
+        # if(i%4==2):
+        #       ementa = dadosDaMateria.split("Ementa:")
+              # novaDisciplina.ementa = ementa[2]
+              # print(ementa)
+        i+=1
 if __name__ == "__main__":
     # executeLattes()
-    initSistem()
-    executeLeitorXML()
-    findProfilePhoto()
-    fillData()
+    # initSistem()
+    # executeLeitorXML()
+    # findProfilePhoto()
+    cadastrarDisciplina()
