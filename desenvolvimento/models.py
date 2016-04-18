@@ -72,6 +72,10 @@ class Curso(models.Model):
     cargaHoraria =  models.CharField('CargaHoraria', max_length=20, null=True, blank=True)
     estagio =  models.CharField('Estagio',  max_length=256, null=True, blank=True)
     atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
+        # descricao = models.CharField('Descricao', max_length=5000, null=True, blank=True)
+    duracao = models.CharField('Duracao', max_length=10, null=True, blank=True)
+    professorCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
+    
 
     def __unicode__(self):
         return self.nome
