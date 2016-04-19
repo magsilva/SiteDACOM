@@ -3,7 +3,7 @@ import os
 from django.db import models
 from django.db.models import ImageField
 
-from projectUtfpr.settings import  STATIC_ROOT
+from projectUtfpr.settings import STATIC_ROOT
 
 
 class DepartamentoAcademico(models.Model):

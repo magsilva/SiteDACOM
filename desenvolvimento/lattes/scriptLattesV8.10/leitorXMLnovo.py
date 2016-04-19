@@ -96,7 +96,7 @@ def initSistem():
         duracao = "8 semestres"
         turno = "Integral (vespertino e noturno)"
         contato = "cocic-cm@utfpr.edu.br"
-        curso = Curso(nome =nomeDoCurso, sigla = siglaDoCurso, departamentoAcademico = departamento, cargaHoraria=cargaHoraria, perfilDoEgresso=perfilDoEgresso, descricao=descricao, duracao=duracao, turno=turno, contato=contato)
+        curso = Curso(nome =nomeDoCurso, sigla = siglaDoCurso, departamentoAcademico = departamento,  perfilDoEgresso=perfilDoEgresso, descricao=descricao, duracao=duracao,  contato=contato)
         curso.save()
         print( "Foi adicionado o " + nomeDoCurso+ " - " + siglaDoCurso )
 
