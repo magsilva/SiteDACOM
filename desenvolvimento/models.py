@@ -60,10 +60,13 @@ class Curso(models.Model):
     perfilDoEgresso=models.CharField('perfilDoEgresso',  max_length=10000, null=True, blank=True)
     descricao = models.CharField('Descricao', max_length=5000, null=True, blank=True)
     contato = models.CharField('Contato', max_length=100, null=True, blank=True)
-    # matrizAtual = models.IntegerField()
+    matrizAtual = models.ForeignKey('Matriz', related_name="matrizNome",  null=True, blank=True)
 
     def __unicode__(self):
         return self.nome
+
+
+
 
 class Matriz(models.Model):
     atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
@@ -73,7 +76,7 @@ class Matriz(models.Model):
     duracao = models.CharField('Duracao', max_length=50, null=True, blank=True)
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)
     curso =  models.ForeignKey("curso")
-    # matrizAtual = models.IntegerField()
+    matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)
 
 
 class Disciplina(models.Model):
@@ -189,9 +192,9 @@ class Evento(models.Model):
 
 class PlanoDeAula(models.Model):
     upload = models.FileField(upload_to=STATIC_ROOT+"%c/planoDeAula/%y/%s",null=True, blank=True)
-    # upload = sigladocursop + plano de aula/ano/semestre
-    #nome do arquivo:  codigodadisciplina + codigodeturma
     disciplina= models.ForeignKey(Disciplina, related_name="Disciplina")
     ano = models.CharField('Ano',max_length=4, null=True, blank=True )
     semestre = models.CharField('semestre', max_length=20 ,null=True, blank=True)
     codigodeTurma = models.CharField('codigodaTurma', max_length=15, null=True, blank=True)
+    # upload = sigladocursop + plano de aula/ano/semestre
+    #nome do arquivo:  codigodadisciplina + codigodeturma
