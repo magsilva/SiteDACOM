@@ -3,7 +3,7 @@ import os
 from django.db import models
 from django.db.models import ImageField
 
-from projectUtfpr.settings import MEDIA_ROOT, MEDIA_URL, STATIC_ROOT, STATIC_URL
+from projectUtfpr.settings import  STATIC_ROOT
 
 
 class DepartamentoAcademico(models.Model):
@@ -12,14 +12,6 @@ class DepartamentoAcademico(models.Model):
 
     def __unicode__(self):
         return self.nome
-
-# class Pessoa(models.Model):
-#     nome = models.CharField('Nome', max_length=100)
-
-# class Professor (Pessoa):
-
-# def get_image_path(instance, filename):
-#     return os.path.join('home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto', str(instance.id), filename)
 
 class Professor(models.Model):
     nome = models.CharField('Nome', max_length=100)
@@ -61,24 +53,28 @@ class AreaDeAtuacao(models.Model):
     def __unicode__(self):
         return self.descricao
 
-
-
-
-
 class Curso(models.Model):
     nome = models.CharField('Curso', max_length=50)
     sigla = models.CharField('Sigla', max_length=20, null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="DepartamentoAcademico")
-    cargaHoraria =  models.CharField('CargaHoraria', max_length=20, null=True, blank=True)
-    estagio =  models.CharField('Estagio',  max_length=256, null=True, blank=True)
-    atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
-        # descricao = models.CharField('Descricao', max_length=5000, null=True, blank=True)
-    duracao = models.CharField('Duracao', max_length=10, null=True, blank=True)
-    professorCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
-    
+    perfilDoEgresso=models.CharField('perfilDoEgresso',  max_length=10000, null=True, blank=True)
+    descricao = models.CharField('Descricao', max_length=5000, null=True, blank=True)
+    contato = models.CharField('Contato', max_length=100, null=True, blank=True)
+    # matrizAtual = models.IntegerField()
 
     def __unicode__(self):
         return self.nome
+
+class Matriz(models.Model):
+    atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
+    cargaHoraria =  models.CharField('CargaHoraria', max_length=50, null=True, blank=True)
+    estagio =  models.CharField('Estagio',  max_length=256, null=True, blank=True)
+    tcc =  models.CharField('tcc',  max_length=10000, null=True, blank=True)
+    duracao = models.CharField('Duracao', max_length=50, null=True, blank=True)
+    turno = models.CharField('Turno', max_length=50, null=True, blank=True)
+    curso =  models.ForeignKey("curso")
+    # matrizAtual = models.IntegerField()
+
 
 class Disciplina(models.Model):
     nome = models.CharField('Nome da Disciplina', max_length=50, null=True, blank=True)
@@ -89,8 +85,7 @@ class Disciplina(models.Model):
     cargaHorariaTeorica =models.CharField('Carga Horaria Teorica', max_length=50)
     cargaHorariaAPS =models.CharField('Carga Horaria Atividade Pratica Supervisionada', max_length=50)
     cargaHorariaTotal =models.CharField('Carga Horaria Total', max_length=50)
-
-    cursoDaDisciplina = models.ForeignKey(Curso, related_name="NomeCurso", null=True, blank=True)
+    matriz = models.ForeignKey(Curso, related_name="matrizNome", null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="NomeDepartamentoAcademico", null=True, blank=True)
 
 class RelacaoDisciplinaCurso(models.Model):
@@ -121,6 +116,15 @@ class Coordenacao(models.Model):
     curso = models.ForeignKey(Curso,related_name='Curso' )
 
 
+class Integrante(models.Model):
+    nome = models.CharField('nome', max_length=255)
+    ehCoordenador = models.BooleanField(default=False)
+    def __unicode__(self):
+        return self.nome
+
+class IntegranteProfessor(Integrante):
+    professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
+
 class Artigo(models.Model):
     listadeautores = models.CharField('Lista de Autores', max_length=5000)
     titulo = models.CharField('Titulo do Artigo', max_length=255)
@@ -129,7 +133,6 @@ class Artigo(models.Model):
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
     professores= models.ManyToManyField(Professor,related_name="ArtigoProfessor")
-
 
     def __unicode__(self):
         return self.titulo
@@ -140,26 +143,20 @@ class ArtigoEmPeriodico(Artigo):
     publisher = models.CharField('Editora', max_length=255)
     numero = models.CharField('Numero', max_length=100)
     volume = models.CharField('Volume', max_length=100)
-
+    integrantes = models.ManyToManyField(Integrante,related_name="integrantes")
+    integrantesProfessor = models.ManyToManyField(IntegranteProfessor,related_name="integrantesProfessor")
 
     def __unicode__(self):
         return self.titulo
 
-class ArtigoEmConferencia(Artigo):
+class ArtigoEmConferencia(Artigo):#trabalho em congresso
     nomedaConferencia = models.CharField('Nome da Conferencia', max_length=255)
     ISSN = models.CharField('Codigo ISSN', max_length=50)
     ISBN = models.CharField('Codigo ISBN', max_length=50)
     local = models.CharField('Local da Conferencia', max_length=255)
     ano = models.CharField('Ano', max_length=4)
 
-class Integrante(models.Model):
-    nome = models.CharField('nome', max_length=255)
-    ehCoordenador = models.BooleanField(default=False)
-    def __unicode__(self):
-        return self.nome
 
-class IntegranteProfessor(Integrante):
-    professor=  models.ForeignKey(Professor, related_name='ProfessorIntegrante')
 
 class Projeto(models.Model):
     datainicio = models.CharField('Data Inicio', max_length=5, null=True, blank=True)
@@ -188,3 +185,13 @@ class Evento(models.Model):
 
     def __unicode__(self):
         return self.titulo
+
+
+class PlanoDeAula(models.Model):
+    upload = models.FileField(upload_to=STATIC_ROOT+"%c/planoDeAula/%y/%s",null=True, blank=True)
+    # upload = sigladocursop + plano de aula/ano/semestre
+    #nome do arquivo:  codigodadisciplina + codigodeturma
+    disciplina= models.ForeignKey(Disciplina, related_name="Disciplina")
+    ano = models.CharField('Ano',max_length=4, null=True, blank=True )
+    semestre = models.CharField('semestre', max_length=20 ,null=True, blank=True)
+    codigodeTurma = models.CharField('codigodaTurma', max_length=15, null=True, blank=True)

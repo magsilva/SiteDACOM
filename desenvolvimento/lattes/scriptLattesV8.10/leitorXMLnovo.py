@@ -80,6 +80,7 @@ def initSistem():
     except DepartamentoAcademico.DoesNotExist:
         nomeDepartamento = "Departamento Acadêmico de Computação"
         siglaDepartamento = "DACOM"
+
         departamento =  DepartamentoAcademico(nome=nomeDepartamento, sigla=siglaDepartamento)
         departamento.save()
 
@@ -88,7 +89,14 @@ def initSistem():
         nomeDoCurso =  "Bacharelado de Ciência da Computação"
         siglaDoCurso = "BCC"
         departamento = DepartamentoAcademico.objects.get(sigla="DACOM")
-        curso = Curso(nome =nomeDoCurso, sigla = siglaDoCurso, departamentoAcademico = departamento)
+        cargaHoraria ="3.655 horas"
+        perfilDoEgresso="<p><b>Perfil: </b>O profissional formado em Ciência da Computação na UTFPR, Campus Campo Mourão, estará capacitado para modelar, arquitetar, desenvolver, implementar, adaptar, produzir, industrializar, instalar e manter sistemas computacionais. Este profissional poderá atuar como:</p><ol><li><b>1. Desenvolvedor de soluções computacionais</b>: desempenhar os papéis de analista de sistemas, programador, gerente de desenvolvimento, gerente de projetos, entre outros.</li><li><b>2. Gerente de infraestrutura de tecnologia da informação</b>: exercer funções como a de analista de suporte, administrador de banco de dados, gerente de tecnologia da informação, consultor/auditor na área de infraestrutura, entre outros.</li><li><b>3. Gestor de Sistemas de Informação</b>: assumir papel como gerente de sistemas de informação, consultor/auditor em gestão de sistemas de informação, entre outros.</li><li><b>4. Analista de Negócios</b>: identificar oportunidades competitivas, a partir da aplicação de novas tecnologias, avaliando e identificando melhores práticas nos processos de negócio da empresa e do mercado; propor implementações para a melhoria da qualidade, eficiência e eficácia dos processos; dimensionar o impacto de alterações de negócio nos sistemas sob sua responsabilidade; apoiar a integração de sistemas e dados dentro de sua área e com as demais áreas; sustentar o cumprimento e disseminar os padrões corporativos de computação.</li><li><b>5. Profissional liberal</b>: prestar consultoria no desenvolvimento de produtos na área de computação.</li><li><b>6. Pesquisador</b>: desenvolver pesquisas científicas agindo como um agente transformador que cria novos paradigmas e desenvolve novas tecnologias na área de sistemas computacionais, promovendo o desenvolvimento científico, ou aplicando os conhecimentos científicos, promovendo o desenvolvimento tecnológico na área de Computação.</li></ol>"
+        descricao = "<p>Desta forma, o curso prepara o aluno para as áreas de: inovação, planejamento e gerenciamento de informação e infraestrutura dos sistemas computacionais; desenvolvimento e evolução de sistemas para o uso de processos organizacionais, departamentais e/ou individuais; e por fim, atuar como um empreendedor.</p><p>Como se pode observar, o egresso do curso de Bacharelado em Ciência da Computação pode atuar em muitas áreas, constituindo-se um profissional versátil e preparado para o dinamismo do mercado de trabalho.</p><p> </p>"
+
+        duracao = "8 semestres"
+        turno = "Integral (vespertino e noturno)"
+        contato = "cocic-cm@utfpr.edu.br"
+        curso = Curso(nome =nomeDoCurso, sigla = siglaDoCurso, departamentoAcademico = departamento, cargaHoraria=cargaHoraria, perfilDoEgresso=perfilDoEgresso, descricao=descricao, duracao=duracao, turno=turno, contato=contato)
         curso.save()
         print( "Foi adicionado o " + nomeDoCurso+ " - " + siglaDoCurso )
 
@@ -254,11 +262,12 @@ def executeLeitorXML():
                                     if Professor.objects.filter(nome=j):
                                         profI = Professor.objects.filter(nome=j)[0]
                                         item=  IntegranteProfessor(nome=j, ehCoordenador =True, professor = profI)
-                                        item.save()
+                                        p2.integranteProfessor.add(item)
                                         print("Integrante salvo com Sucesso")
                                     else:
                                         integrante=  Integrante(nome=j, ehCoordenador =True)
                                         integrante.save()
+                                        p2.integrante.add(integrante)
                                         print("Integrante salvo com Sucesso")
 
                             else:
@@ -267,12 +276,13 @@ def executeLeitorXML():
 
                                     item2 = IntegranteProfessor(nome=i, professor = profI)
                                     if IntegranteProfessor.objects.filter(nome=item2.nome).__len__()==0:
-                                      item2.save()
-
+                                        item2.save()
+                                        p2.integranteProfessor.add(item2)
                                     print("Integrante salvo com Sucesso")
                                 else:
                                     integrante=  Integrante(nome=i, ehCoordenador =False)
-                                    integrante.save()
+                                    # integrante.save()
+                                    p2.integrante.add(integrante)
                                     print("Integrante salvo com Sucesso")
 
 
@@ -469,7 +479,7 @@ def findProfilePhoto():
                 #     except  IOError:
                 #         print("")
 
-
+#NAO FAZER
 def cadastrarDisciplina():
     url = 'http://www.utfpr.edu.br/campomourao/cursos/bacharelados/Ofertados-neste-Campus/ciencia-da-computacao/ementario-e-carga-horaria-das-disciplinas'
     page = requests.get(url)
@@ -501,9 +511,22 @@ def cadastrarDisciplina():
               # novaDisciplina.ementa = ementa[2]
               # print(ementa)
         i+=1
+
+
+def cadastrarDisciplinasStatic():
+    # pass
+    novaDisciplina = Disciplina(nome="Algoritmos", sigla="BCC31A", ementa="Resolução de Problemas. Introdução a algoritmos. Variáveis, constantes, tipos e expressões. Entrada e saída simples. Estruturas de controle. Modularização e passagem de parâmetro. Estruturas de dados homogêneas. Cadeias de caracteres.",
+                                descricao="Pré-requisito: Sem pré-requisito",cargaHorariaPratica="34",  cargaHorariaTeorica="85",
+                                cargaHorariaAPS="7", cargaHorariaTotal="126", cursoDaDisciplina=1, departamentoAcademico=1)
+    novaRelacao = RelacaoDisciplinaCurso(periodo="1", tipo="FP", cursoRelacao=1, disciplina=1)
+
+    novaDisciplina.save()
+    novaRelacao.save()
+
 if __name__ == "__main__":
     # executeLattes()
-    # initSistem()
-    # executeLeitorXML()
-    # findProfilePhoto()
+    initSistem()
+    executeLeitorXML()
+    findProfilePhoto()
+    cadastrarDisciplinasStatic()
     cadastrarDisciplina()

@@ -73,14 +73,26 @@
                                           <h5>Integrantes:<br/>
                                               <!-- Gerosa e igor exemplo de integrantes  -->
                                              {% for i in integrantesProfessor %}
-                                                {% ifequal i.professor project.professor.id %}
+                                                {% ifequal i.professor.id project.professor.id %}
                                                     {% ifequal i.ehCoordenador True %}
                                                         Coordenador: {{i.nome}}
                                                     {% else %}
-                                                        Integrantes {{i.nome}}
+                                                        Integrantes: {{i.nome}}
                                                     {% endifequal %}
-                                                {% endifequal %}
+                                                {% endifequal%}
                                               {% endfor %}
+
+
+                                              {% for j in integrantes %}
+                                                {% ifequal j.professor.id project.professor.id %}
+                                                    {% ifequal j.ehCoordenador True %}
+                                                        Coordenador: {{j.nome}}
+                                                    {% else %}
+                                                        Integrantes: {{j.nome}}
+                                                    {% endifequal %}
+                                                {% endifequal%}
+                                              {% endfor %}
+
                                      </div>
                                 <br/>
                             </div>

@@ -53,7 +53,21 @@
         <section id="content">
             <article class="expanded">
                 <h2>Ementa</h2>
-{% for curso in detailCurso %}
+                {%for i in curso %}
+                    {{i.nome|upper }}</a></b><br/>
+
+                    Duração {{i.duracao}}<br/>
+                    Contato {{i.contato}}</br>
+                    Carga Horaria {{i.cargaHoraria}}<br/>
+                    Descricao {{i.descricao | safe}}<br/>
+                    Perfil do Egresso {{i.perfilDoEgresso | safe}}<br/>
+                    Estagio        {{i.estagio}}<br/>
+                    TCC{{i.tcc}}</br>
+                    Atividades Complementares {{i.atividadeComplementar}}<br/>
+
+                {% endfor %}
+               </br></br></br></br>
+{% for detalhes in detailCurso %}
                 <table style="width:95%">
                       <tr>
                           <td>Código</td>
@@ -65,13 +79,13 @@
                             <td>Ementa</td>
                       </tr>
                       <tr>
-                            <td>{{curso.disciplina.sigla}}</td>
-                            <td>{{curso.disciplina.nome}}</td>
-                            <td>{{curso.disciplina.cargaHorariaPratica}}</td>
-                            <td>{{curso.disciplina.cargaHorariaTeorica}}</td>
-                            <td>{{curso.tipo}}</td>
-                            <td>{{curso.periodo}}</td>
-                            <td><a href="{{  curso.disciplina.nome }}"> Clique  aqui </a></td>
+                            <td>{{detalhes.disciplina.sigla}}</td>
+                            <td>{{detalhes.disciplina.nome}}</td>
+                            <td>{{detalhes.disciplina.cargaHorariaPratica}}</td>
+                            <td>{{detalhes.disciplina.cargaHorariaTeorica}}</td>
+                            <td>{{detalhes.tipo}}</td>
+                            <td>{{detalhes.periodo}}</td>
+                            <td><a href="{{  detalhes.disciplina.nome }}"> Clique  aqui </a></td>
 
                       </tr>
                 </table>

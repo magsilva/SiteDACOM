@@ -55,9 +55,22 @@
                                         {% for curso in listaDeCursos %}
                     <br/>
                     <br/><b>
-                    <a href="{{curso.id}}/">{{curso.nome|upper }}A</a></b><br/>
-                        {{curso.descricao}}
+                    <a href="{{curso.id}}/">{{curso.nome|upper }}</a></b><br/>
 
+                    Duração {{curso.duracao}}<br/>
+
+                    Carga Horaria {{curso.cargaHoraria}}<br/>
+                    Descricao {{curso.descricao | safe}}<br/>
+                    Estagio        {{curso.estagio}}<br/>
+                    TCC{{curso.tcc}}
+                    Atividades Complementares {{curso.atividadeComplementar}}<br/>
+                    {%   for coordenacao in listaDeCoordenacao%}
+                    Coordenador  <a href="{{coordenacao.coordenador.id}}/">{{coordenacao.coordenador}}</a></b><br/>{
+                    Suplente  <a href="{{coordenacao.coordenador.id}}/">{{coordenacao.suplente}}</a></b><br/>
+
+
+
+                    {%  endfor%}
                     {% endfor %}
                 </ul>
                 <!--<a href="detalhes.html" class="button">Leia Mais</a>-->

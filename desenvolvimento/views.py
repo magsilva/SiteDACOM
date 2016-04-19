@@ -21,27 +21,15 @@ def index(request):
     integrantesProfessor = IntegranteProfessor.objects.distinct().all()
     resultList = list(chain(listadeProjetos, listadeArtigos))
     projects =resultList
-    # resultList = listadeProjetos | listadeArtigos
-    # resultList = sorted(chain(listadeProjetos, listadeArtigos))
-    # resultList = listadeProjetos. listadeArtigos
-    # paginator = Paginator(resultList, 10)
-    # page =  request.GET.get('page')
-    # try:
-    #   projects = paginator.page(page)
-    # except PageNotAnInteger:
-    #     # If page is not an integer, deliver first page.
-    #     projects = paginator.page(1)
-    # except EmptyPage:
-    #         # If page is out of range (e.g. 9999), deliver last page of results.
-    #     projects= paginator.page(paginator.num_pages)
-    # return render_to_response('index.html', {'projects': projects})
+
     return render_to_response('index.html', {'projects': projects, 'integrantes': integrantes, 'integrantesProfessor': integrantesProfessor})
 
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')
+    listaDeCoordenacao = Coordenacao.objects.all().order_by('-coordenador')
     t = loader.get_template('curso.html')
     c = RequestContext(request, {
-        'listaDeCursos': listaDeCursos,
+        'listaDeCursos': listaDeCursos,'listaDeCoordenacao':listaDeCoordenacao,
     })
     return HttpResponse(t.render(c))
 
@@ -99,9 +87,10 @@ def eventos(request):
 def detailCurso(request, curso_id):
      try:
         detailCurso = RelacaoDisciplinaCurso.objects.filter(cursoRelacao=curso_id)
+        curso = Curso.objects.all()
      except RelacaoDisciplinaCurso.DoesNotExist:
          raise Http404("CursoNaoExiste")
-     return render(request, 'detailCurso.html', {'detailCurso': detailCurso})
+     return render(request, 'detailCurso.html', {'detailCurso': detailCurso, "curso":curso})
 
 
 
