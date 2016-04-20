@@ -169,7 +169,8 @@ class Projeto(models.Model):
     resumo = models.CharField('Resumo', max_length=10000)
     situacao = models.CharField('Situacao', max_length=100, null=True, blank=True)
     natureza = models.CharField('Natureza', max_length=100, null=True, blank=True)
-    professor = models.ForeignKey(Professor, related_name='Professor')
+    integrantes = models.ManyToManyField(Integrante,related_name="integrante", null=True, blank=True)
+    integrantesProfessor = models.ManyToManyField(IntegranteProfessor,related_name="integranteProfessor",null=True, blank=True)
 
     def __unicode__(self):
         return self.nome

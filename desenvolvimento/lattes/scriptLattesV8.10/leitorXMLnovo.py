@@ -96,7 +96,7 @@ def initSistem():
         duracao = "8 semestres"
         turno = "Integral (vespertino e noturno)"
         contato = "cocic-cm@utfpr.edu.br"
-        curso = Curso(nome =nomeDoCurso, sigla = siglaDoCurso, departamentoAcademico = departamento,  perfilDoEgresso=perfilDoEgresso, descricao=descricao, duracao=duracao,  contato=contato)
+        curso = Curso(nome =nomeDoCurso, sigla = siglaDoCurso, departamentoAcademico = departamento,  perfilDoEgresso=perfilDoEgresso, descricao=descricao, contato=contato)
         curso.save()
         print( "Foi adicionado o " + nomeDoCurso+ " - " + siglaDoCurso )
 
@@ -222,19 +222,7 @@ def executeLeitorXML():
                         parte5 =  parte4[0].split("- Integrante")
                     profDaIteracao =  Professor.objects.get(nome=prof.nome)
                     # print(parte1[1])
-
-                    try:
-                      if(parte1[1].__contains__("Situação:")):
-
-                        proj2 = Projeto(nome=nome, resumo = parte1[1].split("Situação:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[1].split(".")[0], professor = profDaIteracao)
-                      else:
-                        proj2 = Projeto(nome=nome, resumo = parte1[1].split("Integrantes:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[1].split(".")[0], professor = profDaIteracao)
-
-                    except IndexError:
-                      if (parte1[0].__contains__("Situação:")):
-                        proj2 = Projeto(nome=nome, resumo = parte1[0].split("Situação:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = " ", natureza = parte3[0].split(".")[0], professor = profDaIteracao)
-                      else:
-                        proj2 = Projeto(nome=nome, resumo = parte1[0].split("Integrantes:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = " ", natureza = parte3[0].split(".")[0], professor = profDaIteracao)
+                    proj2 = Projeto(nome=nome, resumo = parte1[1].split("Situação:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[1].split(".")[0])
 
                     if Projeto.objects.filter(nome=nome).__len__()==0:
                         proj2.save()
@@ -248,7 +236,6 @@ def executeLeitorXML():
                         p2.datainicio = proj2.datainicio
                         p2.situacao = proj2.situacao
                         p2.natureza = proj2.natureza
-                        p2.professor = proj2.professor
                         print("Projeto salvo com Sucesso")
                         p2.save()
                         #     criar um classe buscar e faz um mapeamento de dados do professor;
