@@ -16,7 +16,9 @@ from desenvolvimento.models import Projeto
 from desenvolvimento.models import DadosDeProfessor
 from desenvolvimento.models import Disciplina
 from desenvolvimento.models import RelacaoDisciplinaCurso
+from desenvolvimento.models import PlanoDeAula
 
+from desenvolvimento.models import Matriz
 
 
 admin.site.register(DepartamentoAcademico)
@@ -34,5 +36,7 @@ admin.site.register(IntegranteProfessor)
 admin.site.register(DadosDeProfessor)
 admin.site.register(Disciplina)
 admin.site.register(RelacaoDisciplinaCurso)
+admin.site.register(Matriz)
+admin.site.register(PlanoDeAula)
 
 

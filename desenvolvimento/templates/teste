@@ -1,0 +1,21 @@
+
+
+
+                                                  {% ifequal i.professor.id project.professor.id %}
+                                                    {% ifequal i.ehCoordenador True %}
+                                                        Coordenador: {{i.nome}}
+                                                    {% else %}
+                                                        Integrantes: {{i.nome}}
+                                                    {% endifequal %}
+                                                {% endifequal%}
+                                              {% endfor %}
+
+                                              {% for i in integrantesProfessor %}
+                                                {% ifequal i.professor.id project.professor.id %}
+                                                    {% ifequal i.ehCoordenador True %}
+                                                        Coordenador: {{i.nome}}
+                                                    {% else %}
+                                                        Integrantes: {{i.nome}}
+                                                    {% endifequal %}
+                                                {% endifequal%}
+                                              {% endfor %}

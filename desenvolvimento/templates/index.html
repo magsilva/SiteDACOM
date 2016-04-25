@@ -70,28 +70,17 @@
                                           <h5>Início:</h5>  {{project.datainicio}}<br/>
                                           <h5>Término:</h5>  {{project.datadefim}}<br/>
                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
-                                          <h5>Integrantes:<br/>
+                                          <h5>
+                                            Integrantes:
+                                              {% for i  in project.integrantes.all %}<br/>
+                                                {{i }}
+                                              {% endfor %}
+                                              {% for i  in project.integrantesProfessor.all %}<br/>
+                                                {{i }}
+                                              {% endfor %}
+
                                               <!-- Gerosa e igor exemplo de integrantes  -->
-                                             {% for i in integrantesProfessor %}
-                                                {% ifequal i.professor.id project.professor.id %}
-                                                    {% ifequal i.ehCoordenador True %}
-                                                        Coordenador: {{i.nome}}
-                                                    {% else %}
-                                                        Integrantes: {{i.nome}}
-                                                    {% endifequal %}
-                                                {% endifequal%}
-                                              {% endfor %}
 
-
-                                              {% for j in integrantes %}
-                                                {% ifequal j.professor.id project.professor.id %}
-                                                    {% ifequal j.ehCoordenador True %}
-                                                        Coordenador: {{j.nome}}
-                                                    {% else %}
-                                                        Integrantes: {{j.nome}}
-                                                    {% endifequal %}
-                                                {% endifequal%}
-                                              {% endfor %}
 
                                      </div>
                                 <br/>
@@ -114,18 +103,19 @@
                                                           <h5>Volume:</h5>  {{project.volume}}<br/>
                                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                                           <h5>Autores:<br/>
-                                                              {%for prof in project.professores.all %}
-                                                                {{prof.nome}}
-                                                              <br/>
-                                                              {%endfor%}
-
+                                                              {% for i  in project.integrantes.all %}<br/>
+                                                                {{i }}
+                                                              {% endfor %}
+                                                              {% for i  in project.integrantesProfessor.all %}<br/>
+                                                                {{i }}
+                                                              {% endfor %}
 
                                                      </div>
                                                 <br/>
                                             </div>
                                           <br/>
-                        {%endif%}
-                      {% endfor %}
+                                        {% endif %}
+                                {% endfor %}
 
             <br/>
 

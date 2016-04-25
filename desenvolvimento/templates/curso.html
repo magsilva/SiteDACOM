@@ -56,16 +56,20 @@
                     <br/>
                     <br/><b>
                     <a href="{{curso.id}}/">{{curso.nome|upper }}</a></b><br/>
+                    <a href="{{curso.id}}/">detalhes</a></b><br/>
 
-                    Duração {{curso.duracao}}<br/>
+                    <b>Duração</b> {{curso.matrizAtual.duracao}}<br/>
 
-                    Carga Horaria {{curso.cargaHoraria}}<br/>
-                    Descricao {{curso.descricao | safe}}<br/>
-                    Estagio        {{curso.estagio}}<br/>
-                    TCC{{curso.tcc}}
-                    Atividades Complementares {{curso.atividadeComplementar}}<br/>
+                    <b>Carga Horaria</b> {{curso.matrizAtual.cargaHoraria}}<br/>
+                    <b>Descricao</b> {{curso.descricao | safe}}<br/>
+                    <b>Estagio</b>        {{curso.matrizAtual.estagio}}<br/>
+                    <br/>
+                    <b>TCC</b> {{curso.matrizAtual.tcc}}<br/>
+                    <br/>
+                    <b>Atividades Complementares</b> {{curso.matrizAtual.atividadeComplementar}}<br/>
+                    <br/>
                     {%   for coordenacao in listaDeCoordenacao%}
-                    Coordenador  <a href="{{coordenacao.coordenador.id}}/">{{coordenacao.coordenador}}</a></b><br/>{
+                    Coordenador  <a href="{{coordenacao.coordenador.id}}/">{{coordenacao.coordenador}}</a></b><br/>
                     Suplente  <a href="{{coordenacao.coordenador.id}}/">{{coordenacao.suplente}}</a></b><br/>
 
 

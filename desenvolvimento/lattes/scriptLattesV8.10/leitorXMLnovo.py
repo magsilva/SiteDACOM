@@ -96,8 +96,13 @@ def initSistem():
         duracao = "8 semestres"
         turno = "Integral (vespertino e noturno)"
         contato = "cocic-cm@utfpr.edu.br"
+
         curso = Curso(nome =nomeDoCurso, sigla = siglaDoCurso, departamentoAcademico = departamento,  perfilDoEgresso=perfilDoEgresso, descricao=descricao, contato=contato)
         curso.save()
+        matriz = Matriz(curso = curso,turno=turno, cargaHoraria=cargaHoraria, duracao=duracao )
+        matriz.save()
+        curso.matrizAtual=matriz
+
         print( "Foi adicionado o " + nomeDoCurso+ " - " + siglaDoCurso )
 
         while boolean ==1:
@@ -220,14 +225,18 @@ def executeLeitorXML():
                         parte5 =  parte4[1].split("- Integrante")
                     except IndexError:
                         parte5 =  parte4[0].split("- Integrante")
+
                     profDaIteracao =  Professor.objects.get(nome=prof.nome)
                     # print(parte1[1])
-                    proj2 = Projeto(nome=nome, resumo = parte1[1].split("Situação:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[1].split(".")[0])
+                    try:
+                        proj2 = Projeto(nome=nome, resumo = parte1[1].split("Situação:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[1].split(".")[0])
+                    except IndexError:
+                        pass
 
                     if Projeto.objects.filter(nome=nome).__len__()==0:
                         proj2.save()
                     else:
-                        p2 = Projeto.objects.get(nome=nome)
+                        p2 = Projeto.objects.filter(nome=nome)[0]
                         p2.nome = proj2.nome
                         p2.resumo = proj2.resumo
                         if proj2.datadefim=="Atual":
@@ -238,39 +247,47 @@ def executeLeitorXML():
                         p2.natureza = proj2.natureza
                         print("Projeto salvo com Sucesso")
                         p2.save()
+                        proj2 =p2
                         #     criar um classe buscar e faz um mapeamento de dados do professor;
 
+                        #
+                        import re
+                        m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) Integrantes: (.*)", descricao.encode("utf-8"))
+                        m.group(0)
+                        m.group(1)
+                        print("NOVO"+m.group(1))
 
-                        for i in parte5[1:parte5.__len__()-1]:
-                            i = (i.replace(" / ", ""))
-
-                            if i.__contains__("- Coordenador"):
-                                for j in i.split("- Coordenador"):
-                                    if Professor.objects.filter(nome=j):
-                                        profI = Professor.objects.filter(nome=j)[0]
-                                        item=  IntegranteProfessor(nome=j, ehCoordenador =True, professor = profI)
-                                        p2.integranteProfessor.add(item)
-                                        print("Integrante salvo com Sucesso")
-                                    else:
-                                        integrante=  Integrante(nome=j, ehCoordenador =True)
-                                        integrante.save()
-                                        p2.integrante.add(integrante)
-                                        print("Integrante salvo com Sucesso")
-
-                            else:
-                                if Professor.objects.filter(nome=i):
-                                    profI = Professor.objects.filter(nome=i)[0]
-
-                                    item2 = IntegranteProfessor(nome=i, professor = profI)
-                                    if IntegranteProfessor.objects.filter(nome=item2.nome).__len__()==0:
-                                        item2.save()
-                                        p2.integranteProfessor.add(item2)
-                                    print("Integrante salvo com Sucesso")
-                                else:
-                                    integrante=  Integrante(nome=i, ehCoordenador =False)
-                                    # integrante.save()
-                                    p2.integrante.add(integrante)
-                                    print("Integrante salvo com Sucesso")
+                        # for i in parte5[1:parte5.__len__()-1]:
+                        #     i = (i.replace(" / ", ""))
+                        #
+                        #     if i.__contains__("- Coordenador"):
+                        #         for j in i.split("- Coordenador"):
+                        #             if Professor.objects.filter(nome=j):
+                        #                 profI = Professor.objects.filter(nome=j)[0]
+                        #                 item=  IntegranteProfessor(nome=j, ehCoordenador =True, professor = profI)
+                        #                 item.save()
+                        #                 proj2.integrantesProfessor.add(item)
+                        #                 print("Integrante salvo com Sucesso")
+                        #             else:
+                        #                 integrante=  Integrante(nome=j, ehCoordenador =True)
+                        #                 integrante.save()
+                        #                 proj2.integrantes.add(integrante)
+                        #                 print("Integrante salvo com Sucesso")
+                        #
+                        #     else:
+                        #         if Professor.objects.filter(nome=i):
+                        #             profI = Professor.objects.filter(nome=i)[0]
+                        #
+                        #             item2 = IntegranteProfessor(nome=i, professor = profI)
+                        #             if IntegranteProfessor.objects.filter(nome=item2.nome).__len__()==0:
+                        #                 item2.save()
+                        #                 proj2.integrantesProfessor.add(item2)
+                        #             print("Integrante salvo com Sucesso")
+                        #         else:
+                        #             integrante=  Integrante(nome=i, ehCoordenador =False)
+                        #             integrante.save()
+                        #             proj2.integrantes.add(integrante)
+                        #             print("Integrante salvo com Sucesso")
 
 
             for areaatuacao in child1.iter('area_atuacao'):
@@ -427,6 +444,40 @@ def executeLeitorXML():
                         else:
                             print("Professor nao e da DACOM")
 
+                    for i in parte5[1:parte5.__len__()-1]:
+                            i = (i.replace(" / ", ""))
+
+                            if i.__contains__("- Coordenador"):
+                                for j in i.split("- Coordenador"):
+                                    if Professor.objects.filter(nome=j) :
+                                        profI = Professor.objects.filter(nome=j)[0]
+                                        item= IntegranteProfessor(nome=j, ehCoordenador =True, professor = profI)
+                                        item.save()
+                                        artigo.integrantesProfessor.add(item)
+                                        print("Integrante salvo com Sucesso")
+                                    else:
+                                        if Integrante.objects.filter(nome=j).__len__()==0:
+                                            integrante=  Integrante(nome=j, ehCoordenador =True)
+                                            integrante.save()
+                                            artigo.integrantes.add(integrante)
+                                            print("Integrante salvo com Sucesso")
+
+                            else:
+                                if Professor.objects.filter(nome=i):
+                                    profI = Professor.objects.filter(nome=i)[0]
+
+                                    item2 = IntegranteProfessor(nome=i, professor = profI)
+                                    if IntegranteProfessor.objects.filter(nome=item2.nome).__len__()==0:
+                                        item2.save()
+                                        artigo.integrantesProfessor.add(item2)
+                                    print("Integrante salvo com Sucesso")
+                                else:
+                                    if Integrante.objects.filter(nome=i).__len__()==0:
+                                        integrante=  Integrante(nome=i, ehCoordenador =False)
+                                        integrante.save()
+                                        artigo.integrantes.add(integrante)
+                                        print("Integrante salvo com Sucesso")
+
 
 def findProfilePhoto():
     import shutil
@@ -455,65 +506,8 @@ def findProfilePhoto():
                     prof.save()
                     j+=1
 
-
-                    # prof.profile_image.save(name= "servletrecuperafoto.img", File(open("/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/img/profilePhoto")), save()))
-                # elif(i.__contains__("servletrecuperafoto")):
-                #     try:
-                #         shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".jpg", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/")
-                #         j+=1
-                #         prof.profile_image="/static/servletrecuperafoto"+str(j)+".jpg"
-                #         prof.save()
-                #     except  IOError:
-                #         print("")
-
-#NAO FAZER
-def cadastrarDisciplina():
-    url = 'http://www.utfpr.edu.br/campomourao/cursos/bacharelados/Ofertados-neste-Campus/ciencia-da-computacao/ementario-e-carga-horaria-das-disciplinas'
-    page = requests.get(url)
-    html = page.content
-    soup = BeautifulSoup(html)
-
-    materias = soup.find('div', attrs={'id': 'parent-fieldname-text-22101d6136a200e0702b6f79331e3fd7'})
-    # print (table.prettify())
-    i=0
-
-    for dadosDaMateria in materias.strings:
-        # print(dadosDaMateria)
-        novaDisciplina = Disciplina()
-        if(i%4==0):
-            # i=0
-            novaDisciplina.nome=dadosDaMateria
-            print(dadosDaMateria)
-        # if(i%4==1):
-        #     cargahoraria = dadosDaMateria.split(" ")
-        #     print(cargahoraria)
-        #     # novaDisciplina.cargaHorariaTeorica=cargahoraria[0]
-        #     # novaDisciplina.cargaHorariaPratica=cargahoraria[1]
-        #     # novaDisciplina.cargaHorariaAPS=cargahoraria[2]
-        #     # novaDisciplina.cargaHorariaTA=cargahoraria[3]
-        # # if(i%4==2):
-        #
-        # if(i%4==2):
-        #       ementa = dadosDaMateria.split("Ementa:")
-              # novaDisciplina.ementa = ementa[2]
-              # print(ementa)
-        i+=1
-
-
-def cadastrarDisciplinasStatic():
-    # pass
-    novaDisciplina = Disciplina(nome="Algoritmos", sigla="BCC31A", ementa="Resolução de Problemas. Introdução a algoritmos. Variáveis, constantes, tipos e expressões. Entrada e saída simples. Estruturas de controle. Modularização e passagem de parâmetro. Estruturas de dados homogêneas. Cadeias de caracteres.",
-                                descricao="Pré-requisito: Sem pré-requisito",cargaHorariaPratica="34",  cargaHorariaTeorica="85",
-                                cargaHorariaAPS="7", cargaHorariaTotal="126", cursoDaDisciplina=1, departamentoAcademico=1)
-    novaRelacao = RelacaoDisciplinaCurso(periodo="1", tipo="FP", cursoRelacao=1, disciplina=1)
-
-    novaDisciplina.save()
-    novaRelacao.save()
-
 if __name__ == "__main__":
     # executeLattes()
     initSistem()
     executeLeitorXML()
     findProfilePhoto()
-    cadastrarDisciplinasStatic()
-    cadastrarDisciplina()

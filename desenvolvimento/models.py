@@ -61,12 +61,9 @@ class Curso(models.Model):
     descricao = models.CharField('Descricao', max_length=5000, null=True, blank=True)
     contato = models.CharField('Contato', max_length=100, null=True, blank=True)
     matrizAtual = models.ForeignKey('Matriz', related_name="matrizNome",  null=True, blank=True)
-
+    #regulamentacao  =  models.charfield
     def __unicode__(self):
         return self.nome
-
-
-
 
 class Matriz(models.Model):
     atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
@@ -76,8 +73,8 @@ class Matriz(models.Model):
     duracao = models.CharField('Duracao', max_length=50, null=True, blank=True)
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)
     curso =  models.ForeignKey("curso")
-    matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)
-
+    matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)#comentar
+    #
 
 class Disciplina(models.Model):
     nome = models.CharField('Nome da Disciplina', max_length=50, null=True, blank=True)
@@ -89,7 +86,13 @@ class Disciplina(models.Model):
     cargaHorariaAPS =models.CharField('Carga Horaria Atividade Pratica Supervisionada', max_length=50)
     cargaHorariaTotal =models.CharField('Carga Horaria Total', max_length=50)
     matriz = models.ForeignKey(Curso, related_name="matrizNome", null=True, blank=True)
+    prerequisito = models.ManyToManyField('self', related_name="prerequisito",  null=True, blank=True)
+    equivalencia = models.ManyToManyField('self', related_name="equivalencia",  null=True, blank=True)
+    objetivo = models.ManyToManyField('self', related_name="objetivo",  null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="NomeDepartamentoAcademico", null=True, blank=True)
+
+    def __unicode__(self):
+        return self.nome
 
 class RelacaoDisciplinaCurso(models.Model):
 
@@ -109,7 +112,7 @@ class RelacaoDisciplinaCurso(models.Model):
     tipo  = models.CharField(max_length=2,
                                       choices=TIPODEDISCIPLINA,
                                       default=FormacaoProfissionalizante)
-
+    #matriz =  models.ForeignKwey(Matriz...)
     cursoRelacao = models.ForeignKey(Curso, related_name="CursoRelacionado", null=True, blank=True)
     disciplina = models.ForeignKey(Disciplina, related_name="DisciplinaRelacionada",null=True, blank=True)
 

@@ -56,28 +56,31 @@
                 {%for i in curso %}
                     {{i.nome|upper }}</a></b><br/>
 
-                    Duração {{i.duracao}}<br/>
-                    Contato {{i.contato}}</br>
-                    Carga Horaria {{i.cargaHoraria}}<br/>
-                    Descricao {{i.descricao | safe}}<br/>
-                    Perfil do Egresso {{i.perfilDoEgresso | safe}}<br/>
-                    Estagio        {{i.estagio}}<br/>
-                    TCC{{i.tcc}}</br>
-                    Atividades Complementares {{i.atividadeComplementar}}<br/>
+                    <b>Duração</b> {{i.matrizAtual.duracao}}<br/>
+                    <b>Contato</b> {{i.contato}}</br>
+                    <b>Carga Horaria</b> {{i.matrizAtualcargaHoraria}}<br/>
+                    <b>Descricao: </b> {{i.descricao | safe}}<br/><br/>
+                    <b>Perfil do Egresso</b> {{i.perfilDoEgresso | safe}}<br/><br/>
+                    <b>Estagio</b>        {{i.matrizAtual.estagio}}<br/><br/>
+                    <b>TCC</b> {{i.matrizAtual.tcc}}</br><br/>
+                    <b>Atividades Complementares</b> {{i.matrizAtual.atividadeComplementar}}<br/>
 
                 {% endfor %}
                </br></br></br></br>
-{% for detalhes in detailCurso %}
+
                 <table style="width:95%">
+
                       <tr>
-                          <td>Código</td>
+                         <b> <td>Código</td>
                             <td>Disciplina</td>
                             <td>Carga Horaria Pratica</td>
                             <td>Carga Horaria  Teórica</td>
                             <td>Modelo de disciplina</td>
                             <td>Periodo</td>
-                            <td>Ementa</td>
+                            <td>Ementa</td></b>
                       </tr>
+
+        {% for detalhes in detailCurso %}
                       <tr>
                             <td>{{detalhes.disciplina.sigla}}</td>
                             <td>{{detalhes.disciplina.nome}}</td>
@@ -88,8 +91,9 @@
                             <td><a href="{{  detalhes.disciplina.nome }}"> Clique  aqui </a></td>
 
                       </tr>
+                    {%endfor%}
                 </table>
-{%endfor%}
+
 
                     <!--<div class="pagination">-->
 
