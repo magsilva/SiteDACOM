@@ -910,3 +910,23 @@ display:inline;
     height:auto;
     text-align:justify;
 }
+table, th, td {
+   border: 1px solid black;
+}
+table {
+    width: 100%;
+
+}
+
+.primeiraLinhaDaTabela{
+    height: 50px;
+    background-color:#f9c61f;
+font-weight: bold;
+text-align:center;
+}
+.outrasLinhas{
+    text-align:center;
+    height:25px;
+
+
+}

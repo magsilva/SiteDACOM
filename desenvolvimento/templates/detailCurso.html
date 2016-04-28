@@ -68,9 +68,9 @@
                 {% endfor %}
                </br></br></br></br>
 
-                <table style="width:95%">
+                <table style="width:120%">
 
-                      <tr>
+                      <tr class="primeiraLinhaDaTabela">
                          <b> <td>Código</td>
                             <td>Disciplina</td>
                             <td>Carga Horaria Pratica</td>
@@ -81,7 +81,7 @@
                       </tr>
 
         {% for detalhes in detailCurso %}
-                      <tr>
+                      <tr class="outrasLinhas">
                             <td>{{detalhes.disciplina.sigla}}</td>
                             <td>{{detalhes.disciplina.nome}}</td>
                             <td>{{detalhes.disciplina.cargaHorariaPratica}}</td>
