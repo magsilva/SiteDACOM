@@ -84,9 +84,10 @@ def eventos(request):
 
 
 
-def detailCurso(request, curso_id):
+def detailCurso(request, sigla_curso):
      try:
-        detailCurso = RelacaoDisciplinaCurso.objects.filter(cursoRelacao=curso_id)
+        curso =  Curso.objects.get(sigla=sigla_curso)
+        detailCurso = RelacaoDisciplinaCurso.objects.filter(cursoRelacao=curso.id)
         curso = Curso.objects.all()
      except RelacaoDisciplinaCurso.DoesNotExist:
          raise Http404("CursoNaoExiste")
@@ -96,7 +97,7 @@ def detailCurso(request, curso_id):
 
 
 
-def detailCursoEmenta(request, curso_id, ementa):
+def detailCursoEmenta(request, sigla_curso, ementa):
      try:
         detailEmenta = Disciplina.objects.filter(nome=ementa)[0]
      except Disciplina.DoesNotExist:
@@ -105,17 +106,17 @@ def detailCursoEmenta(request, curso_id, ementa):
 
 
 
-def details(request, projeto_professor):
+def detailsProfessor(request, professor_nome):
      try:
-        details = Professor.objects.filter(nome=projeto_professor)
+        detailsProf = Professor.objects.filter(nome=professor_nome)[0]
      except Projeto.DoesNotExist:
          raise Http404("ProjetoNaoExiste")
-     return render(request, 'detailsProjeto.html', {'details': details})
+     return render(request, 'detailsProfessor.html', {'detailsProf': detailsProf})
 
 
-def detailsProjeto(request, projeto_projeto):
+def detailsProjeto(request, projeto_nome):
     try:
-        detailsProjeto = Projeto.objects.filter(nome=projeto_projeto)
+        detailsProjeto = Projeto.objects.filter(nome=projeto_nome)
     except Projeto.DoesNotExist:
         raise Http404("Professor does not exist")
-    return render(request, 'detailsProfessor.html', {'detailsProjeto': detailsProjeto})
+    return render(request, 'detailsProjeto.html', {'detailsProjeto': detailsProjeto})

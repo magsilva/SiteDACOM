@@ -53,16 +53,14 @@
     <div class="corpo">
         <section id="content">
             <article class="expanded">
-                <h2>Professor Detalhes</h2>
+                <h2>Detalhes Projeto</h2>
 
 
-                {% for detailProject in details %}
-                    <br/>
-                    <br/><b>
-                                            <div class="quadradoInteiro">
-                                <h3 class="titulo">Professor: {{ detailProject.nome}}</h3>
+                {% for detailProject in detailsProjeto %}
+                    <div class="quadradoInteiro">
+                                <h3 class="titulo">Projeto: {{ detailProject.nome}}</h3>
                                      <div class="tab">
-                                          <a href="{{project.id}}/">
+                                          <a href="{% url desenvolvimento:projeto %}/{{project.nome}}/">
                                                 <div class="nomeProfessor"> Professor: {{detailProject.professor}}</div>
                                           </a>
                                           <h5>Situação:</h5> {{detailProject.situacao}}<br/>
@@ -72,15 +70,10 @@
                                           <h5>Resumo:</h5>  {{detailProject.resumo}}<br/>
                                           <h5>Integrantes:<br/>
                                      </div>
-                                <br/>
-                            </div>
-
-                    <!--{{ detailProject.nome|upper }}</b><br/>-->
-                        <!--Data de Ínicio {{detailProject.datainicio}}<br/>-->
-                        <!--Data de Fim {{detailProject.datadefim}}<br/>-->
+                    </div>
                     {% endfor %}
 
-                </ul>
+
             </article>
         </section>
     </div>

@@ -57,9 +57,9 @@
                     <br/>
 
                             <div class="quadradoInteiro">
-                                 <a href="{{prof.id}}/">   <h3 class="titulo">Professor: {{ prof.nome}}</h3></a>
+                                 <a href="{%url 'desenvolvimento:professor'%}/{{prof.nome}}">   <h3 class="titulo">Professor: {{ prof.nome}}</h3></a>
                                      <div class="tab">
-                                         <a href="{{prof.id}}/">
+                                         <a href="{%url 'desenvolvimento:professor'%}/{{prof.nome}}/">
                                                 <div class="nomeProfessor"> Projetos</div>
                                           </a>
                                           <h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{prof.lattes}}">clique aqui</a><br/>

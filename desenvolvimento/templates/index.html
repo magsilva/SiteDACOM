@@ -59,10 +59,10 @@
                         {%if project.nome|length > 0 %}
 
                             <div class="quadradoInteiro">
-                                 <a href="{{project.nome}}/">   <h3 class="titulo">Projeto: {{ project.nome}}</h3></a>
+                                 <a href="{%url 'desenvolvimento:projetos'%}/{{project.nome}}">   <h3 class="titulo">Projeto: {{ project.nome}}</h3></a>
                                      <div class="tab">
 
-                                Professor:  <a href="{{project.professor}}/"><div class="nomeProfessor">{{project.professor}}</div></a>
+                                Professor:  <a href="/professor/{{project.professor.nome}}"><div class="nomeProfessor">{{project.professor}}</div></a>
 
                                           </a>
                                           <h5>Situação:</h5> {{project.situacao}}<br/>

@@ -8,16 +8,14 @@ admin.autodiscover()
 
 urlpatterns = [
       url(r'^$', views.index, name='index'),
-      # url(r'^', views.index,  name='index'),
-      #continuar mexendo com isso
       url(r'^/curso$', views.curso, name='curso'),
-      url(r'^/curso/(?P<curso_id>.+)/$', views.detailCurso, name='detailCurso'),
-      url(r'^/curso/(?P<curso_id>.+)/(?P<ementa>.+)$', views.detailCursoEmenta, name='detailCursoEmenta'),
-      url(r'^/professor', views.professor, name='professor'),
-      url(r'^/projetos', views.projetos, name='projetos'),
-      url(r'^/eventos', views.eventos, name='eventos'),
-      url(r'^(?P<projeto_professor>[0-9]+)/$', views.details, name='details'),
-      url(r'^(?P<projeto_projeto>.+)/$', views.detailsProjeto, name='detailsProjeto'),
+      url(r'^/professor$', views.professor, name='professor'),
+      url(r'^/projeto$', views.projetos, name='projetos'),
+      url(r'^/evento$', views.eventos, name='eventos'),
+      url(r'^/curso/(?P<sigla_curso>.+)/$', views.detailCurso, name='detailCurso'),
+      url(r'^/curso/(?P<sigla_curso>.+)/(?P<ementa>.+)$', views.detailCursoEmenta, name='detailCursoEmenta'),
+      url(r'^/professor/(?P<professor_nome>.+)$', views.detailsProfessor, name='details'),
+      url(r'^/projeto/(?P<projeto_nome>.+)$', views.detailsProjeto, name='detailsProjeto'),
       #modificar
 
 ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
