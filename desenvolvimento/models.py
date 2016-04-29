@@ -170,8 +170,8 @@ class Projeto(models.Model):
     agendafinanciadora = models.CharField('Agencia Financiadora', max_length=255, null=True, blank=True)
     nome = models.CharField('Nome do Projeto', max_length=1000)
     resumo = models.CharField('Resumo', max_length=10000)
-    situacao = models.CharField('Situacao', max_length=100, null=True, blank=True)
-    natureza = models.CharField('Natureza', max_length=100, null=True, blank=True)
+    situacao = models.CharField('Situacao', max_length=1000, null=True, blank=True)
+    natureza = models.CharField('Natureza', max_length=1000, null=True, blank=True)
     integrantes = models.ManyToManyField(Integrante,related_name="integrante", null=True, blank=True)
     integrantesProfessor = models.ManyToManyField(IntegranteProfessor,related_name="integranteProfessor",null=True, blank=True)
 
