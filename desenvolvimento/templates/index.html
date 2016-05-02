@@ -62,7 +62,7 @@
                                  <a href="{%url 'desenvolvimento:projetos' %}/{{project.nome}}">   <h3 class="titulo">Projeto: {{ project.nome}}</h3></a>
                                      <div class="tab">
 
-                                Professor:  <a href="{%url 'desenvolvimento:professor' %}/{{project.professor.nome}}"><div class="nomeProfessor">{{project.professor}}</div></a>
+                                <!--Professor:  <a href="{%url 'desenvolvimento:professor' %}/{{project.professor.nome}}"><div class="nomeProfessor">{{project.professor}}</div></a>-->
 
                                           </a>
                                           <h5>Situação:</h5> {{project.situacao}}<br/>
@@ -72,12 +72,7 @@
                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                           <h5>
                                             Integrantes:
-                                              {% for i  in project.integrantes.all %}<br/>
-                                                {{i }}
-                                              {% endfor %}
-                                              {% for j  in project.integrantesProfessor.all %}<br/>
-                                                {{j }}
-                                              {% endfor %}
+
 
                                               <!-- Gerosa e igor exemplo de integrantes  -->
 
@@ -92,7 +87,7 @@
                                                 <a href="/projeto/{{project.titulo}}/"> <h3 class="titulo"> Artigo em Periódico: {{project.titulo}}</h3></a><br/>
                                                      <div class="tab">
                                                           <a href="{{project.id}}/">
-                                                                <div class="nomeProfessor"> Professor: {{project.professorDoArtigo}}</div>
+                                                                <!--<div class="nomeProfessor"> Professor: {{project.professorDoArtigo}}</div>-->
                                                           </a>
                                                           <h5>Data:</h5> {{project.data}}<br/>
                                                           <a href="{{project.doi}}"><h5>DOI:</h5>  {{project.doi}}<br/></a>
@@ -103,12 +98,7 @@
                                                           <h5>Volume:</h5>  {{project.volume}}<br/>
                                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                                           <h5>Autores:<br/>
-                                                              {% for i  in project.integrantes.all %}<br/>
-                                                                {{i }}
-                                                              {% endfor %}
-                                                              {% for j  in project.integrantesProfessor.all %}<br/>
-                                                                {{j }}
-                                                              {% endfor %}
+
 
                                                      </div>
                                                 <br/>
@@ -117,30 +107,7 @@
                                         {% endif %}
                                 {% endfor %}
 
-            <br/>
-
-
-                    <!--<div class="pagination">-->
-
-    <!--<span class="step-links">-->
-
-        <!--{% if project.has_previous %}-->
-
-            <!--<a href="?page={{ projects.previous_page_number }}" class="anterior">Anterior</a>-->
-        <!--{% endif %}-->
-
-        <!--<span class="current">-->
-
-        <!--Página {{ project.number }} de {{ project.paginator.num_pages }}-->
-        <!--</span>-->
-
-        <!--{% if project.has_next %}-->
-            <!--<a href="?page={{ projects.next_page_number }}">Próxima</a>-->
-        <!--{% endif %}-->
-    <!--</span>-->
-                    <!--</div>-->
-
-                </ul>
+            <br/></ul>
             </article>
         </section>
     </div>

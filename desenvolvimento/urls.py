@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.conf.urls.static import static
 
 from projectUtfpr import settings
@@ -16,6 +16,8 @@ urlpatterns = [
       url(r'^/curso/(?P<sigla_curso>.+)/(?P<ementa>.+)$', views.detailCursoEmenta, name='detailCursoEmenta'),
       url(r'^/professor/(?P<professor_nome>.+)$', views.detailsProfessor, name='details'),
       url(r'^/projeto/(?P<projeto_nome>.+)$', views.detailsProjeto, name='detailsProjeto'),
+
+
       #modificar
 
 ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

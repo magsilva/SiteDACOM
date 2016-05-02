@@ -69,23 +69,23 @@ class Matriz(models.Model):
     duracao = models.CharField('Duracao', max_length=50, null=True, blank=True)
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)
     curso =  models.ForeignKey("curso")
+    numero =  models.IntegerField(default=0)
     # matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)#comentar
     #
 
 class Disciplina(models.Model):
     nome = models.CharField('Nome da Disciplina', max_length=50, null=True, blank=True)
     sigla = models.CharField('Sigla da Disciplina', max_length=50, null=True, blank=True)
+    objetivo = models.CharField('objetivo', max_length=5000,  null=True, blank=True)
     ementa = models.CharField('Ementa', max_length=5000, null=True, blank=True)
-    descricao = models.CharField('Descricao', max_length=50, null=True, blank=True)
-    cargaHorariaPratica = models.CharField('Carga Horaria Pratica', max_length=50)
     cargaHorariaTeorica =models.CharField('Carga Horaria Teorica', max_length=50)
+    cargaHorariaPratica = models.CharField('Carga Horaria Pratica', max_length=50)
     cargaHorariaAPS =models.CharField('Carga Horaria Atividade Pratica Supervisionada', max_length=50)
     cargaHorariaTotal =models.CharField('Carga Horaria Total', max_length=50)
-    matriz = models.ForeignKey(Curso, related_name="matrizNome", null=True, blank=True)
+    matriz = models.ManyToManyField(Curso, related_name="matrizNome", null=True, blank=True)
+    departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="NomeDepartamentoAcademico", null=True, blank=True)
     prerequisito = models.ManyToManyField('self', related_name="prerequisito",  null=True, blank=True)
     equivalencia = models.ManyToManyField('self', related_name="equivalencia",  null=True, blank=True)
-    objetivo = models.ManyToManyField('self', related_name="objetivo",  null=True, blank=True)
-    departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="NomeDepartamentoAcademico", null=True, blank=True)
 
     def __unicode__(self):
         return self.nome
@@ -190,16 +190,22 @@ class Evento(models.Model):
         return self.titulo
 
 
-class PlanoDeAula(models.Model):
+def user_directory_path(instance, filename):
     semestre ="1"
     ano ="2016"
     siglaDoCurso = "BCC"
 
-    diretorio = MEDIA_ROOT+"/"+siglaDoCurso+"/planoDeAula/"+ano+"/"+semestre
+    diretorio = MEDIA_ROOT+"/"+siglaDoCurso+"/planoDeAula/"+ano+"/"+semestre+"/"
     nomeDoArquivo = "BCC34A_IC4A"
+    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+    return diretorio+instance.disciplina.nome
 
 
-    upload = models.FileField(upload_to=diretorio,null=True, blank=True)
+class PlanoDeAula(models.Model):
+
+
+
+    upload = models.FileField(upload_to=user_directory_path,null=True, blank=True)
     disciplina= models.ForeignKey(Disciplina, related_name="Disciplina")
     ano = models.CharField('Ano',max_length=4, null=True, blank=True )
     semestre = models.CharField('semestre', max_length=20 ,null=True, blank=True)

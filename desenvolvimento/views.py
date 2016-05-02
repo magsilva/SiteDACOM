@@ -87,7 +87,7 @@ def eventos(request):
 def detailCurso(request, sigla_curso):
      try:
         curso =  Curso.objects.get(sigla=sigla_curso)
-        detailCurso = RelacaoDisciplinaCurso.objects.filter(cursoRelacao=curso.id)
+        detailCurso = RelacaoDisciplinaCurso.objects.filter(cursoRelacao=curso.id).order_by('periodo')
         curso = Curso.objects.all()
      except RelacaoDisciplinaCurso.DoesNotExist:
          raise Http404("CursoNaoExiste")

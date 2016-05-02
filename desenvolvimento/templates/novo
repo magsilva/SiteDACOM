@@ -16,3 +16,27 @@
                                                         Integrantes {{i.nome}}
                                                     {% endifequal %}
                                                 {% endifequal %}
+
+                                                                                 <!--<a href="{%url 'desenvolvimento:professor'%}/{{prof.nome}}">   <h3 class="titulo">Professor: {{ prof.nome}}</h3></a>-->
+                                     <!--<div class="tab">-->
+                                         <!--<a href="{%url 'desenvolvimento:professor'%}/{{prof.nome}}/">-->
+
+                                          <!--</a>-->
+                                          <a href="{{project.id}}/">
+                                                <div class="nomeProfessor"> Professor: {{project.professor}}</div>
+                                          </a>
+
+
+                                                                                                        {% for i  in project.integrantes.all %}<br/>
+                                                                {{i }}
+                                                              {% endfor %}
+                                                              {% for j  in project.integrantesProfessor.all %}<br/>
+                                                                {{j }}
+                                                              {% endfor %}
+
+                                                                                                            {% for i  in project.integrantes.all %}<br/>
+                                                {{i }}
+                                              {% endfor %}
+                                              {% for j  in project.integrantesProfessor.all %}<br/>
+                                                {{j }}
+                                              {% endfor %}

@@ -164,14 +164,14 @@ def executeLeitorXML():
                     item.departamento = prof.departamento
                     item.funcao = "Professor"
                     item.save()
-                    print("Professor: "+item.nome+ " Salvo com Sucesso")
+                    # print("Professor: "+item.nome+ " Salvo com Sucesso")
 
                 dadosDeCitacaoEmBibliografia =  prof.nomeEmCitacoesBibliograficas.split(";")
                 for dado in dadosDeCitacaoEmBibliografia:
 
                     dadosDeProfessor = DadosDeProfessor(nome=dado, professorDados=Professor.objects.get(nome=prof.nome))
                     dadosDeProfessor.save()
-                    print("Dados Do professor salvo com sucesso")
+                    # print("Dados Do professor salvo com sucesso")
 
             for formacao in child1.iter('formacao_academica'):
                 for formacao1 in formacao.iter('formacao'):
@@ -193,7 +193,7 @@ def executeLeitorXML():
                     formacao = Formacao(ano_inicio=ano_inicio[0:4], ano_conclusao=ano_conclusao, tipo=tipo, descricao=descricao, nome= nome, formacaoProfessor=profDaIteracao)
                     if Formacao.objects.filter(nome=nome).__len__()==0:
                         formacao.save()
-                        print("Formacao do Professor salvo com sucesso")
+                        # print("Formacao do Professor salvo com sucesso")
 
             for projetospesquisa in child1.iter('projetos_pesquisa'):
                 for projeto in projetospesquisa.iter('projeto'):
@@ -208,7 +208,8 @@ def executeLeitorXML():
                         descricaodoprojeto = projeto.find('descricao').text
 
                         import re
-                        m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) Integrantes: (.*)", descricaodoprojeto.encode("utf-8"))
+                        # m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) (Alunos envolvidos: (.*)) Integrantes: (.*)", descricaodoprojeto.encode("utf-8"))
+                        m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))? (?:Número de produções C, T A: (?P<prod>\d*))? (?:Número de orientações: (?P<orient>\d*))?", descricaodoprojeto.encode("utf-8"))
 
                     proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
                     if(Projeto.objects.filter(nome=nome).__len__()==0):
@@ -224,12 +225,33 @@ def executeLeitorXML():
                         proj.situacao = situacao
                         proj.natureza =natureza
                         proj.save()
-                        print(desc, situacao, natureza)
+                        # print(desc, situacao, natureza)
 
-                        integrantes = m.group(4)
-                        # integrante = re.search("(.*?) [^Integrante] | [^Coordenador]", integrantes)
+                        integrantes = m.group(5)
+
+
+                        integrante = re.search("(.*?) [^Integrante] | [^Coordenador]", integrantes)
+
+
                         integrante =  integrantes.split("- Integrante")
-                        print(integrante)
+                        for item in integrante:
+                            professores = DadosDeProfessor.objects.get(nome=item)
+                            if item.__contains__("- Coordenador /"):
+                                if professores is not None:
+                                    i = IntegranteProfessor(nome=professores.professorDados.nome, ehCoordenador=True, professor=profDaIteracao)
+                                    i.save()
+                                else:
+                                    i = Integrante(nome=item.replace("- Coordenador /", ""), ehCoordenador=False)
+                                    i.save()
+                            else:
+                                if Integrante.objects.get(nome=item) is not None:
+                                    i =  Integrante(nome=item, eh)
+                                    pass
+                                if IntegranteProfessor.objects.get(nome=item) is not None:
+                                    pass
+
+
+                        # print(integrante)
 
 
                         # for  pesquisadores in integrante:
@@ -266,7 +288,7 @@ def executeLeitorXML():
                 area = AreaDeAtuacao(descricao= descricao, areaProfessor=profDaIteracao)
                 if AreaDeAtuacao.objects.filter(descricao=descricao).__len__()==0:
                     area.save()
-                    print("Area de Atuação salvo com Sucesso")
+                    # print("Area de Atuação salvo com Sucesso")
 
             for eventos in child1.iter('trabalho_completo_congresso'):  # eventos
 
@@ -307,7 +329,7 @@ def executeLeitorXML():
                         eventoNovo.volume =e.volume
                         eventoNovo.paginas = e.paginas
                         eventoNovo.save()
-                        print("Evento salvo com Sucesso")
+                        # print("Evento salvo com Sucesso")
                         e = eventoNovo
 
 
@@ -319,22 +341,22 @@ def executeLeitorXML():
                             professor = profCurrent[0].professorDados
                             if(professor):
                                 e.professoresDoEvento.add(professor)
-                        else:
-                            print("Professor nao e da DACOM")
+                        # else:
+                        #     print("Professor nao e da DACOM")
 
 
             for resumoCongresso in child1.iter('resumo_congresso'):
                 for resumCo in resumoCongresso.iter('resumo'):
-                    print("titulo")
+                    # print("titulo")
                     if resumCo.find('doi').text is not None:
                         doi = resumCo.find('doi').text
-                        print(doi)
+                        # print(doi)
                     if resumCo.find('autores').text is not None:
                         autores = resumCo.find('autores').text
-                        print(autores)
+                        # print(autores)
                     if resumCo.find('titulo').text is not None:
                         titulo = resumCo.find('titulo').text
-                        print(titulo)
+                        # print(titulo)
                     if resumCo.find('nome_evento').text is not None:
                         nome_evento = resumCo.find('nome_evento').text
                     if resumCo.find('ano').text is not None:
@@ -399,7 +421,7 @@ def executeLeitorXML():
                         art.save()
                         artigo=art
 
-                        print("ArtigoEMConferencia salvo com Sucesso")
+                        # print("ArtigoEMConferencia salvo com Sucesso")
 
                     for i in autores.split(" ; "):
                         i= i.strip()
@@ -409,8 +431,8 @@ def executeLeitorXML():
                             professor = profCurrent[0].professorDados
                             if(professor):
                                 artigo.professores.add(professor)
-                        else:
-                            print("Professor nao e da DACOM")
+                        # else:
+                            # print("Professor nao e da DACOM")
 
                     # for i in parte5[1:parte5.__len__()-1]:
                     #         i = (i.replace(" / ", ""))
@@ -456,9 +478,9 @@ def findProfilePhoto():
     for pasta in diretorios:
 
         if(pasta.__contains__("_files")):
-            print(pasta[0:16])
+            # print(pasta[0:16])
             idLattes = pasta[0:16]
-            print(idLattes)
+            # print(idLattes)
 
             indice = os.listdir(util+pasta+"/")
             for i  in indice:
@@ -466,8 +488,8 @@ def findProfilePhoto():
 
                     prof = Professor.objects.get(lattes=idLattes)
                     print(prof.nome);
-                    print(prof.lattes);
-                    print(idLattes);
+                    # print(prof.lattes);
+                    # print(idLattes);
                     # os.rename(i,util+pasta+"/servletrecuperafoto"+str(j)+".jpg" )
                     shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".jpg", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/")
                     prof.profile_image="/static/servletrecuperafoto"+str(j)+".jpg"

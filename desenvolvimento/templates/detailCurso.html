@@ -75,7 +75,9 @@
                             <td>Disciplina</td>
                             <td>Carga Horaria Pratica</td>
                             <td>Carga Horaria  Teórica</td>
-                            <td>Modelo de disciplina</td>
+                             <td>Pré-Requisito</td>
+                             <td>Equivalência</td>
+                             <td>Objetivo</td>
                             <td>Periodo</td>
                             <td>Ementa</td></b>
                       </tr>
@@ -86,7 +88,11 @@
                             <td>{{detalhes.disciplina.nome}}</td>
                             <td>{{detalhes.disciplina.cargaHorariaPratica}}</td>
                             <td>{{detalhes.disciplina.cargaHorariaTeorica}}</td>
-                            <td>{{detalhes.tipo}}</td>
+
+                              <td>{% for i in detalhes.disciplina.prerequisito.all%}{{i}},{%endfor%}</td>
+
+                              <td>{% for i in detalhes.disciplina.equivalencia.all%}{{i}},{%endfor%}</td>
+                              <td>{% for i in detalhes.disciplina.objetivo.all%}{{i}},{%endfor%}</td>
                             <td>{{detalhes.periodo}}</td>
                             <td><a href="{{  detalhes.disciplina.nome }}"> Clique  aqui </a></td>
 
