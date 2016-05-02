@@ -94,24 +94,23 @@ def detailCurso(request, sigla_curso):
      return render(request, 'detailCurso.html', {'detailCurso': detailCurso, "curso":curso})
 
 
-
-
-
 def detailCursoEmenta(request, sigla_curso, ementa):
      try:
         detailEmenta = Disciplina.objects.filter(nome=ementa)[0]
+        detailPlanoDeAula =  PlanoDeAula.objects.filter(codigodeTurma=detailEmenta.sigla)
      except Disciplina.DoesNotExist:
          raise Http404("ProjetoNaoExiste")
-     return render(request, 'detailEmenta.html', {'detailEmenta': detailEmenta})
+     return render(request, 'detailEmenta.html', {'detailEmenta': detailEmenta, 'detailPlanoDeAula':detailPlanoDeAula})
 
 
 
 def detailsProfessor(request, professor_nome):
      try:
-        detailsProf = Professor.objects.filter(nome=professor_nome)[0]
+        detailsProf = Professor.objects.get(nome=professor_nome)
+        detailsDado = DadosDeProfessor.objects.distinct().filter(professorDados=detailsProf.id)[0:5]
      except Projeto.DoesNotExist:
          raise Http404("ProjetoNaoExiste")
-     return render(request, 'detailsProfessor.html', {'detailsProf': detailsProf})
+     return render(request, 'detailsProfessor.html', {'detailsProf': detailsProf, 'detailsDado':detailsDado})
 
 
 def detailsProjeto(request, projeto_nome):

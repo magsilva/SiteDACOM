@@ -38,7 +38,7 @@
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="/search/" method="get">
+                    <form action="dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -60,7 +60,11 @@
                     <b>Modelo de disciplina: </b>{{detailEmenta.tipo}}</br>
                     <b>Periodo: </b>{{detailEmenta.periodo}}</br>
                     <b>Ementa: </b>{{detailEmenta.ementa}}</br>
-
+                     <div class="download">
+                        <!--<div class="title">{{detailEmenta.file.name}}</div>-->
+                        <!--<div class="size">{{detailEmenta.file.size}} bytes</div>-->
+                        <div class="size">{{detailPlanoDeAula.upload.size|filesizeformat}}</div>
+                    </div>
                 </ul>
             </article>
         </section>

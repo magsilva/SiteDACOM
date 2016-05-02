@@ -37,7 +37,7 @@
                 <li><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="/search/" method="get">
+                    <form action="dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -69,8 +69,8 @@
                     <b>Atividades Complementares</b> {{curso.matrizAtual.atividadeComplementar}}<br/>
                     <br/>
                     {%   for coordenacao in listaDeCoordenacao%}
-                    Coordenador  <a href="{{coordenacao.coordenador.id}}/">{{coordenacao.coordenador}}</a></b><br/>
-                    Suplente  <a href="{{coordenacao.coordenador.id}}/">{{coordenacao.suplente}}</a></b><br/>
+                    Coordenador  <a href="{%url 'desenvolvimento:professor' %}/{{coordenacao.coordenador.nome}}">{{coordenacao.coordenador}}</a></b><br/>
+                    Suplente  <a href="{%url 'desenvolvimento:professor' %}/{{coordenacao.coordenador.nome}}">{{coordenacao.suplente}}</a></b><br/>
 
 
 

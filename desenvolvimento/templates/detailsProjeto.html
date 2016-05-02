@@ -40,7 +40,7 @@
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="/search/" method="get">
+                    <form action="dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -60,9 +60,9 @@
                     <div class="quadradoInteiro">
                                 <h3 class="titulo">Projeto: {{ detailProject.nome}}</h3>
                                      <div class="tab">
-                                          <a href="{% url desenvolvimento:projeto %}/{{project.nome}}/">
+
                                                 <div class="nomeProfessor"> Professor: {{detailProject.professor}}</div>
-                                          </a>
+
                                           <h5>Situação:</h5> {{detailProject.situacao}}<br/>
                                           <h5>Natureza:</h5>  {{detailProject.natureza}}<br/>
                                           <h5>Início:</h5>  {{detailProject.datainicio}}<br/>

@@ -3,7 +3,7 @@ import os
 from django.db import models
 from django.db.models import ImageField
 
-from projectUtfpr.settings import STATIC_ROOT
+from projectUtfpr.settings import STATIC_ROOT, MEDIA_ROOT
 
 
 class DepartamentoAcademico(models.Model):
@@ -29,13 +29,9 @@ class Professor(models.Model):
     def __unicode__(self):
         return self.nome
 
-# class DadosDePessoa(models.Model):
-
 class DadosDeProfessor(models.Model):
     nome = models.CharField('nome do professor', max_length=100)
     professorDados =  models.ForeignKey(Professor, related_name='DadosDeProfessor')
-
-
 
 class Formacao(models.Model):
     ano_inicio = models.CharField('Ano de Inicio', max_length=4)
@@ -61,7 +57,7 @@ class Curso(models.Model):
     descricao = models.CharField('Descricao', max_length=5000, null=True, blank=True)
     contato = models.CharField('Contato', max_length=100, null=True, blank=True)
     matrizAtual = models.ForeignKey('Matriz', related_name="matrizNome",  null=True, blank=True)
-    #regulamentacao  =  models.charfield
+    regulamentacao  =  models.CharField('Regulamentacao',  max_length=1000, null=True, blank=True )
     def __unicode__(self):
         return self.nome
 
@@ -73,7 +69,7 @@ class Matriz(models.Model):
     duracao = models.CharField('Duracao', max_length=50, null=True, blank=True)
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)
     curso =  models.ForeignKey("curso")
-    matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)#comentar
+    # matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)#comentar
     #
 
 class Disciplina(models.Model):
@@ -112,7 +108,7 @@ class RelacaoDisciplinaCurso(models.Model):
     tipo  = models.CharField(max_length=2,
                                       choices=TIPODEDISCIPLINA,
                                       default=FormacaoProfissionalizante)
-    #matriz =  models.ForeignKwey(Matriz...)
+    matriz =  models.ForeignKey(Matriz, related_name='matrizAtual', null=True, blank=True)
     cursoRelacao = models.ForeignKey(Curso, related_name="CursoRelacionado", null=True, blank=True)
     disciplina = models.ForeignKey(Disciplina, related_name="DisciplinaRelacionada",null=True, blank=True)
 
@@ -195,7 +191,15 @@ class Evento(models.Model):
 
 
 class PlanoDeAula(models.Model):
-    upload = models.FileField(upload_to=STATIC_ROOT+"%c/planoDeAula/%y/%s",null=True, blank=True)
+    semestre ="1"
+    ano ="2016"
+    siglaDoCurso = "BCC"
+
+    diretorio = MEDIA_ROOT+"/"+siglaDoCurso+"/planoDeAula/"+ano+"/"+semestre
+    nomeDoArquivo = "BCC34A_IC4A"
+
+
+    upload = models.FileField(upload_to=diretorio,null=True, blank=True)
     disciplina= models.ForeignKey(Disciplina, related_name="Disciplina")
     ano = models.CharField('Ano',max_length=4, null=True, blank=True )
     semestre = models.CharField('semestre', max_length=20 ,null=True, blank=True)

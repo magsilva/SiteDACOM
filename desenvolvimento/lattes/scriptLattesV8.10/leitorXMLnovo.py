@@ -205,104 +205,50 @@ def executeLeitorXML():
                     if projeto.find('nome').text is not None:
                         nome = projeto.find('nome').text
                     if projeto.find('descricao').text is not None:
-                        descricao = projeto.find('descricao').text
+                        descricaodoprojeto = projeto.find('descricao').text
+
+                        import re
+                        m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) Integrantes: (.*)", descricaodoprojeto.encode("utf-8"))
+
+                    proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
+                    if(Projeto.objects.filter(nome=nome).__len__()==0):
+                        proj.save()
 
 
-                    import re
-                    m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) Integrantes: (.*)", descricao.encode("utf-8"))
-                    # m.group(0)
                     if m is not None:
                         desc = m.group(1)
                         situacao = m.group(2)
                         natureza = m.group(3)
+                        proj = Projeto.objects.filter(nome =nome)[0]
+                        proj.resumo = desc
+                        proj.situacao = situacao
+                        proj.natureza =natureza
+                        proj.save()
+                        print(desc, situacao, natureza)
 
-                        # print("NOVO"+m.group(2))
                         integrantes = m.group(4)
-                        # print("ntegrantes"+integrantes)
-                        integrante = re.search("(.*?) [^Integrante] | [^Coordenador]", integrantes)
+                        # integrante = re.search("(.*?) [^Integrante] | [^Coordenador]", integrantes)
                         integrante =  integrantes.split("- Integrante")
                         print(integrante)
-                        for  pesquisadores in integrante:
-                            if(pesquisadores.__contains__("- Coordenador /")):
-                                pesquisador =  pesquisadores.split("- Coordenador /")
-                                pesquisador = pesquisador[0]
-                                if(Professor.objects.filter(nome=pesquisador).__len__()>0 and IntegranteProfessor.objects.filter(nome=pesquisador).__len__()>0 and Projeto.integrantesProfessor):
-                                    integranteProfessor =  IntegranteProfessor(nome=pesquisador,ehCoordenador=True, professor=profDaIteracao)
-                                    integranteProfessor.save()
-
-                                if(Integrante.objects.filter(nome= pesquisador).__len__()>0):
-                                    integrante =  Integrante(nome=pesquisador,ehCoordenador=False)
-                                    integrante.save()
-                            # elif(pesquisador.__contains__("Financiador(es): ")):
-                            #     if(Professor.objects.filter(nome=pesquisador).__len__()>0 and Integrante.objects.filter(nome=pesquisador).__len__()>0):
-                            #         integranteProfessor = Integrante(nome=pesquisador,ehCoordenador=True, professor=profDaIteracao)
-                            #         integranteProfessor.save()
-                            #     else:
-                            #         integrante =  Integrante(nome=pesquisador,ehCoordenador=False)
-                            #         integrante.save()
-                            else:
-                                print("just integrante")
 
 
-                    projeto =   Projeto(nome=nome, resumo = desc, datadefim = ano_conclusao, datainicio = ano_inicio, situacao = situacao, natureza =natureza)
-                    projeto.save()
+                        # for  pesquisadores in integrante:
+                        #     pesquisadores = pesquisadores.replace("/", "")
+                            # pesquisadores = pesquisadores.split("- Coordenador", "")
+                            # if(not pesquisadores.__contains__("- Coordenador")):
+                                # for novoIntegrante in proj.integrantes.all().nome :
+                                #     if( not novoIntegrante ==pesquisadores):
+                                #         integranteProfessor =  IntegranteProfessor(nome=pesquisadores,ehCoordenador=False, professor=profDaIteracao)
+                                #         integranteProfessor.save()
+                                #         proj.integrantesProfessor.add(integranteProfessor)
+                                #
+                                #     if(Integrante.objects.filter(nome=integrante).__len__()==0):
+                                #         integrante =  Integrante(nome=pesquisadores,ehCoordenador=False)
+                                #         integrante.save()
+                                #         proj.integrantes.add(integrante)
 
-
-
-
-
-
-
-                    #
-                    #
-                    #
-                    #
-                    # parte1 = descricao.encode("utf-8").split("Descrição: ")
-                    # try :
-                    #     parte2 = parte1[1].split("Situação: ")
-                    # except IndexError:
-                    #     parte2 = parte1[0].split("Situação: ")
-                    # try:
-                    #     parte3 =  parte2[1].split("Natureza: ")
-                    # except IndexError:
-                    #     parte3 =  parte2[0].split("Natureza: ")
-                    # try:
-                    #     parte4 =  parte3[1].split("Integrantes: ")
-                    # except IndexError:
-                    #     parte4 =  parte3[0].split("Integrantes: ")
-                    # try:
-                    #     parte5 =  parte4[1].split("- Integrante")
-                    # except IndexError:
-                    #     parte5 =  parte4[0].split("- Integrante")
-                    #
-                    # profDaIteracao =  Professor.objects.get(nome=prof.nome)
-                    # # print(parte1[1])
-                    # try:
-                    #     proj2 = Projeto(nome=nome, resumo = parte1[1].split("Situação:")[0], datadefim = ano_conclusao, datainicio = ano_inicio, situacao = parte2[1].split(";")[0], natureza = parte3[1].split(".")[0])
-                    # except IndexError:
-                    #     pass
-                    #
-                    # if Projeto.objects.filter(nome=nome).__len__()==0:
-                    #     proj2.save()
-                    # else:
-                    #     p2 = Projeto.objects.filter(nome=nome)[0]
-                    #     p2.nome = proj2.nome
-                    #     p2.resumo = proj2.resumo
-                    #     if proj2.datadefim=="Atual":
-                    #         proj2.datadefim=2016
-                    #     p2.datadefim = proj2.datadefim
-                    #     p2.datainicio = proj2.datainicio
-                    #     p2.situacao = proj2.situacao
-                    #     p2.natureza = proj2.natureza
-                    #     print("Projeto salvo com Sucesso")
-                    #     p2.save()
-                    #     proj2 =p2
-                        #     criar um classe buscar e faz um mapeamento de dados do professor;
-
-                        #
-
-
-
+                            # else:
+                            #      print("just integrante")
 
 
                         # import re
@@ -310,8 +256,6 @@ def executeLeitorXML():
                         # m.group(0)
                         # m.group(1)
                         # print("NOVO"+m.group(1))
-
-
 
 
             for areaatuacao in child1.iter('area_atuacao'):

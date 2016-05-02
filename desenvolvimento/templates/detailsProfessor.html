@@ -40,7 +40,7 @@
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="/search/" method="get">
+                    <form action="dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -64,12 +64,14 @@
                                           <a href="{{project.id}}/">
                                                 <!--<div class="nomeProfessor"> Professor: {{detailsProf.professor}}</div>-->
                                           </a>
-                                          <h5>Situação:</h5> {{detailProject.situacao}}<br/>
-                                          <h5>Natureza:</h5>  {{detailProject.natureza}}<br/>
-                                          <h5>Início:</h5>  {{detailProject.datainicio}}<br/>
-                                          <h5>Término:</h5>  {{detailProject.datadefim}}<br/>
-                                          <h5>Resumo:</h5>  {{detailProject.resumo}}<br/>
-                                          <h5>Integrantes:<br/>
+                                          <h5>Departamento:</h5> {{detailsProf.departamento}}<br/>
+                                          <h5>Função:</h5>  {{detailsProf.funcao}}<br/>
+                                          <h5>Bolsa Produtividade:</h5>  {{detailsProf.bolsaprodutividade}}<br/>
+                                          <h5>Resumo:</h5>  {{detailsProf.textoResumo}}<br/>
+                                          <h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{detailsProf.lattes}}">clique aqui</a><br/>
+                                         Dados: {% for i in detailsDado%}
+                                                    {{ i.nome  }}
+                                                {%  endfor %}
                                      </div>
                                 <br/>
                             </div>

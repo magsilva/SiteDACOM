@@ -38,7 +38,7 @@
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="/search/" method="get">
+                    <form action="dacom/search/" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -59,10 +59,10 @@
                         {%if project.nome|length > 0 %}
 
                             <div class="quadradoInteiro">
-                                 <a href="{%url 'desenvolvimento:projetos'%}/{{project.nome}}">   <h3 class="titulo">Projeto: {{ project.nome}}</h3></a>
+                                 <a href="{%url 'desenvolvimento:projetos' %}/{{project.nome}}">   <h3 class="titulo">Projeto: {{ project.nome}}</h3></a>
                                      <div class="tab">
 
-                                Professor:  <a href="/professor/{{project.professor.nome}}"><div class="nomeProfessor">{{project.professor}}</div></a>
+                                Professor:  <a href="{%url 'desenvolvimento:professor' %}/{{project.professor.nome}}"><div class="nomeProfessor">{{project.professor}}</div></a>
 
                                           </a>
                                           <h5>Situação:</h5> {{project.situacao}}<br/>
@@ -75,8 +75,8 @@
                                               {% for i  in project.integrantes.all %}<br/>
                                                 {{i }}
                                               {% endfor %}
-                                              {% for i  in project.integrantesProfessor.all %}<br/>
-                                                {{i }}
+                                              {% for j  in project.integrantesProfessor.all %}<br/>
+                                                {{j }}
                                               {% endfor %}
 
                                               <!-- Gerosa e igor exemplo de integrantes  -->
@@ -106,8 +106,8 @@
                                                               {% for i  in project.integrantes.all %}<br/>
                                                                 {{i }}
                                                               {% endfor %}
-                                                              {% for i  in project.integrantesProfessor.all %}<br/>
-                                                                {{i }}
+                                                              {% for j  in project.integrantesProfessor.all %}<br/>
+                                                                {{j }}
                                                               {% endfor %}
 
                                                      </div>
