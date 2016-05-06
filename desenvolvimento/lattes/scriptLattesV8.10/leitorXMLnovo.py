@@ -258,18 +258,18 @@ def executeLeitorXML():
                                     else:
                                         if nomeIntegrante is not None:
                                             integ = Integrante(nome=novoIntegrante, ehCoordenador=False)
-                                            if Integrante.objects.filter(nome=integ.nome) is None:
-                                                integ.save()
-                                                if not  Projeto.objects.filter(integrantes=integ, nome=proj.nome):
-                                                    proj.integrantes.add(integ)
-                                                    
+                                            # if Integrante.objects.filter(nome=integ.nome) is None:
+                                            integ.save()
+                                            if not  Projeto.objects.filter(integrantes=integ, nome=proj.nome):
+                                                proj.integrantes.add(integ)
+
                                 if nomeIntegranteProf is not None and nomeProf is not None :
                                     prof = Professor.objects.get(nome=novoIntegrante)
                                     integProf = IntegranteProfessor(nome= novoIntegrante, ehCoordenador=False, professor=prof)
-                                    if  IntegranteProfessor.objects.filter(nome = novoIntegrante) is None:
-                                        if Projeto.objects.filter(integrantesProfessor=integProf, nome=proj.nome) is None:
-                                            integProf.save()
-                                            proj.integrantesProfessor.add(integProf)
+                                    # if  IntegranteProfessor.objects.filter(nome = novoIntegrante) is None:
+                                    integProf.save()
+                                    if not Projeto.objects.filter(integrantesProfessor=integProf, nome=proj.nome) :
+                                        proj.integrantesProfessor.add(integProf)
                                 # except
                                 #     print("Erro")
 
