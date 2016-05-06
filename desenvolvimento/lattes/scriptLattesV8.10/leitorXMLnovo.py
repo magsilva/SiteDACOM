@@ -9,12 +9,15 @@ from subprocess import call
 import xml.etree.ElementTree as et
 import warnings
 import sys
+import re
 
 from bs4 import BeautifulSoup
 from django.conf import settings
 from lxml import html
 import requests
 from scipy.weave.base_info import info_list
+
+import desenvolvimento
 
 settings.configure(DEBUG=True)
 settings.DATABASES = {
@@ -49,7 +52,6 @@ sys.path.append('desenvolvimento/lattes/scriptLattesV8.10/scriptLattes/patentesR
 def initSistem():
 
     boolean = 1
-
     departamento = None
 
     try:
@@ -209,9 +211,7 @@ def executeLeitorXML():
                     if projeto.find('descricao').text is not None:
                         descricaodoprojeto = projeto.find('descricao').text
 
-                        import re
-
-                        # m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))? (?:Número de produções C, T A: (?P<prod>\d*))? (?:Número de orientações: (?P<orient>\d*))?", descricaodoprojeto.encode("utf-8"))
+                       # m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))? (?:Número de produções C, T A: (?P<prod>\d*))? (?:Número de orientações: (?P<orient>\d*))?", descricaodoprojeto.encode("utf-8"))
                         m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))?", descricaodoprojeto.encode("utf-8"))
 
                     proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
@@ -241,10 +241,15 @@ def executeLeitorXML():
                                     if itens.__contains__(' -'):
                                         novoIntegrante = itens.replace(' -', '')
                                     print(novoIntegrante)
+                                # try:
                                 dados = DadosDeProfessor.objects.filter(nome = novoIntegrante)
-                                nomeProf = Professor.objects.get(nome=novoIntegrante)
-                                nomeIntegrante = Integrante.objects.filter(novoIntegrante)
-                                nomeIntegranteProf = Integrante.objects.filter(novoIntegrante)
+                                nomeProf = None
+                                try:
+                                    nomeProf = Professor.objects.filter(nome=novoIntegrante)[0]
+                                except IndexError:
+                                    nomeProf = None
+                                nomeIntegrante = Integrante.objects.filter(nome=novoIntegrante)
+                                nomeIntegranteProf = Integrante.objects.filter(nome=novoIntegrante)
 
                                 if(dados.__len__()==0):
                                     if(nomeProf is not None):
@@ -253,15 +258,21 @@ def executeLeitorXML():
                                     else:
                                         if nomeIntegrante is not None:
                                             integ = Integrante(nome=novoIntegrante, ehCoordenador=False)
-                                            integ.save()
-                                            if not proj.integrante.all().__contains__(integ):
-                                                proj.integrante.add(integ)
-                                if nomeIntegranteProf is not None:
-                                    integProf = IntegranteProfessor(nome= novoIntegrante, ehCoordenador=False)
-                                    integProf.save()
-                                    if not proj.integranteProfessor.all().__contains__(integProf):
-                                        proj.integranteProfessor.add(integProf)
-                                    
+                                            if Integrante.objects.filter(nome=integ.nome) is None:
+                                                integ.save()
+                                                if not  Projeto.objects.filter(integrantes=integ, nome=proj.nome):
+                                                    proj.integrantes.add(integ)
+                                                    
+                                if nomeIntegranteProf is not None and nomeProf is not None :
+                                    prof = Professor.objects.get(nome=novoIntegrante)
+                                    integProf = IntegranteProfessor(nome= novoIntegrante, ehCoordenador=False, professor=prof)
+                                    if  IntegranteProfessor.objects.filter(nome = novoIntegrante) is None:
+                                        if Projeto.objects.filter(integrantesProfessor=integProf, nome=proj.nome) is None:
+                                            integProf.save()
+                                            proj.integrantesProfessor.add(integProf)
+                                # except
+                                #     print("Erro")
+
                         # import re
                         # m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) Integrantes: (.*)", descricao.encode("utf-8"))
                         # m.group(0)
@@ -405,12 +416,9 @@ def executeLeitorXML():
                         art.publisher = artigo.publisher
                         art.volume = artigo.volume
                         art.numero = artigo.numero
-                        # art.listadeautores = artigo.listadeautores
-                        # art.professor = artigo.professorDoArtigo
                         art.save()
                         artigo=art
 
-                        # print("ArtigoEMConferencia salvo com Sucesso")
 
                     for i in autores.split(" ; "):
                         i= i.strip()
@@ -423,39 +431,6 @@ def executeLeitorXML():
                         # else:
                             # print("Professor nao e da DACOM")
 
-                    # for i in parte5[1:parte5.__len__()-1]:
-                    #         i = (i.replace(" / ", ""))
-                    #
-                    #         if i.__contains__("- Coordenador"):
-                    #             for j in i.split("- Coordenador"):
-                    #                 if Professor.objects.filter(nome=j) :
-                    #                     profI = Professor.objects.filter(nome=j)[0]
-                    #                     item= IntegranteProfessor(nome=j, ehCoordenador =True, professor = profI)
-                    #                     item.save()
-                    #                     artigo.integrantesProfessor.add(item)
-                    #                     print("Integrante salvo com Sucesso")
-                    #                 else:
-                    #                     if Integrante.objects.filter(nome=j).__len__()==0:
-                    #                         integrante=  Integrante(nome=j, ehCoordenador =True)
-                    #                         integrante.save()
-                    #                         artigo.integrantes.add(integrante)
-                    #                         print("Integrante salvo com Sucesso")
-                    #
-                    #         else:
-                    #             if Professor.objects.filter(nome=i):
-                    #                 profI = Professor.objects.filter(nome=i)[0]
-                    #
-                    #                 item2 = IntegranteProfessor(nome=i, professor = profI)
-                    #                 if IntegranteProfessor.objects.filter(nome=item2.nome).__len__()==0:
-                    #                     item2.save()
-                    #                     artigo.integrantesProfessor.add(item2)
-                    #                 print("Integrante salvo com Sucesso")
-                    #             else:
-                    #                 if Integrante.objects.filter(nome=i).__len__()==0:
-                    #                     integrante=  Integrante(nome=i, ehCoordenador =False)
-                    #                     integrante.save()
-                    #                     artigo.integrantes.add(integrante)
-                    #                     print("Integrante salvo com Sucesso")
 
 
 def findProfilePhoto():
@@ -465,20 +440,12 @@ def findProfilePhoto():
 
     j=0
     for pasta in diretorios:
-
         if(pasta.__contains__("_files")):
-            # print(pasta[0:16])
             idLattes = pasta[0:16]
-            # print(idLattes)
-
             indice = os.listdir(util+pasta+"/")
             for i  in indice:
                 if (i.__contains__("servletrecuperafoto")):
-
                     prof = Professor.objects.get(lattes=idLattes)
-                    # print(prof.nome);
-                    # print(prof.lattes);
-                    # print(idLattes);
                     # os.rename(i,util+pasta+"/servletrecuperafoto"+str(j)+".jpg" )
                     shutil.copy(util+pasta+"/servletrecuperafoto"+str(j)+".jpg", "/home/humberto/Documentos/projectUtfpr/desenvolvimento/static/")
                     prof.profile_image="/static/servletrecuperafoto"+str(j)+".jpg"
