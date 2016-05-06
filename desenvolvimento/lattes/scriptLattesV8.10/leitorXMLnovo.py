@@ -4,6 +4,7 @@ from __future__ import absolute_import
 from __future__ import print_function
 
 import os
+from distutils.command.config import config
 from subprocess import call
 import xml.etree.ElementTree as et
 import warnings
@@ -223,64 +224,44 @@ def executeLeitorXML():
                         situacao = m.group('status')
                         natureza = m.group('nat')
                         integrantes = m.group('integrantes')
-                        # print(integrantes)
-
 
                         proj = Projeto.objects.filter(nome =nome)[0]
                         proj.resumo = desc
                         proj.situacao = situacao
                         proj.natureza =natureza
                         proj.save()
-                        #
-                        # integrantes = m.group("integrantes")
-                        print(integrantes)  
-                        integrante = re.search("([\w\s]*) (- Integrante|- Coordenador)", integrantes.decode("utf-8"))
+
+                        integrante = re.split(" - Integrante / | - Integrante. | - Coordenador / | - Coordenador. ", integrantes, re.UNICODE)
+                        # integrante = re.search("([\w\s]*) - Integrante|- Coordenador", integrantes, re.UNICODE)
+                        # integrante = re.search("r'[a-zA-Zà-ú][0-9a-zà-úA-Z]*) - Integrante|- Coordenador", integrantes.decode("utf-8"))
                         if integrante is not None:
-                            # for integrante.gr
-pyhton                             itens = integrante.group(1)
-                            print(itens)
-                            itens = integrante.group(2)
-                            print(itens)
-                        # print("ola")
-                        # for item in itens:
-                            # professores = DadosDeProfessor.objects.get(nome=item)
-                            # print(professores)
-                            #     if professores is not None:
-                            #         i = IntegranteProfessor(nome=professores.professorDados.nome, ehCoordenador=True, professor=profDaIteracao)
-                            #         i.save()
-                            #     else:
-                            #         i = Integrante(nome=item.replace("- Coordenador /", ""), ehCoordenador=False)
-                            #         i.save()
-                            # else:
-                            #     if Integrante.objects.get(nome=item) is not None:
-                            #         i =  Integrante(nome=item, eh)
-                            #         pass
-                            #     if IntegranteProfessor.objects.get(nome=item) is not None:
-                            #         pass
+                            for itens in integrante:
+                                novoIntegrante = itens
+                                if not (itens.__contains__("Financiador(es):")):
+                                    if itens.__contains__(' -'):
+                                        novoIntegrante = itens.replace(' -', '')
+                                    print(novoIntegrante)
+                                dados = DadosDeProfessor.objects.filter(nome = novoIntegrante)
+                                nomeProf = Professor.objects.get(nome=novoIntegrante)
+                                nomeIntegrante = Integrante.objects.filter(novoIntegrante)
+                                nomeIntegranteProf = Integrante.objects.filter(novoIntegrante)
 
-
-                        # print(integrante)
-
-
-                        # for  pesquisadores in integrante:
-                        #     pesquisadores = pesquisadores.replace("/", "")
-                            # pesquisadores = pesquisadores.split("- Coordenador", "")
-                            # if(not pesquisadores.__contains__("- Coordenador")):
-                                # for novoIntegrante in proj.integrantes.all().nome :
-                                #     if( not novoIntegrante ==pesquisadores):
-                                #         integranteProfessor =  IntegranteProfessor(nome=pesquisadores,ehCoordenador=False, professor=profDaIteracao)
-                                #         integranteProfessor.save()
-                                #         proj.integrantesProfessor.add(integranteProfessor)
-                                #
-                                #     if(Integrante.objects.filter(nome=integrante).__len__()==0):
-                                #         integrante =  Integrante(nome=pesquisadores,ehCoordenador=False)
-                                #         integrante.save()
-                                #         proj.integrantes.add(integrante)
-
-                            # else:
-                            #      print("just integrante")
-
-
+                                if(dados.__len__()==0):
+                                    if(nomeProf is not None):
+                                        novoDado =  DadosDeProfessor(nome=novoIntegrante, professorDados=nomeProf)
+                                        novoDado.save()
+                                    else:
+                                        if nomeIntegrante is not None:
+                                            integ = Integrante(nome=novoIntegrante, ehCoordenador=False)
+                                            integ.save()
+                                            if not proj.integrante.all().__contains__(integ):
+                                                proj.integrante.add(integ)
+                                if nomeIntegranteProf is not None:
+                                    integProf = IntegranteProfessor(nome= novoIntegrante, ehCoordenador=False)
+                                    integProf.save()
+                                    if not proj.integranteProfessor.all().__contains__(integProf):
+                                        proj.integranteProfessor.add(integProf)
+                                    
                         # import re
                         # m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) Integrantes: (.*)", descricao.encode("utf-8"))
                         # m.group(0)
