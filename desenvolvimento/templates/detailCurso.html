@@ -71,15 +71,15 @@
                 <table style="width:120%">
 
                       <tr class="primeiraLinhaDaTabela">
-                         <b> <td>Código</td>
-                            <td>Disciplina</td>
-                            <td>Carga Horaria Pratica</td>
-                            <td>Carga Horaria  Teórica</td>
-                             <td>Pré-Requisito</td>
-                             <td>Equivalência</td>
-                             <td>Objetivo</td>
-                            <td>Periodo</td>
-                            <td>Ementa</td></b>
+                         <b> <td> Código </td>
+                            <td> Disciplina </td>
+                            <td> Carga Horaria Pratica </td>
+                            <td> Carga Horaria  Teórica </td>
+                             <td> Pré-Requisito </td>
+                             <td> Equivalência </td>
+                             <td> Objetivo </td>
+                            <td> Periodo </td>
+                            <td> Ementa </td></b>
                       </tr>
 
         {% for detalhes in detailCurso %}
@@ -92,7 +92,7 @@
                               <td>{% for i in detalhes.disciplina.prerequisito.all%}{{i}},{%endfor%}</td>
 
                               <td>{% for i in detalhes.disciplina.equivalencia.all%}{{i}},{%endfor%}</td>
-                              <td>{% for i in detalhes.disciplina.objetivo.all%}{{i}},{%endfor%}</td>
+                              <td>{% for i in detalhes.disciplina.objetivo.%}{{i}},{%endfor%}</td>
                             <td>{{detalhes.periodo}}</td>
                             <td><a href="{{  detalhes.disciplina.nome }}"> Clique  aqui </a></td>
 

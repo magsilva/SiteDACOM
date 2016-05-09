@@ -62,13 +62,34 @@
                                 <h3 class="titulo">Professor: {{ detailsProf.nome}}</h3>
                                      <div class="tab">
                                           <a href="{{project.id}}/">
+
                                                 <!--<div class="nomeProfessor"> Professor: {{detailsProf.professor}}</div>-->
                                           </a>
-                                          <h5>Departamento:</h5> {{detailsProf.departamento}}<br/>
+                                         <table >
+                                             <tr>
+                                                 <td>
+                                                       <img src="{{ detailsProf.profile_image }}" height="100"/>
+                                                 </td>
+                                                  <td>
+                                                       <h5>Departamento:</h5> {{detailsProf.departamento}}<br/>
                                           <h5>Função:</h5>  {{detailsProf.funcao}}<br/>
                                           <h5>Bolsa Produtividade:</h5>  {{detailsProf.bolsaprodutividade}}<br/>
                                           <h5>Resumo:</h5>  {{detailsProf.textoResumo}}<br/>
                                           <h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{detailsProf.lattes}}">clique aqui</a><br/>
+ <!--Dados: {% for i in detailsDado%}-->
+                                                    <!--{{ i.nome  }}-->
+                                                <!--{%  endfor %}-->
+                                                  </td>
+
+                                             </tr>
+                                         </table>
+                                         <!--<img src="{{ detailsProf.profile_image }}" height="100"/>-->
+                                          <!--<h5>Departamento:</h5> {{detailsProf.departamento}}<br/>-->
+                                          <!--<h5>Função:</h5>  {{detailsProf.funcao}}<br/>-->
+                                          <!--<h5>Bolsa Produtividade:</h5>  {{detailsProf.bolsaprodutividade}}<br/>-->
+                                          <!--<h5>Resumo:</h5>  {{detailsProf.textoResumo}}<br/>-->
+                                          <!--<h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{detailsProf.lattes}}">clique aqui</a><br/>-->
+
                                          Dados: {% for i in detailsDado%}
                                                     {{ i.nome  }}
                                                 {%  endfor %}

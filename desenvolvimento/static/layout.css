@@ -911,7 +911,7 @@ display:inline;
     text-align:justify;
 }
 table, th, td {
-   border: 1px solid black;
+   border: px solid black;
 }
 table {
     width: 100%;

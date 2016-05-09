@@ -172,9 +172,9 @@ def executeLeitorXML():
 
                 dadosDeCitacaoEmBibliografia =  prof.nomeEmCitacoesBibliograficas.split(";")
                 for dado in dadosDeCitacaoEmBibliografia:
-
-                    dadosDeProfessor = DadosDeProfessor(nome=dado, professorDados=Professor.objects.get(nome=prof.nome))
-                    dadosDeProfessor.save()
+                    if DadosDeProfessor.objects.filter(nome =dado) is not None:
+                        dadosDeProfessor = DadosDeProfessor(nome=dado, professorDados=Professor.objects.get(nome=prof.nome))
+                        dadosDeProfessor.save()
                     # print("Dados Do professor salvo com sucesso")
 
             for formacao in child1.iter('formacao_academica'):
@@ -251,7 +251,7 @@ def executeLeitorXML():
                                 nomeIntegrante = Integrante.objects.filter(nome=novoIntegrante)
                                 nomeIntegranteProf = Integrante.objects.filter(nome=novoIntegrante)
 
-                                if(dados.__len__()==0):
+                                if(dados.__len__()==0 and not novoIntegrante.__contains__("Financiador(es):")):
                                     if(nomeProf is not None):
                                         novoDado =  DadosDeProfessor(nome=novoIntegrante, professorDados=nomeProf)
                                         novoDado.save()
@@ -263,7 +263,7 @@ def executeLeitorXML():
                                             if not  Projeto.objects.filter(integrantes=integ, nome=proj.nome):
                                                 proj.integrantes.add(integ)
 
-                                if nomeIntegranteProf is not None and nomeProf is not None :
+                                if nomeIntegranteProf is not None and nomeProf is not None and not novoIntegrante.__contains__("Financiador(es):")  :
                                     prof = Professor.objects.get(nome=novoIntegrante)
                                     integProf = IntegranteProfessor(nome= novoIntegrante, ehCoordenador=False, professor=prof)
                                     # if  IntegranteProfessor.objects.filter(nome = novoIntegrante) is None:
