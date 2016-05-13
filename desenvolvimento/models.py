@@ -70,6 +70,9 @@ class Matriz(models.Model):
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)
     curso =  models.ForeignKey("curso")
     numero =  models.IntegerField(default=0)
+
+    def __unicode__(self):
+        return self.curso.nome
     # matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)#comentar
     #
 
@@ -84,8 +87,8 @@ class Disciplina(models.Model):
     cargaHorariaTotal =models.CharField('Carga Horaria Total', max_length=50)
     matriz = models.ManyToManyField(Curso, related_name="matrizNome", null=True, blank=True)
     departamentoAcademico = models.ForeignKey(DepartamentoAcademico, related_name="NomeDepartamentoAcademico", null=True, blank=True)
-    prerequisito = models.ManyToManyField('self', related_name="prerequisito",  null=True, blank=True)
-    equivalencia = models.ManyToManyField('self', related_name="equivalencia",  null=True, blank=True)
+    prerequisito1 = models.ManyToManyField('self', related_name="prerequisito", symmetrical=False, null=True, blank=True)
+    equivalencia2 = models.ManyToManyField('self', related_name="equivalencia", symmetrical=False, null=True, blank=True)
 
     def __unicode__(self):
         return self.nome
@@ -111,6 +114,9 @@ class RelacaoDisciplinaCurso(models.Model):
     matriz =  models.ForeignKey(Matriz, related_name='matrizAtual', null=True, blank=True)
     cursoRelacao = models.ForeignKey(Curso, related_name="CursoRelacionado", null=True, blank=True)
     disciplina = models.ForeignKey(Disciplina, related_name="DisciplinaRelacionada",null=True, blank=True)
+
+    def __unicode__(self):
+        return self.disciplina.nome
 
 class Coordenacao(models.Model):
     coordenador = models.ForeignKey(Professor, related_name='coordenadorCoo')

@@ -212,14 +212,16 @@ def executeLeitorXML():
                         descricaodoprojeto = projeto.find('descricao').text
 
                        # m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))? (?:Número de produções C, T A: (?P<prod>\d*))? (?:Número de orientações: (?P<orient>\d*))?", descricaodoprojeto.encode("utf-8"))
-                        m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))?", descricaodoprojeto.encode("utf-8"))
+                        m = re.search("(Descrição: (?P<desc>.*))? (Situação: (?P<status>.*))? (Natureza: (?P<nat>.*))? (?:Alunos envolvidos: (?P<envolvidos>.*))? (Integrantes: (?P<integrantes>.*))? (?:Financiador\(es\): (?P<financ>.*))?", descricaodoprojeto.encode("utf-8"))
 
                     proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
                     if(Projeto.objects.filter(nome=nome).__len__()==0):
                         proj.save()
 
+                    print(nome)
+
                     if m is not None:
-                        # print(m.groups())
+                        print(m.groups())
                         desc = m.group('desc')
                         situacao = m.group('status')
                         natureza = m.group('nat')
@@ -232,16 +234,19 @@ def executeLeitorXML():
                         proj.save()
 
                         integrante = re.split(" - Integrante / | - Integrante. | - Coordenador / | - Coordenador. ", integrantes, re.UNICODE)
+
                         # integrante = re.search("([\w\s]*) - Integrante|- Coordenador", integrantes, re.UNICODE)
                         # integrante = re.search("r'[a-zA-Zà-ú][0-9a-zà-úA-Z]*) - Integrante|- Coordenador", integrantes.decode("utf-8"))
+
                         if integrante is not None:
                             for itens in integrante:
                                 novoIntegrante = itens
+                                print(novoIntegrante)
                                 if not (itens.__contains__("Financiador(es):")):
                                     if itens.__contains__(' -'):
                                         novoIntegrante = itens.replace(' -', '')
-                                    print(novoIntegrante)
-                                # try:
+                                    # print(novoIntegrante)
+
                                 dados = DadosDeProfessor.objects.filter(nome = novoIntegrante)
                                 nomeProf = None
                                 try:
@@ -251,33 +256,27 @@ def executeLeitorXML():
                                 nomeIntegrante = Integrante.objects.filter(nome=novoIntegrante)
                                 nomeIntegranteProf = Integrante.objects.filter(nome=novoIntegrante)
 
-                                if(dados.__len__()==0 and not novoIntegrante.__contains__("Financiador(es):")):
+                                if(dados.__len__()==0 and not novoIntegrante.__contains__("Financiador(es):") and not novoIntegrante.__contains__("Número de produções") and not novoIntegrante.__contains__("Número de orientações:")):
                                     if(nomeProf is not None):
                                         novoDado =  DadosDeProfessor(nome=novoIntegrante, professorDados=nomeProf)
                                         novoDado.save()
                                     else:
-                                        if nomeIntegrante is not None:
-                                            integ = Integrante(nome=novoIntegrante, ehCoordenador=False)
-                                            # if Integrante.objects.filter(nome=integ.nome) is None:
-                                            integ.save()
-                                            if not  Projeto.objects.filter(integrantes=integ, nome=proj.nome):
-                                                proj.integrantes.add(integ)
+                                        # if not nomeIntegrante:
+                                        integ = Integrante(nome=novoIntegrante, ehCoordenador=False)
+                                        integ.save()
+                                        if not  Projeto.objects.filter(integrantes__nome=integ.nome, nome=proj.nome):
+                                            proj.integrantes.add(integ)
 
-                                if nomeIntegranteProf is not None and nomeProf is not None and not novoIntegrante.__contains__("Financiador(es):")  :
+                                if nomeProf is not None and not novoIntegrante.__contains__("Financiador(es):") and not novoIntegrante.__contains__("Número de produções")  and not novoIntegrante.__contains__("Número de orientações:") :
                                     prof = Professor.objects.get(nome=novoIntegrante)
                                     integProf = IntegranteProfessor(nome= novoIntegrante, ehCoordenador=False, professor=prof)
-                                    # if  IntegranteProfessor.objects.filter(nome = novoIntegrante) is None:
-                                    integProf.save()
-                                    if not Projeto.objects.filter(integrantesProfessor=integProf, nome=proj.nome) :
-                                        proj.integrantesProfessor.add(integProf)
-                                # except
-                                #     print("Erro")
 
-                        # import re
-                        # m = re.search("Descrição: (.*) Situação: (.*) Natureza: (.*) Integrantes: (.*)", descricao.encode("utf-8"))
-                        # m.group(0)
-                        # m.group(1)
-                        # print("NOVO"+m.group(1))
+                                    integProf.save()
+
+                                    if not Projeto.objects.filter(integrantesProfessor__nome=integProf.nome, nome=proj.nome) :
+                                        print(nome, integProf.nome)
+                                        proj.integrantesProfessor.add(integProf)
+
 
 
             for areaatuacao in child1.iter('area_atuacao'):
@@ -419,6 +418,7 @@ def executeLeitorXML():
                         art.save()
                         artigo=art
 
+                    # print("Autores" + autores)
 
                     for i in autores.split(" ; "):
                         i= i.strip()

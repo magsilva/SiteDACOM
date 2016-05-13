@@ -921,12 +921,14 @@ table {
 .primeiraLinhaDaTabela{
     height: 50px;
     background-color:#f9c61f;
-font-weight: bold;
-text-align:center;
+    font-weight: bold;
+    text-align:center;
 }
 .outrasLinhas{
     text-align:center;
     height:25px;
+    width:40px;
+
 
 
 }

@@ -76,6 +76,10 @@
                                           <h5>Bolsa Produtividade:</h5>  {{detailsProf.bolsaprodutividade}}<br/>
                                           <h5>Resumo:</h5>  {{detailsProf.textoResumo}}<br/>
                                           <h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{detailsProf.lattes}}">clique aqui</a><br/>
+                                            <h5>Projeto(s): </h5>
+                                                      {%for i in proj %}
+                                                        <a href="{% url 'desenvolvimento:projetos' %}/{{i.nome}}">{{i.nome}}</a>;
+                                                      {%endfor %}
  <!--Dados: {% for i in detailsDado%}-->
                                                     <!--{{ i.nome  }}-->
                                                 <!--{%  endfor %}-->

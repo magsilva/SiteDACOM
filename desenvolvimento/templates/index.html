@@ -72,12 +72,15 @@
                                           <h5>Resumo:</h5>  {{project.resumo}}<br/>
                                           <!--<h5>-->
 
-                                            <b>  Professores Participante(s) </b>{% for i in project.integrantesProfessor.all %}
-                                              <a href="{%url 'desenvolvimento:professor' %}/{{i.professor.nome}}">{{i}} </a>;
+                                            <b>  Professores Participante(s): </b><br>{% for i in project.integrantesProfessor.all %}
+                                         <img src="{{ i.professor.profile_image }}" height="100"/>
+                                         <a href="{%url 'desenvolvimento:professor' %}/{{i.professor.nome}}">{{   i}} </a>;<br>
+
+
                                               {% endfor%}
                                               <br>
-                                             <b>Integrante(s): </b> {% for i in project.integrantes.all %}
-                                              {{i }};
+                                              {% for i in project.integrantes.all %}
+                                              <b>Integrante: </b>{{i }};
                                               {% endfor%}
                                               <br>
 

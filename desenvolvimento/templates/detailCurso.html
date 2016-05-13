@@ -89,7 +89,7 @@
                             <td>{{detalhes.disciplina.cargaHorariaPratica}}</td>
                             <td>{{detalhes.disciplina.cargaHorariaTeorica}}</td>
 
-                              <td>{% for i in detalhes.disciplina.prerequisito.all%}{{i}},{%endfor%}</td>
+                              <td>{{detalhes.disciplina.prerequisito.all}}</td>
 
                               <td>{% for i in detalhes.disciplina.equivalencia.all%}{{i}},{%endfor%}</td>
                               <td>{% for i in detalhes.disciplina.objetivo.%}{{i}},{%endfor%}</td>
