@@ -38,7 +38,7 @@
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="dacom/search" method="get">
+                    <form action="/dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -55,9 +55,17 @@
                 <h2>Ementa detalhes</h2>
                    <b>Código: </b> {{detailEmenta.sigla}}</br>
                     <b>Disciplina: </b> {{detailEmenta.nome}}</br>
-                    <b>Carga Horaria Pratica: </b>{{detailEmenta.cargaHorariaPratica}}</br>
-                    <b>Carga Horaria  Teórica: </b>{{detailEmenta.cargaHorariaTeorica}}</br>
+                    <b>Carga Horaria Pratica: </b>{{detailEmenta.cargaHorariaPratica}}h</br>
+                    <b>Carga Horaria  Teórica: </b>{{detailEmenta.cargaHorariaTeorica}}h</br>
+                    <b>Carga Horaria Atividade Prática Supervisionada: </b>{{detailEmenta.cargaHorariaAPS}}h</br>
+                    <b>Carga Horaria  Total: </b>{{detailEmenta.cargaHorariaTotal}}h</br>
                     <b>Ementa: </b>{{detailEmenta.ementa}}</br>
+                   <b>Pré-requisito: </b>{% for i in detailEmenta.prerequisito.all %} {{i}}{%endfor%}</br>
+
+                    <b>Equivalencia: </b> {% for i in detailEmenta.equivalencia.all%}{{i}},{%endfor%}</br>
+                    <b>Objetivo: </b>{% for i in detailEmenta.objetivo.%}{{i}},{%endfor%}</br>
+                    <b>Periodo:</b> {{detalhes.periodo}}<br>
+
                      <div class="download">
                         <!--<div class="title">{{detailEmenta.file.name}}</div>-->
                         <!--<div class="size">{{detailEmenta.file.size}} bytes</div>-->

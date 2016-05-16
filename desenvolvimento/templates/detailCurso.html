@@ -38,7 +38,7 @@
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="dacom/search" method="get">
+                    <form action="/dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -73,9 +73,15 @@
                       <tr class="primeiraLinhaDaTabela">
                          <b> <td> Código </td>
                             <td> Disciplina </td>
-                            <td> Carga Horaria Pratica </td>
-                            <td> Carga Horaria  Teórica </td>
-                             <td> Pré-Requisito </td>
+                            <td> Carga Horaria
+                                <br>Pratica </td>
+                            <td> Carga Horaria
+                                 <br>Teórica </td>
+                             <td> Carga Horaria
+                                 <br>Atividade<br> Pŕatica<br> Supervisionada </td>
+                             <td> Carga Horaria
+                                 <br>Total </td>
+                             <td> Prerrequisito </td>
                              <td> Equivalência </td>
                              <td> Objetivo </td>
                             <td> Periodo </td>
@@ -86,10 +92,13 @@
                       <tr class="outrasLinhas">
                             <td>{{detalhes.disciplina.sigla}}</td>
                             <td>{{detalhes.disciplina.nome}}</td>
-                            <td>{{detalhes.disciplina.cargaHorariaPratica}}</td>
-                            <td>{{detalhes.disciplina.cargaHorariaTeorica}}</td>
+                            <td>{{detalhes.disciplina.cargaHorariaPratica}}h</td>
+                            <td>{{detalhes.disciplina.cargaHorariaTeorica}}h</td>
+                          <td>{{detalhes.disciplina.cargaHorariaAPS}}h</td>
+                          <td>{{detalhes.disciplina.cargaHorariaTotal}}h</td>
 
-                              <td>{{detalhes.disciplina.prerequisito.all}}</td>
+                              <!--<td>{{ detalhes.disciplina.prerequisito}}</td>-->
+                              <td>{% for i in detalhes.disciplina.prerequisito.all %}{{i}}{%endfor%}</td>
 
                               <td>{% for i in detalhes.disciplina.equivalencia.all%}{{i}},{%endfor%}</td>
                               <td>{% for i in detalhes.disciplina.objetivo.%}{{i}},{%endfor%}</td>

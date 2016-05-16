@@ -16,6 +16,8 @@ from operator import and_, or_, attrgetter
 def index(request):
     listadeProjetos = Projeto.objects.distinct().filter(datadefim='2016').order_by('-datadefim')
     listadeArtigos = ArtigoEmPeriodico.objects.distinct().filter(data='2016').order_by('-data')
+    # listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
+    # listadeArtigos = ArtigoEmPeriodico.objects.distinct().all().order_by('-data')
 
     integrantes = Integrante.objects.distinct().all()
     integrantesProfessor = IntegranteProfessor.objects.distinct().all()

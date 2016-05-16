@@ -17,7 +17,6 @@ from desenvolvimento.models import DadosDeProfessor
 from desenvolvimento.models import Disciplina
 from desenvolvimento.models import RelacaoDisciplinaCurso
 from desenvolvimento.models import PlanoDeAula
-
 from desenvolvimento.models import Matriz
 
 

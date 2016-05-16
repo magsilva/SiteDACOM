@@ -57,6 +57,10 @@
                         {% for result in page.object_list %}
                         <p>
                          <b> <a href="{% url 'desenvolvimento:projetos' %}/{{result.object.nome}}">{{ result.object.nome }}</a></b></br>
+
+                            ARTIGO {{ result.object.titulo }}
+
+
                             Data de ìnicio: {{ result.object.datainicio}}<br/>
                             Data de Término: {{result.object.datadefim}}<br/>
                             Resumo: {{ result.object.resumo}}<br/>

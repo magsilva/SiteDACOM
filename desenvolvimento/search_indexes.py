@@ -1,6 +1,6 @@
 import datetime
-import site
-
+import django
+import desenvolvimento
 from haystack import indexes
 from desenvolvimento.models import *
 
@@ -35,3 +35,7 @@ class ArtigoSearch(indexes.SearchIndex, indexes.Indexable):
     def index_queryset(self,using=None):
         """Used when the entire index for model is updated."""
         return self.get_model().objects.filter().all()
+
+
+# desenvolvimento.site.register(Projeto, ProjetoSearch)
+# desenvolvimento.site.register(Artigo, ArtigoSearch)

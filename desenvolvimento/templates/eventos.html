@@ -37,7 +37,7 @@
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
                 <li class="start selected"><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
-                    <form action="dacom/search" method="get">
+                    <form action="/dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
@@ -51,47 +51,47 @@
         <section id="content">
             <br class="expanded">
                 <h2>Eventos</h2>
-                  <!--{%for e in eventos%}-->
-                  <!--<div class="quadradoInteiro">-->
-                                 <!--<a href="{{project.nome}}/">   <h3 class="titulo">Evento: {{ e.titulo}}</h3></a>-->
-                                     <!--<div class="tab">-->
-                                          <!--<a href="{{project.id}}/">-->
-                                                <!--<div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>-->
-                                          <!--</a>-->
-                                          <!--<h5>DOI:</h5> {{e.doi}}<br/>-->
-                                          <!--<h5>Autores:</h5>  {{e.autores}}<br/>-->
-                                          <!--<h5>Data:</h5>  {{e.ano}}<br/>-->
-                                          <!--<h5>Volume:</h5>  {{e.volume}}<br/>-->
-                                          <!--<h5>Paginas:</h5>  {{e.paginas}}<br/>-->
-                                         <!--Autores:-->
-                                          <!--&lt;!&ndash;<h5>Integrantes:<br/>&ndash;&gt;-->
-                                           <!--{% if e.professoresDoEvento %}-->
-                                              <!--{% for i in e.professoresDoEvento.all %}-->
-                                                    <!--{{ i.nome }}-->
-                                              <!--{% endfor %}-->
-                                         <!--{% endif %}-->
+                  {%for e in eventos%}
+                  <div class="quadradoInteiro">
+                                 <a href="{{project.nome}}/">   <h3 class="titulo">Evento: {{ e.titulo}}</h3></a>
+                                     <div class="tab">
+                                          <a href="{{project.id}}/">
+                                                <div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>
+                                          </a>
+                                          <h5>DOI:</h5> {{e.doi}}<br/>
+                                          <h5>Autores:</h5>  {{e.autores}}<br/>
+                                          <h5>Data:</h5>  {{e.ano}}<br/>
+                                          <h5>Volume:</h5>  {{e.volume}}<br/>
+                                          <h5>Paginas:</h5>  {{e.paginas}}<br/>
+                                         Autores:
+                                          <!--<h5>Integrantes:<br/>-->
+                                           {% if e.professoresDoEvento %}
+                                              {% for i in e.professoresDoEvento.all %}
+                                                    {{ i.nome }}
+                                              {% endfor %}
+                                         {% endif %}
 
 
-                                     <!--</div>-->
-                                <!--<br/>-->
-                            <!--</div>-->
+                                     </div>
+                                <br/>
+                            </div>
 
-          <!--{%endfor%}-->
-                    <!--<div class="pagination">-->
-                        <!--<br>-->
-    <!--<span class="step-links">-->
-        <!--{% if eventos.has_previous %}<p></p>-->
+          {%endfor%}
+                    <div class="pagination">
+                        <br>
+    <span class="step-links">
+        {% if eventos.has_previous %}<p></p>
 
-            <!--<a href="?page={{ eventos.previous_page_number }}"><br>Anterior</a>-->
-        <!--{% endif %}-->
+            <a href="?page={{ eventos.previous_page_number }}"><br>Anterior</a>
+        {% endif %}
 
-        <!--<span class="current">-->
-            <!--Página {{ eventos.number }} de {{ eventos.paginator.num_pages }}-->
-        <!--</span>-->
+        <span class="current">
+            Página {{ eventos.number }} de {{ eventos.paginator.num_pages }}
+        </span>
 
-        <!--{% if eventos.has_next %}-->
-            <!--<a href="?page={{ projects.next_page_number }}">Próxima</a>-->
-        <!--{% endif %}-->
+        {% if eventos.has_next %}
+            <a href="?page={{ projects.next_page_number }}">Próxima</a>
+        {% endif %}
     </span>
                     </div>
 
