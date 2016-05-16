@@ -62,6 +62,7 @@
                         <!--<div class="title">{{detailEmenta.file.name}}</div>-->
                         <!--<div class="size">{{detailEmenta.file.size}} bytes</div>-->
                         <div class="size">{{detailPlanoDeAula.upload.size|filesizeformat}}</div>
+                         <a href='{{ MEDIA_URL }}{{ detailPlanoDeAula.upload }}'>{{ file.name }}</a>
                     </div>
                 </ul>
             </article>

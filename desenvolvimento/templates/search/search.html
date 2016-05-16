@@ -56,11 +56,22 @@
                         <h3>Resultados</h3>
                         {% for result in page.object_list %}
                         <p>
-                         <b> <a href="{{ result.object.get_absolute_url }}">{{ result.object.nome }}</a></b></br>
-                          Professor: {{ result.object.professor }}<br/>
+                         <b> <a href="{% url 'desenvolvimento:projetos' %}/{{result.object.nome}}">{{ result.object.nome }}</a></b></br>
                             Data de ìnicio: {{ result.object.datainicio}}<br/>
                             Data de Término: {{result.object.datadefim}}<br/>
                             Resumo: {{ result.object.resumo}}<br/>
+                                          <b>  Professores Participante(s): </b><br>{% for i in result.object.integrantesProfessor.all %}
+                                         <img src="{{ i.professor.profile_image }}" height="100"/>
+                                         <a href="{%url 'desenvolvimento:professor' %}/{{i.professor.nome}}">{{   i}} </a>;<br>
+
+
+                                              {% endfor%}
+                                              <br>
+                                             {% for i in result.object.integrantes.all %}
+                                              <b>Integrante: </b> {{i }};
+                                              {% endfor%}
+                                              <br>
+
                         </p>
                         {% empty %}
                         <p>Não foi encontrado nada.</p>

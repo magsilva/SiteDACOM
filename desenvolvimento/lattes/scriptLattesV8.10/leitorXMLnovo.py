@@ -213,7 +213,10 @@ def executeLeitorXML():
 
                        # m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))? (?:Número de produções C, T A: (?P<prod>\d*))? (?:Número de orientações: (?P<orient>\d*))?", descricaodoprojeto.encode("utf-8"))
                         m = re.search("(Descrição: (?P<desc>.*))? (Situação: (?P<status>.*))? (Natureza: (?P<nat>.*))? (?:Alunos envolvidos: (?P<envolvidos>.*))? (Integrantes: (?P<integrantes>.*))? (?:Financiador\(es\): (?P<financ>.*))?", descricaodoprojeto.encode("utf-8"))
-
+                    if ano_conclusao =='Atual':
+                        ano_conclusao='2016'
+                    if ano_inicio == 'Atual':
+                        ano_inicio='2016'
                     proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
                     if(Projeto.objects.filter(nome=nome).__len__()==0):
                         proj.save()
