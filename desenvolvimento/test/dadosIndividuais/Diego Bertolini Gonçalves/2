@@ -1,0 +1,6 @@
+ <projeto>
+          <ano_inicio>2015</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Identificação de Escritores através de Manuscritos Árabes</nome>
+          <descricao>Descrição: Neste trabalho nosso objetivo é utilizar o manuscrito como textura, e empregar descritores de textura para representação de escritores. A partir disso utilizaremos abordagem de dissimilaridade para na qual novas classes podem ser inseridas sem retreinamento do modelo. Neste trabalho, nosso objetivo é analisar o impacto no desempenho ao inserir novas classes do conjunto de teste e até que ponto o modelo gerado ainda consegue fazer uma boa classificação.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Diego Bertolini Gonçalves - Coordenador / Guilherme Pereira Noya - Integrante.</descricao>
+        </projeto>

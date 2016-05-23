@@ -58,8 +58,13 @@ class Curso(models.Model):
     contato = models.CharField('Contato', max_length=100, null=True, blank=True)
     matrizAtual = models.ForeignKey('Matriz', related_name="matrizNome",  null=True, blank=True)
     regulamentacao  =  models.CharField('Regulamentacao',  max_length=1000, null=True, blank=True )
+    # PPP = models.CharField("Projeto Politico Pedagogico Institucional")
+    # PDI = models.CharField("Plano de Desenvolvimento Institucional")
+    # Regulamento =
     def __unicode__(self):
         return self.nome
+
+
 
 class Matriz(models.Model):
     atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
@@ -70,11 +75,17 @@ class Matriz(models.Model):
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)
     curso =  models.ForeignKey("curso")
     numero =  models.IntegerField(default=0)
+    # projetoPedagogico =  models.CharField("Projeto pedagogico")
 
     def __unicode__(self):
         return self.curso.nome
     # matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)#comentar
     #
+
+# class Colegiado(models.Model):
+#     professores = models.ManyToManyField(Professor, related_name='colegiado', blank=True)
+#
+
 
 class Disciplina(models.Model):
     nome = models.CharField('Nome da Disciplina', max_length=50, null=True, blank=True)
@@ -209,8 +220,6 @@ def user_directory_path(instance, filename):
 
 class PlanoDeAula(models.Model):
 
-
-
     upload = models.FileField(upload_to=user_directory_path,null=True, blank=True)
     disciplina= models.ForeignKey(Disciplina, related_name="Disciplina")
     ano = models.CharField('Ano',max_length=4, null=True, blank=True )
@@ -218,3 +227,143 @@ class PlanoDeAula(models.Model):
     codigodeTurma = models.CharField('codigodaTurma', max_length=15, null=True, blank=True)
     # upload = sigladocursop + plano de aula/ano/semestre
     #nome do arquivo:  codigodadisciplina + codigodeturma
+#
+# class Semestre(models.Model):
+#     professor =  models.ForeignKey(Professor)
+#     disciplina = models.ForeignKey(RelacaoDisciplinaCurso)
+#     turma = models.CharField("Turma")
+#     relacaoDiaHorarioAula = models.ManytoManyField(RelacaoDiaDaSemanaHorarioDeAula)
+#
+#
+#     )
+#
+#class DiaDaSemana(models.Model):
+#     Segunda = 'SE'
+#     Terca  = 'TE'
+#     Quarta = 'QA'
+#     Quinta = 'QI'
+#     Sexta = 'SX'
+#     Sabado ='SA'
+
+#     DIAS_DA_SEMANA =(
+#        (Segunda, "Segunda"),
+#        (Terca, "Terca"),
+#        (Quarta, 'Quarta'),
+#        (Quinta, "Quinta"),
+#        (Sexta, "Sexta"),
+#        (Sabado, "Sabado"),
+#     )
+#     diaDaSemana =models.CharField(max_length=2, choices=DIAS_DA_SEMANA, default=Segunda)
+#
+#     class HorarioDaAula(models.Model):
+
+#     M1 = 'M1'
+#     M2 = 'M2'
+#     M3 = 'M3'
+#     M4 = 'M4'
+#     M5 = 'M5'
+#     M6 = 'M6'
+#     T1 = 'T1'
+#     T2 = 'T2'
+#     T3 = 'T3'
+#     T4 = 'T4'
+#     T5 = 'T5'
+#     T6 = 'T6'
+#     N1 = 'N1'
+#     N2 = 'N2'
+#     N3 = 'N3'
+#     N4 = 'N4'
+#     N5 = 'N5'
+#
+
+#
+#     HORARIO_DE_AULA = (
+#       (M1, "07h30 - 08h20"),
+#       (M2, "08h20 - 09h10"),
+#       (M3, "09h10 - 10h00"),
+#       (M4, "10h20 - 11h10"),
+#       (M5, "11h10 - 12h00"),
+#       (M6, "12h00 - 12h50"),
+#       (T1, "13h00 - 13h50"),
+#       (T2, "13h50 - 14h40"),
+#       (T3, "14h40 - 15h30"),
+#       (T4, "15h50 - 16h40"),
+#       (T5, "16h40 - 17h30"),
+#       (T6, "17h30 - 18h20"),
+#       (N1, "18h40 - 19h30"),
+#       (N2, "19h30 - 20h20"),
+#       (N3, "20h20 - 21h10"),
+#       (N4, "21h20 - 22h10"),
+#     (N5, "22h10 - 23h00"),
+    # )
+#
+#
+#
+#
+#
+#     horarioDeAula = models.CharField(max_length=13, choices=HORARIO_DE_AULA, default=M1)
+
+
+
+
+
+
+#class RelacaoDiaDaSemanaHorarioDeAula(models.Model):
+#   dia =  Models.ForeginKeyField(DiaDaSemana)
+#   horario = models.ForeignKeyField(HorarioDaAula)
+#
+#
+#
+
+
+
+
+
+
+
+# class Colegiado(models.Model):
+#     professorCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
+#     professorResponsavelPeloEstagio = models.ForeignKey(Professor, related_name='professorResponsavelPeloEstagio')
+#     professorResponsavelPeloTCC = models.ForeignKey(Professor, related_name='professorResponsavelPeloTCC')
+#     professorResponsavelPelasAtividadesCompl = models.ForeignKey(Professor, related_name='professorResponsavelPelasAtividadesCompl')
+#     professoreEleitos =  models.ManyToManyField(Professor, related_name='professoreEleitos')
+#     professoreSuplentes =  models.ManyToManyField(Professor, related_name='professoreSuplentes')
+#     alunos =  models.ManyToManyField(Aluno, related_name="alunos")
+#     NDE = models.ForeignKey(NDE)
+#
+# class Aluno(models.Model):
+#   nome  = models.CharField("nomeDoAluno")
+#   curso = models.ForeignKey(Curso)
+#   RA = models.IntegerField()
+#   periodo = models.IntegerField()
+#
+#
+#
+# class NDE (models.Model):
+#     professorCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
+#     professores = models.ManyToManyField(Professor)
+#
+# class EmpresaJunior(models.Model):
+#     nome = models.CharField("nomeDaEmpresaJunior")
+#     departamento =models.ForeignKey(DepartamentoAcademico)
+#     descricao = models.CharField("descricao")
+#     informacao = models.CharField("informacao")
+#
+# class CentroAcademico(models.Model):
+#     nome =  models.CharField("nomeDoCA")
+#     curso = models.ForeignKey(Curso)
+#     descricao = models.CharField("descricao")
+#     informacao = models.CharField("informacao")
+#
+# class Estagiario(models.Model):
+#   nome  = models.CharField("nomeDoEstagiario")
+#   funcao =  models.CharField("Funcao")
+#   dataInicial =  models.CharField("dataInicial")
+#   dataFinal =  models.CharField("dataFinal")
+#   curso = models.ForeignKey(Curso)
+#   RA = models.IntegerField()
+#   periodo = models.IntegerField()
+
+# class CalendarioAcademico(models.Models):
+#     data =  models.DateTimeField()
+#     evento = models.CharField("evento", max_lenght=10000)

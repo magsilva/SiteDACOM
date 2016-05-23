@@ -1,0 +1,6 @@
+<projeto>
+          <ano_inicio>2015</ano_inicio>
+          <ano_conclusao>Atual</ano_conclusao>
+          <nome>Identificação de Script Indiano usando Descritores de Textura.</nome>
+          <descricao>Descrição: O principal objetivo neste trabalho é reconhecer o estilo do script indiano o qual determinado documento manuscrito foi redigido. A princípio contamos com quatro diferentes estilos de scripts, sendo eles: Bangla, Oriya, Persian e Roman. O número de documentos manuscritos difere de estilo para estilo. Nesta abordagem utilizaremos um esquema de geração de textura para a partir dos documentos originais podermos gerar uma textura mais representativa do script, para que posteriormente possamos utilizar descritores de textura como características ou mesmo uma Rede Neural Convolucional. Após gerada a textura, dividimos a imagem em blocos de textura. Assim, diferentes tamanhos de blocos podem ser avaliados. O classificador SVM será empregado, utilizando a abordagem um contra todos, com kernel RBF. Neste projeto temos algumas motivações em avaliar outros classificadores como CNN.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Diego Bertolini Gonçalves - Coordenador / Marcos R. Souza - Integrante.</descricao>
+        </projeto>
