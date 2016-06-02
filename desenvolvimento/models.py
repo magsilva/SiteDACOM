@@ -58,7 +58,7 @@ class Curso(models.Model):
     contato = models.CharField('Contato', max_length=100, null=True, blank=True)
     matrizAtual = models.ForeignKey('Matriz', related_name="matrizNome",  null=True, blank=True)
     regulamentacao  =  models.CharField('Regulamentacao',  max_length=1000, null=True, blank=True )
-    # PPP = models.CharField("Projeto Politico Pedagogico Institucional")
+     # PPP = models.CharField("Projeto Politico Pedagogico Institucional")
     # PDI = models.CharField("Plano de Desenvolvimento Institucional")
     # Regulamento =
     def __unicode__(self):
@@ -227,143 +227,157 @@ class PlanoDeAula(models.Model):
     codigodeTurma = models.CharField('codigodaTurma', max_length=15, null=True, blank=True)
     # upload = sigladocursop + plano de aula/ano/semestre
     #nome do arquivo:  codigodadisciplina + codigodeturma
-#
-# class Semestre(models.Model):
-#     professor =  models.ForeignKey(Professor)
-#     disciplina = models.ForeignKey(RelacaoDisciplinaCurso)
-#     turma = models.CharField("Turma")
-#     relacaoDiaHorarioAula = models.ManytoManyField(RelacaoDiaDaSemanaHorarioDeAula)
-#
-#
-#     )
-#
-#class DiaDaSemana(models.Model):
-#     Segunda = 'SE'
-#     Terca  = 'TE'
-#     Quarta = 'QA'
-#     Quinta = 'QI'
-#     Sexta = 'SX'
-#     Sabado ='SA'
 
-#     DIAS_DA_SEMANA =(
-#        (Segunda, "Segunda"),
-#        (Terca, "Terca"),
-#        (Quarta, 'Quarta'),
-#        (Quinta, "Quinta"),
-#        (Sexta, "Sexta"),
-#        (Sabado, "Sabado"),
-#     )
-#     diaDaSemana =models.CharField(max_length=2, choices=DIAS_DA_SEMANA, default=Segunda)
-#
-#     class HorarioDaAula(models.Model):
 
-#     M1 = 'M1'
-#     M2 = 'M2'
-#     M3 = 'M3'
-#     M4 = 'M4'
-#     M5 = 'M5'
-#     M6 = 'M6'
-#     T1 = 'T1'
-#     T2 = 'T2'
-#     T3 = 'T3'
-#     T4 = 'T4'
-#     T5 = 'T5'
-#     T6 = 'T6'
-#     N1 = 'N1'
-#     N2 = 'N2'
-#     N3 = 'N3'
-#     N4 = 'N4'
-#     N5 = 'N5'
-#
+class DiaDaSemana(models.Model):
+    Segunda = 'Segunda'
+    Terca  = 'Terca'
+    Quarta = 'Quarta'
+    Quinta = 'Quinta'
+    Sexta = 'Sexta'
+    Sabado ='Sabado'
 
-#
-#     HORARIO_DE_AULA = (
-#       (M1, "07h30 - 08h20"),
-#       (M2, "08h20 - 09h10"),
-#       (M3, "09h10 - 10h00"),
-#       (M4, "10h20 - 11h10"),
-#       (M5, "11h10 - 12h00"),
-#       (M6, "12h00 - 12h50"),
-#       (T1, "13h00 - 13h50"),
-#       (T2, "13h50 - 14h40"),
-#       (T3, "14h40 - 15h30"),
-#       (T4, "15h50 - 16h40"),
-#       (T5, "16h40 - 17h30"),
-#       (T6, "17h30 - 18h20"),
-#       (N1, "18h40 - 19h30"),
-#       (N2, "19h30 - 20h20"),
-#       (N3, "20h20 - 21h10"),
-#       (N4, "21h20 - 22h10"),
-#     (N5, "22h10 - 23h00"),
-    # )
-#
-#
-#
-#
-#
-#     horarioDeAula = models.CharField(max_length=13, choices=HORARIO_DE_AULA, default=M1)
+    DIAS_DA_SEMANA =(
+       (Segunda, "Segunda"),
+       (Terca, "Terca"),
+       (Quarta, 'Quarta'),
+       (Quinta, "Quinta"),
+       (Sexta, "Sexta"),
+       (Sabado, "Sabado"),
+    )
+    diaDaSemana =models.CharField(max_length=10, choices=DIAS_DA_SEMANA, default=Segunda)
+
+    def __unicode__(self):
+        return self.diaDaSemana
+
+class HorarioDaAula(models.Model):
+
+    M1 = 'M1'
+    M2 = 'M2'
+    M3 = 'M3'
+    M4 = 'M4'
+    M5 = 'M5'
+    M6 = 'M6'
+    T1 = 'T1'
+    T2 = 'T2'
+    T3 = 'T3'
+    T4 = 'T4'
+    T5 = 'T5'
+    T6 = 'T6'
+    N1 = 'N1'
+    N2 = 'N2'
+    N3 = 'N3'
+    N4 = 'N4'
+    N5 = 'N5'
 
 
 
+    HORARIO_DE_AULA = (
+      (M1, "07h30 - 08h20"),
+      (M2, "08h20 - 09h10"),
+      (M3, "09h10 - 10h00"),
+      (M4, "10h20 - 11h10"),
+      (M5, "11h10 - 12h00"),
+      (M6, "12h00 - 12h50"),
+      (T1, "13h00 - 13h50"),
+      (T2, "13h50 - 14h40"),
+      (T3, "14h40 - 15h30"),
+      (T4, "15h50 - 16h40"),
+      (T5, "16h40 - 17h30"),
+      (T6, "17h30 - 18h20"),
+      (N1, "18h40 - 19h30"),
+      (N2, "19h30 - 20h20"),
+      (N3, "20h20 - 21h10"),
+      (N4, "21h20 - 22h10"),
+    (N5, "22h10 - 23h00"),
+    )
 
 
+    horarioDeAula = models.CharField(max_length=13, choices=HORARIO_DE_AULA, default=M1)
 
-#class RelacaoDiaDaSemanaHorarioDeAula(models.Model):
-#   dia =  Models.ForeginKeyField(DiaDaSemana)
-#   horario = models.ForeignKeyField(HorarioDaAula)
-#
-#
-#
+    def __unicode__(self):
+        return self.horarioDeAula
+
+class RelacaoDiaDaSemanaHorarioDeAula(models.Model):
+    dia =  models.ForeignKey(DiaDaSemana,  related_name="diadaaula")
+    horario = models.ForeignKey(HorarioDaAula, related_name="Horariodaaula")
+    def __unicode__(self):
+        return u"%s - %s - %s" % (self.dia.diaDaSemana, "- ", self.horario.horarioDeAula)
+
+class Oferecimento(models.Model):
+    OferecidaPeloProfessor =  models.ManyToManyField(Professor, related_name="Oferecida")
+    disciplina = models.ForeignKey(RelacaoDisciplinaCurso, related_name="Disciplinaoferecida")
+    turma = models.CharField("Turma", max_length=50)
+    sala  = models.CharField("SalaDeAula", max_length=10)
+    relacaoDiaHorarioAula = models.ManyToManyField(RelacaoDiaDaSemanaHorarioDeAula,  related_name="relacaoDoDiadaSemanaHorario")
+    def __unicode__(self):
+        return u"%s - %s - %s - %s" % (self.disciplina, self.turma ,self.OferecidaPeloProfessor, self.relacaoDiaHorarioAula)
+
+class Comissao(models.Model):
+    pass
+
+class Colegiado(Comissao):
+    profCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
+    profResponsavelPeloEstagio = models.ForeignKey(Professor, related_name='professorResponsavelPeloEstagio')
+    profResponsavelPeloTCC = models.ForeignKey(Professor, related_name='professorResponsavelPeloTCC')
+    profResponsavelPelasAtividadesCompl = models.ForeignKey(Professor, related_name='professorResponsavelPelasAtividadesCompl')
+
+class Aluno(models.Model):
+  nome  = models.CharField("nomeDoAluno", max_length=500)
+  cursoDoAluno = models.ForeignKey(Curso,related_name="CursodoAluno")
+  RA = models.IntegerField(default=000000)
+  periodo = models.IntegerField(default=1)
+
+class MembroEleito(models.Model):
+    membroEleitos =  models.ForeignKey(Professor, related_name='MembroEleito')
+    membroSuplentes =  models.ForeignKey(Professor, related_name='MembroSuplente')
+    aluno ="Al"
+    servidor ="SR"
+
+    razao = (
+        (aluno, "Aluno"),
+        (servidor, "Servidor")
+    )
+    razao2 = models.CharField(max_length=10, choices=razao, default=servidor)
+    observacao = models.CharField("Observacao", max_length=500)
+    colegiado = models.ForeignKey(Comissao,related_name="ColegiadodoCurso" )
+    dataInicio = models.DateTimeField()
+    dataFim = models.DateTimeField()
+
+class NDE (Comissao):
+    professorCoordenador = models.ForeignKey(Professor, related_name='ProfessorCoordenador')
+
+class EmpresaJunior(models.Model):
+    nome = models.CharField("nomeDaEmpresaJunior", max_length=100)
+    departamento =models.ForeignKey(DepartamentoAcademico, related_name="Departamento")
+    descricao = models.CharField("descricao", max_length=500)
+    informacao = models.CharField("informacao", max_length=500)
+
+class CentroAcademico(models.Model):
+    nome =  models.CharField("nome Do CA", max_length=500)
+    curso = models.ForeignKey(Curso, max_length=500)
+    descricao = models.CharField("descricao", max_length=500)
+    informacao = models.CharField("informacao", max_length=500)
+
+class Estagiario(models.Model):
+    nome  = models.CharField("nomeDoEstagiario", max_length=500)
+    funcao =  models.CharField("Funcao", max_length=500)
+    dataInicial =  models.DateTimeField()
+    dataFinal =  models.DateTimeField()
 
 
+class CalendarioAcademico(models.Model):
+    data =  models.DateTimeField()
+    evento = models.CharField("evento", max_length=10000)
 
+class Sala(models.Model):
+    sala  = models.CharField("sala", max_length=10)
+    departamento = models.ForeignKey(DepartamentoAcademico, related_name="DepartamerntoAcademico")
+    ehLaboratorio = models.BooleanField(default=False)
 
+class InfraEstrutura(models.Model):
+    chefiaDeDepartamento = models.CharField(500, max_length=100)
+    salaDeProfessores = models.CharField(500, max_length=100)
+    secretaria =models.CharField(500, max_length=100)
+    # salas = models.ManyToOneRel(Sala, related_name="salas")
 
-
-
-# class Colegiado(models.Model):
-#     professorCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
-#     professorResponsavelPeloEstagio = models.ForeignKey(Professor, related_name='professorResponsavelPeloEstagio')
-#     professorResponsavelPeloTCC = models.ForeignKey(Professor, related_name='professorResponsavelPeloTCC')
-#     professorResponsavelPelasAtividadesCompl = models.ForeignKey(Professor, related_name='professorResponsavelPelasAtividadesCompl')
-#     professoreEleitos =  models.ManyToManyField(Professor, related_name='professoreEleitos')
-#     professoreSuplentes =  models.ManyToManyField(Professor, related_name='professoreSuplentes')
-#     alunos =  models.ManyToManyField(Aluno, related_name="alunos")
-#     NDE = models.ForeignKey(NDE)
-#
-# class Aluno(models.Model):
-#   nome  = models.CharField("nomeDoAluno")
-#   curso = models.ForeignKey(Curso)
-#   RA = models.IntegerField()
-#   periodo = models.IntegerField()
-#
-#
-#
-# class NDE (models.Model):
-#     professorCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
-#     professores = models.ManyToManyField(Professor)
-#
-# class EmpresaJunior(models.Model):
-#     nome = models.CharField("nomeDaEmpresaJunior")
-#     departamento =models.ForeignKey(DepartamentoAcademico)
-#     descricao = models.CharField("descricao")
-#     informacao = models.CharField("informacao")
-#
-# class CentroAcademico(models.Model):
-#     nome =  models.CharField("nomeDoCA")
-#     curso = models.ForeignKey(Curso)
-#     descricao = models.CharField("descricao")
-#     informacao = models.CharField("informacao")
-#
-# class Estagiario(models.Model):
-#   nome  = models.CharField("nomeDoEstagiario")
-#   funcao =  models.CharField("Funcao")
-#   dataInicial =  models.CharField("dataInicial")
-#   dataFinal =  models.CharField("dataFinal")
-#   curso = models.ForeignKey(Curso)
-#   RA = models.IntegerField()
-#   periodo = models.IntegerField()
-
-# class CalendarioAcademico(models.Models):
-#     data =  models.DateTimeField()
-#     evento = models.CharField("evento", max_lenght=10000)

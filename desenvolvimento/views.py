@@ -29,9 +29,13 @@ def index(request):
 def curso(request):
     listaDeCursos = Curso.objects.all().order_by('-nome')
     listaDeCoordenacao = Coordenacao.objects.all().order_by('-coordenador')
+    listaDeColegiado = Colegiado.objects.all()
+    empresaJunior = EmpresaJunior.objects.all()
+    ca = CentroAcademico.objects.all()
     t = loader.get_template('curso.html')
     c = RequestContext(request, {
-        'listaDeCursos': listaDeCursos,'listaDeCoordenacao':listaDeCoordenacao,
+        'listaDeCursos': listaDeCursos,'listaDeCoordenacao':listaDeCoordenacao, 'listaDeColegiado':listaDeColegiado,
+        'empresaJunior':empresaJunior, 'ca':ca
     })
     return HttpResponse(t.render(c))
 
@@ -100,9 +104,10 @@ def detailCursoEmenta(request, sigla_curso, ementa):
      try:
         detailEmenta = Disciplina.objects.filter(nome=ementa)[0]
         detailPlanoDeAula =  PlanoDeAula.objects.filter(codigodeTurma=detailEmenta.sigla).distinct()
+        detaiOferecimento = Oferecimento.objects.filter(disciplina__disciplina__nome=detailEmenta.nome)
      except Disciplina.DoesNotExist:
          raise Http404("ProjetoNaoExiste")
-     return render(request, 'detailEmenta.html', {'detailEmenta': detailEmenta, 'detailPlanoDeAula':detailPlanoDeAula})
+     return render(request, 'detailEmenta.html', {'detailEmenta': detailEmenta, 'detailPlanoDeAula':detailPlanoDeAula, 'detaiOferecimento':detaiOferecimento})
 
 
 

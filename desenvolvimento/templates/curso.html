@@ -76,6 +76,24 @@
 
                     {%  endfor%}
                     {% endfor %}
+                  Colegiado:
+                  {%for i in listaDeColegiado %}
+                   Professor Coordenador: <a href="{%url 'desenvolvimento:professor' %}"> {{i.profCoordenador}}</a>
+                   Professor Responsável Pelo Estágio:<a href="{%url 'desenvolvimento:professor' %}"> {{i.profResponsavelPeloEstagio}}</a>
+                   Professor Responsável Pelo TCC: <a href="{%url 'desenvolvimento:professor' %}">{{i.profResponsavelPeloTCC}}</a>
+                   Professor Responsável Pelas Atividades Complementares:<a href="{%url 'desenvolvimento:professor' %}"> {{i.profResponsavelPelasAtividadesCompl}}</a>
+                  {%endfor%}
+                  <br/>
+                  Empresa Júnior:
+                  {%for i in empresaJunior%}
+                    {{i.nome}}
+                  {%endfor%}
+                  <br/>
+                  Centro Acadêmico:
+                  {%for i in ca%}
+                  {{ i.nome}}
+                  {%endfor%}
+
                 </ul>
                 <!--<a href="detalhes.html" class="button">Leia Mais</a>-->
                 <!--<a href="detalhes.html" class="button">Comentários</a>-->

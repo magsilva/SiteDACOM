@@ -1,23 +1,6 @@
 from django.contrib import admin
 
-
-from desenvolvimento.models import DepartamentoAcademico
-from desenvolvimento.models import Curso
-from desenvolvimento.models import Professor
-from desenvolvimento.models import Coordenacao
-from desenvolvimento.models import Artigo
-from desenvolvimento.models import ArtigoEmPeriodico
-from desenvolvimento.models import ArtigoEmConferencia
-from desenvolvimento.models import AreaDeAtuacao
-from desenvolvimento.models import Evento
-from desenvolvimento.models import Integrante
-from desenvolvimento.models import IntegranteProfessor
-from desenvolvimento.models import Projeto
-from desenvolvimento.models import DadosDeProfessor
-from desenvolvimento.models import Disciplina
-from desenvolvimento.models import RelacaoDisciplinaCurso
-from desenvolvimento.models import PlanoDeAula
-from desenvolvimento.models import Matriz
+from desenvolvimento.models import *
 
 
 admin.site.register(DepartamentoAcademico)
@@ -37,5 +20,13 @@ admin.site.register(Disciplina)
 admin.site.register(RelacaoDisciplinaCurso)
 admin.site.register(Matriz)
 admin.site.register(PlanoDeAula)
-
-
+admin.site.register(DiaDaSemana)
+admin.site.register(HorarioDaAula)
+admin.site.register(Oferecimento)
+admin.site.register(Comissao)
+admin.site.register(Colegiado)
+admin.site.register(Aluno)
+admin.site.register(Estagiario)
+admin.site.register(MembroEleito)
+admin.site.register(NDE)
+admin.site.register(RelacaoDiaDaSemanaHorarioDeAula)

@@ -129,11 +129,20 @@ DATABASES = {
         'PASSWORD': 'Humberto1!',
         'HOST': '',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',  # Set to empty string for default.
+
+    },
+    'replica': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'TESTEUTFPR',
+        'USER': 'root',
+        'PASSWORD': 'Humberto1!',
+        'HOST': '',
+        'TEST': {
+            'MIRROR': 'default',
+            'DEPENDENCY': 'default'
+        },
+        # ... plus some other settings
     }
-    # 'Outra': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': 'mydatabase',
-    # }
 }
 
 
