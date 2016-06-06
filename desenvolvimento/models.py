@@ -1,5 +1,6 @@
 import os
 
+
 from django.db import models
 from django.db.models import ImageField
 
@@ -10,15 +11,18 @@ class DepartamentoAcademico(models.Model):
     nome = models.CharField('Nome', max_length=100)
     sigla = models.CharField('Sigla', max_length=100)
 
+
     def __unicode__(self):
         return self.nome
 
-class Professor(models.Model):
+class Pessoa(models.Model):
     nome = models.CharField('Nome', max_length=100)
     email = models.CharField('E-mail', max_length=200, null=True, blank=True)
     telefone = models.CharField('Telefone', max_length=20, null=True, blank=True)
+
+class Servidor(Pessoa):
     departamento = models.ForeignKey(DepartamentoAcademico)
-    funcao = models.CharField('Funcao', max_length=100)
+    funcao = models.CharField('Funcao', max_length=100, blank=True, null=True)
     lattes = models.CharField('Link do Lattes', max_length=50, null=True, blank=True)
     bolsaprodutividade = models.CharField('Bolsa Produtividade', max_length=100, null=True, blank=True)
     enderecoprofissional = models.CharField('Endereco Profissional', max_length=5000, null=True, blank=True)
@@ -28,6 +32,13 @@ class Professor(models.Model):
 
     def __unicode__(self):
         return self.nome
+
+class TecnicoAdm(Servidor):
+    pass
+
+class Professor(Servidor):
+    pass
+
 
 class DadosDeProfessor(models.Model):
     nome = models.CharField('nome do professor', max_length=100)
@@ -58,6 +69,7 @@ class Curso(models.Model):
     contato = models.CharField('Contato', max_length=100, null=True, blank=True)
     matrizAtual = models.ForeignKey('Matriz', related_name="matrizNome",  null=True, blank=True)
     regulamentacao  =  models.CharField('Regulamentacao',  max_length=1000, null=True, blank=True )
+
      # PPP = models.CharField("Projeto Politico Pedagogico Institucional")
     # PDI = models.CharField("Plano de Desenvolvimento Institucional")
     # Regulamento =
@@ -133,6 +145,11 @@ class Coordenacao(models.Model):
     coordenador = models.ForeignKey(Professor, related_name='coordenadorCoo')
     suplente = models.ForeignKey(Professor, related_name='suplenteCoo')
     curso = models.ForeignKey(Curso,related_name='Curso' )
+
+class ChefiaDoDepartamento(models.Model):
+    chefe = models.ForeignKey(Professor, related_name='chefeDeDepartamento',blank=True, null=True)
+    suplente = models.ForeignKey(Professor, related_name='suplenteChefe', blank=True, null=True)
+    departamentoAcademico = models.ForeignKey(DepartamentoAcademico,related_name='departamentoAcademico' ,blank=True, null=True )
 
 
 class Integrante(models.Model):
@@ -323,26 +340,28 @@ class Colegiado(Comissao):
     profResponsavelPelasAtividadesCompl = models.ForeignKey(Professor, related_name='professorResponsavelPelasAtividadesCompl')
 
 class Aluno(models.Model):
-  nome  = models.CharField("nomeDoAluno", max_length=500)
-  cursoDoAluno = models.ForeignKey(Curso,related_name="CursodoAluno")
-  RA = models.IntegerField(default=000000)
-  periodo = models.IntegerField(default=1)
+    nome  = models.CharField("nomeDoAluno", max_length=500)
+    cursoDoAluno = models.ForeignKey(Curso,related_name="CursodoAluno")
+    RA = models.IntegerField(default=000000)
+    periodo = models.IntegerField(default=1)
 
 class MembroEleito(models.Model):
-    membroEleitos =  models.ForeignKey(Professor, related_name='MembroEleito')
-    membroSuplentes =  models.ForeignKey(Professor, related_name='MembroSuplente')
-    aluno ="Al"
-    servidor ="SR"
-
-    razao = (
-        (aluno, "Aluno"),
-        (servidor, "Servidor")
-    )
-    razao2 = models.CharField(max_length=10, choices=razao, default=servidor)
+    membroEleitos =  models.ForeignKey(Pessoa, related_name='MembroEleito', blank=True, null=True)
+    membroSuplentes =  models.ForeignKey(Pessoa, related_name='MembroSuplente', null=True, blank=True)
     observacao = models.CharField("Observacao", max_length=500)
-    colegiado = models.ForeignKey(Comissao,related_name="ColegiadodoCurso" )
+    comissao = models.ForeignKey(Comissao,related_name="ComissaoDoCurso", null=True, blank=True )
     dataInicio = models.DateTimeField()
     dataFim = models.DateTimeField()
+    # aluno ="Al"
+    # servidor ="SR"
+    #
+    # razao = (
+    #     (aluno, "Aluno"),
+    #     (servidor, "Servidor")
+    # )
+    #
+    # razao = models.CharField(max_length=10, choices=razao, default=servidor)
+
 
 class NDE (Comissao):
     professorCoordenador = models.ForeignKey(Professor, related_name='ProfessorCoordenador')
@@ -368,22 +387,24 @@ class CentroAcademico(models.Model):
 class Estagiario(models.Model):
     nome  = models.CharField("nomeDoEstagiario", max_length=500)
     funcao =  models.CharField("Funcao", max_length=500)
-    dataInicial =  models.DateTimeField()
-    dataFinal =  models.DateTimeField()
-
+    dataInicial =  models.CharField("DataDeAdmissao",max_length=10, blank=True, null=True)
+    dataFinal =  models.CharField("DataDeConclusao",max_length=10, blank=True, null=True)
 
 class CalendarioAcademico(models.Model):
-    data =  models.DateTimeField()
+    data =  models.CharField("Data", max_length=10, blank=True, null=True)
     evento = models.CharField("evento", max_length=10000)
-
-class Sala(models.Model):
-    sala  = models.CharField("sala", max_length=10)
-    departamento = models.ForeignKey(DepartamentoAcademico, related_name="DepartamerntoAcademico")
-    ehLaboratorio = models.BooleanField(default=False)
 
 class InfraEstrutura(models.Model):
     chefiaDeDepartamento = models.CharField(500, max_length=100)
+    telefoneDaChefia =  models.CharField("TelefoneDoDepartamento", max_length=20,null=True, blank=True)
+    telefoneDaSalaDosProfessores =  models.CharField("TelefoneDaSala", max_length=20,null=True, blank=True)
     salaDeProfessores = models.CharField(500, max_length=100)
     secretaria =models.CharField(500, max_length=100)
     # salas = models.ManyToOneRel(Sala, related_name="salas")
 
+
+class Sala(models.Model):
+    sala  = models.CharField("sala", max_length=100, null=True, blank=True)
+    departamento = models.ForeignKey(DepartamentoAcademico, related_name="DepartamerntoAcademico", null=True, blank=True)
+    ehLaboratorio = models.BooleanField(default=False)
+    infraEstruturaDoDepartamento = models.ForeignKey(InfraEstrutura, related_name="InfraestuturaDoDepartamento", null=True, blank=True)

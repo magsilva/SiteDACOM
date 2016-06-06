@@ -66,6 +66,24 @@
                     <b>Atividades Complementares</b> {{i.matrizAtual.atividadeComplementar}}<br/>
 
                 {% endfor %}
+                <br>
+                Colegiado:
+                  {%for i in listaDeColegiado %}
+                   Professor Coordenador: <a href="{%url 'desenvolvimento:professor' %}"> {{i.profCoordenador}}</a><br/>
+                   Professor Responsável Pelo Estágio:<a href="{%url 'desenvolvimento:professor' %}"> {{i.profResponsavelPeloEstagio}}</a><br/>
+                   Professor Responsável Pelo TCC: <a href="{%url 'desenvolvimento:professor' %}">{{i.profResponsavelPeloTCC}}</a><br/>
+                   Professor Responsável Pelas Atividades Complementares:<a href="{%url 'desenvolvimento:professor' %}"> {{i.profResponsavelPelasAtividadesCompl}}</a>
+                  {%endfor%}
+                  <br/>
+               <br/>   Empresa Júnior:
+                  {%for i in empresaJunior%}
+                    <a href="{{i.linkParaoSite}}">{{i.nome}}</a>
+                  {%endfor%}
+                  <br/>
+                  Centro Acadêmico:
+                  {%for i in ca%}
+                    <a href="i.linkParaoSite"> {{ i.nome}}</a>
+                  {%endfor%}
                </br></br></br></br>
 
                 <table style="width:120%">
@@ -74,6 +92,7 @@
                          <b> <td> Código </td>
                             <td> Disciplina </td>
                             <td> Carga Horaria
+
                                 <br>Pratica* </td>
                             <td> Carga Horaria
                                  <br>Teórica* </td>

@@ -94,10 +94,15 @@ def detailCurso(request, sigla_curso):
      try:
         curso =  Curso.objects.get(sigla=sigla_curso)
         detailCurso = RelacaoDisciplinaCurso.objects.distinct().filter(cursoRelacao=curso.id).order_by('periodo')
+        listaDeColegiado = Colegiado.objects.all()
+        empresaJunior = EmpresaJunior.objects.all()
+        ca = CentroAcademico.objects.all()
         curso = Curso.objects.all()
      except RelacaoDisciplinaCurso.DoesNotExist:
          raise Http404("CursoNaoExiste")
-     return render(request, 'detailCurso.html', {'detailCurso': detailCurso, "curso":curso})
+     return render(request, 'detailCurso.html', {'detailCurso': detailCurso, "curso":curso, 'listaDeColegiado':listaDeColegiado,
+        'empresaJunior':empresaJunior, 'ca':ca
+                                                 })
 
 
 def detailCursoEmenta(request, sigla_curso, ementa):

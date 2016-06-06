@@ -56,7 +56,7 @@
                     <br/>
                     <br/><b>
                     <a href="curso/{{curso.sigla}}/">{{curso.nome|upper }}</a></b><br/>
-                    <a href="curso/{{curso.sigla}}/">detalhes</a></b><br/>
+                    <!--<a href="curso/{{curso.sigla}}/">detalhes</a></b><br/>-->
 
                     <b>Duração</b> {{curso.matrizAtual.duracao}}<br/>
 
@@ -69,8 +69,8 @@
                     <b>Atividades Complementares</b> {{curso.matrizAtual.atividadeComplementar}}<br/>
                     <br/>
                     {%   for coordenacao in listaDeCoordenacao%}
-                    Coordenador  <a href="{%url 'desenvolvimento:professor' %}/{{coordenacao.coordenador.nome}}">{{coordenacao.coordenador}}</a></b><br/>
-                    Suplente  <a href="{%url 'desenvolvimento:professor' %}/{{coordenacao.coordenador.nome}}">{{coordenacao.suplente}}</a></b><br/>
+                    Chefe de Departamento  <a href="{%url 'desenvolvimento:professor' %}/{{coordenacao.coordenador.nome}}">{{coordenacao.coordenador}}</a></b><br/>
+                    Coordenador  <a href="{%url 'desenvolvimento:professor' %}/{{coordenacao.coordenador.nome}}">{{coordenacao.suplente}}</a></b><br/>
 
 
 
@@ -78,13 +78,13 @@
                     {% endfor %}
                   Colegiado:
                   {%for i in listaDeColegiado %}
-                   Professor Coordenador: <a href="{%url 'desenvolvimento:professor' %}"> {{i.profCoordenador}}</a>
-                   Professor Responsável Pelo Estágio:<a href="{%url 'desenvolvimento:professor' %}"> {{i.profResponsavelPeloEstagio}}</a>
-                   Professor Responsável Pelo TCC: <a href="{%url 'desenvolvimento:professor' %}">{{i.profResponsavelPeloTCC}}</a>
+                   Professor Coordenador: <a href="{%url 'desenvolvimento:professor' %}"> {{i.profCoordenador}}</a><br/>
+                   Professor Responsável Pelo Estágio:<a href="{%url 'desenvolvimento:professor' %}"> {{i.profResponsavelPeloEstagio}}</a><br/>
+                   Professor Responsável Pelo TCC: <a href="{%url 'desenvolvimento:professor' %}">{{i.profResponsavelPeloTCC}}</a><br/>
                    Professor Responsável Pelas Atividades Complementares:<a href="{%url 'desenvolvimento:professor' %}"> {{i.profResponsavelPelasAtividadesCompl}}</a>
                   {%endfor%}
                   <br/>
-                  Empresa Júnior:
+               <br/>   Empresa Júnior:
                   {%for i in empresaJunior%}
                     <a href="{{i.linkParaoSite}}">{{i.nome}}</a>
                   {%endfor%}
