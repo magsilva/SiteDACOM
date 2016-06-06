@@ -296,13 +296,13 @@ class HorarioDaAula(models.Model):
     horarioDeAula = models.CharField(max_length=13, choices=HORARIO_DE_AULA, default=M1)
 
     def __unicode__(self):
-        return self.horarioDeAula
+        return self.horarioDeAula.choices
 
 class RelacaoDiaDaSemanaHorarioDeAula(models.Model):
     dia =  models.ForeignKey(DiaDaSemana,  related_name="diadaaula")
     horario = models.ForeignKey(HorarioDaAula, related_name="Horariodaaula")
     def __unicode__(self):
-        return u"%s - %s - %s" % (self.dia.diaDaSemana, "- ", self.horario.horarioDeAula)
+        return u"%s - %s" % (self.dia.diaDaSemana, self.horario.horarioDeAula)
 
 class Oferecimento(models.Model):
     OferecidaPeloProfessor =  models.ManyToManyField(Professor, related_name="Oferecida")
@@ -311,7 +311,7 @@ class Oferecimento(models.Model):
     sala  = models.CharField("SalaDeAula", max_length=10)
     relacaoDiaHorarioAula = models.ManyToManyField(RelacaoDiaDaSemanaHorarioDeAula,  related_name="relacaoDoDiadaSemanaHorario")
     def __unicode__(self):
-        return u"%s - %s - %s - %s" % (self.disciplina, self.turma ,self.OferecidaPeloProfessor, self.relacaoDiaHorarioAula)
+        return u"%s - %s - %s - %s " % (self.disciplina, self.turma ,self.OferecidaPeloProfessor.all, self.relacaoDiaHorarioAula.all)
 
 class Comissao(models.Model):
     pass
@@ -351,13 +351,19 @@ class EmpresaJunior(models.Model):
     nome = models.CharField("nomeDaEmpresaJunior", max_length=100)
     departamento =models.ForeignKey(DepartamentoAcademico, related_name="Departamento")
     descricao = models.CharField("descricao", max_length=500)
-    informacao = models.CharField("informacao", max_length=500)
+    linkParaoSite = models.CharField("linkParaoSite", max_length=100, null=True, blank=True)
+    linkParaAPage =  models.CharField("linkParaAPage", max_length=100, null=True, blank=True)
+    def __unicode__(self):
+        return self.nome
 
 class CentroAcademico(models.Model):
     nome =  models.CharField("nome Do CA", max_length=500)
     curso = models.ForeignKey(Curso, max_length=500)
     descricao = models.CharField("descricao", max_length=500)
-    informacao = models.CharField("informacao", max_length=500)
+    linkParaoSite = models.CharField("linkParaoSite", max_length=100, null=True, blank=True)
+    linkParaAPage =  models.CharField("linkParaAPage", max_length=100, null=True, blank=True)
+    def __unicode__(self):
+        return self.nome
 
 class Estagiario(models.Model):
     nome  = models.CharField("nomeDoEstagiario", max_length=500)

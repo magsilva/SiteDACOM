@@ -65,8 +65,19 @@
                     <b>Equivalencia: </b> {% for i in detailEmenta.equivalencia.all%}{{i}},{%endfor%}</br>
                     <b>Objetivo: </b>{% for i in detailEmenta.objetivo.%}{{i}},{%endfor%}</br>
                     <b>Periodo:</b> {{detalhes.periodo}}<br>
+
                     {%  for i in detaiOferecimento.all %}
-                      {{i.OferecidaPeloProfessor}}, {{i.turma}},  {{i.relacaoDiaHorarioAula}}
+                          <b>  Turma:</b>  {{i.turma}}<br/>
+                          {%for j in i.OferecidaPeloProfessor.all%}
+                         <b> Professor: </b>  {{j}}<br/>
+                          {%endfor%}
+
+                        {%for j in i.relacaoDiaHorarioAula.all%}
+                          <b>  Dia e Horario Da Aula:</b> {{j}}
+                        <br/>
+                        {%endfor%}
+              <br/>
+
                     {%endfor%}
 
 
