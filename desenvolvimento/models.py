@@ -349,7 +349,7 @@ class MembroEleito(models.Model):
     membroEleitos =  models.ForeignKey(Pessoa, related_name='MembroEleito', blank=True, null=True)
     membroSuplentes =  models.ForeignKey(Pessoa, related_name='MembroSuplente', null=True, blank=True)
     observacao = models.CharField("Observacao", max_length=500)
-    comissao = models.ForeignKey(Comissao,related_name="ComissaoDoCurso", null=True, blank=True )
+    colegiado = models.ForeignKey(Comissao,related_name="ComissaoDoCurso", null=True, blank=True )
     dataInicio = models.DateTimeField()
     dataFim = models.DateTimeField()
     # aluno ="Al"

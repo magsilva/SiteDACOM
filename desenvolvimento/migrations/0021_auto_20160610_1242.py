@@ -28,10 +28,6 @@ class Migration(migrations.Migration):
         ),
         migrations.RemoveField(
             model_name='membroeleito',
-            name='colegiado',
-        ),
-        migrations.RemoveField(
-            model_name='membroeleito',
             name='razao2',
         ),
         migrations.RemoveField(
@@ -93,11 +89,6 @@ class Migration(migrations.Migration):
             field=models.CharField(max_length=20, null=True, verbose_name=b'TelefoneDaSala', blank=True),
         ),
         migrations.AddField(
-            model_name='membroeleito',
-            name='comissao',
-            field=models.ForeignKey(related_name='ComissaoDoCurso', blank=True, to='desenvolvimento.Comissao', null=True),
-        ),
-        migrations.AddField(
             model_name='sala',
             name='infraEstruturaDoDepartamento',
             field=models.ForeignKey(related_name='InfraestuturaDoDepartamento', blank=True, to='desenvolvimento.InfraEstrutura', null=True),
@@ -116,6 +107,11 @@ class Migration(migrations.Migration):
             model_name='estagiario',
             name='dataInicial',
             field=models.CharField(max_length=10, null=True, verbose_name=b'DataDeAdmissao', blank=True),
+        ),
+        migrations.AlterField(
+            model_name='membroeleito',
+            name='colegiado',
+            field=models.ForeignKey(related_name='ComissaoDoCurso', blank=True, to='desenvolvimento.Comissao', null=True),
         ),
         migrations.AlterField(
             model_name='membroeleito',
@@ -181,7 +177,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='professor',
             name='servidor_ptr',
-            field=models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, default='novo', serialize=False, to='desenvolvimento.Servidor'),
+            field=models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, default=1, serialize=False, to='desenvolvimento.Servidor'),
             preserve_default=False,
         ),
     ]
