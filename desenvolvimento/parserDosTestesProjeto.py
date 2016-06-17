@@ -1,9 +1,15 @@
+
+# -*- coding: UTF-8 -*-
+# -*- encoding: UTF-8 -*-
+from __future__ import absolute_import
+from __future__ import print_function
+
 import re
 from desenvolvimento.models import Projeto
 
-if __name__ == "__main__":
+def executar(file):
         import xml.etree.ElementTree as et
-        tree = et.parse("test/dadosIndividuais/AlessandroKramer/AlessandroKramer1.xml")
+        tree = et.parse(file)
         root = tree.getroot()
         for child in root.iter("projeto"):
             if child.find('ano_inicio').text is not None:
@@ -16,6 +22,9 @@ if __name__ == "__main__":
                 descricaodoprojeto = child.find('descricao').text
 
             m = re.search("(Descrição: (?P<desc>.*))? (Situação: (?P<status>.*))? (Natureza: (?P<nat>.*))? (?:Alunos envolvidos: (?P<envolvidos>.*))? (Integrantes: (?P<integrantes>.*))? (?:Financiador\(es\): (?P<financ>.*))?", descricaodoprojeto.encode("utf-8"))
+
+            projeto = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
+            projeto.save()
 
             proj = None
             nome= ""
@@ -32,16 +41,13 @@ if __name__ == "__main__":
             if ano_inicio == 'Atual':
                 ano_inicio='2016'
 
-            print(nome)
 
             if m is not None:
-                print(m.groups())
                 desc = m.group('desc')
                 situacao = m.group('status')
                 natureza = m.group('nat')
                 integrantes = m.group('integrantes')
 
-                proj.resumo = desc
-                proj.situacao = situacao
-                proj.natureza =natureza
-                Projeto.objects.create(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio, resumo=desc, situacao=situacao, natureza=natureza,)
+                # Projeto.objects.create(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio, resumo=desc, situacao=situacao, natureza=natureza)
+                projeto = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio, resumo=desc, situacao=situacao, natureza=natureza)
+                projeto.save()

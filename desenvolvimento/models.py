@@ -313,7 +313,7 @@ class HorarioDaAula(models.Model):
     horarioDeAula = models.CharField(max_length=13, choices=HORARIO_DE_AULA, default=M1)
 
     def __unicode__(self):
-        return self.horarioDeAula.choices
+        return self.horarioDeAula
 
 class RelacaoDiaDaSemanaHorarioDeAula(models.Model):
     dia =  models.ForeignKey(DiaDaSemana,  related_name="diadaaula")
@@ -391,15 +391,18 @@ class Estagiario(models.Model):
     dataFinal =  models.CharField("DataDeConclusao",max_length=10, blank=True, null=True)
 
 class CalendarioAcademico(models.Model):
-    data =  models.CharField("Data", max_length=10, blank=True, null=True)
+    from datetime import date
+    dataInicio = models.DateField(("DataInicio"), default=date.today)
+    dataFim = models.DateField(("DataFim"), default=date.today)
+    # data =  models.DateTimeField("Data", max_length=10, blank=True, null=True)
     evento = models.CharField("evento", max_length=10000)
 
 class InfraEstrutura(models.Model):
-    chefiaDeDepartamento = models.CharField(500, max_length=100)
+    chefiaDeDepartamento = models.CharField("chefiaDoDepartamento", max_length=100)
     telefoneDaChefia =  models.CharField("TelefoneDoDepartamento", max_length=20,null=True, blank=True)
     telefoneDaSalaDosProfessores =  models.CharField("TelefoneDaSala", max_length=20,null=True, blank=True)
-    salaDeProfessores = models.CharField(500, max_length=100)
-    secretaria =models.CharField(500, max_length=100)
+    salaDeProfessores = models.CharField("salaDosProfessores", max_length=100)
+    secretaria =models.CharField("secretaria", max_length=100)
     # salas = models.ManyToOneRel(Sala, related_name="salas")
 
 
