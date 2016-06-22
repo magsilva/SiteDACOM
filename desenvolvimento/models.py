@@ -79,9 +79,9 @@ class Curso(models.Model):
 
 
 class Matriz(models.Model):
-    atividadeComplementar = models.CharField('Atividade Complementar', max_length=256, null=True, blank=True)
+    atividadeComplementar = models.CharField('Atividade Complementar', max_length=10000, null=True, blank=True)
     cargaHoraria =  models.CharField('CargaHoraria', max_length=50, null=True, blank=True)
-    estagio =  models.CharField('Estagio',  max_length=256, null=True, blank=True)
+    estagio =  models.CharField('Estagio',  max_length=10000, null=True, blank=True)
     tcc =  models.CharField('tcc',  max_length=10000, null=True, blank=True)
     duracao = models.CharField('Duracao', max_length=50, null=True, blank=True)
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)

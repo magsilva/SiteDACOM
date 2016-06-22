@@ -23,8 +23,8 @@ def executar(file):
 
             m = re.search("(Descrição: (?P<desc>.*))? (Situação: (?P<status>.*))? (Natureza: (?P<nat>.*))? (?:Alunos envolvidos: (?P<envolvidos>.*))? (Integrantes: (?P<integrantes>.*))? (?:Financiador\(es\): (?P<financ>.*))?", descricaodoprojeto.encode("utf-8"))
 
-            projeto = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
-            projeto.save()
+            # projeto = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
+            # projeto.save()
 
             proj = None
             nome= ""
