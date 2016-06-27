@@ -162,28 +162,8 @@ class ProfessorTestCase(TestCase):
         self.assertEquals(proj.nome, u'Mineração de dados e extração e visualização de informações de repositórios de software livre')
 
 
-        # proj = Projeto.objects.get(nome=u"Caracterização de dependências de mudança na evolução de software por meio de métricas sociais, de processo e de código")
-        # self.assertEquals(proj.nome, u'Caracterização de dependências de mudança na evolução de software por meio de métricas sociais, de processo e de código')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        # proj = Projeto.objects.get(nome="")
-        # self.assertEquals(proj.nome, '')
-        #
 
-        def testPossuiProjetoIntegrante(self):
-            proj = Projeto.objects.get(nome=u"CArS - Convergence Area Scheduler")
-            # self.assertEquals(proj.nome, )
-            self.assertEquals(proj.proj__integrantesProfessor__nome, u"Alessandro Kraemer")
-            self.assertEquals(proj.proj__integrantesProfessor__nome, u"Olivier Richard")
+    def testPossuiProjetoIntegrante1(self):
+      proj = Projeto.objects.get(nome=u"CArS - Convergence Area Scheduler")
+      self.assertEquals(proj.proj__integrantesProfessor__nome, u"Alessandro Kraemer")
+      self.assertEquals(proj.proj__integrantes__nome, u"Olivier Richard")
