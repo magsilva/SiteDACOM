@@ -37,14 +37,14 @@ ADMINS = (
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '0%&n3=+ir*sbnx8zx7a&4)eic)au3(=ff37!=^zmh0#aebbl-#'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# TEMPLATE_DEBUG = DEBUG
+# ALLOWED_HOSTS = ['localhost']
 
 
 
-
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -60,6 +60,7 @@ INSTALLED_APPS = (
     'desenvolvimento',
     'haystack',
     'django.contrib.sites',
+    'django_extensions',
     # 'cms',  # django CMS itself
     # 'treebeard',
     #  'mptt',  # utilities for implementing a tree
@@ -93,7 +94,10 @@ MIDDLEWARE_CLASSES = (
     # 'cms.middleware.language.LanguageCookieMiddleware',
     # 'mezzyblocks.middleware.BlocksTemplateContextMiddleware',
 )
-
+GRAPH_MODELS = {
+  'all_applications': True,
+  'group_models': True,
+}
 ROOT_URLCONF = 'projectUtfpr.urls'
 
 TEMPLATES = [

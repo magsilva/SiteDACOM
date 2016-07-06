@@ -94,11 +94,6 @@ class Matriz(models.Model):
     # matrizAtual = models.ForeignKey('self', related_name="matrizatual",  null=True, blank=True)#comentar
     #
 
-# class Colegiado(models.Model):
-#     professores = models.ManyToManyField(Professor, related_name='colegiado', blank=True)
-#
-
-
 class Disciplina(models.Model):
     nome = models.CharField('Nome da Disciplina', max_length=50, null=True, blank=True)
     sigla = models.CharField('Sigla da Disciplina', max_length=50, null=True, blank=True)
@@ -209,7 +204,6 @@ class Projeto(models.Model):
         return self.nome
 
 
-
 class Evento(models.Model):
     doi = models.CharField('DOI', max_length=255)
     autores = models.CharField('Autores', max_length=5000)
@@ -222,7 +216,6 @@ class Evento(models.Model):
 
     def __unicode__(self):
         return self.titulo
-
 
 def user_directory_path(instance, filename):
     semestre ="1"
@@ -306,8 +299,7 @@ class HorarioDaAula(models.Model):
       (N2, "19h30 - 20h20"),
       (N3, "20h20 - 21h10"),
       (N4, "21h20 - 22h10"),
-    (N5, "22h10 - 23h00"),
-    )
+      (N5, "22h10 - 23h00"),  )
 
 
     horarioDeAula = models.CharField(max_length=13, choices=HORARIO_DE_AULA, default=M1)
@@ -333,6 +325,9 @@ class Oferecimento(models.Model):
 class Comissao(models.Model):
     pass
 
+
+
+
 class Colegiado(Comissao):
     profCoordenador = models.ForeignKey(Professor, related_name='professorCoordenador')
     profResponsavelPeloEstagio = models.ForeignKey(Professor, related_name='professorResponsavelPeloEstagio')
@@ -349,7 +344,7 @@ class MembroEleito(models.Model):
     membroEleitos =  models.ForeignKey(Pessoa, related_name='MembroEleito', blank=True, null=True)
     membroSuplentes =  models.ForeignKey(Pessoa, related_name='MembroSuplente', null=True, blank=True)
     observacao = models.CharField("Observacao", max_length=500)
-    colegiado = models.ForeignKey(Comissao,related_name="ComissaoDoCurso", null=True, blank=True )
+    colegiado = models.ForeignKey(Colegiado,related_name="ComissaoDoCurso", null=True, blank=True )
     dataInicio = models.DateTimeField()
     dataFim = models.DateTimeField()
     # aluno ="Al"
@@ -391,10 +386,8 @@ class Estagiario(models.Model):
     dataFinal =  models.CharField("DataDeConclusao",max_length=10, blank=True, null=True)
 
 class CalendarioAcademico(models.Model):
-    from datetime import date
-    dataInicio = models.DateField(("DataInicio"), default=date.today)
-    dataFim = models.DateField(("DataFim"), default=date.today)
-    # data =  models.DateTimeField("Data", max_length=10, blank=True, null=True)
+    dataInicio = models.DateField("DataInicio",  max_length=10, blank=True, null=True)
+    dataFim = models.DateField("DataFim",max_length=10, blank=True, null=True)
     evento = models.CharField("evento", max_length=10000)
 
 class InfraEstrutura(models.Model):

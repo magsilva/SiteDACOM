@@ -80,11 +80,9 @@ DATABASES = {
 Dependências:
     ScriptLattes >= 8.10
     Django >= 1.7
-    Django-Celery>= 3.0
     Haystack >=2.0.0
     Whoosh >=2.0
-    djangocms-installer>=-0.8.7
-
+    django-extensions
 
 
 

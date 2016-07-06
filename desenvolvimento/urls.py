@@ -4,6 +4,11 @@ from django.conf.urls.static import static
 
 from projectUtfpr import settings
 from . import views
+from django.conf.urls.static import static
+from django.conf.urls import handler404
+from django.conf.urls import patterns, include, url
+from desenvolvimento import views
+
 admin.autodiscover()
 
 urlpatterns = [
@@ -21,3 +26,9 @@ urlpatterns = [
       #modificar
 
 ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
+handler400 = 'desenvolvimento.views.page_not_found'
+handler403 = 'desenvolvimento.views.permission_denied'
+# handler404 = 'desenvolvimento.views.page_not_found'
+handler500 = 'desenvolvimento.views.server_error'

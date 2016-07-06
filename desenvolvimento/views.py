@@ -11,17 +11,22 @@ from .models import *
 from itertools import chain
 from functools import reduce
 from operator import and_, or_, attrgetter
+from django.shortcuts import (render_to_response)
+from django.template import RequestContext
+
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.template import Context, loader
 
 
 def index(request):
     listadeProjetos = Projeto.objects.distinct().filter(datadefim='2016').order_by('-datadefim')
     listadeArtigos = ArtigoEmPeriodico.objects.distinct().filter(data='2016').order_by('-data')
-    # listadeProjetos = Projeto.objects.distinct().all().order_by('-datadefim')
-    # listadeArtigos = ArtigoEmPeriodico.objects.distinct().all().order_by('-data')
+    listaDeEventos =  Evento.objects.distinct().filter(ano='2016').order_by('-ano')
 
     integrantes = Integrante.objects.distinct().all()
     integrantesProfessor = IntegranteProfessor.objects.distinct().all()
-    resultList = list(chain(listadeProjetos, listadeArtigos))
+    resultList = list(chain(listadeProjetos, listadeArtigos, listaDeEventos))
     projects =resultList
 
     return render_to_response('index.html', {'projects': projects, 'integrantes': integrantes, 'integrantesProfessor': integrantesProfessor})
@@ -132,3 +137,21 @@ def detailsProjeto(request, projeto_nome):
     except Projeto.DoesNotExist:
         raise Http404("Professor does not exist")
     return render(request, 'detailsProjeto.html', {'detailsProjeto': detailsProjeto})
+
+
+
+
+
+def page_not_found(request):
+
+    # 1. Load models for this view
+    #from idgsupply.models import My404Method
+
+    # 2. Generate Content for this view
+    template = loader.get_template('404.htm')
+    context = Context({
+        'message': 'All: %s' % request,
+        })
+
+    # 3. Return Template for this view + Data
+    return HttpResponse(content=template.render(context), content_type='text/html; charset=utf-8', status=404)
