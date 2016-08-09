@@ -1,21 +1,11 @@
 from django.core.paginator import PageNotAnInteger, Paginator, EmptyPage
-from django.shortcuts import render
-from django.template import loader
-from django.http import HttpResponse, HttpResponseRedirect, Http404
-from django.template import RequestContext
-from django.shortcuts import render_to_response
-# from django.views.generic import CreateView
-# from desenvolvimento.forms import Projet  oForm
+
 from .models import *
 # from django
 from itertools import chain
-from functools import reduce
-from operator import and_, or_, attrgetter
-from django.shortcuts import (render_to_response)
-from django.template import RequestContext
 
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
 from django.template import Context, loader
 
 
@@ -141,17 +131,20 @@ def detailsProjeto(request, projeto_nome):
 
 
 
+from django.shortcuts import ( render_to_response)
+from django.template import RequestContext
+
+#
+
+
+def bad_request(request):
+      return render_to_response('400.html')
+
+def permission_denied(request):
+      return render_to_response('403.html')
 
 def page_not_found(request):
+      return render_to_response('404.html')
 
-    # 1. Load models for this view
-    #from idgsupply.models import My404Method
-
-    # 2. Generate Content for this view
-    template = loader.get_template('404.htm')
-    context = Context({
-        'message': 'All: %s' % request,
-        })
-
-    # 3. Return Template for this view + Data
-    return HttpResponse(content=template.render(context), content_type='text/html; charset=utf-8', status=404)
+def server_error(request):
+      return render_to_response('500.html')

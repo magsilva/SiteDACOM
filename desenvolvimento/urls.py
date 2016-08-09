@@ -1,13 +1,10 @@
 from django.contrib import admin
-from django.conf.urls import url, include
-from django.conf.urls.static import static
 
 from projectUtfpr import settings
-from . import views
 from django.conf.urls.static import static
-from django.conf.urls import handler404
-from django.conf.urls import patterns, include, url
+from django.conf.urls import url
 from desenvolvimento import views
+from django.conf.urls import handler400, handler403, handler404, handler500
 
 admin.autodiscover()
 
@@ -22,13 +19,6 @@ urlpatterns = [
       url(r'^/professor/(?P<professor_nome>.+)$', views.detailsProfessor, name='details'),
       url(r'^/projeto/(?P<projeto_nome>.+)$', views.detailsProjeto, name='detailsProjeto'),
 
-
-      #modificar
-
 ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
-handler400 = 'desenvolvimento.views.page_not_found'
-handler403 = 'desenvolvimento.views.permission_denied'
-# handler404 = 'desenvolvimento.views.page_not_found'
-handler500 = 'desenvolvimento.views.server_error'

@@ -53,6 +53,10 @@
         <section id="content">
             <article class="expanded">
                 <h2>Ementa</h2>
+
+                 <!--{% ifequal title source %}-->
+        <!--Just now!-->
+      <!--{% endifequal %}-->
                 {%for i in curso %}
                     {{i.nome|upper }}</a></b><br/>
 
@@ -82,7 +86,7 @@
                   <br/>
                   Centro Acadêmico:
                   {%for i in ca%}
-                    <a href="i.linkParaoSite"> {{ i.nome}}</a>
+                   <a href="{{i.linkParaoSite}}">{{i.nome}}</a>
                   {%endfor%}
                </br></br></br></br>
 
@@ -91,15 +95,11 @@
                       <tr class="primeiraLinhaDaTabela">
                          <b> <td> Código </td>
                             <td> Disciplina </td>
-                            <td> Carga Horaria
-
-                                <br>Pratica* </td>
-                            <td> Carga Horaria
-                                 <br>Teórica* </td>
-                             <td> Carga Horaria
-                                 <br>Atividade<br> Pŕatica<br> Supervisionada*</td>
-                             <td> Carga Horaria
-                                 <br>Total*</td>
+                            <td> CH** Pratica* </td>
+                            <td> CH** Teórica* </td>
+                             <td> CH** Atividade<br> Pŕatica<br> Supervisionada*</td>
+                             <td> CH**
+                                 Total*</td>
                              <td> Prerrequisito </td>
                              <td> Equivalência </td>
                              <td> Objetivo </td>
@@ -128,6 +128,7 @@
                     {%endfor%}
                 </table>
             * : todas as horas correspondem a horas/aulas
+                **: Lê-se Carga Horária
 
                     <!--<div class="pagination">-->
 

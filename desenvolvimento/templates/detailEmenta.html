@@ -54,17 +54,17 @@
             <article class="expanded">
                 <h2>Ementa detalhes</h2>
                    <b>Código: </b> {{detailEmenta.sigla}}</br>
-                    <b>Disciplina: </b> {{detailEmenta.nome}}</br>
-                    <b>Carga Horaria Pratica: </b>{{detailEmenta.cargaHorariaPratica}}h</br>
-                    <b>Carga Horaria  Teórica: </b>{{detailEmenta.cargaHorariaTeorica}}h</br>
-                    <b>Carga Horaria Atividade Prática Supervisionada: </b>{{detailEmenta.cargaHorariaAPS}}h</br>
-                    <b>Carga Horaria  Total: </b>{{detailEmenta.cargaHorariaTotal}}h</br>
-                    <b>Ementa: </b>{{detailEmenta.ementa}}</br>
-                   <b>Pré-requisito: </b>{% for i in detailEmenta.prerequisito.all %} {{i}}{%endfor%}</br>
+                    <b>Disciplina: </b>{%ifequal detailEmenta.nome None %} Não Possui {%else%} {{detailEmenta.nome}} {% endifequal %}</br>
+                    <b>Carga Horaria Pratica: </b>{%ifequal detailEmenta.cargaHorariaPratica None %} Não Possui {%else%} {{detailEmenta.cargaHorariaPratica}}h {% endifequal %}</br>
+                    <b>Carga Horaria  Teórica: </b>{%ifequal detailEmenta.cargaHorariaTeorica None %} Não Possui {%else%}{{detailEmenta.cargaHorariaTeorica}}h {% endifequal %}</br>
+                    <b>Carga Horaria Atividade Prática Supervisionada: </b>{%ifequal detailEmenta.cargaHorariaAPS None %} Não Possui {%else%}{{detailEmenta.cargaHorariaAPS}}h {% endifequal %} </br>
+                    <b>Carga Horaria  Total: </b>{%ifequal detailEmenta.cargaHorariaTotal None %} Não Possui {%else%}{{detailEmenta.cargaHorariaTotal}}h {% endifequal %} </br>
+                    <b>Ementa: </b>{%ifequal detailEmenta.ementa None %} Não Possui {%else%}{{detailEmenta.ementa}} {% endifequal %} </br>
+                   <b>Pré-requisito: </b>{% for i in detailEmenta.prerequisito.all %} {%ifequal i None %} Não Possui {%else%} {{i}} {% endifequal %}{%endfor%}</br>
 
-                    <b>Equivalencia: </b> {% for i in detailEmenta.equivalencia.all%}{{i}},{%endfor%}</br>
-                    <b>Objetivo: </b>{% for i in detailEmenta.objetivo.%}{{i}},{%endfor%}</br>
-                    <b>Periodo:</b> {{detalhes.periodo}}<br>
+                    <b>Equivalencia: </b> {%ifequal detailEmenta.equivalencia.all  None %} Não Possui {%else%}  {% for i in detailEmenta.equivalencia.all%}{%ifequal i None %} Não Possui {%else%} {{i}}, {% endifequal %}{%endfor%}{% endifequal %}</br>
+                    <b>Objetivo: </b>{% for i in detailEmenta.objetivo.%}{%ifequal i None %} Não Possui {%else%} {{i}}, {% endifequal %}{%endfor%}</br>
+                    <b>Periodo:</b>{%ifequal detailEmenta.periodo None %} Não Possui {%else%}  {{detalhes.periodo}} {% endifequal %}<br>
 
                     {%  for i in detaiOferecimento.all %}
                           <b>  Turma:</b>  {{i.turma}}<br/>

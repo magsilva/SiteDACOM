@@ -37,10 +37,10 @@ ADMINS = (
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '0%&n3=+ir*sbnx8zx7a&4)eic)au3(=ff37!=^zmh0#aebbl-#'
 
-DEBUG = True
-
-# TEMPLATE_DEBUG = DEBUG
-# ALLOWED_HOSTS = ['localhost']
+# DEBUG = True
+DEBUG = False
+TEMPLATE_DEBUG = DEBUG
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 
@@ -50,7 +50,6 @@ DEBUG = True
 
 
 INSTALLED_APPS = (
-    'djangocms_admin_style',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -61,12 +60,6 @@ INSTALLED_APPS = (
     'haystack',
     'django.contrib.sites',
     'django_extensions',
-    # 'cms',  # django CMS itself
-    # 'treebeard',
-    #  'mptt',  # utilities for implementing a tree
-    # 'menus',  # helper for model independent hierarchical website navigation
-    # 'sekizai',  # for javascript and css management
-    # 'mezzyblocks',
 )
 
 
@@ -81,18 +74,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    # 'cms.middleware.utils.ApphookReloadMiddleware',
-    # 'django.contrib.sessions.middleware.SessionMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
-    # 'django.contrib.auth.middleware.AuthenticationMiddleware',
-    # 'django.contrib.messages.middleware.MessageMiddleware',
-    # 'django.middleware.locale.LocaleMiddleware',
-    # 'django.middleware.common.CommonMiddleware',
-    # 'cms.middleware.user.CurrentUserMiddleware',
-    # 'cms.middleware.page.CurrentPageMiddleware',
-    # 'cms.middleware.toolbar.ToolbarMiddleware',
-    # 'cms.middleware.language.LanguageCookieMiddleware',
-    # 'mezzyblocks.middleware.BlocksTemplateContextMiddleware',
 )
 GRAPH_MODELS = {
   'all_applications': True,
@@ -177,23 +158,5 @@ HAYSTACK_CONNECTIONS = {
         'HAYSTACK_SITECONF': 'haystack.search_sites',
     },
 }
-
-APPEND_SLASH=False
-#
-#
-# MIGRATION_MODULES = {
-#     # Add also the following modules if you're using these plugins:
-#     'djangocms_file': 'djangocms_file.migrations_django',
-#     'djangocms_flash': 'djangocms_flash.migrations_django',
-#     'djangocms_googlemap': 'djangocms_googlemap.migrations_django',
-#     'djangocms_inherit': 'djangocms_inherit.migrations_django',
-#     'djangocms_link': 'djangocms_link.migrations_django',
-#     'djangocms_picture': 'djangocms_picture.migrations_django',
-#     'djangocms_snippet': 'djangocms_snippet.migrations_django',
-#     'djangocms_teaser': 'djangocms_teaser.migrations_django',
-#     'djangocms_video': 'djangocms_video.migrations_django',
-#     'djangocms_text_ckeditor': 'djangocms_text_ckeditor.migrations_django',
-# }
-
 
 

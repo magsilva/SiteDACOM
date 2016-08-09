@@ -15,11 +15,17 @@ Utilizado para apresentar os artigos, projetos e eventos do Departamento de Comp
 Quick start
 --------------------------------------------------------------------------
 
-1. Baixar Django,Haystack,Whoosh,Banco de dados de preferência MySQL;
+1. Baixar e instalar Django, Haystack, Whoosh, Banco de dados de preferência MySQL;
 
 2. Baixar o projeto do repositório: https://github.com/humbbetao/projectutfpr.
 
 3. Criar no banco de dados uma nova instância banco, de preferência nomeio com 'UTFPR'.
+
+
+4. Criar um projeto django com o comando
+
+
+
 
 4. Dentro da pasta projectUtfpr tem settings.py, procure dentro desse arquivo:
 
@@ -39,7 +45,7 @@ DATABASES = {
 	Modifique 'NAME', 'USER', 'PASSWORD', 'HOST', 'PORT' para as suas configurações;
 
 5.
-	1. Executar os seguintes comando como root, python manage.py migrate, esse comando criará as tabelas no banco de dados;
+	1.Executar os seguintes comando como root, python manage.py migrate, esse comando criará as tabelas no banco de dados;
 	2.Executar os seguintes comando como root, python manage.py syncdb, esse comando realizará a configuração do admin do projeto Django, defina seu login e senha do Django;
 
 	3. Executar os seguintes comando como root, python manage.py runserver, se tudo estiver  ok aparecerá o link do site aparecerá, assim visite http://127.0.0.1:8000/admin/ utilize seu login e senha do Django para entrar na adm da página, e http://127.0.0.1:8000/desenvolvimento/ para entrar no site;
