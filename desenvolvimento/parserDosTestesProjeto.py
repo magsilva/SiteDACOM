@@ -8,19 +8,35 @@ import re
 from desenvolvimento.models import Projeto
 
 def executar(file):
-        import xml.etree.ElementTree as et
-        tree = et.parse(file)
-        root = tree.getroot()
-        for child in root.iter("projeto"):
-            if child.find('ano_inicio').text is not None:
-                ano_inicio = child.find('ano_inicio').text
-            if child.find('ano_conclusao').text is not None:
-                ano_conclusao = child.find('ano_conclusao').text
-            if child.find('nome').text is not None:
-                nome = child.find('nome').text
-            if child.find('descricao').text is not None:
-                descricaodoprojeto = child.find('descricao').text
+    descricao = u"Descrição:"
+    resumo = u""
+    situacao=u"Situação:"
+    natureza =u"Natureza:"
+    integrantes=u"Integrantes:"
 
+    proj = None
+    nome = ""
+    ano_conclusao = ""
+    ano_inicio = ""
+    resumo = ""
+    situacao = "0"
+    natureza = ""
+    integrantes = ""
+    desc = ""
+
+    import xml.etree.ElementTree as et
+    tree = et.parse(file)
+    root = tree.getroot()
+    for child in root.iter("projeto"):
+        if child.find('ano_inicio').text is not None:
+            ano_inicio = child.find('ano_inicio').text
+        if child.find('ano_conclusao').text is not None:
+            ano_conclusao = child.find('ano_conclusao').text
+        if child.find('nome').text is not None:
+            nome = child.find('nome').text
+        if child.find('descricao').text is not None:
+            descricaodoprojeto = child.find('descricao').text
+          # print(descricao.find(descricao))
             m = re.search("(Descrição: (?P<desc>.*))? (Situação: (?P<status>.*))? (Natureza: (?P<nat>.*))? (?:Alunos envolvidos: (?P<envolvidos>.*))? (Integrantes: (?P<integrantes>.*))? (?:Financiador\(es\): (?P<financ>.*))?", descricaodoprojeto.encode("utf-8"))
 
             # projeto = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)

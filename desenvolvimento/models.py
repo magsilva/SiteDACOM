@@ -87,6 +87,7 @@ class Matriz(models.Model):
     turno = models.CharField('Turno', max_length=50, null=True, blank=True)
     curso =  models.ForeignKey("curso")
     numero =  models.IntegerField(default=0)
+
     # projetoPedagogico =  models.CharField("Projeto pedagogico")
 
     def __unicode__(self):
@@ -164,6 +165,7 @@ class Artigo(models.Model):
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
     professores= models.ManyToManyField(Professor,related_name="ArtigoProfessor")
+    # dataDeImportacao = models.CharField('DataDeImportacaoDosDados', max_length=15,null=True, blank=True)
 
     def __unicode__(self):
         return self.titulo
@@ -199,6 +201,7 @@ class Projeto(models.Model):
     natureza = models.CharField('Natureza', max_length=1000, null=True, blank=True)
     integrantes = models.ManyToManyField(Integrante,related_name="integrante", null=True, blank=True)
     integrantesProfessor = models.ManyToManyField(IntegranteProfessor,related_name="integranteProfessor",null=True, blank=True)
+    # dataDeImportacao = models.CharField('Data', max_length=15,null=True, blank=True)
 
     def __unicode__(self):
         return self.nome

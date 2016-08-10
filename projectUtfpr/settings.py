@@ -37,10 +37,10 @@ ADMINS = (
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '0%&n3=+ir*sbnx8zx7a&4)eic)au3(=ff37!=^zmh0#aebbl-#'
 
-# DEBUG = True
-DEBUG = False
-TEMPLATE_DEBUG = DEBUG
-ALLOWED_HOSTS = ['127.0.0.1']
+DEBUG = True
+# DEBUG = False
+# TEMPLATE_DEBUG = DEBUG
+# ALLOWED_HOSTS = ['127.0.0.1']
 
 
 
@@ -159,4 +159,6 @@ HAYSTACK_CONNECTIONS = {
     },
 }
 
-
+# if DEBUG:
+#     import mimetypes
+#     mimetypes.add_type("text/css", ".css", True)

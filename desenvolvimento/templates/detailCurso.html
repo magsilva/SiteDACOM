@@ -101,8 +101,8 @@
                              <td> CH**
                                  Total*</td>
                              <td> Prerrequisito </td>
-                             <td> Equivalência </td>
-                             <td> Objetivo </td>
+                             <!--<td> Equivalência </td>-->
+                             <!--<td> Objetivo </td>-->
                             <td> Periodo </td>
                             <td> Ementa </td></b>
                       </tr>
@@ -119,8 +119,8 @@
                               <!--<td>{{ detalhes.disciplina.prerequisito}}</td>-->
                               <td>{% for i in detalhes.disciplina.prerequisito.all %}{{i | upper}}{%endfor%}</td>
 
-                              <td>{% for i in detalhes.disciplina.equivalencia.all%}{{i | upper}},{%endfor%}</td>
-                              <td>{% for i in detalhes.disciplina.objetivo.%}{{i}},{%endfor%}</td>
+                              <!--<td>{% for i in detalhes.disciplina.equivalencia.all%}{{i | upper}},{%endfor%}</td>-->
+                              <!--<td>{% for i in detalhes.disciplina.objetivo.%}{{i}},{%endfor%}</td>-->
                             <td>{{detalhes.periodo}}</td>
                             <td><a href="{{  detalhes.disciplina.nome }}"> Clique  aqui </a></td>
 
