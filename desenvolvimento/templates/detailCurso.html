@@ -36,6 +36,7 @@
                 <li class="start selected"><a href="{% url 'desenvolvimento:curso' %}">Cursos</a></li>
                 <li><a href="{% url 'desenvolvimento:professor' %}">Professores</a></li>
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
+        <li ><a href="{% url 'desenvolvimento:publicacao' %}">Publicacao</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
@@ -62,10 +63,10 @@
 
                     <b>Duração</b> {{i.matrizAtual.duracao}}<br/>
                     <b>Contato</b> {{i.contato}}</br>
-                    <b>Carga Horaria</b> {{i.matrizAtualcargaHoraria}}<br/>
-                    <b>Carga Horaria Obrigatória</b> {{curso.matrizAtual.cargaHorariaObrigatoria}}<br/>
-                    <b>Carga Horaria Optativa Humanas</b> {{curso.matrizAtual.cargaHorariaOptHumanas}}<br/>
-                    <b>Carga Horaria Optativa de Curso</b> {{curso.matrizAtual.cargaHorariaOptDoCurso}}<br/>
+                    <b>Carga Horaria</b> {{i.matrizAtual.cargaHoraria}}<br/>
+                    <b>Carga Horaria Obrigatória</b> {{i.matrizAtual.cargaHorariaObrigatoria}}<br/>
+                    <b>Carga Horaria Optativa Humanas</b> {{i.matrizAtual.cargaHorariaOptHumanas}}<br/>
+                    <b>Carga Horaria Optativa de Curso</b> {{i.matrizAtual.cargaHorariaOptDoCurso}}<br/>
                     <b>Descricao: </b> {{i.descricao | safe}}<br/><br/>
                     <b>Perfil do Egresso</b> {{i.perfilDoEgresso | safe}}<br/><br/>
                     <b>Estagio</b>        {{i.matrizAtual.estagio}}<br/><br/>

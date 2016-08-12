@@ -36,6 +36,7 @@
                 <li><a href="{% url 'desenvolvimento:curso' %}">Cursos</a></li>
                 <li><a href="{% url 'desenvolvimento:professor' %}">Professores</a></li>
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
+                 <li ><a href="{% url 'desenvolvimento:publicacao' %}">Publicacao</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
@@ -60,7 +61,14 @@
                     <b>Carga Horaria Atividade Prática Supervisionada: </b>{%ifequal detailEmenta.cargaHorariaAPS None %} Não Possui {%else%}{{detailEmenta.cargaHorariaAPS}}h {% endifequal %} </br>
                     <b>Carga Horaria  Total: </b>{%ifequal detailEmenta.cargaHorariaTotal None %} Não Possui {%else%}{{detailEmenta.cargaHorariaTotal}}h {% endifequal %} </br>
                     <b>Ementa: </b>{%ifequal detailEmenta.ementa None %} Não Possui {%else%}{{detailEmenta.ementa}} {% endifequal %} </br>
-                   <b>Pré-requisito: </b>{% for i in detailEmenta.prerequisito.all %} {%ifequal i None %} Não Possui {%else%} {{i}} {% endifequal %}{%endfor%}</br>
+
+                    <b>Pré-requisito: </b>{% ifequal detailEmenta.prerequisito.all|length 0 %}
+
+                                                  Não Possui
+
+                                              {% endifequal %} <br>
+
+
 
                     <b>Equivalencia: </b> {%ifequal detailEmenta.equivalencia.all  None %} Não Possui {%else%}  {% for i in detailEmenta.equivalencia.all%}{%ifequal i None %} Não Possui {%else%} {{i}}, {% endifequal %}{%endfor%}{% endifequal %}</br>
                     <b>Objetivo: </b>{% for i in detailEmenta.objetivo.%}{%ifequal i None %} Não Possui {%else%} {{i}}, {% endifequal %}{%endfor%}</br>

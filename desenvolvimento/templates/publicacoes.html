@@ -1,12 +1,9 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     {% load staticfiles %}
-
-    <title>UTFPR - DACOM</title>
+    <title>UTFPR-DACOM</title>
     <link rel="stylesheet" type="text/css" href="{% static 'layout.css' %}"/>
     <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}"/>
@@ -32,14 +29,14 @@
 
     </header>
     <nav>
-        <div class="width">
+         <div class="width">
             <ul class="menu">
-                <li  class="start selected"><a href="{% url 'desenvolvimento:index' %}">Início</a></li>
+                <li><a href="{% url 'desenvolvimento:index' %}">Início</a></li>
                 <li><a href="{% url 'desenvolvimento:curso' %}">Cursos</a></li>
                 <li><a href="{% url 'desenvolvimento:professor' %}">Professores</a></li>
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
-                 <li ><a href="{% url 'desenvolvimento:publicacao' %}">Publicacao</a></li>
-                <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
+                              <li class="start selected"><a href="{% url 'desenvolvimento:publicacao' %}">Publicacao</a></li>
+                <li ><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
                         <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
@@ -53,54 +50,55 @@
     </nav>
     <div class="corpo">
         <section id="content">
-            <article class="expanded">
-                <h2>Professor Detalhes</h2>
-
-
-                    <br/>
-                    <br/><b>
-                                            <div class="quadradoInteiro">
-                                <h3 class="titulo">Professor: {{ detailsProf.nome}}</h3>
+            <br class="expanded">
+                <h2>Publicações</h2> artigo em evento e periodico / criar uma aba eventos
+                  {%for e in eventos%}
+                  <div class="quadradoInteiro">
+                                 <a href="{{project.nome}}/">   <h3 class="titulo">Evento: {{ e.titulo}}</h3></a>
                                      <div class="tab">
                                           <a href="{{project.id}}/">
-
-                                                <!--<div class="nomeProfessor"> Professor: {{detailsProf.professor}}</div>-->
+                                                <div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>
                                           </a>
-                                         <table >
-                                             <tr>
-                                                 <td>
-                                                       <img src="{{ detailsProf.profile_image }}" height="100"/>
-                                                 </td>
-                                                  <td>
-                                                       <h5>Departamento:</h5> {{detailsProf.departamento}}<br/>
-                                          <h5>Função:</h5>  {{detailsProf.funcao}}<br/>
-                                          <!--<h5>Bolsa Produtividade:</h5>  {{detailsProf.bolsaprodutividade}}<br/>-->
-                                          <!--<h5>Resumo:</h5>  {{detailsProf.textoResumo}}<br/>-->
-                                          <h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{detailsProf.lattes}}">http://lattes.cnpq.br/{{detailsProf.lattes}}</a><br/>
-                                            <h5>Projeto(s): </h5>
-                                                      {%for i in proj %}
-                                                        <a href="{% url 'desenvolvimento:projetos' %}/{{i.nome}}">{{i.nome}}</a>;
-                                                      {%endfor %}
- <!--Dados: {% for i in detailsDado%}-->
-                                                    <!--{{ i.nome  }}-->
-                                                <!--{%  endfor %}-->
-                                                  </td>
+                                          <h5>DOI:</h5> {{e.doi}}<br/>
+                                          <h5>Autores:</h5>  {{e.autores}}<br/>
+                                          <h5>Data:</h5>  {{e.ano}}<br/>
+                                          <h5>Volume:</h5>  {{e.volume}}<br/>
+                                          <h5>Paginas:</h5>  {{e.paginas}}<br/>
+                                         Autores:
+                                          <!--<h5>Integrantes:<br/>-->
+                                           {% if e.professoresDoEvento %}
+                                              {% for i in e.professoresDoEvento.all %}
+                                                    {{ i.nome }}
+                                              {% endfor %}
+                                         {% endif %}
 
-                                             </tr>
-                                         </table>
 
                                      </div>
                                 <br/>
                             </div>
 
-                    <!--{{ detailProject.nome|upper }}</b><br/>-->
-                        <!--Data de Ínicio {{detailProject.datainicio}}<br/>-->
-                        <!--Data de Fim {{detailProject.datadefim}}<br/>-->
+          {%endfor%}
+                    <div class="pagination">
+                        <br>
+    <span class="step-links">
+        {% if eventos.has_previous %}<p></p>
 
+            <a href="?page={{ eventos.previous_page_number }}"><br>Anterior</a>
+        {% endif %}
 
-                </ul>
+        <span class="current">
+            Página {{ eventos.number }} de {{ eventos.paginator.num_pages }}
+        </span>
+
+        {% if eventos.has_next %}
+            <a href="?page={{ projects.next_page_number }}">Próxima</a>
+        {% endif %}
+    </span>
+                    </div>
+
             </article>
         </section>
+
     </div>
     <div class="clear"></div>
     <div class="footer">

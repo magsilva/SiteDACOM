@@ -68,6 +68,22 @@ def projetos(request):
 
 
 
+def publicacao(request):
+
+    listadeEventos = Evento.objects.all().order_by('titulo')
+    paginator = Paginator(listadeEventos, 10)
+    page = request.GET.get('page')
+    try:
+        eventos = paginator.page(page)
+    except PageNotAnInteger:
+    # If page is not an integer, deliver first page.
+        eventos = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+       eventos= paginator.page(paginator.num_pages)
+    return render_to_response('publicacoes.html', {"eventos": eventos})
+
+
 def eventos(request):
 
     listadeEventos = Evento.objects.all().order_by('titulo')
