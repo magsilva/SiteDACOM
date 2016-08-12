@@ -151,19 +151,7 @@ def executeLeitorXML():
                     nProducao =u"Número de produções C, T A:"
                     nOrientacao= u"Número de orientações:"
                     proj = None
-                    # nome = ""
-                    # ano_conclusao = ""
-                    # ano_inicio = ""
-                    # resumo = ""
-                    # situacao = "0"
-                    # natureza = ""
-                    # integrantes = ""
-                    # desc = ""
 
-                    # import xml.etree.ElementTree as et
-                    # tree = et.parse(file)
-                    # root = tree.getroot()
-                    # for child in projeto.iter("projeto"):
                     if projeto.find('ano_inicio').text is not None:
                         ano_inicio = projeto.find('ano_inicio').text
                     if projeto.find('ano_conclusao').text is not None:
@@ -181,19 +169,6 @@ def executeLeitorXML():
                     posProducao = descricaodoprojeto.find(nProducao)
                     posOrientacao = descricaodoprojeto.find(nOrientacao)
 
-                    # if posDescricao!=-1 and posSituacao!=-1:
-                    #     print(descricaodoprojeto[posDescricao:posSituacao])
-                    # if posSituacao!=-1 and posNatureza!=-1:
-                    #     print(descricaodoprojeto[posSituacao:posNatureza])
-                    # if posNatureza!=-1 and posAlunosEnvolvidos != -1:
-                    #     print(descricaodoprojeto[posNatureza:posAlunosEnvolvidos])
-                    # if posAlunosEnvolvidos != -1  and posIntegrantes != -1:
-                    #     print(descricaodoprojeto[posAlunosEnvolvidos:posIntegrantes])
-                    # if posIntegrantes != -1 and posFincanciadores != -1:
-                    #     print(descricaodoprojeto[posIntegrantes:posFincanciadores])
-                    # if posIntegrantes != -1 and posFincanciadores == -1:
-                    #     print(descricaodoprojeto[posIntegrantes:len(descricaodoprojeto)])
-
                     if posDescricao!=-1 and posSituacao!=-1:
                         descricao  = descricaodoprojeto[posDescricao:posSituacao]
                     if posSituacao!=-1 and posNatureza!=-1:
@@ -204,137 +179,85 @@ def executeLeitorXML():
                         alunosEnvolvidos =descricaodoprojeto[posAlunosEnvolvidos:posIntegrantes]
                     if posIntegrantes != -1 and posFincanciadores != -1:
                         integrantes = descricaodoprojeto[posIntegrantes:posFincanciadores]
-                    if posIntegrantes != -1 and posFincanciadores == -1:
+                    elif posIntegrantes != -1 and posFincanciadores == -1:
                         integrantes = descricaodoprojeto[posIntegrantes:len(descricaodoprojeto)]
 
-                    posInicial = posIntegrantes
+                    posInicial = 0
                     posFinal = integrantes.find(".")
-                    print(posInicial)
-                    print(posFinal)
-                    print(integrantes[posInicial:posFinal])
 
+                    proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio, situacao =situacao, natureza=natureza, resumo=descricao)
 
-
-
-
-
-
-                    #
-                      # m = re.search(
-                      #   "(Descrição: (?P<desc>.*))? (Situação: (?P<status>.*))? (Natureza: (?P<nat>.*))? (?:Alunos envolvidos: (?P<envolvidos>.*))? (Integrantes: (?P<integrantes>.*))? (?:Financiador\(es\): (?P<financ>.*))?",
-                      #   descricaodoprojeto.encode("utf-8"))
-                      #
-                      # # projeto = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
-                      # # projeto.save()
-                      #
-                      # proj = None
-                      # nome = ""
-                      # ano_conclusao = ""
-                      # ano_inicio = ""
-                      # resumo = ""
-                      # situacao = "0"
-                      # natureza = ""
-                      # integrantes = ""
-                      # desc = ""
-                      #
-                      # if ano_conclusao == 'Atual':
-                      #   ano_conclusao = '2016'
-                      # if ano_inicio == 'Atual':
-                      #   ano_inicio = '2016'
-                      #
-                      # if m is not None:
-                      #   desc = m.group('desc')
-                      #   situacao = m.group('status')
-                      #   natureza = m.group('nat')
-                      #   integrantes = m.group('integrantes')
-                      #
-                      #   # Projeto.objects.create(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio, resumo=desc, situacao=situacao, natureza=natureza)
-                      #   projeto = Projeto(nome=nome, datadefim=ano_conclusao, datainicio=ano_inicio, resumo=desc,
-                      #                     situacao=situacao, natureza=natureza)
-                      #   projeto.save()
-
-                    # descricaodoprojeto = ""
-                    # if projeto.find('ano_inicio').text is not None:
-                    #     ano_inicio = projeto.find('ano_inicio').text
-                    # if projeto.find('ano_conclusao').text is not None:
-                    #     ano_conclusao = projeto.find('ano_conclusao').text
-                    # if projeto.find('nome').text is not None:
-                    #     nome = projeto.find('nome').text
-                    # if projeto.find('descricao').text is not None:
-                    #     descricaodoprojeto = projeto.find('descricao').text
-                    #
-                    #    # m = re.search("Descrição: (?P<desc>.*) Situação: (?P<status>.*) Natureza: (?P<nat>.*) (?:Alunos envolvidos: (?P<envolvidos>.*))? Integrantes: (?P<integrantes>.*) (?:Financiador\(es\): (?P<financ>.*))? (?:Número de produções C, T A: (?P<prod>\d*))? (?:Número de orientações: (?P<orient>\d*))?", descricaodoprojeto.encode("utf-8"))
-                    #     m = re.search("((Descrição: (?P<desc>.*))? (Situação: (?P<status>.*))? (Natureza: (?P<nat>.*))? (?:Alunos envolvidos: (?P<envolvidos>.*))? (Integrantes:(?P<integrantes>.*))(?:Financiador\(es\): (?P<financ>.*))?)", descricaodoprojeto.encode("utf-8"))
-                    #
-                    #
-                    # if ano_conclusao =='Atual':
-                    #     ano_conclusao='2016'
-                    # if ano_inicio == 'Atual':
-                    #     ano_inicio='2016'
-                    # proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio)
-                    # if(Projeto.objects.filter(nome=nome).__len__()==0):
-                    #     proj.save()
-                    #
-                    # print(nome)
-                    #
-                    # if m is not None:
-                    #     print(m.groups())
-                    #     desc = m.group('desc')
-                    #     situacao = m.group('status')
-                    #     natureza = m.group('nat')
-                    #     integrantes = m.group('integrantes')
-                    #
-                    #     proj = Projeto.objects.filter(nome =nome)[0]
-                    #     proj.resumo = desc
-                    #     proj.situacao = situacao
-                    #     proj.natureza =natureza
-                    #     proj.save()
-                    #
-                    #     integrante = re.split(" - Integrante / | - Integrante. | - Coordenador / | - Coordenador. ", integrantes, re.UNICODE)
-
-                        # integrante = re.search("([\w\s]*) - Integrante|- Coordenador", integrantes, re.UNICODE)
-                        # integrante = re.search("r'[a-zA-Zà-ú][0-9a-zà-úA-Z]*) - Integrante|- Coordenador", integrantes.decode("utf-8"))
-
-                        # if integrante is not None:
-                        #     for itens in integrante:
-                        #         novoIntegrante = itens
-                        #         print(novoIntegrante)
-                        #         if not (itens.__contains__("Financiador(es):")):
-                        #             if itens.__contains__(' -'):
-                        #                 novoIntegrante = itens.replace(' -', '')
-                        #             # print(novoIntegrante)
-                        #
-                        #         dados = DadosDeProfessor.objects.filter(nome = novoIntegrante)
-                        #         nomeProf = None
-                        #         try:
-                        #             nomeProf = Professor.objects.filter(nome=novoIntegrante)[0]
-                        #         except IndexError:
-                        #             nomeProf = None
-                        #         nomeIntegrante = Integrante.objects.filter(nome=novoIntegrante)
-                        #         nomeIntegranteProf = Integrante.objects.filter(nome=novoIntegrante)
-                        #
-                        #         if(dados.__len__()==0 and not novoIntegrante.__contains__("Financiador(es):") and not novoIntegrante.__contains__("Número de produções") and not novoIntegrante.__contains__("Número de orientações:")):
-                        #             if(nomeProf is not None):
-                        #                 novoDado =  DadosDeProfessor(nome=novoIntegrante, professorDados=nomeProf)
-                        #                 novoDado.save()
-                        #             else:
-                        #                 # if not nomeIntegrante:
-                        #                 integ = Integrante(nome=novoIntegrante, ehCoordenador=False)
-                        #                 integ.save()
-                        #                 if not  Projeto.objects.filter(integrantes__nome=integ.nome, nome=proj.nome):
-                        #                     proj.integrantes.add(integ)
-                        #
-                        #         if nomeProf is not None and not novoIntegrante.__contains__("Financiador(es):") and not novoIntegrante.__contains__("Número de produções")  and not novoIntegrante.__contains__("Número de orientações:") :
-                        #             prof = Professor.objects.get(nome=novoIntegrante)
-                        #             integProf = IntegranteProfessor(nome= novoIntegrante, ehCoordenador=False, professor=prof)
-                        #
-                        #             integProf.save()
-                        #
-                        #             if not Projeto.objects.filter(integrantesProfessor__nome=integProf.nome, nome=proj.nome) :
-                        #                 print(nome, integProf.nome)
-                        #                 proj.integrantesProfessor.add(integProf)
-                        #
-
+                    if(Projeto.objects.filter(nome=nome).__len__()==0):
+                        proj.save()
+                        integranteApenas = integrantes[posInicial:posFinal]
+                        integranteApenas = integranteApenas.replace("Integrantes: ", "")
+                        match = integranteApenas.split("/")
+                        # print(match)
+                        for item  in match:
+                                print(item)
+                                if item.__contains__(u"Integrante"):
+                                    print("ADD prof")
+                                    novo = item.replace(u" - Integrante ", u"")
+                                    novo = novo.replace(u" - Integrante", u"")
+                                    if(Professor.objects.filter(nome=novo).__len__()>0):
+                                        if IntegranteProfessor.objects.filter(nome=novo).__len__()>0:
+                                            integProf = IntegranteProfessor.objects.get(nome=novo)
+                                            proj.integrantesProfessor.add(integProf)
+                                        else:
+                                            prof = Professor.objects.get(nome=novo)
+                                            integProf = IntegranteProfessor(nome=novo, ehCoordenador=False, professor=prof)
+                                            integProf.save()
+                                            proj.integrantesProfessor.add(integProf)
+                                        print("ADD prof")
+                                    else:
+                                        if Integrante.objects.filter(nome=novo).__len__()>0:
+                                            integProf = Integrante.objects.get(nome=novo)
+                                            proj.integrantes.add(integProf)
+                                        else:
+                                            integranteNovo = Integrante(nome =novo, ehCoordenador=False)
+                                            integranteNovo.save()
+                                            proj.integrantes.add(integranteNovo)
+                                            print("AddIn")
+                                elif item.__contains__(u"Coordenador"):
+                                    novo =  item.replace(u" - Coordenador ", u"")
+                                    novo = novo.replace(u" - Coordenador", u"")
+                                    if(Professor.objects.filter(nome=novo).__len__()>0):
+                                        if IntegranteProfessor.objects.filter(nome=novo).__len__()>0:
+                                            integProf = IntegranteProfessor.objects.get(nome=novo)
+                                            proj.integrantesProfessor.add(integProf)
+                                        else:
+                                            prof = Professor.objects.get(nome=novo)
+                                            integProf = IntegranteProfessor(nome=novo, ehCoordenador=True, professor=prof)
+                                            integProf.save()
+                                            proj.integrantesProfessor.add(integProf)
+                                    else:
+                                        if Integrante.objects.filter(nome=novo).__len__()>0:
+                                            integProf = Integrante.objects.get(nome=novo)
+                                            proj.integrantes.add(integProf)
+                                        else:
+                                            integranteNovo = Integrante(nome =novo, ehCoordenador=True)
+                                            integranteNovo.save()
+                                            proj.integrantes.add(integranteNovo)
+                                            print("AddIn")
+                                else:
+                                    if (Professor.objects.filter(nome=novo).__len__() > 0):
+                                      if IntegranteProfessor.objects.filter(nome=novo).__len__() > 0:
+                                        integProf = IntegranteProfessor.objects.get(nome=novo)
+                                        proj.integrantesProfessor.add(integProf)
+                                      else:
+                                        prof = Professor.objects.get(nome=novo)
+                                        integProf = IntegranteProfessor(nome=novo, ehCoordenador=False, professor=prof)
+                                        integProf.save()
+                                        proj.integrantesProfessor.add(integProf)
+                                    else:
+                                      if Integrante.objects.filter(nome=novo).__len__() > 0:
+                                        integProf = Integrante.objects.get(nome=novo)
+                                        proj.integrantes.add(integProf)
+                                      else:
+                                        integranteNovo = Integrante(nome=novo, ehCoordenador=False)
+                                        integranteNovo.save()
+                                        proj.integrantes.add(integranteNovo)
+                                        print("AddIn")
 
 
 if __name__ == "__main__":

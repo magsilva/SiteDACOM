@@ -25,7 +25,6 @@ class Migration(migrations.Migration):
             name='CalendarioAcademico',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('data', models.DateTimeField()),
                 ('evento', models.CharField(max_length=10000, verbose_name=b'evento')),
             ],
         ),

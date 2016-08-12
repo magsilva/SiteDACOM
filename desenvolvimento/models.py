@@ -81,6 +81,9 @@ class Curso(models.Model):
 class Matriz(models.Model):
     atividadeComplementar = models.CharField('Atividade Complementar', max_length=10000, null=True, blank=True)
     cargaHoraria =  models.CharField('CargaHoraria', max_length=50, null=True, blank=True)
+    cargaHorariaObrigatoria = models.CharField('CargaHorariaObrigatoria', max_length=50, null=True, blank=True)
+    cargaHorariaOptHumanas = models.CharField('CargaHorariaOptativaHumanas', max_length=50, null=True, blank=True)
+    cargaHorariaOptDoCurso = models.CharField('CargaHoraria do curso', max_length=50, null=True, blank=True)
     estagio =  models.CharField('Estagio',  max_length=10000, null=True, blank=True)
     tcc =  models.CharField('tcc',  max_length=10000, null=True, blank=True)
     duracao = models.CharField('Duracao', max_length=50, null=True, blank=True)
@@ -165,7 +168,7 @@ class Artigo(models.Model):
     paginas = models.CharField('Paginas', max_length=10, null=True, blank=True)
     resumo = models.CharField('Resumo', max_length=5000)
     professores= models.ManyToManyField(Professor,related_name="ArtigoProfessor")
-    # dataDeImportacao = models.CharField('DataDeImportacaoDosDados', max_length=15,null=True, blank=True)
+    dataDeImportacao = models.CharField('DataDeImportacaoDosDados', max_length=15,null=True, blank=True)
 
     def __unicode__(self):
         return self.titulo
@@ -201,7 +204,7 @@ class Projeto(models.Model):
     natureza = models.CharField('Natureza', max_length=1000, null=True, blank=True)
     integrantes = models.ManyToManyField(Integrante,related_name="integrante", null=True, blank=True)
     integrantesProfessor = models.ManyToManyField(IntegranteProfessor,related_name="integranteProfessor",null=True, blank=True)
-    # dataDeImportacao = models.CharField('Data', max_length=15,null=True, blank=True)
+    dataDeImportacao = models.CharField('Data', max_length=15,null=True, blank=True)
 
     def __unicode__(self):
         return self.nome
@@ -392,6 +395,7 @@ class CalendarioAcademico(models.Model):
     dataInicio = models.DateField("DataInicio",  max_length=10, blank=True, null=True)
     dataFim = models.DateField("DataFim",max_length=10, blank=True, null=True)
     evento = models.CharField("evento", max_length=10000)
+    # data = models.DateField("Data", max_length=10, blank=True, null=True)
 
 class InfraEstrutura(models.Model):
     chefiaDeDepartamento = models.CharField("chefiaDoDepartamento", max_length=100)
