@@ -156,6 +156,7 @@ def executeLeitorXML():
                         ano_inicio = projeto.find('ano_inicio').text
                     if projeto.find('ano_conclusao').text is not None:
                         ano_conclusao = projeto.find('ano_conclusao').text
+
                     if projeto.find('nome').text is not None:
                         nome = projeto.find('nome').text
                     if projeto.find('descricao').text is not None:
@@ -184,8 +185,9 @@ def executeLeitorXML():
 
                     posInicial = 0
                     posFinal = integrantes.find(".")
-
-                    proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio, situacao =situacao, natureza=natureza, resumo=descricao)
+                    if ano_conclusao=="Atual":
+                        ano_conclusao="2016"
+                    proj = Projeto(nome= nome,datadefim = ano_conclusao, datainicio = ano_inicio, situacao =situacao[10:situacao.__len__()], natureza=natureza[10:natureza.__len__()], resumo=descricao[11:descricao.__len__()])
 
                     if(Projeto.objects.filter(nome=nome).__len__()==0):
                         proj.save()
@@ -208,7 +210,6 @@ def executeLeitorXML():
                                             integProf = IntegranteProfessor(nome=novo, ehCoordenador=False, professor=prof)
                                             integProf.save()
                                             proj.integrantesProfessor.add(integProf)
-                                        print("ADD prof")
                                     else:
                                         if Integrante.objects.filter(nome=novo).__len__()>0:
                                             integProf = Integrante.objects.get(nome=novo)
@@ -217,7 +218,6 @@ def executeLeitorXML():
                                             integranteNovo = Integrante(nome =novo, ehCoordenador=False)
                                             integranteNovo.save()
                                             proj.integrantes.add(integranteNovo)
-                                            print("AddIn")
                                 elif item.__contains__(u"Coordenador"):
                                     novo =  item.replace(u" - Coordenador ", u"")
                                     novo = novo.replace(u" - Coordenador", u"")
@@ -238,7 +238,6 @@ def executeLeitorXML():
                                             integranteNovo = Integrante(nome =novo, ehCoordenador=True)
                                             integranteNovo.save()
                                             proj.integrantes.add(integranteNovo)
-                                            print("AddIn")
                                 else:
                                     if (Professor.objects.filter(nome=novo).__len__() > 0):
                                       if IntegranteProfessor.objects.filter(nome=novo).__len__() > 0:
@@ -257,7 +256,6 @@ def executeLeitorXML():
                                         integranteNovo = Integrante(nome=novo, ehCoordenador=False)
                                         integranteNovo.save()
                                         proj.integrantes.add(integranteNovo)
-                                        print("AddIn")
 
 
 if __name__ == "__main__":

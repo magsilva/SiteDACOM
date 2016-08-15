@@ -25,10 +25,6 @@ class ArtigoSearch(indexes.SearchIndex, indexes.Indexable):
     text = indexes.CharField(document=True, use_template=True)
     nome = indexes.CharField(model_attr='titulo')
 
-
-    # def prepare_tag_name(self, object):
-    #     return object.professor.nome
-
     def get_model(self):
         return ArtigoEmPeriodico
 
@@ -36,6 +32,13 @@ class ArtigoSearch(indexes.SearchIndex, indexes.Indexable):
         """Used when the entire index for model is updated."""
         return self.get_model().objects.filter().all()
 
+class ProfessorSearch(indexes.SearchIndex, indexes.Indexable):
+    text = indexes.CharField(document=True, use_template=True)
+    nome = indexes.CharField(model_attr='nome')
 
-# desenvolvimento.site.register(Projeto, ProjetoSearch)
-# desenvolvimento.site.register(Artigo, ArtigoSearch)
+
+    def get_model(self):
+        return Professor
+
+    def index_queryset(self, using=None):
+        return self.get_model().objects.filter().all()

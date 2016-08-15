@@ -36,11 +36,11 @@
                 <li><a href="{% url 'desenvolvimento:curso' %}">Cursos</a></li>
                 <li><a href="{% url 'desenvolvimento:professor' %}">Professores</a></li>
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
-                 <li ><a href="{% url 'desenvolvimento:publicacao' %}">Publicacao</a></li>
+                 <li ><a href="{% url 'desenvolvimento:publicacao' %}">Publicações</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
-                        <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
+                        <input type="text" name="q" size="68%" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
                         <input class="searchform" type="submit" value="Buscar" />
@@ -62,39 +62,40 @@
                     <b>Carga Horaria  Total: </b>{%ifequal detailEmenta.cargaHorariaTotal None %} Não Possui {%else%}{{detailEmenta.cargaHorariaTotal}}h {% endifequal %} </br>
                     <b>Ementa: </b>{%ifequal detailEmenta.ementa None %} Não Possui {%else%}{{detailEmenta.ementa}} {% endifequal %} </br>
 
-                    <b>Pré-requisito: </b>{% ifequal detailEmenta.prerequisito.all|length 0 %}
-
-                                                  Não Possui
-
-                                              {% endifequal %} <br>
-
-
-
-                    <b>Equivalencia: </b> {%ifequal detailEmenta.equivalencia.all  None %} Não Possui {%else%}  {% for i in detailEmenta.equivalencia.all%}{%ifequal i None %} Não Possui {%else%} {{i}}, {% endifequal %}{%endfor%}{% endifequal %}</br>
-                    <b>Objetivo: </b>{% for i in detailEmenta.objetivo.%}{%ifequal i None %} Não Possui {%else%} {{i}}, {% endifequal %}{%endfor%}</br>
-                    <b>Periodo:</b>{%ifequal detailEmenta.periodo None %} Não Possui {%else%}  {{detalhes.periodo}} {% endifequal %}<br>
-
-                    {%  for i in detaiOferecimento.all %}
-                          <b>  Turma:</b>  {{i.turma}}<br/>
-                          {%for j in i.OferecidaPeloProfessor.all%}
-                         <b> Professor: </b>  {{j}}<br/>
+                    <b>Pré-requisito: </b>
+                        {% ifequal detailEmenta.prerequisito.all|length 0 %}
+                            Não Possui
+                        {%else%}
+                            {%for i in detailEmenta.prerequisito.all%}
+                                {{i}}
+                            {%endfor%}
+                        {% endifequal %} <br>
+                    <b>Equivalencia: </b>
+                        {% ifequal detailEmenta.prerequisito.all|length 0 %}
+                            Não Possui
+                        {%else%}
+                            {%for i in detailEmenta.prerequisito.all%}
+                                {{i}};
+                            {%endfor%}
+                        {% endifequal %}
+                    <br/>
+                    <b>Periodo:</b>{{detailRelacao.periodo}}<br>
+                    <br>
+                        <b>  Horário:</b> <br>
+                    {%  for l in detailOferecimento.all %}
+                          <b>  Turma:</b>  {{l.turma}}<br/>
+                          {%for m in l.OferecidaPeloProfessor.all%}
+                         <b> Professor: </b>  {{m}}<br/>
                           {%endfor%}
 
-                        {%for j in i.relacaoDiaHorarioAula.all%}
-                          <b>  Dia e Horario Da Aula:</b> {{j}}
+                        {%for m in l.relacaoDiaHorarioAula.all%}
+                          <b>  Dia e Horario Da Aula:</b> {{m}}
                         <br/>
                         {%endfor%}
               <br/>
 
                     {%endfor%}
 
-
-                     <div class="download">
-                        <!--<div class="title">{{detailEmenta.file.name}}</div>-->
-                        <!--<div class="size">{{detailEmenta.file.size}} bytes</div>-->
-                        <div class="size">{{detailPlanoDeAula.upload.size|filesizeformat}}</div>
-                         <a href='{{ MEDIA_URL }}{{ detailPlanoDeAula.upload }}'>{{ file.name }}</a>
-                    </div>
                 </ul>
             </article>
         </section>
@@ -103,26 +104,36 @@
     <div class="footer">
         <div class="footer-content width">
 
-            <ul>
-                <a href="{% url 'desenvolvimento:index' %}">
-                    <li><h3>Início</h3></li>
-                </a>
-            </ul>
-            <ul>
-                <a href="{% url 'desenvolvimento:curso' %}">
-                    <li><h3>Cursos</h3></li>
-                </a>
-            </ul>
-            <ul>
-                <a href="{% url 'desenvolvimento:professor' %}">
-                    <li><h3>Professores</h3></li>
-                </a>
-            </ul>
-            <ul>
-                <a href="{% url 'desenvolvimento:eventos' %}">
-                    <li><h3>Eventos</h3></li>
-                </a>
-            </ul>
+                                           <ul>
+                        <a href="{% url 'desenvolvimento:index' %}">
+                            <li><h3>Início</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:curso' %}">
+                            <li><h3>Cursos</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:professor' %}">
+                            <li><h3>Professores</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:projetos' %}">
+                            <li><h3>Projetos</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:publicacao' %}">
+                            <li><h3>Publicações</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:eventos' %}">
+                            <li><h3>Eventos</h3></li>
+                        </a>
+                    </ul>
 
             <div class="clear"></div>
         </div>

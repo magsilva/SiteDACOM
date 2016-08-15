@@ -36,11 +36,11 @@
                         <li class="start selected"><a href="{% url 'desenvolvimento:professor' %}">Professores</a></li>
 
                 <li ><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
-                                      <li><a href="{% url 'desenvolvimento:publicacao' %}">Publicacao</a></li>
+                                      <li><a href="{% url 'desenvolvimento:publicacao' %}">Publicações</a></li>
                         <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
-                        <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
+                        <input type="text" name="q" size="68%" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
                         <input type="submit" value="Buscar" />
@@ -60,8 +60,8 @@
                             <div class="quadradoInteiro">
                                  <a href="{%url 'desenvolvimento:professor'%}/{{prof.nome}}">   <h3 class="titulo">Professor: {{ prof.nome}}</h3></a>
                                      <div class="tab">
-                                         <a href="{%url 'desenvolvimento:professor'%}/{{prof.nome}}/">
-                                                <div class="nomeProfessor"> Projetos</div>
+                                         <!--<a href="{%url 'desenvolvimento:professor'%}/{{prof.nome}}">-->
+                                                <!--<div class="nomeProfessor"> Projetos</div>-->
                                           </a>
                                           <h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{prof.lattes}}">http://lattes.cnpq.br/{{prof.lattes}}</a><br/>
                                           <!--<h5>Integrantes:<br/>-->
@@ -156,8 +156,7 @@
             <div class="clear"></div>
             <div class="footer">
                 <div class="footer-content width">
-
-                    <ul>
+                             <ul>
                         <a href="{% url 'desenvolvimento:index' %}">
                             <li><h3>Início</h3></li>
                         </a>
@@ -173,11 +172,20 @@
                         </a>
                     </ul>
                     <ul>
+                        <a href="{% url 'desenvolvimento:projetos' %}">
+                            <li><h3>Projetos</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:publicacao' %}">
+                            <li><h3>Publicações</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
                         <a href="{% url 'desenvolvimento:eventos' %}">
                             <li><h3>Eventos</h3></li>
                         </a>
                     </ul>
-
                     <div class="clear"></div>
                 </div>
                 <div class="footer-bottom">

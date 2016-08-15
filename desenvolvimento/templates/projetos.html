@@ -36,11 +36,11 @@
                 <li><a href="{% url 'desenvolvimento:curso' %}">Cursos</a></li>
                 <li><a href="{% url 'desenvolvimento:professor' %}">Professores</a></li>
                 <li class="start selected"><a href="{% url 'desenvolvimento:projetos' %}">Projetos</a></li>
-                              <li><a href="{% url 'desenvolvimento:publicacao' %}">Publicacao</a></li>
+                              <li><a href="{% url 'desenvolvimento:publicacao' %}">Publicações</a></li>
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
-                        <input type="text" name="q" size="80" value="Digite o sua pesquisa aqui"
+                        <input type="text" name="q" size="68%" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
                         <input type="submit" value="Buscar" />
@@ -71,10 +71,15 @@
 
                                               {% endfor%}
                                               <br>
+                                            {%ifequal project.integrantes.all|length 0%}
+                                            {%else%}
+                                         <b>Integrante(s): </b>
+
                                               {% for i in project.integrantes.all %}
-                                              <b>Integrante: </b>  {{i }};
+                                              {{i }};
                                               {% endfor%}
                                               <br>
+                                            {%endifequal%}
                                      </div>
                                 <br/>
                             </div>
@@ -92,7 +97,7 @@
 
         <span class="current">
 
-        </p>Página {{ projects.number }} de {{ projects.paginator.num_pages }}
+        Página {{ projects.number }} de {{ projects.paginator.num_pages }}
         </span>
 
         {% if projects.has_next %}
@@ -109,26 +114,36 @@
     <div class="footer">
         <div class="footer-content width">
 
-            <ul>
-                <a href="{% url 'desenvolvimento:index' %}">
-                    <li><h3>Início</h3></li>
-                </a>
-            </ul>
-            <ul>
-                <a href="{% url 'desenvolvimento:curso' %}">
-                    <li><h3>Cursos</h3></li>
-                </a>
-            </ul>
-            <ul>
-                <a href="{% url 'desenvolvimento:professor' %}">
-                    <li><h3>Professores</h3></li>
-                </a>
-            </ul>
-            <ul>
-                <a href="{% url 'desenvolvimento:eventos' %}">
-                    <li><h3>Eventos</h3></li>
-                </a>
-            </ul>
+                              <ul>
+                        <a href="{% url 'desenvolvimento:index' %}">
+                            <li><h3>Início</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:curso' %}">
+                            <li><h3>Cursos</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:professor' %}">
+                            <li><h3>Professores</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:projetos' %}">
+                            <li><h3>Projetos</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:publicacao' %}">
+                            <li><h3>Publicações</h3></li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="{% url 'desenvolvimento:eventos' %}">
+                            <li><h3>Eventos</h3></li>
+                        </a>
+                    </ul>
 
             <div class="clear"></div>
         </div>
