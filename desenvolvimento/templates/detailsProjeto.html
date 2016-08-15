@@ -42,7 +42,7 @@
                 <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
-                        <input type="text" name="q" size="Publicações" value="Digite o sua pesquisa aqui"
+                        <input type="text" name="q" size="68%" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
                         <input type="submit" value="Buscar" />
@@ -76,10 +76,16 @@
 
                                               {% endfor%}
                                               <br>
-                                             {% for i in detailProject.integrantes.all %}
-                                              <b>Integrante: </b> {{i }};
-                                              {% endfor%}
+
+                                            {%ifequal detailProject.integrantes.all|length 0%}{
+                                            {%else%}
+                                         <b>Integrante(s): </b>
+
+                                                {% for i in detailProject.integrantes.all %}
+                                                {{i }};
+                                                {% endfor%}
                                               <br>
+                                            {%endifequal%}
                                      </div>
                     </div>
                     {% endfor %}

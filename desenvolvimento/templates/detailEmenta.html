@@ -71,15 +71,15 @@
                             {%endfor%}
                         {% endifequal %} <br>
                     <b>Equivalencia: </b>
-                        {% ifequal detailEmenta.prerequisito.all|length 0 %}
+                        {% ifequal detailEmenta.equivalencia.all|length 0 %}
                             Não Possui
                         {%else%}
-                            {%for i in detailEmenta.prerequisito.all%}
+                            {%for i in detailEmenta.equivalencia.all%}
                                 {{i}};
                             {%endfor%}
                         {% endifequal %}
                     <br/>
-                    <b>Periodo:</b>{{detailRelacao.periodo}}<br>
+                    <b>Periodo: </b>{{detailRelacao.periodo}}<br>
                     <br>
                         <b>  Horário:</b> <br>
                     {%  for l in detailOferecimento.all %}

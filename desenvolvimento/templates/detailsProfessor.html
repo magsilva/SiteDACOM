@@ -79,7 +79,7 @@
                                           <h5>Link Lattes:</h5> <a href=" http://lattes.cnpq.br/{{detailsProf.lattes}}">http://lattes.cnpq.br/{{detailsProf.lattes}}</a><br/>
                                             <h5>Projeto(s): </h5>
                                                       {%for i in proj %}
-                                                        <a href="{% url 'desenvolvimento:projetos' %}/{{i.nome}}">{{i.nome}}</a>;
+                                                        <a href="{% url 'desenvolvimento:projetos' %}/{{i.nome}}">{{i.nome}};<br/></a>
                                                       {%endfor %}
  <!--Dados: {% for i in detailsDado%}-->
                                                     <!--{{ i.nome  }}-->
