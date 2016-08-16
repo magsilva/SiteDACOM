@@ -51,8 +51,34 @@
     <div class="corpo">
         <section id="content">
             <br class="expanded">
-                <h2>Publicações</h2> artigo em evento e periodico / criar uma aba eventos
-                  {%for e in eventos%}
+                <h2>Publicações</h2>
+                  {%for e in listadeArtigoEmPeriodico%}
+                  <div class="quadradoInteiro">
+                                 <a href="{{project.nome}}/">   <h3 class="titulo">{{ e.titulo}}</h3></a>
+                                     <div class="tab">
+                                          <a href="{{project.id}}/">
+                                                <!--<div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>-->
+                                          </a>
+                                         <h5>Autores:</h5>  {{e.autores}}<br/>
+                                         <h5> Revista: </h5> {{e.nomejournal}}<br/>
+                                         <h5>Data:</h5>  {{e.ano}}<br/>
+                                         <h5>DOI/URL:</h5> {{e.doi}}<br/> link
+                                          <!--<h5>Volume:</h5>  {{e.volume}}<br/>-->
+                                          <!--<h5>Paginas:</h5>  {{e.paginas}}<br/>-->
+                                         <!--&lt;!&ndash;Autores:&ndash;&gt;-->
+                                          <!--&lt;!&ndash;<h5>Integrantes:<br/>&ndash;&gt;-->
+                                           <!--{% if e.professoresDoEvento %}-->
+                                              <!--{% for i in e.professoresDoEvento.all %}-->
+                                                    <!--{{ i.nome }}-->
+                                              <!--{% endfor %}-->
+                                         <!--{% endif %}-->
+
+
+                                     </div>
+                                <br/>
+                            </div>
+                   {%endfor%}
+            {%for e in listaDeArtigoEmConferencia%}
                   <div class="quadradoInteiro">
                                  <a href="{{project.nome}}/">   <h3 class="titulo">Publicações: {{ e.titulo}}</h3></a>
                                      <div class="tab">

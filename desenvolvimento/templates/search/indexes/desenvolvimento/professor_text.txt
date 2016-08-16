@@ -1,4 +1,4 @@
-{{ object.nome }}
-{{ object.funcao }}
-{{ object.lattes }}
-{{ object.profile_image}}
+{{ professor.nome }}
+{{ professor.funcao }}
+{{ professor.lattes }}
+{{ professor.profile_image}}

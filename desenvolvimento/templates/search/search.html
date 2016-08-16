@@ -61,7 +61,7 @@
                         <p>
                          <b> <a href="{% url 'desenvolvimento:projetos' %}/{{result.object.nome}}">{{ result.object.nome }}</a></b></br>
 
-                            ARTIGO {{ result.object.titulo }}
+                             {{ result.object.titulo }}
 
 
                             Data de ìnicio: {{ result.object.datainicio}}<br/>
@@ -74,10 +74,21 @@
 
                                               {% endfor%}
                                               <br>
-                                             {% for i in result.object.integrantes.all %}
-                                              <b>Integrante: </b> {{i }};
+
+
+                                          {%ifequal result.object.integrantes.all|length 0%}
+                                            {%else%}
+                                         <b>Integrante(s): </b>
+
+                                              {% for i in result.object.integrantes.all %}
+                                              {{i }};
                                               {% endfor%}
                                               <br>
+                                            {%endifequal%}
+
+
+
+
 
                         </p>
                         {% empty %}
@@ -94,6 +105,8 @@
                         {# Show some example queries to run, maybe query syntax, something else? #}
                         {% endif %}
                       {% endblock content %}
+
+
                     </article>
                 </section>
 
@@ -127,10 +140,11 @@
                             <li><h3>Publicações</h3></li>
                         </a>
                     </ul>
-                    <ul>
+                   <ul>
                         <a href="{% url 'desenvolvimento:eventos' %}">
-
-
+                            <li><h3>Eventos</h3></li>
+                        </a>
+                    </ul>
                     <div class="clear"></div>
                 </div>
                 <div class="footer-bottom">

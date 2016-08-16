@@ -51,20 +51,21 @@
     <div class="corpo">
         <section id="content">
             <br class="expanded">
-                <h2>Publicações</h2> artigo em evento e periodico / criar uma aba eventos
+                <h2>Eventos</h2>
                   {%for e in eventos%}
                   <div class="quadradoInteiro">
                                  <a href="{{project.nome}}/">   <h3 class="titulo">Evento: {{ e.titulo}}</h3></a>
                                      <div class="tab">
                                           <a href="{{project.id}}/">
-                                                <div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>
+                                                <div class="nomeProfessor"> {{e.nomeevento}}</div>
                                           </a>
-                                          <h5>DOI:</h5> {{e.doi}}<br/>
-                                          <h5>Autores:</h5>  {{e.autores}}<br/>
+                                         <!--data inicio e fim, endereco e descricao-->
+                                          <!--<h5>DOI:</h5> {{e.doi}}<br/>-->
+                                          <!--<h5>Autores:</h5>  {{e.autores}}<br/>-->
                                           <h5>Data:</h5>  {{e.ano}}<br/>
-                                          <h5>Volume:</h5>  {{e.volume}}<br/>
-                                          <h5>Paginas:</h5>  {{e.paginas}}<br/>
-                                         Autores:
+                                          <!--<h5>Volume:</h5>  {{e.volume}}<br/>-->
+                                          <!--<h5>Paginas:</h5>  {{e.paginas}}<br/>-->
+                                         Organizador(es):
                                           <!--<h5>Integrantes:<br/>-->
                                            {% if e.professoresDoEvento %}
                                               {% for i in e.professoresDoEvento.all %}
@@ -78,21 +79,21 @@
                             </div>
 
           {%endfor%}
-                    <div class="pagination">
-                        <br>
-    <span class="step-links">
-        {% if eventos.has_previous %}<p></p>
+                    <!--<div class="pagination">-->
+                        <!--<br>-->
+    <!--<span class="step-links">-->
+        <!--{% if eventos.has_previous %}<p></p>-->
 
-            <a href="?page={{ eventos.previous_page_number }}"><br>Anterior</a>
-        {% endif %}
+            <!--<a href="?page={{ eventos.previous_page_number }}"><br>Anterior</a>-->
+        <!--{% endif %}-->
 
-        <span class="current">
-            Página {{ eventos.number }} de {{ eventos.paginator.num_pages }}
-        </span>
+        <!--<span class="current">-->
+            <!--Página {{ eventos.number }} de {{ eventos.paginator.num_pages }}-->
+        <!--</span>-->
 
-        {% if eventos.has_next %}
-            <a href="?page={{ projects.next_page_number }}">Próxima</a>
-        {% endif %}
+        <!--{% if eventos.has_next %}-->
+            <!--<a href="?page={{ projects.next_page_number }}">Próxima</a>-->
+        <!--{% endif %}-->
     </span>
                     </div>
 
