@@ -23,8 +23,8 @@
             <center>
                 <a href="{% url 'desenvolvimento:index' %}">
                     <img src="{% static 'img/logo.png' %}"/>
-                </a>
-                <a href="{% url 'desenvolvimento:index' %}"><h3> DACOM - Departamento de Computação </h3></a>
+
+                <img src="{% static 'img/DACOM.png' %}" alt="Departamento de Computação" title="Departamento de Computação" height="100" width="450" /> </a>
             </center>
         </div>
 
@@ -126,7 +126,9 @@
                               <!--<td>{% for i in detalhes.disciplina.equivalencia.all%}{{i | upper}},{%endfor%}</td>-->
                               <!--<td>{% for i in detalhes.disciplina.objetivo.%}{{i}},{%endfor%}</td>-->
                             <td>{{detalhes.periodo}}</td>
-                            <td><a href="{{  detalhes.disciplina.nome }}"> Clique  aqui </a></td>
+                            <td><a href="{{  detalhes.disciplina.nome }}">
+                                  <img src="{% static 'img/download.png' %}" alt="Clique aqui" title="Clique aqui" height="15" width="15">
+                            </a></td>
 
                       </tr>
                     {%endfor%}

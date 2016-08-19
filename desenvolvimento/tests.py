@@ -77,8 +77,8 @@ class ProfessorTestCase(TestCase):
 
 
     def testAlessandroKramerProjeto1(self):
-        proj = Projeto.objects.get(nome=u"CArS - Convergence Area Scheduler")
-        self.assertEquals(proj.nome, u"CArS - Convergence Area Scheduler")
+        proj = Projeto.objects.get(nome="CArS - Convergence Area Scheduler")
+        self.assertEquals(proj.nome, "CArS - Convergence Area Scheduler")
 
     def testAlessandroKramerProjeto2(self):
         proj = Projeto.objects.get(nome=u"MOAIS")
