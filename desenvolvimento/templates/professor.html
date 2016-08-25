@@ -19,12 +19,12 @@
         <div id="container">
             <header>
                 <div class="width">
-                    <center>
-                        <a href="{% url 'desenvolvimento:index' %}">
-                            <img src="{% static 'img/logo.png' %}"/>
-                        </a>
-                        <a href="{% url 'desenvolvimento:index' %}"><h3> DACOM - Departamento de Computação </h3></a>
-                    </center>
+                   <center>
+                <a href="{% url 'desenvolvimento:index' %}">
+                    <img src="{% static 'img/logo.png' %}"/>
+
+                <img src="{% static 'img/DACOM.png' %}" alt="Departamento de Computação" title="Departamento de Computação" height="100" width="450" /> </a>
+            </center>
                 </div>
 
             </header>
@@ -40,7 +40,7 @@
                         <li><a href="{% url 'desenvolvimento:eventos' %}">Eventos</a></li>
                 <li class="text">
                     <form action="/dacom/search" method="get">
-                        <input type="text" name="q" size="68%" value="Digite o sua pesquisa aqui"
+                        <input type="text" name="q" size="40" value="Digite o sua pesquisa aqui"
                                onfocus="this.value='';"
                                autocomplete="on" class="s"/>
                         <input type="submit" value="Buscar" />

@@ -10,68 +10,68 @@ from django.test import TestCase
 class ProfessorTestCase(TestCase):
     def setUp(self):
         # AlessandroKramer
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/AlessandroKramer/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/AlessandroKramer/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/AlessandroKramer/3")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/AlessandroKramer/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/AlessandroKramer/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/AlessandroKramer/3")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/3")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/4")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/3")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Ana Paula Chaves Steinmacher/4")
 
-        # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/André Luís Schwerz/1")
+        # parserDosTestesProjeto.executar("/home/h/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/André Luís Schwerz/1")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Aretha Barbosa Alencar/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Aretha Barbosa Alencar/1")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Diego Bertolini Gonçalves/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Diego Bertolini Gonçalves/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Diego Bertolini Gonçalves/3")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Diego Bertolini Gonçalves/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Diego Bertolini Gonçalves/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Diego Bertolini Gonçalves/3")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Everton Fernando Barros/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Everton Fernando Barros/1")
 
-        # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Filipe Roseiro Côgo/1")
-        # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Filipe Roseiro Côgo/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Filipe Roseiro Côgo/3")
+        # parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Filipe Roseiro Côgo/1")
+        # parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Filipe Roseiro Côgo/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Filipe Roseiro Côgo/3")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/3")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/3")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/4")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Fabio Steinmacher/5")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Scaliante Wiese/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Scaliante Wiese/1")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Scaliante Wiese/2")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Scaliante Wiese/3")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Scaliante Wiese/3")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Scaliante Wiese/4")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Igor Scaliante Wiese/4")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Juliano Henrique Foleiss/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Juliano Henrique Foleiss/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Juliano Henrique Foleiss/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Juliano Henrique Foleiss/2")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Lucio Geronimo Valentin/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Lucio Geronimo Valentin/1")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Luiz Arthur Feitosa dos Santos/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Marco Aurélio Graciotto Silva/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Marco Aurélio Graciotto Silva/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Marco Aurélio Graciotto Silva/3")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Luiz Arthur Feitosa dos Santos/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Marco Aurélio Graciotto Silva/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Marco Aurélio Graciotto Silva/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Marco Aurélio Graciotto Silva/3")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Paulo Cesar Gonçalves/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Paulo Cesar Gonçalves/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Paulo Cesar Gonçalves/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Paulo Cesar Gonçalves/2")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Reginaldo Ré/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Reginaldo Ré/1")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Reginaldo Ré/2")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Reginaldo Ré/3")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Reginaldo Ré/4")
         # parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Reginaldo Ré/5")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rodrigo Hübner/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rodrigo Hübner/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rodrigo Hübner/3")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rodrigo Hübner/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rodrigo Hübner/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rodrigo Hübner/3")
 
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/1")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/2")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/3")
-        parserDosTestesProjeto.executar("/home/humberto/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/4")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/1")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/2")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/3")
+        parserDosTestesProjeto.executar("/home/hgoncalves/Documentos/projectUtfpr/desenvolvimento/test/dadosIndividuais/Rogério Aparecido Gonçalves/4")
 
 
 

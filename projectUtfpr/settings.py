@@ -59,7 +59,7 @@ INSTALLED_APPS = (
     'desenvolvimento',
     'haystack',
     'django.contrib.sites',
-    'django_extensions',
+    # 'django_extensions',
 )
 
 
@@ -111,7 +111,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'UTFPR',  # Or path to database file if using sqlite3.
         'USER': 'root',
-        'PASSWORD': 'Humberto1!',
+        'PASSWORD': 'root',
         'HOST': '',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',  # Set to empty string for default.
 
@@ -120,7 +120,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'TESTEUTFPR',
         'USER': 'root',
-        'PASSWORD': 'Humberto1!',
+        'PASSWORD': 'root',
         'HOST': '',
         'TEST': {
             'MIRROR': 'default',

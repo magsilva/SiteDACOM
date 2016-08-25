@@ -21,13 +21,7 @@ Quick start
 
 3. Criar no banco de dados uma nova instância banco, de preferência nomeio com 'UTFPR'.
 
-
-4. Criar um projeto django com o comando
-
-
-
-
-4. Dentro da pasta projectUtfpr tem settings.py, procure dentro desse arquivo:
+4. Dentro da pasta projectUtfpr há o arquivo settings.py, procure dentro desse arquivo:
 
 "
 DATABASES = {
@@ -45,9 +39,8 @@ DATABASES = {
 	Modifique 'NAME', 'USER', 'PASSWORD', 'HOST', 'PORT' para as suas configurações;
 
 5.
-	1.Executar os seguintes comando como root, python manage.py migrate, esse comando criará as tabelas no banco de dados;
-	2.Executar os seguintes comando como root, python manage.py syncdb, esse comando realizará a configuração do admin do projeto Django, defina seu login e senha do Django;
-
+	1. Executar os seguintes comando como root, python manage.py migrate, esse comando criará as tabelas no banco de dados;
+	2. Executar os seguintes comando como root, python manage.py syncdb, esse comando realizará a configuração do admin do projeto Django, defina seu login e senha do Django;
 	3. Executar os seguintes comando como root, python manage.py runserver, se tudo estiver  ok aparecerá o link do site aparecerá, assim visite http://127.0.0.1:8000/admin/ utilize seu login e senha do Django para entrar na adm da página, e http://127.0.0.1:8000/desenvolvimento/ para entrar no site;
 
 
@@ -62,10 +55,11 @@ DATABASES = {
 
         ou
 
-        2. siga as instruções de como baixar manualmente os dados do lattes, no site http://scriptlattes.sourceforge.net/
+    2. siga as instruções de como baixar manualmente os dados do lattes, no site http://scriptlattes.sourceforge.net/
 
-7. entre na pasta, desenvolvimento/lattes/scriptlattes/
-        execute o comando 'python leitoXMLnovo.py'   esse comando percorrer os dados e populara o banco de dados
+7. 1. dentro da pasta projectUtfpr, no terminal execute o comando 'python manage.py loaddata backup.json' é o arquivo que restaurará o banco de dados
+    ou
+   2. Entre na pasta, desenvolvimento/lattes/scriptlattes/  execute o comando 'python leitoXMLnovo.py'  esse comando percorrer os dados e populara o banco de dados
 
 
 8. Executar:
