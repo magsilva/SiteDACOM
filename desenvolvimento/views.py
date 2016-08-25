@@ -10,13 +10,14 @@ from django.template import Context, loader
 
 
 def index(request):
-    listadeProjetos = Projeto.objects.distinct().filter(datadefim='2016').order_by('-datadefim')
-    listadeArtigos = ArtigoEmPeriodico.objects.distinct().filter(data='2016').order_by('-data')
+    listadeProjetos = Projeto.objects.distinct().order_by('-datadefim', 'dataDeImportacao')
+    listadeArtigos1 = ArtigoEmConferencia.objects.distinct().order_by('-data')
+    listadeArtigos2 = ArtigoEmPeriodico.objects.distinct().order_by('-data')
     listaDeEventos =  Evento.objects.distinct().filter(ano='2016').order_by('-ano')
 
     integrantes = Integrante.objects.distinct().all()
     integrantesProfessor = IntegranteProfessor.objects.distinct().all()
-    resultList = list(chain(listadeProjetos, listadeArtigos, listaDeEventos))
+    resultList = list(chain(listadeProjetos, listadeArtigos1, listadeArtigos2, listaDeEventos))
     projects =resultList
 
     return render_to_response('index.html', {'projects': projects, 'integrantes': integrantes, 'integrantesProfessor': integrantesProfessor})

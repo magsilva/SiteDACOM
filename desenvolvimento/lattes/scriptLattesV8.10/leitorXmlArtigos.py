@@ -154,7 +154,7 @@ def executeLeitorXML():
                         # print(doi)
                     if resumCo.find('autores').text is not None:
                         autores = resumCo.find('autores').text
-                        # print(autores)
+                        print(autores)
                     if resumCo.find('titulo').text is not None:
                         titulo = resumCo.find('titulo').text
                         # print(titulo)
@@ -169,7 +169,7 @@ def executeLeitorXML():
                     if resumCo.find('numero').text is not None:
                         numero = resumCo.find('numero').text
 
-                    artigo = ArtigoEmConferencia(paginas=paginas, data=ano, doi=doi, titulo=titulo, nomedaConferencia=nome_evento)
+                    artigo = ArtigoEmConferencia(paginas=paginas, data=ano, doi=doi, titulo=titulo, nomedaConferencia=nome_evento, listadeautores=autores)
                     if ArtigoEmConferencia.objects.filter(titulo=titulo).__len__() == 0:
                         artigo.save()
 

@@ -59,10 +59,16 @@
                                           <a href="{{project.id}}/">
                                                 <!--<div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>-->
                                           </a>
-                                         <h5>Autores:</h5>  {{e.autores}}<br/>
-                                         <h5> Revista: </h5> {{e.nomejournal}}<br/>
-                                         <h5>Data:</h5>  {{e.ano}}<br/>
-                                         <h5>DOI/URL:</h5> {{e.doi}}<br/> link
+                                         <h5>Autores:</h5>  {{e.listadeautores}}<br/>
+                                         <h5> Revista: </h5> {{e.publisher}}<br/>
+                                            {% ifequal e.data 0  %}
+                                                             <br/>
+
+                                            {% else %}
+                                                 <h5>Data:</h5>  {{e.data}}<br/>
+                                            {% endifequal %}
+
+                                         <h5>DOI/URL:</h5> <a href="{{e.doi}}">{{e.doi}}<br/></a>
                                           <!--<h5>Volume:</h5>  {{e.volume}}<br/>-->
                                           <!--<h5>Paginas:</h5>  {{e.paginas}}<br/>-->
                                          <!--&lt;!&ndash;Autores:&ndash;&gt;-->
@@ -80,23 +86,23 @@
                    {%endfor%}
             {%for e in listaDeArtigoEmConferencia%}
                   <div class="quadradoInteiro">
-                                 <a href="{{project.nome}}/">   <h3 class="titulo">Publicações: {{ e.titulo}}</h3></a>
+                                 <a href="{{e.titulo}}/">   <h3 class="titulo">{{ e.titulo}}</h3></a>
                                      <div class="tab">
-                                          <a href="{{project.id}}/">
-                                                <div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>
-                                          </a>
-                                          <h5>DOI:</h5> {{e.doi}}<br/>
-                                          <h5>Autores:</h5>  {{e.autores}}<br/>
-                                          <h5>Data:</h5>  {{e.ano}}<br/>
-                                          <h5>Volume:</h5>  {{e.volume}}<br/>
-                                          <h5>Paginas:</h5>  {{e.paginas}}<br/>
-                                         Autores:
-                                          <!--<h5>Integrantes:<br/>-->
-                                           {% if e.professoresDoEvento %}
-                                              {% for i in e.professoresDoEvento.all %}
-                                                    {{ i.nome }}
-                                              {% endfor %}
-                                         {% endif %}
+                                          <!--<a href="{{project.id}}/">-->
+                                                <!--<div class="nomeProfessor"> Professor: {{e.nomeevento}}</div>-->
+                                          <!--</a>-->
+                                          <h5>DOI/URL:</h5> {{e.doi}}<br/>
+                                          <h5>Autores:</h5>  {{e.listadeautores}}<br/>
+                                          <h5>Data:</h5>  {{e.data}}<br/>
+                                          <!--<h5>Volume:</h5>  {{e.volume}}<br/>-->
+                                          <!--<h5>Paginas:</h5>  {{e.paginas}}<br/>-->
+                                         <!--Autores:-->
+                                          <!--&lt;!&ndash;<h5>Integrantes:<br/>&ndash;&gt;-->
+                                           <!--{% if e.professoresDoEvento %}-->
+                                              <!--{% for i in e.professoresDoEvento.all %}-->
+                                                    <!--{{ i.nome }}-->
+                                              <!--{% endfor %}-->
+                                         <!--{% endif %}-->
 
 
                                      </div>

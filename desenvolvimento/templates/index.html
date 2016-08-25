@@ -60,7 +60,7 @@
                         {%if project.nome|length > 0 %}
 
                             <div class="quadradoInteiro">
-                                 <a href="{%url 'desenvolvimento:projetos' %}/{{project.nome}}">   <h3 class="titulo">Projeto: {{ project.nome}}</h3></a>
+                                 <a href="{%url 'desenvolvimento:projetos' %}/{{project.nome}}">   <h3 class="titulo">{{ project.nome|lower|capfirst}}</h3></a>
                                      <div class="tab">
 
                                 <!--Professor:  <a href="{%url 'desenvolvimento:professor' %}/{{project.professor.nome}}"><div class="nomeProfessor">{{project.professor}}</div></a>-->
@@ -96,28 +96,17 @@
                                   {%else%}
 <br>
                               <div class="quadradoInteiro">
-                                                <a href="/projeto/{{project.titulo}}/"> <h3 class="titulo"> Artigo em Periódico: {{project.titulo}}</h3></a><br/>
+                                                <a href="/projeto/{{project.titulo}}/"> <h3 class="titulo"> {{project.titulo|lower|capfirst}}</h3></a><br/>
                                                      <div class="tab">
                                                           <a href="{{project.id}}/">
                                                                 <!--<div class="nomeProfessor"> Professor: {{project.professorDoArtigo}}</div>-->
                                                           </a>
                                                           <h5>Data:</h5> {{project.data}}<br/>
-                                                          <a href="{{project.doi}}"><h5>DOI:</h5>  {{project.doi}}<br/></a>
+                                                          <a href="{{project.doi}}"><h5>DOI/URL:</h5>  {{project.doi}}<br/></a>
                                                           <h5>Nome Journal:</h5>  {{project.nomejournal}}<br/>
-                                                          <h5>ISSN:</h5>  {{project.ISSN}}<br/>
-                                                          <h5>Editora:</h5>  {{project.publisher}}<br/>
-                                                          <h5>Numero:</h5>  {{project.numero}}<br/>
-                                                          <h5>Volume:</h5>  {{project.volume}}<br/>
-                                                          <h5>Resumo:</h5>  {{project.resumo}}<br/>
-
-                                                        <b>  Professores Participante(s): </b>{% for i in project.integrantesProfessor.all %}
-                                                         <a href="/professor/{{i.professor.id}}/"> {{i}}  </a>;
-                                                          {% endfor%}
-                                                          <br>
-                                                         <b>Integrante(s): </b> {% for i in project.integrantes.all %}
-                                                          {{i }};
-                                                          {% endfor%}
-
+                                                          <!--<h5>ISSN:</h5>  {{project.ISSN}}<br/>-->
+                                                          <h5>Autores:</h5>  {{e.listadeautores}}<br/>
+                                                          <h5>Revista:</h5>  {{project.resumo}}<br/>
 
                                                      </div>
                                                 <br/>
